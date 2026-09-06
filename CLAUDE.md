@@ -26,6 +26,8 @@ never delete the check.
 
 ## Committing and pushing
 
+- Work on `master` directly; the owner asked for that in the remote session.
+  Push after every green commit — the Pages build follows automatically.
 - Commit messages: what changed and *why it was wrong before*, in prose. No
   bullet-point changelogs of file names.
 - Trailers:
