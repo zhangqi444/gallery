@@ -46,7 +46,10 @@ need one, it is the wrong feature for this site.
 
 - Vite 8 with `base: './'` so the same build works at a domain root or under
   `/gallery/`. `vite.config.js` adds the manifest link and registers the service
-  worker.
+  worker, and (from `url` in `content/site.json`) writes the canonical link, the
+  `og:` tags and the Search Console verification tag into the head and `CNAME`,
+  `robots.txt` and `sitemap.xml` into `dist/`. The address is one of the site's
+  facts, so it lives with the content rather than in the build config.
 - `.github/workflows/pages.yml`: rebuild the bundle and fail on drift, `npm ci`,
   `npm run build`, `configure-pages` (with `enablement`), upload `site/dist`,
   `deploy-pages`. Pages **must** be on the GitHub Actions source; in branch mode
