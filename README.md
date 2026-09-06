@@ -77,7 +77,7 @@ with Sheila's own.
 
 ## Publishing on GitHub Pages
 
-`.github/workflows/pages.yml` runs on every push to `master` that touches
+`.github/workflows/pages.yml` runs on every push to `main` that touches
 `site/`, `content/` or the workflow, rebuilds the bundle and fails if it differs
 from the committed one, builds with `npm ci && npm run build` and publishes
 `site/dist`. Pages must be set to **Source: GitHub Actions** (Settings → Pages).

@@ -136,5 +136,5 @@ The suite must pass before a commit.
    post. Fix a typo only when asked.
 2. **No backend, no accounts, no comments, no third-party analytics or fonts.**
    The site is the repository and nothing else.
-3. Pushes to `master` deploy immediately; a red build is fixed before anything
+3. Pushes to `main` deploy immediately; a red build is fixed before anything
    else.
