@@ -29,6 +29,20 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
   const { srv, base } = await serve(8160);
   const b = await chromium.launch({ executablePath: exe });
   const posts = BUNDLE.posts, lead = posts[0];
+
+  // the address: what the build writes for GitHub Pages and for Google
+  console.log('\n== address ==');
+  const site = BUNDLE.site, host = new URL(site.url).hostname;
+  const out = (f) => fs.readFileSync(path.join(DIST, f), 'utf8');
+  check('CNAME names the custom domain', out('CNAME').trim() === host, out('CNAME').trim());
+  check('robots.txt points at the sitemap', out('robots.txt').includes('Sitemap: ' + site.url + 'sitemap.xml'));
+  check('sitemap.xml lists the site', out('sitemap.xml').includes('<loc>' + site.url + '</loc>'));
+  const head = out('index.html');
+  check('canonical link is the site url', head.includes(`<link rel="canonical" href="${site.url}">`));
+  check('og:url is the site url', head.includes(`<meta property="og:url" content="${site.url}">`));
+  const token = site.google && site.google.siteVerification;
+  check('google-site-verification tag ' + (token ? 'carries the token' : 'is left out until a token is set'),
+    token ? head.includes(`<meta name="google-site-verification" content="${token}">`) : !head.includes('google-site-verification'));
   for (const [label, viewport] of [['desktop', { width: 1280, height: 860 }], ['phone', { width: 390, height: 844 }]]) {
     console.log('\n== ' + label + ' ==');
     const phone = label === 'phone';
