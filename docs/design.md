@@ -7,10 +7,10 @@ The look and feel of Sheila's blog, and the reasons behind it. Companion to
 ## Who it is for
 
 Sheila, 9, who writes the posts, and the friends and family who read them. The
-shape is the one she already knows from sheilazhang.org, which uses Ghost's
-Casper theme: a calm front page, big readable titles, one column of text,
-pictures that are allowed to be large. Only the shape is borrowed; the site is
-built new and owes nothing to Ghost.
+shape is the one she already knows from sheilazhang.org: a calm front page, big
+readable titles, one column of text, pictures that are allowed to be large. That
+site is the reference for how this one should look and feel, and nothing more —
+no code, content or platform is shared with it.
 
 ## Principles
 
@@ -44,8 +44,8 @@ variables in `site/src/index.css`, mapped into Tailwind v4 with `@theme inline`.
 
 Type is the device's own UI stack. Sizes: site name in the hero `text-6xl`
 extrabold; post title `text-5xl` extrabold, tight tracking; card title `text-xl`
-bold; body `1.125rem` at line-height 1.75 in a 48rem column (about 720px, the
-Casper measure); excerpts and bylines `text-sm` muted; topic labels `text-xs`
+bold; body `1.125rem` at line-height 1.75 in a 48rem column (about 720px, wide
+enough for roughly 70 characters); excerpts and bylines `text-sm` muted; topic labels `text-xs`
 uppercase, letter-spaced, blue.
 
 ## Layout

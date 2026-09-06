@@ -108,8 +108,8 @@ The suite must pass before a commit.
 - shadcn/ui components only; if one is missing, add it to `src/components/ui/`
   rather than hand-rolling a div. Blog-specific pieces (cards, header) live in
   `src/components/`.
-- The layout follows Ghost's Casper: a hero with the name and tagline, the newest
-  post leading, a three-column card grid, a 720px reading column, topics as
+- The layout follows the reference site's: a hero with the name and tagline, the
+  newest post leading, a three-column card grid, a 720px reading column, topics as
   small uppercase links in the accent colour, a byline of avatar · name · date ·
   read time.
 - Dark mode is a first-class theme, not an inversion. Tokens in `src/index.css`
