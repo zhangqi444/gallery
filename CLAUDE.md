@@ -41,6 +41,9 @@ Claude-Session: <session url>
 
 - Pages must have **Source: GitHub Actions**. With "Deploy from a branch" GitHub
   runs Jekyll over the repo root and serves the README instead of the site.
+  The workflow cannot turn Pages on by itself: until the owner enables it once
+  in Settings → Pages, `configure-pages` fails with "Resource not accessible by
+  integration" even though the bundle check and the build before it pass.
 - `sheilazhang.org` and the Internet Archive are not reachable from the remote
   sandbox; the layout here was built from Ghost's Casper theme, which the site
   uses, and from the search summary of its pages.
