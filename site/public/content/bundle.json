@@ -1,0 +1,154 @@
+{
+  "gallery": [
+    {
+      "alt": "A blue cat with a long tail",
+      "caption": "Blue cat",
+      "date": "2026-08-30",
+      "src": "images/gallery-01.svg"
+    },
+    {
+      "alt": "Three paper boats",
+      "caption": "Boats for the pond race",
+      "date": "2026-08-24",
+      "src": "images/gallery-03.svg"
+    },
+    {
+      "alt": "A house with many windows",
+      "caption": "The house with twelve windows",
+      "date": "2026-08-14",
+      "src": "images/gallery-02.svg"
+    },
+    {
+      "alt": "A glowing jellyfish",
+      "caption": "Jellyfish that glow",
+      "date": "2026-07-20",
+      "src": "images/gallery-06.svg"
+    },
+    {
+      "alt": "A jar of coloured pencils",
+      "caption": "My pencils",
+      "date": "2026-06-01",
+      "src": "images/gallery-04.svg"
+    },
+    {
+      "alt": "A city skyline drawn in pen",
+      "caption": "The long city",
+      "date": "2026-05-10",
+      "src": "images/gallery-05.svg"
+    }
+  ],
+  "pages": [
+    {
+      "body": "Hi, I am Sheila.\n\nI love the colour blue. I also love jelly, ice cream and most other desserts.\n\nThis is my blog. I write about the things I make, the books I read, and the ideas I have. My parents help me put the posts online.\n\n## Say hello\n\nIf you read something here that you liked, tell me next time you see me.\n",
+      "image": "images/page-about.svg",
+      "imageAlt": "A blue wave pattern",
+      "slug": "about",
+      "title": "About me",
+      "updated": "2026-09-06"
+    }
+  ],
+  "posts": [
+    {
+      "body": "Hello! This is my blog. I will write here about the things I make, the books I read and the ideas I have.\n\n## How a post works\n\nEvery post is a text file in the `content/posts` folder. The top of the file says the title, the date and the tags. The rest is the story, written in Markdown, which means:\n\n- a line starting with `#` is a heading,\n- `*words*` come out *slanted* and `**words**` come out **bold**,\n- a line starting with `-` is a bullet like this one.\n\nWhen a new post is saved and pushed, the site rebuilds itself and the post shows up on the home page.\n\n## What you will find here\n\nI like to draw and to make things with paper, so many posts will have pictures. The [gallery](#/gallery) page collects all of the pictures in one place. The [about](#/about) page says a little about me.\n\nThank you for reading.\n",
+      "date": "2026-09-06",
+      "excerpt": "This is where I will keep my thoughts, stories and ideas. Here is how the site works.",
+      "featured": true,
+      "image": "images/post-welcome.svg",
+      "imageAlt": "A blue sky with paper shapes",
+      "minutes": 1,
+      "slug": "welcome",
+      "tags": [
+        "news"
+      ],
+      "title": "Welcome to my blog",
+      "updated": "2026-09-06",
+      "words": 146
+    },
+    {
+      "body": "On Sunday we folded paper boats from old magazine pages. I folded three and my dad folded three. His were neater, but mine had better colours.\n\n## The race\n\nWe put them in the pond at the same time and blew on them to make wind. Two boats got stuck in the reeds right away. One turned over. The blue one went the farthest, and it was one of mine.\n\n> A boat that floats is a good boat. A boat that goes somewhere is a great boat.\n\n## What I learned\n\n- Thick paper floats longer than thin paper.\n- A little bit of crayon on the bottom keeps the water out for a while.\n- Ducks are not interested in paper boats at all.\n\nNext time I want to try a boat with a sail.\n",
+      "date": "2026-08-24",
+      "excerpt": "We folded six boats from old magazine pages and raced them across the pond. Only two made it.",
+      "featured": false,
+      "image": "images/post-boats.svg",
+      "imageAlt": "Three paper boats on rippling water",
+      "minutes": 1,
+      "slug": "paper-boats",
+      "tags": [
+        "making",
+        "outdoors"
+      ],
+      "title": "Paper boats on the pond",
+      "updated": "2026-08-24",
+      "words": 129
+    },
+    {
+      "body": "I kept a list of every book I finished this summer. There were eleven, and I read one of them twice because I forgot the ending and wanted to know it again.\n\n## The four I would tell a friend about\n\n1. **A book about a lighthouse.** It was slow at first, and then I could not stop.\n2. **A book about a girl who talks to crows.** The crows were the best part.\n3. **A comic about the ocean.** I learned that some jellyfish can glow.\n4. **A book of short poems.** I read one every night before bed.\n\n## The plan for autumn\n\nI want to read one long book, slowly, a chapter a night. I have not chosen it yet. If you have an idea, tell me.\n",
+      "date": "2026-07-12",
+      "excerpt": "Eleven books, one of them twice. Here are the four I would tell a friend about.",
+      "featured": false,
+      "image": "images/post-books.svg",
+      "imageAlt": "A stack of books in soft colours",
+      "minutes": 1,
+      "slug": "summer-reading",
+      "tags": [
+        "books"
+      ],
+      "title": "What I read this summer",
+      "updated": "2026-07-12",
+      "words": 116
+    },
+    {
+      "body": "My hobby is drawing. I draw almost every day, usually after school and sometimes at breakfast.\n\n## What I draw\n\nMostly animals. Cats are the easiest. Horses are the hardest, because of the legs. Sometimes I draw houses with lots of windows, and once I drew a whole city on a piece of paper as long as the kitchen table.\n\n## What I use\n\n- Coloured pencils, which live in a jar on my desk.\n- A black felt pen for the outlines.\n- Ordinary printer paper, because there is always more of it.\n\n## Why I like it\n\nWhen I draw I stop thinking about everything else. And at the end there is a picture that was not there before.\n",
+      "date": "2026-06-01",
+      "excerpt": "I like to draw. Mostly animals, sometimes houses, and once a whole city on a very long piece of paper.",
+      "featured": false,
+      "image": "images/post-hobby.svg",
+      "imageAlt": "Coloured pencils in a jar",
+      "minutes": 1,
+      "slug": "my-hobby",
+      "tags": [
+        "making"
+      ],
+      "title": "My hobby",
+      "updated": "2026-06-01",
+      "words": 108
+    }
+  ],
+  "schema": 1,
+  "site": {
+    "author": {
+      "bio": "I write about the things I make, read and notice.",
+      "name": "Sheila"
+    },
+    "description": "Thoughts, stories and ideas.",
+    "footer": {
+      "links": [
+        {
+          "label": "Home",
+          "to": "/"
+        },
+        {
+          "label": "About",
+          "to": "/about"
+        }
+      ],
+      "note": "Written by Sheila, with help from her parents."
+    },
+    "language": "en",
+    "nav": [
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "Gallery",
+        "to": "/gallery"
+      },
+      {
+        "label": "About",
+        "to": "/about"
+      }
+    ],
+    "title": "Sheila Zhang"
+  }
+}

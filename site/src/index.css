@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Theme tokens — the "Calm Scholar" neutrals shared with isee and volunteer,
+   with the accent moved to blue for this blog. Light is the default on :root;
+   the dark set is applied by the .dark class, which main.jsx sets from the saved
+   choice, the host's data-theme, or the OS. */
+:root {
+  --radius: 0.75rem;
+  --background: #f5f7fa;
+  --foreground: #171c24;
+  --card: #ffffff;
+  --card-foreground: #171c24;
+  --popover: #ffffff;
+  --popover-foreground: #171c24;
+  --primary: #2b63c9;
+  --primary-foreground: #ffffff;
+  --secondary: #e8ecf2;
+  --secondary-foreground: #171c24;
+  --muted: #eaeef4;
+  --muted-foreground: #5d6673;
+  --accent: #dde7f7;
+  --accent-foreground: #1a4aa0;
+  --destructive: #b4653a;
+  --border: #d9dfe8;
+  --input: #d9dfe8;
+  --ring: #2b63c9;
+  --hero-from: #dbe8ff;
+  --hero-to: #f5f7fa;
+  color-scheme: light;
+}
+
+.dark {
+  --background: #0f1318;
+  --foreground: #e7ebf1;
+  --card: #171c23;
+  --card-foreground: #e7ebf1;
+  --popover: #171c23;
+  --popover-foreground: #e7ebf1;
+  --primary: #8fb4f0;
+  --primary-foreground: #0a1a33;
+  --secondary: #222933;
+  --secondary-foreground: #e7ebf1;
+  --muted: #1c222b;
+  --muted-foreground: #9aa5b4;
+  --accent: #1b2a42;
+  --accent-foreground: #b7cdf5;
+  --destructive: #df9a6e;
+  --border: #2a323d;
+  --input: #2a323d;
+  --ring: #8fb4f0;
+  --hero-from: #16233a;
+  --hero-to: #0f1318;
+  color-scheme: dark;
+}
+
+@theme inline {
+  /* The device's own UI font: nothing to download, native everywhere. */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-hero-from: var(--hero-from);
+  --color-hero-to: var(--hero-to);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { transition: none !important; animation: none !important; }
+  }
+}
+
+/* Post body. Written by hand against the tokens so dark mode is a theme,
+   not an inversion; the measure is capped by the column, not here. */
+@layer components {
+  .prose {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+  .prose > * + * { margin-top: 1.25em; }
+  .prose h2, .prose h3, .prose h4 {
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin-top: 2em;
+    margin-bottom: 0.6em;
+  }
+  .prose h2 { font-size: 1.6em; }
+  .prose h3 { font-size: 1.3em; }
+  .prose h4 { font-size: 1.1em; }
+  .prose a {
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+  .prose a:hover { text-decoration-thickness: 2px; }
+  .prose strong { font-weight: 700; }
+  .prose ul, .prose ol { padding-left: 1.5em; }
+  .prose ul { list-style: disc; }
+  .prose ol { list-style: decimal; }
+  .prose li + li { margin-top: 0.4em; }
+  .prose li::marker { color: var(--muted-foreground); }
+  .prose blockquote {
+    border-left: 4px solid var(--primary);
+    padding-left: 1.25em;
+    color: var(--muted-foreground);
+    font-style: italic;
+  }
+  .prose code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    background: var(--muted);
+    border-radius: 0.3em;
+    padding: 0.15em 0.4em;
+  }
+  .prose pre {
+    background: var(--muted);
+    border-radius: var(--radius);
+    padding: 1em 1.25em;
+    overflow-x: auto;
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+  .prose pre code { background: none; padding: 0; font-size: 1em; }
+  .prose img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .prose figure figcaption {
+    margin-top: 0.6em;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+  }
+  .prose hr { border: 0; border-top: 1px solid var(--border); margin: 2.5em 0; }
+  .prose table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+  .prose th, .prose td { border-bottom: 1px solid var(--border); padding: 0.5em 0.75em; text-align: left; }
+  .prose th { font-weight: 600; }
+  .prose .table-wrap { overflow-x: auto; }
+}

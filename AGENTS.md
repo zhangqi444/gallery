@@ -1,0 +1,138 @@
+# AGENTS.md — Sheila's blog
+
+Read this before changing anything. It is the contract for agents and for humans,
+and it is deliberately the same shape as `zhangqi444/volunteer/AGENTS.md` and
+`zhangqi444/isee/AGENTS.md`: the three sites share one stack, one look, one
+docs layout and one way of testing.
+
+## What this is
+
+A static blog for **Sheila** (9), in the shape of her Ghost site
+[sheilazhang.org](https://sheilazhang.org): "Thoughts, stories and ideas." Posts
+are Markdown files in the repository; her parent commits them. There is no
+editor in the browser, no comments, no accounts and no analytics.
+
+Meant to live at <https://qizhang.top/gallary/> (the custom domain of
+`zhangqi444.github.io`; also <https://zhangqi444.github.io/gallary/>).
+
+## Repository layout
+
+```
+content/
+  site.json                name, tagline, author, nav, footer
+  posts/YYYY-MM-DD-slug.md one post per file: front matter, then Markdown
+  pages/<slug>.md          standing pages (about); reachable at #/<slug>
+  gallery.json             the gallery: src, alt, caption, date
+site/
+  make_bundle.py           content/** → site/public/content/bundle.json (the site's only content input)
+  index.html               Vite entry
+  vite.config.js           base './', the manifest and the service worker
+  src/main.jsx             boot: theme, fetch the bundle, render
+  src/App.jsx              shell (header, footer) and the hash router
+  src/lib/content.js       the bundle (C), lookups, tags, related, neighbours
+  src/lib/markdown.js      marked with heading ids, figures, scrolling tables, external links
+  src/lib/router.js        16 lines of hash routing
+  src/lib/theme.js         saved choice > host data-theme > OS; the .dark class
+  src/lib/format.js        fmtDate, readTime, initials
+  src/components/ui/       shadcn/ui components, written into the repo (button, badge, dialog)
+  src/components/          site-header, site-footer, post-card, markdown, page-title
+  src/pages/               home, post, tag, page, gallery, not-found
+  public/                  favicon, manifest, service worker, images/, content/bundle.json
+  test_site.cjs            the Playwright suite — see Testing
+.github/workflows/pages.yml  build + deploy to GitHub Pages
+docs/                      architecture.md (structure and why), design.md (look, feel, and why)
+```
+
+## Tech stack
+
+| Layer | Choice | Why |
+|---|---|---|
+| Build | **Vite 8**, `base: './'` | static output, works under `/gallary/` |
+| UI | **React 19** + **Tailwind v4** + **shadcn/ui** | components live in `src/components/ui/`, owned by the repo |
+| Markdown | **marked** in the browser | the bundle carries raw Markdown; no Python packages needed in CI |
+| Icons | **lucide-react** | |
+| Font | the device's own UI stack | no webfont request |
+| Router | hash routing in `src/lib/router.js` | GitHub Pages has no server-side rewrites |
+| Content | `content/**` → `bundle.json`, fetched once at boot | one JSON, cached network-first by the worker |
+| Hosting | GitHub Pages via Actions | |
+
+**No backend, ever.** No server, no database, no account system, no comments
+service, no analytics.
+
+## Content
+
+- **Posts** are `content/posts/YYYY-MM-DD-slug.md`. Front matter (a small YAML
+  subset: `key: value`, `key: [a, b]`, `key: true`) needs `title`; `date` defaults
+  to the file name's. Optional: `tags`, `image`, `imageAlt`, `excerpt`, `featured`,
+  `updated`, `draft`, `slug`. The excerpt falls back to the first paragraph, cut
+  at 160 characters. Reading time is words ÷ 200, at least 1.
+- **Pages** are `content/pages/<slug>.md` with `title` and optional `updated`,
+  `image`, `imageAlt`. The router sends any single-segment route that is not
+  `gallery` to the page with that slug, so `#/about` is `pages/about.md`.
+- **Gallery** is `content/gallery.json`, newest first by `date`.
+- **Pictures** live in `site/public/images/` and are referenced as
+  `images/<file>`; the bundle script fails if a referenced picture is missing.
+  Relative paths work under the hash router because the document URL never
+  changes.
+- `make_bundle.py` must be re-run and `site/public/content/bundle.json`
+  committed whenever `content/**` changes — CI fails the build if the committed
+  bundle has drifted.
+
+## Commands
+
+```bash
+cd site
+npm ci
+npm run dev        # local dev server
+npm run build      # → site/dist   (the Pages build)
+npm test           # the Playwright suite, against the built dist/
+python3 site/make_bundle.py   # rebuild bundle.json after editing content/**
+```
+
+## Testing
+
+One suite, `site/test_site.cjs`, run against the built `dist/` served under
+`/gallary/` on a desktop and a touch-emulated phone: the hero and the cards, the
+phone menu, a post reached from its card (title, headings, lists, read more,
+older/newer), a topic page, About, the gallery and its lightbox, the 404 view,
+and the theme toggle surviving a reload. It also writes `shot-*.png` for a look.
+
+Rules: every feature gets checks; a UI change that breaks a selector means fixing
+the test's *assumption*, not deleting the check. Selectors are `data-testid`.
+The suite must pass before a commit.
+
+## UI conventions
+
+- shadcn/ui components only; if one is missing, add it to `src/components/ui/`
+  rather than hand-rolling a div. Blog-specific pieces (cards, header) live in
+  `src/components/`.
+- The layout follows Ghost's Casper: a hero with the name and tagline, the newest
+  post leading, a three-column card grid, a 720px reading column, topics as
+  small uppercase links in the accent colour, a byline of avatar · name · date ·
+  read time.
+- Dark mode is a first-class theme, not an inversion. Tokens in `src/index.css`
+  are the "Calm Scholar" neutrals shared with isee and volunteer, with the accent
+  moved to **blue** for this site.
+- Colour has one meaning: *primary* (blue) is links, topics and the one action
+  on a screen. Nothing else is coloured.
+- Every route is reachable from the header; the header folds to a menu on
+  phones, so nothing may live only in the inline nav.
+- Dates render through `fmtDate` ("Sep 6, 2026"). Sentence case everywhere.
+
+## Content rules
+
+- **Never invent a fact about Sheila.** The sample posts, the About page and the
+  placeholder pictures in this repository are starters to be replaced with her
+  own words and pictures; do not extend them with made-up biography.
+- Written by and for a nine-year-old and the parent reading with her: short,
+  concrete, no hype, no exclamation marks.
+- Every picture has an `alt` text.
+
+## Hard rules
+
+1. **Her writing is sacred.** Never rewrite, shorten or "improve" the text of a
+   post. Fix a typo only when asked.
+2. **No backend, no accounts, no comments, no third-party analytics or fonts.**
+   The site is the repository and nothing else.
+3. Pushes to `master` deploy immediately; a red build is fixed before anything
+   else.
