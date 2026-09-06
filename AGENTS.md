@@ -13,8 +13,8 @@ nothing is imported from it and nothing depends on it. Posts are Markdown files
 in the repository; her parent commits them. There is no editor in the browser,
 no comments, no accounts and no analytics.
 
-Lives at <https://gallary.sheilazhang.org/> (a custom domain on GitHub Pages;
-also reachable at <https://zhangqi444.github.io/gallary/>). Every path in the
+Lives at <https://gallery.sheilazhang.org/> (a custom domain on GitHub Pages;
+also reachable at <https://zhangqi444.github.io/gallery/>). Every path in the
 build is relative and routing is by hash, so both addresses serve the same build.
 
 ## Repository layout
@@ -49,7 +49,7 @@ docs/                      architecture.md (structure and why), design.md (look,
 
 | Layer | Choice | Why |
 |---|---|---|
-| Build | **Vite 8**, `base: './'` | static output, works under `/gallary/` |
+| Build | **Vite 8**, `base: './'` | static output, works under `/gallery/` |
 | UI | **React 19** + **Tailwind v4** + **shadcn/ui** | components live in `src/components/ui/`, owned by the repo |
 | Markdown | **marked** in the browser | the bundle carries raw Markdown; no Python packages needed in CI |
 | Icons | **lucide-react** | |
@@ -94,7 +94,7 @@ python3 site/make_bundle.py   # rebuild bundle.json after editing content/**
 ## Testing
 
 One suite, `site/test_site.cjs`, run against the built `dist/` served under
-`/gallary/` on a desktop and a touch-emulated phone: the hero and the cards, the
+`/gallery/` on a desktop and a touch-emulated phone: the hero and the cards, the
 phone menu, a post reached from its card (title, headings, lists, read more,
 older/newer), a topic page, About, the gallery and its lightbox, the 404 view,
 and the theme toggle surviving a reload. It also writes `shot-*.png` for a look.

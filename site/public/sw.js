@@ -1,7 +1,7 @@
 /* Offline shell: the app files are content-hashed, so cache on first fetch
  * and serve from cache afterwards; index.html and the content bundle are
  * refreshed network-first so a new post shows up on the next visit. */
-var CACHE = 'gallary-v1';
+var CACHE = 'gallery-v1';
 var PRECACHE = ['./', 'index.html', 'manifest.webmanifest', 'favicon.svg'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(PRECACHE); }).then(function () { return self.skipWaiting(); }));

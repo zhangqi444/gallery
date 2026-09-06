@@ -8,7 +8,7 @@ publish one.
 
 There is no backend and no CMS. The site builds with Vite and deploys to GitHub
 Pages from `.github/workflows/pages.yml`. It lives at
-<https://gallary.sheilazhang.org/> (also <https://zhangqi444.github.io/gallary/>),
+<https://gallery.sheilazhang.org/> (also <https://zhangqi444.github.io/gallery/>),
 next to its siblings [`volunteer`](https://github.com/zhangqi444/volunteer) and
 [`isee`](https://github.com/zhangqi444/isee), whose stack and conventions it shares.
 
@@ -82,4 +82,4 @@ with Sheila's own.
 from the committed one, builds with `npm ci && npm run build` and publishes
 `site/dist`. Pages must be set to **Source: GitHub Actions** (Settings → Pages).
 Every asset path is relative (`base: './'`) and routing is by hash, so the same
-build works at a domain root or under `/gallary/`.
+build works at a domain root or under `/gallery/`.

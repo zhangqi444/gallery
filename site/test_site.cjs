@@ -1,4 +1,4 @@
-/* The one suite: serves dist/ under a GitHub Pages-style subpath (/gallary/) and
+/* The one suite: serves dist/ under a GitHub Pages-style subpath (/gallery/) and
  * walks the site on a desktop and a phone: home, a post, a topic, About, the
  * gallery lightbox, the phone menu, the theme toggle, and a 404.
  * Run:  npm run build && node test_site.cjs */
@@ -11,13 +11,13 @@ const MIME = { '.html': 'text/html', '.json': 'application/json', '.js': 'text/j
 function serve(port) {
   const srv = http.createServer((req, res) => {
     let p = decodeURIComponent(req.url.split('?')[0]);
-    if (!p.startsWith('/gallary')) { res.writeHead(404); return res.end(); }
-    p = p.slice('/gallary'.length) || '/'; if (p === '/') p = '/index.html';
+    if (!p.startsWith('/gallery')) { res.writeHead(404); return res.end(); }
+    p = p.slice('/gallery'.length) || '/'; if (p === '/') p = '/index.html';
     const f = path.join(DIST, p);
     if (!fs.existsSync(f) || fs.statSync(f).isDirectory()) { res.writeHead(404); return res.end(); }
     res.writeHead(200, { 'content-type': MIME[path.extname(f)] || 'application/octet-stream' }); res.end(fs.readFileSync(f));
   });
-  return new Promise((r) => srv.listen(port, () => r({ srv, base: `http://localhost:${port}/gallary/` })));
+  return new Promise((r) => srv.listen(port, () => r({ srv, base: `http://localhost:${port}/gallery/` })));
 }
 const exe = fs.existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome') ? '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' : undefined;
 

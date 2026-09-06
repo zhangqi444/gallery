@@ -1,6 +1,6 @@
 /* Theme: saved choice > host's data-theme > OS. The .dark class on <html> is the
    only switch; every token has its own dark value in index.css. */
-const KEY = "gallary.theme"
+const KEY = "gallery.theme"
 const listeners = new Set()
 
 export function savedTheme() {

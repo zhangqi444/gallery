@@ -37,7 +37,7 @@ need one, it is the wrong feature for this site.
 | Loader | `lib/content.js` | `loadContent()` fetches the bundle into `C`; `postBySlug`, `pageBySlug`, `postsByTag`, `tags()`, `related()`, `neighbours()` are the only lookups pages use. |
 | Markdown | `lib/markdown.js` | marked, GFM, with a renderer that gives headings ids, wraps images in figures, wraps tables so they scroll inside the column, and opens external links in a new tab. Trusted content, no sanitiser. |
 | Router | `lib/router.js`, `App.jsx` | `#/`, `#/post/<slug>`, `#/tag/<tag>`, `#/gallery`, `#/<slug>` for pages. Any other route is the 404 view. Navigation scrolls to the top. |
-| Theme | `lib/theme.js` | Saved choice (`localStorage["gallary.theme"]`) > host `data-theme` > OS; sets the `.dark` class and the `theme-color` meta. |
+| Theme | `lib/theme.js` | Saved choice (`localStorage["gallery.theme"]`) > host `data-theme` > OS; sets the `.dark` class and the `theme-color` meta. |
 | Shell | `components/site-header.jsx`, `site-footer.jsx` | Brand, the nav from `site.json` (folded into a menu on phones), the theme toggle; footer note and links. |
 | Pages | `pages/*.jsx` | One file per route. `home` (hero, lead card, grid, topics), `post` (header, picture, body, older/newer, read more), `tag`, `page` (About), `gallery` (tiles and a lightbox dialog), `not-found`. |
 | UI kit | `components/ui/*` | shadcn/ui `button`, `badge`, `dialog` copied into the repo. `post-card.jsx` holds the card, the avatar and the byline. |
@@ -45,7 +45,7 @@ need one, it is the wrong feature for this site.
 ## Build and deploy
 
 - Vite 8 with `base: './'` so the same build works at a domain root or under
-  `/gallary/`. `vite.config.js` adds the manifest link and registers the service
+  `/gallery/`. `vite.config.js` adds the manifest link and registers the service
   worker.
 - `.github/workflows/pages.yml`: rebuild the bundle and fail on drift, `npm ci`,
   `npm run build`, `configure-pages` (with `enablement`), upload `site/dist`,
@@ -58,7 +58,7 @@ need one, it is the wrong feature for this site.
 ## Testing
 
 One Playwright suite, `site/test_site.cjs`, runs against the built `dist/`
-served under `/gallary/` on a desktop and a touch-emulated phone. It reads the
+served under `/gallery/` on a desktop and a touch-emulated phone. It reads the
 committed bundle so its expectations (how many cards, which post leads, which
 topic has how many posts) follow the content rather than being hard-coded.
 Selectors are `data-testid`; a UI change that breaks one means fixing the test's
