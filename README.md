@@ -1,14 +1,14 @@
 # Sheila's blog
 
-A static blog in the shape of [sheilazhang.org](https://sheilazhang.org): a front
+A new static blog for Sheila, laid out like [sheilazhang.org](https://sheilazhang.org): a front
 page with the site's name and tagline, the newest post leading and the rest in a
 grid, a reading page per post, topics, an **About** page, and a **Gallery** of
 pictures. Posts are Markdown files in `content/posts`; nothing else is needed to
 publish one.
 
 There is no backend and no CMS. The site builds with Vite and deploys to GitHub
-Pages from `.github/workflows/pages.yml`. It is meant to live at
-<https://qizhang.top/gallary/> (also <https://zhangqi444.github.io/gallary/>),
+Pages from `.github/workflows/pages.yml`. It lives at
+<https://gallary.sheilazhang.org/> (also <https://zhangqi444.github.io/gallary/>),
 next to its siblings [`volunteer`](https://github.com/zhangqi444/volunteer) and
 [`isee`](https://github.com/zhangqi444/isee), whose stack and conventions it shares.
 

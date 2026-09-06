@@ -7,13 +7,15 @@ docs layout and one way of testing.
 
 ## What this is
 
-A static blog for **Sheila** (9), in the shape of her Ghost site
-[sheilazhang.org](https://sheilazhang.org): "Thoughts, stories and ideas." Posts
-are Markdown files in the repository; her parent commits them. There is no
-editor in the browser, no comments, no accounts and no analytics.
+A new static blog for **Sheila** (9): "Thoughts, stories and ideas." Its layout
+takes after her earlier site at [sheilazhang.org](https://sheilazhang.org), but
+nothing is imported from it and nothing depends on it. Posts are Markdown files
+in the repository; her parent commits them. There is no editor in the browser,
+no comments, no accounts and no analytics.
 
-Meant to live at <https://qizhang.top/gallary/> (the custom domain of
-`zhangqi444.github.io`; also <https://zhangqi444.github.io/gallary/>).
+Lives at <https://gallary.sheilazhang.org/> (a custom domain on GitHub Pages;
+also reachable at <https://zhangqi444.github.io/gallary/>). Every path in the
+build is relative and routing is by hash, so both addresses serve the same build.
 
 ## Repository layout
 

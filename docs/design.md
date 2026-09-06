@@ -6,11 +6,11 @@ The look and feel of Sheila's blog, and the reasons behind it. Companion to
 
 ## Who it is for
 
-Sheila, 9, who writes the posts, and the friends and family who read them. Her
-Ghost site at sheilazhang.org uses the Casper theme, and this site keeps that
-shape so moving the posts over changes nothing about how they read: a calm front
-page, big readable titles, one column of text, pictures that are allowed to be
-large.
+Sheila, 9, who writes the posts, and the friends and family who read them. The
+shape is the one she already knows from sheilazhang.org, which uses Ghost's
+Casper theme: a calm front page, big readable titles, one column of text,
+pictures that are allowed to be large. Only the shape is borrowed; the site is
+built new and owes nothing to Ghost.
 
 ## Principles
 

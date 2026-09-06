@@ -45,8 +45,9 @@ Claude-Session: <session url>
   in Settings → Pages, `configure-pages` fails with "Resource not accessible by
   integration" even though the bundle check and the build before it pass.
 - `sheilazhang.org` and the Internet Archive are not reachable from the remote
-  sandbox; the layout here was built from Ghost's Casper theme, which the site
-  uses, and from the search summary of its pages.
+  sandbox; the layout here was built from Ghost's Casper theme, which that site
+  uses, and from the search summary of its pages. This site is new and does not
+  use Ghost.
 - Pictures must be in `site/public/images/`; `make_bundle.py` refuses a post
   whose `image` is not there.
 
