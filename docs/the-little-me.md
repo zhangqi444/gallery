@@ -70,12 +70,13 @@ writes an index and a file per topic instead:
 
 | File | Size | Fetched when |
 |---|---|---|
-| `index.json` | 27 kB | Learning opens |
+| `index.json` | 28 kB | Learning opens |
 | `subject-<id>.json` | 65-112 kB | that subject is chosen |
 | `mock-<id>.json` | 50-63 kB | a section of that mock is started |
-| `precision.json`, `essay.json` | 79 kB, 23 kB | those are opened |
+| `precision.json` | 79 kB | the Words tab is opened |
+| `essay.json` | 23 kB | the Essays tab is opened |
 
-Opening Learning fetches 27 kB rather than 689 kB, and the splitter fails the
+Opening Learning fetches 28 kB rather than 689 kB, and the splitter fails the
 build if the index ever grows past 60 kB — the limit is enforced, not intended.
 `test_drive.cjs` records every request for `content/learning/` and asserts that
 choosing a subject fetches that subject and nothing else.
@@ -86,9 +87,15 @@ choosing a subject fetches that subject and nothing else.
 2. ~~The shell~~ — one sign-in, the module bar, a home in the first person.
 3. ~~Gallery~~ — moved into `src/modules/gallery/`, the first module on the shared store.
 4. ~~Service~~ — organisations, commitments and hours, on the shared store, in `src/modules/service/`.
-5. ~~Learning~~ — practice sets, mock exam sections and the weekly words, in `src/modules/learning/`. The essay programme, the reading log and rewards are still to come; their content is already split and waiting.
+5. ~~Learning~~ — practice sets, mock exam sections, the weekly words, the reading log and the essay programme, in `src/modules/learning/`.
 6. **Import**, later: volunteer's export, and isee's `progress.json` as downloaded from Drive.
 7. **Cut over** — run the old apps and the new one side by side, then point the domains.
+
+Learning deliberately leaves out isee's badges and levels. A child who has to be
+paid in points to practise is being taught that practice is a cost, and the
+streak, the score and the number of books finished already say plainly how it is
+going. Writing is left unmarked for the same reason: the tab keeps the plan, the
+draft and the week's own checks, and leaves the judging to a person.
 
 Service deliberately leaves out volunteer's *catalog* of researched Seattle
 opportunities. That was one child's local research with a source and a check date

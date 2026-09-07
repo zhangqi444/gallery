@@ -20,6 +20,22 @@ Pages from `.github/workflows/pages.yml`. It lives at
 next to its siblings [`volunteer`](https://github.com/zhangqi444/volunteer) and
 [`isee`](https://github.com/zhangqi444/isee), whose stack and conventions it shares.
 
+## The Little Me
+
+The blog is one of three modules in a hub app for one child, reached at `#/me`
+behind a single Google sign-in:
+
+| Module | What it keeps |
+|---|---|
+| **Learning** | practice sets, mock exam sections, the weekly words, a reading log and the essay programme |
+| **Service** | the places she helps, what she has taken on there, and the hours against it |
+| **Gallery** | the pictures and posts of this blog, and the one button that publishes them |
+
+Each module keeps its own file in its own folder of the child's Drive, so one
+can be added or rewritten without touching another's data. A stranger following
+a published link never sees any of it: the reader has no sign of the app around
+it. `docs/the-little-me.md` has the shape, the storage and what is left to do.
+
 `AGENTS.md` is the contract; `CLAUDE.md` is the working agreement for agent
 sessions; `docs/architecture.md` explains the structure and `docs/design.md` the
 look and feel.

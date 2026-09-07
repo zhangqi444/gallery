@@ -1,4 +1,4 @@
-# AGENTS.md — Sheila's blog
+# AGENTS.md — The Little Me
 
 Read this before changing anything. It is the contract for agents and for humans,
 and it is deliberately the same shape as `zhangqi444/volunteer/AGENTS.md` and
@@ -7,16 +7,22 @@ docs layout and one way of testing.
 
 ## What this is
 
-> **Becoming The Little Me.** This repository is growing into a hub app for one
-> child: **Learning**, **Service** and **Gallery** over a single Google sign-in,
-> with each module's data in a folder of its own inside the child's own Drive.
-> All three modules are built. Learning's content is split by topic so opening it
-> costs 27 kB rather than 689 kB.
-> The plan, and why the old apps' data has to be carried by an export rather than
-> read directly, is in [docs/the-little-me.md](docs/the-little-me.md).
-> `zhangqi444/isee` and `zhangqi444/volunteer` are **not** modified by this work.
+**The Little Me** is a hub app for one child: **Learning**, **Service** and
+**Gallery** over a single Google sign-in, with each module's data in a folder of
+its own inside the child's own Drive. All three modules are built.
 
-## What this is
+- **Learning** — practice sets, mock exam sections, the weekly words, a reading
+  log and the essay programme. Its content is split by topic, so opening it
+  costs 28 kB rather than 689 kB.
+- **Service** — the places a child helps, what they have taken on there, and the
+  hours against it.
+- **Gallery** — the blog below, which is also what a stranger sees.
+
+The plan, and why the old apps' data has to be carried by an export rather than
+read directly, is in [docs/the-little-me.md](docs/the-little-me.md).
+`zhangqi444/isee` and `zhangqi444/volunteer` are **not** modified by this work.
+
+## The Gallery module: the blog
 
 A blog anyone can keep, whose data belongs to whoever wrote it. Signing in with
 Google gives an author a blog stored in **their own Google Drive**; publishing
@@ -60,6 +66,7 @@ build is relative and routing is by hash, so both addresses serve the same build
 ```
 content/
   site.json                name, tagline, url, google, author, nav, footer
+  learning/                the practice content: question banks, passages, words, books, the essay programme
   posts/YYYY-MM-DD-slug.md one post per file: front matter, then Markdown
   pages/<slug>.md          standing pages (about); reachable at #/<slug>
   gallery.json             the gallery: src, alt, caption, date
@@ -77,21 +84,23 @@ site/
   src/modules/registry.js  the modules the shell offers; each `load` is a dynamic import so one module's content never loads for another
   src/modules/me.jsx       the app's home, in the first person
   src/modules/gallery/     the blog: model, store, content resolution, post card, pages
-  src/modules/learning/    practice sets, mock sections and word sets: content loader, model, store, one page
+  src/modules/learning/    practice, mocks, words, the reading log and the essays: content loader, model, store, one page
   make_learning.py         content/learning/** → site/public/content/learning/*.json, one file per topic
   src/modules/service/     organisations, commitments and hours: model, store, one page
   src/lib/markdown.js      marked with heading ids, figures, scrolling tables, external links
   src/lib/router.js        16 lines of hash routing
   src/lib/theme.js         saved choice > host data-theme > OS; the .dark class
-  src/lib/format.js        fmtDate, readTime, initials
+  src/lib/format.js        fmtDate, readTime, initials, and the untitled-post rule
   src/components/ui/       shadcn/ui components, written into the repo (button, badge, dialog)
-  src/components/          site-header, site-footer, post-card, markdown, page-title
+  src/components/          site-header, site-footer, markdown, page-title
   src/components/app-shell.jsx  The Little Me's chrome: modules and the account
   src/components/site-header.jsx the reader's chrome: a published blog, with no sign of the app
   public/                  favicon, manifest, service worker, images/, content/bundle.json
-  test_site.cjs            the Playwright suite — see Testing
+  test_site.cjs            the reading site's Playwright suite — see Testing
+  test_drive.cjs           the app's Playwright suite, with Google stubbed — see Testing
 .github/workflows/pages.yml  build + deploy to GitHub Pages
-docs/                      architecture.md (structure and why), design.md (look, feel, and why)
+docs/                      the-little-me.md (the hub app: shape, storage, order of work),
+                           architecture.md (structure and why), design.md (look, feel, and why)
 ```
 
 ## Tech stack
@@ -105,6 +114,7 @@ docs/                      architecture.md (structure and why), design.md (look,
 | Font | the device's own UI stack | no webfont request |
 | Router | hash routing in `src/lib/router.js` | GitHub Pages has no server-side rewrites |
 | Content | `content/**` → `bundle.json`, fetched once at boot | one JSON, cached network-first by the worker |
+| Practice content | `content/learning/**` → one file per topic | opening Learning costs 28 kB, not 689 kB |
 | Hosting | GitHub Pages via Actions | |
 
 **No backend, ever.** No server, no database, no comments service, no analytics.
@@ -155,18 +165,26 @@ npm ci
 npm run dev        # local dev server
 npm run build      # → site/dist   (the Pages build)
 npm test           # the Playwright suite, against the built dist/
-python3 site/make_bundle.py   # rebuild bundle.json after editing content/**
+python3 site/make_bundle.py    # rebuild bundle.json after editing content/**
+python3 site/make_learning.py  # re-split content/learning/** after editing it
 ```
+
+Both generated trees are committed, and CI fails the build if either has drifted
+from its source.
 
 ## Testing
 
-Two suites. `site/test_drive.cjs` covers the multi-tenant half with Google
-stubbed: sign-in, a post, a picture uploaded to Drive, the file staying private
-until Publish, a stranger failing to read it before and succeeding after, the
-picture arriving as a public Drive URL, a reload with no second consent prompt,
-and deleting a post taking its picture with it. Its fake Drive refuses an
-anonymous read of an unshared file, so the privacy checks cannot pass by
-accident.
+Two suites. `site/test_drive.cjs` covers the app with Google stubbed: one
+sign-in shared by three modules, a folder per module in Drive, and each module's
+own work — a practice set, a mock section, a word set, marking a book, writing an
+essay, an organisation with hours logged against it, a post with a picture. It
+also asserts what Learning fetches and when, so a change that loads all the
+content at boot fails rather than merely slowing the app down. The privacy half:
+the blog file staying private until Publish, a stranger failing to read it before
+and succeeding after, the picture arriving as a public Drive URL, a reload with
+no second consent prompt, and deleting a post taking its picture with it. Its
+fake Drive refuses an anonymous read of an unshared file, so those checks cannot
+pass by accident.
 
 `site/test_site.cjs` covers the reading site, run against the built `dist/` served under
 `/gallery/` on a desktop and a touch-emulated phone: the hero and the cards, the
@@ -198,9 +216,9 @@ The suite must pass before a commit.
 
 ## Content rules
 
-- **Never invent a fact about Sheila.** The sample posts, the About page and the
-  placeholder pictures in this repository are starters to be replaced with her
-  own words and pictures; do not extend them with made-up biography.
+- **Never invent a fact about Sheila.** The posts and pictures committed here
+  are hers, imported from her earlier site; the About page is the one place with
+  prose about her, and it is not to be extended with made-up biography.
 - Written by and for a nine-year-old and the parent reading with her: short,
   concrete, no hype, no exclamation marks.
 - Every picture has an `alt` text.

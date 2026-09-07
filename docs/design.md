@@ -1,6 +1,7 @@
 # Design
 
-The look and feel of Sheila's blog, and the reasons behind it. Companion to
+The look and feel of The Little Me — the blog a stranger reads and the app the
+child uses — and the reasons behind it. Companion to
 [architecture.md](architecture.md). The rules that must not drift are in
 [AGENTS.md](../AGENTS.md) under *UI conventions*; this document explains them.
 
@@ -75,6 +76,31 @@ uppercase, letter-spaced, blue.
   its caption; Escape or the close button dismisses it.
 - **Footer**: name, year, the note from `site.json`, and its links.
 
+## The app's screens
+
+The app shares every token, component and rule below; only the chrome differs.
+
+- **Shell**: the same sticky bar, with the modules where the blog's nav is, and
+  at the right the save state in words ("Saving…", "Saved to Drive"), the theme
+  toggle and sign out. The save state is written out rather than shown as a dot,
+  because a child should be able to see that her work is kept without being told
+  to trust it.
+- **Home**: "Hello, <name>", then one card per module. Each card carries what
+  that module says about itself — "12 pictures", "6 hours", "30 questions
+  answered", and a line under it — so the home screen is a report rather than a
+  menu, and a fourth module needs no edit here.
+- **A module page**: one column at 42rem, a title in the first person ("My
+  practice"), and tabs where a module has more than one thing to do. Nothing is
+  behind a settings screen.
+- **Practice**: one question at a time, the choices as full-width buttons, and
+  the marking under them the moment one is pressed — right or wrong, with the
+  explanation. Colour never carries the answer alone: the right choice is
+  outlined in the accent and ticked, a wrong pick is crossed as well as
+  reddened, and the sentence above says which it was in words.
+- **Writing**: the plan boxes, then the draft in its three parts with a running
+  word count, then the week's own checks. No score, no grade, no badge — an
+  essay is judged by a person, and the screen must not pretend otherwise.
+
 ## Cards
 
 A card is a bordered surface with the picture at 16:10 on top, the topic labels,
@@ -93,5 +119,7 @@ beside the text above 768px.
 ## Writing
 
 Sentence case everywhere. Dates render through `fmtDate` ("Sep 6, 2026").
-Reading time is "3 min read". Topics are lower-case words. The sample posts are
-placeholders written in the voice the site is for: short, concrete, no hype.
+Reading time is "3 min read". Topics are lower-case words. The posts are hers
+and are never rewritten; anything this repository adds around them — a label, an
+empty state, a hint in a form — is written in the same voice: short, concrete,
+no hype, no exclamation marks.
