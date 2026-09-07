@@ -2989,6 +2989,7 @@
   ],
   "schema": 1,
   "site": {
+    "appHome": false,
     "author": {
       "bio": "I write about the things I make, read and notice.",
       "name": "Sheila"

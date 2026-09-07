@@ -2,7 +2,7 @@
    the only thing with a frame, and the title sits quietly underneath at reading
    size rather than shouting over it. `large` is the lead card on the front page,
    which gets a wider crop and the author's byline. */
-import { C } from "@/lib/content"
+import { C } from "@/modules/gallery/content"
 import { fmtDate, initials, isUntitled, readTime, titleOf } from "@/lib/format"
 import { href } from "@/lib/router"
 import { cn } from "@/lib/utils"

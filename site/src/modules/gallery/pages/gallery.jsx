@@ -2,7 +2,7 @@
    Clicking one opens it large with its caption. */
 import { useState } from "react"
 
-import { C } from "@/lib/content"
+import { C } from "@/modules/gallery/content"
 import { fmtDate } from "@/lib/format"
 import { href } from "@/lib/router"
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog"

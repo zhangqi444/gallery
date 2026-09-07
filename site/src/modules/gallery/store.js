@@ -1,0 +1,109 @@
+/* The Gallery module's data: posts, each a picture with a title and a date.
+ *
+ * Everything that is not specific to a blog — localStorage, the Drive mirror,
+ * the debounce, tombstones, signing in and out — comes from
+ * lib/module-store.js, which Learning and Service use in exactly the same way. */
+import * as Drive from "@/lib/google"
+import { createModuleStore, useModuleStore } from "@/lib/module-store"
+import { emptyData, mergeData, newPost, normalize, normalizeTags, nowISO, slugify } from "./model"
+
+export const GalleryStore = createModuleStore({
+  name: "gallery",
+  file: "gallery.json",
+  key: "littleme.gallery.v1",
+  empty: emptyData,
+  normalize,
+  merge: mergeData,
+})
+
+/* ---- what a blog can do, on top of what every module can ---- */
+Object.assign(GalleryStore, {
+  post(id) { return this.s.posts.find((p) => p.id === id) || null },
+
+  addPost(f) {
+    const p = newPost(f)
+    p.slug = this.uniqueSlug(p.slug, p.id)
+    this.s.posts.push(p)
+    this.sortPosts()
+    this.commit()
+    return p
+  },
+  updatePost(id, f) {
+    const p = this.post(id)
+    if (!p) return null
+    Object.assign(p, f, {
+      title: String(f.title ?? p.title).trim(),
+      caption: String(f.caption ?? p.caption).trim(),
+      tags: f.tags !== undefined ? normalizeTags(f.tags) : p.tags,
+      at: nowISO(),
+    })
+    if (f.slug !== undefined || f.title !== undefined) {
+      p.slug = this.uniqueSlug(f.slug || slugify(p.title, p.date), p.id)
+    }
+    this.sortPosts()
+    this.commit()
+    return p
+  },
+  /** Removes the post and, when it owns one, its picture file in Drive. */
+  async deletePost(id) {
+    const p = this.post(id)
+    if (!p) return
+    this.s.posts = this.s.posts.filter((x) => x.id !== id)
+    this.bury(id)
+    this.commit()
+    if (p.imageId && Drive.isSignedIn()) {
+      try { await Drive.deleteFile(p.imageId) } catch { /* the post is gone either way */ }
+    }
+  },
+  uniqueSlug(want, selfId) {
+    let slug = want || "post"
+    const taken = new Set(this.s.posts.filter((p) => p.id !== selfId).map((p) => p.slug))
+    while (taken.has(slug)) slug += "-1"
+    return slug
+  },
+  sortPosts() { this.s.posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0)) },
+
+  setSite(f) {
+    this.s.site = {
+      ...this.s.site,
+      title: String(f.title ?? this.s.site.title).trim(),
+      description: String(f.description ?? this.s.site.description).trim(),
+      author: String(f.author ?? this.s.site.author).trim(),
+      at: nowISO(),
+    }
+    this.commit()
+  },
+
+  /** Upload a picture into the person's Drive, share it, attach it to the post. */
+  async attachImage(postId, blob, name) {
+    if (!Drive.isSignedIn()) throw new Error("Sign in before adding a picture.")
+    const p = this.post(postId)
+    if (!p) throw new Error("That post is gone.")
+    this.setBusy("Uploading the picture…")
+    try {
+      const old = p.imageId
+      const id = await Drive.uploadImage(blob, name || `${p.slug}.jpg`)
+      p.imageId = id
+      p.image = ""              // a Drive picture wins over an external URL
+      p.at = nowISO()
+      this.commit()
+      if (old && old !== id) { try { await Drive.deleteFile(old) } catch { /* ignore */ } }
+      return id
+    } finally {
+      this.setBusy("")
+    }
+  },
+
+  /** Share the blog's file, so anyone with its link can read it. */
+  async publish() {
+    await this.flush()
+    const f = await Drive.publish("gallery")
+    this.commit()
+    return f
+  },
+  isPublished() { const f = Drive.getFile("gallery"); return !!(f && f.shared) },
+  blogId() { const f = Drive.getFile("gallery"); return f ? f.id : "" },
+  fileLink() { const f = Drive.getFile("gallery"); return f ? f.webViewLink : "" },
+})
+
+export const useGallery = () => useModuleStore(GalleryStore)

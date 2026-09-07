@@ -1,4 +1,4 @@
-import { C } from "@/lib/content"
+import { C } from "@/modules/gallery/content"
 import { href } from "@/lib/router"
 
 export function SiteFooter() {

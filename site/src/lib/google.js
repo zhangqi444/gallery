@@ -1,18 +1,24 @@
-/* Google Sign-In and Google Drive, for a blog whose data belongs to its author.
+/* Google sign-in, and one folder in the person's own Drive with a file per module.
  *
  * Ported from zhangqi444/volunteer's `drive.js`, which is the pattern this
- * project follows, and extended in the one way a blog needs and a private
- * tracker does not: what the app writes has to be **readable by strangers**.
+ * family of projects follows, and extended in two ways this app needs:
  *
- * The `drive.file` scope only ever grants access to files this app created, so
- * the author's other documents stay invisible to it. A file it creates is
- * private until `publish()` grants `{role: reader, type: anyone}` on it, at
- * which point anyone holding the id can read it — which is the whole point of
- * publishing, and is why nothing is shared until the author asks.
+ *  - **A folder per module.** Learning, Service and Gallery each get a subfolder
+ *    of `The Little Me`, holding that module's document and whatever else it
+ *    keeps — Gallery's pictures today. Nothing has to be merged when a module is
+ *    added, one bad write can only cost one module, and a person opening their
+ *    own Drive can see which module a file belongs to.
+ *  - **Publishing.** The `drive.file` scope means only the creator can read what
+ *    this app writes, which is right for practice and hours and wrong for a
+ *    blog. `publish()` grants `{role: reader, type: anyone}` on one file, and
+ *    `readPublic()` reads such a file with a browser API key and no sign-in, so
+ *    a stranger looking at a child's drawings never sees a consent screen.
  *
- * Reading a published blog needs no sign-in at all: `readPublic()` fetches the
- * JSON with a browser API key, and pictures are plain <img> URLs on Google's
- * image CDN. A visitor never sees a consent screen. */
+ * `drive.file` also means this app can never see a file it did not create,
+ * including the files written by the older isee and volunteer apps: those use
+ * different OAuth clients, so their data has to be carried across by an export
+ * the person downloads and imports. That is a property of the scope, not a gap.
+ */
 
 const GIS_SRC = "https://accounts.google.com/gsi/client"
 const DRIVE_SCOPE = "https://www.googleapis.com/auth/drive.file"
@@ -20,18 +26,23 @@ const SCOPES = `${DRIVE_SCOPE} openid email profile`
 const FILES = "https://www.googleapis.com/drive/v3/files"
 const UPLOAD = "https://www.googleapis.com/upload/drive/v3/files"
 const USERINFO = "https://www.googleapis.com/oauth2/v3/userinfo"
-const APP_TAG = "gallery-site"
-const SESSION_KEY = "gallery.drive"
+const FOLDER_MIME = "application/vnd.google-apps.folder"
+const APP_TAG = "little-me"
+const SESSION_KEY = "littleme.drive"
 const SAVE_DEBOUNCE_MS = 1200
 
-let cfg = { clientId: "", apiKey: "", fileName: "gallery-site-data.json", onState: () => {}, onSaved: () => {} }
+let cfg = { clientId: "", apiKey: "", folderName: "The Little Me", onState: () => {} }
 let tokenClient = null
-let token = null      // { access_token, expires_at }
-let profile = null    // { name, email, picture }
-let file = null       // { id, webViewLink, modifiedTime, shared }
+let token = null          // { access_token, expires_at }
+let profile = null        // { name, email, picture }
+let folders = {}          // "" -> the app folder; module name -> its subfolder
+let files = {}            // module -> { id, webViewLink, modifiedTime, shared }
 let granted = false
 let waiter = null
-let pendingData = null, saveTimer = null, saveInFlight = false
+const folderPromises = new Map()
+const pending = new Map() // module -> { file, data }
+const timers = new Map()  // module -> timeout id
+const inFlight = new Set()
 
 export class AuthError extends Error {
   constructor(msg, code) { super(msg); this.name = "AuthError"; this.code = code }
@@ -39,14 +50,17 @@ export class AuthError extends Error {
 
 function setState(state, detail) { try { cfg.onState(state, detail || "") } catch { /* ignore */ } }
 function persistSession() {
-  try { localStorage.setItem(SESSION_KEY, JSON.stringify({ token, profile, granted, file })) } catch { /* ignore */ }
+  try { localStorage.setItem(SESSION_KEY, JSON.stringify({ token, profile, granted, folders, files })) } catch { /* ignore */ }
 }
 function loadSession() {
   try {
     const s = JSON.parse(localStorage.getItem(SESSION_KEY) || "null")
     if (!s) return
     if (s.token && s.token.access_token && Date.now() < s.token.expires_at) token = s.token
-    profile = s.profile || null; granted = !!s.granted; file = s.file || null
+    profile = s.profile || null
+    granted = !!s.granted
+    folders = s.folders || {}
+    files = s.files || {}
   } catch { /* ignore */ }
 }
 
@@ -133,73 +147,119 @@ async function api(url, opts = {}, retry = true) {
 
 async function fetchProfile() {
   const j = await (await api(USERINFO)).json()
-  profile = { name: j.name || j.email || "Author", email: j.email || "", picture: j.picture || "" }
+  profile = { name: j.name || j.email || "", email: j.email || "", picture: j.picture || "" }
   persistSession()
   return profile
 }
 
-async function findFile() {
+/* ---------- the folder, and the file inside it for one module ---------- */
+
+/** Find or create a folder: the app's own when `module` is empty, otherwise
+ *  that module's subfolder inside it. A module gets a folder of its own because
+ *  it will hold more than one file — Gallery's pictures, and whatever Learning
+ *  and Service come to keep — and because the person opening their own Drive
+ *  should be able to see which module a file belongs to.
+ *
+ *  Concurrent callers share one request, so three modules signing in at the
+ *  same moment cannot create three folders. */
+function ensureFolder(module = "") {
+  if (folders[module]) return Promise.resolve(folders[module])
+  if (folderPromises.has(module)) return folderPromises.get(module)
+  const work = (async () => {
+    const parent = module ? await ensureFolder("") : null
+    const kind = module ? "module" : "root"
+    const q = [
+      `appProperties has { key='app' and value='${APP_TAG}' }`,
+      `appProperties has { key='kind' and value='${kind}' }`,
+      module ? `appProperties has { key='module' and value='${module}' }` : "",
+      `mimeType='${FOLDER_MIME}'`,
+      "trashed=false",
+    ].filter(Boolean).join(" and ")
+    const params = new URLSearchParams({ q, fields: "files(id,name)", pageSize: "5", spaces: "drive" })
+    const found = (await (await api(`${FILES}?${params}`)).json()).files || []
+    if (found[0]) folders[module] = found[0].id
+    else {
+      const meta = {
+        name: module ? module.charAt(0).toUpperCase() + module.slice(1) : cfg.folderName,
+        mimeType: FOLDER_MIME,
+        appProperties: module ? { app: APP_TAG, kind, module } : { app: APP_TAG, kind },
+        ...(parent ? { parents: [parent] } : {}),
+      }
+      const j = await (await api(`${FILES}?fields=id`, {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(meta),
+      })).json()
+      folders[module] = j.id
+    }
+    persistSession()
+    return folders[module]
+  })().finally(() => { folderPromises.delete(module) })
+  folderPromises.set(module, work)
+  return work
+}
+
+async function findFile(module) {
   const params = new URLSearchParams({
-    q: `appProperties has { key='app' and value='${APP_TAG}' } and trashed=false`,
+    q: `appProperties has { key='app' and value='${APP_TAG}' } and appProperties has { key='module' and value='${module}' } and trashed=false`,
     fields: "files(id,name,modifiedTime,webViewLink,shared)",
     orderBy: "modifiedTime desc", pageSize: "5", spaces: "drive",
   })
   const j = await (await api(`${FILES}?${params}`)).json()
   const f = (j.files || [])[0]
-  file = f ? { id: f.id, webViewLink: f.webViewLink, modifiedTime: f.modifiedTime, shared: !!f.shared } : null
+  files[module] = f ? { id: f.id, webViewLink: f.webViewLink, modifiedTime: f.modifiedTime, shared: !!f.shared } : null
   persistSession()
-  return file
+  return files[module]
 }
 
-/** { data, file } or null when this account has no blog file yet. */
-export async function load() {
-  const f = await findFile()
+/** `{ data, file }`, or null when this account has no file for the module yet. */
+export async function load(fileName, module) {
+  const f = await findFile(module)
   if (!f) return null
   const text = await (await api(`${FILES}/${encodeURIComponent(f.id)}?alt=media`)).text()
   let data
   try { data = text.trim() ? JSON.parse(text) : null }
-  catch { throw new Error("The blog file in Google Drive is not valid JSON.") }
+  catch { throw new Error(`The ${module} file in Google Drive is not valid JSON.`) }
   return { data, file: f }
 }
 
-export async function save(data) {
+export async function save(fileName, module, data) {
   const body = JSON.stringify(data, null, 2)
-  if (file && file.id) {
-    const j = await (await api(`${UPLOAD}/${encodeURIComponent(file.id)}?uploadType=media&fields=id,webViewLink,modifiedTime`, {
+  const known = files[module]
+  if (known && known.id) {
+    const j = await (await api(`${UPLOAD}/${encodeURIComponent(known.id)}?uploadType=media&fields=id,webViewLink,modifiedTime`, {
       method: "PATCH", headers: { "Content-Type": "application/json" }, body,
     })).json()
-    file = { ...file, id: j.id || file.id, webViewLink: j.webViewLink || file.webViewLink, modifiedTime: j.modifiedTime }
+    files[module] = { ...known, id: j.id || known.id, webViewLink: j.webViewLink || known.webViewLink, modifiedTime: j.modifiedTime }
     persistSession()
-    return file
+    return files[module]
   }
-  if (await findFile()) return save(data)      // another tab created it meanwhile
+  if (await findFile(module)) return save(fileName, module, data)   // another tab made it
+  const parent = await ensureFolder(module)
   const meta = {
-    name: cfg.fileName, mimeType: "application/json", appProperties: { app: APP_TAG },
-    description: "Blog data. The site reads and writes this file.",
+    name: fileName, mimeType: "application/json", parents: [parent],
+    appProperties: { app: APP_TAG, module },
+    description: `The Little Me — ${module}. The app reads and writes this file.`,
   }
   const j = await (await multipartUpload(meta, "application/json", body)).json()
-  file = { id: j.id, webViewLink: j.webViewLink, modifiedTime: j.modifiedTime, shared: false }
+  files[module] = { id: j.id, webViewLink: j.webViewLink, modifiedTime: j.modifiedTime, shared: false }
   persistSession()
-  return file
+  return files[module]
 }
 
 /** One multipart create: the metadata part, then the bytes. */
 function multipartUpload(meta, contentType, body) {
-  const boundary = "gs_" + Math.random().toString(36).slice(2)
+  const boundary = "lm_" + Math.random().toString(36).slice(2)
   const head = `--${boundary}\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n${JSON.stringify(meta)}\r\n--${boundary}\r\nContent-Type: ${contentType}\r\n\r\n`
   const tail = `\r\n--${boundary}--`
-  const payload = typeof body === "string"
-    ? head + body + tail
-    : new Blob([head, body, tail])
+  const payload = typeof body === "string" ? head + body + tail : new Blob([head, body, tail])
   return api(`${UPLOAD}?uploadType=multipart&fields=id,webViewLink,modifiedTime`, {
     method: "POST", headers: { "Content-Type": `multipart/related; boundary=${boundary}` }, body: payload,
   })
 }
 
-/* ---------- publishing: the part a private tracker never needs ---------- */
+/* ---------- publishing: what a private tracker never needs ---------- */
 
-/** Grant "anyone with the link can read" on a file this app created. Idempotent:
- *  Drive answers 200 for a permission that already exists. */
+/** Grant "anyone with the link can read". Drive answers 200 for a permission
+ *  that already exists, so this is safe to repeat. */
 export async function makePublic(fileId) {
   await api(`${FILES}/${encodeURIComponent(fileId)}/permissions?fields=id`, {
     method: "POST", headers: { "Content-Type": "application/json" },
@@ -208,20 +268,22 @@ export async function makePublic(fileId) {
   return true
 }
 
-/** Publish the blog itself: the data file becomes readable by anyone. */
-export async function publish() {
-  if (!file || !file.id) throw new Error("There is nothing saved to publish yet.")
-  await makePublic(file.id)
-  file = { ...file, shared: true }
+/** Share one module's file, so anyone holding its id can read that module. */
+export async function publish(module) {
+  const f = files[module]
+  if (!f || !f.id) throw new Error("There is nothing saved to publish yet.")
+  await makePublic(f.id)
+  files[module] = { ...f, shared: true }
   persistSession()
-  return file
+  return files[module]
 }
 
-/** Upload one picture and share it, returning its Drive file id. */
-export async function uploadImage(blob, name) {
+/** Upload one picture into the folder and share it; returns its Drive file id. */
+export async function uploadImage(blob, name, module = "gallery") {
+  const parent = await ensureFolder(module)
   const meta = {
-    name: name || `picture-${Date.now()}`,
-    appProperties: { app: APP_TAG, kind: "image" },
+    name: name || `picture-${Date.now()}`, parents: [parent],
+    appProperties: { app: APP_TAG, kind: "image", module },
     description: "A picture on the blog.",
   }
   const j = await (await multipartUpload(meta, blob.type || "image/jpeg", blob)).json()
@@ -235,7 +297,7 @@ export async function deleteFile(fileId) {
   catch (e) { if (e.status !== 404) throw e }
 }
 
-/* ---------- reading a published blog, with no sign-in ---------- */
+/* ---------- reading something published, with no sign-in ---------- */
 
 /** The <img> address of a public Drive picture. Google's image CDN serves these
  *  resized and cached, which the Drive API's media endpoint does not. */
@@ -244,58 +306,69 @@ export function imageUrl(fileId, width = 1600) {
   return `https://lh3.googleusercontent.com/d/${encodeURIComponent(fileId)}=w${width}`
 }
 
-/** Read a published blog file by id. No token: the browser API key is enough
- *  once the file is shared, and it is restricted to this site by referrer. */
+/** Read a published file by id: no token, only the browser API key, which is
+ *  restricted to this site by referrer and can read nothing that is not shared. */
 export async function readPublic(fileId, apiKey = cfg.apiKey) {
-  if (!fileId) throw new Error("No blog id to read.")
+  if (!fileId) throw new Error("No id to read.")
   if (!apiKey) throw new Error("This site has no Google API key configured.")
-  const url = `${FILES}/${encodeURIComponent(fileId)}?alt=media&key=${encodeURIComponent(apiKey)}`
-  const res = await fetch(url)
+  const res = await fetch(`${FILES}/${encodeURIComponent(fileId)}?alt=media&key=${encodeURIComponent(apiKey)}`)
   if (!res.ok) {
-    if (res.status === 404) throw new Error("That blog was not found, or is not shared.")
-    throw new Error(`Could not read the blog (${res.status}).`)
+    if (res.status === 404) throw new Error("That was not found, or is not shared.")
+    throw new Error(`Could not read it (${res.status}).`)
   }
   return res.json()
 }
 
-/* ---------- debounced autosave with an offline queue ---------- */
-export function scheduleSave(data) {
-  pendingData = data
+/* ---------- debounced autosave, per module, with an offline queue ---------- */
+
+export function scheduleSave(fileName, module, data) {
+  pending.set(module, { file: fileName, data })
   setState("saving")
-  clearTimeout(saveTimer)
-  saveTimer = setTimeout(flush, SAVE_DEBOUNCE_MS)
+  clearTimeout(timers.get(module))
+  timers.set(module, setTimeout(() => flush(fileName, module), SAVE_DEBOUNCE_MS))
 }
-export async function flush() {
-  clearTimeout(saveTimer)
-  if (saveInFlight || !pendingData) return
-  const data = pendingData; pendingData = null
-  saveInFlight = true
+
+export async function flush(fileName, module) {
+  clearTimeout(timers.get(module))
+  const job = pending.get(module)
+  if (inFlight.has(module) || !job) return
+  pending.delete(module)
+  inFlight.add(module)
   setState("saving")
   try {
-    await save(data)
-    if (!pendingData) { setState("saved"); try { cfg.onSaved(data, file) } catch { /* ignore */ } }
+    await save(job.file, module, job.data)
+    if (!pending.has(module)) setState("saved")
   } catch (e) {
-    if (!pendingData) pendingData = data
+    if (!pending.has(module)) pending.set(module, job)
     if (e instanceof AuthError) setState("auth", e.message)
     else setState(navigator.onLine ? "error" : "offline", e.message)
   } finally {
-    saveInFlight = false
-    if (pendingData && navigator.onLine) saveTimer = setTimeout(flush, 4000)
+    inFlight.delete(module)
+    if (pending.has(module) && navigator.onLine) {
+      timers.set(module, setTimeout(() => flush(job.file, module), 4000))
+    }
   }
 }
-export const hasPending = () => Boolean(pendingData) || saveInFlight
+export const hasPending = () => pending.size > 0 || inFlight.size > 0
 
 if (typeof window !== "undefined") {
-  window.addEventListener("online", () => { if (pendingData) flush() })
+  window.addEventListener("online", () => {
+    for (const [module, job] of pending) flush(job.file, module)
+  })
+  // The last edit before the tab closes, sent without waiting for a response.
   window.addEventListener("pagehide", () => {
-    if (!pendingData || !file || !file.id || !tokenValid()) return
-    try {
-      fetch(`${UPLOAD}/${encodeURIComponent(file.id)}?uploadType=media`, {
-        method: "PATCH", keepalive: true,
-        headers: { Authorization: `Bearer ${token.access_token}`, "Content-Type": "application/json" },
-        body: JSON.stringify(pendingData),
-      })
-    } catch { /* ignore */ }
+    if (!tokenValid()) return
+    for (const [module, job] of pending) {
+      const f = files[module]
+      if (!f || !f.id) continue
+      try {
+        fetch(`${UPLOAD}/${encodeURIComponent(f.id)}?uploadType=media`, {
+          method: "PATCH", keepalive: true,
+          headers: { Authorization: `Bearer ${token.access_token}`, "Content-Type": "application/json" },
+          body: JSON.stringify(job.data),
+        })
+      } catch { /* ignore */ }
+    }
   })
 }
 
@@ -310,24 +383,26 @@ export async function init(options) {
   })
 }
 export const available = () => Boolean(tokenClient)
-export const apiKey = () => cfg.apiKey
-/** Profile if the stored token is still good; never opens Google UI. */
+/** The profile if the stored token is still good; never opens Google's UI. */
 export async function restoreSession() {
   if (!tokenValid()) return null
   try { return await fetchProfile() } catch { token = null; return null }
 }
 export const hasSession = () => Boolean(profile && granted)
-/** Interactive sign-in. Must run from a click: browsers block popups without a gesture. */
+/** Interactive sign-in. Must run from a click: browsers block popups otherwise. */
 export async function signIn() { await requestToken(); return fetchProfile() }
 export function signOut() {
   const t = token && token.access_token
-  token = null; profile = null; file = null; granted = false; pendingData = null
-  clearTimeout(saveTimer)
+  token = null; profile = null; folders = {}; files = {}; granted = false
+  pending.clear()
+  folderPromises.clear()
+  for (const id of timers.values()) clearTimeout(id)
+  timers.clear()
   try { localStorage.removeItem(SESSION_KEY) } catch { /* ignore */ }
   if (t && window.google && google.accounts && google.accounts.oauth2) {
     try { google.accounts.oauth2.revoke(t, () => {}) } catch { /* ignore */ }
   }
 }
 export const getProfile = () => profile
-export const getFile = () => file
+export const getFile = (module) => files[module] || null
 export const isSignedIn = () => tokenValid() && Boolean(profile)

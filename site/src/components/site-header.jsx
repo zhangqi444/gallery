@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react"
 import { MenuIcon, MoonIcon, PenLineIcon, SunIcon, XIcon } from "lucide-react"
 
-import { C } from "@/lib/content"
-import { DRIVE_ENABLED, useStore } from "@/lib/store"
+import { C } from "@/modules/gallery/content"
+import { DRIVE_ENABLED } from "@/lib/session"
 import { href } from "@/lib/router"
 import { isDark, onTheme, toggleTheme } from "@/lib/theme"
 import { cn } from "@/lib/utils"
@@ -19,7 +19,6 @@ function useDark() {
 export function SiteHeader({ route }) {
   const [open, setOpen] = useState(false)
   const dark = useDark()
-  const store = useStore()
   const current = "/" + route.join("/")
   useEffect(() => { setOpen(false) }, [current])
 
@@ -47,8 +46,8 @@ export function SiteHeader({ route }) {
         <div className="ml-auto flex items-center gap-1">
           {DRIVE_ENABLED && (
             <Button variant="ghost" size="icon" asChild
-              aria-label={store.email ? "Your blog" : "Make your own blog"} data-testid="studio-link-header">
-              <a href={href("/studio")}><PenLineIcon /></a>
+              aria-label="Open The Little Me" data-testid="studio-link-header">
+              <a href={href("/me/gallery")}><PenLineIcon /></a>
             </Button>
           )}
           <Button variant="ghost" size="icon" aria-label={dark ? "Switch to light theme" : "Switch to dark theme"} data-testid="theme-toggle" onClick={toggleTheme}>

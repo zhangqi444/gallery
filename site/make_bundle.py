@@ -124,6 +124,8 @@ def main():
     # it is set the site reads that blog; when it is empty the committed posts
     # below are what visitors see.
     site.setdefault("blogId", "")
+    # Whether the root address is The Little Me or this deployment's own blog.
+    site.setdefault("appHome", False)
     posts = [read_post(p) for p in sorted((CONTENT / "posts").glob("*.md"))]
     pages = [read_page(p) for p in sorted((CONTENT / "pages").glob("*.md"))]
     seen = set()

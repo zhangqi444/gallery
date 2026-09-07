@@ -1,9 +1,9 @@
 /* A standing page such as About: title, optional picture, the body. */
-import { pageBySlug } from "@/lib/content"
+import { pageBySlug } from "@/modules/gallery/content"
 import { fmtDate } from "@/lib/format"
 import { Markdown } from "@/components/markdown"
 import { useTitle } from "@/components/page-title"
-import { NotFound } from "@/pages/not-found"
+import { NotFound } from "@/modules/gallery/pages/not-found"
 
 export function Page({ slug }) {
   const page = pageBySlug(slug)

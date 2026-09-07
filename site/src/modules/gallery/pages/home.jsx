@@ -1,10 +1,10 @@
 /* Home: the hero with the site's name and tagline, the lead post, then the rest. */
 import { useState } from "react"
 
-import { C, tags } from "@/lib/content"
+import { C, tags } from "@/modules/gallery/content"
 import { href } from "@/lib/router"
 import { Button } from "@/components/ui/button"
-import { PostCard } from "@/components/post-card"
+import { PostCard } from "@/modules/gallery/post-card"
 import { useTitle } from "@/components/page-title"
 
 /* Three years of pictures is far too much for one screen, so the front page

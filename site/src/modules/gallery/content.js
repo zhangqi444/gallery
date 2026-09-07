@@ -11,7 +11,7 @@
  *
  * The three sources are normalised to one read model here, so no page has to
  * know where its posts came from. */
-import * as Drive from "./google"
+import * as Drive from "@/lib/google"
 import { normalize } from "./model"
 
 export const C = { site: null, posts: [], pages: [], gallery: [], source: "bundle", blogId: "" }
@@ -80,6 +80,9 @@ function readSite(data) {
     author: { ...baseAuthor, name: nameOf(s.author) || nameOf(base.author) || "" },
     nav: base.nav || [{ label: "Home", to: "/" }],
     footer: base.footer || { note: "", links: [] },
+    // Whether `#/` is the app or this deployment's blog. A blog home is the
+    // default so a build with committed posts still opens on them.
+    appHome: Boolean(base.appHome),
   }
 }
 

@@ -2,13 +2,13 @@
    column, then older/newer links and three more to read. */
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react"
 
-import { neighbours, postBySlug, related } from "@/lib/content"
+import { neighbours, postBySlug, related } from "@/modules/gallery/content"
 import { fmtDate, titleOf } from "@/lib/format"
 import { href } from "@/lib/router"
 import { Markdown } from "@/components/markdown"
-import { PostCard, PostMeta } from "@/components/post-card"
+import { PostCard, PostMeta } from "@/modules/gallery/post-card"
 import { useTitle } from "@/components/page-title"
-import { NotFound } from "@/pages/not-found"
+import { NotFound } from "@/modules/gallery/pages/not-found"
 
 export function Post({ slug }) {
   const post = postBySlug(slug)

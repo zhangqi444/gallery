@@ -1,44 +1,77 @@
-/* The shell (header, footer) and the hash router.
-   /               home
-   /post/<slug>    one post
-   /tag/<tag>      posts with a tag
-   /gallery        the gallery
-   /studio         the author's own page: sign in, add pictures, publish
-   /<slug>         a standing page from content/pages (about, …)
+/* The Little Me: three modules over one sign-in, and a reader for a published
+ * blog.
+ *
+ * Two chromes, deliberately. The app shell shows the modules and the account,
+ * and is what the child and their parent see. The reader shows one person's
+ * published pictures with none of that, because a stranger following a link to
+ * a child's drawings has no business seeing their practice or their hours.
+ *
+ *   #/me                 the app: hello, and the modules
+ *   #/me/<module>        one module
+ *   #/b/<driveFileId>/…  someone's published blog, in the reader
+ *   everything else      the reader, on this deployment's own blog
+ *
+ * Which of the last two answers `#/` is a deployment's choice: `appHome` in
+ * content/site.json. It is false here, so this build still opens on the blog. */
+import { Suspense } from "react"
 
-   Every route may be prefixed with /b/<blogId> to read a published blog out of
-   its owner's Drive; lib/router.js strips it and href() puts it back. */
+import { C } from "@/modules/gallery/content"
 import { useRoute } from "@/lib/router"
+import { AppShell } from "@/components/app-shell"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
-import { Home } from "@/pages/home"
-import { Post } from "@/pages/post"
-import { Tag } from "@/pages/tag"
-import { Page } from "@/pages/page"
-import { Gallery } from "@/pages/gallery"
-import { Studio } from "@/pages/studio"
-import { NotFound } from "@/pages/not-found"
+import { Me } from "@/modules/me"
+import { moduleById } from "@/modules/registry"
+import { Home } from "@/modules/gallery/pages/home"
+import { Post } from "@/modules/gallery/pages/post"
+import { Tag } from "@/modules/gallery/pages/tag"
+import { Page } from "@/modules/gallery/pages/page"
+import { Gallery } from "@/modules/gallery/pages/gallery"
+import { NotFound } from "@/modules/gallery/pages/not-found"
 
-function View({ route }) {
+/** The blog: what a reader sees, with no sign of the app around it. */
+function Reader({ route }) {
   const [head, arg] = route
-  if (!head) return <Home />
-  if (head === "post" && arg) return <Post slug={arg} />
-  if (head === "tag" && arg) return <Tag tag={arg} />
-  if (head === "gallery") return <Gallery />
-  if (head === "studio") return <Studio />
-  if (route.length === 1) return <Page slug={head} />
-  return <NotFound />
+  let view = <NotFound />
+  if (!head) view = <Home />
+  else if (head === "post" && arg) view = <Post slug={arg} />
+  else if (head === "tag" && arg) view = <Tag tag={arg} />
+  else if (head === "gallery") view = <Gallery />
+  else if (route.length === 1) view = <Page slug={head} />
+  return (
+    <div className="flex min-h-screen flex-col">
+      <SiteHeader route={route} />
+      <main className="flex-1">{view}</main>
+      <SiteFooter />
+    </div>
+  )
+}
+
+function ModuleView({ id }) {
+  const m = moduleById(id)
+  if (!m) return <NotFound what="module" />
+  const { Component } = m
+  return (
+    <Suspense fallback={<p className="mx-auto max-w-2xl text-sm text-muted-foreground">Opening {m.label}…</p>}>
+      <Component />
+    </Suspense>
+  )
 }
 
 export default function App() {
   const route = useRoute()
-  return (
-    <div className="flex min-h-screen flex-col">
-      <SiteHeader route={route} />
-      <main className="flex-1">
-        <View route={route} />
-      </main>
-      <SiteFooter />
-    </div>
-  )
+  const appHome = Boolean(C.site && C.site.appHome)
+
+  if (route[0] === "me") {
+    const rest = route.slice(1)
+    return (
+      <AppShell route={rest}>
+        {rest.length === 0 ? <Me /> : <ModuleView id={rest[0]} />}
+      </AppShell>
+    )
+  }
+  if (appHome && route.length === 0) {
+    return <AppShell route={[]}><Me /></AppShell>
+  }
+  return <Reader route={route} />
 }

@@ -1,7 +1,7 @@
-import { postsByTag } from "@/lib/content"
-import { PostCard } from "@/components/post-card"
+import { postsByTag } from "@/modules/gallery/content"
+import { PostCard } from "@/modules/gallery/post-card"
 import { useTitle } from "@/components/page-title"
-import { NotFound } from "@/pages/not-found"
+import { NotFound } from "@/modules/gallery/pages/not-found"
 
 export function Tag({ tag }) {
   const posts = postsByTag(tag)

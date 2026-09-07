@@ -7,6 +7,16 @@ docs layout and one way of testing.
 
 ## What this is
 
+> **Becoming The Little Me.** This repository is growing into a hub app for one
+> child: **Learning**, **Service** and **Gallery** over a single Google sign-in,
+> with each module's data in a folder of its own inside the child's own Drive.
+> Gallery is moved across; the other two announce what is coming and where from.
+> The plan, and why the old apps' data has to be carried by an export rather than
+> read directly, is in [docs/the-little-me.md](docs/the-little-me.md).
+> `zhangqi444/isee` and `zhangqi444/volunteer` are **not** modified by this work.
+
+## What this is
+
 A blog anyone can keep, whose data belongs to whoever wrote it. Signing in with
 Google gives an author a blog stored in **their own Google Drive**; publishing
 shares that one file so strangers can read it with no sign-in of their own. It
@@ -60,17 +70,22 @@ site/
   vite.config.js           base './', the manifest and the service worker
   src/main.jsx             boot: theme, fetch the bundle, render
   src/App.jsx              shell (header, footer) and the hash router
-  src/lib/content.js       resolves the source above into one read model (C), lookups, tags, related, neighbours
-  src/lib/google.js        Google sign-in and Drive: the volunteer pattern, plus publishing and picture upload
-  src/lib/store.js         the author's dataset: localStorage first, Drive mirrored on a 1.2 s debounce
-  src/lib/model.js         what a blog dataset is, how any JSON becomes one, and the per-record merge
+  src/lib/google.js        Google sign-in and Drive: the volunteer pattern, plus a folder per module, publishing and picture upload
+  src/lib/session.js       the one sign-in, shared by every module; modules register with it and are pulled together
+  src/lib/module-store.js  the store contract a module instantiates: localStorage first, its own Drive file on a 1.2 s debounce, tombstones
+  src/modules/registry.js  the modules the shell offers; each `load` is a dynamic import so one module's content never loads for another
+  src/modules/me.jsx       the app's home, in the first person
+  src/modules/gallery/     the blog: model, store, content resolution, post card, pages
+  src/modules/learning/    to come, from isee
+  src/modules/service/     to come, from volunteer
   src/lib/markdown.js      marked with heading ids, figures, scrolling tables, external links
   src/lib/router.js        16 lines of hash routing
   src/lib/theme.js         saved choice > host data-theme > OS; the .dark class
   src/lib/format.js        fmtDate, readTime, initials
   src/components/ui/       shadcn/ui components, written into the repo (button, badge, dialog)
   src/components/          site-header, site-footer, post-card, markdown, page-title
-  src/pages/               home, post, tag, page, gallery, studio (the author's own page), not-found
+  src/components/app-shell.jsx  The Little Me's chrome: modules and the account
+  src/components/site-header.jsx the reader's chrome: a published blog, with no sign of the app
   public/                  favicon, manifest, service worker, images/, content/bundle.json
   test_site.cjs            the Playwright suite — see Testing
 .github/workflows/pages.yml  build + deploy to GitHub Pages

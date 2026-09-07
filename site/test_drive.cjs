@@ -84,11 +84,30 @@ async function fakeGoogle(ctx, drive) {
 
     if (/userinfo/.test(url)) return json({ name: 'Test Author', email: 'author@example.com', picture: '' });
 
-    if (/\/drive\/v3\/files\?/.test(url) && m === 'GET') {
+    // a query: the app folder, a module's subfolder, or a module's data file
+    if (/\/drive\/v3\/files\?/.test(url) && !/\/upload\//.test(url) && m === 'GET') {
+      const q = new URL(url).searchParams.get('q') || '';
+      const want = (key) => (q.match(new RegExp(`key='${key}' and value='([^']+)'`)) || [])[1];
+      const kind = want('kind'), module = want('module'), folderQ = q.includes('mimeType=');
       const files = [...drive.files.entries()]
-        .filter(([, f]) => f.appProperties && f.appProperties.app === 'gallery-site' && !f.appProperties.kind)
+        .filter(([, f]) => {
+          const a = f.appProperties || {};
+          if (a.app !== 'little-me') return false;
+          if (folderQ !== (a.kind === 'root' || a.kind === 'module')) return false;
+          if (kind && a.kind !== kind) return false;
+          if (module && a.module !== module) return false;
+          if (!kind && !folderQ && a.kind) return false;   // data files carry no kind
+          return true;
+        })
         .map(([id, f]) => ({ id, name: f.name, modifiedTime: f.modifiedTime, webViewLink: 'https://drive.google.com/file/d/' + id + '/view', shared: f.shared }));
       return json({ files });
+    }
+    // creating a folder: plain JSON on the files endpoint, not the upload one
+    if (/\/drive\/v3\/files\?/.test(url) && !/\/upload\//.test(url) && m === 'POST') {
+      const meta = JSON.parse(req.postData() || '{}');
+      const id = 'folder' + (++drive.seq) + '0000000';
+      drive.files.set(id, { name: meta.name, appProperties: meta.appProperties || {}, parents: meta.parents || [], body: '', shared: false, modifiedTime: new Date().toISOString() });
+      return json({ id });
     }
     if (media && m === 'GET') {
       const f = drive.files.get(media[1]);
@@ -98,7 +117,7 @@ async function fakeGoogle(ctx, drive) {
       const raw = req.postData() || '';
       const metaMatch = /\r\n\r\n(\{[\s\S]*?\})\r\n--/.exec(raw);
       const meta = metaMatch ? JSON.parse(metaMatch[1]) : {};
-      const parts = raw.split(/--gs_[a-z0-9]+/);
+      const parts = raw.split(/--lm_[a-z0-9]+/);
       const body = parts[2] ? parts[2].split('\r\n\r\n').slice(1).join('\r\n\r\n').replace(/\r\n$/, '') : '';
       const id = 'file' + (++drive.seq) + '0000000000';
       drive.files.set(id, { name: meta.name, appProperties: meta.appProperties || {}, body, shared: false, modifiedTime: new Date().toISOString() });
@@ -137,15 +156,25 @@ async function fakeGoogle(ctx, drive) {
   pg.on('pageerror', (e) => errs.push('PAGEERR ' + e.message));
   pg.on('console', (m) => { if (m.type() === 'error' && !/favicon|sw\.js|ERR_FAILED|ERR_TUNNEL/.test(m.text())) errs.push('CONSOLE ' + m.text()); });
 
-  await pg.goto(base + '#/studio', { waitUntil: 'networkidle' });
-  await pg.waitForSelector('[data-testid=studio-signin]');
-  check('the studio asks for sign-in before anything else', true);
+  await pg.goto(base + '#/me', { waitUntil: 'networkidle' });
+  await pg.waitForSelector('[data-testid=app-signin]');
+  check('the app asks for sign-in before anything else', true);
   check('no Google prompt on load', (await pg.evaluate(() => window.__gisCalls.length)) === 0);
 
   await pg.click('[data-testid=signin-button]:not([disabled])');
+  await pg.waitForSelector('[data-testid=app-home]');
+  check('signed in, and the home greets by name', (await pg.textContent('[data-testid=app-home]')).includes('Test'));
+  check('all three modules are offered', (await pg.$$('[data-testid^=module-card-]')).length === 3);
+  check('the two unmoved modules say so', (await pg.textContent('[data-testid=app-home]')).match(/not moved across yet/g).length === 2);
+
+  // a module that has not been ported yet is honest about it
+  await pg.click('[data-testid=module-card-learning]');
+  await pg.waitForSelector('[data-testid=module-pending]');
+  check('Learning explains what will live there', (await pg.textContent('[data-testid=module-pending]')).includes('zhangqi444/isee'));
+
+  await pg.click('[data-testid=module-link-gallery]');
   await pg.waitForSelector('[data-testid=studio]');
-  check('signed in', (await pg.textContent('[data-testid=studio]')).includes('author@example.com') || (await pg.textContent('[data-testid=studio]')).includes('Test Author'));
-  check('a blog starts private', /This blog is/.test(await pg.textContent('[data-testid=studio-publish]')));
+  check('a blog starts private', /are <?strong>?private|are private/i.test((await pg.textContent('[data-testid=studio-publish]')).replace(/\s+/g, ' ')));
   check('publishing is refused while there is nothing to publish',
     await pg.isDisabled('[data-testid=studio-publish-button]'));
 
@@ -164,8 +193,11 @@ async function fakeGoogle(ctx, drive) {
     [...drive.files.values()].filter((f) => f.appProperties && f.appProperties.kind === 'image').every((f) => f.shared));
 
   // the data file is saved but still private
-  await pg.waitForFunction(() => document.querySelector('[data-testid=studio-status]').textContent.includes('Saved'));
-  const dataFile = () => [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.app === 'gallery-site' && !f.appProperties.kind);
+  await pg.waitForFunction(() => {
+    const el = document.querySelector('[data-testid=session-status]');
+    return el && el.textContent.includes('Saved');
+  });
+  const dataFile = () => [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.module === 'gallery' && !f.appProperties.kind);
   check('the blog file exists in Drive', Boolean(dataFile()));
   check('the blog file is NOT shared until Publish is pressed', dataFile()[1].shared === false);
   check('the post is in the saved file', JSON.parse(dataFile()[1].body).posts[0].title === 'My blue cat');
@@ -225,8 +257,8 @@ async function fakeGoogle(ctx, drive) {
     `${before.length} -> ${imageIds().length}`);
 
   // signing out clears the device but not the file in Drive
-  await pg.click('[data-testid=studio-signout]');
-  await pg.waitForSelector('[data-testid=studio-signin]');
+  await pg.click('[data-testid=app-signout]');
+  await pg.waitForSelector('[data-testid=app-signin]');
   check('signing out returns to the gate', true);
   check('the blog file is still in Drive after signing out', Boolean(dataFile()));
 
