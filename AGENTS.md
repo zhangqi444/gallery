@@ -182,7 +182,10 @@ sign-in shared by three modules, a folder per module in Drive, and each module's
 own work — a practice set, a mock section, a word set, marking a book, writing an
 essay, an organisation with hours logged against it, a post with a picture. It
 also asserts what Learning fetches and when, so a change that loads all the
-content at boot fails rather than merely slowing the app down. The privacy half:
+content at boot fails rather than merely slowing the app down, and it runs a
+second device against the same Drive: the two copies merge, a deletion on one
+is not resurrected by the other, and a write refused for an expired token is
+retried rather than lost. The privacy half:
 the blog file staying private until Publish, a stranger failing to read it before
 and succeeding after, the picture arriving as a public Drive URL, a reload with
 no second consent prompt, and deleting a post taking its picture with it. Its

@@ -125,6 +125,9 @@ async function fakeGoogle(ctx, drive) {
     }
     const patch = /\/upload\/drive\/v3\/files\/([^/?]+)/.exec(url);
     if (patch && m === 'PATCH') {
+      // an expired token, once, on demand: the app is expected to get another
+      // and try again rather than lose the write
+      if (drive.expireNextWrite) { drive.expireNextWrite = false; return json({ error: { message: 'Invalid Credentials' } }, 401); }
       const f = drive.files.get(patch[1]);
       if (f) { f.body = req.postData(); f.modifiedTime = new Date().toISOString(); }
       return json({ id: patch[1], webViewLink: 'https://drive.google.com/file/d/' + patch[1] + '/view', modifiedTime: new Date().toISOString() });
@@ -166,7 +169,9 @@ async function fakeGoogle(ctx, drive) {
   const pg = await authorCtx.newPage();
   const errs = [];
   pg.on('pageerror', (e) => errs.push('PAGEERR ' + e.message));
-  pg.on('console', (m) => { if (m.type() === 'error' && !/favicon|sw\.js|ERR_FAILED|ERR_TUNNEL/.test(m.text())) errs.push('CONSOLE ' + m.text()); });
+  // the 401 is deliberate: one write below is refused so the retry can be seen.
+  // A 401 the app failed to recover from would fail the checks around it anyway.
+  pg.on('console', (m) => { if (m.type() === 'error' && !/favicon|sw\.js|ERR_FAILED|ERR_TUNNEL|status of 401/.test(m.text())) errs.push('CONSOLE ' + m.text()); });
 
   await pg.goto(base + '#/me', { waitUntil: 'networkidle' });
   await pg.waitForSelector('[data-testid=app-signin]');
@@ -539,6 +544,68 @@ async function fakeGoogle(ctx, drive) {
   await pg.waitForFunction(() => true);
   check('its picture was deleted from Drive too', before.length === 1 && imageIds().length === 0,
     `${before.length} -> ${imageIds().length}`);
+
+  /* ---- a second device: the two copies merge, and a deletion sticks ---- */
+  console.log('\n== a second device ==');
+  const deviceCtx = await b.newContext({ viewport: { width: 1280, height: 900 } });
+  await fakeGoogle(deviceCtx, drive);
+  const dp = await deviceCtx.newPage();
+  const deviceErrs = [];
+  dp.on('pageerror', (e) => deviceErrs.push('PAGEERR ' + e.message));
+
+  await dp.goto(base + '#/me', { waitUntil: 'networkidle' });
+  await dp.click('[data-testid=signin-button]:not([disabled])');
+  await dp.waitForSelector('[data-testid=app-home]');
+  await dp.click('[data-testid=module-link-service]');
+  await dp.waitForSelector('[data-testid=entry-row]');
+  check('a second device signs in and finds the first one\'s work',
+    (await dp.textContent('[data-testid=stat-hours]')) === '2.5',
+    await dp.textContent('[data-testid=stat-hours]'));
+
+  await dp.click('[data-testid=entry-delete]');
+  await dp.waitForSelector('[data-testid=entry-row]', { state: 'detached' });
+  await dp.waitForFunction(() => {
+    const el = document.querySelector('[data-testid=session-status]');
+    return el && el.textContent.includes('Saved');
+  });
+  check('deleting there empties the hours', (await dp.textContent('[data-testid=stat-hours]')) === '0');
+
+  // the first device still has the entry in localStorage; it pulls when it next
+  // loads, and a merge that only took the newer of two records would hand the
+  // entry straight back
+  await pg.goto(base + '#/me/service', { waitUntil: 'networkidle' });
+  await pg.reload({ waitUntil: 'networkidle' });
+  await pg.waitForSelector('[data-testid=service]');
+  await pg.waitForFunction(() => document.querySelector('[data-testid=stat-hours]').textContent === '0');
+  check('and the first device does not put it back', true);
+
+  // now the other direction, through an expired token
+  drive.expireNextWrite = true;
+  const callsBefore = await pg.evaluate(() => window.__gisCalls.length);
+  await pg.click('[data-testid=log-button]');
+  await dp.waitForTimeout(0);
+  await pg.waitForSelector('[data-testid=log-dialog]');
+  await pg.fill('[data-testid=log-hours]', '1');
+  await pg.fill('[data-testid=log-activity]', 'Sorted the leads');
+  await pg.click('[data-testid=log-save]');
+  await pg.waitForSelector('[data-testid=entry-row]');
+  await pg.waitForFunction(() => {
+    const el = document.querySelector('[data-testid=session-status]');
+    return el && el.textContent.includes('Saved');
+  });
+  check('a write refused for an expired token is retried, not lost',
+    (await pg.evaluate(() => window.__gisCalls.length)) === callsBefore + 1,
+    `${callsBefore} -> ${await pg.evaluate(() => window.__gisCalls.length)}`);
+  const savedService = () => JSON.parse([...drive.files.values()]
+    .find((f) => f.appProperties && f.appProperties.module === 'service' && !f.appProperties.kind).body);
+  check('and the hour reached Drive', savedService().entries.some((e) => e.activity === 'Sorted the leads'));
+
+  await dp.reload({ waitUntil: 'networkidle' });
+  await dp.waitForSelector('[data-testid=entry-row]');
+  check('the second device sees it after a reload',
+    (await dp.textContent('[data-testid=stat-hours]')) === '1', await dp.textContent('[data-testid=stat-hours]'));
+  check('no page errors on the second device', deviceErrs.length === 0, deviceErrs.join(' | '));
+  await deviceCtx.close();
 
   // signing out clears the device but not the file in Drive
   await pg.click('[data-testid=app-signout]');
