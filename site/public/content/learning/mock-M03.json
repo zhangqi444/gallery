@@ -1,0 +1,2061 @@
+{
+ "id": "M03",
+ "passages": {
+  "M03-RC-P01": {
+   "t": "Messages Across the River",
+   "x": "[S1] Before the first permanent bridge crossed Silverbend River, ferries carried people, animals, and supplies between the two banks. [S2] Because the river bent sharply, a boat waiting at one landing could not see whether passengers had gathered at the other. [S3] In 1872, the ferry keeper and a shop owner created a simple signal: a red square raised on a pole meant that passengers were waiting, while a white square meant that freight needed space. [S4] The flags did not tell the ferryman exactly how many people or crates were present, but they helped him decide which boat to send. [S5] During fog, the system failed because neither bank could see the opposite pole, so workers rang a bell in agreed patterns instead. [S6] Old account books show fewer unnecessary crossings after the signals began. [S7] When a bridge finally opened, the flags disappeared, yet the idea behind them remained familiar: send only the information needed for the next decision."
+  },
+  "M03-RC-P02": {
+   "t": "Nets That Gather Fog",
+   "x": "[S1] In some dry coastal regions, rain is rare even when fog often drifts over the hills. [S2] Researchers have tested tall mesh panels that collect tiny droplets from moving fog. [S3] When wind pushes fog through the mesh, droplets cling to the fibers, join into larger drops, and slide into a channel below. [S4] A pipe then carries the water to a covered tank. [S5] The method uses no pump while collecting water, but it is not effortless. [S6] Salt and dust can block the mesh, strong winds can tear it, and long calm periods may bring little fog to collect. [S7] Designers therefore study wind direction, mesh spacing, and local weather before choosing a site. [S8] Fog collectors cannot supply every need of a large city, yet in suitable places they can provide water for tree seedlings, gardens, or small communities."
+  },
+  "M03-RC-P03": {
+   "t": "The Empty Window Box",
+   "x": "[S1] At the community center, each club received a wooden window box to plant for the spring festival. [S2] The chess club chose neat rows of purple flowers, while the cooking club planted herbs labeled with tiny signs. [S3] Inez's nature club could not agree: some members wanted berries for birds, others wanted bright blossoms, and two wanted to leave room for insects to nest. [S4] Their box remained empty while everyone argued for a complete plan. [S5] On the final planting day, Inez brought three small paper squares and placed them inside the box. [S6] “One section for food, one for color, and one left partly bare,” she said. [S7] The members began arranging plants, then noticed that the sections did not need sharp borders; a flowering berry plant could serve two purposes at once. [S8] Their finished box looked less orderly than the chess club's, but birds visited it before the festival opened. [S9] Inez decided that a plan could guide cooperation without forcing every useful thing into a single category."
+  },
+  "M03-RC-P04": {
+   "t": "Restoring a Painted Wall",
+   "x": "[S1] When workers uncovered a faded mural beneath layers of plaster, several colors were barely visible. [S2] A restorer might be tempted to repaint every missing shape in bright new color, but doing so could replace evidence with guesswork. [S3] Instead, the team first photographed the wall under different kinds of light. [S4] Certain pigments reflected infrared light differently, revealing outlines hidden from ordinary view. [S5] The team then cleaned a small test area and added removable, lightly colored repairs only where the original pattern was well supported. [S6] From across the room, the repairs helped viewers understand the scene. [S7] Up close, however, the new marks remained distinguishable from the old paint. [S8] This choice allowed the mural to be enjoyed without pretending that every detail of its past was known."
+  },
+  "M03-RC-P05": {
+   "t": "A Library of Useful Things",
+   "x": "[S1] A neighborhood library once lent only books and recordings, but residents kept asking where they could borrow tools used only occasionally. [S2] In response, the library began a small “library of things” with a drill, a cake pan, a telescope, and several sewing kits. [S3] The objects required different rules from books. [S4] Staff members photographed each kit before checkout, labeled every part, and allowed extra time between loans for inspection. [S5] They also offered short demonstrations because returning a tool safely matters as much as returning it on time. [S6] At first, some people predicted the objects would quickly vanish or break. [S7] A year later, a few parts had been replaced, but most items remained in use, and the waiting list helped staff decide what to purchase next. [S8] The project did not eliminate the need to own everyday objects. [S9] It did show that careful sharing can make rarely used items available to more people."
+  }
+ },
+ "sections": {
+  "all": [
+   {
+    "c": [
+     "secretive",
+     "flexible",
+     "exact",
+     "ancient"
+    ],
+    "d": "E",
+    "e": "Adaptable means able to adjust, so flexible is precise; the distractors describe privacy, age, or accuracy.",
+    "id": "M03-VR-001",
+    "k": 1,
+    "p": "",
+    "q": "ADAPTABLE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "crowded",
+     "valuable",
+     "distant",
+     "unproductive"
+    ],
+    "d": "M",
+    "e": "Barren land produces little or nothing; the other choices concern location, population, or worth.",
+    "id": "M03-VR-002",
+    "k": 3,
+    "p": "",
+    "q": "BARREN most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "compare",
+     "begin",
+     "gather",
+     "delay"
+    ],
+    "d": "E",
+    "e": "Commence means to begin; compare and gather are different actions, while delay opposes beginning.",
+    "id": "M03-VR-003",
+    "k": 1,
+    "p": "",
+    "q": "COMMENCE most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "cheerful",
+     "very careful",
+     "quiet",
+     "fortunate"
+    ],
+    "d": "M",
+    "e": "Meticulous describes extremely careful attention to detail; the distractors describe luck, sound, or mood.",
+    "id": "M03-VR-004",
+    "k": 1,
+    "p": "",
+    "q": "METICULOUS most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "joyful",
+     "puzzled",
+     "prepared",
+     "exhausted"
+    ],
+    "d": "E",
+    "e": "Elated means extremely joyful; exhaustion, confusion, and readiness do not express happiness.",
+    "id": "M03-VR-005",
+    "k": 0,
+    "p": "",
+    "q": "ELATED most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "wealthy",
+     "elegant",
+     "wasteful",
+     "thrifty"
+    ],
+    "d": "M",
+    "e": "Frugal means careful about spending, closest to thrifty; wealth and elegance are unrelated, and wasteful is the opposite.",
+    "id": "M03-VR-006",
+    "k": 3,
+    "p": "",
+    "q": "FRUGAL most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "ordinary",
+     "enormous",
+     "hurried",
+     "friendly"
+    ],
+    "d": "M",
+    "e": "An amiable person is friendly and pleasant; the other choices describe size, commonness, or speed.",
+    "id": "M03-VR-007",
+    "k": 3,
+    "p": "",
+    "q": "AMIABLE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "distant",
+     "unfriendly",
+     "uncertain",
+     "harmless"
+    ],
+    "d": "E",
+    "e": "Hostile means unfriendly or opposing; harmless weakens the meaning, while uncertain and distant are unrelated.",
+    "id": "M03-VR-008",
+    "k": 1,
+    "p": "",
+    "q": "HOSTILE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "heavy",
+     "complete",
+     "hollow",
+     "high"
+    ],
+    "d": "E",
+    "e": "Lofty means very high or elevated; height does not require hollowness, heaviness, or completeness.",
+    "id": "M03-VR-009",
+    "k": 3,
+    "p": "",
+    "q": "LOFTY most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "uneven",
+     "polished",
+     "fragile",
+     "narrow"
+    ],
+    "d": "M",
+    "e": "Jagged describes a rough, sharply uneven edge; polish, width, and strength are separate qualities.",
+    "id": "M03-VR-010",
+    "k": 0,
+    "p": "",
+    "q": "JAGGED most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "complain",
+     "wander",
+     "hurry",
+     "leave out"
+    ],
+    "d": "M",
+    "e": "To omit something is to leave it out; complaining, hurrying, and wandering are unrelated actions.",
+    "id": "M03-VR-011",
+    "k": 3,
+    "p": "",
+    "q": "OMIT most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "useful",
+     "balanced",
+     "small",
+     "fresh"
+    ],
+    "d": "M",
+    "e": "Meager means too small in amount, so small is closest; balanced, fresh, and useful do not indicate a lack.",
+    "id": "M03-VR-012",
+    "k": 2,
+    "p": "",
+    "q": "MEAGER most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "hidden",
+     "uncertain",
+     "ordinary",
+     "calm"
+    ],
+    "d": "E",
+    "e": "Tranquil means calm and peaceful; hidden, uncertain, and ordinary describe different qualities.",
+    "id": "M03-VR-013",
+    "k": 3,
+    "p": "",
+    "q": "TRANQUIL most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "shelter",
+     "journey",
+     "danger",
+     "argument"
+    ],
+    "d": "M",
+    "e": "Peril is serious danger; shelter may protect from peril, while journey and argument are not synonyms.",
+    "id": "M03-VR-014",
+    "k": 2,
+    "p": "",
+    "q": "PERIL most nearly means:",
+    "sk": "synonym—noun precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "repair",
+     "borrow",
+     "divide",
+     "announce"
+    ],
+    "d": "E",
+    "e": "To restore is to return something to a good condition, often by repairing it; the other verbs do not express renewal.",
+    "id": "M03-VR-015",
+    "k": 0,
+    "p": "",
+    "q": "RESTORE most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "cautious",
+     "genuine",
+     "formal",
+     "skillful"
+    ],
+    "d": "M",
+    "e": "Sincere words or feelings are genuine; skill, caution, and formality do not guarantee honesty.",
+    "id": "M03-VR-016",
+    "k": 1,
+    "p": "",
+    "q": "SINCERE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "shrink",
+     "arrive",
+     "disappear",
+     "travel"
+    ],
+    "d": "E",
+    "e": "To vanish is to disappear from sight; shrinking and traveling may change appearance or location, while arrive is unrelated.",
+    "id": "M03-VR-017",
+    "k": 2,
+    "p": "",
+    "q": "VANISH most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "complete",
+     "brief",
+     "confusing",
+     "familiar"
+    ],
+    "d": "M",
+    "e": "But signals contrast with an ending that explained everything, so confusing fits; brief, complete, and familiar do not create that contrast.",
+    "id": "M03-VR-018",
+    "k": 2,
+    "p": "",
+    "q": "The mystery's first chapter was ____, but the ending explained everything.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "noisily",
+     "cautiously",
+     "proudly",
+     "randomly"
+    ],
+    "d": "E",
+    "e": "Wet pavement and puddles call for cautious movement; the distractors do not address the risk.",
+    "id": "M03-VR-019",
+    "k": 1,
+    "p": "",
+    "q": "The sidewalk was still wet, so Milo stepped ____ around the puddles.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "difference",
+     "distance",
+     "promise",
+     "purpose"
+    ],
+    "d": "M",
+    "e": "Calling for exactly the same ingredients and steps means no difference; promise, distance, and purpose are not defined by the clue.",
+    "id": "M03-VR-020",
+    "k": 0,
+    "p": "",
+    "q": "The two recipes called for exactly the same ingredients and steps; there was no ____ between them.",
+    "sk": "sentence completion—definition clue",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "color",
+     "preserve",
+     "measure",
+     "release"
+    ],
+    "d": "E",
+    "e": "A sealed box helps preserve, or protect, the drawings for the future; measuring, releasing, or coloring them does not explain keeping them safe.",
+    "id": "M03-VR-021",
+    "k": 1,
+    "p": "",
+    "q": "Grandpa keeps his childhood drawings in a sealed box to ____ them for the family.",
+    "sk": "sentence completion—purpose",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "talkative",
+     "inventive",
+     "dependable",
+     "adventurous"
+    ],
+    "d": "M",
+    "e": "Consistently caring for and returning borrowed items shows dependability; the other traits are unsupported.",
+    "id": "M03-VR-022",
+    "k": 2,
+    "p": "",
+    "q": "Mei returned each borrowed tool clean and on time, proving she was ____.",
+    "sk": "sentence completion—character inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "tiny",
+     "bright",
+     "lonely",
+     "sturdy"
+    ],
+    "d": "M",
+    "e": "Appearing pencil-sized supplies a size clue for tiny; brightness, strength, and loneliness are not established.",
+    "id": "M03-VR-023",
+    "k": 0,
+    "p": "",
+    "q": "From the hilltop, the distant lighthouse looked so ____ that it seemed no larger than a pencil.",
+    "sk": "sentence completion—degree",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "skip",
+     "fold",
+     "review",
+     "copy"
+    ],
+    "d": "E",
+    "e": "Reviewing a form logically comes before signing; folding, copying, or skipping lines does not check it.",
+    "id": "M03-VR-024",
+    "k": 2,
+    "p": "",
+    "q": "Before signing the form, Luis paused to ____ every line.",
+    "sk": "sentence completion—sequence logic",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "constructive",
+     "amusing",
+     "hesitant",
+     "secretive"
+    ],
+    "d": "H",
+    "e": "Suggestions for improvement make criticism constructive; the distractors do not explain its usefulness.",
+    "id": "M03-VR-025",
+    "k": 0,
+    "p": "",
+    "q": "The critic's comments were firm but ____, offering clear ways to improve the play.",
+    "sk": "sentence completion—tone",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "invite",
+     "warn",
+     "imitate",
+     "identify"
+    ],
+    "d": "M",
+    "e": "Examining contents can identify the owner; imitation, invitation, and warning do not solve the ownership question.",
+    "id": "M03-VR-026",
+    "k": 3,
+    "p": "",
+    "q": "The detective tried to ____ the owner of the unlabeled suitcase by checking its contents.",
+    "sk": "sentence completion—precise verb",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "inviting",
+     "empty",
+     "unfinished",
+     "narrow"
+    ],
+    "d": "M",
+    "e": "Yet contrasts plainness with a positive atmosphere, so inviting fits; the other choices continue or add negative traits.",
+    "id": "M03-VR-027",
+    "k": 0,
+    "p": "",
+    "q": "The room looked plain at noon, yet candlelight made it appear warm and ____.",
+    "sk": "sentence completion—context contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "independent",
+     "distant",
+     "official",
+     "cheerful"
+    ],
+    "d": "M",
+    "e": "Wanting to make its own laws leads a nation to declare itself independent; official, distant, and cheerful do not follow from that goal.",
+    "id": "M03-VR-028",
+    "k": 0,
+    "p": "",
+    "q": "The small nation wanted to write its own laws rather than follow another country's, so it declared itself ____.",
+    "sk": "sentence completion—logical fit",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "decorated",
+     "blocked",
+     "followed",
+     "measured"
+    ],
+    "d": "E",
+    "e": "Having to climb around the branch shows that it blocked the trail; the other verbs do not cause the detour.",
+    "id": "M03-VR-029",
+    "k": 1,
+    "p": "",
+    "q": "The fallen branch ____ the narrow trail, forcing hikers to climb around it.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "modern",
+     "popular",
+     "optional",
+     "costly"
+    ],
+    "d": "H",
+    "e": "Since each rider chooses, the knee pads are optional, in contrast with required helmets; costly, modern, and popular do not describe something left to choice.",
+    "id": "M03-VR-030",
+    "k": 2,
+    "p": "",
+    "q": "Helmets are required at the bike park, but knee pads are ____; each rider chooses whether to wear them.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "muddy",
+     "shaded",
+     "steep",
+     "winding"
+    ],
+    "d": "M",
+    "e": "Frequent curves define a winding path; slope, shade, and mud are not mentioned.",
+    "id": "M03-VR-031",
+    "k": 3,
+    "p": "",
+    "q": "The path was ____: it curved so often that travelers could not see far ahead.",
+    "sk": "sentence completion—context definition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "postpone",
+     "confuse",
+     "confirm",
+     "challenge"
+    ],
+    "d": "M",
+    "e": "Reading decisions aloud can confirm shared agreement; the other verbs oppose or delay that purpose.",
+    "id": "M03-VR-032",
+    "k": 2,
+    "p": "",
+    "q": "At the end of the meeting, the secretary read the decisions aloud to ____ the group's agreement.",
+    "sk": "sentence completion—purpose and register",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "adopt",
+     "predict",
+     "take apart",
+     "overlook"
+    ],
+    "d": "H",
+    "e": "To adopt an approach is to choose and begin using it; the distractors mean dismantle, miss, or forecast.",
+    "id": "M03-VR-033",
+    "k": 0,
+    "p": "",
+    "q": "When the first plan failed, the team had to ____ a different approach.",
+    "sk": "sentence completion—idiomatic precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "otherwise",
+     "nevertheless",
+     "similarly",
+     "meanwhile"
+    ],
+    "d": "H",
+    "e": "Nevertheless shows that the model was useful despite its flaw; the other transitions express comparison, alternative, or simultaneous time.",
+    "id": "M03-VR-034",
+    "k": 1,
+    "p": "",
+    "q": "The model was imperfect; ____, it revealed where the bridge needed extra support.",
+    "sk": "sentence completion—concession",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "24",
+     "32",
+     "40",
+     "48"
+    ],
+    "d": "M",
+    "e": "Eight ratio parts make 64, so each is 8 and red is 3×8=24; 40 is blue, while 32 and 48 misuse the ratio.",
+    "id": "M03-QR-001",
+    "k": 0,
+    "p": "",
+    "q": "Red and blue flags are hung in a ratio of 3:5. If 64 flags are hung, how many are red?",
+    "sk": "ratio—part from total",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "$26.50",
+     "$27.50",
+     "$30.00",
+     "$33.00"
+    ],
+    "d": "M",
+    "e": "One jar costs $2.75, so ten cost $27.50; the distractors add quantities or scale the price incorrectly.",
+    "id": "M03-QR-002",
+    "k": 1,
+    "p": "",
+    "q": "Six identical jars of paint cost $16.50. At the same rate, what do ten jars cost?",
+    "sk": "proportional reasoning—unit price",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3/10",
+     "1/5",
+     "1/2",
+     "9/10"
+    ],
+    "d": "M",
+    "e": "2/5 of the tank = 4/10, so 7/10 − 4/10 = 3/10 remains. B subtracts the denominator 5 from the numerator 7 (2/10 = 1/5), C subtracts the numerator 2 without converting (7/10 − 2/10 = 5/10 = 1/2), and D adds 2/10 instead of subtracting (9/10).",
+    "id": "M03-QR-003",
+    "k": 0,
+    "p": "",
+    "q": "A tank is 7/10 full. Water equal to 2/5 of the tank's total capacity is used. What fraction of the tank remains filled?",
+    "sk": "fraction reasoning—remaining amount",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "12",
+     "13",
+     "14",
+     "16"
+    ],
+    "d": "E",
+    "e": "35% of 40 is 0.35×40=14; the other values reflect nearby percentages or rounding.",
+    "id": "M03-QR-004",
+    "k": 2,
+    "p": "",
+    "q": "In a class of 40 students, 35% ride a bicycle to school. How many students is that?",
+    "sk": "percent reasoning—part of a group",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "59",
+     "79",
+     "78",
+     "80"
+    ],
+    "d": "M",
+    "e": "39×2+1=79; 78 omits the added one, while 59 and 80 use inconsistent rules.",
+    "id": "M03-QR-005",
+    "k": 1,
+    "p": "",
+    "q": "A display doubles the number of lights and adds one each round: 4, 9, 19, 39, .... How many lights appear next?",
+    "sk": "numerical pattern—recursive rule",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "28",
+     "32",
+     "37",
+     "140"
+    ],
+    "d": "M",
+    "e": "The five-day total is 5×28=140, and 140−103=37; 28 repeats the mean and 140 is the total.",
+    "id": "M03-QR-006",
+    "k": 2,
+    "p": "",
+    "q": "A librarian shelves an average of 28 books per day for five days. She shelves 103 books during the first four days. How many does she shelve on day five?",
+    "sk": "data reasoning—mean and missing value",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5 m",
+     "19 m",
+     "22 m",
+     "11 m"
+    ],
+    "d": "M",
+    "e": "Half the perimeter is 54 ÷ 2 = 27, so the width is 27 − 16 = 11. A reports only how much longer the length is than the width (16 − 11 = 5), B subtracts one length from the whole perimeter and halves what is left (54 − 16 = 38, then 19), and C subtracts both lengths but forgets to halve (54 − 32 = 22).",
+    "id": "M03-QR-007",
+    "k": 3,
+    "p": "",
+    "q": "A rectangular garden has perimeter 54 meters and length 16 meters. What is its width?",
+    "sk": "geometry reasoning—perimeter constraint",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2/5",
+     "3/5",
+     "7/20",
+     "4/5"
+    ],
+    "d": "M",
+    "e": "Twelve of 20 tiles are not blue, so 12/20=3/5; 2/5 is the blue probability and the others miscount colors.",
+    "id": "M03-QR-008",
+    "k": 1,
+    "p": "",
+    "q": "A bag holds 5 yellow, 7 green, and 8 blue tiles. What is the probability of drawing a tile that is not blue?",
+    "sk": "probability—complement",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "9",
+     "10",
+     "14",
+     "11"
+    ],
+    "d": "M",
+    "e": "4s+6=50 gives 4s=44 and s=11; the distractors divide before removing the fee or add it.",
+    "id": "M03-QR-009",
+    "k": 3,
+    "p": "",
+    "q": "A theater charges a $6 service fee plus $4 per student. A group pays $50. How many students are in the group?",
+    "sk": "algebraic reasoning—two-step equation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "42",
+     "35",
+     "45",
+     "52.5"
+    ],
+    "d": "M",
+    "e": "The scale is 15÷2.5=6 kilometers per centimeter, so 7×6=42; the distractors use additive or inverted scaling.",
+    "id": "M03-QR-010",
+    "k": 0,
+    "p": "",
+    "q": "On a trail map, 2.5 centimeters represent 15 kilometers. How many kilometers do 7 centimeters represent?",
+    "sk": "scale reasoning",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3",
+     "2",
+     "1",
+     "11"
+    ],
+    "d": "M",
+    "e": "Crew A packs 12 per hour and Crew B 11, a difference of 1; other choices compare totals or partial rates.",
+    "id": "M03-QR-011",
+    "k": 2,
+    "p": "",
+    "q": "Crew A packs 84 cartons in 7 hours. Crew B packs 99 cartons in 9 hours. How many more cartons per hour does Crew A pack?",
+    "sk": "rate comparison",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3",
+     "6",
+     "9",
+     "27"
+    ],
+    "d": "H",
+    "e": "Volume scales in three dimensions, so 3×3×3=27; 3 and 9 apply linear or area scaling only.",
+    "id": "M03-QR-012",
+    "k": 3,
+    "p": "",
+    "q": "An artist triples every edge length of a cube-shaped model. How many times as great is the new volume?",
+    "sk": "geometric scaling—volume",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "50",
+     "5",
+     "400",
+     "80"
+    ],
+    "d": "E",
+    "e": "4,000÷80=50, close to the given values; the distractors contain place-value or divisor-as-answer errors.",
+    "id": "M03-QR-013",
+    "k": 0,
+    "p": "",
+    "q": "A warehouse divides about 4,086 bolts equally among 79 bins. Which is the best estimate of bolts per bin?",
+    "sk": "estimation—division with compatible numbers",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "(−13,5)",
+     "(5,−7)",
+     "(3,5)",
+     "(5,5)"
+    ],
+    "d": "E",
+    "e": "Add 9 to x and 6 to y to get (5,5); the distractors reverse a direction, swap a change, or misadd.",
+    "id": "M03-QR-014",
+    "k": 3,
+    "p": "",
+    "q": "A game token starts at (−4,−1), moves 9 units right, then 6 units up. Where does it stop?",
+    "sk": "coordinate reasoning—translation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "9",
+     "14",
+     "18",
+     "63"
+    ],
+    "d": "M",
+    "e": "Nine parts make 81, so each part is 9 and adults are 2×9=18; 63 is the student count.",
+    "id": "M03-QR-015",
+    "k": 2,
+    "p": "",
+    "q": "The ratio of adult volunteers to student volunteers is 2:7. If 81 people volunteer, how many are adults?",
+    "sk": "ratio—group composition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "$12",
+     "$68",
+     "$65",
+     "$72"
+    ],
+    "d": "M",
+    "e": "The discount is $12, leaving $68; $12 is the discount itself and the other choices use incorrect percentages.",
+    "id": "M03-QR-016",
+    "k": 1,
+    "p": "",
+    "q": "A backpack priced at $80 is discounted 15%. What is the sale price?",
+    "sk": "percent reasoning—discount",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Xena, Wren, Yori, Zane",
+     "Wren, Zane, Xena, Yori",
+     "Wren, Yori, Xena, Zane",
+     "Zane, Wren, Xena, Yori"
+    ],
+    "d": "H",
+    "e": "Only C preserves Wren before Xena before Zane; every distractor reverses at least one required relation.",
+    "id": "M03-QR-017",
+    "k": 2,
+    "p": "",
+    "q": "Wren finishes before Xena, and Zane finishes after Xena. Yori's position is unknown. Which order could be correct from first to last?",
+    "sk": "logical reasoning—ordering constraints",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "24",
+     "12",
+     "32",
+     "72"
+    ],
+    "d": "M",
+    "e": "Two of eight outcomes qualify, so 1/4×96=24; the distractors miscount outcomes or use the complement.",
+    "id": "M03-QR-018",
+    "k": 0,
+    "p": "",
+    "q": "A fair spinner numbered 1 through 8 is spun 96 times. About how many spins should land on a number greater than 6?",
+    "sk": "probability—expected count",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "It doubles.",
+     "It becomes 4 times as large.",
+     "It becomes 6 times as large.",
+     "It becomes 8 times as large."
+    ],
+    "d": "M",
+    "e": "Area has two dimensions, so the scale factor is 2×2=4; the distractors use linear, additive, or volume scaling.",
+    "id": "M03-QR-019",
+    "k": 1,
+    "p": "",
+    "q": "A rectangular photograph is enlarged so both its length and width double. How does its area change?",
+    "sk": "geometric scaling—area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "$60",
+     "$64",
+     "$72",
+     "$120"
+    ],
+    "d": "H",
+    "e": "The $45 is 5/8 of the original, so 45×8/5=$72; the distractors treat 45 as the spent part or add a fraction of 45.",
+    "id": "M03-QR-020",
+    "k": 2,
+    "p": "",
+    "q": "After spending 3/8 of her savings, Talia has $45 left. How much did she have before spending?",
+    "sk": "work-backward reasoning—fraction remaining",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1",
+     "3",
+     "5",
+     "11"
+    ],
+    "d": "H",
+    "e": "At least one is 18+16−7=27, so 30−27=3 play neither; distractors double-count or omit the overlap.",
+    "id": "M03-QR-021",
+    "k": 1,
+    "p": "",
+    "q": "Of 30 club members, 18 play chess, 16 play table tennis, and 7 play both. How many play neither?",
+    "sk": "set logic—overlap",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "15°C",
+     "3°C",
+     "9°C",
+     "54°C"
+    ],
+    "d": "E",
+    "e": "Moving from −6 to 0 is 6 degrees and then to 9 is 9 more, totaling 15; the distractors subtract absolute values or ignore the negative start.",
+    "id": "M03-QR-022",
+    "k": 0,
+    "p": "",
+    "q": "At sunrise the temperature is −6°C. By noon it is 9°C. By how many degrees did it rise?",
+    "sk": "integer reasoning—absolute change",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "9",
+     "14",
+     "18",
+     "24"
+    ],
+    "d": "M",
+    "e": "Multiply the independent choices: 3 × 4 × 2 = 24. A adds the three numbers (3 + 4 + 2 = 9), B multiplies shirts by pants but then only adds the hats (12 + 2 = 14), and C multiplies the shirts by the sum of pants and hats (3 × 6 = 18).",
+    "id": "M03-QR-023",
+    "k": 3,
+    "p": "",
+    "q": "A costume uses one of 3 shirts, one of 4 pairs of pants, and one of 2 hats. How many different costumes are possible?",
+    "sk": "combinatorial reasoning—fundamental counting principle",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1",
+     "4",
+     "10",
+     "14"
+    ],
+    "d": "M",
+    "e": "15×117=1,755, leaving 1 label; the distractors use digit sums or distance from a wrong multiple.",
+    "id": "M03-QR-024",
+    "k": 0,
+    "p": "",
+    "q": "A printer places 1,756 labels into sheets of 15. How many labels are left after filling as many complete sheets as possible?",
+    "sk": "number properties—remainder",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Every sal is a dren.",
+     "Some vops are sals.",
+     "No dren is a sal.",
+     "No drens exist."
+    ],
+    "d": "H",
+    "e": "Because all drens belong to the vop group and vops exclude sals, drens cannot be sals; the distractors reverse or invent existence claims.",
+    "id": "M03-QR-025",
+    "k": 2,
+    "p": "",
+    "q": "Every dren is a vop, and no vop is a sal. Which statement must be true?",
+    "sk": "logical reasoning—class inclusion",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "4/9",
+     "5/9",
+     "2/3",
+     "7/9"
+    ],
+    "d": "M",
+    "e": "1/3=3/9, so 5/9 is painted and 4/9 remains; distractors report the painted part or add unlike denominators.",
+    "id": "M03-QR-026",
+    "k": 0,
+    "p": "",
+    "q": "A mural is painted 2/9 on Monday and 1/3 on Tuesday. What fraction remains unpainted?",
+    "sk": "fraction reasoning—combined portions",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "d": "H",
+    "e": "With six values, average the middle two: (9+11)/2=10; the distractors choose one middle value or average the wrong pair.",
+    "id": "M03-QR-027",
+    "k": 1,
+    "p": "",
+    "q": "The recorded times are 2, 5, 9, 11, and 14 minutes. If a 20-minute time is added, what is the new median?",
+    "sk": "data reasoning—median after adding a value",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "11.5 m",
+     "12 m",
+     "14 m",
+     "13.2 m"
+    ],
+    "d": "M",
+    "e": "Since 13²=169 and 14²=196, √175 is about 13.2; the distractors are farther from the correct interval or endpoint.",
+    "id": "M03-QR-028",
+    "k": 3,
+    "p": "",
+    "q": "A square plaza has area 175 square meters. Which is the closest estimate of one side length?",
+    "sk": "estimation—square root",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "28 m²",
+     "40 m²",
+     "52 m²",
+     "24 m²"
+    ],
+    "d": "H",
+    "e": "Top area is 12; side areas total 2(4×2)+2(3×2)=28; painted area is 40. The distractors omit the top, include the bottom, or find volume.",
+    "id": "M03-QR-029",
+    "k": 1,
+    "p": "",
+    "q": "A 4 m by 3 m by 2 m display box is painted on the top and four sides, but not the bottom. What area is painted?",
+    "sk": "spatial reasoning—surface area with excluded face",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "300",
+     "290",
+     "250",
+     "320"
+    ],
+    "d": "H",
+    "e": "200×1.20=240 and 240×1.25=300; the distractors add percentages to the original or apply one increase only.",
+    "id": "M03-QR-030",
+    "k": 0,
+    "p": "",
+    "q": "A culture begins with 200 cells, grows 20%, and then grows 25% from the new amount. How many cells are there?",
+    "sk": "percent reasoning—successive increases",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "36°",
+     "45°",
+     "72°",
+     "144°"
+    ],
+    "d": "H",
+    "e": "The two angles total 180° and make 5 equal parts, so the smaller is 180 ÷ 5 = 36° and the larger is 4 × 36 = 144°. A stops at the smaller angle, B divides 180 by 4 instead of 5, and C uses 90° as the total (4 × 18 = 72).",
+    "id": "M03-QR-031",
+    "k": 3,
+    "p": "",
+    "q": "Two angles together form a straight line. One angle is 4 times as large as the other. What is the measure of the larger angle?",
+    "sk": "geometry reasoning—straight-line angle ratio",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "120",
+     "150",
+     "180",
+     "240"
+    ],
+    "d": "H",
+    "e": "Each worker makes 72÷3÷4=6 kits per hour; 5×6×6=180. The distractors scale only workers, only time, or both incorrectly.",
+    "id": "M03-QR-032",
+    "k": 2,
+    "p": "",
+    "q": "Three workers assemble 72 kits in 4 hours at equal steady rates. How many kits can five workers assemble in 6 hours?",
+    "sk": "multistep rate—combined workers and time",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5",
+     "6",
+     "12",
+     "7"
+    ],
+    "d": "M",
+    "e": "Range A is 18−6=12 and range B is 23−4=19, so the difference is 7; distractors report a range or mis-subtract.",
+    "id": "M03-QR-033",
+    "k": 3,
+    "p": "",
+    "q": "Set A is 6, 10, 12, 18. Set B is 4, 9, 15, 23. How much greater is Set B's range than Set A's range?",
+    "sk": "data interpretation—range comparison",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "6x+7",
+     "6x−3",
+     "6x+12",
+     "x+7"
+    ],
+    "d": "M",
+    "e": "6(x+2)−5=6x+12−5=6x+7; the distractors fail to distribute, omit the coupon, or multiply only part of the price.",
+    "id": "M03-QR-034",
+    "k": 0,
+    "p": "",
+    "q": "A group buys 6 tickets at $(x+2) each and uses a $5 coupon. Which expression gives the final cost?",
+    "sk": "algebraic reasoning—equivalent expressions",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "96 m",
+     "126 m",
+     "144 m",
+     "168 m"
+    ],
+    "d": "H",
+    "e": "One lap is 2 × (30 + 18) = 96 m, and 1 3/4 × 96 = 168 m. A stops after one lap, B adds only one more 30 m side for the extra three-quarters of a lap (96 + 30 = 126), and C runs 1 1/2 laps instead of 1 3/4 (1.5 × 96 = 144).",
+    "id": "M03-QR-035",
+    "k": 3,
+    "p": "",
+    "q": "A court is 30 m by 18 m. A runner completes 1 3/4 laps around it. How far does the runner travel?",
+    "sk": "spatial reasoning—perimeter and fractional laps",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3/5",
+     "7/15",
+     "2/5",
+     "1/3"
+    ],
+    "d": "H",
+    "e": "The favorable cards are 10 through 15—six of the 15—so the probability is 6/15 = 2/5. A counts the nine cards that are 9 or less (9/15 = 3/5), B wrongly includes the 9 itself (7/15), and D drops one favorable card (5/15 = 1/3).",
+    "id": "M03-QR-036",
+    "k": 2,
+    "p": "",
+    "q": "A box holds cards numbered 1 through 15. One card is drawn at random. What is the probability that the number drawn is greater than 9?",
+    "sk": "probability—single draw (greater-than event)",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "$81",
+     "$84",
+     "$88",
+     "$90"
+    ],
+    "d": "H",
+    "e": "The sale price is 70% of the original, so 63÷0.70=90; the distractors add 30% of the sale price or use incorrect bases.",
+    "id": "M03-QR-037",
+    "k": 3,
+    "p": "",
+    "q": "After a 30% discount, a lamp costs $63. What was its original price?",
+    "sk": "percent reasoning—reverse discount",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "R is heavier than P.",
+     "P is heavier than R.",
+     "Q is heavier than P.",
+     "P and R have equal weight."
+    ],
+    "d": "M",
+    "e": "The chain P>Q>R guarantees P>R; every distractor reverses or contradicts that chain.",
+    "id": "M03-QR-038",
+    "k": 1,
+    "p": "",
+    "q": "Parcel P is heavier than parcel Q. Parcel R is lighter than parcel Q. Which statement must be true?",
+    "sk": "logical reasoning—relative ordering",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Simple signals made ferry trips more efficient.",
+     "The bending river became impossible to cross.",
+     "The shop owner built the first permanent bridge.",
+     "Freight mattered more to the ferry than passengers."
+    ],
+    "d": "M",
+    "e": "The problem, signal system, and reduced unnecessary crossings support A; the other choices exaggerate, invent construction, or make an unsupported comparison.",
+    "id": "M03-RC-001",
+    "k": 0,
+    "p": "M03-RC-P01",
+    "q": "Which summary best captures the ferry-signal passage?",
+    "sk": "main idea",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "The river was too foggy for boats.",
+     "The new bridge was open at last.",
+     "Passengers were waiting to board.",
+     "Freight needed space."
+    ],
+    "d": "E",
+    "e": "S3 directly assigns white to freight; C is the red signal, while A and B are not flag meanings.",
+    "id": "M03-RC-002",
+    "k": 3,
+    "p": "M03-RC-P01",
+    "q": "What did a white square signal?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "It counted every crate waiting on the landing.",
+     "It frightened the animals waiting on the bank.",
+     "Sound could carry when the flags could not be seen.",
+     "It announced that the bridge was finally done."
+    ],
+    "d": "M",
+    "e": "S5 contrasts invisible flags with bell patterns, supporting C; the distractors assign functions the passage never gives.",
+    "id": "M03-RC-003",
+    "k": 2,
+    "p": "M03-RC-P01",
+    "q": "Why was a bell useful during fog?",
+    "sk": "inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "dangerous",
+     "not needed",
+     "expensive",
+     "unfinished"
+    ],
+    "d": "M",
+    "e": "Better information prevented trips that were not needed; danger, cost, and completion are not the stated issue.",
+    "id": "M03-RC-004",
+    "k": 1,
+    "p": "M03-RC-P01",
+    "q": "In S6, “unnecessary” most nearly means:",
+    "sk": "vocabulary in context",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "A long debate followed by a final vote",
+     "Two rival ferrymen compared in careful detail",
+     "A numbered list of rules for crossing the river",
+     "A problem, a solution, a limit, and a result"
+    ],
+    "d": "H",
+    "e": "The bend creates a problem, flags solve it, fog limits them, and records show a result; the other structures do not match the sequence.",
+    "id": "M03-RC-005",
+    "k": 3,
+    "p": "M03-RC-P01",
+    "q": "Which sequence best describes the author's organization of the Silverbend passage?",
+    "sk": "text structure",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Fog collectors work everywhere without maintenance.",
+     "Mesh panels can collect useful water in suitable places.",
+     "Covered tanks create the fog that drifts over hills.",
+     "Strong winds always improve the water collected."
+    ],
+    "d": "M",
+    "e": "B includes both the method and its conditions; A and D ignore limitations, while C reverses the process.",
+    "id": "M03-RC-006",
+    "k": 1,
+    "p": "M03-RC-P02",
+    "q": "Which summary best captures the fog-collector passage?",
+    "sk": "main idea",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "They slide into a channel.",
+     "They turn into salt and dust.",
+     "They rise upward through the pipe.",
+     "They tear holes in the mesh."
+    ],
+    "d": "E",
+    "e": "S3 states that larger drops slide into a channel; the other choices reverse motion or confuse problems with steps.",
+    "id": "M03-RC-007",
+    "k": 0,
+    "p": "M03-RC-P02",
+    "q": "What happens after droplets join into larger drops?",
+    "sk": "sequence detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "To leave the water tank uncovered outdoors",
+     "To stop salt and dust from ever forming",
+     "To be sure moving fog blows through the mesh",
+     "To change salty seawater into fresh drinking water"
+    ],
+    "d": "M",
+    "e": "Collection depends on wind pushing fog through mesh, so site direction matters; the distractors invent unrelated effects.",
+    "id": "M03-RC-008",
+    "k": 2,
+    "p": "M03-RC-P02",
+    "q": "Why do designers study local wind direction?",
+    "sk": "cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "To show practical limits that require planning",
+     "To argue that fog never contains any water",
+     "To explain how the covered storage tanks are built",
+     "To prove that rain falls more often than fog"
+    ],
+    "d": "M",
+    "e": "Those examples qualify the method and motivate site study; the other choices contradict or leave the passage.",
+    "id": "M03-RC-009",
+    "k": 0,
+    "p": "M03-RC-P02",
+    "q": "Why does the author mention torn or blocked mesh?",
+    "sk": "author's purpose",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "overcrowded",
+     "distant",
+     "expensive",
+     "appropriate"
+    ],
+    "d": "M",
+    "e": "Suitable places have appropriate wind, weather, and conditions; the other adjectives are not supported.",
+    "id": "M03-RC-010",
+    "k": 3,
+    "p": "M03-RC-P02",
+    "q": "In S8, “suitable” most nearly means:",
+    "sk": "vocabulary in context",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Every window box should look perfectly neat.",
+     "Clubs work best when they avoid making plans.",
+     "A plan can guide people without rigid divisions.",
+     "Feeding birds matters more than any other goal."
+    ],
+    "d": "M",
+    "e": "S9 states the flexible-plan insight; A, B, and D turn a balanced lesson into an extreme claim.",
+    "id": "M03-RC-011",
+    "k": 2,
+    "p": "M03-RC-P03",
+    "q": "What does Inez learn by the end?",
+    "sk": "character change",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Three seed packets",
+     "A flowering berry plant",
+     "Tiny painted chess pieces",
+     "Three paper squares"
+    ],
+    "d": "E",
+    "e": "S5 directly names three paper squares; the distractors name planting-day objects the passage never places in the box or ideas that come later.",
+    "id": "M03-RC-012",
+    "k": 3,
+    "p": "M03-RC-P03",
+    "q": "What did Inez place in the empty box?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Members waited for a plan that satisfied competing goals.",
+     "The spring festival had been canceled before planting day.",
+     "Inez had lost all of the club's flower seeds.",
+     "The community center forbade berries and blossoms."
+    ],
+    "d": "M",
+    "e": "The disagreement and desire for a complete plan delayed action; the distractors invent events or rules.",
+    "id": "M03-RC-013",
+    "k": 0,
+    "p": "M03-RC-P03",
+    "q": "Why had the club's box remained empty?",
+    "sk": "inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "The neatest window box is always the most useful.",
+     "Combining purposes helps a group move past disagreement.",
+     "A successful group must agree on one single goal.",
+     "A nature project should never use written labels."
+    ],
+    "d": "H",
+    "e": "The group succeeds by combining food, color, and habitat; the other choices reverse or overstate the lesson.",
+    "id": "M03-RC-014",
+    "k": 1,
+    "p": "M03-RC-P03",
+    "q": "What lesson does the window-box episode best support?",
+    "sk": "theme",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Dangerous edges on the wooden box",
+     "Brightly painted lines on the soil",
+     "Small fences around the whole center",
+     "Strict separations between purposes"
+    ],
+    "d": "M",
+    "e": "The sections represent purposes, and one plant can cross categories; the other choices interpret borders physically without support.",
+    "id": "M03-RC-015",
+    "k": 3,
+    "p": "M03-RC-P03",
+    "q": "What does “sharp borders” in S7 suggest?",
+    "sk": "phrase meaning",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Every faded mural should be completely repainted in bright color.",
+     "Careful restoration balances clarity with honesty about gaps.",
+     "Infrared light permanently changes the mural's pigments.",
+     "The new paint is weaker than the wall's old plaster."
+    ],
+    "d": "M",
+    "e": "The team's limited, distinguishable repairs support B; the other choices contradict or focus on an unsupported technical claim.",
+    "id": "M03-RC-016",
+    "k": 1,
+    "p": "M03-RC-P04",
+    "q": "What central idea does the passage develop?",
+    "sk": "main idea",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Covered the whole mural with fresh plaster",
+     "Asked viewers to guess the missing scene",
+     "Photographed the wall and cleaned a test area",
+     "Repainted every missing shape in new color"
+    ],
+    "d": "E",
+    "e": "S3-S5 give photography and test cleaning before repair; A and D reverse the work, while B is never done.",
+    "id": "M03-RC-017",
+    "k": 2,
+    "p": "M03-RC-P04",
+    "q": "What did the team do before adding repairs?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "So viewers could tell repairs from original paint",
+     "Because the team ran out of matching paint",
+     "So infrared cameras could find the buried mural",
+     "Because people standing close cannot see faded color"
+    ],
+    "d": "H",
+    "e": "Distinguishability avoids pretending uncertain repairs are original; the distractors invent material limits or misuse infrared.",
+    "id": "M03-RC-018",
+    "k": 0,
+    "p": "M03-RC-P04",
+    "q": "Why were the new marks kept visible when viewed up close?",
+    "sk": "inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "physically propped up",
+     "backed by evidence",
+     "admired by visitors",
+     "protected by plaster"
+    ],
+    "d": "M",
+    "e": "Hidden outlines provide evidence for a pattern, so supported means backed by evidence; the other choices use literal or unrelated senses.",
+    "id": "M03-RC-019",
+    "k": 1,
+    "p": "M03-RC-P04",
+    "q": "In S5, “supported” most nearly means:",
+    "sk": "vocabulary in context",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "A beautiful guess is worth as much as real historical evidence.",
+     "Every missing detail should be left impossible for anyone to see.",
+     "Restoration should aid understanding without hiding uncertainty.",
+     "Modern tools such as infrared make careful judgment unnecessary."
+    ],
+    "d": "H",
+    "e": "The final choice combines understanding and honesty; the distractors reject evidence, usefulness, or expert judgment.",
+    "id": "M03-RC-020",
+    "k": 2,
+    "p": "M03-RC-P04",
+    "q": "Which statement would the author most likely agree with?",
+    "sk": "author's viewpoint",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "A library should stop lending books and recordings.",
+     "Every household should buy its own drill and telescope.",
+     "Shared objects never break and never need new parts.",
+     "A library adapted its rules so objects could be shared safely."
+    ],
+    "d": "M",
+    "e": "D captures the expansion and safeguards; the other choices contradict the passage or make absolute claims.",
+    "id": "M03-RC-021",
+    "k": 3,
+    "p": "M03-RC-P05",
+    "q": "Which summary best captures the library's new lending project?",
+    "sk": "main idea",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "To advertise the new kits to residents",
+     "To teach borrowers how to take photographs",
+     "To record the kit's parts and condition",
+     "To shorten the waiting list for popular kits"
+    ],
+    "d": "E",
+    "e": "Photographs and labels support inspection and complete returns; the distractors give unrelated purposes.",
+    "id": "M03-RC-022",
+    "k": 2,
+    "p": "M03-RC-P05",
+    "q": "Why did staff photograph each kit before checkout?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Which library books should be removed",
+     "Which objects residents wanted most",
+     "Which residents already owned their own tools",
+     "Which short demonstrations were unsafe"
+    ],
+    "d": "M",
+    "e": "A long wait signals demand and helps guide purchases; the distractors concern information the list does not contain.",
+    "id": "M03-RC-023",
+    "k": 1,
+    "p": "M03-RC-P05",
+    "q": "What did the waiting list help the staff infer?",
+    "sk": "inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "The objects were less popular than the library's books.",
+     "Borrowers needed extra time to buy replacements.",
+     "Staff needed to inspect the objects and parts.",
+     "The library building closed between every loan."
+    ],
+    "d": "M",
+    "e": "Different objects and labeled parts required inspection; the distractors invent low demand, borrower duties, or closures.",
+    "id": "M03-RC-024",
+    "k": 2,
+    "p": "M03-RC-P05",
+    "q": "Why did the library allow extra time between object loans?",
+    "sk": "cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Sharing succeeds when the rules match what is shared.",
+     "Careful rules always prevent shared objects from breaking.",
+     "People should borrow everything they use at home.",
+     "Predictions about new library projects are never useful."
+    ],
+    "d": "H",
+    "e": "The library adapts rules and succeeds with manageable repairs; the other choices use absolutes that the passage does not support.",
+    "id": "M03-RC-025",
+    "k": 0,
+    "p": "M03-RC-P05",
+    "q": "What lesson does the library-of-things project best support?",
+    "sk": "theme",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "9,803",
+     "9,793",
+     "8,803",
+     "9,903"
+    ],
+    "d": "E",
+    "e": "Place-value addition gives 9,803; the distractors reflect regrouping or place-value slips.",
+    "id": "M03-MA-001",
+    "k": 0,
+    "p": "",
+    "q": "What is 6,847+2,956?",
+    "sk": "whole-number addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5,416",
+     "4,516",
+     "4,416",
+     "5,584"
+    ],
+    "d": "E",
+    "e": "Regrouping across zeros gives 4,416; the distractors reverse digits or subtract without regrouping.",
+    "id": "M03-MA-002",
+    "k": 2,
+    "p": "",
+    "q": "What is 12,000−7,584?",
+    "sk": "whole-number subtraction",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2,564",
+     "2,664",
+     "2,724",
+     "3,164"
+    ],
+    "d": "E",
+    "e": "74×(30+6)=2,220+444=2,664; the distractors contain partial-product errors.",
+    "id": "M03-MA-003",
+    "k": 1,
+    "p": "",
+    "q": "What is 74×36?",
+    "sk": "whole-number multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "108",
+     "98",
+     "118",
+     "128"
+    ],
+    "d": "E",
+    "e": "27×108=2,916; the distractors reflect quotient-estimation or place-value errors.",
+    "id": "M03-MA-004",
+    "k": 0,
+    "p": "",
+    "q": "What is 2,916÷27?",
+    "sk": "whole-number division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "12/30",
+     "31/36",
+     "17/36",
+     "2/3"
+    ],
+    "d": "M",
+    "e": "Using denominator 36 gives 10/36+21/36=31/36; the distractors add denominators or convert only one fraction.",
+    "id": "M03-MA-005",
+    "k": 1,
+    "p": "",
+    "q": "What is 5/18+7/12?",
+    "sk": "fraction addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2/14",
+     "43/60",
+     "3/10",
+     "29/60"
+    ],
+    "d": "M",
+    "e": "5/6=50/60 and 7/20=21/60, so the difference is 29/60; the distractors subtract denominators or use a wrong common denominator.",
+    "id": "M03-MA-006",
+    "k": 3,
+    "p": "",
+    "q": "What is 5/6−7/20?",
+    "sk": "fraction subtraction",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5/12",
+     "1/3",
+     "10/15",
+     "200/47"
+    ],
+    "d": "M",
+    "e": "Cancel 8/32 to 1/4 and 25/15 to 5/3, giving 5/12; the distractors add, over-cancel, or combine denominators incorrectly.",
+    "id": "M03-MA-007",
+    "k": 0,
+    "p": "",
+    "q": "What is 8/15×25/32?",
+    "sk": "fraction multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2 7/9",
+     "4",
+     "3 5/9",
+     "5"
+    ],
+    "d": "M",
+    "e": "10/3×6/5=4; the distractors fail to invert the divisor or mishandle the mixed number.",
+    "id": "M03-MA-008",
+    "k": 1,
+    "p": "",
+    "q": "What is 3 1/3÷5/6?",
+    "sk": "mixed-number division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "24.549",
+     "25.459",
+     "25.513",
+     "25.549"
+    ],
+    "d": "E",
+    "e": "Align decimals: 18.709+6.840=25.549; the distractors misalign places or regroup incorrectly.",
+    "id": "M03-MA-009",
+    "k": 3,
+    "p": "",
+    "q": "What is 18.709+6.84?",
+    "sk": "decimal addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "10.28",
+     "112.8",
+     "11.28",
+     "7.15"
+    ],
+    "d": "M",
+    "e": "235×48=11,280, then place three decimal digits to get 11.28; the distractors misplace the decimal or add.",
+    "id": "M03-MA-010",
+    "k": 2,
+    "p": "",
+    "q": "What is 4.8×2.35?",
+    "sk": "decimal multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "6.6",
+     "0.66",
+     "66",
+     "7.2"
+    ],
+    "d": "M",
+    "e": "Scale to 277.2÷42=6.6; the distractors move the decimal the wrong number of places or estimate poorly.",
+    "id": "M03-MA-011",
+    "k": 0,
+    "p": "",
+    "q": "What is 27.72÷4.2?",
+    "sk": "decimal division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "90",
+     "95",
+     "99",
+     "110"
+    ],
+    "d": "E",
+    "e": "20% of 450 is 90 and 2% is 9, totaling 99; the distractors omit a part or misplace the decimal.",
+    "id": "M03-MA-012",
+    "k": 2,
+    "p": "",
+    "q": "What is 22% of 450?",
+    "sk": "percent of a quantity",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "11",
+     "26",
+     "60",
+     "16"
+    ],
+    "d": "M",
+    "e": "Parentheses first: 42÷7=6 and 5×2=10, then 6+10=16; distractors ignore grouping or multiplication priority.",
+    "id": "M03-MA-013",
+    "k": 3,
+    "p": "",
+    "q": "What is 42÷(3+4)+5×2?",
+    "sk": "order of operations",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "125",
+     "15",
+     "25",
+     "625"
+    ],
+    "d": "E",
+    "e": "5^3=5×5×5=125; the distractors multiply base by exponent, square, or use the fourth power.",
+    "id": "M03-MA-014",
+    "k": 0,
+    "p": "",
+    "q": "What is 5^3?",
+    "sk": "exponent evaluation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "6×21",
+     "2×3²×7",
+     "2×63",
+     "3×42"
+    ],
+    "d": "M",
+    "e": "126=2×3×3×7, all prime; every distractor leaves composite factors.",
+    "id": "M03-MA-015",
+    "k": 1,
+    "p": "",
+    "q": "Which is the prime factorization of 126?",
+    "sk": "prime factorization",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "24",
+     "12",
+     "8",
+     "144"
+    ],
+    "d": "M",
+    "e": "24 divides both and no larger common factor does; 12 and 8 are common but not greatest, while 144 is a multiple.",
+    "id": "M03-MA-016",
+    "k": 0,
+    "p": "",
+    "q": "What is the greatest common factor of 48 and 72?",
+    "sk": "greatest common factor",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "7",
+     "8",
+     "9",
+     "54"
+    ],
+    "d": "M",
+    "e": "Add 11 to get 6x=54, then divide by 6 to get x=9; the distractors stop early or undo operations incorrectly.",
+    "id": "M03-MA-017",
+    "k": 2,
+    "p": "",
+    "q": "Solve 6x−11=43.",
+    "sk": "algebra—two-step equation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "35",
+     "44",
+     "56",
+     "80"
+    ],
+    "d": "M",
+    "e": "2(4²)+3(4)=32+12=44; the distractors square the coefficient or apply the exponent to the whole expression.",
+    "id": "M03-MA-018",
+    "k": 1,
+    "p": "",
+    "q": "What is 2c²+3c when c=4?",
+    "sk": "expression evaluation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "7",
+     "6",
+     "5",
+     "4"
+    ],
+    "d": "M",
+    "e": "For n=7, 3n−5=16, which satisfies ≥; the smaller choices produce values below 16.",
+    "id": "M03-MA-019",
+    "k": 0,
+    "p": "",
+    "q": "Which value of n satisfies 3n−5≥16?",
+    "sk": "inequality—substitution",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "(−3,−8)",
+     "(8,−3)",
+     "(3,−8)",
+     "(3,8)"
+    ],
+    "d": "M",
+    "e": "A y-axis reflection changes the sign of x only; the distractors reflect across x, swap coordinates, or change both signs.",
+    "id": "M03-MA-020",
+    "k": 3,
+    "p": "",
+    "q": "What is the reflection of (−3,8) across the y-axis?",
+    "sk": "coordinate plane—reflection",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "46 cm²",
+     "63 cm²",
+     "126 cm²",
+     "252 cm²"
+    ],
+    "d": "E",
+    "e": "Area is base×height=14×9=126 cm²; the distractors find perimeter-like totals, halve, or double the product.",
+    "id": "M03-MA-021",
+    "k": 2,
+    "p": "",
+    "q": "A parallelogram has base 14 cm and perpendicular height 9 cm. What is its area?",
+    "sk": "parallelogram area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "57°",
+     "67°",
+     "77°",
+     "113°"
+    ],
+    "d": "E",
+    "e": "Triangle angles total 180°, so 180 − (52 + 61) = 180 − 113 = 67°. D stops at the sum of the two given angles (113°), while A and C come from misadding 52 + 61 (as 123 or 103) before subtracting from 180°.",
+    "id": "M03-MA-022",
+    "k": 1,
+    "p": "",
+    "q": "A triangle has angles of 52° and 61°. What is the third angle?",
+    "sk": "triangle angle sum",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "22 cm",
+     "38.5 cm",
+     "44 cm",
+     "154 cm"
+    ],
+    "d": "M",
+    "e": "Circumference=2πr=2×(22/7)×7=44 cm; the distractors use half the formula or compute area.",
+    "id": "M03-MA-023",
+    "k": 2,
+    "p": "",
+    "q": "Using 22/7 for π, what is the circumference of a circle with radius 7 cm?",
+    "sk": "circle circumference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "96 cm³",
+     "190 cm³",
+     "220 cm³",
+     "240 cm³"
+    ],
+    "d": "E",
+    "e": "Volume = 8 × 6 × 5 = 240 cm³. A finds only the top and bottom faces (2 × 48 = 96), and B and C are slips in the final step 48 × 5: misreading 48 as 38 gives 190, and taking 200 + 4 × 5 instead of 200 + 8 × 5 gives 220.",
+    "id": "M03-MA-024",
+    "k": 3,
+    "p": "",
+    "q": "What is the volume of a rectangular prism measuring 8 cm by 6 cm by 5 cm?",
+    "sk": "rectangular-prism volume",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "425",
+     "4,250",
+     "42.5",
+     "42,500"
+    ],
+    "d": "E",
+    "e": "One liter is 1,000 milliliters, so 4.25×1,000=4,250; the distractors move the decimal the wrong number of places.",
+    "id": "M03-MA-025",
+    "k": 1,
+    "p": "",
+    "q": "How many milliliters are in 4.25 liters?",
+    "sk": "metric conversion—capacity",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2 hours 18 minutes",
+     "2 hours 22 minutes",
+     "3 hours 28 minutes",
+     "2 hours 28 minutes"
+    ],
+    "d": "M",
+    "e": "From 1:47 to 2:00 is 13 minutes, to 4:00 is 2 hours, and to 4:15 is 15 minutes: 2 h 28 min. Distractors subtract minute digits directly.",
+    "id": "M03-MA-026",
+    "k": 3,
+    "p": "",
+    "q": "How much time passes from 1:47 p.m. to 4:15 p.m.?",
+    "sk": "elapsed time",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "32 m",
+     "24 m",
+     "36 m",
+     "48 m"
+    ],
+    "d": "M",
+    "e": "The scale is 6÷1.5=4 m per cm, so 8×4=32 m; the distractors use additive or inverted scaling.",
+    "id": "M03-MA-027",
+    "k": 0,
+    "p": "",
+    "q": "On a drawing, 1.5 cm represents 6 m. What actual distance does 8 cm represent?",
+    "sk": "scale drawing",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "25",
+     "27",
+     "28",
+     "30"
+    ],
+    "d": "E",
+    "e": "The sum is 140, and 140÷5=28; the distractors choose a middle value or divide incorrectly.",
+    "id": "M03-MA-028",
+    "k": 2,
+    "p": "",
+    "q": "What is the mean of 18, 23, 27, 32, and 40?",
+    "sk": "statistics—mean",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1/4",
+     "3/10",
+     "2/5",
+     "1/2"
+    ],
+    "d": "M",
+    "e": "Factors within the set are 1,2,3,6,9,18: 6/20=3/10; the distractors omit factors or count multiples.",
+    "id": "M03-MA-029",
+    "k": 1,
+    "p": "",
+    "q": "A card numbered 1 through 20 is chosen at random. What is the probability that its number is a factor of 18?",
+    "sk": "probability—factor event",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5 units",
+     "7 units",
+     "11 units",
+     "9 units"
+    ],
+    "d": "E",
+    "e": "The x-coordinates match, and vertical distance is |2−(−7)|=9; the distractors subtract absolute values or add coordinates incorrectly.",
+    "id": "M03-MA-030",
+    "k": 3,
+    "p": "",
+    "q": "How far apart are points (−4,2) and (−4,−7)?",
+    "sk": "coordinate plane—vertical distance",
+    "w": "W1"
+   }
+  ]
+ }
+}

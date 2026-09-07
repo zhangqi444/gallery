@@ -1,0 +1,77 @@
+{
+  "note": "Independent reading. The starter books are what Sheila has actually read or is reading; suggestions are well-known middle-grade titles chosen for the reading skills the ISEE tests. A starter book added later is put on the shelf by seedBooks on every device, once.",
+  "starter": [
+    {
+      "id": "charlie",
+      "title": "Charlie and the Chocolate Factory",
+      "author": "Roald Dahl",
+      "status": "finished"
+    },
+    {
+      "id": "little-women",
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "status": "reading"
+    },
+    {
+      "id": "harry-potter-1",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J. K. Rowling",
+      "status": "reading",
+      "page": 77,
+      "note": "MinaLima illustrated edition · started at chapter 5"
+    }
+  ],
+  "suggestions": [
+    {
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "why": "Older, formal language and long descriptive passages — closest thing to an ISEE reading passage."
+    },
+    {
+      "title": "Anne of Green Gables",
+      "author": "L. M. Montgomery",
+      "why": "Rich figurative language and a big vocabulary; a natural next step if she likes Little Women."
+    },
+    {
+      "title": "The Westing Game",
+      "author": "Ellen Raskin",
+      "why": "A puzzle mystery — nothing is stated outright, so it is pure inference practice."
+    },
+    {
+      "title": "Holes",
+      "author": "Louis Sachar",
+      "why": "Three timelines braided together; good for questions about how a text is organised."
+    },
+    {
+      "title": "Number the Stars",
+      "author": "Lois Lowry",
+      "why": "Historical fiction: context clues and tone carry most of the meaning."
+    },
+    {
+      "title": "Because of Winn-Dixie",
+      "author": "Kate DiCamillo",
+      "why": "Short chapters, and almost every feeling is implied rather than stated."
+    },
+    {
+      "title": "Where the Mountain Meets the Moon",
+      "author": "Grace Lin",
+      "why": "Folktales nested inside a story — main idea and theme practice."
+    },
+    {
+      "title": "A Wrinkle in Time",
+      "author": "Madeleine L'Engle",
+      "why": "Abstract ideas and harder vocabulary; a real step up."
+    },
+    {
+      "title": "Wonder",
+      "author": "R. J. Palacio",
+      "why": "Several narrators tell the same events — point of view practice."
+    },
+    {
+      "title": "The Wild Robot",
+      "author": "Peter Brown",
+      "why": "Plain sentences and strong cause and effect; an easy, enjoyable one between harder books."
+    }
+  ]
+}

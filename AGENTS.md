@@ -10,7 +10,8 @@ docs layout and one way of testing.
 > **Becoming The Little Me.** This repository is growing into a hub app for one
 > child: **Learning**, **Service** and **Gallery** over a single Google sign-in,
 > with each module's data in a folder of its own inside the child's own Drive.
-> Gallery and Service are built; Learning announces what is coming and where from.
+> All three modules are built. Learning's content is split by topic so opening it
+> costs 27 kB rather than 689 kB.
 > The plan, and why the old apps' data has to be carried by an export rather than
 > read directly, is in [docs/the-little-me.md](docs/the-little-me.md).
 > `zhangqi444/isee` and `zhangqi444/volunteer` are **not** modified by this work.
@@ -76,7 +77,8 @@ site/
   src/modules/registry.js  the modules the shell offers; each `load` is a dynamic import so one module's content never loads for another
   src/modules/me.jsx       the app's home, in the first person
   src/modules/gallery/     the blog: model, store, content resolution, post card, pages
-  src/modules/learning/    to come, from isee
+  src/modules/learning/    practice: content loader, model, store, one page
+  make_learning.py         content/learning/** → site/public/content/learning/*.json, one file per topic
   src/modules/service/     organisations, commitments and hours: model, store, one page
   src/lib/markdown.js      marked with heading ids, figures, scrolling tables, external links
   src/lib/router.js        16 lines of hash routing

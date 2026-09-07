@@ -1,0 +1,1650 @@
+{
+ "W1": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — PRECISION REVIEW • 20–25 min",
+  "words": [
+   {
+    "connotation": "positive (complimentary)",
+    "example": "Despite his gruff appearance, the old soldier was benign and always gave the girls candy.",
+    "meaning": "harmless, gentle, kind, mild",
+    "n": 1,
+    "pos": "adjective",
+    "task": "Explain in your own words + give 1 synonym.",
+    "usage": "often paired with \"nature\" or \"influence.\" In ISEE sample #2, BENIGN means HARMLESS (not cunning, graceful, or sensible).",
+    "word": "benign"
+   },
+   {
+    "connotation": "neutral to negative (shows lack of trust)",
+    "example": "Jo was dubious about Amy's plan to bake a cake all by herself, since Amy had never even cracked an egg before.",
+    "meaning": "doubtful, skeptical, uncertain, unsure, suspicious",
+    "n": 2,
+    "pos": "adjective",
+    "task": "Explain the meaning and how it relates to skeptical.",
+    "usage": "often followed by about (e.g., dubious about the plan) or that (e.g., It is dubious that he will come); can also describe something of questionable quality (e.g., a dubious reputation)",
+    "word": "dubious"
+   },
+   {
+    "connotation": "neutral to positive (if destroying something harmful) – implies total permanence",
+    "example": "Jo wished she could eradicate her quick temper completely, but she knew it was a habit that would take years of practice to overcome.",
+    "meaning": "destroy, eliminate, remove, erase, annihilate, extinguish, wipe out",
+    "n": 3,
+    "pos": "verb",
+    "task": "Explain why this is stronger than simply remove.",
+    "usage": "always followed by a direct object (eradicate poverty, eradicate disease); noun: eradication; stronger than \"destroy\" – implies it can never come back",
+    "word": "eradicate"
+   },
+   {
+    "connotation": "positive – a compliment suggesting boldness and spunk",
+    "example": "Even though she was the smallest of the sisters, Amy could be quite feisty when she felt she was being treated unfairly, standing up to Jo with surprising boldness.",
+    "meaning": "spirited, lively, plucky, scrappy, gutsy, tenacious",
+    "n": 4,
+    "pos": "adjective",
+    "task": "Give the meaning + write one natural sentence.",
+    "usage": "usually describes people or animals (a feisty puppy, a feisty old lady); often implies a bit of stubbornness but in an admirable way",
+    "word": "feisty"
+   },
+   {
+    "connotation": "positive or neutral – usually a pleasant, sentimental activity",
+    "example": "The sisters would often reminisce about their childhood Christmases, laughing at how they used to put on plays and pretend to be knights and princesses.",
+    "meaning": "recall, remember, reflect, look back, dwell on the past",
+    "n": 5,
+    "pos": "verb",
+    "task": "Give the meaning + use it correctly with about.",
+    "usage": "often used with \"about\" (reminisce about old times); does not take a direct object (you don't \"reminisce a memory\")",
+    "word": "reminisce"
+   },
+   {
+    "connotation": "neutral (can be positive or negative depending on context)",
+    "example": "Jo's bright red hair was conspicuous among the other girls, making her easy to spot in the crowd.",
+    "meaning": "noticeable, obvious, clear, prominent, visible",
+    "n": 6,
+    "pos": "adjective",
+    "task": "Give a synonym + an opposite.",
+    "usage": "often used with \"in\" (conspicuous in the crowd); opposite: inconspicuous (hard to notice)",
+    "word": "conspicuous"
+   },
+   {
+    "connotation": "positive (shows wisdom)",
+    "example": "Jo used great discretion when sharing her stories, never revealing which sisters were the models for her characters.",
+    "meaning": "prudence, tact, caution, judgment",
+    "n": 7,
+    "pos": "noun",
+    "task": "Explain the meaning and give a real-life situation where discretion matters.",
+    "usage": "often used with \"with\" (discretion with secrets) or \"at\" (use your discretion); adjective: discreet (not discrete)",
+    "word": "discretion"
+   },
+   {
+    "connotation": "positive – shows effort, patience, and care",
+    "example": "The March sisters learned to cultivate their individual talents – Jo her writing, Amy her art, Beth her music, and Meg her homemaking skills.",
+    "meaning": "grow, develop, nurture, farm, foster",
+    "n": 8,
+    "pos": "verb",
+    "task": "Give one literal meaning and one figurative meaning.",
+    "usage": "can be literal (cultivate a garden) or figurative (cultivate a friendship); noun: cultivation",
+    "word": "cultivate"
+   },
+   {
+    "connotation": "negative (stressful, awkward)",
+    "example": "Jo found herself in a predicament when both Laurie and his tutor asked her to the same dance—she liked both, but could not say yes to one without hurting the other.",
+    "meaning": "dilemma, trouble, difficulty, plight, bind",
+    "n": 9,
+    "pos": "noun",
+    "task": "Explain in your own words + give 1 synonym.",
+    "usage": "often used with \"in\" (in a predicament) or \"of\" (the predicament of choosing); implies a need for a difficult decision",
+    "word": "predicament"
+   },
+   {
+    "connotation": "negative (implies anger or conflict)",
+    "example": "When Amy burned Jo's manuscript, Jo wanted to retaliate by destroying Amy's drawings—but she stopped herself, knowing that two wrongs would never make a right.",
+    "meaning": "fight back, get revenge, take revenge, strike back, counterattack",
+    "n": 10,
+    "pos": "verb",
+    "task": "Explain the meaning + write a sentence using retaliate against or retaliate by.",
+    "usage": "often used with \"against\" (retaliate against her enemy) or \"by\" (retaliate by ignoring her); noun: retaliation",
+    "word": "retaliate"
+   },
+   {
+    "connotation": "positive (determination)",
+    "example": "She remained resolute even after the first experiment failed.",
+    "meaning": "determined, steadfast, unwavering",
+    "n": 11,
+    "pos": "adjective",
+    "task": "Give the meaning + 1 synonym.",
+    "usage": "Stronger than determined; suggests firmness that does not change easily.",
+    "word": "resolute"
+   },
+   {
+    "connotation": "positive (safety)",
+    "example": "The injured birds were taken to a wildlife sanctuary.",
+    "meaning": "refuge, haven, safe place",
+    "n": 12,
+    "pos": "noun",
+    "task": "Give a literal meaning and a figurative meaning.",
+    "usage": "Can mean a safe place, a protected area, or a sacred part of a church.",
+    "word": "sanctuary"
+   },
+   {
+    "connotation": "usually negative",
+    "example": "She tried to stifle a laugh during the serious presentation.",
+    "meaning": "suppress, smother, restrain",
+    "n": 13,
+    "pos": "verb",
+    "task": "Explain two common meanings.",
+    "usage": "Can mean prevent breathing or suppress an emotion, sound, idea, or growth.",
+    "word": "stifle"
+   },
+   {
+    "connotation": "neutral/negative depending context",
+    "example": "The assistant held a subordinate position in the organization.",
+    "meaning": "lower-ranking, secondary; place below",
+    "n": 14,
+    "pos": "adjective / noun / verb",
+    "task": "Explain lower in rank and give the opposite.",
+    "usage": "Can be a person lower in rank, an adjective meaning lower-ranked, or a verb meaning make less important.",
+    "word": "subordinate"
+   },
+   {
+    "connotation": "positive/neutral (civic right)",
+    "example": "The women's suffrage movement fought for women's right to vote.",
+    "meaning": "right to vote, voting rights",
+    "n": 15,
+    "pos": "noun",
+    "task": "Explain precisely what right this word refers to.",
+    "usage": "Do not confuse with suffering. Suffrage specifically means the right to vote.",
+    "word": "suffrage"
+   },
+   {
+    "connotation": "positive/neutral",
+    "example": "The project produced tangible results that everyone could measure.",
+    "meaning": "touchable, concrete, real",
+    "n": 16,
+    "pos": "adjective",
+    "task": "Explain the meaning + contrast with intangible.",
+    "usage": "Literal: able to be touched. Figurative: clear, real, or measurable. Opposite: intangible.",
+    "word": "tangible"
+   },
+   {
+    "connotation": "negative",
+    "example": "The icy mountain path was treacherous after the storm.",
+    "meaning": "dangerous, deceptive, disloyal",
+    "n": 17,
+    "pos": "adjective",
+    "task": "Give both common senses: place/condition and person/behavior.",
+    "usage": "Can describe dangerous conditions or a person who betrays trust.",
+    "word": "treacherous"
+   },
+   {
+    "connotation": "positive (shows unity, agreement)",
+    "example": "The sisters reached a unanimous decision to give their Christmas breakfast to the Hummel family, as each one of them felt it was the right thing to do.",
+    "meaning": "united, agreed, harmonious, like-minded, undivided",
+    "n": 18,
+    "pos": "adjective",
+    "task": "Explain why unanimous is stronger than majority.",
+    "usage": "often used with \"in\" (unanimous in their opinion) or \"on\" (unanimous on the decision); noun: unanimity; adverb: unanimously",
+    "word": "unanimous"
+   },
+   {
+    "connotation": "positive/lighthearted",
+    "example": "The illustrator filled the page with whimsical animals wearing tiny hats.",
+    "meaning": "playful, fanciful, quirky",
+    "n": 19,
+    "pos": "adjective",
+    "task": "Explain the connotation + give a natural example.",
+    "usage": "Suggests playful imagination and unusual charm, not randomness without purpose.",
+    "word": "whimsical"
+   },
+   {
+    "connotation": "neutral/negative",
+    "example": "Her excitement began to wane after several hours of waiting.",
+    "meaning": "decrease, diminish, fade",
+    "n": 20,
+    "pos": "verb",
+    "task": "Explain the meaning + give the opposite verb.",
+    "usage": "Opposite of wax in the traditional phrase 'wax and wane.' Often used for strength, interest, influence, or the moon.",
+    "word": "wane"
+   }
+  ]
+ },
+ "W2": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — PRECISION REVIEW • 20–25 min",
+  "words": [
+   {
+    "connotation": "",
+    "example": "When Mom said 'It's getting late,' she implied we should leave; I inferred from her hint that it was time to go.",
+    "meaning": "IMPLY = to suggest something without saying it directly (the speaker or writer sends the hint). INFER = to work out what is meant from clues (the listener or reader draws the conclusion).",
+    "n": 1,
+    "pos": "verbs (a pair)",
+    "task": "Explain the difference. Who sends the hint? Who draws the conclusion?",
+    "usage": "The sender implies; the receiver infers. The classic mix-up is saying 'Are you inferring that…?' when you mean 'Are you implying that…?'",
+    "word": "imply / infer"
+   },
+   {
+    "connotation": "",
+    "example": "'The pool is 25 meters long' is objective; 'the pool is too cold' is subjective.",
+    "meaning": "OBJECTIVE = based on facts that can be checked, not on feelings or opinions. SUBJECTIVE = based on personal feelings, taste, or opinion.",
+    "n": 2,
+    "pos": "adjectives (a pair)",
+    "task": "Explain the contrast and give one example of each.",
+    "usage": "A judge tries to be objective; a review of a movie is subjective. Objective can also be a noun meaning a goal.",
+    "word": "objective / subjective"
+   },
+   {
+    "connotation": "",
+    "example": "The rigid schedule allowed no changes; the rigorous training tested every skill.",
+    "meaning": "RIGID = stiff and unbending, either physically or in rules and attitudes (not flexible). RIGOROUS = extremely careful, thorough, and demanding.",
+    "n": 3,
+    "pos": "adjectives (a pair)",
+    "task": "Explain why these are not synonyms.",
+    "usage": "Rigid is often negative (too strict); rigorous is usually positive (high standards, careful work).",
+    "word": "rigid / rigorous"
+   },
+   {
+    "connotation": "",
+    "example": "The ladder was stable; the bus stayed stationary at the stop; the town's population stayed static for years.",
+    "meaning": "STABLE = steady, not likely to fall, change, or collapse. STATIONARY = not moving, staying in one place. STATIC = not changing or developing over time; showing no movement or progress.",
+    "n": 4,
+    "pos": "adjectives (a set)",
+    "task": "Give the precise meaning of each and one example.",
+    "usage": "Stable is about balance and reliability; stationary is about position; static is about lack of change. Do not confuse stationary with stationery (paper).",
+    "word": "stable / stationary / static"
+   },
+   {
+    "connotation": "",
+    "example": "The captain is the sailor's superior; a cheap copy is inferior to the original; a subordinate follows the manager's orders.",
+    "meaning": "SUPERIOR = higher in quality, rank, or importance; as a noun, a person above you. INFERIOR = lower in quality or rank. SUBORDINATE = lower in rank and under someone's authority; as a noun, a person who reports to another.",
+    "n": 5,
+    "pos": "adjectives and nouns (a set)",
+    "task": "Explain the ranking relationship among all three.",
+    "usage": "Superior/inferior compare quality or rank; subordinate is specifically about the chain of command.",
+    "word": "superior / inferior / subordinate"
+   },
+   {
+    "connotation": "neutral",
+    "example": "Jo meant her praise in the literal sense – Amy's drawing really was beautiful, not just pretty for a child\".\"",
+    "meaning": "exact, word-for-word, actual",
+    "n": 6,
+    "pos": "adjective",
+    "task": "Explain literal meaning and contrast it with figurative language.",
+    "usage": "often paired with \"meaning\" or \"sense\"; opposite: figurative; adverb: literally (often misused)",
+    "word": "literal"
+   },
+   {
+    "connotation": "",
+    "example": "She built an elaborate model of the city; the clock's intricate gears fit together perfectly.",
+    "meaning": "ELABORATE = worked out in great detail, with many parts (as a verb, to add more detail). INTRICATE = very complicated, with many small, carefully connected parts.",
+    "n": 7,
+    "pos": "adjectives (a pair)",
+    "task": "Explain how they overlap and how they differ.",
+    "usage": "Both mean detailed; intricate stresses fine, tangled complexity, while elaborate stresses effort and richness. Only elaborate is also a verb ('please elaborate').",
+    "word": "elaborate / intricate"
+   },
+   {
+    "connotation": "",
+    "example": "A parent must give consent for the field trip; the class reached a consensus on the theme.",
+    "meaning": "CONSENT = permission or agreement given by one person (also a verb: to agree). CONSENSUS = general agreement reached by a whole group.",
+    "n": 8,
+    "pos": "nouns (a pair)",
+    "task": "Explain the difference between individual permission and group agreement.",
+    "usage": "Consent is one person's yes; consensus is everyone's shared yes.",
+    "word": "consent / consensus"
+   },
+   {
+    "connotation": "",
+    "example": "The red hat was conspicuous in the gray crowd; a prominent scientist spoke at the museum.",
+    "meaning": "CONSPICUOUS = easily seen or noticed, standing out (sometimes in an unwanted way). PROMINENT = important, well-known, or standing out because of size or position.",
+    "n": 9,
+    "pos": "adjectives (a pair)",
+    "task": "Explain the difference between noticeable and important/notable.",
+    "usage": "Conspicuous is about being noticeable; prominent adds importance or status. Opposite of conspicuous: inconspicuous.",
+    "word": "conspicuous / prominent"
+   },
+   {
+    "connotation": "",
+    "example": "Restoring the painting was painstaking work; a diligent student checks every answer; the industrious ants filled the hill by noon.",
+    "meaning": "PAINSTAKING = done with great care and attention to every detail. DILIGENT = working hard and carefully, steadily and persistently. INDUSTRIOUS = hard-working and busy, getting a lot done.",
+    "n": 10,
+    "pos": "adjectives (a set)",
+    "task": "Compare the three. Which emphasizes care? Which emphasizes steady hard work?",
+    "usage": "Painstaking usually describes the work itself (careful, detailed); diligent and industrious usually describe the worker (steady, hard-working).",
+    "word": "painstaking / diligent / industrious"
+   },
+   {
+    "connotation": "",
+    "example": "I was skeptical of the magic trick; the salesman's dubious promise made everyone uneasy.",
+    "meaning": "SKEPTICAL = not easily convinced; having doubts and wanting proof. DUBIOUS = doubtful or uncertain (about something), or, of a thing, of questionable quality or honesty.",
+    "n": 11,
+    "pos": "adjectives (a pair)",
+    "task": "Explain the overlap and give a natural sentence with each.",
+    "usage": "A person is skeptical; a claim, plan, or honor can be dubious ('a dubious excuse'). Dubious can also describe the person who doubts.",
+    "word": "skeptical / dubious"
+   },
+   {
+    "connotation": "",
+    "example": "Prejudice kept them from listening to the new student; a biased referee favored the home team.",
+    "meaning": "PREJUDICE (noun) = an unfair opinion formed before knowing the facts, often against a group of people. BIASED (adjective) = unfairly favoring one side or view over another.",
+    "n": 12,
+    "pos": "noun and adjective (a pair)",
+    "task": "Explain the noun/adjective relationship and the idea of unfair judgment.",
+    "usage": "Prejudice is the unfair opinion; biased describes a person, judgment, or report that leans unfairly.",
+    "word": "prejudice / biased"
+   },
+   {
+    "connotation": "neutral (refusal) to negative (decrease)",
+    "example": "Jo was forced to decline Laurie's invitation to the dance because she had too many chores to finish.",
+    "meaning": "(verb) refuse, reject, decrease; (noun) decrease, fall, deterioration",
+    "n": 13,
+    "pos": "verb/noun",
+    "task": "Give two meanings: refuse and decrease.",
+    "usage": "as verb: decline an offer, decline in health; as noun: a decline in fortunes; often used with \"in\"",
+    "word": "decline"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The capital of the state was just a few hours away, and the girls dreamed of visiting the big city.",
+    "meaning": "(noun) city, funds; (adj) primary, excellent",
+    "n": 14,
+    "pos": "noun/adjective",
+    "task": "Give at least three meanings: city, money, and old-fashioned 'excellent'.",
+    "usage": "as noun: capital city, financial capital; as adjective: capital idea (old-fashioned for great)",
+    "word": "capital"
+   },
+   {
+    "connotation": "positive (as adjective)",
+    "example": "Beth was content with her simple life, finding joy in music and family.",
+    "meaning": "(adj) satisfied, pleased; (noun) substance, matter; (verb) satisfy",
+    "n": 15,
+    "pos": "adjective/noun/verb",
+    "task": "Give two meanings: satisfied and material/substance.",
+    "usage": "as adjective: content with life; as noun: table of contents; as verb: to content oneself",
+    "word": "content"
+   },
+   {
+    "connotation": "positive (efficiency) or neutral (causation)",
+    "example": "Marmee was always prompt for church, and her punctuality inspired her daughters to be ready on time. (verb) Her kind words prompted Jo to apologize to Amy, even though it was hard.)",
+    "meaning": "(adj) quick, timely; (verb) cause, urge, inspire",
+    "n": 16,
+    "pos": "adjective / verb / noun",
+    "task": "Give three meanings: quick/on time, cue, and cause someone to act.",
+    "usage": "as adjective: a prompt response; as verb: prompt someone to act; often used with \"to\" (prompted her to leave); noun: prompt (a cue)",
+    "word": "prompt"
+   },
+   {
+    "connotation": "neutral to negative (punishment or delay)",
+    "example": "Laurie was suspended from his studies for a week after playing a prank on his tutor, but the March sisters used the time to teach him how to be a proper gentleman—with mixed results.",
+    "meaning": "(delay) postpone, adjourn; (hang) hang, dangle; (remove) expel temporarily, bar",
+    "n": 17,
+    "pos": "verb",
+    "task": "Give three meanings: hang, postpone, temporarily remove.",
+    "usage": "as postpone: suspend the meeting; as hang: suspend a lantern from the ceiling; as punishment: suspended from school; noun: suspension",
+    "word": "suspend"
+   },
+   {
+    "connotation": "neutral – simply describes distance or unlikelihood",
+    "example": "The March family lived in a remote part of town, far from the bustling center, which made their home feel like a quiet little world of its own.",
+    "meaning": "distant, faraway, isolated, removed, slight",
+    "n": 18,
+    "pos": "adjective",
+    "task": "Give two meanings: far away and unlikely/slight.",
+    "usage": "can be physical (remote village), temporal (remote past), or figurative (remote possibility); noun: remoteness",
+    "word": "remote"
+   },
+   {
+    "connotation": "neutral (positive for efficiency, formal for agreement)",
+    "example": "The March family's small house was compact but cozy, with every corner filled with love and laughter.",
+    "meaning": "(adjective) small, tight, dense, compressed; (noun) agreement, contract",
+    "n": 19,
+    "pos": "adjective/noun",
+    "task": "Give two meanings: small/dense and an agreement.",
+    "usage": "as adjective: compact car, compact design; as noun: a compact between nations. Verb form: to compress",
+    "word": "compact"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The artist rendered the scene so perfectly that Jo felt she could step right into the painting.",
+    "meaning": "provide, give, make, translate",
+    "n": 20,
+    "pos": "verb",
+    "task": "Give two meanings: make/provide and depict/show.",
+    "usage": "often used with \"to\" (render a service to someone); also means to melt (render fat)",
+    "word": "render"
+   }
+  ]
+ },
+ "W3": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — PRECISION REVIEW • 20–25 min",
+  "words": [
+   {
+    "connotation": "neutral",
+    "example": "The capital of the state was just a few hours away, and the girls dreamed of visiting the big city.",
+    "meaning": "(noun) city, funds; (adj) primary, excellent",
+    "n": 1,
+    "pos": "noun/adjective",
+    "task": "Give three meanings: government city, money/assets, and old-fashioned 'excellent'.",
+    "usage": "as noun: capital city, financial capital; as adjective: capital idea (old-fashioned for great)",
+    "word": "capital"
+   },
+   {
+    "connotation": "positive (as adjective)",
+    "example": "Beth was content with her simple life, finding joy in music and family.",
+    "meaning": "(adj) satisfied, pleased; (noun) substance, matter; (verb) satisfy",
+    "n": 2,
+    "pos": "adjective/noun/verb",
+    "task": "Give two meanings: satisfied and the material contained in something.",
+    "usage": "as adjective: content with life; as noun: table of contents; as verb: to content oneself",
+    "word": "content"
+   },
+   {
+    "connotation": "neutral",
+    "example": "Jo pulled a dusty old volume of poetry from the shelf and curled up by the fire to read it, finding comfort in the beautiful words that transported her away from her worries.",
+    "meaning": "(book) book, tome, edition; (amount) quantity, mass, size; (loudness) loudness, level",
+    "n": 3,
+    "pos": "noun",
+    "task": "Give all three common meanings: book, amount, loudness.",
+    "usage": "as book: the library has many volumes; as amount: volume of water; as loudness: turn up the volume; often used with \"of\" (volume of poetry)",
+    "word": "volume"
+   },
+   {
+    "connotation": "positive (loving), neutral (painful/food), formal (verb)",
+    "example": "Marmee gave Beth a tender smile as she tucked her into bed, whispering a goodnight prayer.",
+    "meaning": "(loving) gentle, kind, affectionate; (painful) sore, sensitive; (food) soft; (verb) offer, present",
+    "n": 4,
+    "pos": "adjective/verb/noun",
+    "task": "Give three meanings: gentle, sore/sensitive, and formal verb meaning offer.",
+    "usage": "test often focuses on loving or painful meanings; verb meaning is formal (tender resignation)",
+    "word": "tender"
+   },
+   {
+    "connotation": "positive (efficiency) or neutral (causation)",
+    "example": "Marmee was always prompt for church, and her punctuality inspired her daughters to be ready on time. (verb) Her kind words prompted Jo to apologize to Amy, even though it was hard.)",
+    "meaning": "(adj) quick, timely; (verb) cause, urge, inspire",
+    "n": 5,
+    "pos": "adjective / verb / noun",
+    "task": "Give three meanings: quick/on time, a cue, and cause someone to act.",
+    "usage": "as adjective: a prompt response; as verb: prompt someone to act; often used with \"to\" (prompted her to leave); noun: prompt (a cue)",
+    "word": "prompt"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The store stocks several kinds of notebooks.",
+    "meaning": "supply, inventory; keep in supply",
+    "n": 6,
+    "pos": "verb / noun",
+    "task": "Give three meanings: inventory, company shares, and broth/supply.",
+    "usage": "Many meanings: inventory, shares in a company, broth, or to keep goods available.",
+    "word": "stock"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The class learned a new scientific term during the lesson.",
+    "meaning": "period, word, condition; call/name",
+    "n": 7,
+    "pos": "noun / verb",
+    "task": "Give at least three meanings: word/expression, period, condition of an agreement.",
+    "usage": "Many meanings: school period, word/expression, condition of an agreement, or name something.",
+    "word": "term"
+   },
+   {
+    "connotation": "neutral",
+    "example": "Scientists traced the pollution back to a broken pipe.",
+    "meaning": "track, discover, copy outline; small sign",
+    "n": 8,
+    "pos": "verb / noun",
+    "task": "Give three meanings: follow/find origin, copy an outline, tiny amount.",
+    "usage": "Many meanings: find origin, follow a path, copy an outline, or a tiny amount ('a trace of').",
+    "word": "trace"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The artist rendered the scene so perfectly that Jo felt she could step right into the painting.",
+    "meaning": "provide, give, make, translate",
+    "n": 9,
+    "pos": "verb",
+    "task": "Give two meanings: provide/make and depict/show.",
+    "usage": "often used with \"to\" (render a service to someone); also means to melt (render fat)",
+    "word": "render"
+   },
+   {
+    "connotation": "positive (generosity)",
+    "example": "Marmee granted Jo permission to spend the summer with Aunt March, even though she knew it would be difficult work.",
+    "meaning": "(verb) give, allow, confer; (noun) award, subsidy",
+    "n": 10,
+    "pos": "verb/noun",
+    "task": "Give two meanings: allow/give and an award of money.",
+    "usage": "as verb: grant a wish, grant permission; as noun: a research grant; often used in phrase \"take for granted\" (fail to appreciate)",
+    "word": "grant"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The town charter was kept in a dusty old box at the church, and Jo loved reading about its history.",
+    "meaning": "(noun) contract, license, treaty; (verb) hire, rent",
+    "n": 11,
+    "pos": "noun/verb",
+    "task": "Give two meanings: formal document/license and hire/rent a vehicle.",
+    "usage": "as noun: a city charter; as verb: charter a bus",
+    "word": "charter"
+   },
+   {
+    "connotation": "positive (self-control) to neutral (training)",
+    "example": "Marmee believed that discipline was not about punishment, but about teaching her daughters to make wise choices on their own.",
+    "meaning": "(noun) self-control, order, training; (verb) train, correct, punish",
+    "n": 12,
+    "pos": "noun/verb",
+    "task": "Give two meanings: self-control/training and a field of study.",
+    "usage": "as noun: school discipline, self-discipline; as verb: discipline a child; adjective: disciplined",
+    "word": "discipline"
+   },
+   {
+    "connotation": "neutral to negative (if unfair)",
+    "example": "The girls learned to exploit every spare moment for their studies, turning even short breaks into opportunities to learn.",
+    "meaning": "(verb) utilize, leverage, take advantage of; (noun) deed, achievement",
+    "n": 13,
+    "pos": "verb/noun",
+    "task": "Give the verb meaning and the noun meaning. Explain why connotation changes.",
+    "usage": "verb often used with a direct object (exploit a resource); noun often plural (exploits of a hero)",
+    "word": "exploit"
+   },
+   {
+    "connotation": "neutral (refusal) to negative (decrease)",
+    "example": "Jo was forced to decline Laurie's invitation to the dance because she had too many chores to finish.",
+    "meaning": "(verb) refuse, reject, decrease; (noun) decrease, fall, deterioration",
+    "n": 14,
+    "pos": "verb/noun",
+    "task": "Give two meanings: refuse and decrease.",
+    "usage": "as verb: decline an offer, decline in health; as noun: a decline in fortunes; often used with \"in\"",
+    "word": "decline"
+   },
+   {
+    "connotation": "neutral – simply describes distance or unlikelihood",
+    "example": "The March family lived in a remote part of town, far from the bustling center, which made their home feel like a quiet little world of its own.",
+    "meaning": "distant, faraway, isolated, removed, slight",
+    "n": 15,
+    "pos": "adjective",
+    "task": "Give two meanings: far away and unlikely/slight.",
+    "usage": "can be physical (remote village), temporal (remote past), or figurative (remote possibility); noun: remoteness",
+    "word": "remote"
+   },
+   {
+    "connotation": "neutral (positive for efficiency, formal for agreement)",
+    "example": "The March family's small house was compact but cozy, with every corner filled with love and laughter.",
+    "meaning": "(adjective) small, tight, dense, compressed; (noun) agreement, contract",
+    "n": 16,
+    "pos": "adjective/noun",
+    "task": "Give two meanings: small/dense and a formal agreement.",
+    "usage": "as adjective: compact car, compact design; as noun: a compact between nations. Verb form: to compress",
+    "word": "compact"
+   },
+   {
+    "connotation": "neutral to positive (warmth of home)",
+    "example": "Beth was happiest doing domestic work – sewing, dusting, and keeping the home cozy for everyone.",
+    "meaning": "household, home, family, internal",
+    "n": 17,
+    "pos": "adjective",
+    "task": "Give two meanings: household/home and internal within a country.",
+    "usage": "often used with \"chores\", \"life\", \"affairs\", or \"politics\"; noun: domesticity",
+    "word": "domestic"
+   },
+   {
+    "connotation": "positive – shows effort, patience, and care",
+    "example": "The March sisters learned to cultivate their individual talents – Jo her writing, Amy her art, Beth her music, and Meg her homemaking skills.",
+    "meaning": "grow, develop, nurture, farm, foster",
+    "n": 18,
+    "pos": "verb",
+    "task": "Give one literal meaning and one figurative meaning.",
+    "usage": "can be literal (cultivate a garden) or figurative (cultivate a friendship); noun: cultivation",
+    "word": "cultivate"
+   },
+   {
+    "connotation": "neutral to negative (punishment or delay)",
+    "example": "Laurie was suspended from his studies for a week after playing a prank on his tutor, but the March sisters used the time to teach him how to be a proper gentleman—with mixed results.",
+    "meaning": "(delay) postpone, adjourn; (hang) hang, dangle; (remove) expel temporarily, bar",
+    "n": 19,
+    "pos": "verb",
+    "task": "Give three meanings: hang, postpone, temporarily remove.",
+    "usage": "as postpone: suspend the meeting; as hang: suspend a lantern from the ceiling; as punishment: suspended from school; noun: suspension",
+    "word": "suspend"
+   },
+   {
+    "connotation": "negative – suggests tension or fighting",
+    "example": "The conflict between Jo's desire for adventure and Marmee's need for peace at home often led to arguments.",
+    "meaning": "(noun) clash, struggle, dispute, disagreement; (verb) clash, differ",
+    "n": 20,
+    "pos": "noun/verb",
+    "task": "Explain the noun and verb meanings, then give one sentence where two accounts conflict.",
+    "usage": "as a noun: a conflict between friends; as a verb: their stories conflict with each other; adjective: conflicting",
+    "word": "conflict"
+   }
+  ]
+ },
+ "W4": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — REVIEW POOL + PRECISION • 20–25 min",
+  "words": [
+   {
+    "connotation": "positive (safety)",
+    "example": "The injured birds were taken to a wildlife sanctuary.",
+    "meaning": "refuge, haven, safe place",
+    "n": 1,
+    "pos": "noun",
+    "task": "Explain both meanings: a safe/refuge place and a protected place.",
+    "usage": "Can mean a safe place, a protected area, or a sacred part of a church.",
+    "word": "sanctuary"
+   },
+   {
+    "connotation": "positive",
+    "example": "She continued to strive for a clearer and more precise essay.",
+    "meaning": "endeavor, work hard, struggle toward",
+    "n": 2,
+    "pos": "verb",
+    "task": "Explain the meaning and give one natural phrase using strive for.",
+    "usage": "Usually followed by 'to' + verb or 'for' + noun: strive to improve; strive for excellence.",
+    "word": "strive"
+   },
+   {
+    "connotation": "neutral/negative depending context",
+    "example": "The assistant held a subordinate position in the organization.",
+    "meaning": "lower-ranking, secondary; place below",
+    "n": 3,
+    "pos": "adjective / noun / verb",
+    "task": "Explain lower in rank and contrast it with superior.",
+    "usage": "Can be a person lower in rank, an adjective meaning lower-ranked, or a verb meaning make less important.",
+    "word": "subordinate"
+   },
+   {
+    "connotation": "neutral/negative",
+    "example": "The detective suspected that the missing key was important.",
+    "meaning": "suppose, distrust; person believed guilty",
+    "n": 4,
+    "pos": "verb / noun / adjective",
+    "task": "Give the verb meaning and explain why suspect is weaker than know.",
+    "usage": "As a verb, believe without full proof. As a noun, a person thought to be involved in wrongdoing.",
+    "word": "suspect"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The population remained static for several years.",
+    "meaning": "unchanging, motionless; electrical charge",
+    "n": 5,
+    "pos": "adjective / noun",
+    "task": "Explain not moving/changing and contrast with stationary.",
+    "usage": "Can mean not changing, not moving, or electrical static. Compare stationary: physically not moving.",
+    "word": "static"
+   },
+   {
+    "connotation": "",
+    "example": "The ladder was stable; the bus stayed stationary at the stop; the town's population stayed static for years.",
+    "meaning": "STABLE = steady, not likely to fall, change, or collapse. STATIONARY = not moving, staying in one place. STATIC = not changing or developing over time; showing no movement or progress.",
+    "n": 6,
+    "pos": "adjectives (a set)",
+    "task": "Explain the precise difference among the three.",
+    "usage": "Stable is about balance and reliability; stationary is about position; static is about lack of change. Do not confuse stationary with stationery (paper).",
+    "word": "stable / stationary / static"
+   },
+   {
+    "connotation": "",
+    "example": "The rigid schedule allowed no changes; the rigorous training tested every skill.",
+    "meaning": "RIGID = stiff and unbending, either physically or in rules and attitudes (not flexible). RIGOROUS = extremely careful, thorough, and demanding.",
+    "n": 7,
+    "pos": "adjectives (a pair)",
+    "task": "Explain why these are not synonyms.",
+    "usage": "Rigid is often negative (too strict); rigorous is usually positive (high standards, careful work).",
+    "word": "rigid / rigorous"
+   },
+   {
+    "connotation": "",
+    "example": "A lieutenant is subordinate to a captain; the captain is the lieutenant's superior.",
+    "meaning": "SUPERIOR = higher in rank, quality, or importance; as a noun, the person above you. SUBORDINATE = lower in rank and under someone's authority; as a noun, a person who reports to another.",
+    "n": 8,
+    "pos": "adjectives and nouns (a pair)",
+    "task": "Explain the ranking relationship and give an example.",
+    "usage": "The two words describe the same relationship from opposite ends.",
+    "word": "superior / subordinate"
+   },
+   {
+    "connotation": "positive (shows unity, agreement)",
+    "example": "The sisters reached a unanimous decision to give their Christmas breakfast to the Hummel family, as each one of them felt it was the right thing to do.",
+    "meaning": "united, agreed, harmonious, like-minded, undivided",
+    "n": 9,
+    "pos": "adjective",
+    "task": "Explain why unanimous is stronger than majority.",
+    "usage": "often used with \"in\" (unanimous in their opinion) or \"on\" (unanimous on the decision); noun: unanimity; adverb: unanimously",
+    "word": "unanimous"
+   },
+   {
+    "connotation": "neutral",
+    "example": "Jo pulled a dusty old volume of poetry from the shelf and curled up by the fire to read it, finding comfort in the beautiful words that transported her away from her worries.",
+    "meaning": "(book) book, tome, edition; (amount) quantity, mass, size; (loudness) loudness, level",
+    "n": 10,
+    "pos": "noun",
+    "task": "Give three meanings: book, amount, loudness.",
+    "usage": "as book: the library has many volumes; as amount: volume of water; as loudness: turn up the volume; often used with \"of\" (volume of poetry)",
+    "word": "volume"
+   },
+   {
+    "connotation": "positive/neutral",
+    "example": "The project produced tangible results that everyone could measure.",
+    "meaning": "touchable, concrete, real",
+    "n": 11,
+    "pos": "adjective",
+    "task": "Explain the meaning and contrast with intangible.",
+    "usage": "Literal: able to be touched. Figurative: clear, real, or measurable. Opposite: intangible.",
+    "word": "tangible"
+   },
+   {
+    "connotation": "negative",
+    "example": "The icy mountain path was treacherous after the storm.",
+    "meaning": "dangerous, deceptive, disloyal",
+    "n": 12,
+    "pos": "adjective",
+    "task": "Give both common senses: dangerous conditions and disloyal behavior.",
+    "usage": "Can describe dangerous conditions or a person who betrays trust.",
+    "word": "treacherous"
+   },
+   {
+    "connotation": "positive/neutral (civic right)",
+    "example": "The women's suffrage movement fought for women's right to vote.",
+    "meaning": "right to vote, voting rights",
+    "n": 13,
+    "pos": "noun",
+    "task": "State precisely what right this word refers to.",
+    "usage": "Do not confuse with suffering. Suffrage specifically means the right to vote.",
+    "word": "suffrage"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The class learned a new scientific term during the lesson.",
+    "meaning": "period, word, condition; call/name",
+    "n": 14,
+    "pos": "noun / verb",
+    "task": "Give three meanings: word/expression, period, condition of an agreement.",
+    "usage": "Many meanings: school period, word/expression, condition of an agreement, or name something.",
+    "word": "term"
+   },
+   {
+    "connotation": "neutral",
+    "example": "Scientists traced the pollution back to a broken pipe.",
+    "meaning": "track, discover, copy outline; small sign",
+    "n": 15,
+    "pos": "verb / noun",
+    "task": "Give three meanings: follow origin, copy outline, tiny amount.",
+    "usage": "Many meanings: find origin, follow a path, copy an outline, or a tiny amount ('a trace of').",
+    "word": "trace"
+   },
+   {
+    "connotation": "positive (efficiency) or neutral (causation)",
+    "example": "Marmee was always prompt for church, and her punctuality inspired her daughters to be ready on time. (verb) Her kind words prompted Jo to apologize to Amy, even though it was hard.)",
+    "meaning": "(adj) quick, timely; (verb) cause, urge, inspire",
+    "n": 16,
+    "pos": "adjective / verb / noun",
+    "task": "Give three meanings: quick/on time, cue, cause someone to act.",
+    "usage": "as adjective: a prompt response; as verb: prompt someone to act; often used with \"to\" (prompted her to leave); noun: prompt (a cue)",
+    "word": "prompt"
+   },
+   {
+    "connotation": "neutral to negative (punishment or delay)",
+    "example": "Laurie was suspended from his studies for a week after playing a prank on his tutor, but the March sisters used the time to teach him how to be a proper gentleman—with mixed results.",
+    "meaning": "(delay) postpone, adjourn; (hang) hang, dangle; (remove) expel temporarily, bar",
+    "n": 17,
+    "pos": "verb",
+    "task": "Give three meanings: hang, postpone, temporarily remove.",
+    "usage": "as postpone: suspend the meeting; as hang: suspend a lantern from the ceiling; as punishment: suspended from school; noun: suspension",
+    "word": "suspend"
+   },
+   {
+    "connotation": "positive (as adjective)",
+    "example": "Beth was content with her simple life, finding joy in music and family.",
+    "meaning": "(adj) satisfied, pleased; (noun) substance, matter; (verb) satisfy",
+    "n": 18,
+    "pos": "adjective/noun/verb",
+    "task": "Give two meanings: satisfied and material/substance.",
+    "usage": "as adjective: content with life; as noun: table of contents; as verb: to content oneself",
+    "word": "content"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The capital of the state was just a few hours away, and the girls dreamed of visiting the big city.",
+    "meaning": "(noun) city, funds; (adj) primary, excellent",
+    "n": 19,
+    "pos": "noun/adjective",
+    "task": "Give three meanings: government city, money/assets, old-fashioned excellent.",
+    "usage": "as noun: capital city, financial capital; as adjective: capital idea (old-fashioned for great)",
+    "word": "capital"
+   },
+   {
+    "connotation": "",
+    "example": "When Mom said 'It's getting late,' she implied we should leave; I inferred from her hint that it was time to go.",
+    "meaning": "IMPLY = to suggest something without saying it directly (the speaker or writer sends the hint). INFER = to work out what is meant from clues (the listener or reader draws the conclusion).",
+    "n": 20,
+    "pos": "verbs (a pair)",
+    "task": "Explain who gives the hint and who draws the conclusion.",
+    "usage": "The sender implies; the receiver infers. The classic mix-up is saying 'Are you inferring that…?' when you mean 'Are you implying that…?'",
+    "word": "imply / infer"
+   }
+  ]
+ },
+ "W5": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — PRECISION REVIEW • 20–25 min",
+  "words": [
+   {
+    "connotation": "",
+    "example": "Her candid answer was that the cake tasted burnt.",
+    "meaning": "honest and direct, saying what you really think; frank, open, truthful",
+    "n": 1,
+    "pos": "adjective",
+    "task": "Explain in your own words + use it in a sentence about a conversation.",
+    "usage": "A candid photo is one taken without posing. Opposite: guarded, evasive.",
+    "word": "candid"
+   },
+   {
+    "connotation": "",
+    "example": "A thorough search of the room finally turned up the keys.",
+    "meaning": "complete and careful, leaving nothing out; detailed, meticulous",
+    "n": 2,
+    "pos": "adjective",
+    "task": "Give a synonym + an opposite. Then name a job that demands it.",
+    "usage": "Opposite: careless, superficial. A surgeon or an editor needs to be thorough.",
+    "word": "thorough"
+   },
+   {
+    "connotation": "",
+    "example": "His excuse was plausible, so the teacher accepted it.",
+    "meaning": "seeming likely to be true or reasonable; believable, credible",
+    "n": 3,
+    "pos": "adjective",
+    "task": "Explain what makes an excuse plausible + use it in a sentence.",
+    "usage": "Plausible means it could be true, not that it is proven. Opposite: implausible, far-fetched.",
+    "word": "plausible"
+   },
+   {
+    "connotation": "",
+    "example": "Copying the whole list by hand was tedious.",
+    "meaning": "long, slow, and boring; dull, tiresome, monotonous",
+    "n": 4,
+    "pos": "adjective",
+    "task": "Explain the connotation — is it positive, negative, or neutral? Say how you know.",
+    "usage": "Usually describes tasks, talks, or journeys. Opposite: exciting, engaging.",
+    "word": "tedious"
+   },
+   {
+    "connotation": "negative (tension)",
+    "example": "There was a constant dispute between Jo and Amy over who had the best taste in fashion.",
+    "meaning": "(noun) argument, disagreement; (verb) challenge, contest",
+    "n": 5,
+    "pos": "noun/verb",
+    "task": "Use it in a sentence about a disagreement, then give a synonym.",
+    "usage": "often used with \"over\" (dispute over the land) or \"about\" (dispute about the rules); adjective: disputable",
+    "word": "dispute"
+   },
+   {
+    "connotation": "",
+    "example": "The scratch was superficial and healed in a day; his superficial reading missed the story's point.",
+    "meaning": "only on the surface; not deep or thorough; shallow",
+    "n": 6,
+    "pos": "adjective",
+    "task": "Give one literal meaning and one figurative meaning.",
+    "usage": "Can be physical (a superficial cut) or about thinking (a superficial answer). Opposite: deep, thorough.",
+    "word": "superficial"
+   },
+   {
+    "connotation": "",
+    "example": "The pizza was mediocre—not bad, but nothing special.",
+    "meaning": "of only average or slightly below-average quality; ordinary, unremarkable, so-so",
+    "n": 7,
+    "pos": "adjective",
+    "task": "Rank worst to best: mediocre, excellent, poor. Explain your order.",
+    "usage": "Mildly negative. Opposite: excellent, outstanding.",
+    "word": "mediocre"
+   },
+   {
+    "connotation": "",
+    "example": "The lenient coach let us skip laps after the long game.",
+    "meaning": "not strict; merciful and easygoing when judging or punishing",
+    "n": 8,
+    "pos": "adjective",
+    "task": "Give a synonym + an opposite, then describe a lenient rule in one sentence.",
+    "usage": "Opposite: strict, harsh, severe. Noun: leniency.",
+    "word": "lenient"
+   },
+   {
+    "connotation": "",
+    "example": "Her admirable honesty earned the team's trust.",
+    "meaning": "deserving respect and approval; praiseworthy, commendable, excellent",
+    "n": 9,
+    "pos": "adjective",
+    "task": "Explain the connotation + use it in a sentence about a classmate's project.",
+    "usage": "From admire. Opposite: shameful, contemptible.",
+    "word": "admirable"
+   },
+   {
+    "connotation": "neutral to cautious (can become negative if overly distrustful)",
+    "example": "Jo was skeptical when Laurie promised to behave at the party, because she remembered how he had caused trouble at the last one.",
+    "meaning": "doubtful, dubious, questioning, unconvinced, suspicious",
+    "n": 10,
+    "pos": "adjective",
+    "task": "Explain in your own words + write a sentence where being skeptical is smart.",
+    "usage": "often followed by about (e.g., skeptical about the plan) or of (e.g., skeptical of his excuses); American spelling uses \"k\" (British: sceptical); noun forms are skeptic and skepticism",
+    "word": "skeptical"
+   },
+   {
+    "connotation": "",
+    "example": "After seeing the photo, he conceded that he had been wrong.",
+    "meaning": "to admit that something is true after first resisting; to give up or yield (a point, a game)",
+    "n": 11,
+    "pos": "verb",
+    "task": "Explain two common meanings and use each one in a sentence.",
+    "usage": "Concede a point, concede defeat, concede the election. Noun: concession.",
+    "word": "concede"
+   },
+   {
+    "connotation": "positive – expresses admiration",
+    "example": "Marmee commended Jo for her honest writing, even when the subject was difficult to discuss.",
+    "meaning": "praise, applaud, compliment, approve, recommend",
+    "n": 12,
+    "pos": "verb",
+    "task": "Give a synonym + an opposite, then use it in a sentence about a coach.",
+    "usage": "often used with \"for\" (commended her for her bravery) or \"as\" (commended as a great leader); noun: commendation",
+    "word": "commend"
+   },
+   {
+    "connotation": "positive (fairness) or neutral (not involved)",
+    "example": "When Jo and Amy argued over who should get the last piece of cake, Marmee stayed neutral—she listened to both sides and then suggested they share it, rather than choosing a favorite.",
+    "meaning": "impartial, unbiased, unaligned, non-partisan, indifferent (in this sense)",
+    "n": 13,
+    "pos": "adjective",
+    "task": "Explain what a neutral judge does + give one opposite.",
+    "usage": "often used with \"in\" (neutral in the argument) or \"between\" (neutral between the two sides); can also mean a color (gray, beige) but the \"no side\" meaning is key for ISEE",
+    "word": "neutral"
+   },
+   {
+    "connotation": "negative (implies carelessness)",
+    "example": "Jo regretted her hasty words the moment she saw Amy's hurt expression – she had spoken in anger and wished she could take it back.",
+    "meaning": "quick, hurried, rash, impulsive",
+    "n": 14,
+    "pos": "adjective",
+    "task": "Explain in your own words + give an example of a hasty decision.",
+    "usage": "often paired with \"decision\", \"departure\", or \"judgment\"; adverb: hastily; noun: haste",
+    "word": "hasty"
+   },
+   {
+    "connotation": "",
+    "example": "The art teacher's critique praised the colors but questioned the composition.",
+    "meaning": "(noun) a careful judgment of a piece of work, noting strengths and weaknesses; (verb) to evaluate in detail",
+    "n": 15,
+    "pos": "noun / verb",
+    "task": "Explain what a fair critique includes + give a synonym.",
+    "usage": "A critique is not just criticism—it can be positive. Do not confuse with critic (the person).",
+    "word": "critique"
+   },
+   {
+    "connotation": "",
+    "example": "She gave a sincere apology and meant every word.",
+    "meaning": "genuine and honest, meaning what you say; heartfelt, not fake",
+    "n": 16,
+    "pos": "adjective",
+    "task": "Explain the difference between sincere praise and polite praise.",
+    "usage": "Opposite: insincere, fake. Noun: sincerity.",
+    "word": "sincere"
+   },
+   {
+    "connotation": "negative – implies carelessness",
+    "example": "Amy's blunder of forgetting her lines on stage caused the audience to laugh – but she laughed along with them in the end.",
+    "meaning": "(noun) mistake, error, slip, oversight; (verb) mess up, fumble, trip",
+    "n": 17,
+    "pos": "noun/verb",
+    "task": "Explain in your own words + use it in a sentence about a game.",
+    "usage": "often used with \"make\" (make a blunder) or as a verb (blundered through the test); suggests clumsiness",
+    "word": "blunder"
+   },
+   {
+    "connotation": "",
+    "example": "The judge scrutinized every line of the contract.",
+    "meaning": "to examine very closely and carefully",
+    "n": 18,
+    "pos": "verb",
+    "task": "Give a synonym + an opposite. Then name something worth scrutinizing.",
+    "usage": "Stronger than look at or check. Noun: scrutiny ('under scrutiny').",
+    "word": "scrutinize"
+   },
+   {
+    "connotation": "",
+    "example": "The plan has merit; her hard work merits a reward.",
+    "meaning": "(noun) the quality of deserving praise; a good point or strength; (verb) to deserve",
+    "n": 19,
+    "pos": "noun / verb",
+    "task": "Explain two common meanings and which is more common on a test.",
+    "usage": "'Judge on merit' means by quality alone. Adjective: meritorious.",
+    "word": "merit"
+   },
+   {
+    "connotation": "",
+    "example": "A versatile athlete plays soccer, swims, and runs track.",
+    "meaning": "able to do many different things or be used in many ways; adaptable, all-round",
+    "n": 20,
+    "pos": "adjective",
+    "task": "Use it in a sentence about a person and one about a tool.",
+    "usage": "Used for people and objects (a versatile tool). Noun: versatility.",
+    "word": "versatile"
+   }
+  ]
+ },
+ "W6": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — PRECISION REVIEW • 20–25 min",
+  "words": [
+   {
+    "connotation": "",
+    "example": "A benevolent neighbor paid for the playground repairs.",
+    "meaning": "kind and generous, wanting to do good for others",
+    "n": 1,
+    "pos": "adjective",
+    "task": "Break into parts (bene + vol) and explain what the parts predict.",
+    "usage": "Opposite: malevolent, malicious. Root: bene- = good, well.",
+    "word": "benevolent"
+   },
+   {
+    "connotation": "",
+    "example": "The malicious rumor was spread to embarrass her.",
+    "meaning": "meaning to cause harm or hurt on purpose; spiteful, mean",
+    "n": 2,
+    "pos": "adjective",
+    "task": "Break into parts (mal + ice) and explain what the prefix predicts.",
+    "usage": "Opposite: kind, benevolent. Root: mal- = bad. Noun: malice.",
+    "word": "malicious"
+   },
+   {
+    "connotation": "",
+    "example": "The submarine submerged and disappeared from view.",
+    "meaning": "to put or go completely under water or another liquid; to cover or hide",
+    "n": 3,
+    "pos": "verb",
+    "task": "Break into parts (sub + merge) and explain what the parts predict.",
+    "usage": "Root: sub- = under + merge = dip. Opposite: surface, emerge.",
+    "word": "submerge"
+   },
+   {
+    "connotation": "",
+    "example": "The bakery sold its surplus bread at half price.",
+    "meaning": "an amount left over after what is needed is used; extra",
+    "n": 4,
+    "pos": "noun / adjective",
+    "task": "Break into parts (sur + plus) and explain what the parts predict.",
+    "usage": "Opposite: shortage, deficit. Root: sur- = over, above.",
+    "word": "surplus"
+   },
+   {
+    "connotation": "",
+    "example": "A subterranean river runs beneath the cave.",
+    "meaning": "underground; existing or happening beneath the earth's surface",
+    "n": 5,
+    "pos": "adjective",
+    "task": "Break into parts (sub + terra) and predict the meaning.",
+    "usage": "Roots: sub- = under + terra = earth.",
+    "word": "subterranean"
+   },
+   {
+    "connotation": "",
+    "example": "Celebrating before the final whistle was premature.",
+    "meaning": "happening or done too early, before the right time",
+    "n": 6,
+    "pos": "adjective",
+    "task": "Break into parts (pre + mature) and predict the meaning.",
+    "usage": "Roots: pre- = before + mature = ripe. A premature baby is born early.",
+    "word": "premature"
+   },
+   {
+    "connotation": "",
+    "example": "The witness contradicted the story told by the driver.",
+    "meaning": "to say the opposite of what someone else said; to be opposed to or inconsistent with",
+    "n": 7,
+    "pos": "verb",
+    "task": "Break into parts (contra + dict) and predict the meaning.",
+    "usage": "Roots: contra- = against + dict = say. Noun: contradiction.",
+    "word": "contradict"
+   },
+   {
+    "connotation": "neutral/formal",
+    "example": "After hearing all the evidence, the jury returned a verdict.",
+    "meaning": "decision, judgment, ruling",
+    "n": 8,
+    "pos": "noun",
+    "task": "The root dict means “speak.” Explain how that fits a jury’s verdict.",
+    "usage": "Most literally a jury's decision in court; figuratively, a final judgment or opinion.",
+    "word": "verdict"
+   },
+   {
+    "connotation": "",
+    "example": "The dejected team sat silently after the loss.",
+    "meaning": "sad and without hope, especially after a disappointment; downcast, discouraged",
+    "n": 9,
+    "pos": "adjective",
+    "task": "Break into parts (de + ject) and explain what the parts predict.",
+    "usage": "Root: de- = down + ject = throw. Opposite: cheerful, elated.",
+    "word": "dejected"
+   },
+   {
+    "connotation": "",
+    "example": "The prospect of snow excited the class; miners prospected for gold in the hills.",
+    "meaning": "(noun) the possibility or likelihood of something happening in the future; a chance; (verb) to search for gold or minerals",
+    "n": 10,
+    "pos": "noun / verb",
+    "task": "Break into parts (pro + spect) and predict the meaning.",
+    "usage": "Roots: pro- = forward + spect = look. Prospects (plural) often means chances of success.",
+    "word": "prospect"
+   },
+   {
+    "connotation": "",
+    "example": "The farm exports apples to Japan.",
+    "meaning": "(verb) to send goods to another country to sell; (noun) a product sent abroad",
+    "n": 11,
+    "pos": "verb / noun",
+    "task": "Break into parts (ex + port) and explain what the parts predict.",
+    "usage": "Roots: ex- = out + port = carry. Opposite: import.",
+    "word": "export"
+   },
+   {
+    "connotation": "",
+    "example": "Her name was inscribed on the trophy.",
+    "meaning": "to write, carve, or engrave words on something",
+    "n": 12,
+    "pos": "verb",
+    "task": "Name two more words built on scrib/script and say what the root means.",
+    "usage": "Roots: in- = in, on + scrib = write. Noun: inscription.",
+    "word": "inscribe"
+   },
+   {
+    "connotation": "",
+    "example": "Police diverted traffic around the parade; the puppet show diverted the restless children.",
+    "meaning": "to turn something aside from its course or direction; to distract or entertain",
+    "n": 13,
+    "pos": "verb",
+    "task": "Give one literal use (a river) and one figurative use (attention).",
+    "usage": "Roots: di- = apart + vert = turn. Noun: diversion.",
+    "word": "divert"
+   },
+   {
+    "connotation": "",
+    "example": "The credible witness gave the same clear account every time.",
+    "meaning": "able to be believed; convincing, trustworthy",
+    "n": 14,
+    "pos": "adjective",
+    "task": "The root cred means “believe.” Give a synonym and an opposite.",
+    "usage": "Root: cred = believe. Do not confuse with credulous (too ready to believe). Opposite: unbelievable (also incredible, in its original sense).",
+    "word": "credible"
+   },
+   {
+    "connotation": "",
+    "example": "The bus came to an abrupt stop; his abrupt reply ended the conversation.",
+    "meaning": "sudden and unexpected; also short and curt in manner",
+    "n": 15,
+    "pos": "adjective",
+    "task": "Give a synonym and an opposite.",
+    "usage": "Root: rupt = break. Opposite: gradual; (of manner) polite, gentle.",
+    "word": "abrupt"
+   },
+   {
+    "connotation": "",
+    "example": "A fallen tree obstructed the road.",
+    "meaning": "to block or get in the way of; to hinder",
+    "n": 16,
+    "pos": "verb",
+    "task": "Explain the connotation — positive, negative, or neutral?",
+    "usage": "Root: struct = build. Noun: obstruction. Synonyms: block, impede.",
+    "word": "obstruct"
+   },
+   {
+    "connotation": "",
+    "example": "The newspaper retracted the false report; a cat retracts its claws.",
+    "meaning": "to take back something said or written; to pull back in",
+    "n": 17,
+    "pos": "verb",
+    "task": "Give one literal use and one figurative use.",
+    "usage": "Roots: re- = back + tract = pull. Noun: retraction.",
+    "word": "retract"
+   },
+   {
+    "connotation": "",
+    "example": "Wind propelled the sailboat across the lake.",
+    "meaning": "to push or drive something forward",
+    "n": 18,
+    "pos": "verb",
+    "task": "Break into parts (pro + pel) and predict the meaning.",
+    "usage": "Roots: pro- = forward + pel = push. Related: propeller, propulsion.",
+    "word": "propel"
+   },
+   {
+    "connotation": "",
+    "example": "Her whisper was barely audible from the back row.",
+    "meaning": "loud enough to be heard",
+    "n": 19,
+    "pos": "adjective",
+    "task": "The suffix -ible means “able to be.” Give a synonym and an opposite.",
+    "usage": "Root: aud = hear. Opposite: inaudible.",
+    "word": "audible"
+   },
+   {
+    "connotation": "",
+    "example": "As a novice skier, he stayed on the gentle slope.",
+    "meaning": "a person who is new to an activity and not yet skilled; a beginner",
+    "n": 20,
+    "pos": "noun",
+    "task": "Explain the connotation — positive, negative, or neutral?",
+    "usage": "Root: nov = new. Opposite: expert, veteran.",
+    "word": "novice"
+   }
+  ]
+ },
+ "W7": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — PRECISION REVIEW • 20–25 min",
+  "words": [
+   {
+    "connotation": "",
+    "example": "A frugal shopper compares prices and skips extras.",
+    "meaning": "careful with money and resources; not wasteful; thrifty, economical",
+    "n": 1,
+    "pos": "adjective",
+    "task": "Is this praise or criticism? Give the near-synonym with the opposite feeling.",
+    "usage": "Usually positive (sensible). Compare stingy, which is negative.",
+    "word": "frugal"
+   },
+   {
+    "connotation": "",
+    "example": "The stingy uncle refused to chip in for the birthday cake.",
+    "meaning": "unwilling to spend or give, even when you should; ungenerous with money",
+    "n": 2,
+    "pos": "adjective",
+    "task": "Say what feeling this carries, then name the kinder word for the same habit.",
+    "usage": "Negative. Compare frugal (sensible saving). Opposite: generous.",
+    "word": "stingy"
+   },
+   {
+    "connotation": "",
+    "example": "The inquisitive child asked how the clock worked.",
+    "meaning": "eager to learn and ask questions; curious",
+    "n": 3,
+    "pos": "adjective",
+    "task": "Praise or criticism? Give the unkind word for the very same behavior.",
+    "usage": "Root: quis = ask (as in inquire, question). Mostly positive; can hint at nosy.",
+    "word": "inquisitive"
+   },
+   {
+    "connotation": "",
+    "example": "With a sly grin, the fox slipped past the sleeping dog.",
+    "meaning": "clever in a sneaky or secretive way; cunning, crafty",
+    "n": 4,
+    "pos": "adjective",
+    "task": "Is this praise or criticism? Name the admiring word for the same cleverness.",
+    "usage": "Slightly negative. 'On the sly' means secretly.",
+    "word": "sly"
+   },
+   {
+    "connotation": "",
+    "example": "The arrogant champion refused to shake hands.",
+    "meaning": "having an exaggerated sense of one's own importance; proud and looking down on others",
+    "n": 5,
+    "pos": "adjective",
+    "task": "Give the admiring word for the same trait, and say what makes the difference.",
+    "usage": "Negative. Opposite: modest, humble. Noun: arrogance.",
+    "word": "arrogant"
+   },
+   {
+    "connotation": "",
+    "example": "Though she won, she was modest about it; they live in a modest house.",
+    "meaning": "not boastful about one's abilities or achievements; humble. Also: moderate or not large in size or amount",
+    "n": 6,
+    "pos": "adjective",
+    "task": "Explain the connotation — positive, negative, or neutral — and why.",
+    "usage": "Opposite: arrogant, boastful. Noun: modesty.",
+    "word": "modest"
+   },
+   {
+    "connotation": "",
+    "example": "The stern librarian silenced the room with one look.",
+    "meaning": "serious and strict; severe in manner or expression",
+    "n": 7,
+    "pos": "adjective",
+    "task": "Say what a stern voice sounds like, then name the harsher word for it.",
+    "usage": "Opposite: lenient, gentle. Also a noun: the back of a ship.",
+    "word": "stern"
+   },
+   {
+    "connotation": "positive (strongly complimentary)",
+    "example": "Beth was the most diligent of the sisters when it came to her piano practice, rising early every morning to play her scales.",
+    "meaning": "industrious, assiduous, dedicated, careful",
+    "n": 8,
+    "pos": "adjective",
+    "task": "Use it about a classmate in a sentence that is clearly praise.",
+    "usage": "often paired with \"in\" (diligent in her studies) or \"about\" (diligent about details); noun: diligence",
+    "word": "diligent"
+   },
+   {
+    "connotation": "",
+    "example": "A loyal friend stays when things get hard.",
+    "meaning": "faithful and supportive to a person, group, or cause; steadfast",
+    "n": 9,
+    "pos": "adjective",
+    "task": "Praise or criticism? Say what a loyal friend does that a friendly one may not.",
+    "usage": "Opposite: disloyal, treacherous. Noun: loyalty.",
+    "word": "loyal"
+   },
+   {
+    "connotation": "",
+    "example": "Her blunt review said the story was boring; the blunt knife would not cut the rope.",
+    "meaning": "(of a person or remark) very direct and plain, even if it hurts; (of an edge) not sharp",
+    "n": 10,
+    "pos": "adjective",
+    "task": "Praise or criticism? Rewrite a blunt remark so it stays honest but kinder.",
+    "usage": "Blunt speech is honest but tactless. Opposite: tactful; (edge) sharp.",
+    "word": "blunt"
+   },
+   {
+    "connotation": "positive – shows trustworthiness",
+    "example": "Jo made an earnest promise to Marmee that she would try to control her temper, and she truly meant it.",
+    "meaning": "sincere, serious, genuine, heartfelt, solemn",
+    "n": 11,
+    "pos": "adjective/noun",
+    "task": "Describe a speaker with this tone in one sentence. Is it warm or cold?",
+    "usage": "often used with desire, wish, effort, tone; phrase \"in earnest\" means seriously or with full force",
+    "word": "earnest"
+   },
+   {
+    "connotation": "",
+    "example": "She was indignant when she was blamed for a mess she did not make.",
+    "meaning": "angry because of something unfair or wrong",
+    "n": 12,
+    "pos": "adjective",
+    "task": "Name what causes this feeling, and how it differs from plain anger.",
+    "usage": "Anger with a sense of injustice. Noun: indignation.",
+    "word": "indignant"
+   },
+   {
+    "connotation": "",
+    "example": "He was envious of his cousin's new bike.",
+    "meaning": "wanting what someone else has; jealous of another's success or possessions",
+    "n": 13,
+    "pos": "adjective",
+    "task": "Name the feeling this carries, then give the kinder word for noticing what others have.",
+    "usage": "Noun: envy. Envious is about wanting what others have; jealous also covers fearing to lose what you have.",
+    "word": "envious"
+   },
+   {
+    "connotation": "",
+    "example": "I am grateful for the ride home in the rain.",
+    "meaning": "feeling or showing thanks; appreciative",
+    "n": 14,
+    "pos": "adjective",
+    "task": "Say what feeling this carries, and name the word for someone who shows none of it.",
+    "usage": "Noun: gratitude. Opposite: ungrateful.",
+    "word": "grateful"
+   },
+   {
+    "connotation": "",
+    "example": "The crowd grew solemn as the flag was lowered.",
+    "meaning": "very serious and dignified; not cheerful or playful",
+    "n": 15,
+    "pos": "adjective",
+    "task": "Name two occasions where this tone fits and one where it would be odd.",
+    "usage": "Also: a solemn promise = a serious, formal one. Opposite: light-hearted.",
+    "word": "solemn"
+   },
+   {
+    "connotation": "",
+    "example": "The enthusiastic fans cheered every play.",
+    "meaning": "full of eager excitement and interest",
+    "n": 16,
+    "pos": "adjective",
+    "task": "Show the difference between this and simply agreeing to help.",
+    "usage": "Noun: enthusiasm. Opposite: indifferent, unenthusiastic.",
+    "word": "enthusiastic"
+   },
+   {
+    "connotation": "",
+    "example": "The cautious hiker tested each rock before stepping.",
+    "meaning": "careful to avoid danger or mistakes; wary",
+    "n": 17,
+    "pos": "adjective",
+    "task": "Strength or fault? Give the word that turns this same care into an insult.",
+    "usage": "Noun: caution. Opposite: reckless, careless.",
+    "word": "cautious"
+   },
+   {
+    "connotation": "",
+    "example": "A sympathetic nurse listened to the worried patient.",
+    "meaning": "feeling or showing understanding and care for someone's trouble; also, approving of or supportive toward an idea",
+    "n": 18,
+    "pos": "adjective",
+    "task": "Say how this differs from pitying, and why the difference matters.",
+    "usage": "Noun: sympathy. Compare empathetic (actually sharing the feeling).",
+    "word": "sympathetic"
+   },
+   {
+    "connotation": "",
+    "example": "Old photos made Grandpa nostalgic for his school days.",
+    "meaning": "feeling a bittersweet longing for the past",
+    "n": 19,
+    "pos": "adjective",
+    "task": "Name the feeling this carries and one thing that could set it off.",
+    "usage": "Noun: nostalgia. Often positive-sad: happy memories mixed with missing them.",
+    "word": "nostalgic"
+   },
+   {
+    "connotation": "",
+    "example": "The weary hikers dropped their packs at camp; she grew weary of the same jokes.",
+    "meaning": "very tired, especially after long effort; also, tired of something",
+    "n": 20,
+    "pos": "adjective",
+    "task": "Say how this differs from plain tiredness, and what a weary voice sounds like.",
+    "usage": "'Weary of' = fed up with. Do not confuse with wary (cautious).",
+    "word": "weary"
+   }
+  ]
+ },
+ "W8": {
+  "minutes": "20–25 min",
+  "title": "SESSION 1 — CUMULATIVE PRECISION • 20–25 min",
+  "words": [
+   {
+    "connotation": "neutral",
+    "example": "The capital of the state was just a few hours away, and the girls dreamed of visiting the big city.",
+    "meaning": "(noun) city, funds; (adj) primary, excellent",
+    "n": 1,
+    "pos": "noun/adjective",
+    "task": "Two meanings — give both, each in its own short sentence.",
+    "usage": "as noun: capital city, financial capital; as adjective: capital idea (old-fashioned for great)",
+    "word": "capital"
+   },
+   {
+    "connotation": "positive (as adjective)",
+    "example": "Beth was content with her simple life, finding joy in music and family.",
+    "meaning": "(adj) satisfied, pleased; (noun) substance, matter; (verb) satisfy",
+    "n": 2,
+    "pos": "adjective/noun/verb",
+    "task": "Say what it means in “content with her meal” and in “the content of the book.”",
+    "usage": "as adjective: content with life; as noun: table of contents; as verb: to content oneself",
+    "word": "content"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The class learned a new scientific term during the lesson.",
+    "meaning": "period, word, condition; call/name",
+    "n": 3,
+    "pos": "noun / verb",
+    "task": "Give two meanings; use the one that is NOT about time in a sentence.",
+    "usage": "Many meanings: school period, word/expression, condition of an agreement, or name something.",
+    "word": "term"
+   },
+   {
+    "connotation": "neutral",
+    "example": "Jo pulled a dusty old volume of poetry from the shelf and curled up by the fire to read it, finding comfort in the beautiful words that transported her away from her worries.",
+    "meaning": "(book) book, tome, edition; (amount) quantity, mass, size; (loudness) loudness, level",
+    "n": 4,
+    "pos": "noun",
+    "task": "Name three meanings it can have and one clue word that signals each.",
+    "usage": "as book: the library has many volumes; as amount: volume of water; as loudness: turn up the volume; often used with \"of\" (volume of poetry)",
+    "word": "volume"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The artist rendered the scene so perfectly that Jo felt she could step right into the painting.",
+    "meaning": "provide, give, make, translate",
+    "n": 5,
+    "pos": "verb",
+    "task": "Use it in a sentence that makes the meaning obvious to a reader who doesn't know it.",
+    "usage": "often used with \"to\" (render a service to someone); also means to melt (render fat)",
+    "word": "render"
+   },
+   {
+    "connotation": "positive (generosity)",
+    "example": "Marmee granted Jo permission to spend the summer with Aunt March, even though she knew it would be difficult work.",
+    "meaning": "(verb) give, allow, confer; (noun) award, subsidy",
+    "n": 6,
+    "pos": "verb/noun",
+    "task": "Give the verb meaning and the noun meaning, with one example each.",
+    "usage": "as verb: grant a wish, grant permission; as noun: a research grant; often used in phrase \"take for granted\" (fail to appreciate)",
+    "word": "grant"
+   },
+   {
+    "connotation": "neutral (positive for efficiency, formal for agreement)",
+    "example": "The March family's small house was compact but cozy, with every corner filled with love and laughter.",
+    "meaning": "(adjective) small, tight, dense, compressed; (noun) agreement, contract",
+    "n": 7,
+    "pos": "adjective/noun",
+    "task": "Beyond “small,” give its other meaning and use that one in a sentence.",
+    "usage": "as adjective: compact car, compact design; as noun: a compact between nations. Verb form: to compress",
+    "word": "compact"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The town charter was kept in a dusty old box at the church, and Jo loved reading about its history.",
+    "meaning": "(noun) contract, license, treaty; (verb) hire, rent",
+    "n": 8,
+    "pos": "noun/verb",
+    "task": "Use it as a VERB in a sentence that makes the meaning obvious.",
+    "usage": "as noun: a city charter; as verb: charter a bus",
+    "word": "charter"
+   },
+   {
+    "connotation": "neutral (refusal) to negative (decrease)",
+    "example": "Jo was forced to decline Laurie's invitation to the dance because she had too many chores to finish.",
+    "meaning": "(verb) refuse, reject, decrease; (noun) decrease, fall, deterioration",
+    "n": 9,
+    "pos": "verb/noun",
+    "task": "Give both meanings and one sentence where only one of them could fit.",
+    "usage": "as verb: decline an offer, decline in health; as noun: a decline in fortunes; often used with \"in\"",
+    "word": "decline"
+   },
+   {
+    "connotation": "positive (shows wisdom)",
+    "example": "Jo used great discretion when sharing her stories, never revealing which sisters were the models for her characters.",
+    "meaning": "prudence, tact, caution, judgment",
+    "n": 10,
+    "pos": "noun",
+    "task": "Name the word it is most often confused with and give the difference.",
+    "usage": "often used with \"with\" (discretion with secrets) or \"at\" (use your discretion); adjective: discreet (not discrete)",
+    "word": "discretion"
+   },
+   {
+    "connotation": "positive (shows unity, agreement)",
+    "example": "The sisters reached a unanimous decision to give their Christmas breakfast to the Hummel family, as each one of them felt it was the right thing to do.",
+    "meaning": "united, agreed, harmonious, like-minded, undivided",
+    "n": 11,
+    "pos": "adjective",
+    "task": "Name the word it is most often confused with and give the difference.",
+    "usage": "often used with \"in\" (unanimous in their opinion) or \"on\" (unanimous on the decision); noun: unanimity; adverb: unanimously",
+    "word": "unanimous"
+   },
+   {
+    "connotation": "neutral (can be positive or negative depending on context)",
+    "example": "Jo's bright red hair was conspicuous among the other girls, making her easy to spot in the crowd.",
+    "meaning": "noticeable, obvious, clear, prominent, visible",
+    "n": 12,
+    "pos": "adjective",
+    "task": "Name the word it is most often confused with and give the difference.",
+    "usage": "often used with \"in\" (conspicuous in the crowd); opposite: inconspicuous (hard to notice)",
+    "word": "conspicuous"
+   },
+   {
+    "connotation": "positive (complimentary)",
+    "example": "Despite his gruff appearance, the old soldier was benign and always gave the girls candy.",
+    "meaning": "harmless, gentle, kind, mild",
+    "n": 13,
+    "pos": "adjective",
+    "task": "Give the meaning + one situation where it would NOT apply.",
+    "usage": "often paired with \"nature\" or \"influence.\" In ISEE sample #2, BENIGN means HARMLESS (not cunning, graceful, or sensible).",
+    "word": "benign"
+   },
+   {
+    "connotation": "negative (stressful, awkward)",
+    "example": "Jo found herself in a predicament when both Laurie and his tutor asked her to the same dance—she liked both, but could not say yes to one without hurting the other.",
+    "meaning": "dilemma, trouble, difficulty, plight, bind",
+    "n": 14,
+    "pos": "noun",
+    "task": "Use it in a sentence that makes the meaning obvious to a reader who doesn't know it.",
+    "usage": "often used with \"in\" (in a predicament) or \"of\" (the predicament of choosing); implies a need for a difficult decision",
+    "word": "predicament"
+   },
+   {
+    "connotation": "positive or neutral – usually a pleasant, sentimental activity",
+    "example": "The sisters would often reminisce about their childhood Christmases, laughing at how they used to put on plays and pretend to be knights and princesses.",
+    "meaning": "recall, remember, reflect, look back, dwell on the past",
+    "n": 15,
+    "pos": "verb",
+    "task": "Give the meaning + one situation where it would NOT apply.",
+    "usage": "often used with \"about\" (reminisce about old times); does not take a direct object (you don't \"reminisce a memory\")",
+    "word": "reminisce"
+   },
+   {
+    "connotation": "neutral/negative",
+    "example": "Her excitement began to wane after several hours of waiting.",
+    "meaning": "decrease, diminish, fade",
+    "n": 16,
+    "pos": "verb",
+    "task": "Name the word it pairs with as an opposite, and give the difference.",
+    "usage": "Opposite of wax in the traditional phrase 'wax and wane.' Often used for strength, interest, influence, or the moon.",
+    "word": "wane"
+   },
+   {
+    "connotation": "neutral",
+    "example": "Jo meant her praise in the literal sense – Amy's drawing really was beautiful, not just pretty for a child\".\"",
+    "meaning": "exact, word-for-word, actual",
+    "n": 17,
+    "pos": "adjective",
+    "task": "Name the word it is most often confused with and give the difference.",
+    "usage": "often paired with \"meaning\" or \"sense\"; opposite: figurative; adverb: literally (often misused)",
+    "word": "literal"
+   },
+   {
+    "connotation": "positive (loving), neutral (painful/food), formal (verb)",
+    "example": "Marmee gave Beth a tender smile as she tucked her into bed, whispering a goodnight prayer.",
+    "meaning": "(loving) gentle, kind, affectionate; (painful) sore, sensitive; (food) soft; (verb) offer, present",
+    "n": 18,
+    "pos": "adjective/verb/noun",
+    "task": "Give two meanings and one sentence for each that makes the meaning obvious.",
+    "usage": "test often focuses on loving or painful meanings; verb meaning is formal (tender resignation)",
+    "word": "tender"
+   },
+   {
+    "connotation": "neutral/negative depending context",
+    "example": "The assistant held a subordinate position in the organization.",
+    "meaning": "lower-ranking, secondary; place below",
+    "n": 19,
+    "pos": "adjective / noun / verb",
+    "task": "Name the word it is most often confused with and give the difference.",
+    "usage": "Can be a person lower in rank, an adjective meaning lower-ranked, or a verb meaning make less important.",
+    "word": "subordinate"
+   },
+   {
+    "connotation": "neutral",
+    "example": "The population remained static for several years.",
+    "meaning": "unchanging, motionless; electrical charge",
+    "n": 20,
+    "pos": "adjective / noun",
+    "task": "Name the two words it is most often confused with and give the difference.",
+    "usage": "Can mean not changing, not moving, or electrical static. Compare stationary: physically not moving.",
+    "word": "static"
+   }
+  ]
+ }
+}

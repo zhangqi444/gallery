@@ -1,0 +1,941 @@
+{
+ "aops": {
+  "free": [
+   {
+    "name": "Alcumus",
+    "url": "https://artofproblemsolving.com/alcumus",
+    "what": "Adaptive problem set. Set one focus topic and it keeps feeding problems at the right level. Free."
+   },
+   {
+    "name": "Prealgebra videos",
+    "url": "https://artofproblemsolving.com/videos",
+    "what": "Richard Rusczyk teaching the Prealgebra topics, chapter by chapter. Free, and it stands on its own without the book."
+   },
+   {
+    "name": "AoPS Wiki",
+    "url": "https://artofproblemsolving.com/wiki",
+    "what": "Free reference for definitions and worked competition problems."
+   }
+  ],
+  "note": "Where each ISEE maths skill is taught in the AoPS material. Beast Academy references are level + unit as published on beastacademy.com; Prealgebra references are chapter titles from the AoPS Prealgebra contents (the book numbers chapters, but titles are stable across printings). Alcumus and the Prealgebra video series are free with an AoPS account.",
+  "skills": {
+   "Algebra": {
+    "alcumus": "Linear equations",
+    "ba": "5A · Expressions & Equations",
+    "pa": "Equations and Inequalities",
+    "why": "Writing the sentence as an equation, then solving it in steps."
+   },
+   "Algebraic reasoning": {
+    "alcumus": "Linear equations",
+    "ba": "5A · Expressions & Equations",
+    "pa": "Equations and Inequalities",
+    "why": "Unknowns inside a word problem — “$24 buys x tickets at $6”."
+   },
+   "Angles": {
+    "alcumus": "Geometry",
+    "ba": "4A · Shapes",
+    "pa": "Angles",
+    "why": "Straight lines, triangles, parallel lines."
+   },
+   "Area": {
+    "alcumus": "Geometry",
+    "ba": "5A · 3D Solids (surface area)",
+    "pa": "Perimeter and Area",
+    "why": "Rectangles, triangles, and composite shapes."
+   },
+   "Average": {
+    "alcumus": "Statistics",
+    "ba": "5B · Statistics",
+    "pa": "Statistics",
+    "why": "Same chapter as Mean."
+   },
+   "Consecutive integers": {
+    "alcumus": "Number theory",
+    "ba": "5C · Sequences",
+    "pa": "Properties of Arithmetic",
+    "why": "Runs of numbers and their sums."
+   },
+   "Coordinates": {
+    "alcumus": "Geometry",
+    "ba": "4A · Shapes",
+    "pa": "Perimeter and Area",
+    "why": "Plotting, distance along a grid."
+   },
+   "Data": {
+    "alcumus": "Statistics",
+    "ba": "5B · Statistics",
+    "pa": "Statistics",
+    "why": "Reading tables and graphs, then computing from them."
+   },
+   "Data reasoning": {
+    "alcumus": "Statistics",
+    "ba": "5B · Statistics",
+    "pa": "Statistics",
+    "why": "Reading tables and graphs, then computing from them."
+   },
+   "Decimals": {
+    "alcumus": "Decimals",
+    "ba": "4D · Decimals",
+    "ba2": "5C · Decimals",
+    "pa": "Decimals",
+    "why": "Place value, money arithmetic, converting to and from fractions."
+   },
+   "Divisibility": {
+    "alcumus": "Number theory",
+    "ba": "4B · Division (divisibility)",
+    "pa": "Primes and Divisors",
+    "why": "The divisibility tests, which save time under a clock."
+   },
+   "Division": {
+    "alcumus": "Arithmetic properties",
+    "ba": "4B · Division",
+    "pa": "Properties of Arithmetic",
+    "why": "Long division, special quotients, divisibility shortcuts."
+   },
+   "Estimation": {
+    "alcumus": "Percents",
+    "ba": "5D · Percents (estimation)",
+    "pa": "Percents",
+    "why": "Rounding to something easy, then adjusting."
+   },
+   "Exponents": {
+    "alcumus": "Exponents",
+    "ba": "5D · Exponents",
+    "ba2": "4A · Exponents",
+    "pa": "Exponents",
+    "why": "Powers, and what happens when you multiply or divide them."
+   },
+   "Expression": {
+    "alcumus": "Linear equations",
+    "ba": "5A · Expressions & Equations",
+    "pa": "Equations and Inequalities",
+    "why": "Notation, like terms, simplifying."
+   },
+   "Factors": {
+    "alcumus": "Number theory",
+    "ba": "5B · Factors & Multiples",
+    "ba2": "4C · Factors",
+    "pa": "Primes and Divisors",
+    "why": "GCF, LCM, prime factorisation."
+   },
+   "Fractions": {
+    "alcumus": "Fractions",
+    "ba": "4C · Fractions (add, subtract, convert) and 4D · Fractions (multiply, divide by unit fractions)",
+    "ba2": "5B · Fractions (unlike denominators, division)",
+    "pa": "Fractions",
+    "why": "Unlike denominators, and “how many ⅛s fit in ¾” — division framed as measurement."
+   },
+   "Geometry": {
+    "alcumus": "Geometry",
+    "ba": "4A · Shapes",
+    "pa": "Angles",
+    "why": "Definitions, parallel and perpendicular, symmetry."
+   },
+   "Mean": {
+    "alcumus": "Statistics",
+    "ba": "5B · Statistics",
+    "pa": "Statistics",
+    "why": "Average as total ÷ count, and working backwards from an average."
+   },
+   "Measurement": {
+    "alcumus": "Rates",
+    "ba": "5C · Ratios & Rates (unit conversions)",
+    "pa": "Unit Conversions and Rates",
+    "why": "Converting units without losing the factor."
+   },
+   "Median": {
+    "alcumus": "Statistics",
+    "ba": "5B · Statistics",
+    "pa": "Statistics",
+    "why": "Median, mode and range together."
+   },
+   "Mode": {
+    "alcumus": "Statistics",
+    "ba": "5B · Statistics",
+    "pa": "Statistics",
+    "why": "Median, mode and range together."
+   },
+   "Multiples": {
+    "alcumus": "Number theory",
+    "ba": "5B · Factors & Multiples",
+    "pa": "Primes and Divisors",
+    "why": "LCM, and spotting it inside a word problem."
+   },
+   "Number properties": {
+    "alcumus": "Number theory",
+    "ba": "4C · Integers",
+    "pa": "Properties of Arithmetic",
+    "why": "Odd/even, positive/negative, and what operations preserve."
+   },
+   "Number sense": {
+    "alcumus": "Arithmetic properties",
+    "ba": "5C · Decimals",
+    "pa": "Properties of Arithmetic",
+    "why": "Estimating and sanity-checking before computing."
+   },
+   "Order of operations": {
+    "alcumus": "Arithmetic properties",
+    "ba": "4A · Exponents (order of operations)",
+    "ba2": "5A · Expressions & Equations",
+    "pa": "Properties of Arithmetic",
+    "why": "What binds first, and why 7 + 3 × 9 is not 90."
+   },
+   "Parity": {
+    "alcumus": "Number theory",
+    "ba": "4C · Integers",
+    "pa": "Properties of Arithmetic",
+    "why": "Odd and even as a tool, not a label."
+   },
+   "Pattern": {
+    "alcumus": "Sequences",
+    "ba": "5C · Sequences",
+    "pa": "Properties of Arithmetic",
+    "why": "Finding the rule, then the nth term."
+   },
+   "Percent": {
+    "alcumus": "Percents",
+    "ba": "5D · Percents",
+    "ba2": "4D · Decimals (for the fraction–decimal–percent link)",
+    "pa": "Percents",
+    "why": "Percent of a number, and converting between fractions, decimals and percents."
+   },
+   "Perimeter": {
+    "alcumus": "Geometry",
+    "ba": "4A · Shapes",
+    "pa": "Perimeter and Area",
+    "why": "Perimeter against area — the classic mix-up."
+   },
+   "Prime factors": {
+    "alcumus": "Number theory",
+    "ba": "4C · Factors",
+    "pa": "Primes and Divisors",
+    "why": "Factor trees and what they are good for."
+   },
+   "Probability": {
+    "alcumus": "Probability",
+    "ba": "4D · Probability",
+    "pa": "Counting and Probability",
+    "why": "Favourable over total, and counting the total properly."
+   },
+   "Range": {
+    "alcumus": "Statistics",
+    "ba": "5B · Statistics",
+    "pa": "Statistics",
+    "why": "Median, mode and range together."
+   },
+   "Ratio": {
+    "alcumus": "Ratios and proportions",
+    "ba": "5C · Ratios & Rates",
+    "pa": "Ratios and Proportions",
+    "why": "Part-to-part against part-to-whole, and scaling both sides."
+   },
+   "Remainders": {
+    "alcumus": "Number theory",
+    "ba": "4B · Division",
+    "pa": "Primes and Divisors",
+    "why": "What a remainder means, and cycles."
+   },
+   "Scale": {
+    "alcumus": "Ratios and proportions",
+    "ba": "5C · Ratios & Rates",
+    "pa": "Ratios and Proportions",
+    "why": "Maps and drawings — the same proportion in disguise."
+   },
+   "Scale reasoning": {
+    "alcumus": "Ratios and proportions",
+    "ba": "5C · Ratios & Rates",
+    "pa": "Ratios and Proportions",
+    "why": "Maps and drawings — the same proportion in disguise."
+   },
+   "Square roots": {
+    "alcumus": "Square roots",
+    "ba": "5D · Square Roots",
+    "pa": "Square Roots",
+    "why": "Squares, roots, and estimating between whole numbers."
+   },
+   "Squares": {
+    "alcumus": "Square roots",
+    "ba": "5D · Square Roots",
+    "pa": "Square Roots",
+    "why": "Perfect squares worth knowing by sight."
+   },
+   "Symmetry": {
+    "alcumus": "Geometry",
+    "ba": "4A · Shapes",
+    "pa": "Angles",
+    "why": "Lines of symmetry."
+   },
+   "Unit rate": {
+    "alcumus": "Rates",
+    "ba": "5C · Ratios & Rates",
+    "pa": "Unit Conversions and Rates",
+    "why": "Per-one thinking, speed, price per unit."
+   },
+   "Volume": {
+    "alcumus": "Geometry",
+    "ba": "5A · 3D Solids",
+    "pa": "Perimeter and Area",
+    "why": "Nets, surface area and volume of boxes."
+   },
+   "Volume reasoning": {
+    "alcumus": "Geometry",
+    "ba": "5A · 3D Solids",
+    "pa": "Perimeter and Area",
+    "why": "Reasoning about a solid without a formula."
+   },
+   "Whole-number operations": {
+    "alcumus": "Arithmetic properties",
+    "ba": "4A · Multiplication (algorithms, distributive property)",
+    "ba2": "4B · Division (long division, divisibility)",
+    "pa": "Properties of Arithmetic",
+    "why": "Multi-digit accuracy. If the misses are slips rather than method, drill speed instead — a chapter will not fix carrying."
+   }
+  }
+ },
+ "books": {
+  "note": "Independent reading. The starter books are what Sheila has actually read or is reading; suggestions are well-known middle-grade titles chosen for the reading skills the ISEE tests. A starter book added later is put on the shelf by seedBooks on every device, once.",
+  "starter": [
+   {
+    "author": "Roald Dahl",
+    "id": "charlie",
+    "status": "finished",
+    "title": "Charlie and the Chocolate Factory"
+   },
+   {
+    "author": "Louisa May Alcott",
+    "id": "little-women",
+    "status": "reading",
+    "title": "Little Women"
+   },
+   {
+    "author": "J. K. Rowling",
+    "id": "harry-potter-1",
+    "note": "MinaLima illustrated edition · started at chapter 5",
+    "page": 77,
+    "status": "reading",
+    "title": "Harry Potter and the Sorcerer's Stone"
+   }
+  ],
+  "suggestions": [
+   {
+    "author": "Frances Hodgson Burnett",
+    "title": "The Secret Garden",
+    "why": "Older, formal language and long descriptive passages — closest thing to an ISEE reading passage."
+   },
+   {
+    "author": "L. M. Montgomery",
+    "title": "Anne of Green Gables",
+    "why": "Rich figurative language and a big vocabulary; a natural next step if she likes Little Women."
+   },
+   {
+    "author": "Ellen Raskin",
+    "title": "The Westing Game",
+    "why": "A puzzle mystery — nothing is stated outright, so it is pure inference practice."
+   },
+   {
+    "author": "Louis Sachar",
+    "title": "Holes",
+    "why": "Three timelines braided together; good for questions about how a text is organised."
+   },
+   {
+    "author": "Lois Lowry",
+    "title": "Number the Stars",
+    "why": "Historical fiction: context clues and tone carry most of the meaning."
+   },
+   {
+    "author": "Kate DiCamillo",
+    "title": "Because of Winn-Dixie",
+    "why": "Short chapters, and almost every feeling is implied rather than stated."
+   },
+   {
+    "author": "Grace Lin",
+    "title": "Where the Mountain Meets the Moon",
+    "why": "Folktales nested inside a story — main idea and theme practice."
+   },
+   {
+    "author": "Madeleine L'Engle",
+    "title": "A Wrinkle in Time",
+    "why": "Abstract ideas and harder vocabulary; a real step up."
+   },
+   {
+    "author": "R. J. Palacio",
+    "title": "Wonder",
+    "why": "Several narrators tell the same events — point of view practice."
+   },
+   {
+    "author": "Peter Brown",
+    "title": "The Wild Robot",
+    "why": "Plain sentences and strong cause and effect; an easy, enjoyable one between harder books."
+   }
+  ]
+ },
+ "calendar": {
+  "events": [
+   {
+    "date": "2026-08-01",
+    "detail": "One sitting allowed in this season. Portal label: “2026 Fall”.",
+    "end": "2026-11-30",
+    "id": "fall-season",
+    "kind": "season",
+    "source": "https://iseeonline.erblearn.org/Workflows/Public",
+    "title": "ISEE Fall testing season"
+   },
+   {
+    "date": "2026-12-01",
+    "detail": "One sitting allowed in this season. Portal label: “2026-27 Winter”. A December date still lands before the January application deadlines.",
+    "end": "2027-03-31",
+    "id": "winter-season",
+    "kind": "season",
+    "source": "https://iseeonline.erblearn.org/Workflows/Public",
+    "title": "ISEE Winter testing season"
+   },
+   {
+    "date": "2027-04-01",
+    "detail": "Third and last possible sitting of the cycle — after most fall-2027 application deadlines.",
+    "end": "2027-07-31",
+    "id": "spring-season",
+    "kind": "season",
+    "source": "https://iseeonline.erblearn.org/Workflows/Public",
+    "title": "ISEE Spring/Summer testing season"
+   },
+   {
+    "date": "2026-10-24",
+    "detail": "Saturday group sitting for applicants to grades 5–12. Register through the ISEE portal.",
+    "id": "bush-isee",
+    "kind": "school-test",
+    "source": "https://www.bush.edu/admissions/applying-to-bush",
+    "title": "ISEE at The Bush School (Seattle)"
+   },
+   {
+    "date": "2026-11-20",
+    "detail": "Closed on-campus session, grades 6–12. Registration code 447JKHUW.",
+    "id": "ec-reg",
+    "kind": "deadline",
+    "source": "https://www.eastsidecatholic.org/admissions/entrance-exam",
+    "title": "Registration deadline — Eastside Catholic ISEE (Dec 5)"
+   },
+   {
+    "date": "2026-12-05",
+    "detail": "Saturday sitting, grades 6–12 applicants.",
+    "id": "ec-isee",
+    "kind": "school-test",
+    "source": "https://www.eastsidecatholic.org/admissions/entrance-exam",
+    "title": "ISEE at Eastside Catholic (Sammamish)"
+   },
+   {
+    "date": "2026-12-01",
+    "detail": "Lakeside asks families to register no later than December 2026 so scores arrive before deadlines. Scores from online sittings take 3–5 days.",
+    "id": "book-reminder",
+    "kind": "reminder",
+    "source": "https://www.lakesideschool.org/admissions/faq",
+    "title": "Book the real ISEE by early December"
+   },
+   {
+    "date": "2027-01-14",
+    "detail": "Lakeside (preliminary application), Overlake (4 pm), Eastside Prep, University Prep, Bush, Seattle Academy, Evergreen.",
+    "id": "apps-jan14",
+    "kind": "deadline",
+    "source": "https://www.lakesideschool.org/admissions/application-process",
+    "title": "Application deadline — most Seattle-area independent schools"
+   },
+   {
+    "date": "2027-01-15",
+    "detail": "Supporting materials due Feb 12, 2027.",
+    "id": "basis-app",
+    "kind": "deadline",
+    "source": "https://basisindependent.com/schools/wa/bellevue/about/blog/fall-2027-the-basis-independent-bellevue-admissions-process/",
+    "title": "Application deadline — BASIS Independent Bellevue"
+   },
+   {
+    "date": "2027-01-23",
+    "detail": "",
+    "id": "aw-app",
+    "kind": "deadline",
+    "source": "https://www.aw.org",
+    "title": "Application deadline — Annie Wright Schools"
+   },
+   {
+    "date": "2027-01-28",
+    "detail": "Tests must be taken between Sep 1, 2026 and Jan 28, 2027; only one set of scores is accepted.",
+    "id": "lakeside-materials",
+    "kind": "deadline",
+    "source": "https://www.lakesideschool.org/admissions/application-process",
+    "title": "Lakeside: all materials and test scores due"
+   },
+   {
+    "date": "2027-03-05",
+    "detail": "",
+    "id": "sa-decisions",
+    "kind": "decision",
+    "source": "https://www.seattleacademy.org/admissions/how-to-apply",
+    "title": "Middle-school decisions — Seattle Academy"
+   },
+   {
+    "date": "2027-03-19",
+    "detail": "",
+    "id": "ms-decisions",
+    "kind": "decision",
+    "source": "https://www.overlake.org/admissions/apply",
+    "title": "Middle-school decisions — Lakeside, Overlake, Eastside Prep, University Prep"
+   }
+  ],
+  "formats": [
+   {
+    "detail": "Online, grades 5–12. Seattle-area center is in Mountlake Terrace (nothing in Bellevue). Pick a date in Prometric's scheduler; a parent must stay at the center for the whole test. Fee $250. Change/cancel: free 31+ days out, $25 at 30–15 days, $45 at 14–5 days, $75 at 4–1 days.",
+    "name": "Prometric test center",
+    "source": "https://www.admission.org/assessments/isee/instructions/prometric"
+   },
+   {
+    "detail": "Online and proctored, offered most days; needs two camera devices (test device + phone/tablet). Fee $250, or $170 when a member school proctors. Reschedule $50, cancel $55.",
+    "name": "ISEE at Home",
+    "source": "https://www.admission.org/assessments/isee/instructions/home"
+   },
+   {
+    "detail": "Group sitting at an independent school, paper or online. $170 standard; late (14–20 days before) $215; walk-in (under 13 days) $230. Online sittings can be booked up to 3 days before, paper sittings 21+ days before.",
+    "name": "School test site",
+    "source": "https://www.admission.org/assessments/isee/registration"
+   }
+  ],
+  "level": {
+   "name": "ISEE Lower Level",
+   "order": "Verbal Reasoning 34 q / 20 min → Quantitative Reasoning 38 q / 35 min → break 10 min → Reading Comprehension 25 q / 25 min → Mathematics Achievement 30 q / 30 min → break 10 min → Essay 30 min",
+   "rule": "Students may take the ISEE once per testing season — Fall, Winter, and Spring/Summer — for a total of up to three times a school year.",
+   "source": "https://www.admission.org/assessments/isee/about",
+   "total": "127 questions + essay · 2 h 20 min of testing plus two 10-minute breaks"
+  },
+  "monthly": {
+   "2026-09": [
+    {
+     "id": "format",
+     "path": "/calendar",
+     "text": "Decide how Sheila will sit the real ISEE — Prometric (Mountlake Terrace), at home, or a school sitting — and pin the target date on the Calendar",
+     "why": "Everything else (registration cutoffs, score timing) hangs off this."
+    },
+    {
+     "id": "diag",
+     "path": "/mock/DGN",
+     "text": "Run the split diagnostic (Sep 21–27): Part A one day, Part B another, real timing",
+     "why": "Baseline for the whole plan."
+    },
+    {
+     "id": "space",
+     "text": "Set up the mock-exam spot: quiet room, scratch paper, no notes, clock visible",
+     "why": "Mocks only predict the real day if the conditions match."
+    },
+    {
+     "id": "rate",
+     "path": "/precision/W1",
+     "text": "Rate the Week-1 precision words she already wrote (they show 'Needs a rating')",
+     "why": "Ratings decide what goes back into review."
+    }
+   ],
+   "2026-10": [
+    {
+     "id": "bush",
+     "path": "/calendar",
+     "text": "If using the Bush School group sitting (Sat Oct 24), register through the ISEE portal early in the month",
+     "why": "First-come, first-served."
+    },
+    {
+     "id": "mock1",
+     "path": "/mock/M01",
+     "text": "Mock 1 (Oct 19–25), then the correction week (Oct 26–Nov 1): classify every miss, reteach, redo"
+    },
+    {
+     "id": "codes",
+     "text": "Collect the ISEE school codes for the target schools (e.g. Lakeside 481120, Overlake 480073, Bear Creek 481705)",
+     "why": "Needed when choosing score recipients."
+    }
+   ],
+   "2026-11": [
+    {
+     "id": "mock2",
+     "path": "/mock/M02",
+     "text": "Mock 2 (Nov 2–8)"
+    },
+    {
+     "id": "ec",
+     "path": "/calendar",
+     "text": "If using the Eastside Catholic sitting (Sat Dec 5), register by Fri Nov 20 with code 447JKHUW"
+    },
+    {
+     "id": "book",
+     "path": "/calendar",
+     "text": "If not using a school sitting, book Prometric or ISEE at Home now — Lakeside asks families to register by December",
+     "why": "Slots fill in December; scores take 3–5 days after an online test."
+    },
+    {
+     "id": "mock3",
+     "path": "/mock/M03",
+     "text": "Mock 3 final rehearsal (Nov 23–29), full length in one sitting"
+    },
+    {
+     "id": "routine",
+     "text": "Week before the test: normal bedtimes, light review only, no new material"
+    }
+   ],
+   "2026-12": [
+    {
+     "id": "testday",
+     "text": "Test day: parent brings photo ID and stays at the center (Prometric) / two charged camera devices ready (at home); arrive or check in 30 minutes early"
+    },
+    {
+     "id": "scores",
+     "text": "Scores arrive in 3–5 days (online) — choose which schools receive them; adding schools is free"
+    },
+    {
+     "id": "send",
+     "text": "Confirm every target school is on the score-recipient list before the January deadlines"
+    }
+   ],
+   "2027-01": [
+    {
+     "id": "apps",
+     "path": "/calendar",
+     "text": "Applications due Jan 14 at most schools (Lakeside preliminary Jan 14; all materials and scores Jan 28); BASIS Bellevue Jan 15; Annie Wright Jan 23"
+    },
+    {
+     "id": "confirm",
+     "text": "Check each school's portal shows the ISEE score received"
+    }
+   ],
+   "2027-03": [
+    {
+     "id": "decisions",
+     "path": "/calendar",
+     "text": "Decisions: Seattle Academy Mar 5; Lakeside, Overlake, Eastside Prep, University Prep Mar 19"
+    }
+   ]
+  },
+  "note": "Researched from official E3n (formerly ERB) pages and Seattle-area school admissions pages. Plan weeks and mocks are added by the app from the study plan. Day-level season boundaries are inferred from the official month ranges.",
+  "researched_at": "2026-09-04",
+  "scores": {
+   "detail": "Online tests (Prometric, at-home, online school sites): scores usually ready in 3–5 days; paper: 5–10 days. Choose which schools receive scores at registration or after seeing them; only complete reports can be sent.",
+   "source": "https://www.admission.org/assessments/isee/score-reports"
+  }
+ },
+ "essay": {
+  "file": "essay.json",
+  "prompts": 0
+ },
+ "mocks": [
+  {
+   "count": 127,
+   "file": "mock-DGN.json",
+   "id": "DGN",
+   "label": "Mock exam DGN",
+   "sections": [
+    "all"
+   ]
+  },
+  {
+   "count": 127,
+   "file": "mock-M01.json",
+   "id": "M01",
+   "label": "Mock exam M01",
+   "sections": [
+    "all"
+   ]
+  },
+  {
+   "count": 127,
+   "file": "mock-M02.json",
+   "id": "M02",
+   "label": "Mock exam M02",
+   "sections": [
+    "all"
+   ]
+  },
+  {
+   "count": 127,
+   "file": "mock-M03.json",
+   "id": "M03",
+   "label": "Mock exam M03",
+   "sections": [
+    "all"
+   ]
+  }
+ ],
+ "precision": [
+  {
+   "count": 20,
+   "id": "W1"
+  },
+  {
+   "count": 20,
+   "id": "W2"
+  },
+  {
+   "count": 20,
+   "id": "W3"
+  },
+  {
+   "count": 20,
+   "id": "W4"
+  },
+  {
+   "count": 20,
+   "id": "W5"
+  },
+  {
+   "count": 20,
+   "id": "W6"
+  },
+  {
+   "count": 20,
+   "id": "W7"
+  },
+  {
+   "count": 20,
+   "id": "W8"
+  }
+ ],
+ "schema": 1,
+ "subjects": [
+  {
+   "count": 330,
+   "file": "subject-vr.json",
+   "id": "vr",
+   "label": "Verbal reasoning",
+   "skills": [
+    "abrupt",
+    "acclaim",
+    "admirable",
+    "affectionate",
+    "anxious",
+    "apologetic",
+    "approve",
+    "aqueduct",
+    "arrogant",
+    "assess",
+    "audible",
+    "avert",
+    "benevolent",
+    "benign",
+    "bilingual",
+    "blunder",
+    "blunt",
+    "boast",
+    "boastful",
+    "candid",
+    "capital",
+    "cautious",
+    "charter",
+    "commend",
+    "compact",
+    "concede",
+    "condemn",
+    "conspicuous",
+    "content",
+    "contradict",
+    "credible",
+    "critical",
+    "critique",
+    "cultivate",
+    "decline",
+    "defiant",
+    "dejected",
+    "diligent",
+    "discipline",
+    "discretion",
+    "dispute",
+    "divert",
+    "domestic",
+    "dubious",
+    "earnest",
+    "eject",
+    "enthusiastic",
+    "envious",
+    "exaggerate",
+    "expel",
+    "exploit",
+    "export",
+    "extract",
+    "feisty",
+    "flatter",
+    "flaw",
+    "flimsy",
+    "fluent",
+    "foolish",
+    "frugal",
+    "gracious",
+    "grant",
+    "grateful",
+    "grim",
+    "harsh",
+    "hasty",
+    "humble",
+    "illuminate",
+    "indignant",
+    "inquisitive",
+    "inscribe",
+    "lenient",
+    "literal",
+    "loyal",
+    "magnitude",
+    "malicious",
+    "manuscript",
+    "mediocre",
+    "melancholy",
+    "merit",
+    "mischievous",
+    "modest",
+    "neutral",
+    "nostalgic",
+    "novice",
+    "obstruct",
+    "optimistic",
+    "pedestrian",
+    "plausible",
+    "postscript",
+    "predicament",
+    "premature",
+    "prompt",
+    "propel",
+    "prospect",
+    "prudent",
+    "relieved",
+    "reminisce",
+    "render",
+    "resentful",
+    "resolute",
+    "retaliate",
+    "retract",
+    "rupture",
+    "sanctuary",
+    "scornful",
+    "scrutinize",
+    "shoddy",
+    "shrewd",
+    "sincere",
+    "skeptical",
+    "sly",
+    "smug",
+    "solemn",
+    "spectacle",
+    "static",
+    "stern",
+    "stifle",
+    "stingy",
+    "strive",
+    "submerge",
+    "subordinate",
+    "subterranean",
+    "superficial",
+    "surpass",
+    "surplus",
+    "suspect",
+    "suspend",
+    "sympathetic",
+    "tactful",
+    "tangible",
+    "tedious",
+    "tender",
+    "term",
+    "thorough",
+    "trace",
+    "transmit",
+    "treacherous",
+    "trivial",
+    "unanimous",
+    "vacant",
+    "valid",
+    "verdict",
+    "versatile",
+    "vocabulary",
+    "volume",
+    "wane",
+    "weary",
+    "worthy"
+   ]
+  },
+  {
+   "count": 216,
+   "file": "subject-qr.json",
+   "id": "qr",
+   "label": "Quantitative reasoning",
+   "skills": [
+    "Algebraic reasoning",
+    "Angles",
+    "Area",
+    "Average",
+    "Consecutive integers",
+    "Coordinates",
+    "Data reasoning",
+    "Divisibility",
+    "Estimation",
+    "Exponents",
+    "Expression",
+    "Factors",
+    "Fractions",
+    "Geometry",
+    "Mean",
+    "Measurement",
+    "Median",
+    "Mixed reasoning",
+    "Mode",
+    "Multiples",
+    "Number properties",
+    "Number sense",
+    "Parity",
+    "Pattern",
+    "Percent",
+    "Perimeter",
+    "Prime factors",
+    "Probability",
+    "Range",
+    "Ratio",
+    "Remainders",
+    "Scale",
+    "Scale reasoning",
+    "Square roots",
+    "Squares",
+    "Symmetry",
+    "Unit rate",
+    "Volume",
+    "Volume reasoning"
+   ]
+  },
+  {
+   "count": 192,
+   "file": "subject-ma.json",
+   "id": "ma",
+   "label": "Mathematics",
+   "skills": [
+    "Algebra",
+    "Angles",
+    "Area",
+    "Coordinates",
+    "Data",
+    "Decimals",
+    "Division",
+    "Fractions",
+    "Geometry",
+    "Mean",
+    "Measurement",
+    "Median",
+    "Number properties",
+    "Order of operations",
+    "Percent",
+    "Perimeter",
+    "Probability",
+    "Volume",
+    "Whole-number operations"
+   ]
+  },
+  {
+   "count": 96,
+   "file": "subject-rc.json",
+   "id": "rc",
+   "label": "Reading comprehension",
+   "skills": [
+    "Inference",
+    "Main idea",
+    "Organization/logic",
+    "Supporting detail/evidence",
+    "Tone/style/figurative language",
+    "Vocabulary in context"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "bank": "rc-weeks5-8",
+ "schema_version": "1.0",
+ "content_version": "2026.09.01",
+ "items": [
+  {
+   "id": "RC-W5-S1-P",
+   "week": "W5",
+   "session": "S1",
+   "title": "The Pools the Tide Leaves Behind",
+   "text": "Twice a day the ocean pulls back from a rocky shore and leaves behind dozens of shallow pools. From a distance the pools look peaceful, like small aquariums set into stone. For the animals inside them, though, the next six hours are the hardest of the day. Sunlight warms the trapped water until it is far warmer than the sea. Some of that water evaporates, and the salt left behind grows more concentrated. A sudden rainstorm can do the opposite, thinning the water until it is almost fresh. Nothing in the open ocean changes that quickly.\n\nThe animals that live there meet these swings with equipment, not luck. As the tide drops, a barnacle closes its hard plates and traps a small reserve of seawater inside, enough to keep its body damp until the ocean comes back. A limpet wears a shallow groove into the rock over months of feeding, and it travels back to that exact groove before the water leaves, because its shell fits the worn stone tightly. When the sun is high, sea stars slide under ledges and into cracks the light cannot reach.\n\nIt would be a mistake to picture a tide pool as a gentler ocean, a nursery for creatures too delicate for deep water. A fish carried in from twenty meters down would not last an afternoon in one. The pool is the harsher place, and the animals crowded into it are not the leftovers of the sea. They are specialists in a kind of hardship most ocean animals never have to face.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  },
+  {
+   "id": "RC-W5-S2-P",
+   "week": "W5",
+   "session": "S2",
+   "title": "Before the Automobile, the Bicycle",
+   "text": "In the 1880s most American roads outside of towns were simply dirt. Wagon wheels cut deep ruts into them, and a week of rain could turn a stretch of road into mud deep enough to swallow a boot. Farmers complained, but they had managed for a century, and their heavy wagons could grind through whatever the weather left behind.\n\nThen came the bicycle. The new machines were light, quick, and almost useless on a rutted road. Riders formed clubs, and in the 1880s and 1890s those clubs mounted a campaign they called Good Roads. They printed pamphlets, mapped the worst stretches, and asked state legislatures for money to build smooth surfaces. Many farmers resisted. Paving, they argued, would be paid for with everyone's taxes so that city sportsmen could enjoy a pleasant Sunday ride.\n\nThe argument changed when the mail changed. The Post Office began carrying letters directly to farmhouses instead of making families travel to town for them, and it would only serve routes a mail wagon could travel all year. Suddenly a good road was not a luxury for visitors. It was the difference between getting the mail and not getting it, and counties that had refused to spend a dollar began to build.\n\nBy the time automobiles were common, the surveys, the county road departments, and the habit of paying for highways out of public money were already in place. The drivers who sped along those smooth surfaces owed a debt to people who had been pedaling.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  },
+  {
+   "id": "RC-W6-S1-P",
+   "week": "W6",
+   "session": "S1",
+   "title": "The Bowl Under the Table",
+   "text": "Theo had memorized the prices before the market opened. He wrote them on a card in his neatest handwriting, propped it against the scale, and when his grandmother left to find change he was almost glad. For two hours the stall was his to mind. He straightened the plums until every stem pointed the same way.\n\nThe trouble was the sour cherries. They sat in a flat crate at the end of the table, small and dark and beautiful, and nobody touched them. A woman in a yellow coat finally stopped and asked whether they were sweet. Theo began the sentence he had practiced. “They’re excellent for—” he said, and then he stopped, because he could hear how it sounded: like a boy repeating something.\n\nHe looked down. Under the table, where his grandmother had set it before she left, was a small bowl of the same cherries with a folded napkin beside it. He had assumed it was her lunch, though she never ate anything at the market. He lifted one out and held it toward the woman without saying anything at all.\n\nShe ate it. Her whole face pinched, and then she laughed, and then she bought two pints for a pie. After that Theo set the bowl on the table where people could reach it. He crossed out one line on his careful card and wrote underneath, in handwriting that was not nearly as neat, that the cherries were too sour to eat and perfect for baking. By four o’clock the crate was empty, and the plums, arranged so beautifully, were not.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  },
+  {
+   "id": "RC-W6-S2-P",
+   "week": "W6",
+   "session": "S2",
+   "title": "Buildings That Are Meant to Move",
+   "text": "A person standing on the top floor of a very tall building on a windy day may feel the floor lean, pause, and lean back. The movement is small, a few centimeters at most, but it is real, and it is not a flaw. Engineers planned it.\n\nA tower could be built so stiff that it barely moved, but stiffness carries a hidden cost. Wind pressing on a rigid wall has nowhere to send its force, so the material itself must absorb all of it. Over years of storms, something inside that material will crack. A steel frame designed with a measured amount of give behaves differently. It bends a little, sheds the energy of the gust, and returns to where it started, the way a tall tree does in an open field.\n\nThe harder problem is not the leaning but the lingering. A building that keeps swaying long after the wind has died feels alarming to the people inside it, even when it is perfectly safe. Some towers answer this with a damper: an enormous weight, sometimes hundreds of tons, hung high in the building on cables or resting on a slick steel surface. Because such a weight is slow to start moving, it always lags a little behind the floors. It pulls backward while they swing forward, and the sway fades in seconds instead of minutes.\n\nIn a wind tunnel, engineers do not test a model to learn whether it will move. They already know it will. They measure how quickly it stops.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  },
+  {
+   "id": "RC-W7-S1-P",
+   "week": "W7",
+   "session": "S1",
+   "title": "The Case for the Repair Bench",
+   "text": "Every school in our district teaches students to build something — a birdhouse in third grade, a model bridge in fifth. Almost none teaches students to fix something. I believe that is backwards, and that every school should set aside one bench, one box of tools, and one period a week for repair.\n\nStart with the objection I hear most often: repairing is slower than replacing, and school hours are precious. That is true, and I will not pretend otherwise. But the objection mistakes what the period is for. The point of the hour is not to save the school money on chairs; it is to teach a habit of looking. A student handed a wobbling chair must decide, before touching a single tool, which part has actually failed. A chair with one loose leg is still sound in every other part, and noticing that is the whole lesson.\n\nConsider Fenwick Middle School, which began a Thursday repair table two years ago. In its first term the table brought back forty-one items: eleven lamps, nine backpacks, six umbrellas, and fifteen library books with broken spines. The number worth watching, though, is not forty-one. It is four — the four students who joined in September and were still at the table in June, showing newcomers how to seat a screw.\n\nMachines will keep getting harder to open, and some objects truly cannot be mended. That does not weaken the case; it sharpens it. The fewer things we are able to repair, the more it matters that we can tell which ones we can.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  },
+  {
+   "id": "RC-W7-S2-P",
+   "week": "W7",
+   "session": "S2",
+   "title": "The Kite That Crossed the Gorge",
+   "text": "In the winter of 1848 the Niagara Gorge was a problem nobody had solved. Engineers wanted to hang a bridge across it, but the river below ran too fast and too crowded with ice for a boat to carry anything over. The rocky walls stood eight hundred feet apart. Before a bridge could be built, one thin thread had to reach the far side. So the engineer in charge announced a five-dollar prize. Whoever could fly a kite across the gorge and tie his string down on the opposite rim would win it.\n\nHoman Walsh, a boy of about fifteen who lived nearby, understood something the adults seem to have overlooked. The wind in the gorge blew steadily from the Canadian side toward the American side. A kite launched from the American rim would be carried away from the crossing rather than across it. Homan took a ferry to the Canadian side and waited for a January evening when the wind held. He let his kite, which he had named Union, climb until his line lay across the whole gorge.\n\nThen the line snapped on the ice below and the kite came down on the far bank. Ice choked the river for eight days, so he could not cross to fetch it. When the river cleared at last, Homan found the kite, mended it, and flew it again. This time the string held.\n\nThat string could not have held anything heavier than itself. But workers tied it to a stronger cord. They tied the cord to a rope, and the rope to a wire cable — until a bridge stood where a boy's kite string had gone first.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  },
+  {
+   "id": "RC-W8-S1-P",
+   "week": "W8",
+   "session": "S1",
+   "title": "Learning the Oars",
+   "text": "At five in the morning the lake lay like a sheet of hammered tin, gray and perfectly still, and Nadia was certain she could beat it. Her grandmother sat in the stern with her hands folded, saying nothing, which was her way of teaching. Nadia took the oars, leaned back with all her weight, and pulled.\n\nThe boat barely moved. The blades slapped the surface and threw up a spray that soaked her knees, and the oars quarreled with the water, arguing over every stroke. Twice the handles jumped out of her grip. A heron on the shore watched her the way a teacher watches a student who has not read the assignment, then lifted away without hurrying. Nadia's shoulders burned. The far bank looked no closer than it had ten minutes before.\n\n“Stop rowing,” her grandmother said. “Put the blade in first. Let it bite. Then pull.” Nadia let the oars rest until the boat went quiet. She lowered one blade and felt the water take hold of it, a firm and surprising grip, like a hand closing around the wood, and she pulled slowly. The boat slid forward without a sound. She did it again, and the ripples spread behind her in long, even rings. Nothing about the second stroke was harder than the first. It was, if anything, easier.\n\nBy the time the sun cleared the trees the mist had let go of the shore and Nadia had crossed half the lake. She was not stronger than she had been an hour before. She had simply stopped fighting the thing she was trying to move.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  },
+  {
+   "id": "RC-W8-S2-P",
+   "week": "W8",
+   "session": "S2",
+   "title": "Why Salt Stops Working",
+   "text": "When a winter storm is forecast, city trucks spread salt on the roads before the first flakes fall. The salt is not there only to melt ice that has already formed, though it can do that. It is there to keep a thin film of water from freezing onto the pavement in the first place. Water turns to ice by locking together in an orderly pattern, and dissolved salt particles get in the way of that pattern. What forms instead is a solution that stays liquid at temperatures far below the point at which plain water would harden.\n\nThere is a limit. Plain water freezes at thirty-two degrees Fahrenheit, and salted water can stay liquid down to roughly six degrees below zero. Colder than that, the salt lying on the road is simply cold grit. This is why crews in the coldest places often spread sand instead. Sand cannot lower a freezing point at all; it only gives tires something to grip.\n\nSalt does not disappear when the snow does, either. Meltwater carries it off the pavement into soil, streams, and wells, where it can injure roadside trees and change the water that fish live in. One winter of salt does little harm by itself. Thirty winters of it on the same road is a different matter.\n\nFor that reason many crews now mix a brine before a storm and spray a thin coat on the pavement, which uses far less salt than scattering dry crystals that bounce into the ditch. The chemistry has not changed. What has changed is how carefully it is spent.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.09.01"
+  }
+ ]
+}

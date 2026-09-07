@@ -1,0 +1,3463 @@
+{
+ "id": "qr",
+ "items": [
+  {
+   "c": [
+    "24",
+    "18",
+    "21",
+    "25"
+   ],
+   "d": "E",
+   "e": "Find 3/4 of 28: 28÷4=7, and 7×3=21 bulbs.",
+   "id": "QR-SEP-001",
+   "k": 2,
+   "p": "",
+   "q": "A garden club plants 28 bulbs, and 3/4 of them bloom. How many bulbs bloom?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "They completed equal fractions",
+    "5/6 runner",
+    "There is not enough information",
+    "7/9 runner"
+   ],
+   "d": "M",
+   "e": "Use eighteenths: 5/6=15/18 and 7/9=14/18, so the 5/6 runner completed more.",
+   "id": "QR-W1-S1-02",
+   "k": 1,
+   "p": "",
+   "q": "Two runners complete 5/6 and 7/9 of a relay. Which runner completed more?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    7.0,
+    8.0,
+    6.0,
+    "7 1/2"
+   ],
+   "d": "H",
+   "e": "20/8 = 2.5 batches; 3 × 2.5 = 7.5 cups.",
+   "id": "QR-W1-S1-03",
+   "k": 3,
+   "p": "",
+   "q": "A recipe uses 3 cups of flour for 8 muffins. At the same rate, how many cups are needed for 20 muffins?",
+   "sk": "Ratio",
+   "w": "W1"
+  },
+  {
+   "c": [
+    2.25,
+    2.5,
+    4.0,
+    2.0
+   ],
+   "d": "E",
+   "e": "$10 ÷ 4 = $2.50.",
+   "id": "QR-W1-S1-04",
+   "k": 1,
+   "p": "",
+   "q": "Four notebooks cost $10. What is the cost per notebook?",
+   "sk": "Unit rate",
+   "w": "W1"
+  },
+  {
+   "c": [
+    45.0,
+    24.0,
+    30.0,
+    36.0
+   ],
+   "d": "H",
+   "e": "18 is 3 parts, so 1 part is 6; 5 parts = 30.",
+   "id": "QR-W1-S1-05",
+   "k": 2,
+   "p": "",
+   "q": "3/5 of a class is 18 students. How many students are in the whole class?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    8.0,
+    12.0,
+    15.0,
+    10.0
+   ],
+   "d": "M",
+   "e": "There are 5 equal parts; 25 ÷ 5 = 5, and 2 parts = 10.",
+   "id": "QR-W1-S1-06",
+   "k": 3,
+   "p": "",
+   "q": "The ratio of red to blue marbles is 2:3. If there are 25 marbles total, how many are red?",
+   "sk": "Ratio",
+   "w": "W1"
+  },
+  {
+   "c": [
+    20.0,
+    30.0,
+    10.0,
+    15.0
+   ],
+   "d": "H",
+   "e": "She read 40 pages, then 10 more of the 20 remaining, leaving 10.",
+   "id": "QR-W1-S1-07",
+   "k": 2,
+   "p": "",
+   "q": "Mia read 2/3 of a 60-page book, then read half of the pages that remained. How many pages are still unread?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "60 mph",
+    "90 mph",
+    "50 mph",
+    "45 mph"
+   ],
+   "d": "E",
+   "e": "180 ÷ 3 = 60 mph.",
+   "id": "QR-W1-S1-08",
+   "k": 0,
+   "p": "",
+   "q": "A car travels 180 miles in 3 hours at a constant speed. What is its speed?",
+   "sk": "Unit rate",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "5/7",
+    "11/12",
+    "7/12",
+    "3/4"
+   ],
+   "d": "M",
+   "e": "Use twelfths: 2/3=8/12 and 1/4=3/12, so 8/12+3/12=11/12.",
+   "id": "QR-W1-S1-09",
+   "k": 1,
+   "p": "",
+   "q": "A trail is 2/3 paved and 1/4 gravel, with no overlap. What fraction of the trail is paved or gravel?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "2 3/4 yards",
+    "2 1/4 yards",
+    "2 1/2 yards",
+    "3 1/4 yards"
+   ],
+   "d": "M",
+   "e": "Rename 5 1/2 as 5 2/4, regroup, and subtract 2 3/4 to get 2 3/4 yards.",
+   "id": "QR-W1-S1-10",
+   "k": 0,
+   "p": "",
+   "q": "A 5 1/2-yard ribbon loses 2 3/4 yards. How much ribbon remains?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    6.0,
+    8.0,
+    4.0,
+    5.0
+   ],
+   "d": "M",
+   "e": "3/4 = 6/8, so there are six 1/8-cup servings.",
+   "id": "QR-W1-S1-11",
+   "k": 0,
+   "p": "",
+   "q": "How many 1/8-cup servings are in 3/4 cup?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "16:25",
+    "8:12",
+    "10:12",
+    "12:15"
+   ],
+   "d": "E",
+   "e": "Multiply both parts of 4:5 by 3 to get the equivalent ratio 12:15.",
+   "id": "QR-W1-S1-12",
+   "k": 3,
+   "p": "",
+   "q": "A paint recipe mixes yellow and blue in a 4:5 ratio. Which batch keeps the same ratio?",
+   "sk": "Ratio",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "6",
+    "3",
+    "4",
+    "18"
+   ],
+   "d": "M",
+   "e": "The equation is 6x=24. Divide both sides by 6 to get x=4 tickets.",
+   "id": "QR-W1-S2-01",
+   "k": 2,
+   "p": "",
+   "q": "Museum tickets cost $6 each. A family spends $24 on x tickets. How many tickets does the family buy?",
+   "sk": "Algebraic reasoning",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "2/3",
+    "3/4",
+    "9/10",
+    "7/10"
+   ],
+   "d": "M",
+   "e": "Compare each gap from 1. The gap for 9/10 is only 1/10, smaller than the other gaps.",
+   "id": "QR-W1-S2-02",
+   "k": 2,
+   "p": "",
+   "q": "A baker needs the fraction of a pie that is closest to one whole pie. Which amount is closest to 1?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    11.0,
+    12.0,
+    12.5,
+    10.0
+   ],
+   "d": "M",
+   "e": "$7.50 ÷ 5 = $1.50 per pen; 8 × $1.50 = $12.",
+   "id": "QR-W1-S2-03",
+   "k": 1,
+   "p": "",
+   "q": "Five pens cost $7.50. At the same rate, how much do 8 pens cost?",
+   "sk": "Unit rate",
+   "w": "W1"
+  },
+  {
+   "c": [
+    45.0,
+    30.0,
+    36.0,
+    24.0
+   ],
+   "d": "H",
+   "e": "Girls are 3/5 of the class. If 3/5 = 18, then the whole is 30.",
+   "id": "QR-W1-S2-04",
+   "k": 1,
+   "p": "",
+   "q": "2/5 of the students are boys. If 18 students are girls, how many students are in the class?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "12",
+    "16",
+    "8",
+    "10"
+   ],
+   "d": "E",
+   "e": "Twenty-five percent is one fourth, and 48÷4=12 reserved seats.",
+   "id": "QR-W1-S2-05",
+   "k": 0,
+   "p": "",
+   "q": "A 48-seat bus has 25% of its seats reserved. How many seats are reserved?",
+   "sk": "Percent",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "4/5 mile",
+    "5/6 mile",
+    "2/3 mile",
+    "3/4 mile"
+   ],
+   "d": "E",
+   "e": "Divide numerator and denominator by 2: 6/8=3/4 mile.",
+   "id": "QR-W1-S2-06",
+   "k": 3,
+   "p": "",
+   "q": "A 6/8-mile route is shortened to an equivalent fraction on a map label. Which label matches the route?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "6:4",
+    "2:3",
+    "3:2",
+    "3:4"
+   ],
+   "d": "M",
+   "e": "18:12 simplifies by dividing both numbers by 6 to 3:2.",
+   "id": "QR-W1-S2-07",
+   "k": 2,
+   "p": "",
+   "q": "A school has 18 violins and 12 cellos. What is the ratio of violins to cellos in simplest form?",
+   "sk": "Ratio",
+   "w": "W1"
+  },
+  {
+   "c": [
+    24.0,
+    21.0,
+    22.0,
+    27.0
+   ],
+   "d": "H",
+   "e": "18 ÷ 3 × 4 = 24 gallons.",
+   "id": "QR-W1-S2-08",
+   "k": 0,
+   "p": "",
+   "q": "A tank is 3/4 full and contains 18 gallons. How many gallons does it hold when full?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "Same cost",
+    "Not enough information",
+    "Store B",
+    "Store A"
+   ],
+   "d": "H",
+   "e": "Store A is $1.50 each; Store B is $1.40 each.",
+   "id": "QR-W1-S2-09",
+   "k": 2,
+   "p": "",
+   "q": "Store A sells 6 markers for $9. Store B sells 10 markers for $14. Which store has the lower cost per marker?",
+   "sk": "Unit rate",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "162",
+    "216",
+    "108",
+    "126"
+   ],
+   "d": "E",
+   "e": "The rule is multiply by 3, so 54×3=162 tiles.",
+   "id": "QR-W1-S2-10",
+   "k": 0,
+   "p": "",
+   "q": "A tile pattern has 2, 6, 18, and 54 tiles, tripling each time. How many tiles are in the next design?",
+   "sk": "Pattern",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "11",
+    "12",
+    "11 1/3",
+    "10"
+   ],
+   "d": "E",
+   "e": "Add the scores to get 33, then divide by 3: 33÷3=11.",
+   "id": "QR-W1-S2-11",
+   "k": 0,
+   "p": "",
+   "q": "Three quiz scores are 8, 10, and 15. What is their average?",
+   "sk": "Average",
+   "w": "W1"
+  },
+  {
+   "c": [
+    21.0,
+    30.0,
+    15.0,
+    35.0
+   ],
+   "d": "M",
+   "e": "There are 10 equal parts; 50 ÷ 10 = 5, so cats = 7 × 5 = 35.",
+   "id": "QR-W1-S2-12",
+   "k": 3,
+   "p": "",
+   "q": "The ratio of cats to dogs is 7:3. If there are 50 animals total, how many are cats?",
+   "sk": "Ratio",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "1/2 cup",
+    "1/10 cup",
+    "2/5 cup",
+    "3/10 cup"
+   ],
+   "d": "M",
+   "e": "Use tenths: 4/5=8/10 and 1/2=5/10, so 8/10−5/10=3/10 cup.",
+   "id": "QR-W1-S2-13",
+   "k": 3,
+   "p": "",
+   "q": "A recipe uses 4/5 cup of milk and 1/2 cup less water. How much water does it use?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "3 1/4",
+    "3",
+    "2",
+    "2 1/2"
+   ],
+   "d": "M",
+   "e": "Rename 2 1/4 as 9/4. Then (9/4)÷(3/4)=3 full bottles.",
+   "id": "QR-W1-S2-14",
+   "k": 1,
+   "p": "",
+   "q": "A 2 1/4-liter jug is used to fill 3/4-liter bottles. How many full bottles can it fill?",
+   "sk": "Fractions",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "20 miles",
+    "21 miles",
+    "24 miles",
+    "18 miles"
+   ],
+   "d": "M",
+   "e": "3.5 × 6 = 21 miles.",
+   "id": "QR-W1-S2-15",
+   "k": 1,
+   "p": "",
+   "q": "On a map, 1 inch represents 6 miles. Two towns are 3.5 inches apart. How far apart are they?",
+   "sk": "Scale",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "56",
+    "49",
+    "28",
+    "14"
+   ],
+   "d": "E",
+   "e": "A photo display has 7 rows of 7 tiles, so 7×7=49.",
+   "id": "QR-W2-S1-01",
+   "k": 1,
+   "p": "",
+   "q": "A 7-by-7 photo display uses one tile per space. How many tiles are needed?",
+   "sk": "Squares",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "10 in",
+    "8 in",
+    "9 in",
+    "7 in"
+   ],
+   "d": "E",
+   "e": "A square with area 81 has side √81=9.",
+   "id": "QR-W2-S1-02",
+   "k": 2,
+   "p": "",
+   "q": "An 81-square-inch mosaic is a square. How long is one side?",
+   "sk": "Square roots",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "8",
+    "7",
+    "6",
+    "16"
+   ],
+   "d": "E",
+   "e": "The side length is √64=8 tiles.",
+   "id": "QR-W2-S1-03",
+   "k": 0,
+   "p": "",
+   "q": "A square game board uses 64 small tiles. How many tiles are in each row?",
+   "sk": "Square roots",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "6 and 7",
+    "7 and 8",
+    "8 and 9",
+    "5 and 6"
+   ],
+   "d": "M",
+   "e": "7²=49 and 8²=64, so √50 lies between 7 and 8.",
+   "id": "QR-W2-S1-04",
+   "k": 1,
+   "p": "",
+   "q": "A square flower bed covers 50 square feet. Between which whole-number side lengths is its side?",
+   "sk": "Square roots",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "32",
+    "40",
+    "30",
+    "36"
+   ],
+   "d": "M",
+   "e": "36 makes a 6-by-6 array; the other counts do not make equal rows and columns.",
+   "id": "QR-W2-S1-05",
+   "k": 3,
+   "p": "",
+   "q": "Which patio tile count can be arranged as a perfect square array?",
+   "sk": "Number properties",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "124 cm²",
+    "144 cm²",
+    "48 cm²",
+    "24 cm²"
+   ],
+   "d": "E",
+   "e": "Area of a square is side × side: 12×12=144 cm².",
+   "id": "QR-W2-S1-06",
+   "k": 1,
+   "p": "",
+   "q": "A square has side length 12 cm. What is its area?",
+   "sk": "Geometry",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "36 in",
+    "27 in",
+    "32 in",
+    "18 in"
+   ],
+   "d": "H",
+   "e": "The side is √81=9; perimeter =4×9=36 in.",
+   "id": "QR-W2-S1-07",
+   "k": 0,
+   "p": "",
+   "q": "A square has area 81 square inches. What is its perimeter?",
+   "sk": "Geometry",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "24",
+    "20",
+    "36",
+    "25"
+   ],
+   "d": "E",
+   "e": "The counts are square arrays 1²,2²,3²,4²; next is 5²=25.",
+   "id": "QR-W2-S1-08",
+   "k": 3,
+   "p": "",
+   "q": "Corner tiles in a growing display number 1, 4, 9, 16, ... . What is the next count?",
+   "sk": "Pattern",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "even",
+    "prime",
+    "odd",
+    "a multiple of 4"
+   ],
+   "d": "E",
+   "e": "Odd + even is always odd.",
+   "id": "QR-W2-S1-09",
+   "k": 2,
+   "p": "",
+   "q": "Choosing one odd bead and one even bead gives a total that is always:",
+   "sk": "Parity",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "No; it does not end in 3",
+    "Yes; it is even",
+    "No; 2+3+4 is 8",
+    "Yes; 2+3+4 is 9"
+   ],
+   "d": "E",
+   "e": "A number is divisible by 3 when its digit sum is divisible by 3. 2+3+4=9.",
+   "id": "QR-W2-S1-10",
+   "k": 3,
+   "p": "",
+   "q": "A theater sells 234 tickets. Is that number divisible by 3?",
+   "sk": "Divisibility",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "4",
+    "3",
+    "5",
+    "6"
+   ],
+   "d": "E",
+   "e": "6×8=48, leaving 5 supplies.",
+   "id": "QR-W2-S1-11",
+   "k": 2,
+   "p": "",
+   "q": "53 supplies are packed in boxes of 6. How many supplies are left over?",
+   "sk": "Remainders",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "6",
+    "8",
+    "9",
+    "5"
+   ],
+   "d": "E",
+   "e": "42÷6=7, so rows of 6 work exactly.",
+   "id": "QR-W2-S1-12",
+   "k": 0,
+   "p": "",
+   "q": "42 flags are placed in equal rows. Which row size works with no flags left over?",
+   "sk": "Factors",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "9",
+    "8",
+    "10",
+    "20"
+   ],
+   "d": "E",
+   "e": "√100=10, so a 10-by-10 mural has 100 squares.",
+   "id": "QR-W2-S2-01",
+   "k": 2,
+   "p": "",
+   "q": "A 100-square mural is arranged in a square. How many squares are on one side?",
+   "sk": "Square roots",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "144",
+    "111",
+    "11",
+    "22"
+   ],
+   "d": "E",
+   "e": "11×11=121.",
+   "id": "QR-W2-S2-02",
+   "k": 2,
+   "p": "",
+   "q": "A square seating section holds 121 seats in equal rows. How many seats are in each row?",
+   "sk": "Square roots",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "16",
+    "64",
+    "128",
+    "32"
+   ],
+   "d": "M",
+   "e": "8²=64 and 2⁶=64, so both cover 64 cells.",
+   "id": "QR-W2-S2-03",
+   "k": 1,
+   "p": "",
+   "q": "An 8-by-8 mural and a 2-to-the-6th grid both cover how many cells?",
+   "sk": "Exponents",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "36 and 49",
+    "50 and 64",
+    "36 and 38",
+    "34 and 36"
+   ],
+   "d": "M",
+   "e": "6²=36 and 7²=49, so 40 lies between them.",
+   "id": "QR-W2-S2-04",
+   "k": 0,
+   "p": "",
+   "q": "A shelf holds 40 books. Which square numbers is that count between?",
+   "sk": "Number sense",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "57",
+    "65",
+    "49",
+    "66"
+   ],
+   "d": "M",
+   "e": "Each term is double the previous term minus 1: 33×2−1=65.",
+   "id": "QR-W2-S2-05",
+   "k": 1,
+   "p": "",
+   "q": "Lanterns are arranged in rows of 5, 9, 17, 33, ... . What is the next row size?",
+   "sk": "Pattern",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "24 min",
+    "12 min",
+    "48 min",
+    "18 min"
+   ],
+   "d": "E",
+   "e": "The least common multiple of 6 and 8 is 24.",
+   "id": "QR-W2-S2-06",
+   "k": 0,
+   "p": "",
+   "q": "Bells ring every 6 and 8 minutes. After ringing together now, when do they first ring together again?",
+   "sk": "Multiples",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "12",
+    "9",
+    "6",
+    "3"
+   ],
+   "d": "M",
+   "e": "The greatest common factor of 18 and 24 is 6.",
+   "id": "QR-W2-S2-07",
+   "k": 2,
+   "p": "",
+   "q": "18 red and 24 blue ribbons are cut into the largest equal bundles with no ribbon left. How many ribbons are in each bundle?",
+   "sk": "Factors",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "7",
+    "5",
+    "6",
+    "3"
+   ],
+   "d": "E",
+   "e": "42=2×3×7, so the greatest prime factor is 7.",
+   "id": "QR-W2-S2-08",
+   "k": 0,
+   "p": "",
+   "q": "A 42-card code is factored into primes. What is its greatest prime factor?",
+   "sk": "Prime factors",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "n²",
+    "n+3",
+    "2n+1",
+    "n+2"
+   ],
+   "d": "M",
+   "e": "An odd number plus 3 (an odd number) is even.",
+   "id": "QR-W2-S2-09",
+   "k": 1,
+   "p": "",
+   "q": "If n is odd, which expression must be even?",
+   "sk": "Parity",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "12",
+    "10",
+    "13",
+    "11"
+   ],
+   "d": "E",
+   "e": "The three numbers are 11,12,13; the middle is 12.",
+   "id": "QR-W2-S2-10",
+   "k": 0,
+   "p": "",
+   "q": "Three consecutive locker numbers total 36. What is the middle locker number?",
+   "sk": "Consecutive integers",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "600",
+    "1,800",
+    "1,200",
+    "900"
+   ],
+   "d": "E",
+   "e": "198 is close to 200, and 200×6=1,200.",
+   "id": "QR-W2-S2-11",
+   "k": 2,
+   "p": "",
+   "q": "A museum expects about 198 visitors in each of 6 groups. About how many visitors is that?",
+   "sk": "Estimation",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "14",
+    "7",
+    "49",
+    "25"
+   ],
+   "d": "M",
+   "e": "4²+3²=16+9=25.",
+   "id": "QR-W2-S2-12",
+   "k": 3,
+   "p": "",
+   "q": "A rectangular screen is 4 units by 3 units. The expression 4²+3² equals:",
+   "sk": "Expression",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "(4,1)",
+    "(6,1)",
+    "(6,5)",
+    "(-2,1)"
+   ],
+   "d": "E",
+   "e": "2+4=6 and 3−2=1, so the point is (6,1).",
+   "id": "QR-W2-S2-13",
+   "k": 1,
+   "p": "",
+   "q": "A point starts at (2,3). It moves 4 units right and 2 units down. Where does it end?",
+   "sk": "Coordinates",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "16",
+    "6",
+    "4",
+    "8"
+   ],
+   "d": "M",
+   "e": "Those are exactly the positive factors of 8.",
+   "id": "QR-W2-S2-14",
+   "k": 3,
+   "p": "",
+   "q": "A display uses factor tags 1, 2, 4, and 8—and no others. What is the display number?",
+   "sk": "Factors",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "72",
+    "88",
+    "75",
+    "81"
+   ],
+   "d": "E",
+   "e": "81=9².",
+   "id": "QR-W2-S2-15",
+   "k": 3,
+   "p": "",
+   "q": "Which square display count is greater than 70 but less than 90?",
+   "sk": "Squares",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "20 cm³",
+    "12 cm³",
+    "60 cm³",
+    "120 cm³"
+   ],
+   "d": "E",
+   "e": "Volume = length × width × height = 5×4×3 = 60.",
+   "id": "QR-W3-S1-01",
+   "k": 2,
+   "p": "",
+   "q": "What is the volume of a rectangular prism that is 5 cm long, 4 cm wide, and 3 cm high?",
+   "sk": "Volume",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "4 cm",
+    "6 cm",
+    "2 cm",
+    "3 cm"
+   ],
+   "d": "M",
+   "e": "96 ÷ (8×4) = 3.",
+   "id": "QR-W3-S1-02",
+   "k": 3,
+   "p": "",
+   "q": "A rectangular prism has volume 96 cm³. Its length is 8 cm and width is 4 cm. What is its height?",
+   "sk": "Volume",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "64 in³",
+    "16 in³",
+    "48 in³",
+    "32 in³"
+   ],
+   "d": "E",
+   "e": "4³ = 4×4×4 = 64.",
+   "id": "QR-W3-S1-03",
+   "k": 0,
+   "p": "",
+   "q": "A cube has edge length 4 inches. What is its volume?",
+   "sk": "Volume",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "24 m",
+    "12 m",
+    "49 m",
+    "35 m"
+   ],
+   "d": "E",
+   "e": "Perimeter = 2(7+5)=24.",
+   "id": "QR-W3-S1-04",
+   "k": 0,
+   "p": "",
+   "q": "A rectangle is 7 m long and 5 m wide. What is its perimeter?",
+   "sk": "Perimeter",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "60 cm²",
+    "30 cm²",
+    "120 cm²",
+    "16 cm²"
+   ],
+   "d": "E",
+   "e": "Area = 1/2 × 10 × 6 = 30.",
+   "id": "QR-W3-S1-05",
+   "k": 1,
+   "p": "",
+   "q": "A triangle has base 10 cm and height 6 cm. What is its area?",
+   "sk": "Area",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "65°",
+    "75°",
+    "45°",
+    "55°"
+   ],
+   "d": "E",
+   "e": "Angles on a straight line total 180°; 180−125=55.",
+   "id": "QR-W3-S1-06",
+   "k": 3,
+   "p": "",
+   "q": "Two angles form a straight line. One angle is 125°. What is the other angle?",
+   "sk": "Angles",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "d": "E",
+   "e": "A square matches across its vertical, horizontal, and two diagonal folds, for 4 lines.",
+   "id": "QR-W3-S1-07",
+   "k": 1,
+   "p": "",
+   "q": "A square window is tested for reflection symmetry. How many lines of symmetry does it have?",
+   "sk": "Symmetry",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "the same",
+    "half as large",
+    "twice as large",
+    "four times as large"
+   ],
+   "d": "M",
+   "e": "Volume is proportional to height, so doubling height doubles volume.",
+   "id": "QR-W3-S1-08",
+   "k": 2,
+   "p": "",
+   "q": "If only the height of a rectangular prism is doubled, its volume becomes:",
+   "sk": "Volume reasoning",
+   "w": "W3"
+  },
+  {
+   "c": [
+    7.0,
+    12.0,
+    20.0,
+    15.0
+   ],
+   "d": "H",
+   "e": "Width = 4 and height = 3, so area = 12.",
+   "id": "QR-W3-S1-09",
+   "k": 1,
+   "p": "",
+   "q": "A rectangle has vertices (1,1), (5,1), (5,4), and (1,4). What is its area?",
+   "sk": "Coordinates",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "12",
+    "9",
+    "10",
+    "11"
+   ],
+   "d": "E",
+   "e": "The readings total 50; 50÷5=10.",
+   "id": "QR-W3-S1-10",
+   "k": 2,
+   "p": "",
+   "q": "Five daily readings are 6, 8, 9, 12, and 15. What is the mean reading?",
+   "sk": "Mean",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "8",
+    "9",
+    "4",
+    "10"
+   ],
+   "d": "E",
+   "e": "With five ordered values, the third value is the median: 8.",
+   "id": "QR-W3-S1-11",
+   "k": 0,
+   "p": "",
+   "q": "The ordered locker numbers are 3, 4, 8, 10, and 14. What is the median locker number?",
+   "sk": "Median",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "6°",
+    "8°",
+    "7°",
+    "9°"
+   ],
+   "d": "E",
+   "e": "Range is high minus low: 20−11=9°.",
+   "id": "QR-W3-S1-12",
+   "k": 3,
+   "p": "",
+   "q": "Recorded temperatures range from a low of 11° to a high of 20°. What is the temperature range?",
+   "sk": "Range",
+   "w": "W3"
+  },
+  {
+   "c": [
+    45.0,
+    180.0,
+    90.0,
+    72.0
+   ],
+   "d": "E",
+   "e": "9×2×5=90.",
+   "id": "QR-W3-S2-01",
+   "k": 2,
+   "p": "",
+   "q": "What is the volume of a rectangular prism measuring 9 by 2 by 5?",
+   "sk": "Volume",
+   "w": "W3"
+  },
+  {
+   "c": [
+    25.0,
+    5.0,
+    10.0,
+    4.0
+   ],
+   "d": "M",
+   "e": "5³ = 125.",
+   "id": "QR-W3-S2-02",
+   "k": 1,
+   "p": "",
+   "q": "A cube has volume 125 cubic units. What is the length of one edge?",
+   "sk": "Volume",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "8",
+    "9",
+    "10",
+    "7"
+   ],
+   "d": "M",
+   "e": "48 ÷ 6 = 8.",
+   "id": "QR-W3-S2-03",
+   "k": 0,
+   "p": "",
+   "q": "A rectangle has area 48 square units and width 6. What is its length?",
+   "sk": "Area",
+   "w": "W3"
+  },
+  {
+   "c": [
+    6.0,
+    12.0,
+    5.0,
+    7.0
+   ],
+   "d": "M",
+   "e": "2(9+w)=30, so 9+w=15 and w=6.",
+   "id": "QR-W3-S2-04",
+   "k": 0,
+   "p": "",
+   "q": "A rectangle has perimeter 30 units and length 9 units. What is its width?",
+   "sk": "Perimeter",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "60°",
+    "70°",
+    "90°",
+    "80°"
+   ],
+   "d": "E",
+   "e": "Triangle angles total 180°; 180−110=70.",
+   "id": "QR-W3-S2-05",
+   "k": 1,
+   "p": "",
+   "q": "A triangle has angles 50° and 60°. What is the third angle?",
+   "sk": "Angles",
+   "w": "W3"
+  },
+  {
+   "c": [
+    24.0,
+    22.0,
+    18.0,
+    20.0
+   ],
+   "d": "H",
+   "e": "The total of all four is 72; 72−50=22.",
+   "id": "QR-W3-S2-06",
+   "k": 1,
+   "p": "",
+   "q": "The mean of four numbers is 18. Three of the numbers total 50. What is the fourth number?",
+   "sk": "Mean",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "8",
+    "7",
+    "9",
+    "12"
+   ],
+   "d": "E",
+   "e": "The fourth of seven ordered values is the median, so the median is 9.",
+   "id": "QR-W3-S2-07",
+   "k": 2,
+   "p": "",
+   "q": "Seven ordered scores are 2, 5, 7, 9, 12, 15, and 20. What is the median score?",
+   "sk": "Median",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "10",
+    "6",
+    "7",
+    "8"
+   ],
+   "d": "E",
+   "e": "Green has the greatest frequency with 8 votes, so the modal response count is 8.",
+   "id": "QR-W3-S2-08",
+   "k": 3,
+   "p": "",
+   "q": "A color poll records 4 red, 6 blue, 8 green, and 5 yellow votes. The most chosen color received how many votes?",
+   "sk": "Mode",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "1/5",
+    "1/2",
+    "1/4",
+    "1/10"
+   ],
+   "d": "E",
+   "e": "There are 10 marbles total and 2 are blue: 2/10=1/5.",
+   "id": "QR-W3-S2-09",
+   "k": 0,
+   "p": "",
+   "q": "A bag has 3 red, 2 blue, and 5 green marbles. What is the probability of choosing a blue marble?",
+   "sk": "Probability",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "1/2",
+    "7/10",
+    "3/10",
+    "4/5"
+   ],
+   "d": "M",
+   "e": "7 of the 10 marbles are not red.",
+   "id": "QR-W3-S2-10",
+   "k": 1,
+   "p": "",
+   "q": "Using the same bag, what is the probability of choosing a marble that is NOT red?",
+   "sk": "Probability",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "twice as large",
+    "eight times as large",
+    "three times as large",
+    "four times as large"
+   ],
+   "d": "H",
+   "e": "Doubling both dimensions multiplies area by 2×2=4.",
+   "id": "QR-W3-S2-11",
+   "k": 3,
+   "p": "",
+   "q": "If both the length and width of a rectangle are doubled, its area becomes:",
+   "sk": "Scale reasoning",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "four times",
+    "half",
+    "twice",
+    "the same"
+   ],
+   "d": "E",
+   "e": "Volume is proportional to length.",
+   "id": "QR-W3-S2-12",
+   "k": 2,
+   "p": "",
+   "q": "If the length of a rectangular prism is doubled while width and height stay the same, its volume becomes:",
+   "sk": "Volume reasoning",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "(−3,−2)",
+    "(−3,2)",
+    "(3,2)",
+    "(2,−3)"
+   ],
+   "d": "E",
+   "e": "Reflection across the y-axis changes the sign of x and keeps y, giving (−3,−2).",
+   "id": "QR-W3-S2-13",
+   "k": 0,
+   "p": "",
+   "q": "A map point at (3,−2) is reflected across a vertical mirror on the y-axis. What is the reflected point?",
+   "sk": "Coordinates",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "It stays 5",
+    "It decreases",
+    "Cannot tell",
+    "It increases"
+   ],
+   "d": "H",
+   "e": "Adding a value much larger than the old mean raises the mean.",
+   "id": "QR-W3-S2-14",
+   "k": 3,
+   "p": "",
+   "q": "The numbers 4, 5, 5, 6 have mean 5. If 20 is added to the data set, what happens to the mean?",
+   "sk": "Data reasoning",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "all measures equally",
+    "mode",
+    "mean",
+    "median"
+   ],
+   "d": "H",
+   "e": "The mean uses every value and is pulled toward an extreme outlier.",
+   "id": "QR-W3-S2-15",
+   "k": 2,
+   "p": "",
+   "q": "Which measure is usually affected more by one extremely large outlier?",
+   "sk": "Data reasoning",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "6",
+    "4",
+    "8",
+    "3"
+   ],
+   "d": "E",
+   "e": "Rename 3/4 as 6/8, so six 1/8-cup pots can be filled.",
+   "id": "QR-W4-S1-01",
+   "k": 0,
+   "p": "",
+   "q": "A gardener has 3/4 cup of soil and fills pots with 1/8 cup each. How many pots can be filled?",
+   "sk": "Fractions",
+   "w": "W4"
+  },
+  {
+   "c": [
+    24.0,
+    12.0,
+    18.0,
+    20.0
+   ],
+   "d": "M",
+   "e": "There are 8 parts; 32÷8=4, and 5 parts = 20.",
+   "id": "QR-W4-S1-02",
+   "k": 3,
+   "p": "",
+   "q": "The ratio of boys to girls is 3:5. If there are 32 students total, how many are girls?",
+   "sk": "Ratio",
+   "w": "W4"
+  },
+  {
+   "c": [
+    0.25,
+    0.36,
+    0.3,
+    0.2
+   ],
+   "d": "E",
+   "e": "$3.60 ÷ 12 = $0.30.",
+   "id": "QR-W4-S1-03",
+   "k": 2,
+   "p": "",
+   "q": "A 12-ounce box costs $3.60. What is the cost per ounce?",
+   "sk": "Unit rate",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "12",
+    "10",
+    "11",
+    "14"
+   ],
+   "d": "E",
+   "e": "The side length is √144=12 because 12×12=144.",
+   "id": "QR-W4-S1-04",
+   "k": 0,
+   "p": "",
+   "q": "A square mosaic uses 144 tiles in equal rows and columns. How many tiles are on one side?",
+   "sk": "Square roots",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "64",
+    "72",
+    "81",
+    "49"
+   ],
+   "d": "E",
+   "e": "49=7², 64=8², and 81=9²; 72 is not a perfect square.",
+   "id": "QR-W4-S1-05",
+   "k": 1,
+   "p": "",
+   "q": "A designer checks tile counts 49, 64, 72, and 81 for square arrays. Which count cannot form a square array?",
+   "sk": "Squares",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "2 cm",
+    "4 cm",
+    "3 cm",
+    "5 cm"
+   ],
+   "d": "M",
+   "e": "180 ÷ (10×6)=3.",
+   "id": "QR-W4-S1-06",
+   "k": 2,
+   "p": "",
+   "q": "A prism has volume 180 cm³, length 10 cm, and width 6 cm. What is its height?",
+   "sk": "Volume",
+   "w": "W4"
+  },
+  {
+   "c": [
+    36.0,
+    24.0,
+    30.0,
+    15.0
+   ],
+   "d": "H",
+   "e": "Width=54÷9=6; perimeter=2(9+6)=30.",
+   "id": "QR-W4-S1-07",
+   "k": 2,
+   "p": "",
+   "q": "A rectangle has area 54 square units and length 9. What is its perimeter?",
+   "sk": "Geometry",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "60°",
+    "70°",
+    "75°",
+    "65°"
+   ],
+   "d": "M",
+   "e": "180−55−55=70.",
+   "id": "QR-W4-S1-08",
+   "k": 1,
+   "p": "",
+   "q": "A triangle has two equal angles of 55°. What is the third angle?",
+   "sk": "Angles",
+   "w": "W4"
+  },
+  {
+   "c": [
+    22.0,
+    20.0,
+    16.0,
+    18.0
+   ],
+   "d": "H",
+   "e": "A mean of 15 for 4 numbers means total 60; 60−42=18.",
+   "id": "QR-W4-S1-09",
+   "k": 3,
+   "p": "",
+   "q": "The mean of 12, 14, 16, and x is 15. What is x?",
+   "sk": "Mean",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "3/8",
+    "3/4",
+    "1/4",
+    "5/8"
+   ],
+   "d": "M",
+   "e": "6 of 8 sections are not green: 6/8=3/4.",
+   "id": "QR-W4-S1-10",
+   "k": 1,
+   "p": "",
+   "q": "A spinner has 8 equal sections: 3 red, 3 blue, 2 green. What is the probability of NOT landing on green?",
+   "sk": "Probability",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "30",
+    "36",
+    "60",
+    "48"
+   ],
+   "d": "E",
+   "e": "Each term doubles, so 24×2=48 pages.",
+   "id": "QR-W4-S1-11",
+   "k": 3,
+   "p": "",
+   "q": "A student doubles the number of pages read each week: 3, 6, 12, 24, ... . How many pages come next?",
+   "sk": "Pattern",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "24",
+    "20",
+    "18",
+    "30"
+   ],
+   "d": "E",
+   "e": "24÷4=6 and 24÷6=4, so 24 is divisible by both numbers.",
+   "id": "QR-W4-S1-12",
+   "k": 0,
+   "p": "",
+   "q": "A supply count must be divisible by both 4 and 6. Which count works?",
+   "sk": "Number properties",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "18 cups",
+    "12 cups",
+    "24 cups",
+    "30 cups"
+   ],
+   "d": "H",
+   "e": "The removed 8 cups equals 1/3 of the jar, so full capacity is 24.",
+   "id": "QR-W4-S2-01",
+   "k": 2,
+   "p": "",
+   "q": "A jar is 2/3 full. After 8 cups are removed, it is 1/3 full. What is the jar's full capacity?",
+   "sk": "Fractions",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "4 mph",
+    "5 mph",
+    "6 mph",
+    "9 mph"
+   ],
+   "d": "E",
+   "e": "7.5 ÷ 1.5 = 5 mph.",
+   "id": "QR-W4-S2-02",
+   "k": 1,
+   "p": "",
+   "q": "A runner travels 7.5 miles in 1.5 hours. What is the average rate?",
+   "sk": "Unit rate",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "15 cups",
+    "6 cups",
+    "7 cups",
+    "10 cups"
+   ],
+   "d": "M",
+   "e": "There are 7 parts; 21÷7=3, so blue = 2×3 = 6.",
+   "id": "QR-W4-S2-03",
+   "k": 1,
+   "p": "",
+   "q": "A paint mixture uses blue and white in a 2:5 ratio. If 21 cups are mixed, how many cups are blue?",
+   "sk": "Ratio",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "9+9",
+    "81÷9",
+    "3⁴",
+    "9×2"
+   ],
+   "d": "E",
+   "e": "The board has 9²=81 spaces, and 3⁴=81.",
+   "id": "QR-W4-S2-04",
+   "k": 2,
+   "p": "",
+   "q": "A 9-by-9 game board has 81 spaces. Which expression has the same value as the number of spaces?",
+   "sk": "Squares",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "9 and 10",
+    "7 and 8",
+    "8 and 9",
+    "6 and 7"
+   ],
+   "d": "E",
+   "e": "Because 8²=64 and 9²=81, √70 lies between 8 and 9.",
+   "id": "QR-W4-S2-05",
+   "k": 2,
+   "p": "",
+   "q": "A square display uses 70 tiles. Between which two whole-number side lengths would its side lie?",
+   "sk": "Square roots",
+   "w": "W4"
+  },
+  {
+   "c": [
+    75.0,
+    30.0,
+    45.0,
+    50.0
+   ],
+   "d": "M",
+   "e": "30 is divisible by 2, 3, and 5.",
+   "id": "QR-W4-S2-06",
+   "k": 1,
+   "p": "",
+   "q": "A number is divisible by 2, 3, and 5. Which could be the number?",
+   "sk": "Number properties",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "37",
+    "43",
+    "51",
+    "49"
+   ],
+   "d": "E",
+   "e": "The increases are +3,+6,+12, so the next increase is +24 and 25+24=49.",
+   "id": "QR-W4-S2-07",
+   "k": 3,
+   "p": "",
+   "q": "A fence-post pattern uses 4, 7, 13, and 25 posts. The increases double. How many posts come next?",
+   "sk": "Pattern",
+   "w": "W4"
+  },
+  {
+   "c": [
+    60.0,
+    120.0,
+    30.0,
+    90.0
+   ],
+   "d": "H",
+   "e": "Original volume is 120; halving height halves volume to 60.",
+   "id": "QR-W4-S2-08",
+   "k": 0,
+   "p": "",
+   "q": "A rectangular prism is 6 by 5 by 4. If its height is cut in half, what is the new volume?",
+   "sk": "Volume",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "36 cm²",
+    "144 cm²",
+    "72 cm²",
+    "81 cm²"
+   ],
+   "d": "M",
+   "e": "Each side is 9; area = 9² = 81.",
+   "id": "QR-W4-S2-09",
+   "k": 3,
+   "p": "",
+   "q": "A square has perimeter 36 cm. What is its area?",
+   "sk": "Area",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "48°",
+    "52°",
+    "42°",
+    "62°"
+   ],
+   "d": "E",
+   "e": "A right angle totals 90°, so 90−38=52°.",
+   "id": "QR-W4-S2-10",
+   "k": 1,
+   "p": "",
+   "q": "A right-angle art frame has one angle of 38°. What is the other angle?",
+   "sk": "Angles",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "70",
+    "60",
+    "84",
+    "56"
+   ],
+   "d": "E",
+   "e": "Total equals mean×number of trays: 14×5=70 items.",
+   "id": "QR-W4-S2-11",
+   "k": 0,
+   "p": "",
+   "q": "Five supply trays contain an average of 14 items. How many items are in the trays altogether?",
+   "sk": "Mean",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "5",
+    "8",
+    "2",
+    "12"
+   ],
+   "d": "H",
+   "e": "With x=12, the ordered list is 3,6,9,12,15, whose middle value is 9.",
+   "id": "QR-W4-S2-12",
+   "k": 3,
+   "p": "",
+   "q": "The ordered values are 3, 6, 9, x, and 15. Which value of x keeps the median at 9?",
+   "sk": "Median",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "1/3",
+    "1/6",
+    "1/2",
+    "2/3"
+   ],
+   "d": "E",
+   "e": "The favorable outcomes are 5 and 6, so the probability is 2/6=1/3.",
+   "id": "QR-W4-S2-13",
+   "k": 0,
+   "p": "",
+   "q": "A fair number cube is rolled. What is the probability of rolling a number greater than 4?",
+   "sk": "Probability",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "(3,4)",
+    "(-7,4)",
+    "(5,4)",
+    "(-2,9)"
+   ],
+   "d": "E",
+   "e": "-2+5=3, so the point is (3,4).",
+   "id": "QR-W4-S2-14",
+   "k": 0,
+   "p": "",
+   "q": "A point at (-2,4) moves 5 units right. What is the new point?",
+   "sk": "Coordinates",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "4/5",
+    "3/5",
+    "2/5",
+    "1/5"
+   ],
+   "d": "H",
+   "e": "36 pages are read, leaving 24; 24/60=2/5.",
+   "id": "QR-W4-S2-15",
+   "k": 2,
+   "p": "",
+   "q": "A 60-page book is read at 12 pages per day. After 3 days, what fraction of the book remains unread?",
+   "sk": "Mixed reasoning",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "$2.00",
+    "$0.30",
+    "$0.50",
+    "$0.60"
+   ],
+   "d": "E",
+   "e": "The 6 bars share the $3.00 evenly, so one bar costs $3.00 divided by 6 = $0.50.",
+   "id": "QR-W5-S1-Q01",
+   "k": 2,
+   "p": "",
+   "q": "A box of 6 granola bars costs $3.00. At that rate, what is the cost of one granola bar?",
+   "sk": "Unit rate",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "4",
+    "12",
+    "5",
+    "9"
+   ],
+   "d": "E",
+   "e": "The 6 red beads make 3 groups of 2, and each group comes with 3 white beads, so there are 3 x 3 = 9 white beads.",
+   "id": "QR-W5-S1-Q02",
+   "k": 3,
+   "p": "",
+   "q": "A necklace uses 2 red beads for every 3 white beads. The necklace has 6 red beads. How many white beads does it have?",
+   "sk": "Ratio",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "3 out of every 4 apples are red.",
+    "There are exactly 3 red apples and 4 green apples.",
+    "4 out of every 7 apples are red.",
+    "3 out of every 7 apples are red."
+   ],
+   "d": "M",
+   "e": "A 3:4 ratio means every group of 3 red apples comes with 4 green ones, so each group has 7 apples and 3 of those 7 are red.",
+   "id": "QR-W5-S1-Q03",
+   "k": 3,
+   "p": "",
+   "q": "In a basket of red and green apples, the ratio of red apples to green apples is 3:4. Which statement must be true?",
+   "sk": "Ratio",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "12 feet",
+    "6 feet",
+    "5 feet",
+    "1 1/2 feet"
+   ],
+   "d": "E",
+   "e": "Each inch in the drawing stands for 2 feet, so 3 inches stands for 3 x 2 = 6 feet.",
+   "id": "QR-W5-S1-Q04",
+   "k": 1,
+   "p": "",
+   "q": "A drawing of a bookcase uses a scale of 1 inch to 2 feet. The bookcase is 3 inches tall in the drawing. How tall is the real bookcase?",
+   "sk": "Scale",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "175 meters",
+    "50 meters",
+    "350 meters",
+    "125 meters"
+   ],
+   "d": "M",
+   "e": "14 centimeters is 7 groups of 2 centimeters, and each 2 centimeters stands for 25 meters, so the path is 7 x 25 = 175 meters.",
+   "id": "QR-W5-S1-Q05",
+   "k": 0,
+   "p": "",
+   "q": "On a park map, 2 centimeters represents 25 meters. A walking path is 14 centimeters long on the map. How long is the real path?",
+   "sk": "Scale",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "160",
+    "48",
+    "72",
+    "24"
+   ],
+   "d": "M",
+   "e": "Three minutes is 180 seconds, which is 9 groups of 20 seconds, so the printer prints 9 x 8 = 72 pages.",
+   "id": "QR-W5-S1-Q06",
+   "k": 2,
+   "p": "",
+   "q": "A printer prints 8 pages every 20 seconds at a steady rate. How many pages does it print in 3 minutes?",
+   "sk": "Unit rate",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "20",
+    "30",
+    "24",
+    "15"
+   ],
+   "d": "M",
+   "e": "Yellow is 3 parts and equals 12 cups, so one part is 4 cups; white is 5 parts, or 5 x 4 = 20 cups.",
+   "id": "QR-W5-S1-Q07",
+   "k": 0,
+   "p": "",
+   "q": "A paint color mixes red, yellow, and white in the ratio 2:3:5. A painter uses 12 cups of yellow. How many cups of white are used?",
+   "sk": "Ratio",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "8 inches",
+    "480 inches",
+    "6 inches",
+    "7 1/2 inches"
+   ],
+   "d": "M",
+   "e": "Each inch of the model stands for 8 feet, so the model is 60 divided by 8 = 7 1/2 inches long.",
+   "id": "QR-W5-S1-Q08",
+   "k": 3,
+   "p": "",
+   "q": "A model train is built at a scale of 1 inch to 8 feet. The real engine is 60 feet long. How long is the model?",
+   "sk": "Scale",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "The 15-ounce jar, by $0.02 per ounce",
+    "The 24-ounce jar, by $0.02 per ounce",
+    "The 24-ounce jar, by $0.04 per ounce",
+    "The two jars cost the same per ounce"
+   ],
+   "d": "H",
+   "e": "$4.50 divided by 15 is $0.30 per ounce and $6.72 divided by 24 is $0.28 per ounce, so the 24-ounce jar saves $0.02 on every ounce.",
+   "id": "QR-W5-S1-Q09",
+   "k": 1,
+   "p": "",
+   "q": "A 15-ounce jar of honey costs $4.50. A 24-ounce jar of the same honey costs $6.72. Which jar is the better buy, and by how much per ounce?",
+   "sk": "Unit rate",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "16",
+    "12",
+    "14",
+    "18"
+   ],
+   "d": "H",
+   "e": "One serving uses (3/4) divided by 6 = 1/8 cup, and 2 divided by 1/8 is 16, so she can make 16 servings.",
+   "id": "QR-W5-S1-Q10",
+   "k": 0,
+   "p": "",
+   "q": "A recipe for 6 servings uses 3/4 cup of rice. Nadia has 2 cups of rice and plenty of everything else. What is the greatest number of whole servings she can make?",
+   "sk": "Unit rate",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "They stack at the same rate.",
+    "Ana stacks twice as fast as Ben.",
+    "Ben stacks faster.",
+    "Ana stacks faster."
+   ],
+   "d": "H",
+   "e": "Ana stacks 24 divided by 40 = 0.6 box per minute and Ben stacks 21 divided by 35 = 0.6 box per minute, so their rates are equal.",
+   "id": "QR-W5-S1-Q11",
+   "k": 0,
+   "p": "",
+   "q": "Ana stacks 24 boxes in 40 minutes. Ben stacks 21 boxes in 35 minutes. Each works at a steady rate. Which statement is true?",
+   "sk": "Unit rate",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "96 meters",
+    "There is not enough information to tell.",
+    "48 meters",
+    "20 meters"
+   ],
+   "d": "H",
+   "e": "No scale is given, so there is nothing to tell how many meters each centimeter of the drawing stands for.",
+   "id": "QR-W5-S1-Q12",
+   "k": 1,
+   "p": "",
+   "q": "A scale drawing of a soccer field shows the field as a rectangle 12 centimeters long and 8 centimeters wide. What is the actual length of the field?",
+   "sk": "Scale",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "23",
+    "21",
+    "24",
+    "25"
+   ],
+   "d": "E",
+   "e": "Each number is 5 more than the one before it, so the next number is 19 + 5 = 24.",
+   "id": "QR-W5-S2-Q01",
+   "k": 2,
+   "p": "",
+   "q": "A number pattern starts at 4 and adds 5 each time: 4, 9, 14, 19, ... . What is the next number in the pattern?",
+   "sk": "Pattern",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "7 pounds",
+    "28 pounds",
+    "8 pounds",
+    "6 pounds"
+   ],
+   "d": "E",
+   "e": "The four bags weigh 5 + 7 + 8 + 8 = 28 pounds in all, and 28 divided by 4 is 7 pounds.",
+   "id": "QR-W5-S2-Q02",
+   "k": 0,
+   "p": "",
+   "q": "Four bags of apples weigh 5 pounds, 7 pounds, 8 pounds, and 8 pounds. What is the mean weight of a bag?",
+   "sk": "Mean",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "$31",
+    "$30",
+    "$35",
+    "$29"
+   ],
+   "d": "M",
+   "e": "15% of $40 is $6, so the sale price is $34, and $34 - $5 = $29.",
+   "id": "QR-W5-S2-Q03",
+   "k": 3,
+   "p": "",
+   "q": "A backpack costs $40. During a sale the price drops 15%, and then a $5 coupon is used on the sale price. What is the final price?",
+   "sk": "Percent",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "1/3",
+    "3/5",
+    "5/8",
+    "3/8"
+   ],
+   "d": "E",
+   "e": "There are 3 + 5 = 8 tiles in all and 3 of them are red, so the probability is 3/8.",
+   "id": "QR-W5-S2-Q04",
+   "k": 3,
+   "p": "",
+   "q": "A bag holds 3 red tiles and 5 green tiles. One tile is drawn without looking. What is the probability that it is red?",
+   "sk": "Probability",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "27",
+    "108",
+    "36",
+    "9"
+   ],
+   "d": "M",
+   "e": "27 gallons is 9 buckets of 3 gallons, and each bucket takes 4 minutes, so it takes 9 x 4 = 36 minutes.",
+   "id": "QR-W5-S2-Q05",
+   "k": 2,
+   "p": "",
+   "q": "A faucet fills a 3-gallon bucket in 4 minutes at a steady rate. How many minutes does it take to fill a 27-gallon tub?",
+   "sk": "Unit rate",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "18",
+    "10",
+    "12",
+    "30"
+   ],
+   "d": "M",
+   "e": "5/8 of 48 is 30 novels, and 2/5 of 30 is 12 mystery novels.",
+   "id": "QR-W5-S2-Q06",
+   "k": 2,
+   "p": "",
+   "q": "Of the 48 books on a shelf, 5/8 are novels. Of those novels, 2/5 are mysteries. How many of the books are mystery novels?",
+   "sk": "Fractions",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "7 cm",
+    "6 cm",
+    "4 cm",
+    "5 cm"
+   ],
+   "d": "E",
+   "e": "In order the heights are 4, 5, 6, 7, and 9 cm, and the middle one of the five is 6 cm.",
+   "id": "QR-W5-S2-Q07",
+   "k": 1,
+   "p": "",
+   "q": "Five plants were measured: 6 cm, 9 cm, 4 cm, 7 cm, and 5 cm. What is the median height?",
+   "sk": "Median",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "$7",
+    "$12",
+    "$24",
+    "$48"
+   ],
+   "d": "H",
+   "e": "Seven equal parts make $84, so each part is $12; the shares are $36 and $48, and the difference is one part, $12.",
+   "id": "QR-W5-S2-Q08",
+   "k": 1,
+   "p": "",
+   "q": "Two friends share $84 in the ratio 3:4. How much more money does the friend with the larger share receive?",
+   "sk": "Ratio",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "(5, 6)",
+    "(1, 5)",
+    "(6, 1)",
+    "(1, 6)"
+   ],
+   "d": "M",
+   "e": "The side from (1, 1) to (9, 1) is horizontal and the side from (9, 1) to (9, 6) is vertical, so the fourth corner sits directly above (1, 1) at (1, 6).",
+   "id": "QR-W5-S2-Q09",
+   "k": 3,
+   "p": "",
+   "q": "Three corners of a rectangle are at (1, 1), (9, 1), and (9, 6). Where is the fourth corner?",
+   "sk": "Coordinates",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "9 glasses, with 1/10 quart left",
+    "8 glasses, with 1/2 quart left",
+    "7 glasses, with 7/10 quart left",
+    "8 glasses, with 3/10 quart left"
+   ],
+   "d": "H",
+   "e": "3 1/2 divided by 2/5 = 7/2 x 5/2 = 35/4 = 8 3/4, so 8 full glasses are poured, using 16/5 = 3 1/5 quarts and leaving 3 1/2 - 3 1/5 = 3/10 quart.",
+   "id": "QR-W5-S2-Q10",
+   "k": 3,
+   "p": "",
+   "q": "A pitcher holds 3 1/2 quarts of lemonade. Each glass holds 2/5 quart. How many full glasses can be poured, and how much lemonade is left over?",
+   "sk": "Fractions",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "6",
+    "5 1/2",
+    "16 1/2",
+    "11"
+   ],
+   "d": "M",
+   "e": "If 3n - 7 = 26, then 3n = 33 and n = 11, so half the number is 5 1/2.",
+   "id": "QR-W5-S2-Q11",
+   "k": 1,
+   "p": "",
+   "q": "Three times a number, decreased by 7, equals 26. What is half of that number?",
+   "sk": "Algebraic reasoning",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "36",
+    "144",
+    "48",
+    "72"
+   ],
+   "d": "M",
+   "e": "Along the edges 6, 4, and 3 cubes fit (12/2, 8/2, and 6/2), so 6 x 4 x 3 = 72 cubes fill the box.",
+   "id": "QR-W5-S2-Q12",
+   "k": 3,
+   "p": "",
+   "q": "A rectangular box measures 12 cm by 8 cm by 6 cm. How many 2-cm cubes fit inside it exactly?",
+   "sk": "Volume",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "27 inches",
+    "12 inches",
+    "24 inches",
+    "13 1/2 inches"
+   ],
+   "d": "H",
+   "e": "18 feet is 4.5 groups of 4 feet, and each 4 feet is drawn as 3 inches, so the room is 4.5 x 3 = 13 1/2 inches long.",
+   "id": "QR-W5-S2-Q13",
+   "k": 3,
+   "p": "",
+   "q": "On a floor plan, 3 inches represents 4 feet. A room is 18 feet long. How long is that room on the plan?",
+   "sk": "Scale",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "82",
+    "88",
+    "90",
+    "84"
+   ],
+   "d": "H",
+   "e": "Four quizzes with mean 78 total 312, and five quizzes with mean 80 must total 400, so the fifth score is 400 - 312 = 88.",
+   "id": "QR-W5-S2-Q14",
+   "k": 1,
+   "p": "",
+   "q": "Kara's first four quiz scores have a mean of 78. What must she score on her fifth quiz to raise her mean to 80?",
+   "sk": "Mean",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "50 square meters",
+    "46 square meters",
+    "23 square meters",
+    "70 square meters"
+   ],
+   "d": "H",
+   "e": "With the path, the outer rectangle is 10 m by 17 m, or 170 square meters; subtracting the garden's 8 x 15 = 120 square meters leaves 50 square meters.",
+   "id": "QR-W5-S2-Q15",
+   "k": 0,
+   "p": "",
+   "q": "A rectangular garden is 8 meters by 15 meters. A path 1 meter wide is built all the way around the outside of the garden. What is the area of the path alone?",
+   "sk": "Area",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "48",
+    "56",
+    "41",
+    "44"
+   ],
+   "d": "E",
+   "e": "The multiples of 8 are 8, 16, 24, 32, 40, 48, so the next one after 40 is 48.",
+   "id": "QR-W6-S1-Q01",
+   "k": 0,
+   "p": "",
+   "q": "What is the next multiple of 8 after 40?",
+   "sk": "Multiples",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "2,000",
+    "20",
+    "200",
+    "20,000"
+   ],
+   "d": "E",
+   "e": "6,127 is about 6,000 and 29 is about 30, and 6,000 divided by 30 is 200.",
+   "id": "QR-W6-S1-Q02",
+   "k": 2,
+   "p": "",
+   "q": "Which is the best estimate of 6,127 divided by 29?",
+   "sk": "Estimation",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "9",
+    "21",
+    "17",
+    "15"
+   ],
+   "d": "E",
+   "e": "17 has no whole-number factors except 1 and itself, while 9 = 3 x 3, 15 = 3 x 5, and 21 = 3 x 7.",
+   "id": "QR-W6-S1-Q03",
+   "k": 2,
+   "p": "",
+   "q": "Which of these numbers is a prime number?",
+   "sk": "Prime factors",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "20",
+    "2,000",
+    "2",
+    "200"
+   ],
+   "d": "M",
+   "e": "The 4 stands for 40,000 and the 2 stands for 200, and 40,000 divided by 200 is 200.",
+   "id": "QR-W6-S1-Q04",
+   "k": 3,
+   "p": "",
+   "q": "In the number 47,205, the value of the digit 4 is how many times the value of the digit 2?",
+   "sk": "Number sense",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "7",
+    "8",
+    "6",
+    "9"
+   ],
+   "d": "E",
+   "e": "Consecutive whole numbers are 1 apart, and 7 + 8 = 15, so the larger number is 8.",
+   "id": "QR-W6-S1-Q05",
+   "k": 1,
+   "p": "",
+   "q": "Two consecutive whole numbers add up to 15. What is the larger of the two numbers?",
+   "sk": "Consecutive integers",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "17",
+    "12",
+    "15",
+    "21"
+   ],
+   "d": "M",
+   "e": "210 = 2 x 3 x 5 x 7, and 2 + 3 + 5 + 7 = 17.",
+   "id": "QR-W6-S1-Q06",
+   "k": 0,
+   "p": "",
+   "q": "What is the sum of all the different prime factors of 210?",
+   "sk": "Prime factors",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "The product must be less than 4,000.",
+    "The product must end in the digit 7.",
+    "The product should be close to 7,200, not 5,146.",
+    "The product must be odd, and 5,146 is even."
+   ],
+   "d": "H",
+   "e": "397 is close to 400 and 400 x 18 = 7,200, so an answer near 5,100 is far too small; the exact product is 7,146.",
+   "id": "QR-W6-S1-Q07",
+   "k": 2,
+   "p": "",
+   "q": "A student multiplied 397 x 18 and wrote 5,146. Without finding the exact product, which is the best reason to know that answer is wrong?",
+   "sk": "Estimation",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "2",
+    "4",
+    "7",
+    "5"
+   ],
+   "d": "M",
+   "e": "A number is divisible by 9 when its digits add to a multiple of 9; 7 + 3 + 4 = 14, and 14 + 4 = 18, so the missing digit is 4 and the number is 7,344.",
+   "id": "QR-W6-S1-Q08",
+   "k": 1,
+   "p": "",
+   "q": "The four-digit number 73_4 is missing the digit in its tens place. If the number is divisible by 9, what is the missing digit?",
+   "sk": "Divisibility",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "4,650",
+    "4,599",
+    "4,699",
+    "4,649"
+   ],
+   "d": "H",
+   "e": "Whole numbers from 4,550 through 4,649 round to 4,600, and 4,650 would round up to 4,700, so the greatest is 4,649.",
+   "id": "QR-W6-S1-Q09",
+   "k": 3,
+   "p": "",
+   "q": "A whole number rounds to 4,600 when it is rounded to the nearest hundred. What is the greatest whole number it could be?",
+   "sk": "Number sense",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "15",
+    "21",
+    "49",
+    "64"
+   ],
+   "d": "H",
+   "e": "49 has only the factors 1, 7, and 49; 15 and 21 each have four factors, and 64 has seven.",
+   "id": "QR-W6-S1-Q10",
+   "k": 2,
+   "p": "",
+   "q": "Which of these numbers has exactly three different whole-number factors?",
+   "sk": "Factors",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "29",
+    "27",
+    "23",
+    "81"
+   ],
+   "d": "H",
+   "e": "27 x 27 = 729, while 23 x 23 = 529 and 29 x 29 = 841.",
+   "id": "QR-W6-S1-Q11",
+   "k": 1,
+   "p": "",
+   "q": "A whole number multiplied by itself equals 729. What is the number?",
+   "sk": "Squares",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "Exactly two of the numbers are even.",
+    "All three numbers are odd.",
+    "Exactly one of the numbers is odd.",
+    "At least one of the numbers is odd."
+   ],
+   "d": "H",
+   "e": "If all three numbers were even the sum would be even, so at least one must be odd; the sum is odd when either one number or all three are odd.",
+   "id": "QR-W6-S1-Q12",
+   "k": 3,
+   "p": "",
+   "q": "The sum of three whole numbers is odd. Which statement must be true?",
+   "sk": "Parity",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "4/6",
+    "3/8",
+    "5/10",
+    "2/5"
+   ],
+   "d": "E",
+   "e": "5/10 means 5 out of 10, which is exactly half; 2/5 and 3/8 are each less than half, and 4/6 is more than half.",
+   "id": "QR-W6-S2-Q01",
+   "k": 2,
+   "p": "",
+   "q": "Which of these fractions is equal to 1/2?",
+   "sk": "Fractions",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "10",
+    "8",
+    "18",
+    "40"
+   ],
+   "d": "E",
+   "e": "10% is the same as one tenth, and one tenth of 80 seats is 8 seats.",
+   "id": "QR-W6-S2-Q02",
+   "k": 1,
+   "p": "",
+   "q": "A theater has 80 seats, and 10% of them are already sold. How many seats are sold?",
+   "sk": "Percent",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "126",
+    "132",
+    "135",
+    "108"
+   ],
+   "d": "M",
+   "e": "132 is even and its digits add to 6, a multiple of 3, so it is divisible by 6, but 6 is not a multiple of 9.",
+   "id": "QR-W6-S2-Q03",
+   "k": 1,
+   "p": "",
+   "q": "Which of these numbers is divisible by 6 but NOT by 9?",
+   "sk": "Divisibility",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "100",
+    "30",
+    "20",
+    "40"
+   ],
+   "d": "E",
+   "e": "Multiplying step by step, 2 x 2 = 4, then 4 x 2 = 8, and 8 x 5 = 40.",
+   "id": "QR-W6-S2-Q04",
+   "k": 3,
+   "p": "",
+   "q": "What is the value of 2 x 2 x 2 x 5?",
+   "sk": "Number sense",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "1,500",
+    "2,400",
+    "1,200",
+    "1,800"
+   ],
+   "d": "M",
+   "e": "48 is about 50 and 32 is about 30, so the total is about 50 x 30 = 1,500; the exact product is 1,536.",
+   "id": "QR-W6-S2-Q05",
+   "k": 0,
+   "p": "",
+   "q": "A theater has 48 rows with 32 seats in each row. Which is the closest estimate of the total number of seats?",
+   "sk": "Estimation",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "26",
+    "20",
+    "16",
+    "22"
+   ],
+   "d": "M",
+   "e": "Five numbers with mean 24 total 120; removing 40 leaves 80, and 80 divided by 4 is 20.",
+   "id": "QR-W6-S2-Q06",
+   "k": 1,
+   "p": "",
+   "q": "The mean of five numbers is 24. The number 40 is removed from the set. What is the mean of the four numbers that remain?",
+   "sk": "Mean",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "20",
+    "18",
+    "15",
+    "36"
+   ],
+   "d": "M",
+   "e": "The three angles total 180 degrees, so 3x + 2x + 90 = 180, which gives 5x = 90 and x = 18.",
+   "id": "QR-W6-S2-Q07",
+   "k": 1,
+   "p": "",
+   "q": "In a triangle, one angle is a right angle and the other two angles measure 3x degrees and 2x degrees. What is the value of x?",
+   "sk": "Angles",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "12",
+    "9",
+    "There is not enough information to tell.",
+    "10"
+   ],
+   "d": "H",
+   "e": "The range is the largest number minus the smallest, so the largest is 5 + 5 = 10; the median does not change that.",
+   "id": "QR-W6-S2-Q08",
+   "k": 3,
+   "p": "",
+   "q": "A set of five whole numbers has a median of 7 and a range of 5. The smallest number is 5. What is the largest number?",
+   "sk": "Data reasoning",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "168 feet",
+    "16 feet",
+    "14 feet",
+    "12 feet"
+   ],
+   "d": "M",
+   "e": "The real car is 24 x 7 = 168 inches long, and 168 divided by 12 is 14 feet.",
+   "id": "QR-W6-S2-Q09",
+   "k": 2,
+   "p": "",
+   "q": "A model car is built at 1/24 of the size of the real car. The model is 7 inches long. How long is the real car, in feet?",
+   "sk": "Scale",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "5/8, 0.6, 2/3, 0.7",
+    "0.6, 2/3, 5/8, 0.7",
+    "0.6, 5/8, 2/3, 0.7",
+    "2/3, 0.6, 0.7, 5/8"
+   ],
+   "d": "H",
+   "e": "5/8 = 0.625 and 2/3 is about 0.667, so the correct order is 0.6, then 5/8, then 2/3, then 0.7.",
+   "id": "QR-W6-S2-Q10",
+   "k": 2,
+   "p": "",
+   "q": "Which list is in order from least to greatest?",
+   "sk": "Number sense",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "980",
+    "1,400",
+    "1,050",
+    "1,120"
+   ],
+   "d": "M",
+   "e": "350 divided by 25 is 14 bottles per minute, and 1 hour 20 minutes is 80 minutes, so 80 x 14 = 1,120 bottles.",
+   "id": "QR-W6-S2-Q11",
+   "k": 3,
+   "p": "",
+   "q": "A machine fills 350 bottles in 25 minutes at a steady rate. At that rate, how many bottles does it fill in 1 hour and 20 minutes?",
+   "sk": "Unit rate",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "$60",
+    "$63",
+    "$75",
+    "$57"
+   ],
+   "d": "H",
+   "e": "A 25% increase makes the price $75, and 20% of $75 is $15, so the final price is $75 - $15 = $60.",
+   "id": "QR-W6-S2-Q12",
+   "k": 0,
+   "p": "",
+   "q": "A jacket costs $60. The store raises the price by 25%, then later takes 20% off the new price. What is the final price?",
+   "sk": "Percent",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "4 cm and 18 cm",
+    "6 cm and 12 cm",
+    "8 cm and 9 cm",
+    "3 cm and 24 cm"
+   ],
+   "d": "H",
+   "e": "The two sides must add to 18, half of the perimeter, and multiply to 72; 6 + 12 = 18 and 6 x 12 = 72.",
+   "id": "QR-W6-S2-Q13",
+   "k": 1,
+   "p": "",
+   "q": "A rectangle has an area of 72 square centimeters and a perimeter of 36 centimeters. What are its side lengths?",
+   "sk": "Area",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "8",
+    "1",
+    "2",
+    "4"
+   ],
+   "d": "H",
+   "e": "Doubling adds the remainder to itself: 4 + 4 = 8, and 8 is one more than 7, so the new remainder is 1 (for example, 11 leaves 4 and 22 leaves 1).",
+   "id": "QR-W6-S2-Q14",
+   "k": 1,
+   "p": "",
+   "q": "When a whole number is divided by 7, the remainder is 4. What is the remainder when twice that number is divided by 7?",
+   "sk": "Remainders",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "The product of two even numbers is always divisible by 8.",
+    "The sum of an even number and an odd number is always odd.",
+    "The sum of two odd numbers is always even.",
+    "The product of two odd numbers is always odd."
+   ],
+   "d": "H",
+   "e": "2 x 2 = 4, which is not divisible by 8, so the last statement is false; the other three are always true.",
+   "id": "QR-W6-S2-Q15",
+   "k": 0,
+   "p": "",
+   "q": "Which of these statements is FALSE?",
+   "sk": "Parity",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "21 inches",
+    "28 inches",
+    "14 inches",
+    "49 inches"
+   ],
+   "d": "E",
+   "e": "A square has 4 equal sides, so the perimeter is 4 × 7 = 28 inches.",
+   "id": "QR-W7-S1-Q01",
+   "k": 1,
+   "p": "",
+   "q": "A square photo frame has sides that are 7 inches long. What is the perimeter of the frame?",
+   "sk": "Perimeter",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "16",
+    "32",
+    "24",
+    "11"
+   ],
+   "d": "E",
+   "e": "Three layers of 8 cubes each is 3 × 8 = 24 cubes.",
+   "id": "QR-W7-S1-Q02",
+   "k": 2,
+   "p": "",
+   "q": "A box is filled with unit cubes. Each layer holds 8 cubes, and the box is 3 layers tall. How many unit cubes does the box hold in all?",
+   "sk": "Volume",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "180",
+    "240",
+    "120",
+    "40"
+   ],
+   "d": "M",
+   "e": "The tank holds 8×5×6=240 cubic inches and already has 8×5×3=120, so 240−120=120 more are needed.",
+   "id": "QR-W7-S1-Q03",
+   "k": 2,
+   "p": "",
+   "q": "A rectangular tank is 8 inches long, 5 inches wide, and 6 inches deep. Water in it is 3 inches deep. How many more cubic inches of water are needed to fill the tank?",
+   "sk": "Volume",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "11",
+    "9",
+    "13",
+    "10"
+   ],
+   "d": "E",
+   "e": "With nine values listed in order, the median is the 5th one, and the 5th age in the list is 10.",
+   "id": "QR-W7-S1-Q04",
+   "k": 3,
+   "p": "",
+   "q": "The ages of nine students are listed in order: 8, 9, 9, 10, 10, 11, 11, 12, 13. What is the median age?",
+   "sk": "Median",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "16",
+    "25",
+    "1",
+    "5"
+   ],
+   "d": "M",
+   "e": "The shop sold 12+18+9+15+21=75 books, but the goal needed 5×16=80, so it fell 5 books short.",
+   "id": "QR-W7-S1-Q05",
+   "k": 3,
+   "p": "",
+   "q": "A shop records books sold: Monday 12, Tuesday 18, Wednesday 9, Thursday 15, Friday 21. The goal was to average 16 books per day over the five days. How many more books would the shop have had to sell that week to meet the goal?",
+   "sk": "Data reasoning",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "5°",
+    "9°",
+    "14°",
+    "19°"
+   ],
+   "d": "M",
+   "e": "Adding 5° to every value raises the highest and the lowest by the same amount, so the range stays 14°.",
+   "id": "QR-W7-S1-Q06",
+   "k": 2,
+   "p": "",
+   "q": "One week of daily high temperatures has a range of 14°. The next week, every daily high is exactly 5° warmer than the matching day of the first week. What is the range of the second week's highs?",
+   "sk": "Range",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "12",
+    "20",
+    "1 1/2",
+    "8"
+   ],
+   "d": "M",
+   "e": "Grade 5 read 7×8=56 books and Grade 4 read 5 1/2×8=44, so the difference is 56−44=12.",
+   "id": "QR-W7-S1-Q07",
+   "k": 0,
+   "p": "",
+   "q": "In a pictograph, one book symbol stands for 8 books read. Grade 4 shows 5 1/2 symbols and Grade 5 shows 7 symbols. How many more books did Grade 5 read than Grade 4?",
+   "sk": "Data reasoning",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "0 — the areas are equal",
+    "2 square meters",
+    "12 square meters",
+    "4 square meters"
+   ],
+   "d": "M",
+   "e": "Both perimeters are 24 m, but the areas are 4×8=32 and 6×6=36, so Pen 2 is 36−32=4 square meters larger.",
+   "id": "QR-W7-S1-Q08",
+   "k": 3,
+   "p": "",
+   "q": "Two rectangular pens each use exactly 24 meters of fencing. Pen 1 measures 4 m by 8 m and Pen 2 measures 6 m by 6 m. How much greater is the area of Pen 2?",
+   "sk": "Perimeter",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "Bag X, because it has more red marbles",
+    "Bag X, because it holds more marbles in all",
+    "The chances are equal",
+    "Bag Y, because 3/8 is greater than 1/3"
+   ],
+   "d": "M",
+   "e": "Bag X gives 4/12=1/3 and Bag Y gives 3/8; since 1/3=8/24 and 3/8=9/24, Bag Y is more likely.",
+   "id": "QR-W7-S1-Q09",
+   "k": 3,
+   "p": "",
+   "q": "Bag X holds 4 red and 8 blue marbles. Bag Y holds 3 red and 5 blue marbles. From which bag is drawing a red marble more likely?",
+   "sk": "Probability",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "3 times as large",
+    "The same",
+    "1 1/2 times as large",
+    "1 1/3 times as large"
+   ],
+   "d": "M",
+   "e": "The first rug covers 6×4=24 sq ft; the second is 18 by 2, or 36 sq ft, and 36÷24=1 1/2. Tripling one side and halving the other multiplies the area by 3×1/2.",
+   "id": "QR-W7-S1-Q10",
+   "k": 2,
+   "p": "",
+   "q": "A rug is 6 feet long and 4 feet wide. A second rug is 3 times as long and half as wide as the first. How does the area of the second rug compare with the area of the first?",
+   "sk": "Area",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "30",
+    "20",
+    "15",
+    "16"
+   ],
+   "d": "H",
+   "e": "The five numbers total 5×14=70 and all six total 6×15=90, so the added number is 90−70=20.",
+   "id": "QR-W7-S1-Q11",
+   "k": 1,
+   "p": "",
+   "q": "The mean of five numbers is 14. A sixth number is added, and the mean of all six numbers is 15. What is the sixth number?",
+   "sk": "Mean",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "70°",
+    "80°",
+    "50°",
+    "60°"
+   ],
+   "d": "H",
+   "e": "If each equal angle is x, then x+x+(x+30)=180, so 3x=150 and x=50; the largest angle is 50+30=80°.",
+   "id": "QR-W7-S1-Q12",
+   "k": 1,
+   "p": "",
+   "q": "In a triangle, two of the angles are equal and the third angle is 30° larger than each of them. What is the measure of the largest angle?",
+   "sk": "Angles",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "75",
+    "64",
+    "58",
+    "42"
+   ],
+   "d": "E",
+   "e": "A whole number is divisible by 5 when its last digit is 0 or 5, and 75 ends in 5 while the others end in 2, 8, and 4.",
+   "id": "QR-W7-S2-Q01",
+   "k": 0,
+   "p": "",
+   "q": "Which of these numbers is divisible by 5?",
+   "sk": "Number properties",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "24 inches",
+    "16 inches",
+    "44 inches",
+    "48 inches"
+   ],
+   "d": "E",
+   "e": "Each foot is 12 inches, so 4 feet is 4 × 12 = 48 inches.",
+   "id": "QR-W7-S2-Q02",
+   "k": 3,
+   "p": "",
+   "q": "A rope is 4 feet long. How many inches long is the rope? (1 foot = 12 inches)",
+   "sk": "Measurement",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "105",
+    "90",
+    "63",
+    "84"
+   ],
+   "d": "M",
+   "e": "The rate is 42÷6=7 pages per minute, so in 15 minutes it prints 7×15=105 pages.",
+   "id": "QR-W7-S2-Q03",
+   "k": 0,
+   "p": "",
+   "q": "A printer prints 42 pages in 6 minutes at a steady rate. How many pages does it print in 15 minutes?",
+   "sk": "Unit rate",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "26",
+    "24",
+    "20",
+    "25"
+   ],
+   "d": "E",
+   "e": "Each number is 5 less than the one before it, so the next number is 30 − 5 = 25.",
+   "id": "QR-W7-S2-Q04",
+   "k": 3,
+   "p": "",
+   "q": "The numbers in a pattern are 45, 40, 35, 30, ... . What is the next number in the pattern?",
+   "sk": "Pattern",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "$65",
+    "$55",
+    "$50",
+    "$60"
+   ],
+   "d": "M",
+   "e": "25% of $80 is $20, so the marked-down price is $60, and $60−$5=$55.",
+   "id": "QR-W7-S2-Q05",
+   "k": 1,
+   "p": "",
+   "q": "A jacket priced at $80 is marked down 25%. At the register, another $5 is taken off. What is the final price?",
+   "sk": "Percent",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "23",
+    "21",
+    "26",
+    "22"
+   ],
+   "d": "E",
+   "e": "Adding the four weeks gives 4 + 7 + 5 + 6 = 22 goals.",
+   "id": "QR-W7-S2-Q06",
+   "k": 3,
+   "p": "",
+   "q": "A team records its goals each week: Week 1 has 4 goals, Week 2 has 7 goals, Week 3 has 5 goals, and Week 4 has 6 goals. How many goals did the team score in the four weeks altogether?",
+   "sk": "Data reasoning",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "2/5",
+    "1/5",
+    "1/2",
+    "3/10"
+   ],
+   "d": "M",
+   "e": "The primes from 1 to 10 are 2, 3, 5, and 7 — four of the ten cards — so the probability is 4/10=2/5.",
+   "id": "QR-W7-S2-Q07",
+   "k": 0,
+   "p": "",
+   "q": "Ten cards numbered 1 through 10 are placed face down and one is drawn at random. What is the probability that the card drawn shows a prime number?",
+   "sk": "Probability",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "1/4",
+    "2/3",
+    "3/5",
+    "5/12"
+   ],
+   "d": "M",
+   "e": "In twelfths, 1/3=4/12 and 1/2=6/12, and 5/12 falls between them; 1/4 is smaller and 3/5 and 2/3 are larger than 1/2.",
+   "id": "QR-W7-S2-Q08",
+   "k": 3,
+   "p": "",
+   "q": "Which fraction is between 1/3 and 1/2?",
+   "sk": "Number sense",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "1/24",
+    "1/12",
+    "3/5",
+    "1/8"
+   ],
+   "d": "M",
+   "e": "Using 24ths, 2/3=16/24 and 5/8=15/24, so she needs 16/24−15/24=1/24 of a yard.",
+   "id": "QR-W7-S2-Q09",
+   "k": 0,
+   "p": "",
+   "q": "Priya has 5/8 of a yard of ribbon but needs 2/3 of a yard. How much more ribbon does she need?",
+   "sk": "Fractions",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "60 square cm",
+    "72 square cm",
+    "48 square cm",
+    "44 square cm"
+   ],
+   "d": "M",
+   "e": "The whole sheet is 10×6=60 square cm and the piece removed is 3×4=12, so 60−12=48 square cm remain.",
+   "id": "QR-W7-S2-Q10",
+   "k": 2,
+   "p": "",
+   "q": "A rectangular sheet of paper is 10 cm by 6 cm. A 3 cm by 4 cm rectangle is cut away from one corner. What is the area of the piece that is left?",
+   "sk": "Area",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "(1, 2)",
+    "(2, 1)",
+    "(5, 2)",
+    "(1, 9)"
+   ],
+   "d": "M",
+   "e": "The fourth vertex shares the x-value 1 with (1, 5) and the y-value 2 with (9, 2), giving (1, 2).",
+   "id": "QR-W7-S2-Q11",
+   "k": 0,
+   "p": "",
+   "q": "Three vertices of a rectangle are (1, 5), (9, 5), and (9, 2). What are the coordinates of the fourth vertex?",
+   "sk": "Coordinates",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "about 13,000",
+    "about 10,000",
+    "about 11,000",
+    "about 9,000"
+   ],
+   "d": "M",
+   "e": "Rounding gives 4,200+3,900+2,900=11,000, and the exact total, 10,955, is much closer to 11,000 than to 10,000.",
+   "id": "QR-W7-S2-Q12",
+   "k": 2,
+   "p": "",
+   "q": "A stadium sold 4,180 tickets on Friday, 3,905 on Saturday, and 2,870 on Sunday. Which is the best estimate of the total number of tickets sold?",
+   "sk": "Estimation",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "$0.15",
+    "$0.20",
+    "$0.25",
+    "$0.40"
+   ],
+   "d": "H",
+   "e": "The pencils cost 3×$0.30=$0.90, leaving $1.30−$0.90=$0.40 for two erasers, so one eraser is $0.20.",
+   "id": "QR-W7-S2-Q13",
+   "k": 1,
+   "p": "",
+   "q": "Three pencils and two erasers cost $1.30 in all. One pencil costs $0.30. What does one eraser cost?",
+   "sk": "Algebraic reasoning",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "82",
+    "85",
+    "87",
+    "92"
+   ],
+   "d": "H",
+   "e": "The five scores total 5×82=410; without the 62 the total is 348, and 348÷4=87.",
+   "id": "QR-W7-S2-Q14",
+   "k": 2,
+   "p": "",
+   "q": "A student's five test scores have a mean of 82. If the lowest score, 62, is dropped, what is the mean of the four remaining scores?",
+   "sk": "Mean",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "42",
+    "49",
+    "35",
+    "63"
+   ],
+   "d": "H",
+   "e": "The difference is 5−2=3 parts, so one part is 21÷3=7 students; the class has 2+5=7 parts, or 7×7=49 students.",
+   "id": "QR-W7-S2-Q15",
+   "k": 1,
+   "p": "",
+   "q": "In a class, the ratio of students who walk to school to students who ride is 2:5. There are 21 more riders than walkers. How many students are in the class?",
+   "sk": "Ratio",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "7",
+    "4",
+    "2",
+    "3"
+   ],
+   "d": "E",
+   "e": "Seven full bags use 7 × 5 = 35 cookies, and 38 − 35 = 3 cookies are left over.",
+   "id": "QR-W8-S1-Q01",
+   "k": 3,
+   "p": "",
+   "q": "There are 38 cookies packed into bags of 5. After all the full bags are made, how many cookies are left over?",
+   "sk": "Remainders",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "5/8",
+    "1/2",
+    "3/5",
+    "3/8"
+   ],
+   "d": "E",
+   "e": "Three of the 8 slices are gone, so 8 − 3 = 5 slices remain, which is 5/8 of the pizza.",
+   "id": "QR-W8-S1-Q02",
+   "k": 0,
+   "p": "",
+   "q": "A pizza is cut into 8 equal slices, and 3 of the slices are eaten. What fraction of the pizza is left?",
+   "sk": "Fractions",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "She is $1.00 short",
+    "She can buy all three and have $1.00 left",
+    "She can buy all three with exactly $0 left",
+    "She can buy all three and have $2.00 left"
+   ],
+   "d": "M",
+   "e": "Pairing $6.85 with $7.95 gives $14.80, and $14.80+$4.20=$19.00, so $20.00−$19.00=$1.00 is left.",
+   "id": "QR-W8-S1-Q03",
+   "k": 1,
+   "p": "",
+   "q": "Dana has $20 and wants to buy items priced $6.85, $4.20, and $7.95. Which statement is true?",
+   "sk": "Number sense",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "250",
+    "10",
+    "1,000",
+    "100"
+   ],
+   "d": "E",
+   "e": "Rounding gives 5,000÷50=100, and the exact quotient is a little under 98, so 100 is the closest estimate.",
+   "id": "QR-W8-S1-Q04",
+   "k": 3,
+   "p": "",
+   "q": "Which is the best estimate of 4,982 ÷ 51?",
+   "sk": "Estimation",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "20",
+    "22",
+    "25",
+    "21"
+   ],
+   "d": "M",
+   "e": "The four friends total 4×20=80, so all five total 105, and 105÷5=21.",
+   "id": "QR-W8-S1-Q05",
+   "k": 3,
+   "p": "",
+   "q": "Four friends have a mean score of 20 in a game. A fifth friend joins with a score of 25. What is the mean score of all five friends?",
+   "sk": "Mean",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "60",
+    "30",
+    "15",
+    "10"
+   ],
+   "d": "E",
+   "e": "Each layer holds 5 × 3 = 15 cubes and the box is 2 layers tall, so 15 × 2 = 30 cubes fill it.",
+   "id": "QR-W8-S1-Q06",
+   "k": 1,
+   "p": "",
+   "q": "How many 1-centimeter cubes are needed to fill a box that is 5 cm long, 3 cm wide, and 2 cm tall?",
+   "sk": "Volume",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "9 cm",
+    "10 cm",
+    "7.5 cm",
+    "2.5 cm"
+   ],
+   "d": "M",
+   "e": "Since 3 cm stands for 12 m, 1 cm stands for 4 m, so 30 m needs 30÷4=7.5 cm.",
+   "id": "QR-W8-S1-Q07",
+   "k": 2,
+   "p": "",
+   "q": "On a scale drawing, 3 cm represents 12 meters. A hallway is actually 30 meters long. How long is that hallway on the drawing?",
+   "sk": "Scale",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "Car A, at 35 miles per gallon",
+    "Car B, at 30 miles per gallon",
+    "Car B, because it traveled more miles",
+    "Neither — both travel 30 miles per gallon"
+   ],
+   "d": "M",
+   "e": "150÷5=30 and 210÷7=30, so the two cars have exactly the same rate of 30 miles per gallon.",
+   "id": "QR-W8-S1-Q08",
+   "k": 3,
+   "p": "",
+   "q": "Car A travels 150 miles on 5 gallons of gas. Car B travels 210 miles on 7 gallons. Which car goes farther on one gallon?",
+   "sk": "Unit rate",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "15",
+    "10",
+    "12",
+    "8"
+   ],
+   "d": "M",
+   "e": "Two fifths of the 20 sections is 8 green sections, so the other 20 − 8 = 12 sections are white.",
+   "id": "QR-W8-S1-Q09",
+   "k": 2,
+   "p": "",
+   "q": "A spinner has 20 equal sections, and each section is either green or white. The probability of landing on green is 2/5. How many of the sections are white?",
+   "sk": "Probability",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "48 square cm",
+    "32 square cm",
+    "64 square cm",
+    "16 square cm"
+   ],
+   "d": "H",
+   "e": "The rectangle's perimeter is 2(12+4)=32 cm, so the square has side 32÷4=8 cm and area 8×8=64 square cm.",
+   "id": "QR-W8-S1-Q10",
+   "k": 2,
+   "p": "",
+   "q": "A square and a rectangle have the same perimeter. The rectangle measures 12 cm by 4 cm. What is the area of the square?",
+   "sk": "Area",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "$59.40",
+    "$59.00",
+    "$60.60",
+    "$60.00"
+   ],
+   "d": "H",
+   "e": "The price rises to $66, and 10% of $66 is $6.60, so the final price is $66−$6.60=$59.40 — less than the original because the second 10% is taken from a larger number.",
+   "id": "QR-W8-S1-Q11",
+   "k": 0,
+   "p": "",
+   "q": "The $60 price of a game is raised by 10%, and the new price is later lowered by 10%. What is the final price?",
+   "sk": "Percent",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "$24",
+    "$20",
+    "$30",
+    "$36"
+   ],
+   "d": "H",
+   "e": "After the book, 3/5 remains; spending 1/3 of that leaves 2/3 × 3/5 = 2/5 of the start, so 2/5 of the money is $12 and the whole is $30.",
+   "id": "QR-W8-S1-Q12",
+   "k": 2,
+   "p": "",
+   "q": "Elena spent 2/5 of her money on a book, then spent 1/3 of what was left on a snack. She has $12 left. How much money did she start with?",
+   "sk": "Fractions",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "3/5",
+    "0.68",
+    "2/3",
+    "0.7"
+   ],
+   "d": "E",
+   "e": "Written as decimals, 3/5=0.6 and 2/3 is about 0.667, so 0.7 is greater than all the others, including 0.68.",
+   "id": "QR-W8-S2-Q01",
+   "k": 3,
+   "p": "",
+   "q": "Which of these numbers is the greatest?",
+   "sk": "Number sense",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "35%",
+    "75%",
+    "70%",
+    "65%"
+   ],
+   "d": "E",
+   "e": "35/50 = 70/100, so 70% of the students chose soccer.",
+   "id": "QR-W8-S2-Q02",
+   "k": 2,
+   "p": "",
+   "q": "In a survey, 35 out of 50 students chose soccer. What percent of the students chose soccer?",
+   "sk": "Percent",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "414",
+    "246",
+    "132",
+    "358"
+   ],
+   "d": "M",
+   "e": "A number divisible by 6 must be even and have a digit sum divisible by 3; 358 is even but 3+5+8=16 is not a multiple of 3, while 132, 246, and 414 pass both tests.",
+   "id": "QR-W8-S2-Q03",
+   "k": 3,
+   "p": "",
+   "q": "Which of these numbers is NOT divisible by 6?",
+   "sk": "Divisibility",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "9",
+    "7",
+    "5",
+    "3"
+   ],
+   "d": "E",
+   "e": "The mode is the value that appears most often, and 3 appears twice while each of the others appears once.",
+   "id": "QR-W8-S2-Q04",
+   "k": 3,
+   "p": "",
+   "q": "A list of numbers is 3, 7, 3, 9, and 5. What is the mode of the list?",
+   "sk": "Mode",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "11",
+    "9",
+    "10",
+    "13"
+   ],
+   "d": "M",
+   "e": "In order the values are 4, 6, 9, 11, 15, 20; with six values the median is the mean of the middle two, (9+11)÷2=10.",
+   "id": "QR-W8-S2-Q05",
+   "k": 2,
+   "p": "",
+   "q": "What is the median of 4, 9, 11, 15, 6, and 20?",
+   "sk": "Median",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "24",
+    "18",
+    "21",
+    "15"
+   ],
+   "d": "E",
+   "e": "Counting on by 3s gives 3, 6, 9, 12, 15, 18, so the 6th number in the pattern is 18.",
+   "id": "QR-W8-S2-Q06",
+   "k": 1,
+   "p": "",
+   "q": "A number pattern counts by 3s: 3, 6, 9, 12, ... . What is the 6th number in the pattern?",
+   "sk": "Pattern",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "24",
+    "12",
+    "96",
+    "48"
+   ],
+   "d": "M",
+   "e": "Along the edges the cubes fit 4 by 3 by 2, so 4×3×2=24 cubes fill the box.",
+   "id": "QR-W8-S2-Q07",
+   "k": 0,
+   "p": "",
+   "q": "How many cubes with edges of 2 cm fit exactly inside a box that is 8 cm by 6 cm by 4 cm?",
+   "sk": "Volume",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "4",
+    "6",
+    "5",
+    "2"
+   ],
+   "d": "E",
+   "e": "15 = 3 × 5, so 5 divides 15 with nothing left over, while 2, 4, and 6 do not.",
+   "id": "QR-W8-S2-Q08",
+   "k": 2,
+   "p": "",
+   "q": "Which of these numbers is a factor of 15?",
+   "sk": "Factors",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "60°",
+    "120°",
+    "30°",
+    "45°"
+   ],
+   "d": "M",
+   "e": "Complementary angles total 90°, so x+2x=90 gives x=30° and the larger angle is 2×30=60°.",
+   "id": "QR-W8-S2-Q09",
+   "k": 0,
+   "p": "",
+   "q": "Two angles are complementary, and one of them is twice as large as the other. What is the measure of the larger angle?",
+   "sk": "Angles",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "They are equal",
+    "3 × 3 × 3, by 2",
+    "3 × 3 × 3, by 4",
+    "5 × 5, by 2"
+   ],
+   "d": "M",
+   "e": "3 × 3 × 3 = 27 and 5 × 5 = 25, so 3 × 3 × 3 is greater by 27 − 25 = 2.",
+   "id": "QR-W8-S2-Q10",
+   "k": 1,
+   "p": "",
+   "q": "Which is greater, 3 × 3 × 3 or 5 × 5, and by how much?",
+   "sk": "Number sense",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "4/15",
+    "1/5",
+    "1/3",
+    "2/5"
+   ],
+   "d": "M",
+   "e": "There are 15 buttons in all and 5 of them are black, so the probability is 5/15, which is the same as 1/3.",
+   "id": "QR-W8-S2-Q11",
+   "k": 2,
+   "p": "",
+   "q": "A jar holds 15 buttons: 6 are blue, 4 are white, and 5 are black. One button is taken out without looking. What is the probability that it is black?",
+   "sk": "Probability",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "9",
+    "10",
+    "8",
+    "7"
+   ],
+   "d": "M",
+   "e": "If each box holds b books, then 5b+3=43, so 5b=40 and b=8.",
+   "id": "QR-W8-S2-Q12",
+   "k": 2,
+   "p": "",
+   "q": "Five boxes each hold the same number of books. When 3 more books are added to the collection, there are 43 books in all. How many books are in each box?",
+   "sk": "Algebraic reasoning",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "8 cm",
+    "6 cm",
+    "12 cm",
+    "18 cm"
+   ],
+   "d": "H",
+   "e": "With width w the length is 3w, so the perimeter is 2(3w+w)=8w=48, giving w=6 cm (and length 18 cm).",
+   "id": "QR-W8-S2-Q13",
+   "k": 1,
+   "p": "",
+   "q": "The length of a rectangle is 3 times its width. If the perimeter is 48 cm, what is the width?",
+   "sk": "Perimeter",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "8",
+    "7",
+    "6",
+    "5"
+   ],
+   "d": "H",
+   "e": "Rounding $2.95 up to $3 gives about 6 notebooks; checking, 6 cost $17.70 and 7 would cost $20.65, which is more than $20.",
+   "id": "QR-W8-S2-Q14",
+   "k": 2,
+   "p": "",
+   "q": "Notebooks cost $2.95 each. Maya has $20 and no coupon. What is the greatest number of notebooks she can buy?",
+   "sk": "Estimation",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "80 square meters",
+    "140 square meters",
+    "60 square meters",
+    "32 square meters"
+   ],
+   "d": "H",
+   "e": "The pool plus walkway measures 14 m by 10 m, or 140 square meters, and the pool covers 60, so the walkway is 140−60=80 square meters.",
+   "id": "QR-W8-S2-Q15",
+   "k": 0,
+   "p": "",
+   "q": "A rectangular pool measures 10 m by 6 m. A walkway 2 m wide is built all the way around it. What is the area of the walkway alone?",
+   "sk": "Area",
+   "w": "W8"
+  }
+ ],
+ "label": "Quantitative reasoning",
+ "passages": {}
+}

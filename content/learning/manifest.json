@@ -1,0 +1,18 @@
+{
+ "schema_version": "1.0",
+ "content_version": "2026.09.01",
+ "generated_at": "2026-09-01T01:27:52.319838+00:00",
+ "generator": "extract_content.py",
+ "note": "Shadow of the Google Sheets workbooks. Weeks 1-4 are extracted from the live sheets; weeks 5-8 were authored here and are pending application to Sheets.",
+ "banks": {
+  "ma-september": 96,
+  "ma-weeks5-8": 96,
+  "mock": 508,
+  "qr-september": 108,
+  "qr-weeks5-8": 108,
+  "rc-september": 48,
+  "rc-weeks5-8": 48,
+  "vr-september": 182,
+  "vr-weeks5-8": 148
+ }
+}

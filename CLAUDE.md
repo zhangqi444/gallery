@@ -18,7 +18,8 @@ and `zhangqi444/isee/CLAUDE.md`; when they drift, this project follows isee.
 
 ```bash
 cd site && npm run build && npm test
-python3 site/make_bundle.py && git diff --exit-code -- site/public/content/bundle.json
+python3 site/make_bundle.py && python3 site/make_learning.py
+git diff --exit-code -- site/public/content/
 ```
 
 If a check fails because the UI legitimately changed, fix the test's assumption —

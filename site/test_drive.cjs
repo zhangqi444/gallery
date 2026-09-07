@@ -165,12 +165,54 @@ async function fakeGoogle(ctx, drive) {
   await pg.waitForSelector('[data-testid=app-home]');
   check('signed in, and the home greets by name', (await pg.textContent('[data-testid=app-home]')).includes('Test'));
   check('all three modules are offered', (await pg.$$('[data-testid^=module-card-]')).length === 3);
-  check('the one unmoved module says so', ((await pg.textContent('[data-testid=app-home]')).match(/not moved across yet/g) || []).length === 1);
+  check('every module is built', !(await pg.textContent('[data-testid=app-home]')).includes('not moved across yet'));
 
-  // a module that has not been ported yet is honest about it
+  /* ---- Learning: the content is fetched a topic at a time ---- */
+  const fetched = [];
+  pg.on('request', (r) => { const m = /content\/learning\/([^?]+)/.exec(r.url()); if (m) fetched.push(m[1]); });
+
   await pg.click('[data-testid=module-card-learning]');
-  await pg.waitForSelector('[data-testid=module-pending]');
-  check('Learning explains what will live there', (await pg.textContent('[data-testid=module-pending]')).includes('zhangqi444/isee'));
+  await pg.waitForSelector('[data-testid=subject-list]');
+  check('opening Learning fetches only the index', fetched.join(',') === 'index.json', fetched.join(','));
+  check('the subjects are listed', (await pg.$$('[data-testid=subject-list] li')).length === 4);
+
+  await pg.click('[data-testid=subject-vr]');
+  await pg.waitForSelector('[data-testid=practice]');
+  check('choosing a subject fetches that subject and nothing else',
+    fetched.join(',') === 'index.json,subject-vr.json', fetched.join(','));
+
+  // answer the ten, taking the marked answer each time after the first
+  let firstWasMarked = false;
+  for (let i = 0; i < 10; i++) {
+    const n = await pg.textContent('[data-testid=practice-at]');
+    check(i === 0 ? 'practice starts at question 1' : `question ${i + 1}`, n === String(i + 1), n);
+    await pg.click('[data-testid=choice] >> nth=0');
+    await pg.waitForSelector('[data-testid=marking]');
+    if (i === 0) firstWasMarked = /right|answer is/.test(await pg.textContent('[data-testid=marking]'));
+    await pg.click('[data-testid=practice-next]');
+  }
+  check('an answer is marked immediately, with the explanation', firstWasMarked);
+  await pg.waitForSelector('[data-testid=result]');
+  const score = await pg.textContent('[data-testid=result-score]');
+  check('the set ends with a score out of ten', /^\d+ \/ 10$/.test(score.trim()), score.trim());
+
+  await pg.click('[data-testid=practice-again]');
+  await pg.waitForSelector('[data-testid=practice]');
+  check('another ten needs no second fetch', fetched.filter((f) => f === 'subject-vr.json').length === 1);
+  // a reload, not a goto: the URL is unchanged, so goto would not navigate
+  await pg.reload({ waitUntil: 'networkidle' });
+  await pg.waitForSelector('[data-testid=session-list]');
+  check('the finished session is listed', (await pg.$$('[data-testid=session-list] li')).length === 1);
+
+  await pg.waitForFunction(() => {
+    const el = document.querySelector('[data-testid=session-status]');
+    return el && el.textContent.includes('Saved');
+  });
+  const learningFile = [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.module === 'learning' && !f.appProperties.kind);
+  check('Learning saved a file of its own', Boolean(learningFile));
+  const learned = JSON.parse(learningFile[1].body);
+  check('ten answers were recorded', Object.keys(learned.results).length === 10, String(Object.keys(learned.results).length));
+  check('and one session', learned.sessions.length === 1);
 
   /* ---- Service: a place, a commitment, and hours against it ---- */
   await pg.click('[data-testid=module-link-service]');
@@ -213,8 +255,17 @@ async function fakeGoogle(ctx, drive) {
   const serviceFile = [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.module === 'service' && !f.appProperties.kind);
   check('Service saved a file of its own', Boolean(serviceFile));
   check('its hours are in that file', JSON.parse(serviceFile[1].body).entries[0].hours === 2.5);
-  const folderNames = [...drive.files.values()].filter((f) => (f.appProperties || {}).kind === 'module').map((f) => f.name).sort();
-  check('each module got its own folder', folderNames.join(',') === 'Gallery,Service' || folderNames.join(',') === 'Service', folderNames.join(','));
+  // every module that has saved something has a folder of its own, and exactly one
+  const modulesWithData = [...new Set([...drive.files.values()]
+    .filter((f) => (f.appProperties || {}).module && !(f.appProperties || {}).kind)
+    .map((f) => f.appProperties.module))].sort();
+  const moduleFolders = [...drive.files.values()].filter((f) => (f.appProperties || {}).kind === 'module');
+  const folderModules = moduleFolders.map((f) => f.appProperties.module).sort();
+  check('each module that saved data has one folder of its own',
+    folderModules.join(',') === modulesWithData.join(',') && moduleFolders.length === new Set(folderModules).size,
+    folderModules.join(','));
+  check('and they all sit under one app folder',
+    [...drive.files.values()].filter((f) => (f.appProperties || {}).kind === 'root').length === 1);
 
   await pg.click('[data-testid=module-link-gallery]');
   await pg.waitForSelector('[data-testid=studio]');

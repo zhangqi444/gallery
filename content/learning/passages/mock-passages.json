@@ -1,0 +1,187 @@
+{
+ "bank": "mock",
+ "schema_version": "1.0",
+ "content_version": "2026.08.31",
+ "items": [
+  {
+   "id": "DGN-RC-P01",
+   "form": "DGN",
+   "title": "Borrowing from Barnacles",
+   "text": "Engineers often search for ideas in places that do not look like laboratories. One team studied barnacles, small sea animals that fasten themselves to rocks and ship hulls. A barnacle must make its bond while surrounded by moving salt water—a setting in which ordinary glue performs poorly. Researchers examined the proteins in the animal's natural cement and noticed that some could push water away from a surface just before the bond formed. The team did not simply collect barnacle cement. Instead, it designed a new material that copied this useful action. In tests, the material joined wet surfaces more effectively than common household adhesives. A future version might help doctors close a wound without using as many stitches. The work illustrates biomimicry: studying a successful feature in nature and adapting its underlying principle to solve a human problem.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "DGN-RC-P02",
+   "form": "DGN",
+   "title": "The Extra Chime",
+   "text": "Every afternoon, Nia swept the floor of her uncle's clock-repair shop. She loved the rows of tiny gears but was allowed only to sort screws and polish cases. One rainy day, a customer returned a clock that chimed thirteen times at noon. Nia's uncle listened, frowned, and began opening the case. Nia noticed a thin lever brushing a wheel after each turn. She almost stayed silent; after all, she was only the helper. Then she pointed to a bright scratch on the lever. Her uncle adjusted it, and the clock chimed twelve times. He did not hand Nia a difficult repair. Instead, he placed a broken alarm clock beside her and asked her to describe what each part might do before touching anything. Nia understood that careful noticing had earned her a new kind of task—and that guessing quickly would not keep it.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "DGN-RC-P03",
+   "form": "DGN",
+   "title": "Messages in the Margins",
+   "text": "Centuries ago, books were copied by hand and could take months to complete. The main text usually received careful attention, but the empty margins sometimes became places for a different kind of record. A reader might correct a copying error, define an unfamiliar word, or argue with an author's claim. Later readers could respond, creating a slow conversation across years. Modern historians value these notes because they reveal not only what people read but also how they reacted. A stain beside a recipe may suggest frequent use, while repeated symbols near one paragraph may show special interest. Such evidence must be interpreted cautiously: a note's writer may be unknown, and a mark may have several explanations. Even so, the margins can turn a surviving book from a container of old words into evidence of many individual encounters with those words.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "DGN-RC-P04",
+   "form": "DGN",
+   "title": "Cooling a City Block",
+   "text": "On a sunny afternoon, a dark roof can become far hotter than the air around it. It absorbs much of the sunlight that strikes it and later releases that energy as heat. Across many buildings, this process contributes to an “urban heat island,” an area where streets and structures keep a neighborhood warmer than nearby land. Some cities are testing pale roof coatings that reflect more sunlight. In one trial, coated buildings required less air-conditioning during the hottest hours. Yet cool roofs are not a complete solution. Trees can shade sidewalks, parks can replace heat-absorbing pavement, and well-designed ventilation can reduce indoor heat. Climate, roof shape, maintenance, and winter heating needs also affect whether a coating is useful. The best plan therefore combines local measurements with several methods rather than treating one bright layer of paint as a universal answer.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "DGN-RC-P05",
+   "form": "DGN",
+   "title": "The Rest in the Music",
+   "text": "During rehearsal, the youth orchestra repeatedly lost its place in a new piece. The loudest section was not the problem. Confusion began in a measure containing three beats of silence. Several players treated the rest as a chance to stop counting, so they entered at slightly different moments. The conductor asked everyone to tap the beat while no notes sounded. At first the tapping seemed unnecessary, but the next entrance was exact. She explained that silence in music is measured, not empty. A rest can build expectation, separate two ideas, or give a melody room to breathe. The students practiced the quiet measure as carefully as the fast passages. By the end, the audience would hear no tapping, of course. What listeners would hear was the result: a confident entrance made possible by musicians who had learned to perform the silence together.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M01-RC-P01",
+   "form": "M01",
+   "title": "A Seed Bank on Ice",
+   "text": "In a mountain vault, packets of crop seeds are kept cold and dry. The vault does not replace farms or ordinary seed collections. Instead, it stores duplicate samples. If disease, war, or a natural disaster destroys a regional collection, preserved seeds may help restore lost varieties. Workers periodically test whether stored seeds can still sprout; when germination falls, fresh seeds must be grown and collected. The vault therefore resembles a library whose books are living and must sometimes be renewed. Its value lies not in predicting one particular disaster, but in preserving choices for people facing an uncertain future.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M01-RC-P02",
+   "form": "M01",
+   "title": "Two Kites",
+   "text": "Theo spent two days gluing foil stars and ribbons onto his kite. It rose, wobbled, and dove into the grass. His cousin Ada's plain paper kite climbed steadily. The wind was the same for both, so Theo stopped blaming it and watched. Ada's kite carried nothing extra except a long, light tail that kept its nose up. Theo pulled off the stars and ribbons and tied on a tail of folded paper bows. His kite lifted and flew. He kept one small ribbon on the handle, where its weight meant nothing to the sky, and decided to test his next kite before decorating it.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M01-RC-P03",
+   "form": "M01",
+   "title": "A Bridge for Animals",
+   "text": "A new highway shortened travel between two towns but divided a forest habitat. Deer and smaller animals sometimes attempted dangerous crossings. Biologists studied tracks and camera images to find the routes animals already preferred. Engineers then built a wide overpass covered with soil, shrubs, and fallen logs. Fences guided animals toward it. Early photographs showed few crossings, but use increased after plants matured and human scent faded. The project succeeded because its designers treated the bridge not merely as a structure, but as a piece of habitat.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M01-RC-P04",
+   "form": "M01",
+   "title": "Measuring a Shadow",
+   "text": "Long before electronic instruments, observers estimated the heights of buildings by comparing shadows. If a one-meter stick cast a two-meter shadow at the same moment a tower cast a thirty-meter shadow, the tower was fifteen meters tall. The method works because sunlight strikes nearby vertical objects at the same angle, producing similar triangles. Accuracy depends on level ground, upright objects, and measurements taken at the same time. A leaning stick or a shadow measured ten minutes later can spoil the comparison.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M01-RC-P05",
+   "form": "M01",
+   "title": "Water and Stone",
+   "text": "A limestone cave is not carved by one storm or earthquake. Most begin with rain. Rainwater sinking through soil collects a little carbon dioxide, making it slightly acidic. This water seeps into cracks in limestone and dissolves tiny bits of rock; over thousands of years, the cracks widen into tunnels and rooms. Even then, the water keeps working. Each drop falling from the ceiling leaves a speck of mineral, and the specks slowly build stone icicles called stalactites. Visitors see rock that looks finished, yet every tunnel is the sum of tiny changes.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M02-RC-P01",
+   "form": "M02",
+   "title": "Counting Wings in the Dark",
+   "text": "[¶1] On a moonless Friday, twelve students met beside a meadow carrying white sheets, flashlights, and notebooks. Their goal was to count moths for a community wildlife survey. Each team hung a sheet between two poles and shone a light toward it. Soon, tiny wings flickered out of the darkness. The students photographed each visitor, recorded the time, and let it fly away.\n\n[¶2] At first, Lena's team thought its station was the most successful. Thirty-seven moths landed on its sheet, while a station near the pond attracted only nineteen. Then Lena noticed a problem: her team's lamp was brighter. A brighter lamp might draw moths from a wider area, making the stations impossible to compare fairly.\n\n[¶3] The students did not throw away the evening's work. Instead, they added lamp brightness to their notes and repeated the count the following week using identical lights. This time, the pond station attracted the most moths. Several species there had narrow wings and muted colors that made them difficult to see until they settled on the sheet.\n\n[¶4] The survey did more than produce a list. It showed the students why a fair comparison requires controlling important conditions. Their first count raised a useful question; their second count gave them stronger evidence. In science, an imperfect result can still be valuable when it helps improve the next investigation.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M02-RC-P02",
+   "form": "M02",
+   "title": "The Marker Beneath the Steps",
+   "text": "[¶1] When workers removed the worn front steps of Bellweather's town hall, they uncovered a flat stone carved with a triangle and the date 1882. Most residents assumed it was a decoration. Town archivist Imani Cho suspected otherwise because the triangle matched a symbol drawn on early survey maps.\n\n[¶2] In the nineteenth century, surveyors often placed durable markers at carefully measured locations. Later mapmakers could begin from those fixed points instead of measuring an entire region again. Imani found a field notebook explaining that Bellweather's marker once stood in open ground. The town hall had been built around it decades later, and the front steps had hidden it.\n\n[¶3] The discovery created a practical puzzle. The builders needed to pour a new foundation, but moving the marker would erase its value as a record of the original location. Imani, the engineer, and the construction crew designed a solution: they left the stone undisturbed and built a small glass panel into the new landing. Visitors could see the marker without stepping on it.\n\n[¶4] The stone did not reveal buried treasure or a forgotten tunnel. Its importance was quieter. It connected modern measurements to the work of people who had mapped the town more than a century earlier. By building around it once again—this time deliberately—the town preserved both a useful reference point and a piece of its own story.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M02-RC-P03",
+   "form": "M02",
+   "title": "The Window Seat",
+   "text": "[¶1] Mara had chosen the window seat before the train left the station, but she spent the first hour looking at everything except the view. She counted the stitches in her backpack strap, reorganized three pencils, and checked the envelope in her pocket twice. Inside it was the story she planned to read at the youth festival. “Planned” was perhaps too confident a word.\n\n[¶2] Across the aisle, an older man was sketching passengers. His pencil moved quickly, pausing only when the train rocked. When he noticed Mara watching, he turned the page toward her. The drawing showed a child asleep under a coat, a conductor leaning around a seat, and Mara gripping her envelope as if it might escape.\n\n[¶3] “You made everyone look calm,” Mara said.\n\n“They weren't holding still,” the man replied. “I just chose which moments to keep.” He tapped Mara's drawn hand. “That one looked determined.”\n\n[¶4] Mara almost explained that determined people did not consider missing their stop on purpose. Instead, she looked out the window. Telephone poles appeared and vanished. Farmhouses flashed between rows of trees. No single view lasted long, yet the trip held together. She opened the envelope and read her first paragraph under her breath. By the time the train slowed at the festival town, the paper no longer shook.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M02-RC-P04",
+   "form": "M02",
+   "title": "A Dance Drawn in Chalk",
+   "text": "[¶1] Choreographer Suri Patel had eight dancers but no rehearsal room large enough for the new piece. The community hall was available only on Saturdays, and its polished floor could not be marked with tape. Suri needed a way to test complicated pathways before the dancers arrived.\n\n[¶2] She went to an empty basketball court with a box of sidewalk chalk. On the pavement, she drew circles for starting positions and arrows for movement. Blue arrows curved toward the center; yellow ones crossed them; white dotted lines showed moments when dancers moved backward. From the bleachers, the design looked like a map of several windy roads.\n\n[¶3] The chalk plan revealed a collision before anyone took a step. Two arrows met at the same place on the same count. Suri shifted one pathway, then walked every route herself while counting the music. Rain erased the drawing that night, but by then Suri had photographed each section and copied the changes into her notebook.\n\n[¶4] At Saturday's rehearsal, the dancers learned the opening without colliding. The chalk drawing had not replaced rehearsal: it could not show whether a lift felt safe or a turn matched the music. It had done something else. By making invisible movement visible, it let Suri solve one kind of problem early and save precious hall time for the problems only dancers could answer.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M02-RC-P05",
+   "form": "M02",
+   "title": "The Roof That Held Rain",
+   "text": "[¶1] The new bus shelter outside Juniper Middle School looked ordinary except for its roof, which was covered with shallow trays of tough, low-growing plants. During the first heavy rain, students noticed water dripping from the roof long after the storm had passed. Some assumed the shelter was leaking.\n\n[¶2] It was actually working as designed. Soil and plant roots held part of the rainfall, while small channels released extra water slowly into a barrel. A bare metal roof would have sent most water rushing toward the sidewalk at once. The planted roof delayed that flow, reducing puddles near the curb.\n\n[¶3] The environmental club measured water in the barrel after three storms. The largest storm did not produce the fullest barrel. It came after several dry, windy days, so the soil absorbed much of the rain. A smaller storm that arrived when the soil was already damp sent more water through the channels. The students realized that storm size was not the only factor affecting runoff.\n\n[¶4] In spring, the club will compare temperatures beneath the planted shelter and an unplanted shelter across the street. They predict that shade from leaves and moisture in the soil may keep the planted roof cooler. Whether or not the prediction is correct, the students now know to record starting conditions, not merely the final measurement.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M03-RC-P01",
+   "form": "M03",
+   "title": "Messages Across the River",
+   "text": "[S1] Before the first permanent bridge crossed Silverbend River, ferries carried people, animals, and supplies between the two banks. [S2] Because the river bent sharply, a boat waiting at one landing could not see whether passengers had gathered at the other. [S3] In 1872, the ferry keeper and a shop owner created a simple signal: a red square raised on a pole meant that passengers were waiting, while a white square meant that freight needed space. [S4] The flags did not tell the ferryman exactly how many people or crates were present, but they helped him decide which boat to send. [S5] During fog, the system failed because neither bank could see the opposite pole, so workers rang a bell in agreed patterns instead. [S6] Old account books show fewer unnecessary crossings after the signals began. [S7] When a bridge finally opened, the flags disappeared, yet the idea behind them remained familiar: send only the information needed for the next decision.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M03-RC-P02",
+   "form": "M03",
+   "title": "Nets That Gather Fog",
+   "text": "[S1] In some dry coastal regions, rain is rare even when fog often drifts over the hills. [S2] Researchers have tested tall mesh panels that collect tiny droplets from moving fog. [S3] When wind pushes fog through the mesh, droplets cling to the fibers, join into larger drops, and slide into a channel below. [S4] A pipe then carries the water to a covered tank. [S5] The method uses no pump while collecting water, but it is not effortless. [S6] Salt and dust can block the mesh, strong winds can tear it, and long calm periods may bring little fog to collect. [S7] Designers therefore study wind direction, mesh spacing, and local weather before choosing a site. [S8] Fog collectors cannot supply every need of a large city, yet in suitable places they can provide water for tree seedlings, gardens, or small communities.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M03-RC-P03",
+   "form": "M03",
+   "title": "The Empty Window Box",
+   "text": "[S1] At the community center, each club received a wooden window box to plant for the spring festival. [S2] The chess club chose neat rows of purple flowers, while the cooking club planted herbs labeled with tiny signs. [S3] Inez's nature club could not agree: some members wanted berries for birds, others wanted bright blossoms, and two wanted to leave room for insects to nest. [S4] Their box remained empty while everyone argued for a complete plan. [S5] On the final planting day, Inez brought three small paper squares and placed them inside the box. [S6] “One section for food, one for color, and one left partly bare,” she said. [S7] The members began arranging plants, then noticed that the sections did not need sharp borders; a flowering berry plant could serve two purposes at once. [S8] Their finished box looked less orderly than the chess club's, but birds visited it before the festival opened. [S9] Inez decided that a plan could guide cooperation without forcing every useful thing into a single category.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M03-RC-P04",
+   "form": "M03",
+   "title": "Restoring a Painted Wall",
+   "text": "[S1] When workers uncovered a faded mural beneath layers of plaster, several colors were barely visible. [S2] A restorer might be tempted to repaint every missing shape in bright new color, but doing so could replace evidence with guesswork. [S3] Instead, the team first photographed the wall under different kinds of light. [S4] Certain pigments reflected infrared light differently, revealing outlines hidden from ordinary view. [S5] The team then cleaned a small test area and added removable, lightly colored repairs only where the original pattern was well supported. [S6] From across the room, the repairs helped viewers understand the scene. [S7] Up close, however, the new marks remained distinguishable from the old paint. [S8] This choice allowed the mural to be enjoyed without pretending that every detail of its past was known.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "M03-RC-P05",
+   "form": "M03",
+   "title": "A Library of Useful Things",
+   "text": "[S1] A neighborhood library once lent only books and recordings, but residents kept asking where they could borrow tools used only occasionally. [S2] In response, the library began a small “library of things” with a drill, a cake pan, a telescope, and several sewing kits. [S3] The objects required different rules from books. [S4] Staff members photographed each kit before checkout, labeled every part, and allowed extra time between loans for inspection. [S5] They also offered short demonstrations because returning a tool safely matters as much as returning it on time. [S6] At first, some people predicted the objects would quickly vanish or break. [S7] A year later, a few parts had been replaced, but most items remained in use, and the waiting list helped staff decide what to purchase next. [S8] The project did not eliminate the need to own everyday objects. [S9] It did show that careful sharing can make rarely used items available to more people.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  }
+ ]
+}

@@ -1,0 +1,5287 @@
+{
+ "id": "vr",
+ "items": [
+  {
+   "c": [
+    "determined",
+    "careless",
+    "cheerful",
+    "doubtful"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-030",
+   "k": 0,
+   "p": "",
+   "q": "RESOLUTE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "rule",
+    "punishment",
+    "shelter",
+    "argument"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-031",
+   "k": 2,
+   "p": "",
+   "q": "SANCTUARY most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "reveal",
+    "encourage",
+    "expand",
+    "suppress"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-032",
+   "k": 3,
+   "p": "",
+   "q": "STIFLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "equal",
+    "superior",
+    "lower-ranking",
+    "temporary"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-033",
+   "k": 2,
+   "p": "",
+   "q": "SUBORDINATE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "secret",
+    "imaginary",
+    "concrete",
+    "distant"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-034",
+   "k": 2,
+   "p": "",
+   "q": "TANGIBLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "ordinary",
+    "dangerous",
+    "quiet",
+    "safe"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-035",
+   "k": 1,
+   "p": "",
+   "q": "TREACHEROUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "gloomy",
+    "playful and fanciful",
+    "practical",
+    "strict"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-036",
+   "k": 1,
+   "p": "",
+   "q": "WHIMSICAL most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "shine",
+    "vanish instantly",
+    "grow",
+    "decrease"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-037",
+   "k": 3,
+   "p": "",
+   "q": "WANE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "noticeable",
+    "stubborn",
+    "careful",
+    "hidden"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-038",
+   "k": 0,
+   "p": "",
+   "q": "CONSPICUOUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "eliminate",
+    "postpone",
+    "weaken",
+    "imitate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-039",
+   "k": 0,
+   "p": "",
+   "q": "ERADICATE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "tentative",
+    "private",
+    "random",
+    "unanimous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-040",
+   "k": 3,
+   "p": "",
+   "q": "The committee reached a ______ decision; every member agreed.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "rural",
+    "stable",
+    "treacherous",
+    "spacious"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-041",
+   "k": 2,
+   "p": "",
+   "q": "Because the path crossed loose rocks and steep cliffs, hikers called it ______.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "unite",
+    "stifle",
+    "retrieve",
+    "cultivate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-042",
+   "k": 1,
+   "p": "",
+   "q": "She tried to ______ her laughter during the serious ceremony.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "frontier",
+    "sanctuary",
+    "spectator",
+    "resolution"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-043",
+   "k": 1,
+   "p": "",
+   "q": "The old church served as a ______ for families during the storm.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "unify",
+    "restore",
+    "tower",
+    "wane"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-044",
+   "k": 3,
+   "p": "",
+   "q": "His confidence began to ______ after repeated failures.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "resolute",
+    "contented",
+    "dubious",
+    "jovial"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-045",
+   "k": 2,
+   "p": "",
+   "q": "The detective remained ______ about the suspect's story because several details did not match.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "subjective",
+    "whimsical",
+    "remote",
+    "tangible"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-046",
+   "k": 3,
+   "p": "",
+   "q": "A signed receipt is ______ evidence that a payment was made.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "authority",
+    "suffrage",
+    "patriotism",
+    "legislation"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-047",
+   "k": 1,
+   "p": "",
+   "q": "The new law expanded ______ by giving more citizens the right to vote.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "feisty",
+    "sluggish",
+    "somber",
+    "aloof"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-048",
+   "k": 0,
+   "p": "",
+   "q": "Even though she was small, the ______ puppy barked boldly at the much larger dog.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "retaliate",
+    "retrieve",
+    "cultivate",
+    "reminisce"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-049",
+   "k": 0,
+   "p": "",
+   "q": "After the rival team played a dirty trick, the captain refused to ______ and instead reported it.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "meticulous",
+    "hurried",
+    "cheerful",
+    "careless"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-054",
+   "k": 0,
+   "p": "",
+   "q": "PAINSTAKING most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "generous",
+    "distant",
+    "excited",
+    "loyal"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-055",
+   "k": 1,
+   "p": "",
+   "q": "ALOOF most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "hidden",
+    "avoidable",
+    "optional",
+    "certain"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-056",
+   "k": 3,
+   "p": "",
+   "q": "INEVITABLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "pride",
+    "confusion",
+    "deep regret",
+    "celebration"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-057",
+   "k": 2,
+   "p": "",
+   "q": "REMORSE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "burst suddenly",
+    "shrink gradually",
+    "repeat",
+    "gather"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-058",
+   "k": 1,
+   "p": "",
+   "q": "DWINDLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "calm",
+    "incite",
+    "repair",
+    "conceal"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-059",
+   "k": 1,
+   "p": "",
+   "q": "PROVOKE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "poetic",
+    "friendly",
+    "elaborate",
+    "brief"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-060",
+   "k": 3,
+   "p": "",
+   "q": "TERSE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "recover",
+    "estimate",
+    "divide",
+    "abandon"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-061",
+   "k": 0,
+   "p": "",
+   "q": "RETRIEVE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "economy",
+    "volume",
+    "whim",
+    "prestige"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-062",
+   "k": 0,
+   "p": "",
+   "q": "The family practiced strict ______, repairing clothes rather than buying new ones.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "grievance",
+    "fatigue",
+    "discretion",
+    "turmoil"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-063",
+   "k": 2,
+   "p": "",
+   "q": "She used great ______ and did not reveal the surprise party.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "disputed",
+    "revered",
+    "cultivated",
+    "hoisted"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-064",
+   "k": 0,
+   "p": "",
+   "q": "Several students ______ the speaker's claim and asked for evidence.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "hostile",
+    "ominous",
+    "constructive",
+    "trite"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-065",
+   "k": 2,
+   "p": "",
+   "q": "The teacher gave ______ criticism that showed exactly how the essay could improve.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "render",
+    "proclaim",
+    "reinforce",
+    "dismantle"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-066",
+   "k": 3,
+   "p": "",
+   "q": "At the end of camp, the students had to ______ the temporary stage and pack away the pieces.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "tranquility",
+    "leisure",
+    "consensus",
+    "commotion"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-067",
+   "k": 3,
+   "p": "",
+   "q": "A sudden crash in the hallway caused a loud ______ outside the classroom.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "prosper",
+    "dwindle",
+    "provoke",
+    "accumulate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-068",
+   "k": 1,
+   "p": "",
+   "q": "As the rain became heavier, the crowd began to ______ until only a few people remained.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "nestle",
+    "recoil",
+    "loom",
+    "wane"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-069",
+   "k": 2,
+   "p": "",
+   "q": "The old mansion seemed to ______ over the village from the top of the hill.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "boycott",
+    "commend",
+    "consent",
+    "grant"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W1-070",
+   "k": 0,
+   "p": "",
+   "q": "The students decided to ______ the store after learning about its unfair policy.",
+   "sk": "vocabulary",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "deny",
+    "suggest",
+    "copy",
+    "prove"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-030",
+   "k": 1,
+   "p": "",
+   "q": "IMPLY most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "repeat",
+    "conclude",
+    "observe",
+    "question"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-031",
+   "k": 1,
+   "p": "",
+   "q": "INFER most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "secret",
+    "careless",
+    "emotional",
+    "unbiased"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-032",
+   "k": 3,
+   "p": "",
+   "q": "OBJECTIVE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "based on personal opinion",
+    "able to be measured",
+    "beyond all doubt",
+    "public"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-033",
+   "k": 0,
+   "p": "",
+   "q": "SUBJECTIVE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "easily bent",
+    "relaxed and informal",
+    "thorough and demanding",
+    "motionless"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-034",
+   "k": 2,
+   "p": "",
+   "q": "RIGOROUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "careful",
+    "uncertain",
+    "playful",
+    "inflexible"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-035",
+   "k": 3,
+   "p": "",
+   "q": "RIGID most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "easily moved",
+    "not moving",
+    "lasting a short time",
+    "made of paper"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-036",
+   "k": 1,
+   "p": "",
+   "q": "STATIONARY most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "polite",
+    "crowded",
+    "dangerous",
+    "unchanging"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-037",
+   "k": 3,
+   "p": "",
+   "q": "STATIC most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "independent",
+    "celebrated",
+    "lower-ranking",
+    "unanimous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-038",
+   "k": 2,
+   "p": "",
+   "q": "SUBORDINATE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "lower in quality or rank",
+    "more expensive",
+    "less visible",
+    "older"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-039",
+   "k": 0,
+   "p": "",
+   "q": "INFERIOR most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "infer",
+    "conserve",
+    "imply",
+    "restore"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-040",
+   "k": 0,
+   "p": "",
+   "q": "From the wet footprints leading to the kitchen, Maya could ______ that someone had entered through the back door.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "conclude",
+    "imply",
+    "retrieve",
+    "attain"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-041",
+   "k": 1,
+   "p": "",
+   "q": "The author never says the character is afraid, but the shaking hands and short breaths ______ fear.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "remote",
+    "subjective",
+    "static",
+    "intricate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-042",
+   "k": 3,
+   "p": "",
+   "q": "The watchmaker examined the ______ gears, each tiny part fitting precisely with the next.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "conspicuous",
+    "objective",
+    "rigid",
+    "literal"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-043",
+   "k": 1,
+   "p": "",
+   "q": "The report used measurable data and tried to remain ______ rather than emotional.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "content",
+    "capital",
+    "decline",
+    "consensus"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-044",
+   "k": 3,
+   "p": "",
+   "q": "After a long discussion, the committee reached a ______ that the event should be postponed.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "stock",
+    "volume",
+    "term",
+    "compact"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-045",
+   "k": 2,
+   "p": "",
+   "q": "The fall school ______ begins in September.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "volume",
+    "prompt",
+    "content",
+    "capital"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-046",
+   "k": 0,
+   "p": "",
+   "q": "Please turn down the ______; the music is too loud.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "rigid",
+    "static",
+    "prompt",
+    "remote"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-047",
+   "k": 2,
+   "p": "",
+   "q": "She sent a ______ reply within five minutes.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "stable",
+    "rigorous",
+    "stationary",
+    "elaborate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-048",
+   "k": 2,
+   "p": "",
+   "q": "The bus remained ______ at the curb while passengers boarded.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "stable",
+    "subjective",
+    "static",
+    "inferior"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-049",
+   "k": 0,
+   "p": "",
+   "q": "Despite small changes in the weather, the patient's condition remained ______.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "warn or scold",
+    "pay no attention to",
+    "praise warmly",
+    "confuse"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-054",
+   "k": 0,
+   "p": "",
+   "q": "ADMONISH most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "achieve",
+    "avoid",
+    "measure",
+    "lend"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-055",
+   "k": 0,
+   "p": "",
+   "q": "ATTAIN most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "collect",
+    "prevent",
+    "describe",
+    "celebrate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-056",
+   "k": 1,
+   "p": "",
+   "q": "AVERT most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "brief and clear",
+    "not at all sure",
+    "angry",
+    "using too many words"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-057",
+   "k": 0,
+   "p": "",
+   "q": "CONCISE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "divide",
+    "spend quickly",
+    "criticize",
+    "save and protect"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-058",
+   "k": 3,
+   "p": "",
+   "q": "CONSERVE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "calmness",
+    "wealth",
+    "permission",
+    "disagreement"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-059",
+   "k": 3,
+   "p": "",
+   "q": "DISSENT most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "give help to",
+    "escape or avoid",
+    "explain in detail",
+    "repair"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-060",
+   "k": 1,
+   "p": "",
+   "q": "ELUDE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "qualified",
+    "doubtful",
+    "hidden",
+    "famous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-061",
+   "k": 0,
+   "p": "",
+   "q": "ELIGIBLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "confusion",
+    "anger",
+    "fear",
+    "respect"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-062",
+   "k": 3,
+   "p": "",
+   "q": "ESTEEM most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "make smaller",
+    "remove completely",
+    "bring to mind",
+    "delay"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-063",
+   "k": 2,
+   "p": "",
+   "q": "EVOKE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "attain",
+    "fray",
+    "prosper",
+    "grant"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-064",
+   "k": 1,
+   "p": "",
+   "q": "The rope began to ______ after rubbing against the rough stone.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "expanse",
+    "consent",
+    "grievance",
+    "leeway"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-065",
+   "k": 2,
+   "p": "",
+   "q": "Her main ______ was that the new rule treated younger students unfairly.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "fortunate",
+    "eligible",
+    "concise",
+    "hostile"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-066",
+   "k": 3,
+   "p": "",
+   "q": "The crowd became ______ after the referee made the unpopular call.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "cordial",
+    "renowned",
+    "inept",
+    "jovial"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-067",
+   "k": 2,
+   "p": "",
+   "q": "He was completely ______ at repairing the bicycle and made the problem worse.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "fray",
+    "esteem",
+    "leeway",
+    "descent"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-068",
+   "k": 2,
+   "p": "",
+   "q": "The teacher gave students some ______ in choosing their project topics.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "ample",
+    "meager",
+    "glorious",
+    "compact"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-069",
+   "k": 1,
+   "p": "",
+   "q": "The hikers survived on a ______ supply of food until help arrived.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "thwarted",
+    "eluded",
+    "cultivated",
+    "commended"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W2-070",
+   "k": 0,
+   "p": "",
+   "q": "A sudden storm ______ their plan to hold the concert outdoors.",
+   "sk": "vocabulary",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "a carved decoration",
+    "the main city",
+    "punishment",
+    "money or financial resources"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-030",
+   "k": 3,
+   "p": "",
+   "q": "In “The company raised more capital,” CAPITAL means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "information",
+    "satisfied",
+    "crowded",
+    "angry"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-031",
+   "k": 1,
+   "p": "",
+   "q": "In “Beth was content with the simple meal,” CONTENT means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "amount or quantity",
+    "level of loudness",
+    "one book of a set",
+    "promise"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-032",
+   "k": 0,
+   "p": "",
+   "q": "In “The volume of water in the tank increased,” VOLUME means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "painful or sensitive",
+    "quick",
+    "very formal",
+    "kind and generous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-033",
+   "k": 0,
+   "p": "",
+   "q": "In “Her ankle was still tender after the fall,” TENDER means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "declined",
+    "traced",
+    "prompted",
+    "stocked"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-034",
+   "k": 2,
+   "p": "",
+   "q": "The unexpected compliment ______ her to keep working.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "charters",
+    "conflicts",
+    "renders",
+    "stocks"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-035",
+   "k": 3,
+   "p": "",
+   "q": "The store ______ several kinds of art paper.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "capital",
+    "trace",
+    "term",
+    "volume"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-036",
+   "k": 2,
+   "p": "",
+   "q": "One ______ of the agreement requires payment by Friday.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "content",
+    "trace",
+    "grant",
+    "charter"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-037",
+   "k": 1,
+   "p": "",
+   "q": "There was only a ______ of sugar left in the jar.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "exploit",
+    "render",
+    "decline",
+    "suspend"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-038",
+   "k": 1,
+   "p": "",
+   "q": "The volunteers agreed to ______ assistance after the storm.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "grant",
+    "stock",
+    "trace",
+    "conflict"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-039",
+   "k": 0,
+   "p": "",
+   "q": "The principal decided to ______ permission for the field trip.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "discipline",
+    "prompt",
+    "volume",
+    "charter"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-040",
+   "k": 3,
+   "p": "",
+   "q": "A city ______ is a formal document describing the city's powers.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "capital",
+    "content",
+    "trace",
+    "discipline"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-041",
+   "k": 3,
+   "p": "",
+   "q": "Finishing homework before playing games requires self-______.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "exploit",
+    "charter",
+    "render",
+    "cultivate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-042",
+   "k": 0,
+   "p": "",
+   "q": "A dishonest employer may ______ workers by paying unfair wages.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "decline",
+    "suspend",
+    "grant",
+    "stock"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-043",
+   "k": 0,
+   "p": "",
+   "q": "She politely chose to ______ the invitation.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "formal",
+    "unlikely",
+    "nearby",
+    "dangerous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-044",
+   "k": 1,
+   "p": "",
+   "q": "A “remote possibility” is one that is:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "tender",
+    "remote",
+    "domestic",
+    "compact"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-045",
+   "k": 3,
+   "p": "",
+   "q": "The camera's ______ design made it easy to carry in a small bag.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "from another country",
+    "ancient",
+    "internal to one's own country",
+    "kept very private"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-046",
+   "k": 2,
+   "p": "",
+   "q": "In “domestic policy,” DOMESTIC most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "decline",
+    "cultivate",
+    "suspend",
+    "trace"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-047",
+   "k": 1,
+   "p": "",
+   "q": "Good leaders try to ______ trust over time.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "grant",
+    "exploit",
+    "suspend",
+    "render"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-048",
+   "k": 2,
+   "p": "",
+   "q": "The school may ______ a student for several days after a serious rule violation.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "are both lengthy",
+    "agree exactly",
+    "disagree or contradict each other",
+    "are legally binding"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-049",
+   "k": 2,
+   "p": "",
+   "q": "If two witness statements CONFLICT, they:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "brief",
+    "hostile",
+    "plentiful",
+    "scarce"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-054",
+   "k": 2,
+   "p": "",
+   "q": "AMPLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "kept secret",
+    "careless and hasty",
+    "warm and friendly",
+    "severe"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-055",
+   "k": 2,
+   "p": "",
+   "q": "CORDIAL most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "gradual",
+    "doubtful",
+    "ordinary",
+    "extreme"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-056",
+   "k": 3,
+   "p": "",
+   "q": "DRASTIC most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "wide stretch",
+    "a large reward",
+    "a formal complaint",
+    "mistake"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-057",
+   "k": 0,
+   "p": "",
+   "q": "EXPANSE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "gentle",
+    "fair",
+    "fierce",
+    "quiet"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-058",
+   "k": 2,
+   "p": "",
+   "q": "FEROCIOUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "angry",
+    "strict",
+    "lucky",
+    "uncertain"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-059",
+   "k": 2,
+   "p": "",
+   "q": "FORTUNATE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "stable",
+    "hurried or rash",
+    "slow and careful",
+    "used in ceremonies"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-060",
+   "k": 1,
+   "p": "",
+   "q": "HASTY most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "deception",
+    "refuge",
+    "charter",
+    "remedy"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-061",
+   "k": 0,
+   "p": "",
+   "q": "HOAX most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "far away",
+    "weak",
+    "hard to control",
+    "noble and upright"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-062",
+   "k": 3,
+   "p": "",
+   "q": "HONORABLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "broken",
+    "undamaged",
+    "hidden",
+    "temporary"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-063",
+   "k": 1,
+   "p": "",
+   "q": "INTACT most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "stubborn",
+    "cheerful",
+    "solemn",
+    "formal"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-064",
+   "k": 1,
+   "p": "",
+   "q": "JOVIAL most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "talent",
+    "warning",
+    "obligation",
+    "argument"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-065",
+   "k": 0,
+   "p": "",
+   "q": "KNACK most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "admire",
+    "copy",
+    "postpone",
+    "detest"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-066",
+   "k": 3,
+   "p": "",
+   "q": "LOATHE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "threatening",
+    "spacious",
+    "ordinary",
+    "playful"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-067",
+   "k": 0,
+   "p": "",
+   "q": "OMINOUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "careful",
+    "full of energy",
+    "meager or insignificant",
+    "belonging to a king"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-068",
+   "k": 2,
+   "p": "",
+   "q": "PALTRY most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "a complete failure",
+    "law",
+    "a sharp insult",
+    "shelter or haven"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-069",
+   "k": 3,
+   "p": "",
+   "q": "REFUGE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "celebrate",
+    "announce",
+    "cancel",
+    "combine"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-070",
+   "k": 2,
+   "p": "",
+   "q": "REVOKE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "inspect",
+    "wander",
+    "reminisce",
+    "proclaim"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-071",
+   "k": 0,
+   "p": "",
+   "q": "The engineer stopped to ______ the bridge for cracks before reopening it.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "stock",
+    "capital",
+    "discipline",
+    "lore"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-072",
+   "k": 3,
+   "p": "",
+   "q": "Stories and traditions passed down through generations are called ______.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "authentic",
+    "makeshift",
+    "remote",
+    "judicial"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-073",
+   "k": 1,
+   "p": "",
+   "q": "The students built a ______ stage from cardboard boxes and old curtains.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "thwarted",
+    "attained",
+    "eluded",
+    "declined"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-074",
+   "k": 1,
+   "p": "",
+   "q": "After years of training, she finally ______ her goal of qualifying for the finals.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "anguish",
+    "clarity",
+    "leeway",
+    "camaraderie"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-075",
+   "k": 0,
+   "p": "",
+   "q": "News of the accident filled the family with deep ______.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "grievance",
+    "prestige",
+    "dissent",
+    "consent"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-076",
+   "k": 3,
+   "p": "",
+   "q": "The principal gave his ______ for the students to leave early.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "refuge",
+    "consensus",
+    "verdict",
+    "charter"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-077",
+   "k": 1,
+   "p": "",
+   "q": "The committee could not reach a ______ because several members still disagreed.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "cultivate",
+    "grant",
+    "commend",
+    "trace"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-078",
+   "k": 3,
+   "p": "",
+   "q": "Scientists tried to ______ the pollution back to its original source.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "memoir",
+    "campaign",
+    "canopy",
+    "trance"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-079",
+   "k": 1,
+   "p": "",
+   "q": "The city launched a public ______ to reduce litter in parks.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "distort",
+    "attain",
+    "soothe",
+    "conserve"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-080",
+   "k": 0,
+   "p": "",
+   "q": "The company was accused of trying to ______ the facts to make its results appear better.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "midst",
+    "horizon",
+    "terrain",
+    "fringe"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-081",
+   "k": 1,
+   "p": "",
+   "q": "Dark mountains appeared on the distant ______.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "reckless",
+    "diligent",
+    "sluggish",
+    "aloof"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-082",
+   "k": 1,
+   "p": "",
+   "q": "A ______ student checks her work carefully and completes assignments consistently.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "confine",
+    "revoke",
+    "forbid",
+    "evoke"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-083",
+   "k": 3,
+   "p": "",
+   "q": "The smell of pine trees can ______ memories of winter holidays.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "plaintive",
+    "remote",
+    "compact",
+    "ferocious"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-084",
+   "k": 2,
+   "p": "",
+   "q": "The apartment was small but ______, with every inch used efficiently.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "acquire",
+    "commend",
+    "revoke",
+    "proclaim"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-085",
+   "k": 2,
+   "p": "",
+   "q": "The agency decided to ______ the license after repeated safety violations.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "avert",
+    "dwindle",
+    "inundate",
+    "provoke"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-086",
+   "k": 0,
+   "p": "",
+   "q": "Early warnings helped ______ a larger disaster by giving residents time to leave.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "inundated",
+    "vacated",
+    "conserved",
+    "hosted"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W3-087",
+   "k": 0,
+   "p": "",
+   "q": "After the article went viral, reporters ______ the scientist with questions.",
+   "sk": "vocabulary",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "verdict",
+    "burden",
+    "spectacle",
+    "sanctuary"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-030",
+   "k": 3,
+   "p": "",
+   "q": "After the wildfire, the community center became a ______ for families who had lost their homes.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "suspend",
+    "stifle",
+    "strive",
+    "suspect"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-031",
+   "k": 2,
+   "p": "",
+   "q": "Even after several failed attempts, the team continued to ______ for a better solution.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "subordinate",
+    "unanimous",
+    "superior",
+    "tangible"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-032",
+   "k": 0,
+   "p": "",
+   "q": "A junior assistant is ______ to the department manager.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "imply",
+    "suspend",
+    "infer",
+    "trace"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-033",
+   "k": 2,
+   "p": "",
+   "q": "From the muddy footprints, I ______ that someone entered through the back door.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "infer",
+    "grant",
+    "render",
+    "imply"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-034",
+   "k": 3,
+   "p": "",
+   "q": "The author never says the child is afraid, but the trembling hands ______ fear.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "rigorous",
+    "stationary",
+    "subjective",
+    "remote"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-035",
+   "k": 1,
+   "p": "",
+   "q": "The statue remained ______, while the patient's condition remained stable.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "whimsical",
+    "rigid",
+    "static",
+    "rigorous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-036",
+   "k": 3,
+   "p": "",
+   "q": "A ______ training program is demanding and thorough.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "remote",
+    "subjective",
+    "unanimous",
+    "superior"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-037",
+   "k": 2,
+   "p": "",
+   "q": "The committee's decision was ______; every member voted yes.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "capital",
+    "volume",
+    "content",
+    "term"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-038",
+   "k": 1,
+   "p": "",
+   "q": "Please turn down the ______; the music is too loud.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "whimsical",
+    "tangible",
+    "subjective",
+    "remote"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-039",
+   "k": 1,
+   "p": "",
+   "q": "A signed receipt is ______ evidence that the payment was made.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "rural",
+    "stable",
+    "spacious",
+    "treacherous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-040",
+   "k": 3,
+   "p": "",
+   "q": "The narrow mountain road became ______ after the ice storm.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "suffrage",
+    "consensus",
+    "charter",
+    "prestige"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-041",
+   "k": 0,
+   "p": "",
+   "q": "The movement fought for women's ______, or the right to vote.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "trace",
+    "term",
+    "capital",
+    "volume"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-042",
+   "k": 1,
+   "p": "",
+   "q": "One ______ of the contract requires payment within thirty days.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "grant",
+    "cultivate",
+    "render",
+    "trace"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-043",
+   "k": 3,
+   "p": "",
+   "q": "Scientists tried to ______ the contamination back to its source.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "prompt",
+    "rigid",
+    "remote",
+    "static"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-044",
+   "k": 0,
+   "p": "",
+   "q": "Her ______ reply arrived within five minutes.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "grant",
+    "render",
+    "suspend",
+    "exploit"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-045",
+   "k": 2,
+   "p": "",
+   "q": "The school may ______ a student for several days after a serious rule violation.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "static",
+    "capital",
+    "content",
+    "literal"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-046",
+   "k": 2,
+   "p": "",
+   "q": "Beth was ______ with the simple meal and asked for nothing more.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "capital",
+    "content",
+    "volume",
+    "term"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-047",
+   "k": 0,
+   "p": "",
+   "q": "The company needed more ______ to expand its business.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "not changing",
+    "expensive",
+    "very social",
+    "changing rapidly"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-048",
+   "k": 0,
+   "p": "",
+   "q": "STATIC most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "prove it false",
+    "think it may be true",
+    "know it for certain",
+    "forget about it"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-049",
+   "k": 1,
+   "p": "",
+   "q": "To SUSPECT something means to:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "careless",
+    "distant",
+    "determined",
+    "uncertain"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-054",
+   "k": 2,
+   "p": "",
+   "q": "RESOLUTE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "loyal",
+    "cheerful",
+    "certain",
+    "doubtful"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-055",
+   "k": 3,
+   "p": "",
+   "q": "DUBIOUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "delay",
+    "eliminate",
+    "imitate",
+    "weaken"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-056",
+   "k": 1,
+   "p": "",
+   "q": "ERADICATE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "noticeable",
+    "ordinary",
+    "quiet",
+    "hidden"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-057",
+   "k": 0,
+   "p": "",
+   "q": "CONSPICUOUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "good judgment",
+    "wealth",
+    "speed",
+    "loud disagreement"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-058",
+   "k": 0,
+   "p": "",
+   "q": "DISCRETION most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "remember fondly",
+    "respond with revenge",
+    "retreat",
+    "repair"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-059",
+   "k": 1,
+   "p": "",
+   "q": "RETALIATE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "encourage",
+    "expand",
+    "suppress",
+    "reveal"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-060",
+   "k": 2,
+   "p": "",
+   "q": "STIFLE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "motionless",
+    "following later",
+    "not yet decided",
+    "happening before"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-061",
+   "k": 1,
+   "p": "",
+   "q": "SUBSEQUENT most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "better or higher-ranking",
+    "lasting only briefly",
+    "equal",
+    "below others in rank"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-062",
+   "k": 0,
+   "p": "",
+   "q": "SUPERIOR most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "hide",
+    "argue against",
+    "add to or complete",
+    "take away entirely"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-063",
+   "k": 2,
+   "p": "",
+   "q": "SUPPLEMENT most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "whimsical",
+    "subjective",
+    "remote",
+    "tangible"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-064",
+   "k": 3,
+   "p": "",
+   "q": "The evidence was too ______ to ignore; everyone could see the broken window.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "consensus",
+    "volume",
+    "prestige",
+    "sanctuary"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-065",
+   "k": 3,
+   "p": "",
+   "q": "The hikers sought ______ in a cabin when the storm became dangerous.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "prompt",
+    "unanimous",
+    "conflicting",
+    "stationary"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-066",
+   "k": 2,
+   "p": "",
+   "q": "The witness gave a ______ account that contradicted the earlier statement.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "stifle",
+    "suspect",
+    "soothe",
+    "trace"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-067",
+   "k": 2,
+   "p": "",
+   "q": "The doctor tried to ______ the worried child with a calm voice.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "diligent",
+    "static",
+    "reckless",
+    "aloof"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-068",
+   "k": 0,
+   "p": "",
+   "q": "A ______ student keeps working carefully even when a task is difficult.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "careless",
+    "cheerful",
+    "hurried",
+    "meticulous"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-069",
+   "k": 3,
+   "p": "",
+   "q": "PAINSTAKING most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "unbiased",
+    "private",
+    "emotional",
+    "careless"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-070",
+   "k": 0,
+   "p": "",
+   "q": "OBJECTIVE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "based on hard evidence",
+    "known to everyone",
+    "beyond any question",
+    "based on personal opinion"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-071",
+   "k": 3,
+   "p": "",
+   "q": "SUBJECTIVE most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "stationary",
+    "stable",
+    "rigorous",
+    "elaborate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-072",
+   "k": 0,
+   "p": "",
+   "q": "The bus remained ______ at the curb while passengers boarded.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "static",
+    "stable",
+    "stationary",
+    "remote"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-073",
+   "k": 1,
+   "p": "",
+   "q": "Despite the storm, the bridge remained ______ and safe to cross.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "social",
+    "prompt",
+    "static",
+    "spacious"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-074",
+   "k": 2,
+   "p": "",
+   "q": "The frozen image on the monitor was ______ for several seconds.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "subjective",
+    "literal",
+    "intricate",
+    "remote"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-075",
+   "k": 2,
+   "p": "",
+   "q": "The watchmaker examined the ______ gears, each tiny part fitting precisely.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "volume",
+    "prejudice",
+    "trace",
+    "consensus"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-076",
+   "k": 3,
+   "p": "",
+   "q": "The committee reached a ______ after everyone finally agreed.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "objective",
+    "conspicuous",
+    "rigid",
+    "literal"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-077",
+   "k": 0,
+   "p": "",
+   "q": "The report tried to remain ______ by relying on measurable facts.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "dangerous",
+    "unlikely",
+    "formal",
+    "nearby"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-078",
+   "k": 1,
+   "p": "",
+   "q": "In 'a remote possibility,' REMOTE means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "remote",
+    "compact",
+    "tender",
+    "domestic"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-079",
+   "k": 1,
+   "p": "",
+   "q": "The camera's ______ design made it easy to carry.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "grant",
+    "conflict",
+    "trace",
+    "stock"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-080",
+   "k": 0,
+   "p": "",
+   "q": "The principal decided to ______ permission for the field trip.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "render",
+    "exploit",
+    "charter",
+    "cultivate"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-081",
+   "k": 1,
+   "p": "",
+   "q": "A dishonest employer may ______ workers by paying unfair wages.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "stock",
+    "grant",
+    "decline",
+    "suspend"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-082",
+   "k": 2,
+   "p": "",
+   "q": "She politely chose to ______ the invitation.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "evoke",
+    "forbid",
+    "revoke",
+    "confine"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-083",
+   "k": 0,
+   "p": "",
+   "q": "The smell of pine trees can ______ memories of winter holidays.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "provoke",
+    "inundate",
+    "dwindle",
+    "avert"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-084",
+   "k": 3,
+   "p": "",
+   "q": "Early warnings helped ______ a larger disaster.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "proclaim",
+    "acquire",
+    "commend",
+    "revoke"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-085",
+   "k": 3,
+   "p": "",
+   "q": "The agency decided to ______ the license after repeated violations.",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "a legal decision",
+    "an imagined perfect society",
+    "a dangerous road",
+    "a rural village"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-086",
+   "k": 1,
+   "p": "",
+   "q": "A UTOPIA is:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "ordinary",
+    "dangerous or untrustworthy",
+    "safe and dependable",
+    "quiet"
+   ],
+   "d": "M",
+   "e": "",
+   "id": "VR-SEP-W4-087",
+   "k": 1,
+   "p": "",
+   "q": "TREACHEROUS most nearly means:",
+   "sk": "vocabulary",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "hurried",
+    "secretive",
+    "polite but vague",
+    "honest and direct"
+   ],
+   "d": "M",
+   "e": "Candid means openly saying what you really think, so honest and direct is the match; a candid friend is never secretive or polite but vague.",
+   "id": "VR-W5-S2-Q01",
+   "k": 3,
+   "p": "",
+   "q": "CANDID most nearly means:",
+   "sk": "candid",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "friendly to strangers",
+    "done in a great hurry",
+    "leaving nothing out",
+    "difficult to believe"
+   ],
+   "d": "M",
+   "e": "Thorough work covers every part of the job, so leaving nothing out fits; a thorough search is the opposite of one done in a great hurry.",
+   "id": "VR-W5-S2-Q02",
+   "k": 2,
+   "p": "",
+   "q": "THOROUGH most nearly means:",
+   "sk": "thorough",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "temporary",
+    "expensive",
+    "impossible",
+    "believable"
+   ],
+   "d": "M",
+   "e": "A plausible excuse is one that could reasonably be true, so believable is right; plausible is the opposite of impossible.",
+   "id": "VR-W5-S2-Q03",
+   "k": 3,
+   "p": "",
+   "q": "PLAUSIBLE most nearly means:",
+   "sk": "plausible",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "hard to reach",
+    "sudden and loud",
+    "brief and lively",
+    "long and boring"
+   ],
+   "d": "M",
+   "e": "A tedious chore drags on and wears you out with dullness, so long and boring fits; brief and lively is its opposite.",
+   "id": "VR-W5-S2-Q04",
+   "k": 3,
+   "p": "",
+   "q": "TEDIOUS most nearly means:",
+   "sk": "tedious",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "to promise again",
+    "to argue against",
+    "to agree quickly",
+    "to explain politely"
+   ],
+   "d": "M",
+   "e": "To dispute a call or a claim is to argue against it and say it is not right, so to argue against is the match; someone who disputes a decision is doing the opposite of agreeing quickly.",
+   "id": "VR-W5-S2-Q05",
+   "k": 1,
+   "p": "",
+   "q": "DISPUTE most nearly means:",
+   "sk": "dispute",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "shallow",
+    "ancient",
+    "generous",
+    "sturdy"
+   ],
+   "d": "M",
+   "e": "Superficial means staying on the surface, so a superficial cut or a superficial friendship is shallow rather than deep.",
+   "id": "VR-W5-S2-Q06",
+   "k": 0,
+   "p": "",
+   "q": "SUPERFICIAL most nearly means:",
+   "sk": "superficial",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "clearly excellent",
+    "very expensive",
+    "only average",
+    "extremely rare"
+   ],
+   "d": "M",
+   "e": "Mediocre means no better than middling, so only average fits; it is the opposite of clearly excellent.",
+   "id": "VR-W5-S2-Q07",
+   "k": 2,
+   "p": "",
+   "q": "MEDIOCRE most nearly means:",
+   "sk": "mediocre",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "not strict; forgiving",
+    "difficult to please",
+    "strict and demanding",
+    "quick to anger"
+   ],
+   "d": "M",
+   "e": "A lenient teacher lets small things slide, so not strict; forgiving is the match, and strict and demanding is the opposite.",
+   "id": "VR-W5-S2-Q08",
+   "k": 0,
+   "p": "",
+   "q": "LENIENT most nearly means:",
+   "sk": "lenient",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "strangely old-fashioned",
+    "unusually noisy",
+    "barely acceptable",
+    "worth praising"
+   ],
+   "d": "M",
+   "e": "Something admirable earns real respect and praise, so worth praising fits; barely acceptable is nearly its opposite.",
+   "id": "VR-W5-S2-Q09",
+   "k": 3,
+   "p": "",
+   "q": "ADMIRABLE most nearly means:",
+   "sk": "admirable",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "sleepy",
+    "doubting",
+    "generous",
+    "trusting"
+   ],
+   "d": "M",
+   "e": "A skeptical listener is not convinced and wants proof, so doubting is right; trusting is the opposite attitude.",
+   "id": "VR-W5-S2-Q10",
+   "k": 1,
+   "p": "",
+   "q": "SKEPTICAL most nearly means:",
+   "sk": "skeptical",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "concede",
+    "insist",
+    "imagine",
+    "deny"
+   ],
+   "d": "M",
+   "e": "To concede is to admit that someone else is right, which is what \"had to\" signals here; to deny or to insist that she was right would mean he never gave in.",
+   "id": "VR-W5-S2-Q11",
+   "k": 0,
+   "p": "",
+   "q": "Even though he wanted to keep arguing, Marcus had to ______ that his sister was right.",
+   "sk": "concede",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "scold",
+    "warn",
+    "commend",
+    "replace"
+   ],
+   "d": "M",
+   "e": "To commend is to praise someone for what they have done, which is what hard work earns; to scold or to warn would be the opposite reaction.",
+   "id": "VR-W5-S2-Q12",
+   "k": 2,
+   "p": "",
+   "q": "The principal stopped by our classroom to ______ the students for their hard work.",
+   "sk": "commend",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "careful",
+    "neutral",
+    "patient",
+    "capable"
+   ],
+   "d": "M",
+   "e": "A neutral judge favors neither side, and Mia would naturally want her brother to win; having a brother in the race would not stop her from being patient, careful, or capable.",
+   "id": "VR-W5-S2-Q13",
+   "k": 1,
+   "p": "",
+   "q": "Because her own brother was racing, Mia could not serve as a ______ judge.",
+   "sk": "neutral",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "clever",
+    "patient",
+    "hasty",
+    "generous"
+   ],
+   "d": "M",
+   "e": "Hasty means done too quickly and with too little thought, which is exactly what answering before reading is; a patient or clever move would have been the opposite.",
+   "id": "VR-W5-S2-Q14",
+   "k": 2,
+   "p": "",
+   "q": "Ana shouted her answer before she had read the whole question — a ______ move she soon regretted.",
+   "sk": "hasty",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "announcement",
+    "invitation",
+    "apology",
+    "critique"
+   ],
+   "d": "M",
+   "e": "A critique is a careful judgement that weighs strong points against weak ones, which is what Ms. Bell wrote; an apology or an announcement judges nothing.",
+   "id": "VR-W5-S2-Q15",
+   "k": 3,
+   "p": "",
+   "q": "Ms. Bell wrote a helpful ______ of my essay, naming both its strengths and its weaknesses.",
+   "sk": "critique",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "sincere",
+    "boastful",
+    "sarcastic",
+    "confusing"
+   ],
+   "d": "M",
+   "e": "Sincere means truly meant, which matches the clue that she really meant it; a sarcastic apology is one that is not meant at all.",
+   "id": "VR-W5-S2-Q16",
+   "k": 0,
+   "p": "",
+   "q": "Her apology sounded ______; anyone could tell she truly meant it.",
+   "sk": "sincere",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "reward",
+    "blunder",
+    "bargain",
+    "custom"
+   ],
+   "d": "M",
+   "e": "A blunder is a careless mistake, and forgetting the tickets cost the group an hour; a bargain or a reward would be something good.",
+   "id": "VR-W5-S2-Q17",
+   "k": 1,
+   "p": "",
+   "q": "Forgetting the tickets was a ______ that cost us an hour.",
+   "sk": "blunder",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "framed",
+    "purchased",
+    "scrutinized",
+    "ignored"
+   ],
+   "d": "M",
+   "e": "To scrutinize is to examine something very closely, which is how judges pick a winner; judges who ignored the photographs could not choose at all.",
+   "id": "VR-W5-S2-Q18",
+   "k": 2,
+   "p": "",
+   "q": "The judges ______ each photograph before choosing a winner.",
+   "sk": "scrutinize",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "merit",
+    "damage",
+    "silence",
+    "delay"
+   ],
+   "d": "M",
+   "e": "Merit is real worth or value, so a plan with merit is worth trying; damage, delay, and silence would all be reasons to drop it.",
+   "id": "VR-W5-S2-Q19",
+   "k": 0,
+   "p": "",
+   "q": "The coach said the plan had real ______ and was worth trying.",
+   "sk": "merit",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "clumsy",
+    "solitary",
+    "versatile",
+    "nervous"
+   ],
+   "d": "M",
+   "e": "Versatile means able to do many different things well, which is what playing three positions equally well shows; clumsy and nervous name weaknesses, not range.",
+   "id": "VR-W5-S2-Q20",
+   "k": 2,
+   "p": "",
+   "q": "A ______ athlete, Nia plays goalkeeper, midfield, and forward equally well.",
+   "sk": "versatile",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "a reward",
+    "a promise",
+    "a fault",
+    "a journey"
+   ],
+   "d": "M",
+   "e": "A flaw is a weak spot or fault, like a crack in a bowl; a reward, a journey, and a promise have nothing to do with imperfection.",
+   "id": "VR-W5-S3-Q01",
+   "k": 2,
+   "p": "",
+   "q": "FLAW most nearly means:",
+   "sk": "flaw",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "expensive",
+    "noisy",
+    "frozen",
+    "unimportant"
+   ],
+   "d": "M",
+   "e": "Trivial details are so small that they hardly matter, so unimportant is the match.",
+   "id": "VR-W5-S3-Q02",
+   "k": 3,
+   "p": "",
+   "q": "TRIVIAL most nearly means:",
+   "sk": "trivial",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "gentle",
+    "curious",
+    "damp",
+    "severe"
+   ],
+   "d": "M",
+   "e": "Harsh means rough or severe, as in a harsh winter or a harsh punishment; gentle is its opposite.",
+   "id": "VR-W5-S3-Q03",
+   "k": 3,
+   "p": "",
+   "q": "HARSH most nearly means:",
+   "sk": "harsh",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "to argue against",
+    "to forget entirely",
+    "to accept as good",
+    "to repeat aloud"
+   ],
+   "d": "M",
+   "e": "To approve something is to judge it good and agree to it, so to accept as good fits; to argue against it is the opposite.",
+   "id": "VR-W5-S3-Q04",
+   "k": 2,
+   "p": "",
+   "q": "APPROVE most nearly means:",
+   "sk": "approve",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "loud and talkative",
+    "careful and wise",
+    "rich and famous",
+    "bold and reckless"
+   ],
+   "d": "M",
+   "e": "A prudent choice is a careful, sensible one that avoids needless risk, so careful and wise is right; bold and reckless is its opposite.",
+   "id": "VR-W5-S3-Q05",
+   "k": 1,
+   "p": "",
+   "q": "PRUDENT most nearly means:",
+   "sk": "prudent",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "very expensive",
+    "brightly colored",
+    "poorly made",
+    "carefully built"
+   ],
+   "d": "M",
+   "e": "Shoddy goods are put together cheaply and badly, so poorly made fits; carefully built is the opposite.",
+   "id": "VR-W5-S3-Q06",
+   "k": 2,
+   "p": "",
+   "q": "SHODDY most nearly means:",
+   "sk": "shoddy",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "to praise too much",
+    "to blame unfairly",
+    "to arrive early",
+    "to explain clearly"
+   ],
+   "d": "M",
+   "e": "To flatter is to pile on more praise than is deserved, often to get something; to blame unfairly is the opposite kind of remark.",
+   "id": "VR-W5-S3-Q07",
+   "k": 0,
+   "p": "",
+   "q": "FLATTER most nearly means:",
+   "sk": "flatter",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "to loudly celebrate",
+    "to strongly disapprove",
+    "to quietly praise",
+    "to carefully repair"
+   ],
+   "d": "M",
+   "e": "To condemn something is to declare that it is very wrong, so to strongly disapprove is the match; praising and celebrating point the other way.",
+   "id": "VR-W5-S3-Q08",
+   "k": 1,
+   "p": "",
+   "q": "CONDEMN most nearly means:",
+   "sk": "condemn",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "exaggerate",
+    "apologize",
+    "whisper",
+    "hesitate"
+   ],
+   "d": "M",
+   "e": "To exaggerate is to make something sound bigger than it really was, which is why the fish keeps growing with every telling.",
+   "id": "VR-W5-S3-Q09",
+   "k": 0,
+   "p": "",
+   "q": "Ravi tends to ______ when he tells the story, so the fish he caught grows another foot longer every time.",
+   "sk": "exaggerate",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "boast",
+    "grumble",
+    "chatter",
+    "complain"
+   ],
+   "d": "M",
+   "e": "To boast is to brag about your own success, exactly what proud winners were warned against; complaining and grumbling are what a losing team might do.",
+   "id": "VR-W5-S3-Q10",
+   "k": 0,
+   "p": "",
+   "q": "We were told not to ______ about our victory, no matter how proud we felt.",
+   "sk": "boast",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "lengthy",
+    "generous",
+    "sturdy",
+    "flimsy"
+   ],
+   "d": "M",
+   "e": "Flimsy means weak and easily broken, so a plan that collapses at the first hard question is flimsy; sturdy is its opposite.",
+   "id": "VR-W5-S3-Q11",
+   "k": 3,
+   "p": "",
+   "q": "Their plan was ______; one hard question and it fell apart.",
+   "sk": "flimsy",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "enjoy",
+    "cause",
+    "ignore",
+    "assess"
+   ],
+   "d": "M",
+   "e": "To assess damage is to judge how bad it is before deciding what to do; an expert would not be sent for to ignore or enjoy it.",
+   "id": "VR-W5-S3-Q12",
+   "k": 3,
+   "p": "",
+   "q": "Before repairs began, an expert came to ______ the damage.",
+   "sk": "assess",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "hilarious",
+    "valid",
+    "untrue",
+    "hidden"
+   ],
+   "d": "M",
+   "e": "A valid excuse is one that really holds up, and a doctor's note is solid proof; untrue would mean the opposite.",
+   "id": "VR-W5-S3-Q13",
+   "k": 1,
+   "p": "",
+   "q": "Her excuse was ______: she had a doctor's note for that morning.",
+   "sk": "valid",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "generous",
+    "foolish",
+    "wise",
+    "cheerful"
+   ],
+   "d": "M",
+   "e": "Foolish means showing poor judgement, and Theo can now see that the poster was a bad use of his money; a wise choice would have left him enough for the trip.",
+   "id": "VR-W5-S3-Q14",
+   "k": 1,
+   "p": "",
+   "q": "Spending his whole allowance on one poster now seems ______ to Theo, who has nothing left for the class trip.",
+   "sk": "foolish",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "generous",
+    "sleepy",
+    "careless",
+    "shrewd"
+   ],
+   "d": "M",
+   "e": "A shrewd shopper judges value cleverly, which is why she checked three stores first; a careless shopper would have taken the first price offered.",
+   "id": "VR-W5-S3-Q15",
+   "k": 3,
+   "p": "",
+   "q": "The ______ shopper compared prices at three stores before buying.",
+   "sk": "shrewd",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "jealous",
+    "worthy",
+    "guilty",
+    "afraid"
+   ],
+   "d": "M",
+   "e": "To be worthy of an honor is to deserve it, and years of service is exactly what earns one.",
+   "id": "VR-W5-S3-Q16",
+   "k": 1,
+   "p": "",
+   "q": "After years of service, the librarian was ______ of the town's highest honor.",
+   "sk": "worthy",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "silence",
+    "confusion",
+    "acclaim",
+    "blame"
+   ],
+   "d": "M",
+   "e": "Acclaim is loud public praise, the natural result of a successful first concert; blame would follow a failure instead.",
+   "id": "VR-W5-S3-Q17",
+   "k": 2,
+   "p": "",
+   "q": "The young pianist won wide ______ after her first concert.",
+   "sk": "acclaim",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "strict about rules",
+    "kind and generous",
+    "noisy and restless",
+    "quick to forget things"
+   ],
+   "d": "M",
+   "e": "Bene means “good,” and a benevolent neighbour wishes other people well, so kind and generous is the match; being strict about rules is a different quality entirely.",
+   "id": "VR-W6-S2-Q01",
+   "k": 1,
+   "p": "",
+   "q": "BENEVOLENT most nearly means:",
+   "sk": "benevolent",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "meaning to do harm",
+    "extremely tired",
+    "difficult to lift",
+    "brightly colored"
+   ],
+   "d": "M",
+   "e": "The prefix mal- means “bad,” so a malicious rumour is spread on purpose to hurt someone — meaning to do harm.",
+   "id": "VR-W6-S2-Q02",
+   "k": 0,
+   "p": "",
+   "q": "MALICIOUS most nearly means:",
+   "sk": "malicious",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "highly organized",
+    "very wealthy",
+    "wide awake",
+    "low in spirits"
+   ],
+   "d": "M",
+   "e": "De- means “down” and ject means “thrown,” so a dejected player walks off the field thrown down — low in spirits.",
+   "id": "VR-W6-S2-Q03",
+   "k": 3,
+   "p": "",
+   "q": "DEJECTED most nearly means:",
+   "sk": "dejected",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "colorful",
+    "polite",
+    "lengthy",
+    "sudden"
+   ],
+   "d": "M",
+   "e": "An abrupt stop or an abrupt answer comes with no warning at all, so sudden fits; lengthy is closer to its opposite.",
+   "id": "VR-W6-S2-Q04",
+   "k": 3,
+   "p": "",
+   "q": "ABRUPT most nearly means:",
+   "sk": "abrupt",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "polish",
+    "measure",
+    "block",
+    "invite"
+   ],
+   "d": "M",
+   "e": "Ob- means “against” and struct means “build,” so to obstruct a road is to put something in the way — to block it.",
+   "id": "VR-W6-S2-Q05",
+   "k": 2,
+   "p": "",
+   "q": "OBSTRUCT most nearly means:",
+   "sk": "obstruct",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "write down",
+    "take back",
+    "shout loudly",
+    "repeat often"
+   ],
+   "d": "M",
+   "e": "Re- means “back” and tract means “pull,” so a cat retracts its claws and a writer retracts a statement — both take back.",
+   "id": "VR-W6-S2-Q06",
+   "k": 1,
+   "p": "",
+   "q": "RETRACT most nearly means:",
+   "sk": "retract",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "costly",
+    "recent",
+    "crowded",
+    "believable"
+   ],
+   "d": "M",
+   "e": "The root cred means “believe,” as in credit and incredible, so a credible witness is a believable one.",
+   "id": "VR-W6-S2-Q07",
+   "k": 3,
+   "p": "",
+   "q": "CREDIBLE most nearly means:",
+   "sk": "credible",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "volunteer",
+    "beginner",
+    "leader",
+    "stranger"
+   ],
+   "d": "M",
+   "e": "Nov- means “new,” so a novice is someone new to an activity — a beginner, whatever else she may also be.",
+   "id": "VR-W6-S2-Q08",
+   "k": 1,
+   "p": "",
+   "q": "NOVICE most nearly means:",
+   "sk": "novice",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "a serious mistake",
+    "a short delay",
+    "an extra amount",
+    "a shortage of supplies"
+   ],
+   "d": "M",
+   "e": "Sur- means “over,” so a surplus is what is left over once everyone has enough — an extra amount, the exact opposite of a shortage of supplies.",
+   "id": "VR-W6-S2-Q09",
+   "k": 2,
+   "p": "",
+   "q": "SURPLUS most nearly means:",
+   "sk": "surplus",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "a lawyer’s long speech",
+    "a jury’s decision",
+    "a written promise",
+    "a witness’s story"
+   ],
+   "d": "M",
+   "e": "Ver- means “truth” and dict means “speak,” so a verdict is what the jury speaks at the end of a trial; the speeches and the stories all come before it.",
+   "id": "VR-W6-S2-Q10",
+   "k": 1,
+   "p": "",
+   "q": "VERDICT most nearly means:",
+   "sk": "verdict",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "assemble",
+    "announce",
+    "apologize",
+    "submerge"
+   ],
+   "d": "M",
+   "e": "Sub- means “under,” so to submerge is to go down under the water, which is why the crew has to wait for the lights to come back into view.",
+   "id": "VR-W6-S2-Q11",
+   "k": 3,
+   "p": "",
+   "q": "The team watched the little robot ______ and waited for its lights to reappear.",
+   "sk": "submerge",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "transparent",
+    "portable",
+    "subterranean",
+    "flooded"
+   ],
+   "d": "M",
+   "e": "Sub- means “under” and terra means “earth,” so a subterranean chamber lies underground at the bottom of a long climb; bats would not sleep in a flooded one.",
+   "id": "VR-W6-S2-Q12",
+   "k": 2,
+   "p": "",
+   "q": "The bats slept in a cool ______ chamber the cavers reached only after an hour’s climb down.",
+   "sk": "subterranean",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "premature",
+    "impossible",
+    "harmless",
+    "traditional"
+   ],
+   "d": "M",
+   "e": "Pre- means “before,” so something premature happens too early; the announcement was clearly not harmless, since the trophy had to change hands.",
+   "id": "VR-W6-S2-Q13",
+   "k": 0,
+   "p": "",
+   "q": "Announcing the winner before the last runner had finished turned out to be ______: the trophy had to be handed to someone else.",
+   "sk": "premature",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "imitate",
+    "praise",
+    "contradict",
+    "congratulate"
+   ],
+   "d": "M",
+   "e": "Contra- means “against” and dict means “speak,” so to contradict is to speak against what someone has just said — which is what makes it rude here.",
+   "id": "VR-W6-S2-Q14",
+   "k": 2,
+   "p": "",
+   "q": "It is rude to ______ your grandmother in front of guests, even when you are sure she is wrong.",
+   "sk": "contradict",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "penalty",
+    "disappointment",
+    "burden",
+    "prospect"
+   ],
+   "d": "M",
+   "e": "Pro- means “forward” and spect means “look,” so a prospect is something you look forward to; a penalty or a disappointment would not keep anyone cheerful.",
+   "id": "VR-W6-S2-Q15",
+   "k": 3,
+   "p": "",
+   "q": "The ______ of a whole week at the beach kept the twins cheerful all through exam season.",
+   "sk": "prospect",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "export",
+    "postpone",
+    "memorize",
+    "inherit"
+   ],
+   "d": "M",
+   "e": "Ex- means “out” and port means “carry,” so to export rice is to carry it out of the country to buyers elsewhere.",
+   "id": "VR-W6-S2-Q16",
+   "k": 0,
+   "p": "",
+   "q": "Because the harvest was so large, the country was able to ______ tons of rice to its neighbors.",
+   "sk": "export",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "rehearse",
+    "inscribe",
+    "predict",
+    "swallow"
+   ],
+   "d": "M",
+   "e": "Scrib and script mean “write,” so to inscribe initials on a ring is to write or carve them into it.",
+   "id": "VR-W6-S2-Q17",
+   "k": 1,
+   "p": "",
+   "q": "The jeweler offered to ______ our initials on the inside of the ring.",
+   "sk": "inscribe",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "flatten",
+    "applaud",
+    "divert",
+    "purchase"
+   ],
+   "d": "M",
+   "e": "Di- means “aside” and vert means “turn,” so to divert traffic is to turn it aside — here, around the flooded street.",
+   "id": "VR-W6-S2-Q18",
+   "k": 2,
+   "p": "",
+   "q": "Workers set out barrels to ______ traffic around the flooded street.",
+   "sk": "divert",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "forgive",
+    "dissolve",
+    "propel",
+    "measure"
+   ],
+   "d": "M",
+   "e": "Pro- means “forward” and pel means “drive,” so to propel the swimmer is to drive her forward to the far wall.",
+   "id": "VR-W6-S2-Q19",
+   "k": 2,
+   "p": "",
+   "q": "One strong kick was enough to ______ the swimmer all the way to the far wall.",
+   "sk": "propel",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "edible",
+    "grateful",
+    "portable",
+    "audible"
+   ],
+   "d": "M",
+   "e": "Aud means “hear” and -ible means “able to be,” so audible means able to be heard — which is why Dev is asked to speak up.",
+   "id": "VR-W6-S2-Q20",
+   "k": 3,
+   "p": "",
+   "q": "Ms. Reyes asked Dev to speak up, because his answer was barely ______ at the back of the room.",
+   "sk": "audible",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "measure carefully",
+    "join together",
+    "force out",
+    "praise loudly"
+   ],
+   "d": "M",
+   "e": "E- means “out” and ject means “throw,” so to eject is to throw or force something out — the opposite of joining it together.",
+   "id": "VR-W6-S3-Q01",
+   "k": 2,
+   "p": "",
+   "q": "EJECT most nearly means:",
+   "sk": "eject",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "a long journey",
+    "a quiet whisper",
+    "a small mistake",
+    "a remarkable sight"
+   ],
+   "d": "M",
+   "e": "Spect means “look,” so a spectacle is something people stop to look at — a remarkable sight, not a sound.",
+   "id": "VR-W6-S3-Q02",
+   "k": 3,
+   "p": "",
+   "q": "SPECTACLE most nearly means:",
+   "sk": "spectacle",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "a musical instrument",
+    "an author’s written text",
+    "a printed poster",
+    "a spoken speech"
+   ],
+   "d": "M",
+   "e": "Manu means “hand” and script means “write,” so a manuscript is the author’s own written text, before any printing happens.",
+   "id": "VR-W6-S3-Q03",
+   "k": 1,
+   "p": "",
+   "q": "MANUSCRIPT most nearly means:",
+   "sk": "manuscript",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "a loud cheer",
+    "a break",
+    "a warm welcome",
+    "a long delay"
+   ],
+   "d": "M",
+   "e": "Rupt means “break,” as in erupt and interrupt, so a rupture in a pipe is a break in it.",
+   "id": "VR-W6-S3-Q04",
+   "k": 1,
+   "p": "",
+   "q": "RUPTURE most nearly means:",
+   "sk": "rupture",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "turn away",
+    "sing along",
+    "count again",
+    "gather up"
+   ],
+   "d": "M",
+   "e": "A- means “away” and vert means “turn,” so you avert your eyes by turning them away.",
+   "id": "VR-W6-S3-Q05",
+   "k": 0,
+   "p": "",
+   "q": "AVERT most nearly means:",
+   "sk": "avert",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "a bad habit",
+    "a soft sound",
+    "great size",
+    "a short pause"
+   ],
+   "d": "M",
+   "e": "Magn- means “great,” as in magnify, so the magnitude of an earthquake is how great it is.",
+   "id": "VR-W6-S3-Q06",
+   "k": 2,
+   "p": "",
+   "q": "MAGNITUDE most nearly means:",
+   "sk": "magnitude",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "able to run very fast",
+    "able to lift heavy loads",
+    "able to draw neatly",
+    "able to speak smoothly"
+   ],
+   "d": "M",
+   "e": "Flu means “flow,” as in fluid, so fluent speech flows easily; the word is about talking, not about running, lifting, or drawing.",
+   "id": "VR-W6-S3-Q07",
+   "k": 3,
+   "p": "",
+   "q": "FLUENT most nearly means:",
+   "sk": "fluent",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "empty",
+    "crowded",
+    "expensive",
+    "noisy"
+   ],
+   "d": "M",
+   "e": "Vac means “empty,” as in vacuum and vacate, so a vacant seat has nobody in it — the opposite of crowded.",
+   "id": "VR-W6-S3-Q08",
+   "k": 0,
+   "p": "",
+   "q": "VACANT most nearly means:",
+   "sk": "vacant",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "preface",
+    "caption",
+    "heading",
+    "postscript"
+   ],
+   "d": "M",
+   "e": "Post- means “after” and script means “write,” so a postscript is added after the letter is finished and signed; a preface would come first instead.",
+   "id": "VR-W6-S3-Q09",
+   "k": 3,
+   "p": "",
+   "q": "She had forgotten to mention the party, so she squeezed it into a ______ after she had already signed her name.",
+   "sk": "postscript",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "assemble",
+    "extract",
+    "translate",
+    "inflate"
+   ],
+   "d": "M",
+   "e": "Ex- means “out” and tract means “pull,” so to extract the loose tooth is to pull it out.",
+   "id": "VR-W6-S3-Q10",
+   "k": 1,
+   "p": "",
+   "q": "The dentist used a small tool to ______ the loose tooth.",
+   "sk": "extract",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "borrow",
+    "gather",
+    "expel",
+    "invent"
+   ],
+   "d": "M",
+   "e": "Ex- means “out” and pel means “drive,” so to expel the spray is to drive it out of the blowhole.",
+   "id": "VR-W6-S3-Q11",
+   "k": 2,
+   "p": "",
+   "q": "The whale rose to the surface to ______ a spray of air and water.",
+   "sk": "expel",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "sharpen",
+    "transmit",
+    "decorate",
+    "swallow"
+   ],
+   "d": "M",
+   "e": "Trans- means “across” and mit means “send,” so the tower sends a signal across a hundred miles.",
+   "id": "VR-W6-S3-Q12",
+   "k": 1,
+   "p": "",
+   "q": "The radio tower can ______ a signal for a hundred miles.",
+   "sk": "transmit",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "bilingual",
+    "courteous",
+    "punctual",
+    "reliable"
+   ],
+   "d": "M",
+   "e": "Bi- means “two” and lingua means “language,” so a bilingual receptionist can speak with the Spanish-speaking families as well as the English-speaking ones; being punctual or courteous would not solve that problem.",
+   "id": "VR-W6-S3-Q13",
+   "k": 0,
+   "p": "",
+   "q": "The hospital needed a ______ receptionist, because half the families who came in spoke only Spanish.",
+   "sk": "bilingual",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "delivery truck",
+    "chimney",
+    "textbook",
+    "pedestrian"
+   ],
+   "d": "M",
+   "e": "Ped means “foot,” so a pedestrian is a person travelling on foot — exactly who a crosswalk is meant for.",
+   "id": "VR-W6-S3-Q14",
+   "k": 3,
+   "p": "",
+   "q": "The sign warns drivers to stop for any ______ in the crosswalk.",
+   "sk": "pedestrian",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "aqueduct",
+    "archway",
+    "monument",
+    "furnace"
+   ],
+   "d": "M",
+   "e": "Aqua means “water” and duct means “lead,” so an aqueduct leads water into the city, which is why the fountains could finally run.",
+   "id": "VR-W6-S3-Q15",
+   "k": 0,
+   "p": "",
+   "q": "The Romans built a stone ______ across the valley, and the city’s fountains ran for the first time.",
+   "sk": "aqueduct",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "illuminate",
+    "flatten",
+    "translate",
+    "purchase"
+   ],
+   "d": "M",
+   "e": "Lumin means “light,” as in luminous, so to illuminate the tent is to light it up.",
+   "id": "VR-W6-S3-Q16",
+   "k": 0,
+   "p": "",
+   "q": "A single lantern was enough to ______ the whole tent.",
+   "sk": "illuminate",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "postpone",
+    "borrow",
+    "surpass",
+    "describe"
+   ],
+   "d": "M",
+   "e": "Sur- means “above,” so to surpass the school record is to go beyond it — her jump was longer than the old best.",
+   "id": "VR-W6-S3-Q17",
+   "k": 2,
+   "p": "",
+   "q": "Her second jump was so long that it seemed to ______ the school record.",
+   "sk": "surpass",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "eager to give money away",
+    "born into great wealth",
+    "quick to waste money",
+    "careful with money"
+   ],
+   "d": "M",
+   "e": "Frugal describes someone who spends carefully and avoids waste, so wasting money is its opposite; being frugal says nothing about how much money a person was born with or about giving it away.",
+   "id": "VR-W7-S2-Q01",
+   "k": 3,
+   "p": "",
+   "q": "FRUGAL most nearly means:",
+   "sk": "frugal",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "quick to boast about winning",
+    "eager to ask and learn",
+    "unwilling to change plans",
+    "frightened by new places"
+   ],
+   "d": "M",
+   "e": "An inquisitive person asks questions and wants to find things out; fear, boasting, and refusing to change are different traits altogether.",
+   "id": "VR-W7-S2-Q02",
+   "k": 1,
+   "p": "",
+   "q": "INQUISITIVE most nearly means:",
+   "sk": "inquisitive",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "shy around strangers",
+    "quick to forgive",
+    "careful with details",
+    "overly proud of oneself"
+   ],
+   "d": "M",
+   "e": "Arrogant means having too high an opinion of yourself — the opposite of shy, and unrelated to forgiving or to being careful.",
+   "id": "VR-W7-S2-Q03",
+   "k": 3,
+   "p": "",
+   "q": "ARROGANT most nearly means:",
+   "sk": "arrogant",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "gentle and forgiving",
+    "strict and serious",
+    "unsure and hesitant",
+    "cheerful and chatty"
+   ],
+   "d": "M",
+   "e": "A stern teacher looks and sounds serious and expects the rules to be kept; gentleness, cheerfulness, and hesitation all point the other way.",
+   "id": "VR-W7-S2-Q04",
+   "k": 1,
+   "p": "",
+   "q": "STERN most nearly means:",
+   "sk": "stern",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "steady and hardworking",
+    "careless in a hurry",
+    "quick to give up",
+    "unwilling to share"
+   ],
+   "d": "M",
+   "e": "A diligent worker keeps at a job carefully and steadily, so giving up quickly and working carelessly are its opposites; sharing is a different trait.",
+   "id": "VR-W7-S2-Q05",
+   "k": 0,
+   "p": "",
+   "q": "DILIGENT most nearly means:",
+   "sk": "diligent",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "joking and playful",
+    "bored and distant",
+    "angry and rude",
+    "serious and sincere"
+   ],
+   "d": "M",
+   "e": "Earnest means you truly mean what you say and say it seriously, which rules out joking, rudeness, and boredom.",
+   "id": "VR-W7-S2-Q06",
+   "k": 3,
+   "p": "",
+   "q": "EARNEST most nearly means:",
+   "sk": "earnest",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "delighted by a surprise",
+    "angry at something unfair",
+    "curious about a mystery",
+    "worried about a test"
+   ],
+   "d": "M",
+   "e": "Indignant is the particular anger you feel when something is unjust. Delight, curiosity, and worry are not anger at all.",
+   "id": "VR-W7-S2-Q07",
+   "k": 1,
+   "p": "",
+   "q": "INDIGNANT most nearly means:",
+   "sk": "indignant",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "afraid of new people",
+    "glad about others' good luck",
+    "wanting what others have",
+    "proud of your own success"
+   ],
+   "d": "M",
+   "e": "An envious person looks at what someone else has and wishes it were hers, so being glad about another's good luck is the opposite feeling; fear and pride are different feelings altogether.",
+   "id": "VR-W7-S2-Q08",
+   "k": 2,
+   "p": "",
+   "q": "ENVIOUS most nearly means:",
+   "sk": "envious",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "bored by the whole idea",
+    "calm and very careful",
+    "full of eager interest",
+    "polite but distant"
+   ],
+   "d": "M",
+   "e": "An enthusiastic helper throws herself into the job because she is genuinely excited about it, which rules out boredom, cool calm, and polite distance.",
+   "id": "VR-W7-S2-Q09",
+   "k": 2,
+   "p": "",
+   "q": "ENTHUSIASTIC most nearly means:",
+   "sk": "enthusiastic",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "friendly to strangers",
+    "willing to take chances",
+    "quick and impatient",
+    "careful to avoid risk"
+   ],
+   "d": "M",
+   "e": "A cautious driver slows down before a blind corner, so cautious is the opposite of taking chances or rushing, and it says nothing about being friendly.",
+   "id": "VR-W7-S2-Q10",
+   "k": 3,
+   "p": "",
+   "q": "CAUTIOUS most nearly means:",
+   "sk": "cautious",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "frugal",
+    "practical",
+    "thrifty",
+    "stingy"
+   ],
+   "d": "M",
+   "e": "“Hard to forgive” marks the word as criticism, and refusing a loan that would be repaid the next day costs him nothing — so the praising words thrifty, frugal, and practical (all meaning wise with money) cannot fit; only stingy, which means mean about giving, does.",
+   "id": "VR-W7-S2-Q11",
+   "k": 3,
+   "p": "",
+   "q": "Even after his cousins offered to pay him back the next day, Marcus refused to lend a single dollar, and the family found his ______ behavior hard to forgive.",
+   "sk": "stingy",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "sly",
+    "honest",
+    "puzzled",
+    "gracious"
+   ],
+   "d": "M",
+   "e": "The grin that gives him away shows he got the cupcake by quiet trickery, which is what sly means; honest is the opposite, gracious describes warm manners, and someone who is puzzled has not just pulled off a trick.",
+   "id": "VR-W7-S2-Q12",
+   "k": 0,
+   "p": "",
+   "q": "Nobody saw who took the last cupcake, but the ______ grin Rico wore when the empty plate was found told everyone exactly who had.",
+   "sk": "sly",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "reckless",
+    "boastful",
+    "grand",
+    "modest"
+   ],
+   "d": "M",
+   "e": "Claiming only an extra hour rather than changing the world keeps her claims small and unexaggerated, which is what modest means here; boastful and grand describe exactly the big claims she avoids, and her careful wording is the opposite of reckless.",
+   "id": "VR-W7-S2-Q13",
+   "k": 3,
+   "p": "",
+   "q": "The inventor's claims were ______: she said the new battery might last an hour longer, not that it would change the world.",
+   "sk": "modest",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "popular",
+    "loyal",
+    "boastful",
+    "impatient"
+   ],
+   "d": "M",
+   "e": "Standing by a friend when everyone else turns away is faithfulness, which is what loyal means; the sentence is not about bragging, about being liked by the crowd, or about running out of patience.",
+   "id": "VR-W7-S2-Q14",
+   "k": 1,
+   "p": "",
+   "q": "When the rest of the team stopped speaking to Priya after the missed penalty, Dana walked home with her as she always had; nobody who knew Dana was surprised at how ______ she was.",
+   "sk": "loyal",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "gentle",
+    "vague",
+    "tactful",
+    "blunt"
+   ],
+   "d": "M",
+   "e": "“Stung” rules out gentle and tactful, and the quoted remark names two specific faults, which rules out vague; blunt means honest in a way that spares no feelings.",
+   "id": "VR-W7-S2-Q15",
+   "k": 3,
+   "p": "",
+   "q": "His advice was accurate but so ______ that it stung: “Your essay is dull, and you never checked the spelling.”",
+   "sk": "blunt",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "puzzled",
+    "indifferent",
+    "grateful",
+    "annoyed"
+   ],
+   "d": "M",
+   "e": "Making a card and clapping for someone who drove two hours unasked is a show of thanks, which is what grateful means; annoyance and indifference would show no thanks at all, and nothing about the drive puzzles them.",
+   "id": "VR-W7-S2-Q16",
+   "k": 2,
+   "p": "",
+   "q": "Nobody had asked Mr. Odile to drive two hours with the costumes the cast had forgotten, and the cast was so ______ that they made him a card and clapped when he walked in.",
+   "sk": "grateful",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "playful",
+    "solemn",
+    "casual",
+    "festive"
+   ],
+   "d": "M",
+   "e": "A minute of silence that makes small children go still is grave and dignified, which rules out festive, playful, and casual.",
+   "id": "VR-W7-S2-Q17",
+   "k": 1,
+   "p": "",
+   "q": "The assembly opened with a ______ minute of silence for the school's founder, and even the youngest students stopped fidgeting.",
+   "sk": "solemn",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "indifferent",
+    "severe",
+    "mocking",
+    "sympathetic"
+   ],
+   "d": "M",
+   "e": "“Feeling understood rather than scolded” rules out severe and mocking, and indifference would leave him feeling nothing; sympathetic means sharing in how someone else feels.",
+   "id": "VR-W7-S2-Q18",
+   "k": 3,
+   "p": "",
+   "q": "Ms. Ortiz did not excuse the late homework, but her voice was so ______ that Danny came away feeling understood rather than scolded.",
+   "sk": "sympathetic",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "nostalgic",
+    "impatient",
+    "anxious",
+    "bitter"
+   ],
+   "d": "M",
+   "e": "She is smiling and speaking fondly of what she misses, which rules out bitter and anxious; nothing is being waited for, so not impatient. Nostalgic is exactly this fond longing for the past.",
+   "id": "VR-W7-S2-Q19",
+   "k": 0,
+   "p": "",
+   "q": "The box of old camp photographs left Grandma smiling and ______, saying again and again how much she missed those summers by the lake.",
+   "sk": "nostalgic",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "cheerful",
+    "weary",
+    "playful",
+    "alarmed"
+   ],
+   "d": "M",
+   "e": "Falling silent and mumbling at the end of a long hike shows worn-out tiredness, which is what weary means; a cheerful or playful hiker would still be talking, and nothing on the trail has alarmed her.",
+   "id": "VR-W7-S2-Q20",
+   "k": 1,
+   "p": "",
+   "q": "By the last mile of the hike Ana had stopped chattering altogether, and her answers came out in a ______ mumble.",
+   "sk": "weary",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "always praising oneself",
+    "always complaining about others",
+    "very generous with money",
+    "easily frightened by noise"
+   ],
+   "d": "M",
+   "e": "A boastful person keeps announcing how good he is; complaining, fear, and generosity are unrelated traits.",
+   "id": "VR-W7-S3-Q01",
+   "k": 0,
+   "p": "",
+   "q": "BOASTFUL most nearly means:",
+   "sk": "boastful",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "wildly funny",
+    "confused by simple things",
+    "warm and polite",
+    "coldly rude"
+   ],
+   "d": "M",
+   "e": "Gracious describes warm good manners, the direct opposite of coldly rude, and it has nothing to do with confusion or humor.",
+   "id": "VR-W7-S3-Q02",
+   "k": 2,
+   "p": "",
+   "q": "GRACIOUS most nearly means:",
+   "sk": "gracious",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "bitter about unfair treatment",
+    "eager to begin a task",
+    "grateful for someone's kindness",
+    "puzzled by a new rule"
+   ],
+   "d": "M",
+   "e": "Resentful is the sour anger left behind by treatment you think was unfair; gratitude is its opposite, and eagerness and puzzlement are not anger.",
+   "id": "VR-W7-S3-Q03",
+   "k": 0,
+   "p": "",
+   "q": "RESENTFUL most nearly means:",
+   "sk": "resentful",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "extremely funny",
+    "quietly sad",
+    "wide awake",
+    "full of energy"
+   ],
+   "d": "M",
+   "e": "Melancholy is a low, lingering sadness, so humor, energy, and alertness all miss it.",
+   "id": "VR-W7-S3-Q04",
+   "k": 1,
+   "p": "",
+   "q": "MELANCHOLY most nearly means:",
+   "sk": "melancholy",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "warm and welcoming",
+    "silly and light",
+    "bright and hopeful",
+    "harsh and gloomy"
+   ],
+   "d": "M",
+   "e": "Grim describes something stern and cheerless; hopeful, silly, and welcoming are all the opposite in feeling.",
+   "id": "VR-W7-S3-Q05",
+   "k": 3,
+   "p": "",
+   "q": "GRIM most nearly means:",
+   "sk": "grim",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "sorry for a fault",
+    "proud of a win",
+    "curious about a plan",
+    "angry at a rule"
+   ],
+   "d": "M",
+   "e": "Apologetic means showing that you regret something you did; pride, anger, and curiosity carry no regret.",
+   "id": "VR-W7-S3-Q06",
+   "k": 0,
+   "p": "",
+   "q": "APOLOGETIC most nearly means:",
+   "sk": "apologetic",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "looking down on others",
+    "eager to help",
+    "full of admiration for someone",
+    "unsure of the answer"
+   ],
+   "d": "M",
+   "e": "Scorn is contempt, so scornful means treating something as beneath you — the opposite of admiring, and unrelated to helpfulness or uncertainty.",
+   "id": "VR-W7-S3-Q07",
+   "k": 0,
+   "p": "",
+   "q": "SCORNFUL most nearly means:",
+   "sk": "scornful",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "easily amused",
+    "deeply grateful",
+    "boldly refusing to obey",
+    "quietly obedient at all times"
+   ],
+   "d": "M",
+   "e": "Defiant means openly standing against an order, the opposite of obedient; amusement and gratitude are different feelings entirely.",
+   "id": "VR-W7-S3-Q08",
+   "k": 2,
+   "p": "",
+   "q": "DEFIANT most nearly means:",
+   "sk": "defiant",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "timid",
+    "smug",
+    "indifferent",
+    "humble"
+   ],
+   "d": "M",
+   "e": "She insists on sharing the credit, which rules out smug, and insisting aloud is not timid; she plainly cares, so not indifferent. Humble means not thinking too highly of yourself.",
+   "id": "VR-W7-S3-Q09",
+   "k": 3,
+   "p": "",
+   "q": "Though the whole town praised her invention, Maya stayed ______, insisting that her science teacher deserved as much credit as she did.",
+   "sk": "humble",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "gracious",
+    "smug",
+    "anxious",
+    "apologetic"
+   ],
+   "d": "M",
+   "e": "Reminding everyone “yet again” of his own correct prediction is self-satisfied, not gracious; he is neither sorry (apologetic) nor worried (anxious) after winning.",
+   "id": "VR-W7-S3-Q10",
+   "k": 1,
+   "p": "",
+   "q": "After the win, Trent's grin was ______, and he reminded everyone yet again that he had predicted the score exactly.",
+   "sk": "smug",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "obedient",
+    "vicious",
+    "mischievous",
+    "timid"
+   ],
+   "d": "M",
+   "e": "Knocking pencils down harms nobody, so vicious (cruel) is far too strong; she is causing trouble, so not obedient, and darting off tail-high is not timid. Mischievous means playfully naughty.",
+   "id": "VR-W7-S3-Q11",
+   "k": 2,
+   "p": "",
+   "q": "The kitten's ______ streak showed the moment she batted every pencil off the desk and darted away with her tail high.",
+   "sk": "mischievous",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "gloomy",
+    "furious",
+    "optimistic",
+    "uncertain"
+   ],
+   "d": "M",
+   "e": "He encourages the team, which rules out gloomy and furious, and “still theirs for the taking” shows he is sure rather than uncertain; optimistic means expecting things to turn out well.",
+   "id": "VR-W7-S3-Q12",
+   "k": 2,
+   "p": "",
+   "q": "Two goals behind at half time, Coach stayed ______, telling the players the comeback was still theirs for the taking.",
+   "sk": "optimistic",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "relieved",
+    "disappointed",
+    "alarmed",
+    "annoyed"
+   ],
+   "d": "M",
+   "e": "Seeing his name after expecting the worst lifts a weight off him, which is what relieved means; alarm, annoyance, and disappointment would all follow bad news, not good.",
+   "id": "VR-W7-S3-Q13",
+   "k": 0,
+   "p": "",
+   "q": "Ravi had been certain he had failed the audition, so when the cast list went up with his name on it, he sat down on the steps looking utterly ______.",
+   "sk": "relieved",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "blunt",
+    "boastful",
+    "rude",
+    "tactful"
+   ],
+   "d": "M",
+   "e": "“Rather than saying it was ugly” and the praise that comes first rule out blunt and rude, and she says nothing about herself, so not boastful; tactful means honest without wounding.",
+   "id": "VR-W7-S3-Q14",
+   "k": 3,
+   "p": "",
+   "q": "Rather than saying the painting was ugly, Nina gave a ______ reply, praising its colors before suggesting one change.",
+   "sk": "tactful",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "affectionate",
+    "hostile",
+    "indifferent",
+    "fearful"
+   ],
+   "d": "M",
+   "e": "He seeks Nora out for petting, so he is not indifferent, and resting his head in her lap shows trust, which rules out hostile and fearful; affectionate means showing fondness.",
+   "id": "VR-W7-S3-Q15",
+   "k": 0,
+   "p": "",
+   "q": "The old dog was ______, nudging Nora's hand until she petted him and then settling his head in her lap.",
+   "sk": "affectionate",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "anxious",
+    "relaxed",
+    "bored",
+    "delighted"
+   ],
+   "d": "M",
+   "e": "Being “certain the news would be bad” is worry, not boredom, and the sleeve-chewing and clock-watching rule out relaxed and delighted; anxious means uneasy about what is coming.",
+   "id": "VR-W7-S3-Q16",
+   "k": 0,
+   "p": "",
+   "q": "With the results due any minute, Dev chewed his sleeve and kept checking the clock; he was plainly ______, certain the news would be bad.",
+   "sk": "anxious",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "neutral",
+    "cheerful",
+    "critical",
+    "admiring"
+   ],
+   "d": "M",
+   "e": "Listing every flaw and praising almost nothing rules out admiring and cheerful, and the word “sharply” rules out neutral; critical here means fault-finding.",
+   "id": "VR-W7-S3-Q17",
+   "k": 2,
+   "p": "",
+   "q": "The review was sharply ______, listing every flaw in the play and praising almost nothing.",
+   "sk": "critical",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "the power to decide for yourself",
+    "a loud and public complaint",
+    "a rule that must always be followed",
+    "a careful written record"
+   ],
+   "d": "M",
+   "e": "When a trip is “left to the principal's discretion,” she has the power to decide; a rule that must be followed is the opposite of leaving a choice to someone.",
+   "id": "VR-W8-S2-Q01",
+   "k": 0,
+   "p": "",
+   "q": "DISCRETION most nearly means:",
+   "sk": "discretion",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "agreed to by every single member",
+    "decided by one person in charge",
+    "put off until a later meeting",
+    "kept secret from every member"
+   ],
+   "d": "M",
+   "e": "A unanimous vote is one in which everyone agrees. The look-alike word is anonymous, which means the name is not known.",
+   "id": "VR-W8-S2-Q02",
+   "k": 0,
+   "p": "",
+   "q": "UNANIMOUS most nearly means:",
+   "sk": "unanimous",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "extremely careful about details",
+    "kept carefully out of sight",
+    "easy to notice right away",
+    "acting in a sneaky, guilty way"
+   ],
+   "d": "M",
+   "e": "A conspicuous stain is one everyone sees at once. Suspicious (sneaky) and conscientious (careful) are the two look-alike words that do not mean the same thing.",
+   "id": "VR-W8-S2-Q03",
+   "k": 2,
+   "p": "",
+   "q": "CONSPICUOUS most nearly means:",
+   "sk": "conspicuous",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "gentle and not harmful",
+    "large and very heavy",
+    "quick and noisy",
+    "sharply critical of others"
+   ],
+   "d": "M",
+   "e": "A benign remark or a benign old dog does no harm; none of the other choices carries the idea of harmlessness.",
+   "id": "VR-W8-S2-Q04",
+   "k": 0,
+   "p": "",
+   "q": "BENIGN most nearly means:",
+   "sk": "benign",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "a hard spot to get out of",
+    "a promise made in front of a crowd",
+    "a guess about what will happen next",
+    "a long delay before an event"
+   ],
+   "d": "M",
+   "e": "Being locked out in the rain with no phone is a predicament — a situation you cannot easily escape. The look-alike word is prediction, a guess about the future.",
+   "id": "VR-W8-S2-Q05",
+   "k": 0,
+   "p": "",
+   "q": "PREDICAMENT most nearly means:",
+   "sk": "predicament",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "to remind someone of a chore",
+    "to apologize for a mistake",
+    "to plan carefully for next year",
+    "to talk fondly about times gone by"
+   ],
+   "d": "M",
+   "e": "To reminisce is to look back and share memories, the way grandparents do about their childhood; reminding, apologizing, and planning all point at the present or future.",
+   "id": "VR-W8-S2-Q06",
+   "k": 3,
+   "p": "",
+   "q": "REMINISCE most nearly means:",
+   "sk": "reminisce",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "to get smaller little by little",
+    "to break apart suddenly",
+    "to stay exactly the same",
+    "to grow larger and brighter"
+   ],
+   "d": "M",
+   "e": "Interest that wanes fades bit by bit, the way a waning moon shrinks each night; its partner word wax means to grow.",
+   "id": "VR-W8-S2-Q07",
+   "k": 0,
+   "p": "",
+   "q": "WANE most nearly means:",
+   "sk": "wane",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "spoken in a very loud voice",
+    "having to do with books and authors",
+    "taking words in their exact meaning",
+    "full of colorful comparisons"
+   ],
+   "d": "M",
+   "e": "The literal meaning of “raining cats and dogs” would be actual animals falling from the sky. Literary, the look-alike word, is about books.",
+   "id": "VR-W8-S2-Q08",
+   "k": 2,
+   "p": "",
+   "q": "LITERAL most nearly means:",
+   "sk": "literal",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "lower in rank or importance",
+    "in charge of everyone else",
+    "exactly equal in rank",
+    "needed more than anything else"
+   ],
+   "d": "M",
+   "e": "In “cost was a subordinate concern,” cost mattered less than the main issue; something subordinate ranks below, never above or equal.",
+   "id": "VR-W8-S2-Q09",
+   "k": 0,
+   "p": "",
+   "q": "SUBORDINATE most nearly means:",
+   "sk": "subordinate",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "used only one time",
+    "packed into a small space",
+    "made of very soft material",
+    "spread out over a wide area"
+   ],
+   "d": "M",
+   "e": "A compact kitchen fits everything into a small area; compact says nothing about softness, single use, or wide spread.",
+   "id": "VR-W8-S2-Q10",
+   "k": 1,
+   "p": "",
+   "q": "COMPACT most nearly means:",
+   "sk": "compact",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "trace",
+    "sanctuary",
+    "capital",
+    "conflict"
+   ],
+   "d": "M",
+   "e": "Capital is the money and resources needed to start or run a business, which is exactly what the ovens, rent, and flour require.",
+   "id": "VR-W8-S2-Q11",
+   "k": 2,
+   "p": "",
+   "q": "Starting a bakery takes more ______ than most people expect: ovens, rent, and flour must all be paid for before the first loaf is sold.",
+   "sk": "capital",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "volume",
+    "discipline",
+    "stock",
+    "content"
+   ],
+   "d": "M",
+   "e": "Here content means what is inside the essay — the ideas and the evidence — rather than how much was written (volume); this is a different meaning from “content with her meal,” which means satisfied.",
+   "id": "VR-W8-S2-Q12",
+   "k": 3,
+   "p": "",
+   "q": "Mr. Alvarez graded the ______ of each essay — the ideas and the evidence — rather than the neatness of the handwriting.",
+   "sk": "content",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "riddle",
+    "rumor",
+    "term",
+    "custom"
+   ],
+   "d": "M",
+   "e": "A term is a word or expression used for something — a different meaning from a school term or the terms of a contract.",
+   "id": "VR-W8-S2-Q13",
+   "k": 2,
+   "p": "",
+   "q": "Our science teacher wrote the ______ “habitat” on the board and asked us to explain what it names.",
+   "sk": "term",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "volume",
+    "verdict",
+    "sanctuary",
+    "stock"
+   ],
+   "d": "M",
+   "e": "A volume is one book of a set; “the one covering A through C” rules out the loudness and the amount meanings.",
+   "id": "VR-W8-S2-Q14",
+   "k": 0,
+   "p": "",
+   "q": "Grandma keeps the first ______ of the old encyclopedia, the one covering A through C, beside her chair.",
+   "sk": "volume",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "suspended",
+    "eradicated",
+    "refused",
+    "rendered"
+   ],
+   "d": "M",
+   "e": "To render assistance is to give it, which is exactly what delivering water and blankets describes; refusing or suspending help would mean the opposite, and to eradicate something is to wipe it out completely.",
+   "id": "VR-W8-S2-Q15",
+   "k": 3,
+   "p": "",
+   "q": "When the storm knocked out the power, the fire department ______ assistance to every family on the block, delivering water and blankets before midnight.",
+   "sk": "render",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "warning",
+    "custom",
+    "verdict",
+    "grant"
+   ],
+   "d": "M",
+   "e": "A grant is a sum of money given for a purpose; “used the money” shows this is the noun, not the verb “to grant permission.”",
+   "id": "VR-W8-S2-Q16",
+   "k": 3,
+   "p": "",
+   "q": "The museum applied for a ______ from the city and used the money to repair its leaking roof.",
+   "sk": "grant",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "charter",
+    "stifle",
+    "eradicate",
+    "suspect"
+   ],
+   "d": "M",
+   "e": "To charter a boat or a bus is to hire it for private use — the verb sense, not the city charter that is a founding document.",
+   "id": "VR-W8-S2-Q17",
+   "k": 0,
+   "p": "",
+   "q": "Because no ferry ran on Sundays, the team had to ______ a boat to reach the island for the tournament.",
+   "sk": "charter",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "retaliate",
+    "cultivate",
+    "strive",
+    "decline"
+   ],
+   "d": "M",
+   "e": "The numbers fall from 400 to 50, so decline here means to go steadily down, not to turn down an invitation.",
+   "id": "VR-W8-S2-Q18",
+   "k": 3,
+   "p": "",
+   "q": "Ticket sales began to ______ in the third week, dropping from four hundred a night to barely fifty.",
+   "sk": "decline",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "domestic",
+    "tender",
+    "tangible",
+    "restless"
+   ],
+   "d": "M",
+   "e": "Tender here means gentle and kind, which is what calms the kitten; the sore-to-the-touch meaning of tender would not describe a voice.",
+   "id": "VR-W8-S2-Q19",
+   "k": 1,
+   "p": "",
+   "q": "The vet spoke in a ______ voice and moved slowly, and the frightened kitten stopped shaking.",
+   "sk": "tender",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "trace",
+    "static",
+    "conflict",
+    "rust"
+   ],
+   "d": "M",
+   "e": "Static is the crackling noise that blocks a radio signal — a noun, and a different meaning from static as “not changing.”",
+   "id": "VR-W8-S2-Q20",
+   "k": 1,
+   "p": "",
+   "q": "The old radio crackled with so much ______ that we could not make out a single word of the weather report.",
+   "sk": "static",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "to repair something with care",
+    "to take unfair advantage of someone",
+    "to praise someone in public",
+    "to hand something over willingly"
+   ],
+   "d": "M",
+   "e": "An employer who exploits workers profits from them by paying unfairly; praising, repairing, and handing over involve no unfair use.",
+   "id": "VR-W8-S3-Q01",
+   "k": 1,
+   "p": "",
+   "q": "EXPLOIT most nearly means:",
+   "sk": "exploit",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "to wait for someone else to act",
+    "to wander with no plan",
+    "to try hard over a long time",
+    "to give up quickly"
+   ],
+   "d": "M",
+   "e": "To strive for a goal is to keep making real effort toward it; each of the other choices describes not making that effort.",
+   "id": "VR-W8-S3-Q02",
+   "k": 2,
+   "p": "",
+   "q": "STRIVE most nearly means:",
+   "sk": "strive",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "a sudden burst of anger",
+    "a talent a person is born with",
+    "training that builds self-control",
+    "a piece of unexpected good luck"
+   ],
+   "d": "M",
+   "e": "The discipline to practice every day is trained control over your own behavior, not a mood, a natural gift, or luck.",
+   "id": "VR-W8-S3-Q03",
+   "k": 2,
+   "p": "",
+   "q": "DISCIPLINE most nearly means:",
+   "sk": "discipline",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "full of spirit and fight",
+    "shy and easily frightened",
+    "polite and quiet in a crowd",
+    "slow and always sleepy"
+   ],
+   "d": "M",
+   "e": "A feisty puppy barks boldly at a much larger dog — full of spirit and unwilling to back down.",
+   "id": "VR-W8-S3-Q04",
+   "k": 0,
+   "p": "",
+   "q": "FEISTY most nearly means:",
+   "sk": "feisty",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "done by a large group",
+    "done again from the start",
+    "done very carefully",
+    "done without delay"
+   ],
+   "d": "M",
+   "e": "A prompt reply arrives right away, so prompt is about speed; care, repetition, and group size are different ideas.",
+   "id": "VR-W8-S3-Q05",
+   "k": 3,
+   "p": "",
+   "q": "PROMPT most nearly means:",
+   "sk": "prompt",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "to grow and care for over time",
+    "to cut down and clear away",
+    "to copy exactly",
+    "to buy in large amounts"
+   ],
+   "d": "M",
+   "e": "Farmers cultivate crops and people cultivate friendships — both mean tending something so it develops; cutting down is closer to the opposite.",
+   "id": "VR-W8-S3-Q06",
+   "k": 0,
+   "p": "",
+   "q": "CULTIVATE most nearly means:",
+   "sk": "cultivate",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "coming from a far-off place",
+    "living wild in the forest",
+    "built a very long time ago",
+    "having to do with the home"
+   ],
+   "d": "M",
+   "e": "Domestic chores are household chores and a domestic animal is one kept at home; the other choices all point away from the home.",
+   "id": "VR-W8-S3-Q07",
+   "k": 3,
+   "p": "",
+   "q": "DOMESTIC most nearly means:",
+   "sk": "domestic",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "to strike back after being harmed",
+    "to move away from danger",
+    "to go back and fetch something",
+    "to say sorry and make peace"
+   ],
+   "d": "M",
+   "e": "A team that trips a player after being tripped retaliates. Retrieve (fetch) and retreat (pull back) are the look-alike words.",
+   "id": "VR-W8-S3-Q08",
+   "k": 0,
+   "p": "",
+   "q": "RETALIATE most nearly means:",
+   "sk": "retaliate",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "whimsical",
+    "literal",
+    "subordinate",
+    "resolute"
+   ],
+   "d": "M",
+   "e": "“Trained every morning anyway” shows she held firmly to her purpose, which is what resolute means; the other three say nothing about determination.",
+   "id": "VR-W8-S3-Q09",
+   "k": 3,
+   "p": "",
+   "q": "Two coaches told Nadia the record was out of reach, but she remained ______ and trained every morning anyway.",
+   "sk": "resolute",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "unanimous",
+    "tangible",
+    "remote",
+    "benign"
+   ],
+   "d": "M",
+   "e": "Tangible proof is solid evidence you can touch or point to, which is exactly what the missing photograph and footprint would have been.",
+   "id": "VR-W8-S3-Q10",
+   "k": 1,
+   "p": "",
+   "q": "The class had plenty of theories about the missing mascot but no ______ proof — no photograph, no footprint, nothing they could point to.",
+   "sk": "tangible",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "exploit",
+    "measure",
+    "cultivate",
+    "stifle"
+   ],
+   "d": "M",
+   "e": "To stifle something is to smother or hold it back, and a rule that punishes every mistake crushes the curiosity the teacher wants; cultivating curiosity would grow it instead, exploiting means using something unfairly for your own gain, and nothing here is being measured.",
+   "id": "VR-W8-S3-Q11",
+   "k": 3,
+   "p": "",
+   "q": "A classroom rule that punishes every mistake can ______ the very curiosity the teacher hopes to build.",
+   "sk": "stifle",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "treacherous",
+    "compact",
+    "conspicuous",
+    "literal"
+   ],
+   "d": "M",
+   "e": "Treacherous here means disloyal — betraying the trust placed in him — a different sense from a treacherous mountain road. Conspicuous is ruled out by “quietly.”",
+   "id": "VR-W8-S3-Q12",
+   "k": 0,
+   "p": "",
+   "q": "The general finally learned that his most trusted messenger had been ______ all along, quietly carrying the battle plans to the enemy.",
+   "sk": "treacherous",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "static",
+    "unanimous",
+    "dubious",
+    "compact"
+   ],
+   "d": "M",
+   "e": "Something dubious is doubtful and not to be trusted, which is how an offer that seems too good to be true sounds; the other three say nothing about doubt.",
+   "id": "VR-W8-S3-Q13",
+   "k": 2,
+   "p": "",
+   "q": "The offer sounded ______ to Mom: a free bicycle for anyone who simply forwarded the message to ten friends.",
+   "sk": "dubious",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "extend",
+    "suspend",
+    "announce",
+    "repeat"
+   ],
+   "d": "M",
+   "e": "To suspend something is to stop it for a while, which is what umpires do when lightning arrives; extending, announcing, or repeating the game would all keep it going. Suspend can also mean to hang something up.",
+   "id": "VR-W8-S3-Q14",
+   "k": 1,
+   "p": "",
+   "q": "The umpires had to ______ the game in the fourth inning, and both teams waited under the bleachers until the lightning had passed.",
+   "sk": "suspend",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "boundary",
+    "laboratory",
+    "predicament",
+    "sanctuary"
+   ],
+   "d": "M",
+   "e": "A sanctuary is a safe place where something is protected, which is what a refuge for hurt birds is; a laboratory is for experiments, a boundary is a line, and a predicament is a situation rather than a place.",
+   "id": "VR-W8-S3-Q15",
+   "k": 3,
+   "p": "",
+   "q": "The injured owl was carried to a bird ______ outside town, where volunteers fed it by hand until it was strong enough to hunt again.",
+   "sk": "sanctuary",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "verdict",
+    "trace",
+    "volume",
+    "custom"
+   ],
+   "d": "M",
+   "e": "A trace is the tiny amount left behind, so “not a trace” means none at all, which fits grass that is green and dry from end to end. Trace can also mean to copy a drawing through thin paper.",
+   "id": "VR-W8-S3-Q16",
+   "k": 1,
+   "p": "",
+   "q": "By noon there was not a ______ of snow left on the field; the grass was green and dry from one end to the other.",
+   "sk": "trace",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "forget",
+    "announce",
+    "guarantee",
+    "suspect"
+   ],
+   "d": "M",
+   "e": "To suspect is to start believing something is true before you have proof, which is what the missing sandwiches lead Dad to think about the puppy; he is not telling anyone, he is far from certain, and he plainly has not forgotten.",
+   "id": "VR-W8-S3-Q17",
+   "k": 3,
+   "p": "",
+   "q": "After the third sandwich went missing from the counter, Dad began to ______ that the new puppy was not as innocent as she looked.",
+   "sk": "suspect",
+   "w": "W8"
+  }
+ ],
+ "label": "Verbal reasoning",
+ "passages": {}
+}

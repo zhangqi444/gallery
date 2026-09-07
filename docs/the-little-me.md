@@ -62,13 +62,31 @@ app already uses: Service stores `orgId`, `workItemId`, `activity`, `hours` and
 `at` exactly as volunteer does, so an import is close to a copy rather than a
 translation. Both old apps keep running in the meantime.
 
+## The content is split by topic
+
+The app this content came from compiled everything into one 689 kB bundle
+fetched at boot. Nothing needs all of it at once, so `site/make_learning.py`
+writes an index and a file per topic instead:
+
+| File | Size | Fetched when |
+|---|---|---|
+| `index.json` | 27 kB | Learning opens |
+| `subject-<id>.json` | 65-112 kB | that subject is chosen |
+| `mock-<id>.json` | 50-63 kB | that mock is started |
+| `precision.json`, `essay.json` | 79 kB, 23 kB | those are opened |
+
+Opening Learning fetches 27 kB rather than 689 kB, and the splitter fails the
+build if the index ever grows past 60 kB — the limit is enforced, not intended.
+`test_drive.cjs` records every request for `content/learning/` and asserts that
+choosing a subject fetches that subject and nothing else.
+
 ## Order of work
 
 1. ~~The shared core, tested on its own~~ — `lib/google.js`, `lib/session.js`, `lib/module-store.js`, with `test_drive.cjs` over them.
 2. ~~The shell~~ — one sign-in, the module bar, a home in the first person.
 3. ~~Gallery~~ — moved into `src/modules/gallery/`, the first module on the shared store.
 4. ~~Service~~ — organisations, commitments and hours, on the shared store, in `src/modules/service/`.
-5. **Learning**, from isee: four subjects, 36 passages, essays, mocks, precision, books, rewards. Its content bundle is 580 kB and must stay behind the module's dynamic import.
+5. ~~Learning~~ — four subjects and the practice loop, in `src/modules/learning/`. Essays, mocks, precision and rewards are still to come; their content is already split and waiting.
 6. **Import**, later: volunteer's export, and isee's `progress.json` as downloaded from Drive.
 7. **Cut over** — run the old apps and the new one side by side, then point the domains.
 

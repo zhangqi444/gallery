@@ -1,0 +1,79 @@
+{
+ "bank": "rc-september",
+ "schema_version": "1.0",
+ "content_version": "2026.08.31",
+ "items": [
+  {
+   "id": "RC-SEP-W1-S1-P",
+   "week": "W1",
+   "session": "S1",
+   "text": "A vacant city lot had collected litter for years. When neighbors proposed a community garden, some residents doubted that vegetables could grow beside tall buildings. Volunteers tested the soil, built raised beds, and placed barrels beneath roof drains to collect rainwater. By midsummer, tomatoes climbed wooden supports and bees visited bright flowers. The garden produced food, but its larger success was social: people who had barely nodded to one another began trading recipes, sharing tools, and planning Saturday lessons for children. The lot had not simply become greener. It had become a place where neighbors had a reason to work together.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "RC-SEP-W1-S2-P",
+   "week": "W1",
+   "session": "S2",
+   "text": "Before radio, ships relied on flags, bells, lamps, and careful observation. A flag could communicate a standard message during daylight, while lamps extended signaling into darkness. Fog, heavy rain, and long distances could still interrupt communication. To reduce confusion, crews learned codes in which a small pattern of colors or flashes carried a particular meaning. A captain who saw a certain lamp pattern did not need to guess; both ships had agreed in advance on what the pattern meant. Modern satellite communication is much faster, yet it depends on the same basic rule: a sender and a receiver must share a system for turning signals into information.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "RC-SEP-W2-S1-P",
+   "week": "W2",
+   "session": "S1",
+   "text": "An owl approaching prey makes remarkably little noise. The leading edges of its wing feathers have soft fringes that break moving air into smaller currents. A velvety surface absorbs some sound as the wings move. Quiet flight gives the owl two advantages: it can hear faint rustling below, and its prey receives less warning. This adaptation has a tradeoff. The specialized feathers help the owl move silently, but they are not designed for the high-speed flight of a falcon. In nature, a feature that is helpful in one situation may limit an animal in another.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "RC-SEP-W2-S2-P",
+   "week": "W2",
+   "session": "S2",
+   "text": "A map may look like a finished picture of a place, but it represents many choices. Cartographers decide what to include, what to simplify, and how to show a curved Earth on a flat surface. Every projection changes something: shape, area, distance, or direction. That fact does not make maps useless. It means that a useful map depends on its purpose. A subway map may bend a route or leave out streets so passengers can follow stations easily. A navigation chart, in contrast, gives careful attention to position, water depth, and hazards. Readers should not ask whether a map is perfectly exact in every way; they should ask whether it helps them do the job for which it was made.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "RC-SEP-W3-S1-P",
+   "week": "W3",
+   "session": "S1",
+   "text": "After a storm damaged the town library, volunteers moved wet books into a dry school gym. They separated pages with absorbent paper, labeled boxes, and recorded each title before deciding what could be saved. Some books were too damaged to return, but the inventory helped the library identify essential works to replace. Months later, the repaired building had higher shelves and waterproof storage bins. The library's director called these changes “memory with a purpose.” The phrase meant that the town had not forgotten the storm; it had used what it learned to prepare for future trouble. Recovery, the passage suggests, is more than restoring what was lost. It can also mean building a wiser version of what remains.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "RC-SEP-W3-S2-P",
+   "week": "W3",
+   "session": "S2",
+   "text": "Mara expected her model bridge to hold ten kilograms, but it bent under six. Instead of hiding the result, she measured where the supports had shifted and compared the two sides. One joint had been glued at a slight angle. Mara changed that joint and tested a second bridge. It held eleven kilograms. Her first trial did not prove that her idea was useless; it revealed which part of the design needed attention. By treating an unexpected result as information, Mara turned a disappointment into a better experiment.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "RC-SEP-W4-S1-P",
+   "week": "W4",
+   "session": "S1",
+   "text": "Some desert plants complete most of their life cycle soon after rain. Their seeds may remain dormant for months or years beneath dry soil. Tough outer coats help protect the seeds and prevent them from sprouting after only a trace of moisture. When a substantial storm soaks the ground, the seeds germinate quickly. Leaves and flowers appear, and new seeds form before the soil dries again. This schedule may seem like waiting, but it is an active survival strategy shaped by an unpredictable environment. A seed that sprouted after every small drizzle would risk using its stored energy before conditions could support a full plant.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  },
+  {
+   "id": "RC-SEP-W4-S2-P",
+   "week": "W4",
+   "session": "S2",
+   "text": "The student council considered moving lunch twenty minutes later. Athletes supported the change because early practice often made them hungry before noon. Music students worried that the new schedule would shorten rehearsal. Rather than vote immediately, the council collected attendance data, interviewed teachers, and tested the proposed schedule for one week. The trial showed that cafeteria lines stayed manageable, but several music groups lost needed setup time. The council then adjusted the plan by moving one rehearsal period on two days. The process did not erase disagreement. It did, however, replace guesses with evidence and led to a compromise that addressed more than one group's concern.",
+   "source": "Original content authored for Sheila ISEE",
+   "schema_version": "1.0",
+   "content_version": "2026.08.31"
+  }
+ ]
+}

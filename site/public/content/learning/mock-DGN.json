@@ -1,0 +1,2061 @@
+{
+ "id": "DGN",
+ "passages": {
+  "DGN-RC-P01": {
+   "t": "Borrowing from Barnacles",
+   "x": "Engineers often search for ideas in places that do not look like laboratories. One team studied barnacles, small sea animals that fasten themselves to rocks and ship hulls. A barnacle must make its bond while surrounded by moving salt water—a setting in which ordinary glue performs poorly. Researchers examined the proteins in the animal's natural cement and noticed that some could push water away from a surface just before the bond formed. The team did not simply collect barnacle cement. Instead, it designed a new material that copied this useful action. In tests, the material joined wet surfaces more effectively than common household adhesives. A future version might help doctors close a wound without using as many stitches. The work illustrates biomimicry: studying a successful feature in nature and adapting its underlying principle to solve a human problem."
+  },
+  "DGN-RC-P02": {
+   "t": "The Extra Chime",
+   "x": "Every afternoon, Nia swept the floor of her uncle's clock-repair shop. She loved the rows of tiny gears but was allowed only to sort screws and polish cases. One rainy day, a customer returned a clock that chimed thirteen times at noon. Nia's uncle listened, frowned, and began opening the case. Nia noticed a thin lever brushing a wheel after each turn. She almost stayed silent; after all, she was only the helper. Then she pointed to a bright scratch on the lever. Her uncle adjusted it, and the clock chimed twelve times. He did not hand Nia a difficult repair. Instead, he placed a broken alarm clock beside her and asked her to describe what each part might do before touching anything. Nia understood that careful noticing had earned her a new kind of task—and that guessing quickly would not keep it."
+  },
+  "DGN-RC-P03": {
+   "t": "Messages in the Margins",
+   "x": "Centuries ago, books were copied by hand and could take months to complete. The main text usually received careful attention, but the empty margins sometimes became places for a different kind of record. A reader might correct a copying error, define an unfamiliar word, or argue with an author's claim. Later readers could respond, creating a slow conversation across years. Modern historians value these notes because they reveal not only what people read but also how they reacted. A stain beside a recipe may suggest frequent use, while repeated symbols near one paragraph may show special interest. Such evidence must be interpreted cautiously: a note's writer may be unknown, and a mark may have several explanations. Even so, the margins can turn a surviving book from a container of old words into evidence of many individual encounters with those words."
+  },
+  "DGN-RC-P04": {
+   "t": "Cooling a City Block",
+   "x": "On a sunny afternoon, a dark roof can become far hotter than the air around it. It absorbs much of the sunlight that strikes it and later releases that energy as heat. Across many buildings, this process contributes to an “urban heat island,” an area where streets and structures keep a neighborhood warmer than nearby land. Some cities are testing pale roof coatings that reflect more sunlight. In one trial, coated buildings required less air-conditioning during the hottest hours. Yet cool roofs are not a complete solution. Trees can shade sidewalks, parks can replace heat-absorbing pavement, and well-designed ventilation can reduce indoor heat. Climate, roof shape, maintenance, and winter heating needs also affect whether a coating is useful. The best plan therefore combines local measurements with several methods rather than treating one bright layer of paint as a universal answer."
+  },
+  "DGN-RC-P05": {
+   "t": "The Rest in the Music",
+   "x": "During rehearsal, the youth orchestra repeatedly lost its place in a new piece. The loudest section was not the problem. Confusion began in a measure containing three beats of silence. Several players treated the rest as a chance to stop counting, so they entered at slightly different moments. The conductor asked everyone to tap the beat while no notes sounded. At first the tapping seemed unnecessary, but the next entrance was exact. She explained that silence in music is measured, not empty. A rest can build expectation, separate two ideas, or give a melody room to breathe. The students practiced the quiet measure as carefully as the fast passages. By the end, the audience would hear no tapping, of course. What listeners would hear was the result: a confident entrance made possible by musicians who had learned to perform the silence together."
+  }
+ },
+ "sections": {
+  "all": [
+   {
+    "c": [
+     "costly",
+     "narrow",
+     "hidden",
+     "plentiful"
+    ],
+    "d": "E",
+    "e": "Abundant means existing in a large supply; the other choices describe visibility, width, or price.",
+    "id": "DGN-VR-001",
+    "k": 3,
+    "p": "",
+    "q": "ABUNDANT most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "cheerful",
+     "noisy",
+     "certain",
+     "careful"
+    ],
+    "d": "E",
+    "e": "A cautious person acts carefully to avoid danger or error; cheerful, noisy, and certain do not express care.",
+    "id": "DGN-VR-002",
+    "k": 3,
+    "p": "",
+    "q": "CAUTIOUS most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "flexible",
+     "long-lasting",
+     "colorful",
+     "unfinished"
+    ],
+    "d": "E",
+    "e": "Something durable resists wear and lasts; flexibility or color does not guarantee durability.",
+    "id": "DGN-VR-003",
+    "k": 1,
+    "p": "",
+    "q": "DURABLE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "enthusiastic",
+     "polite",
+     "patient",
+     "confused"
+    ],
+    "d": "E",
+    "e": "Eager describes strong interest or enthusiasm to act; patience can accompany eagerness but is not its meaning.",
+    "id": "DGN-VR-004",
+    "k": 0,
+    "p": "",
+    "q": "EAGER most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "unusually small",
+     "recently made",
+     "carefully packed",
+     "easily broken"
+    ],
+    "d": "M",
+    "e": "Fragile means easily damaged or broken; packing is a response to fragility, not a synonym.",
+    "id": "DGN-VR-005",
+    "k": 3,
+    "p": "",
+    "q": "FRAGILE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "stormy",
+     "crowded",
+     "sad",
+     "silent"
+    ],
+    "d": "E",
+    "e": "Gloomy can describe a sad mood; stormy may create gloom but is not equivalent in meaning.",
+    "id": "DGN-VR-006",
+    "k": 2,
+    "p": "",
+    "q": "GLOOMY most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "repair",
+     "obstruct",
+     "request",
+     "observe"
+    ],
+    "d": "M",
+    "e": "To hinder is to slow or obstruct progress; the other verbs do not express interference.",
+    "id": "DGN-VR-007",
+    "k": 1,
+    "p": "",
+    "q": "HINDER most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "copy",
+     "explain",
+     "admire",
+     "invent"
+    ],
+    "d": "E",
+    "e": "To imitate is to copy someone's action, sound, or style; admiration does not require copying.",
+    "id": "DGN-VR-008",
+    "k": 0,
+    "p": "",
+    "q": "IMITATE most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "wise",
+     "tidy",
+     "merry",
+     "tired"
+    ],
+    "d": "E",
+    "e": "Jolly means cheerful or merry; the distractors describe energy, order, or judgment.",
+    "id": "DGN-VR-009",
+    "k": 2,
+    "p": "",
+    "q": "JOLLY most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "ordinary",
+     "sharp",
+     "distant",
+     "gentle"
+    ],
+    "d": "M",
+    "e": "Keen can mean sharp, as in a keen edge or keen mind; none of the other choices matches that sense.",
+    "id": "DGN-VR-010",
+    "k": 1,
+    "p": "",
+    "q": "KEEN most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "awkward",
+     "expensive",
+     "exact",
+     "humble"
+    ],
+    "d": "M",
+    "e": "A modest person is humble and does not boast; the other adjectives describe unrelated qualities.",
+    "id": "DGN-VR-011",
+    "k": 3,
+    "p": "",
+    "q": "MODEST most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "peaceful",
+     "agile",
+     "enormous",
+     "honest"
+    ],
+    "d": "M",
+    "e": "Nimble means quick and light in movement or thought, which is closest to agile.",
+    "id": "DGN-VR-012",
+    "k": 1,
+    "p": "",
+    "q": "NIMBLE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "common",
+     "complete",
+     "quiet",
+     "valuable"
+    ],
+    "d": "E",
+    "e": "Ordinary means common or not unusual; value, completeness, and sound are separate ideas.",
+    "id": "DGN-VR-013",
+    "k": 0,
+    "p": "",
+    "q": "ORDINARY most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "ancient",
+     "helpful",
+     "smooth",
+     "strange"
+    ],
+    "d": "M",
+    "e": "Peculiar most often means strange or unusual; the other choices do not express oddness.",
+    "id": "DGN-VR-014",
+    "k": 3,
+    "p": "",
+    "q": "PECULIAR most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "fast",
+     "steady",
+     "early",
+     "brief"
+    ],
+    "d": "E",
+    "e": "Rapid means fast in speed; early concerns time of arrival and brief concerns duration.",
+    "id": "DGN-VR-015",
+    "k": 0,
+    "p": "",
+    "q": "RAPID most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "desired",
+     "damaged",
+     "rare",
+     "divided"
+    ],
+    "d": "M",
+    "e": "Scarce means in short supply or rare; being desired may result from scarcity but is not the meaning.",
+    "id": "DGN-VR-016",
+    "k": 2,
+    "p": "",
+    "q": "SCARCE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "empty",
+     "distant",
+     "calm",
+     "bright"
+    ],
+    "d": "M",
+    "e": "Vivid describes something bright, clear, or intensely lifelike; the other words do not convey intensity.",
+    "id": "DGN-VR-017",
+    "k": 3,
+    "p": "",
+    "q": "VIVID most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "slowly",
+     "blindly",
+     "proudly",
+     "gracefully"
+    ],
+    "d": "E",
+    "e": "Ice creates a slipping risk, so walking slowly instead of rushing is the safe response; proudly, gracefully, and blindly do not address the danger.",
+    "id": "DGN-VR-018",
+    "k": 0,
+    "p": "",
+    "q": "Because the path was covered with ice, Lena walked ____ instead of rushing.",
+    "sk": "sentence completion—context contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "sleepy",
+     "timid",
+     "friendly",
+     "hungry"
+    ],
+    "d": "E",
+    "e": "Greeting every visitor warmly is evidence that the puppy is friendly; timid and sleepy conflict with the action.",
+    "id": "DGN-VR-019",
+    "k": 2,
+    "p": "",
+    "q": "The puppy was so ____ that it greeted every visitor with a wagging tail.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "musical",
+     "truthful",
+     "lengthy",
+     "vague"
+    ],
+    "d": "M",
+    "e": "A vague answer leaves out details and helps preserve a secret; a lengthy answer would risk revealing more.",
+    "id": "DGN-VR-020",
+    "k": 3,
+    "p": "",
+    "q": "To keep the surprise party secret, Omar gave only a ____ answer when his sister asked about Saturday.",
+    "sk": "sentence completion—logical fit",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "through",
+     "beside",
+     "above",
+     "around"
+    ],
+    "d": "E",
+    "e": "Transparent means allowing light and images to pass through; the sentence directly supplies that spatial relationship.",
+    "id": "DGN-VR-021",
+    "k": 0,
+    "p": "",
+    "q": "The glass was transparent, so we could see ____ it.",
+    "sk": "sentence completion—definition clue",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "tranquil",
+     "private",
+     "bright",
+     "narrow"
+    ],
+    "d": "M",
+    "e": "Unlike signals a contrast with bustling; tranquil means calm and matches still.",
+    "id": "DGN-VR-022",
+    "k": 0,
+    "p": "",
+    "q": "Unlike the bustling market, the small courtyard was ____ and still.",
+    "sk": "sentence completion—comparison",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "pretend",
+     "ensure",
+     "wonder",
+     "doubt"
+    ],
+    "d": "E",
+    "e": "Repetition serves to ensure, or make certain, that players understand; doubt and wonder oppose that purpose.",
+    "id": "DGN-VR-023",
+    "k": 1,
+    "p": "",
+    "q": "The coach repeated the directions to ____ that every player understood the drill.",
+    "sk": "sentence completion—purpose",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "bitter",
+     "careless",
+     "puzzled",
+     "resilient"
+    ],
+    "d": "M",
+    "e": "Resilient describes recovering from a setback and continuing to work; the other attitudes would not support renewed practice.",
+    "id": "DGN-VR-024",
+    "k": 3,
+    "p": "",
+    "q": "Although Priya lost the first round, her ____ attitude helped her practice for the next match.",
+    "sk": "sentence completion—tone",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "polish",
+     "examine",
+     "replace",
+     "borrow"
+    ],
+    "d": "M",
+    "e": "Visitors can examine an object visually without touching it; the other actions require handling or removal.",
+    "id": "DGN-VR-025",
+    "k": 1,
+    "p": "",
+    "q": "The museum guide asked visitors to ____ the ancient bowl without touching it.",
+    "sk": "sentence completion—precise verb",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "overflow",
+     "freeze",
+     "vanish",
+     "sparkle"
+    ],
+    "d": "E",
+    "e": "Sustained rain adds water, so a shallow creek may overflow; the other changes are not caused by rain in this context.",
+    "id": "DGN-VR-026",
+    "k": 0,
+    "p": "",
+    "q": "After hours of steady rain, the shallow creek began to ____.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "distant",
+     "useful",
+     "ornate",
+     "fragile"
+    ],
+    "d": "M",
+    "e": "But contrasts the confusing map with a clear, useful one; ornate does not necessarily improve function.",
+    "id": "DGN-VR-027",
+    "k": 1,
+    "p": "",
+    "q": "The first map was confusing, but the revised version was clear and ____.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "divide",
+     "hide",
+     "evaluate",
+     "repeat"
+    ],
+    "d": "M",
+    "e": "A committee logically evaluates proposals before choosing; hiding, repeating, or dividing them does not support a decision.",
+    "id": "DGN-VR-028",
+    "k": 2,
+    "p": "",
+    "q": "Before making a final choice, the committee agreed to ____ all three proposals.",
+    "sk": "sentence completion—sequence logic",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "steady",
+     "golden",
+     "faint",
+     "sudden"
+    ],
+    "d": "E",
+    "e": "Barely lighting provides a degree clue that the glow was faint; color and steadiness do not indicate low brightness.",
+    "id": "DGN-VR-029",
+    "k": 2,
+    "p": "",
+    "q": "The lantern gave only a ____ glow, barely lighting the doorway.",
+    "sk": "sentence completion—degree",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "shy",
+     "honest",
+     "curious",
+     "clever"
+    ],
+    "d": "M",
+    "e": "Returning money that is not his demonstrates honesty; curiosity, shyness, and cleverness do not explain the ethical choice.",
+    "id": "DGN-VR-030",
+    "k": 1,
+    "p": "",
+    "q": "Even when no one was watching, Mateo returned the extra change because he was ____.",
+    "sk": "sentence completion—character inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "lengthy",
+     "formal",
+     "precise",
+     "familiar"
+    ],
+    "d": "M",
+    "e": "Precise instructions are exact and unambiguous, matching the clue understood in only one way.",
+    "id": "DGN-VR-031",
+    "k": 2,
+    "p": "",
+    "q": "The instructions were so ____ that every step could be understood in only one way.",
+    "sk": "sentence completion—context definition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "final",
+     "accurate",
+     "uncertain",
+     "valuable"
+    ],
+    "d": "H",
+    "e": "Before confirmation, a surprising result should be considered uncertain; calling it final or accurate would skip the needed second test.",
+    "id": "DGN-VR-032",
+    "k": 2,
+    "p": "",
+    "q": "The scientist treated the surprising result as ____ until a second experiment confirmed it.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "faded",
+     "sturdy",
+     "dusty",
+     "narrow"
+    ],
+    "d": "M",
+    "e": "Yet signals that despite a worn appearance, the straps were still sturdy; faded and dusty repeat rather than contrast the wear.",
+    "id": "DGN-VR-033",
+    "k": 1,
+    "p": "",
+    "q": "The old backpack looked worn, yet its straps remained ____.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "clarify",
+     "postpone",
+     "challenge",
+     "memorize"
+    ],
+    "d": "H",
+    "e": "A well-chosen example can clarify, or make clear, a complicated idea; the other verbs do not express explanation.",
+    "id": "DGN-VR-034",
+    "k": 0,
+    "p": "",
+    "q": "The speaker used a brief example to ____ an idea that had seemed complicated.",
+    "sk": "sentence completion—purpose and register",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "50",
+     "47",
+     "53",
+     "44"
+    ],
+    "d": "M",
+    "e": "The increases are 3, 6, 9, and 12; the next increase is 15, so 35 + 15 = 50.",
+    "id": "DGN-QR-001",
+    "k": 0,
+    "p": "",
+    "q": "What number comes next in 5, 8, 14, 23, 35, ...?",
+    "sk": "numerical pattern—growing differences",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "$20.50",
+     "$21.00",
+     "$18.00",
+     "$22.50"
+    ],
+    "d": "M",
+    "e": "One ticket costs $31.50 ÷ 7 = $4.50; five cost 5 × $4.50 = $22.50.",
+    "id": "DGN-QR-002",
+    "k": 3,
+    "p": "",
+    "q": "Seven admission tickets cost $31.50. At the same rate, how much do five tickets cost?",
+    "sk": "proportional reasoning—unit rate",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5/8",
+     "1/8",
+     "3/8",
+     "1/2"
+    ],
+    "d": "M",
+    "e": "3/8 + 1/4 = 3/8 + 2/8 = 5/8 completed, leaving 3/8.",
+    "id": "DGN-QR-003",
+    "k": 2,
+    "p": "",
+    "q": "A hiker completes 3/8 of a trail before lunch and 1/4 after lunch. What fraction remains?",
+    "sk": "fraction reasoning—remaining part",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "15",
+     "32",
+     "30",
+     "18"
+    ],
+    "d": "M",
+    "e": "Eight equal parts make 48, so each part is 6; gold is 3 × 6 = 18.",
+    "id": "DGN-QR-004",
+    "k": 3,
+    "p": "",
+    "q": "Green and gold beads are in a ratio of 5:3. If there are 48 beads, how many are gold?",
+    "sk": "ratio—part from total",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5/11",
+     "7/8",
+     "2/3",
+     "3/10"
+    ],
+    "d": "E",
+    "e": "5/11 is about 0.455, only about 0.045 from 0.5; the other values are farther away.",
+    "id": "DGN-QR-005",
+    "k": 0,
+    "p": "",
+    "q": "Which value is closest to 1/2?",
+    "sk": "logical estimation—fraction benchmark",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "119",
+     "126",
+     "120",
+     "112"
+    ],
+    "d": "M",
+    "e": "The rate is 84 ÷ 6 = 14 boxes per minute; 14 × 9 = 126.",
+    "id": "DGN-QR-006",
+    "k": 1,
+    "p": "",
+    "q": "A machine packs 84 boxes in 6 minutes at a steady rate. How many boxes does it pack in 9 minutes?",
+    "sk": "multistep rate reasoning",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "84",
+     "72",
+     "63",
+     "54"
+    ],
+    "d": "E",
+    "e": "72 ÷ 4 = 18 and 72 ÷ 9 = 8; each other choice fails one of the tests.",
+    "id": "DGN-QR-007",
+    "k": 1,
+    "p": "",
+    "q": "Which number is divisible by both 4 and 9?",
+    "sk": "number properties—divisibility",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "7",
+     "5",
+     "8",
+     "11"
+    ],
+    "d": "M",
+    "e": "Undo the addition: 35 − 7 = 28; then 28 ÷ 4 = 7.",
+    "id": "DGN-QR-008",
+    "k": 0,
+    "p": "",
+    "q": "A number is multiplied by 4, then 7 is added. The result is 35. What is the number?",
+    "sk": "algebraic reasoning—balance",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "19",
+     "21",
+     "25",
+     "23"
+    ],
+    "d": "M",
+    "e": "A mean of 18 for four scores gives a total of 72; 72 − 49 = 23.",
+    "id": "DGN-QR-009",
+    "k": 3,
+    "p": "",
+    "q": "Four quiz scores have a mean of 18. The first three total 49. What is the fourth score?",
+    "sk": "data reasoning—mean and total",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "6",
+     "5",
+     "7",
+     "11"
+    ],
+    "d": "M",
+    "e": "2(11 + width) = 34, so 11 + width = 17 and width = 6.",
+    "id": "DGN-QR-010",
+    "k": 0,
+    "p": "",
+    "q": "A rectangle has perimeter 34 units and length 11 units. What is its width?",
+    "sk": "spatial reasoning—perimeter constraint",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2/3",
+     "3/4",
+     "7/12",
+     "5/12"
+    ],
+    "d": "M",
+    "e": "Seven of the 12 counters are orange or purple, so the probability is 7/12.",
+    "id": "DGN-QR-011",
+    "k": 2,
+    "p": "",
+    "q": "A bag has 4 orange, 3 purple, and 5 white counters. What is the probability of selecting a counter that is not white?",
+    "sk": "probability—complement",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "(3, 9)",
+     "(−7, 11)",
+     "(−9, 1)",
+     "(3, 1)"
+    ],
+    "d": "E",
+    "e": "Moving right adds 6 to x, giving 3; moving down subtracts 4 from y, giving 1.",
+    "id": "DGN-QR-012",
+    "k": 3,
+    "p": "",
+    "q": "Point R is at (−3, 5). It moves 6 units right and 4 units down. Where does it end?",
+    "sk": "coordinate reasoning—translation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "60",
+     "84",
+     "56",
+     "70"
+    ],
+    "d": "H",
+    "e": "If 20% is one fifth, the whole is 14 × 5 = 70.",
+    "id": "DGN-QR-013",
+    "k": 3,
+    "p": "",
+    "q": "Twenty percent of a number is 14. What is the number?",
+    "sk": "percent reasoning—reverse percent",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "24",
+     "32",
+     "30",
+     "28"
+    ],
+    "d": "M",
+    "e": "The scale is 4 meters per centimeter; 8 centimeters represent 8 × 4 = 32 meters.",
+    "id": "DGN-QR-014",
+    "k": 1,
+    "p": "",
+    "q": "On a plan, 3 centimeters represent 12 meters. How many meters does 8 centimeters represent?",
+    "sk": "scale reasoning",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "9",
+     "6",
+     "7",
+     "8"
+    ],
+    "d": "M",
+    "e": "2 1/10 = 21/10, and (21/10) ÷ (3/10) = 7.",
+    "id": "DGN-QR-015",
+    "k": 2,
+    "p": "",
+    "q": "How many 3/10-liter portions can be filled from 2 1/10 liters?",
+    "sk": "fraction division—interpretation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Bo finished last",
+     "Ana finished before Cy",
+     "Cy finished before Ana",
+     "Ana and Cy tied"
+    ],
+    "d": "H",
+    "e": "The chain Ana before Bo before Cy guarantees Ana finished before Cy.",
+    "id": "DGN-QR-016",
+    "k": 1,
+    "p": "",
+    "q": "Ana finished before Bo. Bo finished before Cy. Which statement must be true?",
+    "sk": "logic—ordering constraints",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "63",
+     "47",
+     "64",
+     "55"
+    ],
+    "d": "M",
+    "e": "Each term is twice the previous term plus 1; 31 × 2 + 1 = 63.",
+    "id": "DGN-QR-017",
+    "k": 0,
+    "p": "",
+    "q": "A pattern begins 3, 7, 15, 31. Each term is found by using the same rule. What is the next term?",
+    "sk": "numerical pattern—recursive rule",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "They work at the same rate",
+     "Team X is faster by 1/2 panel per hour",
+     "Team Y is faster by 1 panel per hour",
+     "Team Y is faster by 1/2 panel per hour"
+    ],
+    "d": "H",
+    "e": "X paints 2.5 panels per hour and Y paints 2 panels per hour, so X is faster by 0.5.",
+    "id": "DGN-QR-018",
+    "k": 1,
+    "p": "",
+    "q": "Team X paints 15 panels in 6 hours. Team Y paints 18 panels in 9 hours. Which statement is true?",
+    "sk": "rate comparison",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5/8",
+     "9/16",
+     "2/3",
+     "7/12"
+    ],
+    "d": "M",
+    "e": "2/3 is about 0.667, greater than 5/8 = 0.625, 7/12 ≈ 0.583, and 9/16 = 0.5625.",
+    "id": "DGN-QR-019",
+    "k": 2,
+    "p": "",
+    "q": "Which fraction is greatest?",
+    "sk": "number sense—fraction comparison",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3:85 p.m.",
+     "4:35 p.m.",
+     "4:25 p.m.",
+     "4:15 p.m."
+    ],
+    "d": "M",
+    "e": "Adding 1 hour gives 3:47, then 38 minutes gives 4:25 p.m.",
+    "id": "DGN-QR-020",
+    "k": 2,
+    "p": "",
+    "q": "A rehearsal starts at 2:47 p.m. and lasts 1 hour 38 minutes. When does it end?",
+    "sk": "measurement reasoning—elapsed time",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "12",
+     "13",
+     "14",
+     "11"
+    ],
+    "d": "H",
+    "e": "With five ordered values, the middle value is the median, so x = 13.",
+    "id": "DGN-QR-021",
+    "k": 1,
+    "p": "",
+    "q": "The ordered list is 4, 9, x, 17, 21, and its median is 13. What is x?",
+    "sk": "data reasoning—median with unknown",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "It increases by 6 square units",
+     "It triples",
+     "It becomes 6 times as large",
+     "It becomes 9 times as large"
+    ],
+    "d": "M",
+    "e": "Area depends on side squared; (3s)^2 = 9s^2.",
+    "id": "DGN-QR-022",
+    "k": 3,
+    "p": "",
+    "q": "A square's side length is tripled. How does its area change?",
+    "sk": "geometric scaling—area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1°C",
+     "12°C",
+     "11°C",
+     "6°C"
+    ],
+    "d": "M",
+    "e": "From −6 to 0 is 6 degrees and from 0 to 5 is 5 more, totaling 11.",
+    "id": "DGN-QR-023",
+    "k": 2,
+    "p": "",
+    "q": "The temperature rises from −6°C to 5°C. By how many degrees does it rise?",
+    "sk": "integer reasoning—temperature change",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "16",
+     "12",
+     "24",
+     "7"
+    ],
+    "d": "M",
+    "e": "Each of 3 soups can pair with each of 4 sandwiches, giving 3 × 4 = 12 pairs.",
+    "id": "DGN-QR-024",
+    "k": 1,
+    "p": "",
+    "q": "A café offers 3 soups and 4 sandwiches. How many different soup-and-sandwich pairs are possible?",
+    "sk": "combinatorial reasoning—organized counting",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "28",
+     "6",
+     "8",
+     "7"
+    ],
+    "d": "H",
+    "e": "Nine parts total make 36, so each part is 4 cups; red is 2 × 4 = 8 cups.",
+    "id": "DGN-QR-025",
+    "k": 2,
+    "p": "",
+    "q": "Red and white paint are mixed in a 2:7 ratio. If 36 cups are mixed, how many cups are red?",
+    "sk": "proportional reasoning—mixture",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "180",
+     "160",
+     "150",
+     "120"
+    ],
+    "d": "H",
+    "e": "Each printer makes 180 ÷ 3 ÷ 4 = 15 pages per minute; 2 × 6 × 15 = 180.",
+    "id": "DGN-QR-026",
+    "k": 0,
+    "p": "",
+    "q": "Three identical printers produce 180 pages in 4 minutes. At the same rate, how many pages do two printers produce in 6 minutes?",
+    "sk": "work-rate reasoning",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3",
+     "5",
+     "7",
+     "4"
+    ],
+    "d": "M",
+    "e": "8 × 24 = 192, and 197 − 192 = 5.",
+    "id": "DGN-QR-027",
+    "k": 1,
+    "p": "",
+    "q": "What is the remainder when 197 is divided by 8?",
+    "sk": "number properties—remainders",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "23",
+     "28",
+     "33",
+     "18"
+    ],
+    "d": "M",
+    "e": "Twice 14 is 28, and 5 fewer is 28 − 5 = 23.",
+    "id": "DGN-QR-028",
+    "k": 0,
+    "p": "",
+    "q": "Mira has 5 fewer stickers than twice Leo's 14 stickers. How many stickers does Mira have?",
+    "sk": "algebraic reasoning—two-step relation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "10,000",
+     "4,000",
+     "6,000",
+     "8,000"
+    ],
+    "d": "E",
+    "e": "Round 398 to 400 and 21 to 20; 400 × 20 = 8,000.",
+    "id": "DGN-QR-029",
+    "k": 3,
+    "p": "",
+    "q": "Which is the best estimate of 398 × 21?",
+    "sk": "estimation—compatible numbers",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "20",
+     "30",
+     "25",
+     "35"
+    ],
+    "d": "H",
+    "e": "The overlap was counted twice, so 18 + 12 − 5 = 25.",
+    "id": "DGN-QR-030",
+    "k": 2,
+    "p": "",
+    "q": "In a club, 18 members play chess, 12 play checkers, and 5 play both. How many play at least one of the games?",
+    "sk": "set logic—overlap",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "36 L",
+     "60 L",
+     "90 L",
+     "45 L"
+    ],
+    "d": "H",
+    "e": "The increase is 7/10 − 2/5 = 3/10 of capacity; if 3/10 is 18, the whole is 60 liters.",
+    "id": "DGN-QR-031",
+    "k": 1,
+    "p": "",
+    "q": "A tank is 2/5 full. After 18 liters are added, it is 7/10 full. What is the tank's capacity?",
+    "sk": "fraction reasoning—part of remainder",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "16",
+     "12",
+     "8",
+     "24"
+    ],
+    "d": "H",
+    "e": "12 is a multiple of 4 but not of 8, so it is a counterexample.",
+    "id": "DGN-QR-032",
+    "k": 1,
+    "p": "",
+    "q": "Which example shows that “all multiples of 4 are multiples of 8” is false?",
+    "sk": "logical reasoning—counterexample",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3.5 lb",
+     "2.8 lb",
+     "3.0 lb",
+     "3.2 lb"
+    ],
+    "d": "H",
+    "e": "Total weight is 3 × 2 + 2 × 5 = 16 pounds; 16 ÷ 5 = 3.2 pounds.",
+    "id": "DGN-QR-033",
+    "k": 3,
+    "p": "",
+    "q": "A basket has three 2-pound bags and two 5-pound bags. What is the mean weight of the five bags?",
+    "sk": "data reasoning—weighted average",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "6",
+     "4",
+     "7",
+     "5"
+    ],
+    "d": "M",
+    "e": "Height = 168 ÷ (7 × 4) = 168 ÷ 28 = 6.",
+    "id": "DGN-QR-034",
+    "k": 0,
+    "p": "",
+    "q": "A rectangular box has volume 168 cubic units, length 7, and width 4. What is its height?",
+    "sk": "spatial reasoning—volume constraint",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "$40",
+     "$25",
+     "$9",
+     "$36"
+    ],
+    "d": "M",
+    "e": "The discount is 0.20 × 45 = $9, so the price is $45 − $9 = $36.",
+    "id": "DGN-QR-035",
+    "k": 3,
+    "p": "",
+    "q": "A $45 game is discounted by 20%. What is the sale price?",
+    "sk": "percent reasoning—discount",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "18n",
+     "9n",
+     "6n + 18",
+     "6n + 3"
+    ],
+    "d": "M",
+    "e": "Distribute 6 to both terms: 6n + 6 × 3 = 6n + 18.",
+    "id": "DGN-QR-036",
+    "k": 2,
+    "p": "",
+    "q": "Which expression always has the same value as 6(n + 3)?",
+    "sk": "logical reasoning—equivalent expressions",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "112°",
+     "122°",
+     "108°",
+     "102°"
+    ],
+    "d": "M",
+    "e": "Angles on a straight line total 180°, and 180 − 68 = 112°.",
+    "id": "DGN-QR-037",
+    "k": 0,
+    "p": "",
+    "q": "Two angles form a straight line. One angle is 68°. What is the other angle?",
+    "sk": "geometry reasoning—angle relationships",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "18 miles",
+     "12 miles",
+     "16 miles",
+     "15 miles"
+    ],
+    "d": "H",
+    "e": "The rate is 7.5 ÷ 0.5 = 15 miles per hour; 15 × 1.2 = 18 miles.",
+    "id": "DGN-QR-038",
+    "k": 0,
+    "p": "",
+    "q": "A cyclist travels 7 1/2 miles in 1/2 hour. At the same rate, how far will the cyclist travel in 1 1/5 hours?",
+    "sk": "multistep fraction rate",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Household glue sold in stores is made from barnacle cement.",
+     "Barnacles damage every ship hull they fasten themselves to.",
+     "Barnacle cement inspired a new adhesive for wet surfaces.",
+     "Doctors now close most wounds without using any stitches."
+    ],
+    "d": "M",
+    "e": "The passage centers on observing how barnacles bond underwater and adapting that principle into a new adhesive; the other choices exaggerate or contradict details.",
+    "id": "DGN-RC-001",
+    "k": 2,
+    "p": "DGN-RC-P01",
+    "q": "What is the passage mainly about?",
+    "sk": "main idea",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "They could move water away before a bond formed.",
+     "They were identical to ordinary glue sold in stores.",
+     "They changed salt water into fresh water.",
+     "They became hard only in bright afternoon sunlight."
+    ],
+    "d": "E",
+    "e": "The passage explicitly says some proteins push water away from a surface before bonding.",
+    "id": "DGN-RC-002",
+    "k": 0,
+    "p": "DGN-RC-P01",
+    "q": "What did researchers notice about some proteins in barnacle cement?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "It would make hospital rooms look cleaner and neater.",
+     "It might hold moist body tissue together.",
+     "It would dry a wound completely before sealing it.",
+     "It would prevent injuries from happening at all."
+    ],
+    "d": "M",
+    "e": "The wound example and wet-surface focus support the inference that the adhesive could bond moist tissue.",
+    "id": "DGN-RC-003",
+    "k": 1,
+    "p": "DGN-RC-P01",
+    "q": "Why would an adhesive that works on wet surfaces interest doctors?",
+    "sk": "inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "difficult to measure",
+     "basic and supporting",
+     "physically buried",
+     "recently discovered"
+    ],
+    "d": "M",
+    "e": "The underlying principle is the basic idea beneath the visible feature, not something literally underground.",
+    "id": "DGN-RC-004",
+    "k": 1,
+    "p": "DGN-RC-P01",
+    "q": "In the final sentence, “underlying” most nearly means:",
+    "sk": "vocabulary in context",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "It presents a problem, a natural feature, and a possible use.",
+     "It lists many kinds of sea animals from smallest to largest.",
+     "It argues that nature is always wiser than human technology.",
+     "It gives step-by-step directions for making glue at home."
+    ],
+    "d": "M",
+    "e": "The author moves from underwater bonding, to the barnacle feature, to engineered and medical applications.",
+    "id": "DGN-RC-005",
+    "k": 0,
+    "p": "DGN-RC-P01",
+    "q": "How is the passage mainly organized?",
+    "sk": "text structure",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "She thinks a helper is not supposed to speak up.",
+     "She is afraid the customer will scold her.",
+     "She wants the clock to stay broken a while longer.",
+     "She does not notice anything unusual in the case."
+    ],
+    "d": "M",
+    "e": "The sentence “after all, she was only the helper” reveals her doubt about speaking beyond her assigned role.",
+    "id": "DGN-RC-006",
+    "k": 0,
+    "p": "DGN-RC-P02",
+    "q": "Why does Nia almost stay silent?",
+    "sk": "character motivation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "A crack across the clock face",
+     "A bright scratch on a lever",
+     "A loose bell inside the wooden case",
+     "A missing screw under the table"
+    ],
+    "d": "E",
+    "e": "The passage explicitly identifies a bright scratch where the lever brushed the wheel.",
+    "id": "DGN-RC-007",
+    "k": 1,
+    "p": "DGN-RC-P02",
+    "q": "What clue does Nia point out?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "physical strength",
+     "attentiveness",
+     "hasty guessing",
+     "impatience"
+    ],
+    "d": "M",
+    "e": "Nia notices the lever and scratch, so attentiveness is the trait supported by the text.",
+    "id": "DGN-RC-008",
+    "k": 1,
+    "p": "DGN-RC-P02",
+    "q": "Which trait most helps Nia solve the problem?",
+    "sk": "inference—character trait",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Adults should repair broken objects without any help.",
+     "Difficult work should be completed as quickly as possible.",
+     "A job is worth doing only when it is exciting and new.",
+     "Careful observation can earn trust and responsibility."
+    ],
+    "d": "H",
+    "e": "Nia's observation solves the problem and earns a more demanding learning task; the ending warns against quick guessing.",
+    "id": "DGN-RC-009",
+    "k": 3,
+    "p": "DGN-RC-P02",
+    "q": "Which statement best expresses a theme of the passage?",
+    "sk": "theme",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "To explain why the alarm clock on the bench is broken",
+     "To show that keeping trust depends on thoughtful work",
+     "To suggest that her uncle dislikes being asked questions",
+     "To show that Nia plans to leave the repair shop soon"
+    ],
+    "d": "M",
+    "e": "The final contrast shows Nia knows she must continue observing and reasoning carefully to keep earning responsibility.",
+    "id": "DGN-RC-010",
+    "k": 1,
+    "p": "DGN-RC-P02",
+    "q": "Why does the author mention that “guessing quickly would not keep” the new task?",
+    "sk": "author craft—ending",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Why copying a book by hand always introduced errors",
+     "How to repair stains in valuable old books",
+     "How marks in old books reveal readers' responses",
+     "Why readers today should write notes in every book"
+    ],
+    "d": "M",
+    "e": "The passage describes several kinds of marginal evidence and explains their value and limits for historians.",
+    "id": "DGN-RC-011",
+    "k": 2,
+    "p": "DGN-RC-P03",
+    "q": "What is the passage mainly explaining?",
+    "sk": "main idea",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "The price of every book in the library",
+     "Instructions for making paper by hand",
+     "A definition of an unfamiliar word",
+     "A list of books that were never written"
+    ],
+    "d": "E",
+    "e": "Defining unfamiliar words is one of the explicit examples given.",
+    "id": "DGN-RC-012",
+    "k": 2,
+    "p": "DGN-RC-P03",
+    "q": "According to the passage, what might a reader write in a margin?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "heated arguments",
+     "sudden discoveries",
+     "unlucky accidents",
+     "experiences"
+    ],
+    "d": "M",
+    "e": "Individual encounters with words are readers' experiences of meeting and reacting to the text.",
+    "id": "DGN-RC-013",
+    "k": 3,
+    "p": "DGN-RC-P03",
+    "q": "As used in the passage, “encounters” most nearly means:",
+    "sk": "vocabulary in context",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Margin notes were always added by the book's author.",
+     "Historians are rarely permitted to handle old books.",
+     "All old books contain false information.",
+     "A mark's writer and meaning may be uncertain."
+    ],
+    "d": "M",
+    "e": "The passage directly notes that writers may be unknown and marks may have multiple explanations.",
+    "id": "DGN-RC-014",
+    "k": 3,
+    "p": "DGN-RC-P03",
+    "q": "Why does the author say the evidence must be interpreted cautiously?",
+    "sk": "author's caution",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "later readers replying to earlier readers' notes",
+     "scribes talking about how to copy a page",
+     "historians reading old books aloud to one another",
+     "authors meeting their readers in person years later"
+    ],
+    "d": "H",
+    "e": "The surrounding sentences describe readers leaving notes and later readers replying, which resembles a delayed conversation.",
+    "id": "DGN-RC-015",
+    "k": 0,
+    "p": "DGN-RC-P03",
+    "q": "The phrase “a slow conversation across years” refers to:",
+    "sk": "text evidence—analogy",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "It produces electricity during the hot afternoon.",
+     "It blocks all of the moving air above the street.",
+     "It absorbs much of the sunlight that hits it.",
+     "It is always built from dark heat-absorbing pavement."
+    ],
+    "d": "E",
+    "e": "The first two sentences state that dark roofs absorb sunlight and release the energy as heat.",
+    "id": "DGN-RC-016",
+    "k": 2,
+    "p": "DGN-RC-P04",
+    "q": "Why can a dark roof become especially hot?",
+    "sk": "cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Their roofs never required maintenance afterward.",
+     "They became warmer than the buildings around them.",
+     "Their winter heating needs disappeared completely.",
+     "They used less air-conditioning in the hottest hours."
+    ],
+    "d": "E",
+    "e": "The passage explicitly reports reduced air-conditioning use during hot hours.",
+    "id": "DGN-RC-017",
+    "k": 3,
+    "p": "DGN-RC-P04",
+    "q": "What happened in the trial of coated buildings?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "They are useless in every climate and on every roof.",
+     "They solve the urban heat island problem by themselves.",
+     "They can help, but only as part of a local, mixed plan.",
+     "They should replace shade trees and neighborhood parks."
+    ],
+    "d": "M",
+    "e": "The author presents a benefit, several limitations, and a combined local approach.",
+    "id": "DGN-RC-018",
+    "k": 2,
+    "p": "DGN-RC-P04",
+    "q": "Which statement best describes the author's view of cool roofs?",
+    "sk": "author's viewpoint",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "cheap to apply",
+     "based on science",
+     "suitable everywhere",
+     "lasting a short time"
+    ],
+    "d": "M",
+    "e": "A universal answer would apply everywhere; the passage argues that local conditions matter.",
+    "id": "DGN-RC-019",
+    "k": 2,
+    "p": "DGN-RC-P04",
+    "q": "In the last sentence, “universal” most nearly means:",
+    "sk": "vocabulary in context",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "By presenting a problem, one response, and then its limits",
+     "By giving step-by-step instructions for painting a roof",
+     "By listing roof colors in order of their popularity",
+     "By comparing two cities and declaring one the winner"
+    ],
+    "d": "H",
+    "e": "The sequence is heat-island cause, cool-roof evidence, then limits and complementary methods.",
+    "id": "DGN-RC-020",
+    "k": 0,
+    "p": "DGN-RC-P04",
+    "q": "How does the author develop the discussion?",
+    "sk": "text structure",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Audiences prefer music that contains no rests at all.",
+     "Conductors should tap the beat during every performance.",
+     "Loud passages are always harder to play than quiet ones.",
+     "Musicians must count and practice silence in a piece."
+    ],
+    "d": "M",
+    "e": "The rehearsal problem and solution both show that measured silence requires active, shared counting.",
+    "id": "DGN-RC-021",
+    "k": 3,
+    "p": "DGN-RC-P05",
+    "q": "What is the main idea of the passage?",
+    "sk": "main idea",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Some players stopped counting during the rest.",
+     "The melody was written too high for the players.",
+     "The conductor changed the speed of the music.",
+     "The audience began tapping along with the beat."
+    ],
+    "d": "E",
+    "e": "The passage directly states that several players treated the rest as a chance to stop counting.",
+    "id": "DGN-RC-022",
+    "k": 0,
+    "p": "DGN-RC-P05",
+    "q": "What caused the players to enter at different times?",
+    "sk": "supporting detail",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "The tapping is far too soft for anyone to hear.",
+     "The orchestra will remove the silent measure.",
+     "The audience will arrive after that section ends.",
+     "Tapping is a rehearsal method, not a performance step."
+    ],
+    "d": "M",
+    "e": "The conductor uses tapping to teach internal counting; the final lines say listeners hear its result, not the tapping itself.",
+    "id": "DGN-RC-023",
+    "k": 3,
+    "p": "DGN-RC-P05",
+    "q": "Why will the audience not hear the students tapping?",
+    "sk": "inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "A melody is a living creature that must breathe air.",
+     "A rest creates space that makes musical ideas clearer.",
+     "Musicians should breathe only during silent measures.",
+     "The concert hall needs more fresh air for the players."
+    ],
+    "d": "M",
+    "e": "The phrase figuratively describes how a pause separates or highlights musical ideas.",
+    "id": "DGN-RC-024",
+    "k": 1,
+    "p": "DGN-RC-P05",
+    "q": "What does “give a melody room to breathe” suggest?",
+    "sk": "figurative language",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "An unnoticed part of a process may need careful work.",
+     "Large groups learn best when no one is guiding them.",
+     "Speed matters far more than accuracy in group work.",
+     "Only actions that can be seen contribute to success."
+    ],
+    "d": "H",
+    "e": "The silent, unheard counting work is essential to the successful entrance, supporting the broader lesson.",
+    "id": "DGN-RC-025",
+    "k": 0,
+    "p": "DGN-RC-P05",
+    "q": "Which broader lesson is best supported by the passage?",
+    "sk": "theme",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "6,741",
+     "6,631",
+     "6,641",
+     "6,531"
+    ],
+    "d": "E",
+    "e": "Add by place value: 3,684 + 2,957 = 6,641.",
+    "id": "DGN-MA-001",
+    "k": 2,
+    "p": "",
+    "q": "What is 3,684 + 2,957?",
+    "sk": "whole-number addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "4,524",
+     "5,476",
+     "5,524",
+     "4,624"
+    ],
+    "d": "E",
+    "e": "Regroup across the zeros; 8,000 − 3,476 = 4,524.",
+    "id": "DGN-MA-002",
+    "k": 0,
+    "p": "",
+    "q": "What is 8,000 − 3,476?",
+    "sk": "whole-number subtraction",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1,272",
+     "1,222",
+     "1,122",
+     "1,302"
+    ],
+    "d": "E",
+    "e": "47 × 26 = 47 × 20 + 47 × 6 = 940 + 282 = 1,222.",
+    "id": "DGN-MA-003",
+    "k": 1,
+    "p": "",
+    "q": "What is 47 × 26?",
+    "sk": "multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "84",
+     "78",
+     "74",
+     "86"
+    ],
+    "d": "E",
+    "e": "21 × 84 = 1,764.",
+    "id": "DGN-MA-004",
+    "k": 0,
+    "p": "",
+    "q": "What is 1,764 ÷ 21?",
+    "sk": "division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "7/12",
+     "2/5",
+     "1/2",
+     "3/4"
+    ],
+    "d": "M",
+    "e": "1/3 = 4/12, so 5/12 + 4/12 = 9/12 = 3/4.",
+    "id": "DGN-MA-005",
+    "k": 3,
+    "p": "",
+    "q": "What is 5/12 + 1/3?",
+    "sk": "fraction addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "13/24",
+     "2/5",
+     "11/24",
+     "1/3"
+    ],
+    "d": "M",
+    "e": "7/8 = 21/24 and 5/12 = 10/24; the difference is 11/24.",
+    "id": "DGN-MA-006",
+    "k": 2,
+    "p": "",
+    "q": "What is 7/8 − 5/12?",
+    "sk": "fraction subtraction",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1/6",
+     "1/3",
+     "7/17",
+     "3/8"
+    ],
+    "d": "M",
+    "e": "Multiply and simplify: 12/72 = 1/6.",
+    "id": "DGN-MA-007",
+    "k": 0,
+    "p": "",
+    "q": "What is 4/9 × 3/8?",
+    "sk": "fraction multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3 1/5",
+     "9/10",
+     "1 9/10",
+     "2 1/2"
+    ],
+    "d": "M",
+    "e": "3/2 ÷ 3/5 = 3/2 × 5/3 = 5/2 = 2 1/2.",
+    "id": "DGN-MA-008",
+    "k": 3,
+    "p": "",
+    "q": "What is 1 1/2 ÷ 3/5?",
+    "sk": "fraction division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "17.577",
+     "17.587",
+     "16.587",
+     "17.487"
+    ],
+    "d": "E",
+    "e": "Align decimal points: 12.680 + 4.907 = 17.587.",
+    "id": "DGN-MA-009",
+    "k": 1,
+    "p": "",
+    "q": "What is 12.68 + 4.907?",
+    "sk": "decimal addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "4.05",
+     "4.5",
+     "45",
+     "3.75"
+    ],
+    "d": "M",
+    "e": "1.25 × 36 = 45, then place one decimal digit: 4.5.",
+    "id": "DGN-MA-010",
+    "k": 1,
+    "p": "",
+    "q": "What is 3.6 × 1.25?",
+    "sk": "decimal multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "13.2",
+     "1.32",
+     "13.02",
+     "132"
+    ],
+    "d": "M",
+    "e": "Multiply both numbers by 10: 92.4 ÷ 7 = 13.2.",
+    "id": "DGN-MA-011",
+    "k": 0,
+    "p": "",
+    "q": "What is 9.24 ÷ 0.7?",
+    "sk": "decimal division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "72",
+     "84",
+     "96",
+     "80"
+    ],
+    "d": "E",
+    "e": "30% of 240 is 72 and 5% is 12; together they equal 84.",
+    "id": "DGN-MA-012",
+    "k": 1,
+    "p": "",
+    "q": "What is 35% of 240?",
+    "sk": "percent of a quantity",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "8",
+     "10",
+     "4",
+     "6"
+    ],
+    "d": "M",
+    "e": "Parentheses first: 5 + 1 = 6; then 2 × 6 = 12; 18 − 12 = 6.",
+    "id": "DGN-MA-013",
+    "k": 3,
+    "p": "",
+    "q": "What is 18 − 2(5 + 1)?",
+    "sk": "order of operations",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "27",
+     "12",
+     "81",
+     "64"
+    ],
+    "d": "E",
+    "e": "3^4 = 3 × 3 × 3 × 3 = 81.",
+    "id": "DGN-MA-014",
+    "k": 2,
+    "p": "",
+    "q": "What is 3^4?",
+    "sk": "exponent evaluation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2",
+     "21",
+     "28",
+     "14"
+    ],
+    "d": "M",
+    "e": "Factors common to both include 1, 2, 7, and 14; the greatest is 14.",
+    "id": "DGN-MA-015",
+    "k": 3,
+    "p": "",
+    "q": "What is the greatest common factor of 42 and 70?",
+    "sk": "factors—greatest common factor",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "18",
+     "108",
+     "24",
+     "36"
+    ],
+    "d": "M",
+    "e": "Multiples first shared are 36, 72, ...; the least is 36.",
+    "id": "DGN-MA-016",
+    "k": 3,
+    "p": "",
+    "q": "What is the least common multiple of 9 and 12?",
+    "sk": "multiples—least common multiple",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "77",
+     "17",
+     "66",
+     "55"
+    ],
+    "d": "E",
+    "e": "Multiply both sides by 6: y = 11 × 6 = 66.",
+    "id": "DGN-MA-017",
+    "k": 2,
+    "p": "",
+    "q": "If y/6 = 11, what is y?",
+    "sk": "algebra—one-step equation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "11",
+     "9",
+     "7",
+     "5.8"
+    ],
+    "d": "M",
+    "e": "Add 8 to get 5x = 45, then divide by 5: x = 9.",
+    "id": "DGN-MA-018",
+    "k": 1,
+    "p": "",
+    "q": "Solve 5x − 8 = 37.",
+    "sk": "algebra—two-step equation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "11",
+     "67",
+     "19",
+     "35"
+    ],
+    "d": "E",
+    "e": "2(4^2) + 3 = 2(16) + 3 = 35.",
+    "id": "DGN-MA-019",
+    "k": 3,
+    "p": "",
+    "q": "What is 2a^2 + 3 when a = 4?",
+    "sk": "expression evaluation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "(−5, −2)",
+     "(5, −2)",
+     "(−2, 5)",
+     "(5, 2)"
+    ],
+    "d": "M",
+    "e": "Reflection across the x-axis keeps x and changes the sign of y.",
+    "id": "DGN-MA-020",
+    "k": 0,
+    "p": "",
+    "q": "What is the reflection of (−5, 2) across the x-axis?",
+    "sk": "coordinate plane—reflection",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "40 m²",
+     "91 m²",
+     "182 m²",
+     "78 m²"
+    ],
+    "d": "E",
+    "e": "Area = length × width = 13 × 7 = 91 square meters.",
+    "id": "DGN-MA-021",
+    "k": 1,
+    "p": "",
+    "q": "A rectangle is 13 meters long and 7 meters wide. What is its area?",
+    "sk": "rectangle area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "60 cm²",
+     "120 cm²",
+     "23 cm²",
+     "46 cm²"
+    ],
+    "d": "M",
+    "e": "Area = 1/2 × 15 × 8 = 60 square centimeters.",
+    "id": "DGN-MA-022",
+    "k": 0,
+    "p": "",
+    "q": "A triangle has base 15 cm and height 8 cm. What is its area?",
+    "sk": "triangle area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "28 cm",
+     "14 cm",
+     "16 cm",
+     "52 cm"
+    ],
+    "d": "M",
+    "e": "A square has four equal sides, so each side is 56 ÷ 4 = 14 cm. A divides by 2 as if only two sides counted, C divides the 40 but then appends the leftover 6 (10 + 6 = 16), and D subtracts 4 instead of dividing by 4.",
+    "id": "DGN-MA-023",
+    "k": 1,
+    "p": "",
+    "q": "The perimeter of a square photo frame is 56 cm. What is the length of one side?",
+    "sk": "square perimeter",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "180 cm³",
+     "200 cm³",
+     "160 cm³",
+     "90 cm³"
+    ],
+    "d": "E",
+    "e": "Volume = 9 × 5 × 4 = 180 cubic centimeters.",
+    "id": "DGN-MA-024",
+    "k": 0,
+    "p": "",
+    "q": "What is the volume of a rectangular prism measuring 9 cm by 5 cm by 4 cm?",
+    "sk": "rectangular-prism volume",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "65°",
+     "85°",
+     "70°",
+     "75°"
+    ],
+    "d": "M",
+    "e": "Triangle angles total 180°; 180 − 37 − 68 = 75°.",
+    "id": "DGN-MA-025",
+    "k": 3,
+    "p": "",
+    "q": "A triangle has angles of 37° and 68°. What is the third angle?",
+    "sk": "angle measure—triangle",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "23.5",
+     "2,350",
+     "235",
+     "0.0235"
+    ],
+    "d": "E",
+    "e": "One meter is 100 centimeters, so 2.35 × 100 = 235.",
+    "id": "DGN-MA-026",
+    "k": 2,
+    "p": "",
+    "q": "How many centimeters are in 2.35 meters?",
+    "sk": "unit conversion—length",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1 hour 27 minutes",
+     "1 hour 33 minutes",
+     "1 hour 17 minutes",
+     "2 hours 27 minutes"
+    ],
+    "d": "M",
+    "e": "From 9:38 to 10:38 is 1 hour, then to 11:05 is 27 minutes.",
+    "id": "DGN-MA-027",
+    "k": 0,
+    "p": "",
+    "q": "How much time passes from 9:38 a.m. to 11:05 a.m.?",
+    "sk": "elapsed time",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "19",
+     "20",
+     "18",
+     "21"
+    ],
+    "d": "E",
+    "e": "The total is 80, and 80 ÷ 4 = 20.",
+    "id": "DGN-MA-028",
+    "k": 1,
+    "p": "",
+    "q": "What is the mean of 14, 19, 21, and 26?",
+    "sk": "mean",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1/2",
+     "1/5",
+     "3/10",
+     "2/5"
+    ],
+    "d": "E",
+    "e": "The multiples of 3 are 3, 6, and 9, so 3 of 10 outcomes are favorable.",
+    "id": "DGN-MA-029",
+    "k": 2,
+    "p": "",
+    "q": "A fair spinner has 10 equal sections numbered 1 through 10. What is the probability of landing on a multiple of 3?",
+    "sk": "probability—simple event",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "53",
+     "12",
+     "17",
+     "13"
+    ],
+    "d": "E",
+    "e": "Range = greatest − least = 35 − 18 = 17.",
+    "id": "DGN-MA-030",
+    "k": 2,
+    "p": "",
+    "q": "What is the range of 23, 31, 18, 27, and 35?",
+    "sk": "data interpretation—range",
+    "w": "W1"
+   }
+  ]
+ }
+}

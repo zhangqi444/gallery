@@ -1,0 +1,1608 @@
+{
+ "id": "rc",
+ "items": [
+  {
+   "c": [
+    "A garden changed an unused lot into a source of food and community connection.",
+    "Tall buildings make gardening impossible.",
+    "Bees are the most important part of every garden.",
+    "Children prefer Saturday lessons to school."
+   ],
+   "d": "Foundation",
+   "e": "The food, shared tools, recipes, and lessons support both practical and social benefits. B contradicts the successful garden; C is one detail; D is unsupported. Strategy: choose the choice that covers the whole passage, not one example.",
+   "id": "RC-SEP-W1-S1-Q01",
+   "k": 0,
+   "p": "RC-SEP-W1-S1-P",
+   "q": "What is the passage mainly about?",
+   "sk": "Main idea",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "The city hired professional farmers.",
+    "Children planted every tomato.",
+    "Neighbors removed the tall buildings.",
+    "Volunteers built raised beds."
+   ],
+   "d": "Foundation",
+   "e": "The second sentence group directly says volunteers built raised beds. A, B, and C add facts not given. Strategy: point to the exact sentence before choosing.",
+   "id": "RC-SEP-W1-S1-Q02",
+   "k": 3,
+   "p": "RC-SEP-W1-S1-P",
+   "q": "Which action is stated in the passage?",
+   "sk": "Supporting detail/evidence",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "They had stopped eating vegetables.",
+    "They had decided to sell the lot.",
+    "They knew one another better than before.",
+    "They no longer needed a garden."
+   ],
+   "d": "Foundation",
+   "e": "Trading recipes, sharing tools, and planning lessons show closer relationships. A, B, and D have no evidence. Strategy: infer only the conclusion that the listed facts make likely.",
+   "id": "RC-SEP-W1-S1-Q03",
+   "k": 2,
+   "p": "RC-SEP-W1-S1-P",
+   "q": "What can the reader reasonably infer about the neighbors by midsummer?",
+   "sk": "Inference",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "crowded.",
+    "carefully planned.",
+    "far from town.",
+    "empty and unused."
+   ],
+   "d": "Foundation",
+   "e": "Litter had collected on a lot that later became a garden, so it was empty/unused. A is the opposite; B and C are not supported. Strategy: replace the word in its sentence with each choice.",
+   "id": "RC-SEP-W1-S1-Q04",
+   "k": 3,
+   "p": "RC-SEP-W1-S1-P",
+   "q": "As used in the passage, *vacant* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "To show that the garden's visible growth led into its wider social effects.",
+    "To prove that insects teach children to cook.",
+    "To compare city gardens with farms.",
+    "To explain why the soil test failed."
+   ],
+   "d": "Foundation",
+   "e": "The paragraph moves from physical success to community success. B and C invent purposes; D contradicts the passage. Strategy: track what each part adds to the author's developing point.",
+   "id": "RC-SEP-W1-S1-Q05",
+   "k": 0,
+   "p": "RC-SEP-W1-S1-P",
+   "q": "Why does the author mention tomatoes and bees before describing recipes and lessons?",
+   "sk": "Organization/logic",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "was painted green.",
+    "was too small for vegetables.",
+    "had lost its flowers.",
+    "gained importance beyond its appearance."
+   ],
+   "d": "Foundation",
+   "e": "The contrast introduces the garden's social value. A takes the phrase literally; B and C conflict with the passage. Strategy: notice contrasts such as “not simply” for an author's deeper point.",
+   "id": "RC-SEP-W1-S1-Q06",
+   "k": 3,
+   "p": "RC-SEP-W1-S1-P",
+   "q": "The phrase “not simply become greener” emphasizes that the lot",
+   "sk": "Tone/style/figurative language",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "Satellites are replacing ships.",
+    "Sea travel was impossible before radio.",
+    "Lamps are safer than flags in every situation.",
+    "Old and modern communication both depend on shared signal systems."
+   ],
+   "d": "Foundation",
+   "e": "The final sentence connects older codes to modern communication. A and B are false; C is too broad and ignores limits. Strategy: use the conclusion to test the main idea.",
+   "id": "RC-SEP-W1-S2-Q01",
+   "k": 3,
+   "p": "RC-SEP-W1-S2-P",
+   "q": "What is the passage mainly about?",
+   "sk": "Main idea",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "Fog.",
+    "A shared code.",
+    "Daylight.",
+    "A captain's observation."
+   ],
+   "d": "Foundation",
+   "e": "Fog is named with rain and distance as an obstacle. B reduces confusion; C permits flags; D helps communication. Strategy: distinguish a stated obstacle from a stated solution.",
+   "id": "RC-SEP-W1-S2-Q02",
+   "k": 0,
+   "p": "RC-SEP-W1-S2-P",
+   "q": "Which condition could interrupt ship-to-ship communication?",
+   "sk": "Supporting detail/evidence",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "Lamps could be seen through every storm.",
+    "The code gave the pattern an agreed-upon meaning.",
+    "Captains never needed to make decisions.",
+    "The pattern changed every day."
+   ],
+   "d": "Foundation",
+   "e": "Agreement in advance removes the need to guess. A is contradicted by fog and rain; C and D are unsupported. Strategy: connect cause (shared code) to result (quick understanding).",
+   "id": "RC-SEP-W1-S2-Q03",
+   "k": 1,
+   "p": "RC-SEP-W1-S2-P",
+   "q": "Why could a captain act quickly after seeing a known lamp pattern?",
+   "sk": "Inference",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "celebrate.",
+    "copy.",
+    "improve.",
+    "stop or disturb."
+   ],
+   "d": "Foundation",
+   "e": "Weather and distance can stop/disturb communication. A–C do not fit the sentence. Strategy: use the surrounding list of obstacles to define the word.",
+   "id": "RC-SEP-W1-S2-Q04",
+   "k": 3,
+   "p": "RC-SEP-W1-S2-P",
+   "q": "In the passage, *interrupt* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "add a new example of bad weather.",
+    "explain how to build a satellite.",
+    "compare an older practice with a modern one to state a general principle.",
+    "argue that flags should be used today."
+   ],
+   "d": "Foundation",
+   "e": "It links ships' codes and satellites through the shared-system principle. A and B are unrelated; D is not argued. Strategy: ask how the ending changes or broadens the earlier information.",
+   "id": "RC-SEP-W1-S2-Q05",
+   "k": 2,
+   "p": "RC-SEP-W1-S2-P",
+   "q": "The final sentence mainly serves to",
+   "sk": "Organization/logic",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "amused and joking.",
+    "worried and accusing.",
+    "informative and appreciative of careful planning.",
+    "mysterious and frightening."
+   ],
+   "d": "Foundation",
+   "e": "The explanation is calm and respects crews' efforts to reduce confusion. A, B, and D lack textual signals. Strategy: judge tone from word choice and purpose, not topic alone.",
+   "id": "RC-SEP-W1-S2-Q06",
+   "k": 2,
+   "p": "RC-SEP-W1-S2-P",
+   "q": "The author's tone is best described as",
+   "sk": "Tone/style/figurative language",
+   "w": "W1"
+  },
+  {
+   "c": [
+    "Owls sleep more than falcons.",
+    "Special feathers help owls fly quietly, though the feature has a limit.",
+    "Every bird has velvety wings.",
+    "Prey can always hear an owl coming."
+   ],
+   "d": "Standard",
+   "e": "Feather structure, quiet-flight benefits, and the speed tradeoff are the whole passage. A and C are absent; D contradicts it. Strategy: include both the central mechanism and the author's qualification.",
+   "id": "RC-SEP-W2-S1-Q01",
+   "k": 1,
+   "p": "RC-SEP-W2-S1-P",
+   "q": "Which statement best expresses the main idea?",
+   "sk": "Main idea",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "Break moving air into smaller currents.",
+    "Make the owl's eyes brighter.",
+    "Help the owl build nests.",
+    "Increase the bird's top speed."
+   ],
+   "d": "Standard",
+   "e": "This is directly stated. B and C are invented; D reverses the tradeoff. Strategy: match the noun in the question to the sentence that describes it.",
+   "id": "RC-SEP-W2-S1-Q02",
+   "k": 0,
+   "p": "RC-SEP-W2-S1-P",
+   "q": "What do the fringes on an owl's feathers do?",
+   "sk": "Supporting detail/evidence",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "It could avoid using its wings.",
+    "It could locate prey before the prey notices it.",
+    "It could fly faster than a falcon.",
+    "It could change its feather color."
+   ],
+   "d": "Standard",
+   "e": "Hearing movement and giving less warning together support this conclusion. A, C, and D are unsupported. Strategy: combine two nearby facts rather than making a leap.",
+   "id": "RC-SEP-W2-S1-Q03",
+   "k": 1,
+   "p": "RC-SEP-W2-S1-P",
+   "q": "Why might a hunting owl benefit from hearing faint rustling below?",
+   "sk": "Inference",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "a reward with no cost.",
+    "a bird's hunting call.",
+    "an exchange between two owls.",
+    "a balance in which gaining one benefit means giving up another."
+   ],
+   "d": "Standard",
+   "e": "Quiet flight helps, but the same feathers do not suit high speed. A denies the contrast; B and C misuse the word. Strategy: look after the word for the author's explanation of it.",
+   "id": "RC-SEP-W2-S1-Q04",
+   "k": 3,
+   "p": "RC-SEP-W2-S1-P",
+   "q": "As used in the passage, *tradeoff* means",
+   "sk": "Vocabulary in context",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "giving directions for observing owls.",
+    "changing the subject to falcons.",
+    "denying that feathers matter.",
+    "turning the owl example into a general lesson about adaptations."
+   ],
+   "d": "Standard",
+   "e": "“In nature” generalizes from one animal to a rule about features and limits. A–C misread the function. Strategy: notice when an example is followed by a general statement.",
+   "id": "RC-SEP-W2-S1-Q05",
+   "k": 3,
+   "p": "RC-SEP-W2-S1-P",
+   "q": "The last sentence broadens the passage by",
+   "sk": "Organization/logic",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "admiration for an unusual adaptation.",
+    "anger at birds.",
+    "humor about a failed hunt.",
+    "uncertainty about whether owls exist."
+   ],
+   "d": "Standard",
+   "e": "“Remarkably” signals mild wonder while the passage remains scientific. B–D lack support. Strategy: pay attention to evaluative adjectives.",
+   "id": "RC-SEP-W2-S1-Q06",
+   "k": 0,
+   "p": "RC-SEP-W2-S1-P",
+   "q": "The phrase “remarkably little noise” creates a tone of",
+   "sk": "Tone/style/figurative language",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "Maps should show every street.",
+    "Cartographers cannot draw curved objects.",
+    "A map's choices should be judged by the purpose it serves.",
+    "Subway maps are more accurate than navigation charts."
+   ],
+   "d": "Standard",
+   "e": "The examples show different maps serving different jobs. A and B are false; D makes an unsupported comparison. Strategy: select the claim supported by all examples.",
+   "id": "RC-SEP-W2-S2-Q01",
+   "k": 2,
+   "p": "RC-SEP-W2-S2-P",
+   "q": "What is the main point of the passage?",
+   "sk": "Main idea",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "Water depth.",
+    "Restaurant locations.",
+    "Station colors.",
+    "Garden paths."
+   ],
+   "d": "Standard",
+   "e": "Water depth is named with position and hazards. B–D are not mentioned. Strategy: find the exact example named in the passage.",
+   "id": "RC-SEP-W2-S2-Q02",
+   "k": 0,
+   "p": "RC-SEP-W2-S2-P",
+   "q": "Which feature does the passage say a navigation chart emphasizes?",
+   "sk": "Supporting detail/evidence",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "Streets no longer exist near stations.",
+    "Riders need a clear route between stations more than a full street picture.",
+    "Cartographers do not know city streets.",
+    "Navigation charts are easier to make."
+   ],
+   "d": "Standard",
+   "e": "The passage says omissions can make stations easier to follow. A, C, and D are invented. Strategy: infer the practical reason from the stated purpose.",
+   "id": "RC-SEP-W2-S2-Q03",
+   "k": 1,
+   "p": "RC-SEP-W2-S2-P",
+   "q": "Why might a subway map leave out many streets?",
+   "sk": "Inference",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "a guess about the future.",
+    "a speech made to an audience.",
+    "a way of representing the curved Earth on a flat map.",
+    "a beam of light from a projector."
+   ],
+   "d": "Standard",
+   "e": "The previous sentence defines the mapping sense. A, B, and D are other meanings. Strategy: choose the meaning that fits this subject, not the familiar meaning.",
+   "id": "RC-SEP-W2-S2-Q04",
+   "k": 2,
+   "p": "RC-SEP-W2-S2-P",
+   "q": "In the passage, *projection* is best understood as",
+   "sk": "Vocabulary in context",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "They prove maps should be identical.",
+    "They list two dangers of travel.",
+    "They show the order in which maps were invented.",
+    "They contrast two purposes to support the author's claim."
+   ],
+   "d": "Standard",
+   "e": "One prioritizes easy routes; the other precise water information. A–C misstate the comparison. Strategy: label each example's job, then identify the relationship.",
+   "id": "RC-SEP-W2-S2-Q05",
+   "k": 3,
+   "p": "RC-SEP-W2-S2-P",
+   "q": "How are the subway-map and navigation-chart examples related?",
+   "sk": "Organization/logic",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "suspicious of all maps.",
+    "practical and thoughtful about how maps are used.",
+    "frightened of making mistakes.",
+    "entertained by cartographers."
+   ],
+   "d": "Standard",
+   "e": "It directs readers to match a map to its job. A is too negative; C and D are unsupported. Strategy: turn the author's advice into a brief attitude description.",
+   "id": "RC-SEP-W2-S2-Q06",
+   "k": 1,
+   "p": "RC-SEP-W2-S2-P",
+   "q": "The final sentence encourages readers to be",
+   "sk": "Tone/style/figurative language",
+   "w": "W2"
+  },
+  {
+   "c": [
+    "Storms cannot damage shelves.",
+    "Wet books should always be thrown away.",
+    "A school gym is the best place for a library.",
+    "The library learned from storm damage and rebuilt with better preparation."
+   ],
+   "d": "Standard",
+   "e": "The rescue, inventory, higher shelves, bins, and final lesson all support it. A–C are false or too narrow. Strategy: make sure a summary includes problem, response, and result.",
+   "id": "RC-SEP-W3-S1-Q01",
+   "k": 3,
+   "p": "RC-SEP-W3-S1-P",
+   "q": "Which statement best summarizes the passage?",
+   "sk": "Main idea",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "Predict the next storm.",
+    "Train new volunteers.",
+    "Identify essential works to replace.",
+    "Move books to another town."
+   ],
+   "d": "Standard",
+   "e": "The passage states this directly. A, B, and D are not stated. Strategy: reread the sentence containing the questioned noun.",
+   "id": "RC-SEP-W3-S1-Q02",
+   "k": 2,
+   "p": "RC-SEP-W3-S1-P",
+   "q": "What did the inventory help the library do?",
+   "sk": "Supporting detail/evidence",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "They were used to decorate the gym.",
+    "They were intended to reduce damage in a future emergency.",
+    "They made books heavier.",
+    "They replaced every library shelf."
+   ],
+   "d": "Standard",
+   "e": "They follow the storm and the lesson about future preparation. A, C, and D lack evidence. Strategy: use sequence plus purpose to make a modest inference.",
+   "id": "RC-SEP-W3-S1-Q03",
+   "k": 1,
+   "p": "RC-SEP-W3-S1-P",
+   "q": "What can be inferred about the new waterproof bins?",
+   "sk": "Inference",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "necessary and especially important.",
+    "inexpensive.",
+    "difficult to read.",
+    "recently published."
+   ],
+   "d": "Standard",
+   "e": "The library needed to know which works mattered most to replace. B–D do not follow from the sentence. Strategy: identify what role the item plays in the situation.",
+   "id": "RC-SEP-W3-S1-Q04",
+   "k": 0,
+   "p": "RC-SEP-W3-S1-P",
+   "q": "As used here, *essential* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "To list every book that was saved.",
+    "To introduce a new character who caused the storm.",
+    "To argue that libraries should close.",
+    "To change from factual events to the lesson those events illustrate."
+   ],
+   "d": "Standard",
+   "e": "The quote interprets the repairs, then the ending states the broader idea. A–C are unrelated. Strategy: look for a quotation's role: evidence, voice, or interpretation.",
+   "id": "RC-SEP-W3-S1-Q05",
+   "k": 3,
+   "p": "RC-SEP-W3-S1-P",
+   "q": "Why does the author include the director's phrase before the final two sentences?",
+   "sk": "Organization/logic",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "pointless.",
+    "purely expensive.",
+    "a chance for improvement.",
+    "a reason to avoid libraries."
+   ],
+   "d": "Standard",
+   "e": "“Wiser” signals hopeful improvement after loss. A, B, and D conflict with the ending. Strategy: use a key figurative phrase to identify the author's outlook.",
+   "id": "RC-SEP-W3-S1-Q06",
+   "k": 2,
+   "p": "RC-SEP-W3-S1-P",
+   "q": "“Building a wiser version” presents recovery as",
+   "sk": "Tone/style/figurative language",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "Mara chose not to build a bridge.",
+    "Careful study of a failed trial helped Mara improve her design.",
+    "A bridge can never hold more than ten kilograms.",
+    "Glue is the only material engineers use."
+   ],
+   "d": "Standard",
+   "e": "The failure, measurement, correction, and stronger result form the central chain. A, C, and D are false or too narrow. Strategy: follow the problem-to-response-to-result pattern.",
+   "id": "RC-SEP-W3-S2-Q01",
+   "k": 1,
+   "p": "RC-SEP-W3-S2-P",
+   "q": "What is the passage mainly about?",
+   "sk": "Main idea",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "One joint was glued at a slight angle.",
+    "The bridge had no supports.",
+    "The weights were too light.",
+    "Both sides were identical."
+   ],
+   "d": "Standard",
+   "e": "The passage identifies the angled joint. B–D are contradicted or unsupported. Strategy: choose the precisely stated cause, not a reasonable-sounding guess.",
+   "id": "RC-SEP-W3-S2-Q02",
+   "k": 0,
+   "p": "RC-SEP-W3-S2-P",
+   "q": "What flaw did Mara find?",
+   "sk": "Supporting detail/evidence",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "She wanted to paint them different colors.",
+    "She planned to remove all joints.",
+    "She was looking for a difference that might explain the bending.",
+    "She had already decided the bridge was perfect."
+   ],
+   "d": "Standard",
+   "e": "Comparing sides helped locate the shifted support and angled joint. A and B are invented; D conflicts with her investigation. Strategy: infer a step's purpose from what it helped the person discover.",
+   "id": "RC-SEP-W3-S2-Q03",
+   "k": 2,
+   "p": "RC-SEP-W3-S2-P",
+   "q": "Why did Mara compare the two sides of the bridge?",
+   "sk": "Inference",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "hid.",
+    "showed.",
+    "repaired.",
+    "repeated."
+   ],
+   "d": "Standard",
+   "e": "The first trial showed which part needed attention. A is opposite; C and D are different actions. Strategy: substitute the choice into the full sentence.",
+   "id": "RC-SEP-W3-S2-Q04",
+   "k": 1,
+   "p": "RC-SEP-W3-S2-P",
+   "q": "In the passage, *revealed* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "avoided collecting data.",
+    "changed the topic from bridges to art.",
+    "used the result as evidence rather than ignoring it.",
+    "knew the answer before testing."
+   ],
+   "d": "Standard",
+   "e": "The contrast introduces the scientific response: measuring and comparing. A and D oppose it; B is irrelevant. Strategy: contrast words often signal the important choice an author wants you to notice.",
+   "id": "RC-SEP-W3-S2-Q05",
+   "k": 2,
+   "p": "RC-SEP-W3-S2-P",
+   "q": "The sentence beginning “Instead of hiding” mainly shows that Mara",
+   "sk": "Organization/logic",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "produces useful information.",
+    "has no result at all.",
+    "is kept secret.",
+    "happens on purpose to hurt someone."
+   ],
+   "d": "Standard",
+   "e": "The passage treats the first trial as data that improved the second. B–D contradict that view. Strategy: use the ending to interpret an unusual title phrase.",
+   "id": "RC-SEP-W3-S2-Q06",
+   "k": 0,
+   "p": "RC-SEP-W3-S2-P",
+   "q": "The phrase “failed well” would best describe a failure that",
+   "sk": "Tone/style/figurative language",
+   "w": "W3"
+  },
+  {
+   "c": [
+    "Desert rain is easy to predict.",
+    "Seeds use dormancy and quick growth to survive uncertain desert conditions.",
+    "All plants grow only after storms.",
+    "Outer coats make flowers colorful."
+   ],
+   "d": "Challenge",
+   "e": "Dormancy, substantial rain, rapid growth, and survival are all central. A and C are false; D is unsupported. Strategy: select the choice that explains both the pattern and its purpose.",
+   "id": "RC-SEP-W4-S1-Q01",
+   "k": 1,
+   "p": "RC-SEP-W4-S1-P",
+   "q": "What is the main idea of the passage?",
+   "sk": "Main idea",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "Tough outer coats.",
+    "Bright flowers.",
+    "Wet leaves.",
+    "Tall stems."
+   ],
+   "d": "Challenge",
+   "e": "The passage directly names the coats and their function. B–D appear later or not at all. Strategy: separate the seed-stage feature from later plant features.",
+   "id": "RC-SEP-W4-S1-Q02",
+   "k": 0,
+   "p": "RC-SEP-W4-S1-P",
+   "q": "What helps prevent seeds from sprouting after only a little moisture?",
+   "sk": "Supporting detail/evidence",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "The seed would become too heavy.",
+    "It would make rain stop.",
+    "The plant might use energy before enough water was available for full growth.",
+    "The outer coat would become stronger."
+   ],
+   "d": "Challenge",
+   "e": "The last sentence states this cause and risk. A, B, and D are unsupported. Strategy: use an explicit warning to explain a cause-and-effect question.",
+   "id": "RC-SEP-W4-S1-Q03",
+   "k": 2,
+   "p": "RC-SEP-W4-S1-P",
+   "q": "Why could sprouting after every small drizzle be risky?",
+   "sk": "Inference",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "moving rapidly.",
+    "active at night.",
+    "ready to bloom.",
+    "inactive but able to become active later."
+   ],
+   "d": "Challenge",
+   "e": "The seeds wait beneath dry soil, then germinate after a storm. A–C do not fit. Strategy: use what happens before and after the word's condition.",
+   "id": "RC-SEP-W4-S1-Q04",
+   "k": 3,
+   "p": "RC-SEP-W4-S1-P",
+   "q": "As used in the passage, *dormant* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "To explain why waiting for substantial rain is useful.",
+    "To introduce a new kind of desert animal.",
+    "To argue that seeds dislike water.",
+    "To show that all storms are harmful."
+   ],
+   "d": "Challenge",
+   "e": "It gives the consequence that justifies dormancy. B–D misstate the example. Strategy: ask which earlier claim a final example supports.",
+   "id": "RC-SEP-W4-S1-Q05",
+   "k": 0,
+   "p": "RC-SEP-W4-S1-P",
+   "q": "Why does the author end with the example of a small drizzle?",
+   "sk": "Organization/logic",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "laziness.",
+    "a purposeful response to conditions.",
+    "an accident with no benefit.",
+    "a sign that the seed is dead."
+   ],
+   "d": "Challenge",
+   "e": "The phrase directly rejects the idea that waiting is mere inactivity. A, C, and D oppose the passage. Strategy: notice when the author redefines an everyday idea.",
+   "id": "RC-SEP-W4-S1-Q06",
+   "k": 1,
+   "p": "RC-SEP-W4-S1-P",
+   "q": "Calling dormancy an “active survival strategy” shows that the author views waiting as",
+   "sk": "Tone/style/figurative language",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "Athletes should make every school decision.",
+    "Later lunches always solve scheduling problems.",
+    "A school council used evidence and revision to reach a better compromise.",
+    "Music students dislike eating lunch."
+   ],
+   "d": "Challenge",
+   "e": "The passage follows disagreement, trial, evidence, adjustment, and compromise. A, B, and D are too narrow, absolute, or false. Strategy: choose the full decision-making process, not one group's opinion.",
+   "id": "RC-SEP-W4-S2-Q01",
+   "k": 2,
+   "p": "RC-SEP-W4-S2-P",
+   "q": "Which statement best expresses the passage's main idea?",
+   "sk": "Main idea",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "Cafeteria lines would disappear.",
+    "Rehearsal would be shortened.",
+    "Athletes would miss practice.",
+    "Teachers would stop interviewing students."
+   ],
+   "d": "Challenge",
+   "e": "The passage directly states this concern. A, C, and D are not their concern. Strategy: match the group named in the question to its stated reason.",
+   "id": "RC-SEP-W4-S2-Q02",
+   "k": 1,
+   "p": "RC-SEP-W4-S2-P",
+   "q": "What concern did music students raise?",
+   "sk": "Supporting detail/evidence",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "To respond to the setup-time problem found during the trial.",
+    "To make cafeteria lines longer.",
+    "To eliminate lunch completely.",
+    "To avoid collecting evidence."
+   ],
+   "d": "Challenge",
+   "e": "The adjustment follows the finding that groups lost setup time. B–D contradict the passage. Strategy: trace an action back to the result that prompted it.",
+   "id": "RC-SEP-W4-S2-Q03",
+   "k": 0,
+   "p": "RC-SEP-W4-S2-P",
+   "q": "Why did the council move one rehearsal period on two days?",
+   "sk": "Inference",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "impossible to control.",
+    "exciting to watch.",
+    "easy to ignore.",
+    "able to be handled successfully."
+   ],
+   "d": "Challenge",
+   "e": "Cafeteria lines remained workable during the trial. A is opposite; B and C do not fit. Strategy: use the situation's outcome to choose the word's practical meaning.",
+   "id": "RC-SEP-W4-S2-Q04",
+   "k": 3,
+   "p": "RC-SEP-W4-S2-P",
+   "q": "In the passage, *manageable* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "It repeats the athletes' opinion without evidence.",
+    "It provides results that lead directly to the council's adjustment.",
+    "It introduces a historical fact about schools.",
+    "It ends the debate before any decision."
+   ],
+   "d": "Challenge",
+   "e": "The results reveal both a success and a problem, then the next sentence adjusts the plan. A, C, and D misread the sequence. Strategy: look for evidence → response links.",
+   "id": "RC-SEP-W4-S2-Q05",
+   "k": 1,
+   "p": "RC-SEP-W4-S2-P",
+   "q": "What is the role of the sentence beginning “The trial showed”?",
+   "sk": "Organization/logic",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "sarcastic about students.",
+    "gloomy about compromise.",
+    "approving of careful problem-solving.",
+    "angry about lunch."
+   ],
+   "d": "Challenge",
+   "e": "The phrase praises a process that tests claims before deciding. A, B, and D lack support. Strategy: identify whether the author's key phrase praises, criticizes, or neutrally describes.",
+   "id": "RC-SEP-W4-S2-Q06",
+   "k": 2,
+   "p": "RC-SEP-W4-S2-P",
+   "q": "The phrase “replace guesses with evidence” reflects a tone that is",
+   "sk": "Tone/style/figurative language",
+   "w": "W4"
+  },
+  {
+   "c": [
+    "Barnacles are the toughest animals to be found anywhere along a rocky shore at low tide.",
+    "Tide pool animals are built to survive swings in heat and salt that the open sea never brings.",
+    "Tide pools are calm, protected places where small sea creatures stay safe from the harsh ocean.",
+    "Sudden rainstorms are the most serious threat facing ocean animals nearly everywhere in the world."
+   ],
+   "d": "Standard",
+   "e": "The passage lists the pools' fast swings in temperature and salt, shows the animals' equipment for meeting them, and ends by calling them “specialists in a kind of hardship.” The choice calling the pools calm and protected is exactly the comfortable idea the third paragraph exists to correct, and the choice about barnacles offers one animal as the whole point. Strategy: choose the choice that covers the whole passage, not one example.",
+   "id": "RC-W5-S1-Q01",
+   "k": 1,
+   "p": "RC-W5-S1-P",
+   "q": "Which statement best expresses the main idea of the passage?",
+   "sk": "Main idea",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "They swim out into deeper water and wait there until the tide returns.",
+    "They travel back to a shallow groove worn into the rock.",
+    "They pull a set of hard plates shut over their soft bodies.",
+    "They slide under ledges and into cracks the light cannot reach."
+   ],
+   "d": "Foundation",
+   "e": "The second paragraph states that when the sun is high, sea stars slide under ledges and into cracks the light cannot reach. Pulling hard plates shut belongs to the barnacle, and travelling back to a worn groove belongs to the limpet. Strategy: check that the detail belongs to the animal the question names.",
+   "id": "RC-W5-S1-Q02",
+   "k": 3,
+   "p": "RC-W5-S1-P",
+   "q": "According to the passage, how do sea stars avoid the worst of the sun?",
+   "sk": "Supporting detail/evidence",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "other limpets are unable to reach that part of the rock at all.",
+    "the rock inside the groove stays cooler than any other place on the shore.",
+    "its shell seals tightly against the worn stone and keeps water in.",
+    "the groove holds bits of food that the limpet has stored there for later."
+   ],
+   "d": "Challenge",
+   "e": "The paragraph is about equipment for staying wet — the barnacle traps a reserve of seawater — and it says the limpet's shell fits the worn stone tightly, which is what the return trip buys. The choice about cooler rock borrows the sea star's shade, which the passage never connects to the groove. Strategy: combine two nearby facts rather than making a leap.",
+   "id": "RC-W5-S1-Q03",
+   "k": 2,
+   "p": "RC-W5-S1-P",
+   "q": "The passage suggests that a limpet travels back to its own groove before the water leaves because",
+   "sk": "Inference",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "a store kept back for later use.",
+    "a quiet, shy way of behaving around others.",
+    "an order for a seat placed ahead of time.",
+    "a wild area set aside to protect animals."
+   ],
+   "d": "Standard",
+   "e": "The barnacle traps seawater “enough to keep its body damp until the ocean comes back,” so the reserve is a store saved for later. The protected-area meaning is a real sense of the word and the one a nature passage invites, but a barnacle's shell is not a wildlife preserve. Strategy: test each dictionary meaning inside the actual sentence.",
+   "id": "RC-W5-S1-Q04",
+   "k": 0,
+   "p": "RC-W5-S1-P",
+   "q": "In the second paragraph, *reserve* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "correct a comfortable idea about tide pools and say what the pools really demand.",
+    "offer one more example of the special equipment a shore animal carries.",
+    "explain how fish from deep water are collected and studied by scientists.",
+    "describe how the pools look to someone standing at a distance from the shore."
+   ],
+   "d": "Challenge",
+   "e": "It opens “It would be a mistake to picture a tide pool as a gentler ocean” and ends by calling the pool the harsher place. The choices about another animal's equipment and about the view from a distance describe the two paragraphs before it, not this one. Strategy: ask what a paragraph does to the ones around it, not only what it mentions.",
+   "id": "RC-W5-S1-Q05",
+   "k": 0,
+   "p": "RC-W5-S1-P",
+   "q": "The third paragraph mainly serves to",
+   "sk": "Organization/logic",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "amused by how small and helpless the pool creatures are.",
+    "worried that the pools along the rocky shore will soon disappear.",
+    "doubtful that they truly survive the changes described.",
+    "respectful of how well suited they are to a difficult place."
+   ],
+   "d": "Foundation",
+   "e": "“Equipment, not luck” and “specialists in a kind of hardship” credit the animals with skill instead of pitying them, which rules out the amused reading. Strategy: judge attitude from the author's word choices about the subject, not from the topic alone.",
+   "id": "RC-W5-S1-Q06",
+   "k": 3,
+   "p": "RC-W5-S1-P",
+   "q": "The author's attitude toward the animals of the tide pool is best described as",
+   "sk": "Tone/style/figurative language",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "Home delivery of mail to farmhouses was the most important change of the 1890s.",
+    "Bicycles could travel over deep, muddy roads more easily than heavy wagons could.",
+    "Farmers in the 1880s did not care at all what condition their dirt roads were in.",
+    "A campaign by bicycle riders prepared the roads automobiles would later use."
+   ],
+   "d": "Standard",
+   "e": "The passage follows one thread from the riders' Good Roads campaign to the surveys, road departments, and public money that were “already in place” when cars arrived. The choice about mail delivery takes a single step in that chain and inflates it into the whole story. Strategy: a main idea has to account for the final paragraph too.",
+   "id": "RC-W5-S2-Q01",
+   "k": 3,
+   "p": "RC-W5-S2-P",
+   "q": "Which statement best expresses the main idea of the passage?",
+   "sk": "Main idea",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "That a local cycling club map and inspect the route first.",
+    "That the route be one a mail wagon could travel all year.",
+    "That each farm family pay a small yearly fee for the service.",
+    "That the road be paved with stone from end to end."
+   ],
+   "d": "Foundation",
+   "e": "The third paragraph says the Post Office “would only serve routes a mail wagon could travel all year.” The choice about a cycling club mapping the route takes a real detail about the clubs, which mapped the worst stretches, and attaches it to the wrong group. Strategy: match the requirement to the group that actually set it.",
+   "id": "RC-W5-S2-Q02",
+   "k": 1,
+   "p": "RC-W5-S2-P",
+   "q": "According to the passage, what did the Post Office require before it would carry letters to a farmhouse?",
+   "sk": "Supporting detail/evidence",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "A bad road had begun to cost farm families something they wanted.",
+    "Automobiles had already worn the county's dirt roads down past repair.",
+    "Farmers had stopped using the heavy wagons that cut ruts in the roads.",
+    "The cycling clubs had offered to pay for all of the work themselves."
+   ],
+   "d": "Challenge",
+   "e": "Once a good road was “the difference between getting the mail and not getting it,” paving stopped being a favor to visiting riders and became a local need. The choice about automobiles reverses the passage's order, since cars became common only after these changes. Strategy: look at the sentence just before a result to find its cause.",
+   "id": "RC-W5-S2-Q03",
+   "k": 0,
+   "p": "RC-W5-S2-P",
+   "q": "Why did counties that had refused to spend a dollar begin to build roads?",
+   "sk": "Inference",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "grew steadily larger in size.",
+    "fastened onto a board or a wall.",
+    "organized and carried out.",
+    "climbed up onto something tall."
+   ],
+   "d": "Challenge",
+   "e": "The clubs “mounted a campaign they called Good Roads,” and the next sentence lists the doing of it: printing pamphlets, mapping stretches, asking legislatures for money. Climbing up onto something is the meaning a reader expects in a passage full of bicycles, but no one climbs onto a campaign. Strategy: let the sentence after the word show which meaning is at work.",
+   "id": "RC-W5-S2-Q04",
+   "k": 2,
+   "p": "RC-W5-S2-P",
+   "q": "In the second paragraph, *mounted* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "list all of the printed pamphlets and route maps that the cycling clubs produced.",
+    "repeat the farmers' objection about taxes and city sportsmen in different words.",
+    "explain the way the mail had been carried to farm families in earlier centuries.",
+    "mark the point after which paving was no longer dismissed as a favor to city riders."
+   ],
+   "d": "Standard",
+   "e": "It stands between the farmers' complaint about city sportsmen and the counties that suddenly began to build, so it announces a switch in reasons. The choice about repeating the objection misses that the sentence overturns the complaint rather than restating it. Strategy: a short sentence set between longer passages usually marks a turn.",
+   "id": "RC-W5-S2-Q05",
+   "k": 3,
+   "p": "RC-W5-S2-P",
+   "q": "The sentence “The argument changed when the mail changed” mainly serves to",
+   "sk": "Organization/logic",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "the author wishes that automobiles had never replaced bicycles at all.",
+    "drivers benefited from work that cyclists had done for reasons of their own.",
+    "drivers should have repaid the old cycling clubs with money of their own.",
+    "cyclists handled the early automobiles better than other people did."
+   ],
+   "d": "Foundation",
+   "e": "No payment appears anywhere in the passage; the debt is figurative, naming a benefit drivers received from a campaign fought for bicycles. The choice about repaying the clubs with money takes the figure of speech literally, which is the usual trap in this kind of item. Strategy: ask what an image stands for before accepting its literal sense.",
+   "id": "RC-W5-S2-Q06",
+   "k": 1,
+   "p": "RC-W5-S2-P",
+   "q": "In the last sentence, saying that drivers “owed a debt to people who had been pedaling” means that",
+   "sk": "Tone/style/figurative language",
+   "w": "W5"
+  },
+  {
+   "c": [
+    "He realizes that his grandmother left him more work than he could manage.",
+    "He discovers that he is not suited to selling fruit at a busy market stall.",
+    "He gives up a rehearsed sales line and lets customers judge the fruit themselves.",
+    "He learns that neat handwriting matters far more than he had ever thought."
+   ],
+   "d": "Foundation",
+   "e": "Theo breaks off his practiced sentence, hands over a cherry instead of a description, and by four o’clock the crate is empty. The choice about neat handwriting reverses the ending, in which the hastily written, messier line is the one that works. Strategy: let the final sentence test your choice.",
+   "id": "RC-W6-S1-Q01",
+   "k": 2,
+   "p": "RC-W6-S1-P",
+   "q": "What does the scene mainly show about Theo?",
+   "sk": "Main idea",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "He crosses out a line and adds new words in messier handwriting.",
+    "He copies the prices onto it from his grandmother’s own list.",
+    "He throws the card away and writes out a new one from scratch.",
+    "He props it up against the crate of plums at the end of the table."
+   ],
+   "d": "Foundation",
+   "e": "The last paragraph says he crossed out one line and wrote underneath “in handwriting that was not nearly as neat.” The choice about propping the card against the plums moves a real detail — the card propped against the scale — to the wrong moment in the scene. Strategy: watch where in the scene each detail happens.",
+   "id": "RC-W6-S1-Q02",
+   "k": 0,
+   "p": "RC-W6-S1-P",
+   "q": "What does Theo do to his price card after the woman buys the cherries?",
+   "sk": "Supporting detail/evidence",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "Theo could keep count of how many cherries he had sold.",
+    "Theo’s grandmother would have something to eat later on.",
+    "bruised cherries could be kept out of the customers’ sight.",
+    "customers could taste a cherry before buying."
+   ],
+   "d": "Standard",
+   "e": "Theo assumes the bowl is her lunch, but it does its work the instant he offers a cherry to the woman, and he then sets it on the table “where people could reach it.” The lunch choice is what the character guesses, not what the scene shows. Strategy: trust what happens in a scene over what a character assumes.",
+   "id": "RC-W6-S1-Q03",
+   "k": 3,
+   "p": "RC-W6-S1-P",
+   "q": "The bowl under the table was most likely put there so that",
+   "sk": "Inference",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "to be bothered by something.",
+    "to take care of.",
+    "to hold in his memory.",
+    "to obey without arguing."
+   ],
+   "d": "Challenge",
+   "e": "His grandmother leaves and “for two hours the stall was his to mind,” so he is the one looking after it. Being bothered by something is the meaning most readers meet first, as in “I don’t mind,” but a stall cannot be bothered by anybody. Strategy: substitute each choice into the sentence and hear which one survives.",
+   "id": "RC-W6-S1-Q04",
+   "k": 1,
+   "p": "RC-W6-S1-P",
+   "q": "In the first paragraph, *mind* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "Theo abandons the sentence he practiced and changes his approach.",
+    "Theo’s grandmother comes back to the stall with the change.",
+    "the woman in the yellow coat interrupts Theo with another question.",
+    "Theo forgets the prices he had memorized before the market opened."
+   ],
+   "d": "Challenge",
+   "e": "The narrator says he stopped “because he could hear how it sounded: like a boy repeating something,” and from there he shows the fruit instead of describing it. The choice about an interruption gives the woman credit for a decision Theo makes on his own. Strategy: punctuation that breaks a sentence often marks the turn of a scene.",
+   "id": "RC-W6-S1-Q05",
+   "k": 0,
+   "p": "RC-W6-S1-P",
+   "q": "The dash in “They’re excellent for—” marks the point at which",
+   "sk": "Organization/logic",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "wistful and sad about the end of a long day at the market.",
+    "quietly amused, setting what looked good beside what actually sold.",
+    "excited and boastful about how much money Theo managed to earn.",
+    "sharply critical of the mistakes Theo made over the course of the day."
+   ],
+   "d": "Standard",
+   "e": "The plums are called “arranged so beautifully” at the exact moment we learn they did not sell, a small joke the narrator makes without scolding Theo. Reading the line as sharp criticism mistakes gentle humor for blame. Strategy: notice when a detail from the opening returns with its meaning changed.",
+   "id": "RC-W6-S1-Q06",
+   "k": 1,
+   "p": "RC-W6-S1-P",
+   "q": "The last sentence, about the empty crate and the beautifully arranged plums, is best described as",
+   "sk": "Tone/style/figurative language",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "A damper is the only device that keeps a very tall tower standing up.",
+    "Strong wind is the greatest danger that any tall building will ever face.",
+    "A building that moves at all in the wind has been built incorrectly.",
+    "A tall building is built to sway a little and then stop quickly."
+   ],
+   "d": "Standard",
+   "e": "The passage first explains why a frame is given room to bend and then why engineers work to make the motion fade fast, ending with what they actually measure. The choice naming the damper treats one device as the entire design and ignores the frame's give. Strategy: a main idea must hold both halves of a two-part explanation.",
+   "id": "RC-W6-S2-Q01",
+   "k": 3,
+   "p": "RC-W6-S2-P",
+   "q": "Which statement best expresses the main idea of the passage?",
+   "sk": "Main idea",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "Inside the outer wall on every floor from top to bottom.",
+    "Beside the scale model inside the engineers' wind tunnel.",
+    "High in the building, on cables or on a slick steel surface.",
+    "Below the ground floor, deep inside the building's foundation."
+   ],
+   "d": "Foundation",
+   "e": "The third paragraph describes an enormous weight “hung high in the building on cables or resting on a slick steel surface.” The wind tunnel choice reuses the final paragraph, where models, not dampers, are placed. Strategy: reread the sentence that names the thing the question asks about.",
+   "id": "RC-W6-S2-Q02",
+   "k": 2,
+   "p": "RC-W6-S2-P",
+   "q": "According to the passage, where is a damper placed in a tower?",
+   "sk": "Supporting detail/evidence",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "make a building that is already safe feel steadier to the people inside.",
+    "keep the building from moving at all, even during the hardest storm.",
+    "make the steel frame far stiffer than it would otherwise have been.",
+    "lower the cost of putting up a tall tower in a crowded city."
+   ],
+   "d": "Challenge",
+   "e": "The paragraph says long swaying “feels alarming to the people inside it, even when it is perfectly safe,” and the damper is introduced as the answer to that problem. The choice about stopping all motion ignores “the sway fades in seconds instead of minutes,” which shortens the movement rather than ending it. Strategy: notice the exact problem a device is introduced to solve.",
+   "id": "RC-W6-S2-Q03",
+   "k": 0,
+   "p": "RC-W6-S2-P",
+   "q": "The passage suggests that a damper is added mainly to",
+   "sk": "Inference",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "a willingness to share things with others.",
+    "a sudden collapse under a heavy weight.",
+    "a present that is offered without charge.",
+    "the ability to bend and spring back."
+   ],
+   "d": "Challenge",
+   "e": "The frame built with “a measured amount of give” bends, sheds the energy of the gust, and “returns to where it started.” The sudden-collapse choice is tempting because a beam can “give way,” but this frame comes back rather than failing. Strategy: read one sentence past the word before choosing.",
+   "id": "RC-W6-S2-Q04",
+   "k": 3,
+   "p": "RC-W6-S2-P",
+   "q": "In the second paragraph, *give* most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "give an example of a tall tower that was damaged in a winter storm.",
+    "shift the discussion from why buildings bend to how the motion stops.",
+    "introduce an objection that the author goes on to reject in detail.",
+    "restate the point of the opening paragraph in stronger, plainer language."
+   ],
+   "d": "Standard",
+   "e": "Everything before it explains bending; everything after it explains the damper that shortens the sway. Calling it an objection fails, because the author agrees with the sentence and builds on it instead of answering it. Strategy: read the sentences on both sides to see what a hinge sentence separates.",
+   "id": "RC-W6-S2-Q05",
+   "k": 1,
+   "p": "RC-W6-S2-P",
+   "q": "The sentence “The harder problem is not the leaning but the lingering” mainly serves to",
+   "sk": "Organization/logic",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "doubt about whether wind tunnel tests are worth the trouble.",
+    "quiet confidence about what the engineers already know.",
+    "alarm at how far a tall building moves during a storm.",
+    "impatience with engineers who measure too many things."
+   ],
+   "d": "Foundation",
+   "e": "The short, flat sentences — “They already know it will” — present the movement as settled fact rather than a surprise or a worry. Alarm is the reaction the whole passage argues against, beginning with “it is not a flaw.” Strategy: read a passage's closing lines for the author's settled position.",
+   "id": "RC-W6-S2-Q06",
+   "k": 1,
+   "p": "RC-W6-S2-P",
+   "q": "The last three sentences (“In a wind tunnel … how quickly it stops.”) create a tone of",
+   "sk": "Tone/style/figurative language",
+   "w": "W6"
+  },
+  {
+   "c": [
+    "prove that repairing a broken object always costs a school less money than replacing it with a new one.",
+    "describe the objects that the Thursday repair table at Fenwick Middle School brought back in its first term.",
+    "explain why building projects such as birdhouses and model bridges should be removed from schools entirely.",
+    "argue that schools should set aside regular time for repair, because repairing teaches careful attention."
+   ],
+   "d": "Standard",
+   "e": "The author asks for “one bench, one box of tools, and one period a week for repair” and says the point of the hour “is to teach a habit of looking.” The choice about the Fenwick table names one supporting example, and the choice about saving money is contradicted by the author's own words that the point “is not to save the school money on chairs.” Strategy: choose the choice that covers the whole argument, not one example.",
+   "id": "RC-W7-S1-Q01",
+   "k": 3,
+   "p": "RC-W7-S1-P",
+   "q": "The passage is mainly written to",
+   "sk": "Main idea",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "Forty-one items, every one of them either a lamp or an umbrella.",
+    "Forty-one items, including eleven lamps and fifteen damaged library books.",
+    "Four items, one for each of the four students who stayed until June.",
+    "Fifteen backpacks and nine library books with badly broken spines."
+   ],
+   "d": "Foundation",
+   "e": "The passage lists forty-one items: eleven lamps, nine backpacks, six umbrellas, and fifteen library books with broken spines. The choice naming four items confuses the four long-term students with the count of objects, and the backpacks-and-books choice swaps those two numbers. Strategy: put your finger on the exact sentence before choosing.",
+   "id": "RC-W7-S1-Q02",
+   "k": 1,
+   "p": "RC-W7-S1-P",
+   "q": "According to the passage, what did the Thursday repair table bring back during its first term?",
+   "sk": "Supporting detail/evidence",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "the school spends far less money on new furniture than it did the year before.",
+    "every broken object brought to the bench is successfully fixed by a student.",
+    "students finish their repairs faster than a paid repair shop nearby would.",
+    "students keep coming back after the first excitement and show newcomers what they know."
+   ],
+   "d": "Challenge",
+   "e": "The author calls four the number worth watching — the students still at the table in June, “showing newcomers how to seat a screw” — so a lasting habit and passed-on skill are the real measure. The choice about furniture savings is ruled out by “not to save the school money,” and the choice about fixing everything by the admission that “some objects truly cannot be mended.” Strategy: infer from what the author calls important, not from what sounds sensible in general.",
+   "id": "RC-W7-S1-Q03",
+   "k": 3,
+   "p": "RC-W7-S1-P",
+   "q": "The author would most likely say that a school's repair period is working well when",
+   "sk": "Inference",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "making a loud noise.",
+    "sturdy and undamaged.",
+    "cheap and easy to replace.",
+    "sleeping very deeply."
+   ],
+   "d": "Standard",
+   "e": "The sentence contrasts one loose leg with the rest of the chair, so the word describes the parts that are still whole and strong. Making a noise and sleeping deeply are the word's everyday meanings, and neither fits a chair being examined for damage. Strategy: read the whole sentence with each choice substituted in.",
+   "id": "RC-W7-S1-Q04",
+   "k": 1,
+   "p": "RC-W7-S1-P",
+   "q": "As used in the second paragraph, “sound” most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "It offers the first evidence from a real school that a repair table can actually work.",
+    "It lists the tools and the supplies that a school repair bench would need to buy.",
+    "It states the objection the author hears most often, grants part of it, and then answers it.",
+    "It gives up the claim made in the first paragraph and proposes a completely different plan."
+   ],
+   "d": "Challenge",
+   "e": "The paragraph names the objection the author hears most often (repairing is slower), concedes “That is true,” and then answers it: “the objection mistakes what the period is for.” The choice about evidence from a real school describes the third paragraph, which is where Fenwick appears. Strategy: ask what job each paragraph does for the argument, not just what it mentions.",
+   "id": "RC-W7-S1-Q05",
+   "k": 2,
+   "p": "RC-W7-S1-P",
+   "q": "What does the second paragraph do in the author's argument?",
+   "sk": "Organization/logic",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "turns a fact that seems to weaken the argument into a reason for it.",
+    "admits that the argument has finally been defeated by modern machines.",
+    "is unsure whether repair is really worth teaching to students after all.",
+    "is making a joke about how complicated modern machines have become."
+   ],
+   "d": "Challenge",
+   "e": "The author grants that machines are getting harder to open and that some things cannot be mended, then argues that scarcity makes the skill of judging what can be fixed more valuable, not less. The choices about defeat and uncertainty misread a confident closing as a retreat. Strategy: watch what an author does with a fact that seems unhelpful — a strong writer often puts it to work.",
+   "id": "RC-W7-S1-Q06",
+   "k": 0,
+   "p": "RC-W7-S1-P",
+   "q": "In the last paragraph the author writes that the difficulty of repair “does not weaken the case; it sharpens it.” This shows that the author",
+   "sk": "Tone/style/figurative language",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "how ice on the Niagara River trapped a boy on the wrong side for eight long days.",
+    "how a group of engineers decided that a bridge across the Niagara Gorge could not be built.",
+    "how a boy's kite took the first line across the Niagara Gorge and made a bridge possible.",
+    "how suspension bridges are built in northern places with long, cold winters."
+   ],
+   "d": "Standard",
+   "e": "The passage opens with the need for “one thin thread” to reach the far side and closes with a bridge standing “where a boy's kite string had gone first.” The eight days of ice are one episode inside that story, and the choice about engineers giving up contradicts the ending. Strategy: the main idea should match the first sentence and the last sentence at once.",
+   "id": "RC-W7-S2-Q01",
+   "k": 2,
+   "p": "RC-W7-S2-P",
+   "q": "The passage is mainly about",
+   "sk": "Main idea",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "The rocky gorge was much narrower on the Canadian side than elsewhere.",
+    "The winter ferry did not run from the American rim at any time in January.",
+    "The wind in the gorge blew from the Canadian side toward the American side.",
+    "The five-dollar prize could only be claimed by someone standing on the Canadian rim."
+   ],
+   "d": "Foundation",
+   "e": "The passage states that the steady wind blew from the Canadian side toward the American side, so a kite launched from the American rim “would be carried away from the crossing.” The choices about a narrower gorge, the prize, and the ferry add reasons the passage never gives, and the walls are described as eight hundred feet apart with no narrow place mentioned. Strategy: a “why” question usually has its answer in the sentence right before or after the action.",
+   "id": "RC-W7-S2-Q02",
+   "k": 2,
+   "p": "RC-W7-S2-P",
+   "q": "According to the passage, why did Homan Walsh cross to the Canadian side before flying his kite?",
+   "sk": "Supporting detail/evidence",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "had built a far stronger kite than anyone else who entered the contest.",
+    "had helped the engineers build several other bridges before this one.",
+    "was the only person the engineer in charge allowed to enter the contest.",
+    "worked out how the wind moved through the gorge and changed where he started."
+   ],
+   "d": "Challenge",
+   "e": "The passage says he “understood something the adults seem to have overlooked” and then explains the wind, which is why he ferried across before launching. The stronger-kite choice is unsupported — his kite had to be mended, not upgraded — and a contest open to “whoever” could do it rules out the choice about being the only entrant. Strategy: an inference must be built from details the passage actually supplies.",
+   "id": "RC-W7-S2-Q03",
+   "k": 3,
+   "p": "RC-W7-S2-P",
+   "q": "The passage suggests that Homan's real advantage over the other contestants was that he",
+   "sk": "Inference",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "stayed whole under the strain.",
+    "carried or grasped in the hands.",
+    "took place, as a meeting does.",
+    "contained a certain amount inside."
+   ],
+   "d": "Standard",
+   "e": "This flight is set against the earlier one, in which “the line snapped,” so the string this time stayed unbroken while the kite pulled on it. Carrying something in the hands is the first meaning most readers reach for, but nobody is holding the string in that sentence. Strategy: when a familiar word turns up in an odd place, find the sentence it answers and let that decide the meaning.",
+   "id": "RC-W7-S2-Q04",
+   "k": 0,
+   "p": "RC-W7-S2-P",
+   "q": "As used in the third paragraph (“This time the string held”), “held” most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "list the goods that the ferries carried back and forth across the Niagara River.",
+    "argue that public contests are the best way to solve difficult engineering problems.",
+    "describe in detail how Homan found his kite on the far bank and then repaired it.",
+    "show how a string too weak to hold real weight became a cable strong enough for a bridge."
+   ],
+   "d": "Challenge",
+   "e": "The paragraph moves from string to cord to rope to cable, showing how the smallest beginning grew into the bridge. Finding and mending the kite belongs to the paragraph before it, and the passage never argues that contests are the best way to solve problems. Strategy: match a paragraph to its job, and check that the job is not already done somewhere else.",
+   "id": "RC-W7-S2-Q05",
+   "k": 3,
+   "p": "RC-W7-S2-P",
+   "q": "The last paragraph mainly serves to",
+   "sk": "Organization/logic",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "a lucky accident that the engineers did not really need.",
+    "a small act that made a much larger structure possible.",
+    "an ordinary errand that any child nearby could have run.",
+    "a reckless stunt that the author quietly disapproves of."
+   ],
+   "d": "Challenge",
+   "e": "Setting the thin string beside the finished bridge in one sentence is the author's way of honoring a small beginning. The lucky-accident reading fails because the engineers announced the contest precisely to get that first line, and the ordinary-errand reading is contradicted by the wind reasoning and the eight-day wait. Strategy: ask what an author's final image is quietly praising.",
+   "id": "RC-W7-S2-Q06",
+   "k": 1,
+   "p": "RC-W7-S2-P",
+   "q": "The closing words, “until a bridge stood where a boy's kite string had gone first,” show that the author views Homan's flight as",
+   "sk": "Tone/style/figurative language",
+   "w": "W7"
+  },
+  {
+   "c": [
+    "a grandmother who teaches her granddaughter to swim across a lake.",
+    "a girl who gets thoroughly soaked during an early morning on a lake.",
+    "a girl who becomes strong enough to row after an hour of hard practice.",
+    "a girl who discovers that skill, not raw force, is what moves a boat."
+   ],
+   "d": "Standard",
+   "e": "The last lines say plainly that Nadia “was not stronger than she had been an hour before” but “had simply stopped fighting the thing she was trying to move.” The choice about growing strong enough is tempting because it is what usually happens in practice stories, but the passage denies it in so many words. Strategy: when a story ends by correcting an expectation, that correction is the main idea.",
+   "id": "RC-W8-S1-Q01",
+   "k": 3,
+   "p": "RC-W8-S1-P",
+   "q": "The passage is mainly about",
+   "sk": "Main idea",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "The boat slides forward without a sound and the ripples spread behind in even rings.",
+    "The blades slap the surface, spray soaks her knees, and the boat barely moves.",
+    "The heron on the shore is startled by the noise and flies off quickly.",
+    "One of the wooden oars snaps in half and drops into the cold water."
+   ],
+   "d": "Foundation",
+   "e": "The second paragraph states that the boat barely moved, the blades slapped the surface, and the spray soaked her knees. The silent forward glide describes the later, corrected stroke, and the startled heron reverses the bird, which watches her and then lifts away “without hurrying.” Strategy: check that a detail belongs to the part of the story the question asks about.",
+   "id": "RC-W8-S1-Q02",
+   "k": 1,
+   "p": "RC-W8-S1-P",
+   "q": "What happens the first time Nadia pulls with all her weight?",
+   "sk": "Supporting detail/evidence",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "is annoyed with her granddaughter and has decided not to speak to her again.",
+    "does not know how to row a boat and so has nothing useful to offer.",
+    "has quietly fallen asleep in the stern of the boat while Nadia works.",
+    "wants Nadia to feel the problem herself before she is told how to fix it."
+   ],
+   "d": "Standard",
+   "e": "Her silence is called “her way of teaching,” and she speaks only after Nadia's hard pulling has failed, giving three exact instructions. The choice about not knowing how to row is impossible given how expert that advice turns out to be, and her folded hands and watchful stillness rule out sleep. Strategy: when a story labels a behavior, use that label to explain the character's purpose.",
+   "id": "RC-W8-S1-Q03",
+   "k": 3,
+   "p": "RC-W8-S1-P",
+   "q": "The grandmother most likely says nothing at first because she",
+   "sk": "Inference",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "drop all the way to the lake bottom.",
+    "sting the hands sharply and painfully.",
+    "take firm hold of the water.",
+    "cut into something with sharp teeth."
+   ],
+   "d": "Challenge",
+   "e": "The next paragraph shows exactly what she meant: Nadia lowers the blade and feels “the water take hold of it, a firm and surprising grip.” Cutting with teeth is the everyday meaning of the word and has nothing to do with an oar. Strategy: when a word is used oddly, read on — a story often shows you the meaning a sentence later.",
+   "id": "RC-W8-S1-Q04",
+   "k": 2,
+   "p": "RC-W8-S1-P",
+   "q": "When the grandmother says, “Let it bite,” she means that the blade should",
+   "sk": "Vocabulary in context",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "replaces Nadia's effort with a method, and the boat's behavior changes at once.",
+    "returns to the heron on the shore in order to slow the whole story down.",
+    "explains why the lake lies so calm and still early on a summer morning.",
+    "introduces a new character who takes over the rowing from Nadia herself."
+   ],
+   "d": "Challenge",
+   "e": "Before it, the boat barely moves and the handles jump from her grip; right after the instruction, the boat “slid forward without a sound” and the ripples spread in even rings. The choice about a new character is false, since the grandmother never rows. Strategy: to find a turning point, compare what is true just before it with what is true just after.",
+   "id": "RC-W8-S1-Q05",
+   "k": 0,
+   "p": "RC-W8-S1-P",
+   "q": "The paragraph that begins with the grandmother's instruction is the turning point of the passage because it",
+   "sk": "Organization/logic",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "the oars were old and creaked loudly in their worn metal locks.",
+    "the lake was rough and choppy that morning and full of waves.",
+    "Nadia was muttering complaints to herself the whole time she rowed.",
+    "Nadia's strokes and the water were working against each other."
+   ],
+   "d": "Challenge",
+   "e": "Giving the oars a quarrel is a way of picturing effort that fights the water instead of using it, which is why the boat barely moves. The rough-lake choice is contradicted by the opening description of a lake “perfectly still.” Strategy: ask what the figure of speech is describing in plain terms before choosing.",
+   "id": "RC-W8-S1-Q06",
+   "k": 3,
+   "p": "RC-W8-S1-P",
+   "q": "The phrase “the oars quarreled with the water, arguing over every stroke” suggests that",
+   "sk": "Tone/style/figurative language",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "Road salt is the only substance that is able to clear ice from a winter road surface.",
+    "Sand is spread on the roads in very cold places because it helps tires grip the icy surface.",
+    "Winter storms across the country have become far more dangerous over the last thirty years.",
+    "Salt keeps water from freezing on roads, but within limits and at a cost, so crews now use less."
+   ],
+   "d": "Standard",
+   "e": "The passage explains how salt works, states the temperature limit, describes the harm meltwater carries into soil and streams, and ends with brine spraying that “uses far less salt.” The sand choice is one detail from the second paragraph, and the claim that salt is the only ice remover is contradicted by the sand crews use in the coldest places. Strategy: a main idea has to cover the turn as well as the opening.",
+   "id": "RC-W8-S2-Q01",
+   "k": 3,
+   "p": "RC-W8-S2-P",
+   "q": "Which statement best expresses the main idea of the passage?",
+   "sk": "Main idea",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "Because salt melts ice much faster while the pavement is still dry and clear.",
+    "To keep a thin film of water from freezing onto the pavement in the first place.",
+    "Because the trucks cannot drive safely on a road once the snow has covered it over.",
+    "Because salt loses all of its melting power once the crystals become wet."
+   ],
+   "d": "Foundation",
+   "e": "The first paragraph says the salt “is not there only to melt ice that has already formed” but to stop a film of water from freezing onto the pavement to begin with. The choice about salt losing its power when wet is contradicted by the last paragraph, where crews deliberately dissolve salt into brine before spraying it. Strategy: read the sentence that follows a “not only” — it usually carries the real answer.",
+   "id": "RC-W8-S2-Q02",
+   "k": 1,
+   "p": "RC-W8-S2-P",
+   "q": "According to the passage, why do trucks spread salt before the snow begins to fall?",
+   "sk": "Supporting detail/evidence",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "A week when the crew's main goal is to lower the freezing point of water on the pavement.",
+    "A wet afternoon in early spring when the temperature stays near fifty degrees.",
+    "A night when the temperature is expected to fall to twenty below zero.",
+    "A storm arriving at thirty degrees, when the crew wants to stop ice from forming at all."
+   ],
+   "d": "Challenge",
+   "e": "Salted water stays liquid only down to about six degrees below zero; colder than that the salt is “simply cold grit,” which is why the coldest places use sand. The choice about lowering the freezing point is ruled out by the flat statement that “sand cannot lower a freezing point at all.” Strategy: apply the limit the passage gives to the numbers in each choice.",
+   "id": "RC-W8-S2-Q03",
+   "k": 2,
+   "p": "RC-W8-S2-P",
+   "q": "Based on the passage, in which situation would a crew be most likely to choose sand instead of salt?",
+   "sk": "Inference",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "a liquid with something dissolved in it.",
+    "a hard crust of salt and ice on the road.",
+    "an answer to a difficult problem or puzzle.",
+    "a plan that a city government agrees to follow."
+   ],
+   "d": "Standard",
+   "e": "The sentence describes what forms when salt particles dissolve in water and then stay liquid below freezing, so the word names the salty liquid itself. The answer-to-a-problem sense is the word's everyday meaning and is especially tempting because the passage is about solving a winter problem. Strategy: prefer the scientific sense when the sentence is describing what a substance is, not what someone decided.",
+   "id": "RC-W8-S2-Q04",
+   "k": 0,
+   "p": "RC-W8-S2-P",
+   "q": "As used in the first paragraph, “solution” most nearly means",
+   "sk": "Vocabulary in context",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "It explains why many crews now spray brine on the pavement before a storm.",
+    "It simply repeats the main point of the first paragraph in fewer words.",
+    "It marks a turn from how salt works to the conditions in which it stops working.",
+    "It introduces the harm that meltwater does to roadside trees and to streams."
+   ],
+   "d": "Challenge",
+   "e": "Everything before it explains why salted water stays liquid; everything after it gives the freezing point, the minus-six limit, and the switch to sand. The meltwater harm and the brine spraying are real parts of the passage, but they come later, in the third and fourth paragraphs. Strategy: a short sentence set on its own is usually a hinge — read what changes right after it.",
+   "id": "RC-W8-S2-Q05",
+   "k": 2,
+   "p": "RC-W8-S2-P",
+   "q": "What is the purpose of the short sentence “There is a limit.”?",
+   "sk": "Organization/logic",
+   "w": "W8"
+  },
+  {
+   "c": [
+    "a change in everyday practice, not a new scientific discovery.",
+    "a sign that scientists no longer agree about how water freezes.",
+    "proof that road salt has stopped working the way it once did.",
+    "a warning that brine harms the streams more than dry salt does."
+   ],
+   "d": "Challenge",
+   "e": "The pair of sentences separates the science, which is unchanged, from the habit of using less of it, which is what crews have altered. The choice calling brine more harmful is contradicted by the same paragraph, which says brine “uses far less salt.” Strategy: when an author sets two short sentences against each other, the second one carries the point.",
+   "id": "RC-W8-S2-Q06",
+   "k": 0,
+   "p": "RC-W8-S2-P",
+   "q": "The closing sentences — “The chemistry has not changed. What has changed is how carefully it is spent.” — suggest that the author sees the switch to brine as",
+   "sk": "Tone/style/figurative language",
+   "w": "W8"
+  }
+ ],
+ "label": "Reading comprehension",
+ "passages": {
+  "RC-SEP-W1-S1-P": {
+   "t": "",
+   "x": "A vacant city lot had collected litter for years. When neighbors proposed a community garden, some residents doubted that vegetables could grow beside tall buildings. Volunteers tested the soil, built raised beds, and placed barrels beneath roof drains to collect rainwater. By midsummer, tomatoes climbed wooden supports and bees visited bright flowers. The garden produced food, but its larger success was social: people who had barely nodded to one another began trading recipes, sharing tools, and planning Saturday lessons for children. The lot had not simply become greener. It had become a place where neighbors had a reason to work together."
+  },
+  "RC-SEP-W1-S2-P": {
+   "t": "",
+   "x": "Before radio, ships relied on flags, bells, lamps, and careful observation. A flag could communicate a standard message during daylight, while lamps extended signaling into darkness. Fog, heavy rain, and long distances could still interrupt communication. To reduce confusion, crews learned codes in which a small pattern of colors or flashes carried a particular meaning. A captain who saw a certain lamp pattern did not need to guess; both ships had agreed in advance on what the pattern meant. Modern satellite communication is much faster, yet it depends on the same basic rule: a sender and a receiver must share a system for turning signals into information."
+  },
+  "RC-SEP-W2-S1-P": {
+   "t": "",
+   "x": "An owl approaching prey makes remarkably little noise. The leading edges of its wing feathers have soft fringes that break moving air into smaller currents. A velvety surface absorbs some sound as the wings move. Quiet flight gives the owl two advantages: it can hear faint rustling below, and its prey receives less warning. This adaptation has a tradeoff. The specialized feathers help the owl move silently, but they are not designed for the high-speed flight of a falcon. In nature, a feature that is helpful in one situation may limit an animal in another."
+  },
+  "RC-SEP-W2-S2-P": {
+   "t": "",
+   "x": "A map may look like a finished picture of a place, but it represents many choices. Cartographers decide what to include, what to simplify, and how to show a curved Earth on a flat surface. Every projection changes something: shape, area, distance, or direction. That fact does not make maps useless. It means that a useful map depends on its purpose. A subway map may bend a route or leave out streets so passengers can follow stations easily. A navigation chart, in contrast, gives careful attention to position, water depth, and hazards. Readers should not ask whether a map is perfectly exact in every way; they should ask whether it helps them do the job for which it was made."
+  },
+  "RC-SEP-W3-S1-P": {
+   "t": "",
+   "x": "After a storm damaged the town library, volunteers moved wet books into a dry school gym. They separated pages with absorbent paper, labeled boxes, and recorded each title before deciding what could be saved. Some books were too damaged to return, but the inventory helped the library identify essential works to replace. Months later, the repaired building had higher shelves and waterproof storage bins. The library's director called these changes “memory with a purpose.” The phrase meant that the town had not forgotten the storm; it had used what it learned to prepare for future trouble. Recovery, the passage suggests, is more than restoring what was lost. It can also mean building a wiser version of what remains."
+  },
+  "RC-SEP-W3-S2-P": {
+   "t": "",
+   "x": "Mara expected her model bridge to hold ten kilograms, but it bent under six. Instead of hiding the result, she measured where the supports had shifted and compared the two sides. One joint had been glued at a slight angle. Mara changed that joint and tested a second bridge. It held eleven kilograms. Her first trial did not prove that her idea was useless; it revealed which part of the design needed attention. By treating an unexpected result as information, Mara turned a disappointment into a better experiment."
+  },
+  "RC-SEP-W4-S1-P": {
+   "t": "",
+   "x": "Some desert plants complete most of their life cycle soon after rain. Their seeds may remain dormant for months or years beneath dry soil. Tough outer coats help protect the seeds and prevent them from sprouting after only a trace of moisture. When a substantial storm soaks the ground, the seeds germinate quickly. Leaves and flowers appear, and new seeds form before the soil dries again. This schedule may seem like waiting, but it is an active survival strategy shaped by an unpredictable environment. A seed that sprouted after every small drizzle would risk using its stored energy before conditions could support a full plant."
+  },
+  "RC-SEP-W4-S2-P": {
+   "t": "",
+   "x": "The student council considered moving lunch twenty minutes later. Athletes supported the change because early practice often made them hungry before noon. Music students worried that the new schedule would shorten rehearsal. Rather than vote immediately, the council collected attendance data, interviewed teachers, and tested the proposed schedule for one week. The trial showed that cafeteria lines stayed manageable, but several music groups lost needed setup time. The council then adjusted the plan by moving one rehearsal period on two days. The process did not erase disagreement. It did, however, replace guesses with evidence and led to a compromise that addressed more than one group's concern."
+  },
+  "RC-W5-S1-P": {
+   "t": "The Pools the Tide Leaves Behind",
+   "x": "Twice a day the ocean pulls back from a rocky shore and leaves behind dozens of shallow pools. From a distance the pools look peaceful, like small aquariums set into stone. For the animals inside them, though, the next six hours are the hardest of the day. Sunlight warms the trapped water until it is far warmer than the sea. Some of that water evaporates, and the salt left behind grows more concentrated. A sudden rainstorm can do the opposite, thinning the water until it is almost fresh. Nothing in the open ocean changes that quickly.\n\nThe animals that live there meet these swings with equipment, not luck. As the tide drops, a barnacle closes its hard plates and traps a small reserve of seawater inside, enough to keep its body damp until the ocean comes back. A limpet wears a shallow groove into the rock over months of feeding, and it travels back to that exact groove before the water leaves, because its shell fits the worn stone tightly. When the sun is high, sea stars slide under ledges and into cracks the light cannot reach.\n\nIt would be a mistake to picture a tide pool as a gentler ocean, a nursery for creatures too delicate for deep water. A fish carried in from twenty meters down would not last an afternoon in one. The pool is the harsher place, and the animals crowded into it are not the leftovers of the sea. They are specialists in a kind of hardship most ocean animals never have to face."
+  },
+  "RC-W5-S2-P": {
+   "t": "Before the Automobile, the Bicycle",
+   "x": "In the 1880s most American roads outside of towns were simply dirt. Wagon wheels cut deep ruts into them, and a week of rain could turn a stretch of road into mud deep enough to swallow a boot. Farmers complained, but they had managed for a century, and their heavy wagons could grind through whatever the weather left behind.\n\nThen came the bicycle. The new machines were light, quick, and almost useless on a rutted road. Riders formed clubs, and in the 1880s and 1890s those clubs mounted a campaign they called Good Roads. They printed pamphlets, mapped the worst stretches, and asked state legislatures for money to build smooth surfaces. Many farmers resisted. Paving, they argued, would be paid for with everyone's taxes so that city sportsmen could enjoy a pleasant Sunday ride.\n\nThe argument changed when the mail changed. The Post Office began carrying letters directly to farmhouses instead of making families travel to town for them, and it would only serve routes a mail wagon could travel all year. Suddenly a good road was not a luxury for visitors. It was the difference between getting the mail and not getting it, and counties that had refused to spend a dollar began to build.\n\nBy the time automobiles were common, the surveys, the county road departments, and the habit of paying for highways out of public money were already in place. The drivers who sped along those smooth surfaces owed a debt to people who had been pedaling."
+  },
+  "RC-W6-S1-P": {
+   "t": "The Bowl Under the Table",
+   "x": "Theo had memorized the prices before the market opened. He wrote them on a card in his neatest handwriting, propped it against the scale, and when his grandmother left to find change he was almost glad. For two hours the stall was his to mind. He straightened the plums until every stem pointed the same way.\n\nThe trouble was the sour cherries. They sat in a flat crate at the end of the table, small and dark and beautiful, and nobody touched them. A woman in a yellow coat finally stopped and asked whether they were sweet. Theo began the sentence he had practiced. “They’re excellent for—” he said, and then he stopped, because he could hear how it sounded: like a boy repeating something.\n\nHe looked down. Under the table, where his grandmother had set it before she left, was a small bowl of the same cherries with a folded napkin beside it. He had assumed it was her lunch, though she never ate anything at the market. He lifted one out and held it toward the woman without saying anything at all.\n\nShe ate it. Her whole face pinched, and then she laughed, and then she bought two pints for a pie. After that Theo set the bowl on the table where people could reach it. He crossed out one line on his careful card and wrote underneath, in handwriting that was not nearly as neat, that the cherries were too sour to eat and perfect for baking. By four o’clock the crate was empty, and the plums, arranged so beautifully, were not."
+  },
+  "RC-W6-S2-P": {
+   "t": "Buildings That Are Meant to Move",
+   "x": "A person standing on the top floor of a very tall building on a windy day may feel the floor lean, pause, and lean back. The movement is small, a few centimeters at most, but it is real, and it is not a flaw. Engineers planned it.\n\nA tower could be built so stiff that it barely moved, but stiffness carries a hidden cost. Wind pressing on a rigid wall has nowhere to send its force, so the material itself must absorb all of it. Over years of storms, something inside that material will crack. A steel frame designed with a measured amount of give behaves differently. It bends a little, sheds the energy of the gust, and returns to where it started, the way a tall tree does in an open field.\n\nThe harder problem is not the leaning but the lingering. A building that keeps swaying long after the wind has died feels alarming to the people inside it, even when it is perfectly safe. Some towers answer this with a damper: an enormous weight, sometimes hundreds of tons, hung high in the building on cables or resting on a slick steel surface. Because such a weight is slow to start moving, it always lags a little behind the floors. It pulls backward while they swing forward, and the sway fades in seconds instead of minutes.\n\nIn a wind tunnel, engineers do not test a model to learn whether it will move. They already know it will. They measure how quickly it stops."
+  },
+  "RC-W7-S1-P": {
+   "t": "The Case for the Repair Bench",
+   "x": "Every school in our district teaches students to build something — a birdhouse in third grade, a model bridge in fifth. Almost none teaches students to fix something. I believe that is backwards, and that every school should set aside one bench, one box of tools, and one period a week for repair.\n\nStart with the objection I hear most often: repairing is slower than replacing, and school hours are precious. That is true, and I will not pretend otherwise. But the objection mistakes what the period is for. The point of the hour is not to save the school money on chairs; it is to teach a habit of looking. A student handed a wobbling chair must decide, before touching a single tool, which part has actually failed. A chair with one loose leg is still sound in every other part, and noticing that is the whole lesson.\n\nConsider Fenwick Middle School, which began a Thursday repair table two years ago. In its first term the table brought back forty-one items: eleven lamps, nine backpacks, six umbrellas, and fifteen library books with broken spines. The number worth watching, though, is not forty-one. It is four — the four students who joined in September and were still at the table in June, showing newcomers how to seat a screw.\n\nMachines will keep getting harder to open, and some objects truly cannot be mended. That does not weaken the case; it sharpens it. The fewer things we are able to repair, the more it matters that we can tell which ones we can."
+  },
+  "RC-W7-S2-P": {
+   "t": "The Kite That Crossed the Gorge",
+   "x": "In the winter of 1848 the Niagara Gorge was a problem nobody had solved. Engineers wanted to hang a bridge across it, but the river below ran too fast and too crowded with ice for a boat to carry anything over. The rocky walls stood eight hundred feet apart. Before a bridge could be built, one thin thread had to reach the far side. So the engineer in charge announced a five-dollar prize. Whoever could fly a kite across the gorge and tie his string down on the opposite rim would win it.\n\nHoman Walsh, a boy of about fifteen who lived nearby, understood something the adults seem to have overlooked. The wind in the gorge blew steadily from the Canadian side toward the American side. A kite launched from the American rim would be carried away from the crossing rather than across it. Homan took a ferry to the Canadian side and waited for a January evening when the wind held. He let his kite, which he had named Union, climb until his line lay across the whole gorge.\n\nThen the line snapped on the ice below and the kite came down on the far bank. Ice choked the river for eight days, so he could not cross to fetch it. When the river cleared at last, Homan found the kite, mended it, and flew it again. This time the string held.\n\nThat string could not have held anything heavier than itself. But workers tied it to a stronger cord. They tied the cord to a rope, and the rope to a wire cable — until a bridge stood where a boy's kite string had gone first."
+  },
+  "RC-W8-S1-P": {
+   "t": "Learning the Oars",
+   "x": "At five in the morning the lake lay like a sheet of hammered tin, gray and perfectly still, and Nadia was certain she could beat it. Her grandmother sat in the stern with her hands folded, saying nothing, which was her way of teaching. Nadia took the oars, leaned back with all her weight, and pulled.\n\nThe boat barely moved. The blades slapped the surface and threw up a spray that soaked her knees, and the oars quarreled with the water, arguing over every stroke. Twice the handles jumped out of her grip. A heron on the shore watched her the way a teacher watches a student who has not read the assignment, then lifted away without hurrying. Nadia's shoulders burned. The far bank looked no closer than it had ten minutes before.\n\n“Stop rowing,” her grandmother said. “Put the blade in first. Let it bite. Then pull.” Nadia let the oars rest until the boat went quiet. She lowered one blade and felt the water take hold of it, a firm and surprising grip, like a hand closing around the wood, and she pulled slowly. The boat slid forward without a sound. She did it again, and the ripples spread behind her in long, even rings. Nothing about the second stroke was harder than the first. It was, if anything, easier.\n\nBy the time the sun cleared the trees the mist had let go of the shore and Nadia had crossed half the lake. She was not stronger than she had been an hour before. She had simply stopped fighting the thing she was trying to move."
+  },
+  "RC-W8-S2-P": {
+   "t": "Why Salt Stops Working",
+   "x": "When a winter storm is forecast, city trucks spread salt on the roads before the first flakes fall. The salt is not there only to melt ice that has already formed, though it can do that. It is there to keep a thin film of water from freezing onto the pavement in the first place. Water turns to ice by locking together in an orderly pattern, and dissolved salt particles get in the way of that pattern. What forms instead is a solution that stays liquid at temperatures far below the point at which plain water would harden.\n\nThere is a limit. Plain water freezes at thirty-two degrees Fahrenheit, and salted water can stay liquid down to roughly six degrees below zero. Colder than that, the salt lying on the road is simply cold grit. This is why crews in the coldest places often spread sand instead. Sand cannot lower a freezing point at all; it only gives tires something to grip.\n\nSalt does not disappear when the snow does, either. Meltwater carries it off the pavement into soil, streams, and wells, where it can injure roadside trees and change the water that fish live in. One winter of salt does little harm by itself. Thirty winters of it on the same road is a different matter.\n\nFor that reason many crews now mix a brine before a storm and spray a thin coat on the pavement, which uses far less salt than scattering dry crystals that bounce into the ditch. The chemistry has not changed. What has changed is how carefully it is spent."
+  }
+ }
+}

@@ -13,7 +13,7 @@ export const MODULES = [
     mine: "My practice",
     blurb: "Practice, reading, essays and the books I finished.",
     from: "zhangqi444/isee",
-    ready: false,
+    ready: true,
     Component: lazy(() => import("./learning/index.jsx")),
   },
   {

@@ -28,11 +28,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Rebuild bundle.json from content/
-        run: python3 site/make_bundle.py
+      - name: Rebuild the content from content/
+        run: |
+          python3 site/make_bundle.py
+          python3 site/make_learning.py
 
-      - name: Fail if the bundle drifted from the committed one
-        run: git diff --exit-code -- site/public/content/bundle.json
+      - name: Fail if the built content drifted from the committed copy
+        run: git diff --exit-code -- site/public/content/
 
       - uses: actions/setup-node@v4
         with:

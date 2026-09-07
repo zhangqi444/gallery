@@ -1,0 +1,245 @@
+{
+ "researched_at": "2026-09-04",
+ "note": "Researched from official E3n (formerly ERB) pages and Seattle-area school admissions pages. Plan weeks and mocks are added by the app from the study plan. Day-level season boundaries are inferred from the official month ranges.",
+ "level": {
+  "name": "ISEE Lower Level",
+  "order": "Verbal Reasoning 34 q / 20 min → Quantitative Reasoning 38 q / 35 min → break 10 min → Reading Comprehension 25 q / 25 min → Mathematics Achievement 30 q / 30 min → break 10 min → Essay 30 min",
+  "total": "127 questions + essay · 2 h 20 min of testing plus two 10-minute breaks",
+  "rule": "Students may take the ISEE once per testing season — Fall, Winter, and Spring/Summer — for a total of up to three times a school year.",
+  "source": "https://www.admission.org/assessments/isee/about"
+ },
+ "formats": [
+  {
+   "name": "Prometric test center",
+   "detail": "Online, grades 5–12. Seattle-area center is in Mountlake Terrace (nothing in Bellevue). Pick a date in Prometric's scheduler; a parent must stay at the center for the whole test. Fee $250. Change/cancel: free 31+ days out, $25 at 30–15 days, $45 at 14–5 days, $75 at 4–1 days.",
+   "source": "https://www.admission.org/assessments/isee/instructions/prometric"
+  },
+  {
+   "name": "ISEE at Home",
+   "detail": "Online and proctored, offered most days; needs two camera devices (test device + phone/tablet). Fee $250, or $170 when a member school proctors. Reschedule $50, cancel $55.",
+   "source": "https://www.admission.org/assessments/isee/instructions/home"
+  },
+  {
+   "name": "School test site",
+   "detail": "Group sitting at an independent school, paper or online. $170 standard; late (14–20 days before) $215; walk-in (under 13 days) $230. Online sittings can be booked up to 3 days before, paper sittings 21+ days before.",
+   "source": "https://www.admission.org/assessments/isee/registration"
+  }
+ ],
+ "scores": {
+  "detail": "Online tests (Prometric, at-home, online school sites): scores usually ready in 3–5 days; paper: 5–10 days. Choose which schools receive scores at registration or after seeing them; only complete reports can be sent.",
+  "source": "https://www.admission.org/assessments/isee/score-reports"
+ },
+ "events": [
+  {
+   "id": "fall-season",
+   "kind": "season",
+   "date": "2026-08-01",
+   "end": "2026-11-30",
+   "title": "ISEE Fall testing season",
+   "detail": "One sitting allowed in this season. Portal label: “2026 Fall”.",
+   "source": "https://iseeonline.erblearn.org/Workflows/Public"
+  },
+  {
+   "id": "winter-season",
+   "kind": "season",
+   "date": "2026-12-01",
+   "end": "2027-03-31",
+   "title": "ISEE Winter testing season",
+   "detail": "One sitting allowed in this season. Portal label: “2026-27 Winter”. A December date still lands before the January application deadlines.",
+   "source": "https://iseeonline.erblearn.org/Workflows/Public"
+  },
+  {
+   "id": "spring-season",
+   "kind": "season",
+   "date": "2027-04-01",
+   "end": "2027-07-31",
+   "title": "ISEE Spring/Summer testing season",
+   "detail": "Third and last possible sitting of the cycle — after most fall-2027 application deadlines.",
+   "source": "https://iseeonline.erblearn.org/Workflows/Public"
+  },
+  {
+   "id": "bush-isee",
+   "kind": "school-test",
+   "date": "2026-10-24",
+   "title": "ISEE at The Bush School (Seattle)",
+   "detail": "Saturday group sitting for applicants to grades 5–12. Register through the ISEE portal.",
+   "source": "https://www.bush.edu/admissions/applying-to-bush"
+  },
+  {
+   "id": "ec-reg",
+   "kind": "deadline",
+   "date": "2026-11-20",
+   "title": "Registration deadline — Eastside Catholic ISEE (Dec 5)",
+   "detail": "Closed on-campus session, grades 6–12. Registration code 447JKHUW.",
+   "source": "https://www.eastsidecatholic.org/admissions/entrance-exam"
+  },
+  {
+   "id": "ec-isee",
+   "kind": "school-test",
+   "date": "2026-12-05",
+   "title": "ISEE at Eastside Catholic (Sammamish)",
+   "detail": "Saturday sitting, grades 6–12 applicants.",
+   "source": "https://www.eastsidecatholic.org/admissions/entrance-exam"
+  },
+  {
+   "id": "book-reminder",
+   "kind": "reminder",
+   "date": "2026-12-01",
+   "title": "Book the real ISEE by early December",
+   "detail": "Lakeside asks families to register no later than December 2026 so scores arrive before deadlines. Scores from online sittings take 3–5 days.",
+   "source": "https://www.lakesideschool.org/admissions/faq"
+  },
+  {
+   "id": "apps-jan14",
+   "kind": "deadline",
+   "date": "2027-01-14",
+   "title": "Application deadline — most Seattle-area independent schools",
+   "detail": "Lakeside (preliminary application), Overlake (4 pm), Eastside Prep, University Prep, Bush, Seattle Academy, Evergreen.",
+   "source": "https://www.lakesideschool.org/admissions/application-process"
+  },
+  {
+   "id": "basis-app",
+   "kind": "deadline",
+   "date": "2027-01-15",
+   "title": "Application deadline — BASIS Independent Bellevue",
+   "detail": "Supporting materials due Feb 12, 2027.",
+   "source": "https://basisindependent.com/schools/wa/bellevue/about/blog/fall-2027-the-basis-independent-bellevue-admissions-process/"
+  },
+  {
+   "id": "aw-app",
+   "kind": "deadline",
+   "date": "2027-01-23",
+   "title": "Application deadline — Annie Wright Schools",
+   "detail": "",
+   "source": "https://www.aw.org"
+  },
+  {
+   "id": "lakeside-materials",
+   "kind": "deadline",
+   "date": "2027-01-28",
+   "title": "Lakeside: all materials and test scores due",
+   "detail": "Tests must be taken between Sep 1, 2026 and Jan 28, 2027; only one set of scores is accepted.",
+   "source": "https://www.lakesideschool.org/admissions/application-process"
+  },
+  {
+   "id": "sa-decisions",
+   "kind": "decision",
+   "date": "2027-03-05",
+   "title": "Middle-school decisions — Seattle Academy",
+   "detail": "",
+   "source": "https://www.seattleacademy.org/admissions/how-to-apply"
+  },
+  {
+   "id": "ms-decisions",
+   "kind": "decision",
+   "date": "2027-03-19",
+   "title": "Middle-school decisions — Lakeside, Overlake, Eastside Prep, University Prep",
+   "detail": "",
+   "source": "https://www.overlake.org/admissions/apply"
+  }
+ ],
+ "monthly": {
+  "2026-09": [
+   {
+    "id": "format",
+    "text": "Decide how Sheila will sit the real ISEE — Prometric (Mountlake Terrace), at home, or a school sitting — and pin the target date on the Calendar",
+    "why": "Everything else (registration cutoffs, score timing) hangs off this.",
+    "path": "/calendar"
+   },
+   {
+    "id": "diag",
+    "text": "Run the split diagnostic (Sep 21–27): Part A one day, Part B another, real timing",
+    "why": "Baseline for the whole plan.",
+    "path": "/mock/DGN"
+   },
+   {
+    "id": "space",
+    "text": "Set up the mock-exam spot: quiet room, scratch paper, no notes, clock visible",
+    "why": "Mocks only predict the real day if the conditions match."
+   },
+   {
+    "id": "rate",
+    "text": "Rate the Week-1 precision words she already wrote (they show 'Needs a rating')",
+    "why": "Ratings decide what goes back into review.",
+    "path": "/precision/W1"
+   }
+  ],
+  "2026-10": [
+   {
+    "id": "bush",
+    "text": "If using the Bush School group sitting (Sat Oct 24), register through the ISEE portal early in the month",
+    "why": "First-come, first-served.",
+    "path": "/calendar"
+   },
+   {
+    "id": "mock1",
+    "text": "Mock 1 (Oct 19–25), then the correction week (Oct 26–Nov 1): classify every miss, reteach, redo",
+    "path": "/mock/M01"
+   },
+   {
+    "id": "codes",
+    "text": "Collect the ISEE school codes for the target schools (e.g. Lakeside 481120, Overlake 480073, Bear Creek 481705)",
+    "why": "Needed when choosing score recipients."
+   }
+  ],
+  "2026-11": [
+   {
+    "id": "mock2",
+    "text": "Mock 2 (Nov 2–8)",
+    "path": "/mock/M02"
+   },
+   {
+    "id": "ec",
+    "text": "If using the Eastside Catholic sitting (Sat Dec 5), register by Fri Nov 20 with code 447JKHUW",
+    "path": "/calendar"
+   },
+   {
+    "id": "book",
+    "text": "If not using a school sitting, book Prometric or ISEE at Home now — Lakeside asks families to register by December",
+    "why": "Slots fill in December; scores take 3–5 days after an online test.",
+    "path": "/calendar"
+   },
+   {
+    "id": "mock3",
+    "text": "Mock 3 final rehearsal (Nov 23–29), full length in one sitting",
+    "path": "/mock/M03"
+   },
+   {
+    "id": "routine",
+    "text": "Week before the test: normal bedtimes, light review only, no new material"
+   }
+  ],
+  "2026-12": [
+   {
+    "id": "testday",
+    "text": "Test day: parent brings photo ID and stays at the center (Prometric) / two charged camera devices ready (at home); arrive or check in 30 minutes early"
+   },
+   {
+    "id": "scores",
+    "text": "Scores arrive in 3–5 days (online) — choose which schools receive them; adding schools is free"
+   },
+   {
+    "id": "send",
+    "text": "Confirm every target school is on the score-recipient list before the January deadlines"
+   }
+  ],
+  "2027-01": [
+   {
+    "id": "apps",
+    "text": "Applications due Jan 14 at most schools (Lakeside preliminary Jan 14; all materials and scores Jan 28); BASIS Bellevue Jan 15; Annie Wright Jan 23",
+    "path": "/calendar"
+   },
+   {
+    "id": "confirm",
+    "text": "Check each school's portal shows the ISEE score received"
+   }
+  ],
+  "2027-03": [
+   {
+    "id": "decisions",
+    "text": "Decisions: Seattle Academy Mar 5; Lakeside, Overlake, Eastside Prep, University Prep Mar 19",
+    "path": "/calendar"
+   }
+  ]
+ }
+}

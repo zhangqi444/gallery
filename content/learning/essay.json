@@ -1,0 +1,651 @@
+{
+ "weeks": {
+  "W1": {
+   "prompt": "Describe a small responsibility that taught you something important.",
+   "focus": "Prompt interpretation • idea generation • focus",
+   "alternate": "PR-1 — Personal reflection",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  },
+  "W2": {
+   "prompt": "Write about a time you changed your mind after learning more.",
+   "focus": "Organization • details • transitions",
+   "alternate": "EX-1 or PE-1 — Explanatory / persuasive",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  },
+  "W3": {
+   "prompt": "Describe a mistake or setback and what you did next.",
+   "focus": "Openings • conclusions • revision",
+   "alternate": "CO-2 or IM-1 — Community / imaginative",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  },
+  "W4": {
+   "prompt": "Write about a person or place that helped you grow.",
+   "focus": "Editing • timing • unfamiliar-topic transfer",
+   "alternate": "UT-1 or PE-2 — Unfamiliar transfer / persuasive",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  },
+  "W5": {
+   "prompt": "Explain how someone your age could get better at something they find difficult. What steps would you tell them to take, and why would those steps work?",
+   "focus": "Explanatory structure • claim • steps • reasons",
+   "alternate": "EX-2 — Explanatory",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  },
+  "W6": {
+   "prompt": "Should every student be required to learn one skill outside of schoolwork, such as cooking, a sport, or an instrument? Take a position and support it.",
+   "focus": "Persuasive structure • position • reasons • one concern answered",
+   "alternate": "PE-1 — Persuasive",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  },
+  "W7": {
+   "prompt": "Imagine your school could add one new room for any purpose. Describe the room, who would use it, and what would change because of it.",
+   "focus": "Imaginative detail • sensory specifics • consequence",
+   "alternate": "IM-2 — Imaginative",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  },
+  "W8": {
+   "prompt": "A town decides that one day each month will have no screens of any kind. Explain what you think would change, and whether the day would be worth keeping.",
+   "focus": "Full timed rehearsal • editing • unfamiliar-topic transfer",
+   "alternate": "UT-1 — Unfamiliar transfer",
+   "target": "5 minutes plan • 20 minutes draft • 5 minutes revise/edit. Keep the first draft intact; write the final copy separately.",
+   "plan_fields": [
+    [
+     "Prompt type / action word",
+     "WRITE HERE"
+    ],
+    [
+     "Plain-language restatement",
+     "The prompt is asking me to ________________________________."
+    ],
+    [
+     "Three possible ideas or claims",
+     "1. __________  2. __________  3. __________"
+    ],
+    [
+     "Chosen focus",
+     "I will show / explain / argue that ________________________________."
+    ],
+    [
+     "Three-part map",
+     "Opening/setup __________ → evidence/event/reason __________ → insight/result __________"
+    ],
+    [
+     "Details to include",
+     "Person/place/action/words/thought: ________________________________"
+    ]
+   ],
+   "draft_fields": [
+    "Opening and focus",
+    "Middle",
+    "Ending"
+   ],
+   "feedback_checks": [
+    "Focus answers the actual prompt",
+    "Organization has a clear path",
+    "Details/reasons are specific and relevant",
+    "Words and sentences are clear"
+   ]
+  }
+ },
+ "guide": {
+  "lessons": [
+   {
+    "title": "1. Read the prompt precisely",
+    "objective": "Identify task, audience, and limits.",
+    "teach": "Circle the action word; underline the topic; restate the prompt as a question. Decide whether it asks for a story, explanation, opinion, or invented situation.",
+    "try": "The prompt asks me to ___ about ___. My answer will show ___."
+   },
+   {
+    "title": "2. Generate options",
+    "objective": "Produce several possibilities before choosing.",
+    "teach": "Make three columns: possible moments/claims, exact details, and why each fits. A small particular moment is stronger than a vague big event.",
+    "try": "List three ideas; star the one with a place, people, action, and change."
+   },
+   {
+    "title": "3. Choose a focus",
+    "objective": "State one controlling idea.",
+    "teach": "A focus is a one-sentence answer that stays true throughout. It is not a topic word; it says what the writer will show, explain, or argue.",
+    "try": "Write the focus; flag any planned sentence that does not help it."
+   },
+   {
+    "title": "4. Build a simple shape",
+    "objective": "Organize before drafting.",
+    "teach": "Opening = answer and setup; middle = key event/reason with evidence; ending = meaning and return to the prompt. Explanations may use two short reasons.",
+    "try": "Make three boxes: answer/setup → evidence/event → lesson/so what."
+   },
+   {
+    "title": "5. Make details do work",
+    "objective": "Replace general claims with observable evidence.",
+    "teach": "Ask: What did I see, hear, do, say, or think? What changed? Why did it matter? Keep two or three details that move the response forward.",
+    "try": "Revise “I was nervous” into one action, thought, or sensory detail."
+   },
+   {
+    "title": "6. Guide the reader",
+    "objective": "Use logical transitions.",
+    "teach": "A transition names a relationship: time, example, contrast, cause, result, or reflection. Use one only when it matches the meaning.",
+    "try": "Add one inside-paragraph transition and one paragraph bridge."
+   },
+   {
+    "title": "7. Start and finish with purpose",
+    "objective": "Open directly and conclude with insight.",
+    "teach": "Enter a specific moment or claim quickly. A conclusion should reveal meaning or change instead of repeating the opening.",
+    "try": "Draft two openings; choose the more specific. Finish with “Now I understand that…”."
+   },
+   {
+    "title": "8. Revise, then edit",
+    "objective": "Improve meaning before mechanics.",
+    "teach": "Revision asks whether a reader can follow and believe the response. Editing checks sentences, capitals, endings, spelling, and punctuation.",
+    "try": "Make one meaning change; then mark three editing checks."
+   }
+  ],
+  "excerpts": [
+   {
+    "label": "Focus + opening",
+    "text": "When the library’s book-swap table began to wobble, I wanted to step back and let an adult fix it. Instead, I found extra boxes, asked another volunteer to hold the table, and helped keep the line moving.",
+    "why": "Direct start; focus emerges through action; concrete details make responsibility believable.",
+    "note": "Non-active situation: library event"
+   },
+   {
+    "label": "Detail + reflection",
+    "text": "The first garden sign had tiny green letters that disappeared against the leaves. After two classmates could not read it, I repainted the words in dark blue and added an arrow. The change taught me to test an idea from another person’s point of view.",
+    "why": "Shows what failed, the exact revision, and a lesson. “After” connects feedback to change.",
+    "note": "Non-active situation: garden sign"
+   },
+   {
+    "label": "Persuasive reasoning",
+    "text": "Our school should create a quiet-reading area during lunch because some students need a calm place to reset. A corner with books and clear expectations would offer a choice without taking away the cafeteria’s social space.",
+    "why": "Claim first; practical detail supports the reason; balanced tone answers a concern.",
+    "note": "Non-active topic: quiet-reading area"
+   }
+  ],
+  "supports": [
+   {
+    "move": "Restate / focus",
+    "frames": "This experience showed me that ___. • I believe ___ because ___. • The moment that best explains this is ___."
+   },
+   {
+    "move": "Set up a moment",
+    "frames": "It began when ___. • At first, I thought ___. • I was trying to ___ when ___."
+   },
+   {
+    "move": "Add evidence",
+    "frames": "For example, ___. • One detail I still remember is ___. • Instead of ___, I ___."
+   },
+   {
+    "move": "Show time/order",
+    "frames": "At first, ___; then, ___; finally, ___. • A few minutes later, ___. • After that, ___."
+   },
+   {
+    "move": "Show contrast/change",
+    "frames": "However, ___. • I expected ___, but ___. • That changed when ___."
+   },
+   {
+    "move": "Explain cause/result",
+    "frames": "Because ___, I ___. • This mattered because ___. • As a result, ___."
+   },
+   {
+    "move": "Bridge paragraphs",
+    "frames": "That moment led me to ___. • The most important part was ___. • Looking back, ___."
+   },
+   {
+    "move": "Conclude / reflect",
+    "frames": "Now I understand that ___. • Since then, I have ___. • The lesson I will carry forward is ___."
+   }
+  ],
+  "revision_order": "1) Focus and meaning  2) Order and support  3) Sentence clarity  4) Capitals, punctuation, spelling. Read aloud slowly and make one visible before→after record.",
+  "target": "5 plan • 20 draft • 5 revise/edit. A clear answer, purposeful organization, and specific evidence matter more than fancy vocabulary."
+ },
+ "rubric": {
+  "dimensions": [
+   {
+    "name": "Idea generation",
+    "levels": [
+     "Needs heavy prompting",
+     "One usable idea",
+     "Several relevant ideas",
+     "Chooses a vivid, meaningful idea"
+    ]
+   },
+   {
+    "name": "Structure",
+    "levels": [
+     "Hard to follow",
+     "Some paragraph control",
+     "Clear 3-paragraph flow",
+     "Purposeful progression"
+    ]
+   },
+   {
+    "name": "Specificity",
+    "levels": [
+     "Mostly general",
+     "One concrete detail",
+     "Several useful details",
+     "Details create a vivid experience"
+    ]
+   },
+   {
+    "name": "Clarity",
+    "levels": [
+     "Meaning often unclear",
+     "Usually understandable",
+     "Clear and direct",
+     "Precise and engaging"
+    ]
+   },
+   {
+    "name": "Grammar",
+    "levels": [
+     "Errors block meaning",
+     "Frequent errors",
+     "Minor errors",
+     "Controlled sentences"
+    ]
+   },
+   {
+    "name": "Completion time",
+    "levels": [
+     "Cannot finish",
+     "Finishes with support",
+     "Finishes in target time",
+     "Finishes with review time"
+    ]
+   }
+  ],
+  "next_steps": [
+   {
+    "name": "Idea generation",
+    "steps": [
+     "List three possible moments with adult questions.",
+     "List three independently; add one possible detail to each.",
+     "Choose the most vivid idea and explain why it fits.",
+     "Try a new prompt type and choose between two plausible approaches."
+    ]
+   },
+   {
+    "name": "Structure",
+    "steps": [
+     "Fill the three boxes before drafting.",
+     "Label opening/middle/ending and add one sentence to each.",
+     "Add one purposeful paragraph bridge.",
+     "Rearrange a mixed-up outline and explain the best progression."
+    ]
+   },
+   {
+    "name": "Specificity",
+    "steps": [
+     "Add one named person/place/action.",
+     "Replace two general words with observable details.",
+     "Add a detail that reveals thought or change.",
+     "Keep the two strongest details; cut one that does not advance focus."
+    ]
+   },
+   {
+    "name": "Clarity",
+    "steps": [
+     "Say the focus aloud; rewrite it as one direct sentence.",
+     "Split one crowded sentence and name the subject/action.",
+     "Check every paragraph connects to the focus.",
+     "Vary one repeated opening while keeping meaning precise."
+    ]
+   },
+   {
+    "name": "Grammar",
+    "steps": [
+     "Use a checklist for capitals, end marks, and complete sentences.",
+     "Find and correct three convention errors after reading aloud.",
+     "Proofread slowly from the last sentence upward.",
+     "Use one deliberate sentence-length change, then proofread for control."
+    ]
+   },
+   {
+    "name": "Completion time",
+    "steps": [
+     "Complete a 10-minute plan-plus-one-paragraph task.",
+     "Use 5/20/5 timing with a check-in at minute 15.",
+     "Finish the draft by minute 25 and reserve five minutes.",
+     "Finish by minute 24; improve one detail and one transition."
+    ]
+   }
+  ]
+ },
+ "bank": [
+  {
+   "id": "PR-1",
+   "type": "Personal reflection",
+   "prompt": "Describe a time a small routine made an important difference in your day. What did the routine teach you?",
+   "lens": "Choose one repeatable moment; show before/after."
+  },
+  {
+   "id": "PR-2",
+   "type": "Personal reflection",
+   "prompt": "Write about a time you helped someone understand a rule, skill, or idea. What did you learn while helping?",
+   "lens": "Set up the need; show your words/actions and the result."
+  },
+  {
+   "id": "EX-1",
+   "type": "Explanatory",
+   "prompt": "Explain how a new student could prepare for a group project so that every member can contribute.",
+   "lens": "Clear claim + two practical steps + why each works."
+  },
+  {
+   "id": "EX-2",
+   "type": "Explanatory",
+   "prompt": "Explain why it can be useful to learn a skill slowly instead of expecting to master it immediately.",
+   "lens": "Definition/claim + example + takeaway."
+  },
+  {
+   "id": "PE-1",
+   "type": "Persuasive",
+   "prompt": "Should students have a short choice period at the end of the school day for reading, homework, or organization? Take a position and support it.",
+   "lens": "Position + two reasons + acknowledge one concern."
+  },
+  {
+   "id": "PE-2",
+   "type": "Persuasive",
+   "prompt": "Should a neighborhood use an empty lot for a community garden or a play space? Choose one and persuade a reader.",
+   "lens": "Position + benefits + a concrete implementation detail."
+  },
+  {
+   "id": "IM-1",
+   "type": "Imaginative",
+   "prompt": "Imagine that a map in your classroom changes each morning to show one place where someone needs help. Write about the first day you decide to follow it.",
+   "lens": "Situation + decision/action + change/lesson."
+  },
+  {
+   "id": "IM-2",
+   "type": "Imaginative",
+   "prompt": "Imagine you can understand one kind of animal for one afternoon. What problem would you try to solve, and what would happen?",
+   "lens": "Goal + two obstacles/events + outcome."
+  },
+  {
+   "id": "CO-1",
+   "type": "Community",
+   "prompt": "Describe one change that would make a shared school or neighborhood space more welcoming. Explain how people would use it.",
+   "lens": "Need + proposal + benefit to different people."
+  },
+  {
+   "id": "CO-2",
+   "type": "Community",
+   "prompt": "Tell about a time people worked together to solve a small problem. What made the teamwork effective or difficult?",
+   "lens": "Specific group moment + roles/actions + reflection."
+  },
+  {
+   "id": "UT-1",
+   "type": "Unfamiliar-topic transfer",
+   "prompt": "A school receives one “repair day” each month: students may improve an object, routine, or relationship. What should be repaired first, and why?",
+   "lens": "Interpret the invented rule; claim + example + consequence."
+  },
+  {
+   "id": "UT-2",
+   "type": "Unfamiliar-topic transfer",
+   "prompt": "You may add one new sound to a city’s morning. What sound would you choose, and how would it affect people?",
+   "lens": "Invented choice + sensory detail + logical effects."
+  }
+ ],
+ "mock_prompts": [],
+ "home": {
+  "structure": "Paragraph 1: answer + setup • Paragraph 2: specific experience • Paragraph 3: lesson/reflection",
+  "goal": "Clear specific thinking, not over-formal writing.",
+  "target": "5 plan • 20 draft • 5 revise/edit. Keep the first draft; revise into a separate final copy.",
+  "intro": "Two Essay touches/week when sustainable: Touch 1 = plan + partial draft • Touch 2 = full draft or revision. Pause the second touch when workload or well-being requires it."
+ }
+}
