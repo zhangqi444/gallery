@@ -5,6 +5,7 @@ import "./index.css"
 import App from "./App"
 import { Session, DRIVE_ENABLED } from "./lib/session"
 import { GalleryStore } from "./modules/gallery/store"
+import { ServiceStore } from "./modules/service/store"
 import { loadContent, showMine } from "./modules/gallery/content"
 import { bootTheme } from "./lib/theme"
 
@@ -13,6 +14,7 @@ bootTheme()
 /* Every module's store is created and registered before the session starts, so
    signing in pulls all of them at once. A module added later joins here. */
 GalleryStore.init()
+ServiceStore.init()
 Session.init()
 
 /* While the child is signed in, the reader shows their own pictures, so editing

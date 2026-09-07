@@ -165,12 +165,56 @@ async function fakeGoogle(ctx, drive) {
   await pg.waitForSelector('[data-testid=app-home]');
   check('signed in, and the home greets by name', (await pg.textContent('[data-testid=app-home]')).includes('Test'));
   check('all three modules are offered', (await pg.$$('[data-testid^=module-card-]')).length === 3);
-  check('the two unmoved modules say so', (await pg.textContent('[data-testid=app-home]')).match(/not moved across yet/g).length === 2);
+  check('the one unmoved module says so', ((await pg.textContent('[data-testid=app-home]')).match(/not moved across yet/g) || []).length === 1);
 
   // a module that has not been ported yet is honest about it
   await pg.click('[data-testid=module-card-learning]');
   await pg.waitForSelector('[data-testid=module-pending]');
   check('Learning explains what will live there', (await pg.textContent('[data-testid=module-pending]')).includes('zhangqi444/isee'));
+
+  /* ---- Service: a place, a commitment, and hours against it ---- */
+  await pg.click('[data-testid=module-link-service]');
+  await pg.waitForSelector('[data-testid=service-empty]');
+  check('Service starts empty and says what to do', true);
+
+  await pg.click('[data-testid=add-org]');
+  await pg.waitForSelector('[data-testid=org-dialog]');
+  await pg.fill('[data-testid=org-name]', 'Seattle Humane');
+  await pg.fill('[data-testid=org-contact]', 'Maria');
+  await pg.click('[data-testid=org-save]');
+  await pg.waitForSelector('[data-testid=org-card]');
+  check('the organisation was added', (await pg.textContent('[data-testid=org-card]')).includes('Seattle Humane'));
+
+  await pg.click('[data-testid=add-item]');
+  await pg.waitForSelector('[data-testid=item-dialog]');
+  await pg.fill('[data-testid=item-title]', 'Walking the dogs');
+  await pg.click('[data-testid=item-save]');
+  await pg.waitForSelector('[data-testid=item-row]');
+  check('the commitment was added under it', (await pg.textContent('[data-testid=item-row]')).includes('Walking the dogs'));
+
+  await pg.click('[data-testid=log-button]');
+  await pg.waitForSelector('[data-testid=log-dialog]');
+  await pg.fill('[data-testid=log-hours]', '0');
+  await pg.click('[data-testid=log-save]');
+  check('zero hours is refused with a reason', /greater than zero/.test(await pg.textContent('[data-testid=log-error]')));
+  await pg.fill('[data-testid=log-hours]', '2.5');
+  await pg.selectOption('[data-testid=log-item]', { label: 'Walking the dogs · Seattle Humane' });
+  await pg.fill('[data-testid=log-activity]', 'Walked Rosie');
+  await pg.click('[data-testid=log-save]');
+  await pg.waitForSelector('[data-testid=entry-row]');
+  check('the hours were logged', (await pg.textContent('[data-testid=entry-row]')).includes('Walked Rosie'));
+  check('the total counts them', (await pg.textContent('[data-testid=stat-hours]')) === '2.5');
+
+  // Service and Gallery are separate documents in Drive, not one file
+  await pg.waitForFunction(() => {
+    const el = document.querySelector('[data-testid=session-status]');
+    return el && el.textContent.includes('Saved');
+  });
+  const serviceFile = [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.module === 'service' && !f.appProperties.kind);
+  check('Service saved a file of its own', Boolean(serviceFile));
+  check('its hours are in that file', JSON.parse(serviceFile[1].body).entries[0].hours === 2.5);
+  const folderNames = [...drive.files.values()].filter((f) => (f.appProperties || {}).kind === 'module').map((f) => f.name).sort();
+  check('each module got its own folder', folderNames.join(',') === 'Gallery,Service' || folderNames.join(',') === 'Service', folderNames.join(','));
 
   await pg.click('[data-testid=module-link-gallery]');
   await pg.waitForSelector('[data-testid=studio]');
@@ -198,6 +242,7 @@ async function fakeGoogle(ctx, drive) {
     return el && el.textContent.includes('Saved');
   });
   const dataFile = () => [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.module === 'gallery' && !f.appProperties.kind);
+  check('Service data is not in the Gallery file', !JSON.stringify(JSON.parse(dataFile()[1].body)).includes('Seattle Humane'));
   check('the blog file exists in Drive', Boolean(dataFile()));
   check('the blog file is NOT shared until Publish is pressed', dataFile()[1].shared === false);
   check('the post is in the saved file', JSON.parse(dataFile()[1].body).posts[0].title === 'My blue cat');

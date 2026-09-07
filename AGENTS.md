@@ -10,7 +10,7 @@ docs layout and one way of testing.
 > **Becoming The Little Me.** This repository is growing into a hub app for one
 > child: **Learning**, **Service** and **Gallery** over a single Google sign-in,
 > with each module's data in a folder of its own inside the child's own Drive.
-> Gallery is moved across; the other two announce what is coming and where from.
+> Gallery and Service are built; Learning announces what is coming and where from.
 > The plan, and why the old apps' data has to be carried by an export rather than
 > read directly, is in [docs/the-little-me.md](docs/the-little-me.md).
 > `zhangqi444/isee` and `zhangqi444/volunteer` are **not** modified by this work.
@@ -77,7 +77,7 @@ site/
   src/modules/me.jsx       the app's home, in the first person
   src/modules/gallery/     the blog: model, store, content resolution, post card, pages
   src/modules/learning/    to come, from isee
-  src/modules/service/     to come, from volunteer
+  src/modules/service/     organisations, commitments and hours: model, store, one page
   src/lib/markdown.js      marked with heading ids, figures, scrolling tables, external links
   src/lib/router.js        16 lines of hash routing
   src/lib/theme.js         saved choice > host data-theme > OS; the .dark class

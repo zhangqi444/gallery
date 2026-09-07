@@ -43,35 +43,39 @@ never see their practice or their hours in a sidebar. `appHome` in
 `content/site.json` decides which of the last two answers `#/`; it is `false`
 here, so this build still opens on the blog.
 
-## The constraint that shapes the migration
+## Old data comes later
 
-Both existing apps use the `drive.file` scope, which grants access only to files
-created by **that OAuth client**. `isee` and `volunteer` use different client ids
-in different Google Cloud projects, so The Little Me — with a client id of its
-own — can read neither app's existing data. No code fixes this; it is what makes
-the scope safe.
+The modules are built fresh rather than around the old apps' files. Their data
+will be carried across when the app is worth moving to, not before.
 
-So the data is carried across by an export the person downloads and imports,
-once, by hand. `volunteer` already has export and import in its settings.
-`isee` has neither, but its `progress.json` can be downloaded from Drive
-directly, so **neither old repository has to be modified**.
+When that happens, one fact decides how: both existing apps use the `drive.file`
+scope, which grants access only to files created by **that OAuth client**.
+`isee` and `volunteer` use different client ids in different Google Cloud
+projects, so The Little Me can read neither app's data directly. No code fixes
+this; it is what makes the scope safe. The route is therefore an export the
+person downloads and imports by hand — `volunteer` already has export in its
+settings, and `isee`'s `progress.json` can be downloaded from Drive — so
+**neither old repository ever has to be modified**.
 
-- Nothing is deleted. Both old files stay in Drive, and both old apps keep
-  working, until the merged app has been used for real.
-- Nothing is rewritten. Import preserves every `id`, `createdAt` and `at`, so the
-  merge logic behaves identically afterwards.
-- Import reports what it read, and the counts are checked against the old app
-  before that app is retired.
+To keep that cheap, each module's field names are deliberately the ones the old
+app already uses: Service stores `orgId`, `workItemId`, `activity`, `hours` and
+`at` exactly as volunteer does, so an import is close to a copy rather than a
+translation. Both old apps keep running in the meantime.
 
 ## Order of work
 
 1. ~~The shared core, tested on its own~~ — `lib/google.js`, `lib/session.js`, `lib/module-store.js`, with `test_drive.cjs` over them.
 2. ~~The shell~~ — one sign-in, the module bar, a home in the first person.
 3. ~~Gallery~~ — moved into `src/modules/gallery/`, the first module on the shared store.
-4. **Service**, from volunteer: catalog, plans, work items, hours, organisations, reports.
+4. ~~Service~~ — organisations, commitments and hours, on the shared store, in `src/modules/service/`.
 5. **Learning**, from isee: four subjects, 36 passages, essays, mocks, precision, books, rewards. Its content bundle is 580 kB and must stay behind the module's dynamic import.
-6. **Import**, reading volunteer's export and isee's `progress.json` as downloaded from Drive.
-7. **Cut over** — run both old apps and the new one side by side for a week, check the counts, then point the domains.
+6. **Import**, later: volunteer's export, and isee's `progress.json` as downloaded from Drive.
+7. **Cut over** — run the old apps and the new one side by side, then point the domains.
+
+Service deliberately leaves out volunteer's *catalog* of researched Seattle
+opportunities. That was one child's local research with a source and a check date
+per item, and a catalog fixed at build time is the wrong shape for an app any
+family can sign into.
 
 ## Rules this work must not break
 

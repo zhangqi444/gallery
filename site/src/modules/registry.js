@@ -22,7 +22,7 @@ export const MODULES = [
     mine: "My hours",
     blurb: "The organisations I help, what I plan, and the hours I have given.",
     from: "zhangqi444/volunteer",
-    ready: false,
+    ready: true,
     Component: lazy(() => import("./service/index.jsx")),
   },
   {
