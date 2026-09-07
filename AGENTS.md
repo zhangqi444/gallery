@@ -28,7 +28,7 @@ build is relative and routing is by hash, so both addresses serve the same build
 
 ```
 content/
-  site.json                name, tagline, author, nav, footer
+  site.json                name, tagline, url, google, author, nav, footer
   posts/YYYY-MM-DD-slug.md one post per file: front matter, then Markdown
   pages/<slug>.md          standing pages (about); reachable at #/<slug>
   gallery.json             the gallery: src, alt, caption, date
@@ -92,6 +92,12 @@ service, no analytics.
 - `make_bundle.py` must be re-run and `site/public/content/bundle.json`
   committed whenever `content/**` changes — CI fails the build if the committed
   bundle has drifted.
+- **The address** is `url` in `site.json`. The build turns it into the canonical
+  link and the `og:` tags in the head, and writes `CNAME`, `robots.txt` and
+  `sitemap.xml` into `dist/`. `google.siteVerification` is the token from Google
+  Search Console; while it is empty no verification tag is written. Enabling
+  Pages, the DNS record and the Search Console property are the owner's, and the
+  README lists them.
 
 ## Commands
 

@@ -90,3 +90,36 @@ from the committed one, builds with `npm ci && npm run build` and publishes
 `site/dist`. Pages must be set to **Source: GitHub Actions** (Settings → Pages).
 Every asset path is relative (`base: './'`) and routing is by hash, so the same
 build works at a domain root or under `/gallery/`.
+
+## The address and Google
+
+The address is `url` in `content/site.json`. The build writes it into the head
+(canonical link, `og:` tags) and into `dist/CNAME`, `dist/robots.txt` and
+`dist/sitemap.xml`. Four things live outside the repository and only the owner
+can do them, in this order:
+
+1. **Turn Pages on**: Settings → Pages → Build and deployment → Source →
+   **GitHub Actions**. Nothing is published until this is done: the workflow
+   cannot enable Pages by itself, and `configure-pages` fails the deploy with
+   "Resource not accessible by integration".
+2. **Deploy**: Actions → *Deploy site* → the failed run → *Re-run all jobs*.
+   When it is green, `https://zhangqi444.github.io/gallery/` serves the blog,
+   which proves the site works with the domain out of the picture.
+3. **DNS** (the `sheilazhang.org` zone is at Cloudflare): the `gallery` record
+   points at `zhangqi444.github.io` and its cloud must be **grey (DNS only)**.
+   Orange proxies the name through Cloudflare, and GitHub then cannot verify the
+   domain or issue a certificate.
+4. **Custom domain**: Settings → Pages → Custom domain → `gallery.sheilazhang.org`
+   → Save. Wait for the DNS check, then tick **Enforce HTTPS** once the
+   certificate is issued, which can take about fifteen minutes.
+
+For **Google Search Console**, add `gallery.sheilazhang.org` as a *URL prefix*
+property, choose the *HTML tag* method, paste the `content="…"` value into
+`google.siteVerification` in `content/site.json`, run
+`python3 site/make_bundle.py`, commit and push, then press *Verify*. Submit
+`https://gallery.sheilazhang.org/sitemap.xml` under Sitemaps. (A *Domain*
+property verified by a DNS TXT record works too and needs no token in the
+repository.)
+
+There is no Google Analytics and no Google sign-in here; see the hard rules in
+`AGENTS.md`.

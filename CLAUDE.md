@@ -50,6 +50,16 @@ Claude-Session: <session url>
   this repository is a blog of its own, sharing no code or platform with it.
 - Pictures must be in `site/public/images/`; `make_bundle.py` refuses a post
   whose `image` is not there.
+- The domain cannot be configured from the remote sandbox, and neither can the
+  deploy be re-run: the Pages REST path is blocked by the proxy, `rerun-failed-jobs`
+  and `workflow_dispatch` both answer 403 for the session's token, GitHub's
+  sign-in page and Cloudflare are blocked as well, so a browser cannot log in
+  either. The repo carries the address (`url` in `content/site.json` → `CNAME`,
+  `robots.txt`, `sitemap.xml`, head tags); enabling Pages, the Cloudflare record
+  and Search Console are the owner's, and the README lists them in order.
+- Check `has_pages` on the repository (`/repos/{owner}/{repo}`, which the proxy
+  does allow) before assuming a deploy can succeed. It was `false` after the
+  rename, which is why every *Deploy site* run had failed.
 
 ## Verification habit
 

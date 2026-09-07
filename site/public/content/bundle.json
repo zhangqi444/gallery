@@ -3007,6 +3007,9 @@
       ],
       "note": "Written by Sheila, with help from her parents."
     },
+    "google": {
+      "siteVerification": ""
+    },
     "language": "en",
     "nav": [
       {
@@ -3022,6 +3025,7 @@
         "to": "/about"
       }
     ],
-    "title": "Sheila Zhang"
+    "title": "Sheila Zhang",
+    "url": "https://gallery.sheilazhang.org/"
   }
 }
