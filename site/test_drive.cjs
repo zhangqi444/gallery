@@ -1,0 +1,239 @@
+/* The multi-tenant half: an author's data in their own Google Drive, and a
+ * stranger reading what they published.
+ *
+ * Google is stubbed, as in zhangqi444/volunteer: the sandbox cannot reach
+ * accounts.google.com and an OAuth popup cannot be automated anyway. The fake
+ * Drive is deliberately strict about the two things that matter here — a file
+ * is private until a permission is created on it, and a read without a token
+ * only succeeds on a file that has been shared.
+ *
+ * Run:  npm run build && node test_drive.cjs */
+const { chromium } = require('playwright');
+const http = require('http'), fs = require('fs'), path = require('path');
+const DIST = path.join(__dirname, 'dist');
+const MIME = { '.html': 'text/html', '.json': 'application/json', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.webmanifest': 'application/manifest+json' };
+
+function serve(port) {
+  const srv = http.createServer((req, res) => {
+    let p = decodeURIComponent(req.url.split('?')[0]);
+    if (p === '/') p = '/index.html';
+    const f = path.join(DIST, p);
+    if (!fs.existsSync(f) || fs.statSync(f).isDirectory()) { res.writeHead(404); return res.end(); }
+    res.writeHead(200, { 'content-type': MIME[path.extname(f)] || 'application/octet-stream' });
+    res.end(fs.readFileSync(f));
+  });
+  return new Promise((r) => srv.listen(port, () => r({ srv, base: `http://localhost:${port}/` })));
+}
+const exe = fs.existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome') ? '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' : undefined;
+
+let failures = 0;
+function check(name, ok, extra) { console.log((ok ? '  ok   ' : '  FAIL ') + name + (extra ? '  ' + extra : '')); if (!ok) failures++; }
+
+/* The build embeds these; the stub only has to agree with them. */
+const CLIENT_ID = 'test-client.apps.googleusercontent.com';
+const API_KEY = 'test-api-key';
+
+/* The committed google.json is empty, so a clone of this repo builds with no
+ * sign-in at all. The config is injected here instead, before any page script
+ * runs, which is exactly when store.js reads it. */
+const FAKE_GIS = `
+  window.__ENABLE_DRIVE__ = true;
+  window.__OAUTH_CLIENT_ID__ = ${JSON.stringify(CLIENT_ID)};
+  window.__GOOGLE_API_KEY__ = ${JSON.stringify(API_KEY)};
+  window.__gisCalls = JSON.parse(sessionStorage.getItem('gisCalls') || '[]');
+  window.google = { accounts: { oauth2: {
+    initTokenClient: (cfg) => ({ requestAccessToken: (o) => {
+      window.__gisCalls.push(o.prompt); sessionStorage.setItem('gisCalls', JSON.stringify(window.__gisCalls));
+      setTimeout(() => cfg.callback({ access_token: 'tok-' + Date.now(), expires_in: 3599,
+        scope: 'https://www.googleapis.com/auth/drive.file openid email profile' }), 20);
+    } }),
+    hasGrantedAllScopes: (resp, scope) => resp.scope.includes(scope),
+    revoke: (t, cb) => { window.__revoked = t; cb && cb(); }
+  } } };`;
+
+/* One in-memory Drive shared by every page in a run, so what the author
+ * publishes is what the visitor's browser later asks for. */
+function makeDrive() {
+  return { files: new Map(), seq: 0, calls: [] };   // id -> { name, body, appProperties, shared }
+}
+
+async function fakeGoogle(ctx, drive) {
+  await ctx.route(/accounts\.google\.com|fonts\.g|lh3\.googleusercontent\.com/, (r) => {
+    if (/lh3\./.test(r.request().url())) {
+      return r.fulfill({ status: 200, contentType: 'image/svg+xml', body: '<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8" fill="#8fb4f0"/></svg>' });
+    }
+    return r.abort();
+  });
+  await ctx.route(/googleapis\.com/, async (r) => {
+    const req = r.request(), url = req.url(), m = req.method();
+    drive.calls.push(m + ' ' + url.replace(/\?.*/, ''));
+    const json = (o, status = 200) => r.fulfill({ status, contentType: 'application/json', body: JSON.stringify(o) });
+    const authed = (req.headers()['authorization'] || '').startsWith('Bearer tok-');
+    const key = new URL(url).searchParams.get('key');
+
+    // an anonymous media read: only allowed with the API key, and only on a shared file
+    const media = /\/drive\/v3\/files\/([^/?]+)\?.*alt=media/.exec(url);
+    if (media && m === 'GET' && !authed) {
+      const f = drive.files.get(media[1]);
+      if (key !== API_KEY) return json({ error: { message: 'API key not valid' } }, 400);
+      if (!f) return json({ error: { message: 'File not found' } }, 404);
+      if (!f.shared) return json({ error: { message: 'File not found' } }, 404);
+      return r.fulfill({ status: 200, contentType: 'application/json', body: f.body });
+    }
+    if (!authed) return json({ error: { message: 'unauthorized' } }, 401);
+
+    if (/userinfo/.test(url)) return json({ name: 'Test Author', email: 'author@example.com', picture: '' });
+
+    if (/\/drive\/v3\/files\?/.test(url) && m === 'GET') {
+      const files = [...drive.files.entries()]
+        .filter(([, f]) => f.appProperties && f.appProperties.app === 'gallery-site' && !f.appProperties.kind)
+        .map(([id, f]) => ({ id, name: f.name, modifiedTime: f.modifiedTime, webViewLink: 'https://drive.google.com/file/d/' + id + '/view', shared: f.shared }));
+      return json({ files });
+    }
+    if (media && m === 'GET') {
+      const f = drive.files.get(media[1]);
+      return f ? r.fulfill({ status: 200, contentType: 'application/json', body: f.body }) : json({ error: { message: 'not found' } }, 404);
+    }
+    if (/\/upload\/drive\/v3\/files\?/.test(url) && m === 'POST') {
+      const raw = req.postData() || '';
+      const metaMatch = /\r\n\r\n(\{[\s\S]*?\})\r\n--/.exec(raw);
+      const meta = metaMatch ? JSON.parse(metaMatch[1]) : {};
+      const parts = raw.split(/--gs_[a-z0-9]+/);
+      const body = parts[2] ? parts[2].split('\r\n\r\n').slice(1).join('\r\n\r\n').replace(/\r\n$/, '') : '';
+      const id = 'file' + (++drive.seq) + '0000000000';
+      drive.files.set(id, { name: meta.name, appProperties: meta.appProperties || {}, body, shared: false, modifiedTime: new Date().toISOString() });
+      return json({ id, webViewLink: 'https://drive.google.com/file/d/' + id + '/view', modifiedTime: new Date().toISOString() });
+    }
+    const patch = /\/upload\/drive\/v3\/files\/([^/?]+)/.exec(url);
+    if (patch && m === 'PATCH') {
+      const f = drive.files.get(patch[1]);
+      if (f) { f.body = req.postData(); f.modifiedTime = new Date().toISOString(); }
+      return json({ id: patch[1], webViewLink: 'https://drive.google.com/file/d/' + patch[1] + '/view', modifiedTime: new Date().toISOString() });
+    }
+    const perm = /\/drive\/v3\/files\/([^/?]+)\/permissions/.exec(url);
+    if (perm && m === 'POST') {
+      const f = drive.files.get(perm[1]);
+      const p = JSON.parse(req.postData() || '{}');
+      if (f && p.role === 'reader' && p.type === 'anyone') f.shared = true;
+      return json({ id: 'perm1' });
+    }
+    const del = /\/drive\/v3\/files\/([^/?]+)$/.exec(url.replace(/\?.*/, ''));
+    if (del && m === 'DELETE') { drive.files.delete(del[1]); return r.fulfill({ status: 204, body: '' }); }
+    return json({ error: { message: 'unhandled ' + m + ' ' + url } }, 404);
+  });
+  await ctx.addInitScript(FAKE_GIS);
+}
+
+(async () => {
+  const { srv, base } = await serve(8170);
+  const b = await chromium.launch({ executablePath: exe });
+  const drive = makeDrive();
+
+  console.log('\n== the author ==');
+  const authorCtx = await b.newContext({ viewport: { width: 1280, height: 900 } });
+  await fakeGoogle(authorCtx, drive);
+  const pg = await authorCtx.newPage();
+  const errs = [];
+  pg.on('pageerror', (e) => errs.push('PAGEERR ' + e.message));
+  pg.on('console', (m) => { if (m.type() === 'error' && !/favicon|sw\.js|ERR_FAILED|ERR_TUNNEL/.test(m.text())) errs.push('CONSOLE ' + m.text()); });
+
+  await pg.goto(base + '#/studio', { waitUntil: 'networkidle' });
+  await pg.waitForSelector('[data-testid=studio-signin]');
+  check('the studio asks for sign-in before anything else', true);
+  check('no Google prompt on load', (await pg.evaluate(() => window.__gisCalls.length)) === 0);
+
+  await pg.click('[data-testid=signin-button]:not([disabled])');
+  await pg.waitForSelector('[data-testid=studio]');
+  check('signed in', (await pg.textContent('[data-testid=studio]')).includes('author@example.com') || (await pg.textContent('[data-testid=studio]')).includes('Test Author'));
+  check('a blog starts private', /This blog is/.test(await pg.textContent('[data-testid=studio-publish]')));
+  check('publishing is refused while there is nothing to publish',
+    await pg.isDisabled('[data-testid=studio-publish-button]'));
+
+  // write a post and give it a picture
+  await pg.click('[data-testid=studio-add]');
+  await pg.waitForSelector('[data-testid=studio-post]');
+  await pg.fill('[data-testid=studio-title]', 'My blue cat');
+  await pg.setInputFiles('[data-testid=studio-file]', {
+    name: 'cat.png', mimeType: 'image/png',
+    buffer: Buffer.from('89504e470d0a1a0a0000000d49484452', 'hex'),
+  });
+  await pg.waitForFunction(() => !document.querySelector('[data-testid=studio]').textContent.includes('Uploading'));
+  check('the picture was uploaded to Drive as its own file',
+    [...drive.files.values()].some((f) => f.appProperties && f.appProperties.kind === 'image'));
+  check('the picture is shared, so a reader can load it',
+    [...drive.files.values()].filter((f) => f.appProperties && f.appProperties.kind === 'image').every((f) => f.shared));
+
+  // the data file is saved but still private
+  await pg.waitForFunction(() => document.querySelector('[data-testid=studio-status]').textContent.includes('Saved'));
+  const dataFile = () => [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.app === 'gallery-site' && !f.appProperties.kind);
+  check('the blog file exists in Drive', Boolean(dataFile()));
+  check('the blog file is NOT shared until Publish is pressed', dataFile()[1].shared === false);
+  check('the post is in the saved file', JSON.parse(dataFile()[1].body).posts[0].title === 'My blue cat');
+
+  // a stranger cannot read it yet
+  const strangerCtx = await b.newContext({ viewport: { width: 1280, height: 900 } });
+  await fakeGoogle(strangerCtx, drive);
+  const blogId = dataFile()[0];
+  let sp = await strangerCtx.newPage();
+  await sp.goto(base + '#/b/' + blogId, { waitUntil: 'networkidle' });
+  await sp.waitForSelector('[data-testid=hero]');
+  check('an unpublished blog is not readable by a stranger',
+    !(await sp.textContent('body')).includes('My blue cat'));
+  await sp.close();
+
+  // publish, then a stranger can
+  await pg.click('[data-testid=studio-publish-button]');
+  await pg.waitForSelector('[data-testid=studio-link]');
+  check('publishing shared the blog file', dataFile()[1].shared === true);
+  const link = await pg.inputValue('[data-testid=studio-link]');
+  check('the link carries the blog id', link.includes('#/b/' + blogId), link);
+
+  console.log('\n== a stranger ==');
+  sp = await strangerCtx.newPage();
+  const strangerErrs = [];
+  sp.on('pageerror', (e) => strangerErrs.push('PAGEERR ' + e.message));
+  await sp.goto(base + '#/b/' + blogId, { waitUntil: 'networkidle' });
+  await sp.waitForSelector('[data-testid=post-card]');
+  check('the published post is readable with no sign-in',
+    (await sp.textContent('[data-testid=post-card]')).includes('My blue cat'));
+  check('the stranger was never asked to sign in',
+    (await sp.evaluate(() => (window.__gisCalls || []).length)) === 0);
+  await sp.click('[data-testid=post-card] h2 a');
+  await sp.waitForSelector('[data-testid=post]');
+  check('the post page opens for the stranger', (await sp.textContent('[data-testid=post-title]')) === 'My blue cat');
+  check('links keep the blog id', (await sp.evaluate(() => location.hash)).startsWith('#/b/' + blogId));
+  check('the picture is a public Drive URL', /lh3\.googleusercontent\.com\/d\//.test(await sp.getAttribute('[data-testid=post-image]', 'src')));
+  check('no page errors for the stranger', strangerErrs.length === 0, strangerErrs.join(' | '));
+
+  console.log('\n== back to the author ==');
+  // the session survives a reload without another Google prompt
+  await pg.reload({ waitUntil: 'networkidle' });
+  await pg.waitForSelector('[data-testid=studio]');
+  check('reload keeps the session, no consent prompt',
+    (await pg.evaluate(() => window.__gisCalls.filter((p) => p === 'consent').length)) === 1);
+  // the title lives in an <input>, whose value textContent never reports
+  check('the post survived the reload', (await pg.inputValue('[data-testid=studio-title]')) === 'My blue cat');
+
+  // deleting a post takes its picture with it
+  const imageIds = () => [...drive.files.entries()].filter(([, f]) => f.appProperties && f.appProperties.kind === 'image').map(([id]) => id);
+  const before = imageIds();
+  await pg.click('[data-testid=studio-delete]');
+  await pg.waitForSelector('[data-testid=studio-post]', { state: 'detached' });
+  check('deleting the post removed it', (await pg.$$('[data-testid=studio-post]')).length === 0);
+  await pg.waitForFunction(() => true);
+  check('its picture was deleted from Drive too', before.length === 1 && imageIds().length === 0,
+    `${before.length} -> ${imageIds().length}`);
+
+  // signing out clears the device but not the file in Drive
+  await pg.click('[data-testid=studio-signout]');
+  await pg.waitForSelector('[data-testid=studio-signin]');
+  check('signing out returns to the gate', true);
+  check('the blog file is still in Drive after signing out', Boolean(dataFile()));
+
+  check('no page errors for the author', errs.length === 0, errs.join(' | '));
+
+  await authorCtx.close(); await strangerCtx.close();
+  await b.close(); srv.close();
+  console.log(failures ? `\n${failures} check(s) failed` : '\nall Drive checks passed');
+  process.exit(failures ? 1 : 0);
+})().catch((e) => { console.error(e); process.exit(1); });

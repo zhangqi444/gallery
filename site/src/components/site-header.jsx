@@ -1,9 +1,10 @@
 /* Top bar: brand on the left, the site's nav in the middle, theme toggle on the
    right. On phones the nav folds into a disclosure under the bar. */
 import { useEffect, useState } from "react"
-import { MenuIcon, MoonIcon, SunIcon, XIcon } from "lucide-react"
+import { MenuIcon, MoonIcon, PenLineIcon, SunIcon, XIcon } from "lucide-react"
 
 import { C } from "@/lib/content"
+import { DRIVE_ENABLED, useStore } from "@/lib/store"
 import { href } from "@/lib/router"
 import { isDark, onTheme, toggleTheme } from "@/lib/theme"
 import { cn } from "@/lib/utils"
@@ -18,6 +19,7 @@ function useDark() {
 export function SiteHeader({ route }) {
   const [open, setOpen] = useState(false)
   const dark = useDark()
+  const store = useStore()
   const current = "/" + route.join("/")
   useEffect(() => { setOpen(false) }, [current])
 
@@ -43,6 +45,12 @@ export function SiteHeader({ route }) {
         </a>
         <nav className="ml-4 hidden items-center gap-1 sm:flex" data-testid="nav">{links}</nav>
         <div className="ml-auto flex items-center gap-1">
+          {DRIVE_ENABLED && (
+            <Button variant="ghost" size="icon" asChild
+              aria-label={store.email ? "Your blog" : "Make your own blog"} data-testid="studio-link-header">
+              <a href={href("/studio")}><PenLineIcon /></a>
+            </Button>
+          )}
           <Button variant="ghost" size="icon" aria-label={dark ? "Switch to light theme" : "Switch to dark theme"} data-testid="theme-toggle" onClick={toggleTheme}>
             {dark ? <SunIcon /> : <MoonIcon />}
           </Button>

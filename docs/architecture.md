@@ -6,28 +6,42 @@ sibling [design.md](design.md) covers the visual design.
 
 ## One sentence
 
-A static React site, served by GitHub Pages, whose only content is a JSON bundle
-built from Markdown files in the repository.
+A static React site with no backend, which reads a blog out of its author's own
+Google Drive — the author's, when they are signed in; anyone's, when the address
+names a published one; and the repository's committed copy otherwise.
 
 ## The shape
 
 ```
-  content/                 site.json, posts/*.md, pages/*.md, gallery.json
-     │
-     ▼  make_bundle.py (front matter, excerpt, reading time, validation)
-  site/public/content/bundle.json          committed; CI fails on drift
-     │
-     ▼  fetched once at boot (main.jsx → lib/content.js → the C object)
-  ┌──────────────────────────────────────────────────────────────┐
-  │  browser                                                     │
-  │   App.jsx (hash router) ──▶ pages/* ──▶ components/*         │
-  │   lib/markdown.js renders a post's Markdown with marked      │
-  │   lib/theme.js toggles the .dark class; nothing else is state│
-  └──────────────────────────────────────────────────────────────┘
+  content/          site.json, posts/*.md, pages/*.md
+     |
+     v  make_bundle.py
+  site/public/content/bundle.json         committed; CI fails on drift
+     |
+     |  the fallback, and this deployment's own blog
+     v
+  +---------------------------------------------------------------+
+  |  browser                                                       |
+  |                                                                |
+  |   lib/content.js  <-- picks one source, normalises all three   |
+  |        ^                                                       |
+  |        |  #/b/<id> or site.blogId          signed in           |
+  |        |     readPublic(id) + API key      lib/store.js        |
+  |        |     (no token, shared file)         |                 |
+  |        |                                     v                 |
+  |        |                            localStorage, synchronously|
+  |        |                                     |                 |
+  |        |                                     v  1.2 s debounce |
+  |   lib/google.js  --- GIS token, drive.file --->  the author's  |
+  |                      publish() shares the file    own Drive    |
+  +---------------------------------------------------------------+
 ```
 
-There is no server, no database, no account and no editor. If a feature seems to
-need one, it is the wrong feature for this site.
+Every author is a tenant of nothing: their blog is one JSON file plus one Drive
+file per picture, in their own Drive, and the app can only ever see files it
+created. Publishing is a Drive permission, not a copy: `{role: reader, type:
+anyone}` on the file. Reading a published blog needs no token, only the browser
+API key, so a visitor never meets a consent screen.
 
 ## Layers
 

@@ -7,12 +7,39 @@ import path from 'node:path'
 const ROOT = path.dirname(new URL(import.meta.url).pathname)
 const SITE = JSON.parse(fs.readFileSync(path.join(ROOT, '..', 'content', 'site.json'), 'utf8'))
 
+/* The Google client id and browser API key. Both are public values meant to
+ * ship in a page: the client id identifies the OAuth app, and the API key only
+ * reads files their owners have already shared. Neither is a secret, and the
+ * key should be restricted to this site by HTTP referrer in the Cloud console.
+ * With the file empty the app simply has no sign-in and reads the built-in
+ * content, so the site still builds and runs for anyone cloning it. */
+const GOOGLE = (() => {
+  try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'google.json'), 'utf8')) }
+  catch { return { client_id: '', api_key: '' } }
+})()
+
 /** Adds the PWA manifest and the offline service worker to the page. */
 function blogTarget() {
   return {
     name: 'blog-target',
     transformIndexHtml() {
+      // Nothing is written when there is no client id, so the page simply has
+      // no sign-in — and a test can supply its own config before the app loads
+      // rather than fighting a script that has already set these to empty.
+      const google = []
+      if (GOOGLE.client_id) {
+        google.push({
+          tag: 'script',
+          children:
+            'window.__ENABLE_DRIVE__=true;' +
+            'window.__OAUTH_CLIENT_ID__=' + JSON.stringify(GOOGLE.client_id) + ';' +
+            'window.__GOOGLE_API_KEY__=' + JSON.stringify(GOOGLE.api_key || '') + ';',
+          injectTo: 'head',
+        })
+        google.push({ tag: 'script', attrs: { src: 'https://accounts.google.com/gsi/client', async: true, defer: true }, injectTo: 'head' })
+      }
       return [
+        ...google,
         { tag: 'link', attrs: { rel: 'manifest', href: 'manifest.webmanifest' }, injectTo: 'head' },
         {
           tag: 'script',

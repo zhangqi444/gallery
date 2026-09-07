@@ -3,7 +3,11 @@
    /post/<slug>    one post
    /tag/<tag>      posts with a tag
    /gallery        the gallery
-   /<slug>         a standing page from content/pages (about, …) */
+   /studio         the author's own page: sign in, add pictures, publish
+   /<slug>         a standing page from content/pages (about, …)
+
+   Every route may be prefixed with /b/<blogId> to read a published blog out of
+   its owner's Drive; lib/router.js strips it and href() puts it back. */
 import { useRoute } from "@/lib/router"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -12,6 +16,7 @@ import { Post } from "@/pages/post"
 import { Tag } from "@/pages/tag"
 import { Page } from "@/pages/page"
 import { Gallery } from "@/pages/gallery"
+import { Studio } from "@/pages/studio"
 import { NotFound } from "@/pages/not-found"
 
 function View({ route }) {
@@ -20,6 +25,7 @@ function View({ route }) {
   if (head === "post" && arg) return <Post slug={arg} />
   if (head === "tag" && arg) return <Tag tag={arg} />
   if (head === "gallery") return <Gallery />
+  if (head === "studio") return <Studio />
   if (route.length === 1) return <Page slug={head} />
   return <NotFound />
 }

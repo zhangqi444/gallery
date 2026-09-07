@@ -7,12 +7,32 @@ docs layout and one way of testing.
 
 ## What this is
 
-A static blog for **Sheila** (9): "Thoughts, stories and ideas." It carries the
-writing and pictures from her earlier site at
-[sheilazhang.org](https://sheilazhang.org), brought over once with
-`site/import_ghost.py`. Posts are Markdown files in the repository; her parent
-commits them. There is no editor in the browser, no comments, no accounts and
-no analytics.
+A blog anyone can keep, whose data belongs to whoever wrote it. Signing in with
+Google gives an author a blog stored in **their own Google Drive**; publishing
+shares that one file so strangers can read it with no sign-in of their own. It
+is multi-tenant by isolation, exactly like `zhangqi444/volunteer` and
+`zhangqi444/isee`: every author is their own tenant and there is no shared
+backend, no server and no database.
+
+This deployment is also the home of **Sheila's** blog (9, "Thoughts, stories and
+ideas"), whose 135 posts came from her earlier site at
+[sheilazhang.org](https://sheilazhang.org) via `site/import_ghost.py` and are
+committed here. That committed content is what visitors see until `blogId` in
+`content/site.json` names a published Drive blog to read instead.
+
+There are no comments and no analytics.
+
+### Where a page's posts come from
+
+| Address | Source |
+|---|---|
+| `#/b/<driveFileId>/…` | that published blog, read from its owner's Drive with no sign-in |
+| any route, `blogId` set in `content/site.json` | the blog that names, likewise unauthenticated |
+| any route, no `blogId` | `site/public/content/bundle.json`, the committed content |
+| any route, while signed in | the author's own store, so editing is its own preview |
+
+`lib/content.js` resolves this and normalises all three into one read model, so
+no page knows where its posts came from.
 
 **It is a picture blog.** Of the 135 posts, all but fourteen are a title, a date
 and one picture, with no body at all; the fourteen carry a line or two of her
@@ -34,19 +54,23 @@ content/
   gallery.json             the gallery: src, alt, caption, date
 site/
   import_ghost.py          one-off: a Ghost export JSON → content/posts/*.md and content/pages/*.md
-  make_bundle.py           content/** → site/public/content/bundle.json (the site's only content input)
+  google.json              the Google client id and browser API key (public values; empty in the repo)
+  make_bundle.py           content/** → site/public/content/bundle.json (the committed content)
   index.html               Vite entry
   vite.config.js           base './', the manifest and the service worker
   src/main.jsx             boot: theme, fetch the bundle, render
   src/App.jsx              shell (header, footer) and the hash router
-  src/lib/content.js       the bundle (C), lookups, tags, related, neighbours
+  src/lib/content.js       resolves the source above into one read model (C), lookups, tags, related, neighbours
+  src/lib/google.js        Google sign-in and Drive: the volunteer pattern, plus publishing and picture upload
+  src/lib/store.js         the author's dataset: localStorage first, Drive mirrored on a 1.2 s debounce
+  src/lib/model.js         what a blog dataset is, how any JSON becomes one, and the per-record merge
   src/lib/markdown.js      marked with heading ids, figures, scrolling tables, external links
   src/lib/router.js        16 lines of hash routing
   src/lib/theme.js         saved choice > host data-theme > OS; the .dark class
   src/lib/format.js        fmtDate, readTime, initials
   src/components/ui/       shadcn/ui components, written into the repo (button, badge, dialog)
   src/components/          site-header, site-footer, post-card, markdown, page-title
-  src/pages/               home, post, tag, page, gallery, not-found
+  src/pages/               home, post, tag, page, gallery, studio (the author's own page), not-found
   public/                  favicon, manifest, service worker, images/, content/bundle.json
   test_site.cjs            the Playwright suite — see Testing
 .github/workflows/pages.yml  build + deploy to GitHub Pages
@@ -66,8 +90,15 @@ docs/                      architecture.md (structure and why), design.md (look,
 | Content | `content/**` → `bundle.json`, fetched once at boot | one JSON, cached network-first by the worker |
 | Hosting | GitHub Pages via Actions | |
 
-**No backend, ever.** No server, no database, no account system, no comments
-service, no analytics.
+**No backend, ever.** No server, no database, no comments service, no analytics.
+The only account system is Google's, and the only storage is the author's own
+Drive: `drive.file` scope, so the app can never see a file it did not create.
+
+**Nothing is public until the author publishes.** A new blog's file is private.
+`Store.publish()` grants `{role: reader, type: anyone}` on it, and pictures are
+shared as they are uploaded so a published post is not full of holes. Putting a
+child's pictures on the internet must be a deliberate act, and `test_drive.cjs`
+holds the line: it checks that an unpublished blog is unreadable by a stranger.
 
 ## Content
 
@@ -112,7 +143,15 @@ python3 site/make_bundle.py   # rebuild bundle.json after editing content/**
 
 ## Testing
 
-One suite, `site/test_site.cjs`, run against the built `dist/` served under
+Two suites. `site/test_drive.cjs` covers the multi-tenant half with Google
+stubbed: sign-in, a post, a picture uploaded to Drive, the file staying private
+until Publish, a stranger failing to read it before and succeeding after, the
+picture arriving as a public Drive URL, a reload with no second consent prompt,
+and deleting a post taking its picture with it. Its fake Drive refuses an
+anonymous read of an unshared file, so the privacy checks cannot pass by
+accident.
+
+`site/test_site.cjs` covers the reading site, run against the built `dist/` served under
 `/gallery/` on a desktop and a touch-emulated phone: the hero and the cards, the
 phone menu, a post reached from its card (title, headings, lists, read more,
 older/newer), a topic page, About, the gallery and its lightbox, the 404 view,

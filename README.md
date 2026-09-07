@@ -1,6 +1,14 @@
 # Sheila's blog
 
-A new static blog for Sheila, laid out like [sheilazhang.org](https://sheilazhang.org): a front
+A blog whose data belongs to whoever wrote it. Sign in with Google and your posts
+and pictures live in **your own Google Drive**; press Publish and one file is
+shared so anyone with the link can read it without signing in to anything. Every
+author is their own tenant and there is no server, no database and no shared
+store — the same contract as [`volunteer`](https://github.com/zhangqi444/volunteer)
+and [`isee`](https://github.com/zhangqi444/isee).
+
+This deployment is also the home of Sheila's blog, laid out like
+[sheilazhang.org](https://sheilazhang.org): a front
 page with the site's name and tagline, the newest post leading and the rest in a
 grid, a reading page per post, topics, an **About** page, and a **Gallery** of
 pictures. Posts are Markdown files in `content/posts`; nothing else is needed to
@@ -72,6 +80,30 @@ date as its heading.
     site/test_site.cjs        the Playwright suite
     .github/workflows/pages.yml  build + deploy to GitHub Pages
     docs/                     architecture.md, design.md
+
+## Setting up Google
+
+Sign-in is off until `site/google.json` has real values; without them the site
+just shows the content committed here. Both values are public and belong in the
+page — the client id names the OAuth app, and the browser API key only reads
+files their owners have already shared. Neither is a secret, but restrict the key
+to this site by HTTP referrer.
+
+1. In the Google Cloud console create a project, then an **OAuth client ID** of
+   type *Web application*. Add this site's origin to *Authorised JavaScript
+   origins*. The only scope used is `drive.file`, which is non-sensitive, so
+   there is no verification review and no warning screen.
+2. Create an **API key** in the same project and enable the **Google Drive API**.
+   Restrict the key by HTTP referrer to this site, and by API to Drive.
+3. Put both in `site/google.json`:
+
+       { "client_id": "….apps.googleusercontent.com", "api_key": "…" }
+
+4. Rebuild. The header grows a pencil icon; `#/studio` is the author's page.
+
+To make this deployment show a published Drive blog instead of the committed
+posts, put that blog's file id in `blogId` in `content/site.json`. Any blog is
+also readable at `#/b/<fileId>` without configuring anything.
 
 ## Build
 

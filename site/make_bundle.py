@@ -120,6 +120,10 @@ def main():
     for k in ("title", "description", "author", "nav"):
         if k not in site:
             sys.exit(f"site.json: missing {k}")
+    # blogId names the published Drive file this deployment is the home of. When
+    # it is set the site reads that blog; when it is empty the committed posts
+    # below are what visitors see.
+    site.setdefault("blogId", "")
     posts = [read_post(p) for p in sorted((CONTENT / "posts").glob("*.md"))]
     pages = [read_page(p) for p in sorted((CONTENT / "pages").glob("*.md"))]
     seen = set()

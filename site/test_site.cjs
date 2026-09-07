@@ -89,7 +89,8 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
       const away = BUNDLE.site.nav.find((n) => n.to !== '/');   // any route that is not home
       await pg.click(`[data-testid=nav-mobile] a:has-text("${away.label}")`);
       await pg.waitForFunction((to) => location.hash === '#' + to, away.to);
-      check('phone menu navigates and closes', (await pg.$('[data-testid=nav-mobile]')) === null);
+      await pg.waitForSelector('[data-testid=nav-mobile]', { state: 'detached' });
+      check('phone menu navigates and closes', true);
       await pg.goto(base, { waitUntil: 'networkidle' });
       await pg.waitForSelector('[data-testid=hero]');
     } else {
