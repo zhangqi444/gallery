@@ -14,8 +14,11 @@ export const todayISO = () => new Date().toISOString().slice(0, 10)
 export const ts = (v) => { const n = Date.parse(v || ""); return Number.isNaN(n) ? 0 : n }
 
 export function emptyData() {
-  return { schema: SCHEMA, updatedAt: nowISO(), results: {}, sessions: [], deleted: {} }
+  return { schema: SCHEMA, updatedAt: nowISO(), results: {}, sessions: [], books: {}, deleted: {} }
 }
+
+/** A book is only ever one of these; anything else means the record is wrong. */
+export const BOOK_STATES = ["reading", "finished"]
 
 export function normalize(raw) {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
@@ -53,6 +56,17 @@ export function normalize(raw) {
     .filter((s) => s.asked > 0)
     .sort((a, b) => ts(b.at) - ts(a.at))
 
+  const books = raw.books && typeof raw.books === "object" && !Array.isArray(raw.books) ? raw.books : {}
+  for (const [id, b] of Object.entries(books)) {
+    if (!b || typeof b !== "object" || !BOOK_STATES.includes(str(b.state))) continue
+    out.books[id] = {
+      state: str(b.state),
+      title: str(b.title),
+      author: str(b.author),
+      at: str(b.at || fileAt),
+    }
+  }
+
   const dead = raw.deleted && typeof raw.deleted === "object" && !Array.isArray(raw.deleted) ? raw.deleted : {}
   for (const k of Object.keys(dead)) if (typeof dead[k] === "string") out.deleted[k] = dead[k]
 
@@ -75,6 +89,16 @@ export function mergeData(local, remoteRaw) {
     if (!l || ts(r.at) > ts(l.at)) results[id] = r
   }
 
+  const books = { ...local.books }
+  for (const [id, b] of Object.entries(remote.books)) {
+    const l = books[id]
+    if (!l || ts(b.at) > ts(l.at)) books[id] = b
+  }
+  for (const id of Object.keys(books)) {
+    const d = dead["book:" + id]
+    if (d && ts(d) >= ts(books[id].at)) delete books[id]
+  }
+
   const byId = new Map(local.sessions.map((s) => [s.id, s]))
   for (const s of remote.sessions) {
     const l = byId.get(s.id)
@@ -84,7 +108,7 @@ export function mergeData(local, remoteRaw) {
     .filter((s) => !dead[s.id] || ts(dead[s.id]) < ts(s.at))
     .sort((a, b) => ts(b.at) - ts(a.at))
 
-  return { ...local, results, sessions, deleted: dead, updatedAt: nowISO() }
+  return { ...local, results, sessions, books, deleted: dead, updatedAt: nowISO() }
 }
 
 /* ---------- derived, never stored ---------- */
@@ -111,6 +135,9 @@ export function mockDone(s) {
   }
   return done
 }
+
+export const booksFinished = (s) => Object.values(s.books).filter((b) => b.state === "finished").length
+export const booksReading = (s) => Object.values(s.books).filter((b) => b.state === "reading").length
 
 export function streakDays(s, today = todayISO()) {
   const days = new Set(s.sessions.map((x) => x.date))

@@ -180,7 +180,7 @@ async function fakeGoogle(ctx, drive) {
   check('opening Learning fetches only the index', fetched.join(',') === 'index.json', fetched.join(','));
   check('the subjects are listed', (await pg.$$('[data-testid=subject-list] li')).length === 4);
 
-  check('the three ways to practise are offered', (await pg.$$('[data-testid=learning-tabs] button')).length === 3);
+  check('the four ways into Learning are offered', (await pg.$$('[data-testid=learning-tabs] button')).length === 4);
   await pg.click('[data-testid=subject-vr]');
   await pg.waitForSelector('[data-testid=practice]');
   check('choosing a subject fetches that subject and nothing else',
@@ -254,6 +254,23 @@ async function fakeGoogle(ctx, drive) {
   await pg.waitForSelector('[data-testid=session-list]');
   check('practice, a mock section and a word set are all in the history',
     (await pg.$$('[data-testid=session-list] li')).length === 3);
+
+  /* ---- the reading log ---- */
+  await pg.click('[data-testid=tab-books]');
+  await pg.waitForSelector('[data-testid=book-list]');
+  const bookCount = (await pg.$$('[data-testid=book]')).length;
+  check('the books are listed', bookCount === 13, String(bookCount));
+  check('and it starts with nothing marked', /Mark a book/.test(await pg.textContent('[data-testid=book-count]')));
+  await pg.click('[data-testid=book] >> nth=0 >> [data-testid=book-finished]');
+  await pg.waitForFunction(() => /1 finished/.test(document.querySelector('[data-testid=book-count]').textContent));
+  check('marking one as finished counts it', true);
+  await pg.click('[data-testid=book] >> nth=1 >> [data-testid=book-reading]');
+  await pg.waitForFunction(() => /1 finished, 1 on the go/.test(document.querySelector('[data-testid=book-count]').textContent));
+  check('and one on the go is counted separately', true);
+  // pressing the state a book is already in clears it, so a slip is one click to undo
+  await pg.click('[data-testid=book] >> nth=1 >> [data-testid=book-reading]');
+  await pg.waitForFunction(() => /^1 finished\.$/.test(document.querySelector('[data-testid=book-count]').textContent.trim()));
+  check('pressing the same state again clears it', true);
 
   // the home screen now reflects work done in a module
   await pg.click('[data-testid=app-brand]');

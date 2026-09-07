@@ -36,6 +36,12 @@ export const subject = (id) => subjects().find((s) => s.id === id) || null
 export const mocks = () => (L.index ? L.index.mocks : [])
 export const mock = (id) => mocks().find((m) => m.id === id) || null
 export const wordSets = () => (L.index ? L.index.precision : [])
+export const books = () => {
+  const b = (L.index && L.index.books) || {}
+  const starter = (b.starter || []).map((x) => ({ ...x, id: x.id || x.title, suggested: false }))
+  const suggested = (b.suggestions || []).map((x) => ({ ...x, id: x.id || x.title, suggested: true }))
+  return { note: b.note || "", list: [...starter, ...suggested] }
+}
 
 /** The four sections of a mock are the four subjects; give them the names the
  *  subject list already uses rather than a bare code. */

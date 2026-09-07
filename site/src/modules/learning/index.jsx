@@ -14,8 +14,8 @@ import { ArrowRightIcon, CheckIcon, XIcon } from "lucide-react"
 import { useSession } from "@/lib/session"
 import { cn } from "@/lib/utils"
 import { fmtDate } from "@/lib/format"
-import { answerIndex, isCorrect, loadIndex, loadTopic, mocks, sectionLabel, subjects, wordSets } from "./content"
-import { mockDone, recentSessions, streakDays, subjectProgress } from "./model"
+import { answerIndex, books, isCorrect, loadIndex, loadTopic, mocks, sectionLabel, subjects, wordSets } from "./content"
+import { booksFinished, booksReading, mockDone, recentSessions, streakDays, subjectProgress } from "./model"
 import { useLearning } from "./store"
 import { Button } from "@/components/ui/button"
 import { useTitle } from "@/components/page-title"
@@ -26,6 +26,7 @@ const TABS = [
   { id: "practice", label: "Practise" },
   { id: "mock", label: "Mock exams" },
   { id: "words", label: "Words" },
+  { id: "books", label: "Books" },
 ]
 
 /** Questions never seen come first, then ones answered wrongly, so a set is
@@ -154,6 +155,46 @@ function Result({ result, run, onAgain, onFinish }) {
         <Button data-testid="practice-again" onClick={onAgain}>Another {result.asked}</Button>
         <Button variant="outline" data-testid="practice-done" onClick={onFinish}>Done for now</Button>
       </div>
+    </div>
+  )
+}
+
+/* ---------- the reading log ---------- */
+
+function Books({ store }) {
+  const { note, list } = books()
+  const finished = booksFinished(store.s)
+  const reading = booksReading(store.s)
+  return (
+    <div className="mt-4" data-testid="book-list">
+      <p className="text-sm text-muted-foreground" data-testid="book-count">
+        {finished === 0 && reading === 0
+          ? "Mark a book when you start it, and again when you finish."
+          : `${finished} finished${reading ? `, ${reading} on the go` : ""}.`}
+      </p>
+      <ul className="mt-3 flex flex-col gap-2">
+        {list.map((b) => {
+          const state = store.bookState(b.id)
+          return (
+            <li key={b.id} className="rounded-xl border bg-card p-4" data-testid="book">
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <div className="min-w-0">
+                  <h3 className="font-semibold">{b.title}</h3>
+                  <p className="text-xs text-muted-foreground">{b.author}</p>
+                </div>
+                <div className="flex shrink-0 gap-1.5">
+                  <Button variant={state === "reading" ? "default" : "outline"} size="sm" data-testid="book-reading"
+                    onClick={() => store.setBook(b.id, "reading", b)}>Reading</Button>
+                  <Button variant={state === "finished" ? "default" : "outline"} size="sm" data-testid="book-finished"
+                    onClick={() => store.setBook(b.id, "finished", b)}>Finished</Button>
+                </div>
+              </div>
+              {b.why && <p className="mt-2 text-sm text-muted-foreground">{b.why}</p>}
+            </li>
+          )
+        })}
+      </ul>
+      {note && <p className="mt-4 text-xs text-muted-foreground">{note}</p>}
     </div>
   )
 }
@@ -380,6 +421,8 @@ export default function Learning() {
           })}
         </ul>
       )}
+
+      {tab === "books" && <Books store={store} />}
 
       {recent.length > 0 && (
         <section className="mt-8">

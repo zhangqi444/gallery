@@ -1,6 +1,6 @@
 /* The Learning module's data, on the same store contract as Service and Gallery. */
 import { createModuleStore, useModuleStore } from "@/lib/module-store"
-import { emptyData, mergeData, normalize, nowISO, streakDays, todayISO, uid } from "./model"
+import { booksFinished, BOOK_STATES, emptyData, mergeData, normalize, nowISO, streakDays, todayISO, uid } from "./model"
 
 export const LearningStore = createModuleStore({
   name: "learning",
@@ -26,6 +26,21 @@ Object.assign(LearningStore, {
     return row
   },
   resultFor(questionId) { return this.s.results[questionId] || null },
+
+  /** Reading: a book is not started, being read, or finished. Pressing the
+   *  state it is already in clears it, so a mistake is one click to undo. */
+  setBook(id, state, about = {}) {
+    if (!BOOK_STATES.includes(state)) return
+    const cur = this.s.books[id]
+    if (cur && cur.state === state) {
+      delete this.s.books[id]
+      this.bury("book:" + id)
+    } else {
+      this.s.books[id] = { state, title: about.title || (cur && cur.title) || "", author: about.author || (cur && cur.author) || "", at: nowISO() }
+    }
+    this.commit()
+  },
+  bookState(id) { return this.s.books[id] ? this.s.books[id].state : "" },
 })
 
 export const useLearning = () => useModuleStore(LearningStore)
@@ -36,11 +51,13 @@ export function learningSummary() {
   if (!done) return { line: "Nothing practised yet", detail: "Pick a subject and try ten questions." }
   const streak = streakDays(s)
   const last = s.sessions[0]
+  const read = booksFinished(s)
   return {
     line: `${done} question${done === 1 ? "" : "s"} answered`,
     detail: [
       streak > 0 ? `${streak} day${streak === 1 ? "" : "s"} in a row` : "",
       last ? `last set ${last.right} out of ${last.asked}` : "",
+      read ? `${read} book${read === 1 ? "" : "s"} finished` : "",
     ].filter(Boolean).join(" · ") || "Keep going.",
   }
 }
