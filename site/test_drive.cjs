@@ -166,6 +166,10 @@ async function fakeGoogle(ctx, drive) {
   check('signed in, and the home greets by name', (await pg.textContent('[data-testid=app-home]')).includes('Test'));
   check('all three modules are offered', (await pg.$$('[data-testid^=module-card-]')).length === 3);
   check('every module is built', !(await pg.textContent('[data-testid=app-home]')).includes('not moved across yet'));
+  check('each module describes its own state on the home screen',
+    (await pg.$$('[data-testid^=summary-]')).length === 3);
+  check('and says so honestly when there is nothing yet',
+    /Nothing practised yet/.test(await pg.textContent('[data-testid=summary-learning]')));
 
   /* ---- Learning: the content is fetched a topic at a time ---- */
   const fetched = [];
@@ -251,6 +255,14 @@ async function fakeGoogle(ctx, drive) {
   check('practice, a mock section and a word set are all in the history',
     (await pg.$$('[data-testid=session-list] li')).length === 3);
 
+  // the home screen now reflects work done in a module
+  await pg.click('[data-testid=app-brand]');
+  await pg.waitForSelector('[data-testid=app-home]');
+  check('the home screen counts the questions answered',
+    /30 questions answered/.test(await pg.textContent('[data-testid=summary-learning]')),
+    await pg.textContent('[data-testid=summary-learning]'));
+
+
   await pg.waitForFunction(() => {
     const el = document.querySelector('[data-testid=session-status]');
     return el && el.textContent.includes('Saved');
@@ -316,6 +328,15 @@ async function fakeGoogle(ctx, drive) {
     folderModules.join(','));
   check('and they all sit under one app folder',
     [...drive.files.values()].filter((f) => (f.appProperties || {}).kind === 'root').length === 1);
+
+  // the home screen reflects work done in every module, not just the last one
+  await pg.click('[data-testid=app-brand]');
+  await pg.waitForSelector('[data-testid=app-home]');
+  check('the home screen counts the hours logged',
+    /2\.5 hours/.test(await pg.textContent('[data-testid=summary-service]')),
+    await pg.textContent('[data-testid=summary-service]'));
+  check('and still the questions answered',
+    /30 questions answered/.test(await pg.textContent('[data-testid=summary-learning]')));
 
   await pg.click('[data-testid=module-link-gallery]');
   await pg.waitForSelector('[data-testid=studio]');

@@ -2,7 +2,7 @@
  * localStorage copy, the Drive mirror, the debounce, tombstones, signing in and
  * out — comes from lib/module-store.js, exactly as Gallery's does. */
 import { createModuleStore, useModuleStore } from "@/lib/module-store"
-import { emptyData, mergeData, newEntry, newOrg, newWorkItem, normalize, nowISO, STATUSES } from "./model"
+import { emptyData, mergeData, newEntry, newOrg, newWorkItem, normalize, nowISO, STATUSES, totals } from "./model"
 
 export const ServiceStore = createModuleStore({
   name: "service",
@@ -99,3 +99,12 @@ Object.assign(ServiceStore, {
 })
 
 export const useService = () => useModuleStore(ServiceStore)
+
+export function serviceSummary() {
+  const t = totals(ServiceStore.s)
+  if (!t.sessions) return { line: "No hours yet", detail: "Add a place you help, then log your time." }
+  return {
+    line: `${t.hours} hour${t.hours === 1 ? "" : "s"}`,
+    detail: `${t.thisYear} this year, across ${t.organizations} place${t.organizations === 1 ? "" : "s"}.`,
+  }
+}

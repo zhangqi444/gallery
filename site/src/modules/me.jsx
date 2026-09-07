@@ -4,6 +4,10 @@
  * shows one line per module rather than everything at once — today's practice,
  * the next thing to do, the newest picture. */
 import { DRIVE_ENABLED, useSession } from "@/lib/session"
+import { useModuleStore } from "@/lib/module-store"
+import { GalleryStore } from "@/modules/gallery/store"
+import { LearningStore } from "@/modules/learning/store"
+import { ServiceStore } from "@/modules/service/store"
 import { href } from "@/lib/router"
 import { MODULES } from "@/modules/registry"
 import { Button } from "@/components/ui/button"
@@ -33,6 +37,9 @@ function SignIn({ session }) {
 export function Me() {
   useTitle("The Little Me")
   const session = useSession()
+  // Subscribe to all three, so a summary is never stale after a set or an hour
+  // is logged in another module.
+  useModuleStore(GalleryStore); useModuleStore(ServiceStore); useModuleStore(LearningStore)
 
   if (!DRIVE_ENABLED) {
     return (
@@ -52,17 +59,24 @@ export function Me() {
     <div className="mx-auto max-w-2xl" data-testid="app-home">
       <h1 className="text-2xl font-bold tracking-tight">{first ? `Hello, ${first}` : "Hello"}</h1>
       <p className="mt-2 text-muted-foreground">What would you like to do?</p>
-      <div className="mt-6 flex flex-col gap-3">
-        {MODULES.map((m) => (
-          <a key={m.id} href={href("/me/" + m.id)} data-testid={`module-card-${m.id}`}
-            className="group rounded-xl border bg-card p-5 transition-shadow hover:shadow-md">
-            <div className="flex items-baseline justify-between gap-3">
-              <h2 className="font-semibold group-hover:underline">{m.mine}</h2>
-              {!m.ready && <span className="shrink-0 text-xs text-muted-foreground">not moved across yet</span>}
-            </div>
-            <p className="mt-1 text-sm text-muted-foreground">{m.blurb}</p>
-          </a>
-        ))}
+      <div className="mt-6 flex flex-col gap-3" data-testid="module-cards">
+        {MODULES.map((m) => {
+          // A module describes its own state; the home screen only lays it out,
+          // so a fourth module needs no edit here.
+          const s = m.summary ? m.summary() : null
+          return (
+            <a key={m.id} href={href("/me/" + m.id)} data-testid={`module-card-${m.id}`}
+              className="group rounded-xl border bg-card p-5 transition-shadow hover:shadow-md">
+              <div className="flex items-baseline justify-between gap-3">
+                <h2 className="font-semibold group-hover:underline">{m.mine}</h2>
+                {s
+                  ? <span className="shrink-0 text-sm tabular-nums text-muted-foreground" data-testid={`summary-${m.id}`}>{s.line}</span>
+                  : !m.ready && <span className="shrink-0 text-xs text-muted-foreground">not moved across yet</span>}
+              </div>
+              <p className="mt-1 text-sm text-muted-foreground">{s ? s.detail : m.blurb}</p>
+            </a>
+          )
+        })}
       </div>
     </div>
   )

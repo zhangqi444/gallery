@@ -1,6 +1,6 @@
 /* The Learning module's data, on the same store contract as Service and Gallery. */
 import { createModuleStore, useModuleStore } from "@/lib/module-store"
-import { emptyData, mergeData, normalize, nowISO, todayISO, uid } from "./model"
+import { emptyData, mergeData, normalize, nowISO, streakDays, todayISO, uid } from "./model"
 
 export const LearningStore = createModuleStore({
   name: "learning",
@@ -29,3 +29,18 @@ Object.assign(LearningStore, {
 })
 
 export const useLearning = () => useModuleStore(LearningStore)
+
+export function learningSummary() {
+  const s = LearningStore.s
+  const done = Object.keys(s.results).length
+  if (!done) return { line: "Nothing practised yet", detail: "Pick a subject and try ten questions." }
+  const streak = streakDays(s)
+  const last = s.sessions[0]
+  return {
+    line: `${done} question${done === 1 ? "" : "s"} answered`,
+    detail: [
+      streak > 0 ? `${streak} day${streak === 1 ? "" : "s"} in a row` : "",
+      last ? `last set ${last.right} out of ${last.asked}` : "",
+    ].filter(Boolean).join(" · ") || "Keep going.",
+  }
+}

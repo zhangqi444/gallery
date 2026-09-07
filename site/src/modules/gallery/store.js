@@ -107,3 +107,14 @@ Object.assign(GalleryStore, {
 })
 
 export const useGallery = () => useModuleStore(GalleryStore)
+
+/** One line for the app's home screen. Lives with the store, not with the page,
+ *  so the home screen never has to import a module's UI to describe it. */
+export function gallerySummary() {
+  const n = GalleryStore.s.posts.length
+  if (!n) return { line: "No pictures yet", detail: "Add one and it is saved to your Drive." }
+  return {
+    line: `${n} picture${n === 1 ? "" : "s"}`,
+    detail: GalleryStore.isPublished() ? "Published — anyone with the link can see them." : "Private to you until you publish.",
+  }
+}

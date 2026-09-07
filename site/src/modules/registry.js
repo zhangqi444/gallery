@@ -6,6 +6,13 @@
  * to look at a drawing must not download a question bank to do it. */
 import { lazy } from "react"
 
+/* Each module answers for itself on the home screen. Summaries live with the
+   stores, which main.jsx already loads, so describing a module never pulls its
+   pages into the main bundle. */
+import { gallerySummary } from "./gallery/store"
+import { learningSummary } from "./learning/store"
+import { serviceSummary } from "./service/store"
+
 export const MODULES = [
   {
     id: "learning",
@@ -14,6 +21,7 @@ export const MODULES = [
     blurb: "Practice, reading, essays and the books I finished.",
     from: "zhangqi444/isee",
     ready: true,
+    summary: learningSummary,
     Component: lazy(() => import("./learning/index.jsx")),
   },
   {
@@ -23,6 +31,7 @@ export const MODULES = [
     blurb: "The organisations I help, what I plan, and the hours I have given.",
     from: "zhangqi444/volunteer",
     ready: true,
+    summary: serviceSummary,
     Component: lazy(() => import("./service/index.jsx")),
   },
   {
@@ -32,6 +41,7 @@ export const MODULES = [
     blurb: "Pictures I have made, and the ones I have published for anyone to see.",
     from: "this repository",
     ready: true,
+    summary: gallerySummary,
     Component: lazy(() => import("./gallery/pages/studio.jsx").then((m) => ({ default: m.Studio }))),
   },
 ]
