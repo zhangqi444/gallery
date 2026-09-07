@@ -44,23 +44,30 @@ Claude-Session: <session url>
   runs Jekyll over the repo root and serves the README instead of the site.
   The workflow cannot turn Pages on by itself: until the owner enables it once
   in Settings → Pages, `configure-pages` fails with "Resource not accessible by
-  integration" even though the bundle check and the build before it pass.
+  integration" even though the bundle check and the build before it pass. The
+  owner has now done that — *Deploy site* has been green since
+  `6424099`, so a red run after a push is this repository's fault, not Pages'.
 - `sheilazhang.org` and the Internet Archive are not reachable from the remote
   sandbox, so the layout was reconstructed from the search summary of its pages
   and from the conventions its theme follows. It is a visual reference only:
   this repository is a blog of its own, sharing no code or platform with it.
 - Pictures must be in `site/public/images/`; `make_bundle.py` refuses a post
   whose `image` is not there.
-- The domain cannot be configured from the remote sandbox, and neither can the
-  deploy be re-run: the Pages REST path is blocked by the proxy, `rerun-failed-jobs`
-  and `workflow_dispatch` both answer 403 for the session's token, GitHub's
-  sign-in page and Cloudflare are blocked as well, so a browser cannot log in
-  either. The repo carries the address (`url` in `content/site.json` → `CNAME`,
-  `robots.txt`, `sitemap.xml`, head tags); enabling Pages, the Cloudflare record
-  and Search Console are the owner's, and the README lists them in order.
-- Check `has_pages` on the repository (`/repos/{owner}/{repo}`, which the proxy
-  does allow) before assuming a deploy can succeed. It was `false` after the
-  rename, which is why every *Deploy site* run had failed.
+- The deployed site cannot be opened from the remote sandbox: both
+  `gallery.sheilazhang.org` and `zhangqi444.github.io` answer 403 at the proxy's
+  CONNECT, so a change is verified by the suites and the workflow's conclusion,
+  never by loading the live page. The domain cannot be configured from here
+  either, and neither can a deploy be re-run: the Pages REST path is blocked by
+  the proxy, `rerun-failed-jobs` and `workflow_dispatch` both answer 403 for the
+  session's token, GitHub's sign-in page and Cloudflare are blocked as well, so a
+  browser cannot log in either. The repo carries the address (`url` in
+  `content/site.json` → `CNAME`, `robots.txt`, `sitemap.xml`, head tags); the
+  Cloudflare record and Search Console are the owner's, and the README lists
+  them in order.
+- Check the last *Deploy site* run before assuming anything about the live site,
+  and `has_pages` on the repository (`/repos/{owner}/{repo}`, which the proxy
+  does allow) if a run fails at `configure-pages`. It was `false` after the
+  rename, which is why the earlier runs failed.
 
 ## Verification habit
 
