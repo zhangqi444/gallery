@@ -3,7 +3,7 @@
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react"
 
 import { neighbours, postBySlug, related } from "@/lib/content"
-import { fmtDate } from "@/lib/format"
+import { fmtDate, titleOf } from "@/lib/format"
 import { href } from "@/lib/router"
 import { Markdown } from "@/components/markdown"
 import { PostCard, PostMeta } from "@/components/post-card"
@@ -12,7 +12,7 @@ import { NotFound } from "@/pages/not-found"
 
 export function Post({ slug }) {
   const post = postBySlug(slug)
-  useTitle(post ? post.title : "Not found")
+  useTitle(post ? titleOf(post) : "Not found")
   if (!post) return <NotFound what="post" />
   const { newer, older } = neighbours(post)
   const more = related(post)
@@ -24,30 +24,36 @@ export function Post({ slug }) {
             {post.tags.map((t) => <a key={t} href={href("/tag/" + t)} className="hover:underline">{t}</a>)}
           </div>
         )}
-        <h1 className="mt-3 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl" data-testid="post-title">{post.title}</h1>
+        <h1 className="mt-3 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl" data-testid="post-title">{titleOf(post)}</h1>
         {post.excerpt && <p className="mt-4 text-lg text-muted-foreground sm:text-xl">{post.excerpt}</p>}
         <PostMeta post={post} className="mt-6 text-sm" />
         {post.updated !== post.date && <p className="mt-1 text-xs text-muted-foreground">Updated {fmtDate(post.updated)}</p>}
       </header>
       {post.image && (
-        <figure className="mx-auto mt-10 max-w-5xl">
-          <img src={post.image} alt={post.imageAlt || ""} className="aspect-[16/9] w-full rounded-xl object-cover" />
+        <figure className="mx-auto mt-10 max-w-4xl">
+          <img src={post.image} alt={post.imageAlt || titleOf(post)} data-testid="post-image"
+            className="max-h-[80vh] w-full rounded-xl object-contain" />
+          {post.caption && (
+            <figcaption className="mt-3 text-center text-sm text-muted-foreground">{post.caption}</figcaption>
+          )}
         </figure>
       )}
-      <div className="mx-auto mt-10 max-w-3xl">
-        <Markdown body={post.body} />
-      </div>
+      {post.body.trim() && (
+        <div className="mx-auto mt-10 max-w-3xl">
+          <Markdown body={post.body} />
+        </div>
+      )}
       <nav className="mx-auto mt-14 grid max-w-3xl gap-3 sm:grid-cols-2" aria-label="Older and newer posts" data-testid="post-nav">
         {older ? (
           <a href={href("/post/" + older.slug)} className="group rounded-xl border bg-card p-4 hover:bg-accent">
             <span className="flex items-center gap-1 text-xs text-muted-foreground"><ArrowLeftIcon className="size-3" /> Older</span>
-            <span className="mt-1 block font-semibold group-hover:underline">{older.title}</span>
+            <span className="mt-1 block font-semibold group-hover:underline">{titleOf(older)}</span>
           </a>
         ) : <span />}
         {newer && (
           <a href={href("/post/" + newer.slug)} className="group rounded-xl border bg-card p-4 text-right hover:bg-accent">
             <span className="flex items-center justify-end gap-1 text-xs text-muted-foreground">Newer <ArrowRightIcon className="size-3" /></span>
-            <span className="mt-1 block font-semibold group-hover:underline">{newer.title}</span>
+            <span className="mt-1 block font-semibold group-hover:underline">{titleOf(newer)}</span>
           </a>
         )}
       </nav>

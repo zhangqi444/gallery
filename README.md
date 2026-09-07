@@ -44,8 +44,15 @@ optional `updated`, `image`, `imageAlt`; they are reachable at `#/<slug>`. The
 gallery is `content/gallery.json`: `src`, `alt`, `caption`, `date`. The site's
 name, tagline, author and navigation are in `content/site.json`.
 
-The sample posts and pictures in this repository are placeholders to replace
-with Sheila's own.
+The posts came across from Sheila's Ghost blog with `site/import_ghost.py`,
+which is kept for a second pass if more are written there:
+
+    python3 site/import_ghost.py path/to/export.json            # keep the CDN's pictures
+    python3 site/import_ghost.py path/to/export.json --images D # copy pictures from folder D
+
+Most posts are a picture with a title and a date and no body, so the site shows
+no excerpt and no reading time for them, and a post Ghost never named shows its
+date as its heading.
 
 ## Layout
 

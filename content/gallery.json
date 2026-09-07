@@ -1,8 +1,0 @@
-[
-  { "src": "images/gallery-01.svg", "alt": "A blue cat with a long tail", "caption": "Blue cat", "date": "2026-08-30" },
-  { "src": "images/gallery-02.svg", "alt": "A house with many windows", "caption": "The house with twelve windows", "date": "2026-08-14" },
-  { "src": "images/gallery-03.svg", "alt": "Three paper boats", "caption": "Boats for the pond race", "date": "2026-08-24" },
-  { "src": "images/gallery-04.svg", "alt": "A jar of coloured pencils", "caption": "My pencils", "date": "2026-06-01" },
-  { "src": "images/gallery-05.svg", "alt": "A city skyline drawn in pen", "caption": "The long city", "date": "2026-05-10" },
-  { "src": "images/gallery-06.svg", "alt": "A glowing jellyfish", "caption": "Jellyfish that glow", "date": "2026-07-20" }
-]

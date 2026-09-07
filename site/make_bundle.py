@@ -88,10 +88,14 @@ def read_post(path):
         "excerpt": meta.get("excerpt") or excerpt(body),
         "image": meta.get("image", ""),
         "imageAlt": meta.get("imageAlt", ""),
+        "caption": meta.get("caption", ""),
         "featured": bool(meta.get("featured", False)),
         "draft": bool(meta.get("draft", False)),
         "words": words,
-        "minutes": max(1, round(words / 200)),
+        # 0 unless the post is long enough for a reading time to mean anything.
+        # Most posts here are a picture with a one-line caption, and telling a
+        # reader that three words take "1 min" is worse than saying nothing.
+        "minutes": max(1, round(words / 200)) if words >= 50 else 0,
         "body": body,
     }
 
@@ -127,17 +131,32 @@ def main():
         p.pop("draft") if not p["draft"] else None
     posts = [p for p in posts if not p.get("draft")]
     posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)
+    # The gallery is every post picture, newest first, unless content/gallery.json
+    # spells out its own list. On a blog whose posts are pictures, keeping a
+    # second hand-written list would only drift from them.
     gallery_file = CONTENT / "gallery.json"
-    gallery = json.loads(gallery_file.read_text(encoding="utf-8")) if gallery_file.exists() else []
+    if gallery_file.exists():
+        gallery = json.loads(gallery_file.read_text(encoding="utf-8"))
+    else:
+        untitled = lambda t: re.fullmatch(r"\(?\s*untitled\s*\)?", (t or "").strip(), re.I) is not None
+        gallery = [
+            {"src": p["image"], "alt": p["imageAlt"] or p["title"],
+             "caption": "" if untitled(p["title"]) else p["title"],
+             "date": p["date"], "slug": p["slug"]}
+            for p in posts if p["image"]
+        ]
     for g in gallery:
         if not g.get("src") or not g.get("alt"):
             sys.exit("gallery.json: every item needs src and alt")
         g.setdefault("caption", ""); g.setdefault("date", "")
     gallery.sort(key=lambda g: (g["date"], g["src"]), reverse=True)
+    # A picture is either a file in site/public/ or an absolute URL on the host
+    # that still serves it; a repo-relative path that is not there is a mistake
+    # the build should catch rather than a broken picture on the live site.
     for item in posts + pages + gallery:
         for key in ("image", "src"):
             src = item.get(key)
-            if src and not (ROOT / "site" / "public" / src).exists():
+            if src and not src.startswith(("http://", "https://")) and not (ROOT / "site" / "public" / src).exists():
                 sys.exit(f"{item.get('slug') or src}: image {src} is not in site/public/")
     bundle = {"schema": 1, "site": site, "posts": posts, "pages": pages, "gallery": gallery}
     OUT.parent.mkdir(parents=True, exist_ok=True)

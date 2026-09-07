@@ -1,16 +1,7 @@
 ---
 title: About me
-updated: 2026-09-06
-image: images/page-about.svg
-imageAlt: A blue wave pattern
+updated: 2024-01-17
+image: https://digitalpress.fra1.cdn.digitaloceanspaces.com/xm9ctxt/2024/01/sheila-logo-3.jpg
 ---
 
-Hi, I am Sheila.
-
-I love the colour blue. I also love jelly, ice cream and most other desserts.
-
-This is my blog. I write about the things I make, the books I read, and the ideas I have. My parents help me put the posts online.
-
-## Say hello
-
-If you read something here that you liked, tell me next time you see me.
+My name is Sheila. I love blue. I love jelly, ice cream, and other desserts. It is nice to meet you. I also love kitties and peagaus.

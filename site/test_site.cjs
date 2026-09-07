@@ -21,6 +21,19 @@ function serve(port) {
 }
 const exe = fs.existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome') ? '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' : undefined;
 
+/* The posts' pictures are served by the old blog's CDN, which the build sandbox
+ * cannot reach. Standing a placeholder in for every off-site request keeps the
+ * suite testing this site rather than someone else's uptime, and makes the
+ * screenshots show the real layout instead of a page of broken images. */
+const PLACEHOLDER = Buffer.from(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#dbe8ff"/>' +
+  '<circle cx="620" cy="150" r="70" fill="#fff7d6"/><polygon points="120,470 320,240 520,470" fill="#8fb4f0"/>' +
+  '<polygon points="380,470 560,270 740,470" fill="#2b63c9"/></svg>');
+async function stubRemoteImages(ctx, origin) {
+  await ctx.route((url) => url.origin !== origin, (r) =>
+    r.fulfill({ status: 200, contentType: 'image/svg+xml', body: PLACEHOLDER }));
+}
+
 let failures = 0;
 function check(name, ok, extra) { console.log((ok ? '  ok   ' : '  FAIL ') + name + (extra ? '  ' + extra : '')); if (!ok) failures++; }
 const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push('PAGEERR ' + e.message)); pg.on('console', (m) => { if (m.type() === 'error' && !/favicon|sw\.js|net::ERR_FAILED/.test(m.text())) errs.push('CONSOLE ' + m.text()); }); return errs; };
@@ -29,10 +42,12 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
   const { srv, base } = await serve(8160);
   const b = await chromium.launch({ executablePath: exe });
   const posts = BUNDLE.posts, lead = posts[0];
+  const tagged = posts.find((p) => p.tags.length > 0);
   for (const [label, viewport] of [['desktop', { width: 1280, height: 860 }], ['phone', { width: 390, height: 844 }]]) {
     console.log('\n== ' + label + ' ==');
     const phone = label === 'phone';
     const ctx = await b.newContext({ viewport, ...(phone ? { isMobile: true, hasTouch: true } : {}) });
+    await stubRemoteImages(ctx, new URL(base).origin);
     const pg = await ctx.newPage(); const errs = errorsOf(pg);
 
     // home
@@ -40,10 +55,18 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
     await pg.waitForSelector('[data-testid=hero]');
     check('hero shows the site title and tagline', (await pg.textContent('[data-testid=hero]')).includes(BUNDLE.site.title) && (await pg.textContent('[data-testid=hero]')).includes(BUNDLE.site.description));
     check('document title is the site title', (await pg.title()) === BUNDLE.site.title);
-    const cards = await pg.$$('[data-testid=post-card]');
-    check(`one card per post (${posts.length})`, cards.length === posts.length, String(cards.length));
+    const PAGE = 24;
+    const firstPage = Math.min(posts.length, PAGE + 1);   // the lead card plus one page of the rest
+    let cards = await pg.$$('[data-testid=post-card]');
+    check(`front page opens on ${firstPage} of ${posts.length} posts`, cards.length === firstPage, String(cards.length));
     check('newest post leads', (await cards[0].textContent()).includes(lead.title));
-    check('cards carry the byline and read time', /min read/.test(await cards[0].textContent()));
+    if (posts.length > firstPage) {
+      await pg.click('[data-testid=show-more]');
+      cards = await pg.$$('[data-testid=post-card]');
+      check('show more reveals another page', cards.length === Math.min(posts.length, firstPage + PAGE), String(cards.length));
+    } else {
+      check('no show-more button needed', (await pg.$('[data-testid=show-more]')) === null);
+    }
     check('topics listed', (await pg.$$('[data-testid=tag-cloud] a')).length > 0);
     if (phone) {
       check('phone hides the inline nav', !(await pg.isVisible('[data-testid=nav]')));
@@ -65,19 +88,28 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
     const hash = await pg.evaluate(() => location.hash);
     check('card opens the post route', hash === '#/post/' + lead.slug, hash);
     check('post title rendered', (await pg.textContent('[data-testid=post-title]')) === lead.title);
-    check('markdown body rendered with headings', (await pg.$$('[data-testid=prose] h2')).length > 0);
-    check('markdown lists rendered', (await pg.$$('[data-testid=prose] li')).length > 0);
+    check('the post shows its picture', (await pg.$('[data-testid=post-image]')) !== null);
+    const hasProse = (await pg.$('[data-testid=prose]')) !== null;
+    check(lead.body.trim() ? 'body rendered' : 'no empty reading column on a picture post', hasProse === Boolean(lead.body.trim()));
+    const saysMinutes = /min read/.test(await pg.textContent('[data-testid=post]'));
+    check(lead.minutes > 0 ? 'byline shows a reading time' : 'no reading time claimed for a wordless post', saysMinutes === lead.minutes > 0);
     check('document title names the post', (await pg.title()).startsWith(lead.title));
     check('read more shows other posts', (await pg.$$('[data-testid=read-more] [data-testid=post-card]')).length === Math.min(3, posts.length - 1));
     check('older link present on the newest post', /Older/.test(await pg.textContent('[data-testid=post-nav]')));
     await pg.screenshot({ path: `shot-${label}-post.png`, fullPage: true });
 
-    // topic page from the post's tag link
-    const tag = lead.tags[0];
-    await pg.click(`[data-testid=post] header a:has-text("${tag}")`);
-    await pg.waitForSelector('[data-testid=tag-page]');
-    const tagged = posts.filter((p) => p.tags.includes(tag)).length;
-    check(`topic "${tag}" lists ${tagged} post(s)`, (await pg.$$('[data-testid=tag-page] [data-testid=post-card]')).length === tagged);
+    // topic page, reached from a post that carries a tag
+    if (tagged) {
+      const tag = tagged.tags[0];
+      await pg.goto(base + '#/post/' + tagged.slug, { waitUntil: 'networkidle' });
+      await pg.waitForSelector('[data-testid=post]');
+      await pg.click(`[data-testid=post] header a:has-text("${tag}")`);
+      await pg.waitForSelector('[data-testid=tag-page]');
+      const n = posts.filter((p) => p.tags.includes(tag)).length;
+      check(`topic "${tag}" lists ${n} post(s)`, (await pg.$$('[data-testid=tag-page] [data-testid=post-card]')).length === n);
+    } else {
+      check('no tags in this content, topic page not exercised', true);
+    }
 
     // about, from the header
     await pg.goto(base + '#/about', { waitUntil: 'networkidle' });
@@ -92,6 +124,7 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
     await pg.click('[data-testid=gallery-item]');
     await pg.waitForSelector('[data-testid=lightbox]');
     check('lightbox opens with the caption', (await pg.textContent('[data-testid=lightbox]')).includes(BUNDLE.gallery[0].caption || BUNDLE.gallery[0].alt));
+    check('lightbox links back to the post', (await pg.$('[data-testid=lightbox-post]')) !== null);
     await pg.keyboard.press('Escape');
     await pg.waitForSelector('[data-testid=lightbox]', { state: 'detached' });
     check('lightbox closes on Escape', true);

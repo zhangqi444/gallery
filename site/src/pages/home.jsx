@@ -1,12 +1,22 @@
 /* Home: the hero with the site's name and tagline, the lead post, then the rest. */
+import { useState } from "react"
+
 import { C, tags } from "@/lib/content"
 import { href } from "@/lib/router"
+import { Button } from "@/components/ui/button"
 import { PostCard } from "@/components/post-card"
 import { useTitle } from "@/components/page-title"
 
+/* Three years of pictures is far too much for one screen, so the front page
+   opens on the most recent and grows a page at a time. The gallery still holds
+   every picture at once for anyone who wants to browse the lot. */
+const PAGE = 24
+
 export function Home() {
   useTitle("")
+  const [shown, setShown] = useState(PAGE)
   const [lead, ...rest] = C.posts
+  const visible = rest.slice(0, shown)
   const allTags = tags()
   return (
     <>
@@ -20,9 +30,17 @@ export function Home() {
         {lead ? (
           <div className="flex flex-col gap-8">
             <PostCard post={lead} large />
-            {rest.length > 0 && (
+            {visible.length > 0 && (
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-testid="post-grid">
-                {rest.map((p) => <PostCard key={p.slug} post={p} />)}
+                {visible.map((p) => <PostCard key={p.slug} post={p} />)}
+              </div>
+            )}
+            {shown < rest.length && (
+              <div className="flex justify-center">
+                <Button variant="outline" data-testid="show-more" onClick={() => setShown((n) => n + PAGE)}>
+                  Show more pictures
+                  <span className="text-muted-foreground">{rest.length - shown} left</span>
+                </Button>
               </div>
             )}
           </div>

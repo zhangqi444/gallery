@@ -7,11 +7,18 @@ docs layout and one way of testing.
 
 ## What this is
 
-A new static blog for **Sheila** (9): "Thoughts, stories and ideas." Its layout
-takes after her earlier site at [sheilazhang.org](https://sheilazhang.org), but
-nothing is imported from it and nothing depends on it. Posts are Markdown files
-in the repository; her parent commits them. There is no editor in the browser,
-no comments, no accounts and no analytics.
+A static blog for **Sheila** (9): "Thoughts, stories and ideas." It carries the
+writing and pictures from her earlier site at
+[sheilazhang.org](https://sheilazhang.org), brought over once with
+`site/import_ghost.py`. Posts are Markdown files in the repository; her parent
+commits them. There is no editor in the browser, no comments, no accounts and
+no analytics.
+
+**It is a picture blog.** Of the 135 posts, all but fourteen are a title, a date
+and one picture, with no body at all; the fourteen carry a line or two of her
+own. Nineteen were never named and carry Ghost's `(Untitled)`. The UI is built
+around that: no excerpt where there is no text, no reading time under fifty
+words, and an untitled post shows its date as its heading.
 
 Lives at <https://gallery.sheilazhang.org/> (a custom domain on GitHub Pages;
 also reachable at <https://zhangqi444.github.io/gallery/>). Every path in the
@@ -26,6 +33,7 @@ content/
   pages/<slug>.md          standing pages (about); reachable at #/<slug>
   gallery.json             the gallery: src, alt, caption, date
 site/
+  import_ghost.py          one-off: a Ghost export JSON → content/posts/*.md and content/pages/*.md
   make_bundle.py           content/** → site/public/content/bundle.json (the site's only content input)
   index.html               Vite entry
   vite.config.js           base './', the manifest and the service worker
@@ -71,11 +79,16 @@ service, no analytics.
 - **Pages** are `content/pages/<slug>.md` with `title` and optional `updated`,
   `image`, `imageAlt`. The router sends any single-segment route that is not
   `gallery` to the page with that slug, so `#/about` is `pages/about.md`.
-- **Gallery** is `content/gallery.json`, newest first by `date`.
-- **Pictures** live in `site/public/images/` and are referenced as
-  `images/<file>`; the bundle script fails if a referenced picture is missing.
-  Relative paths work under the hash router because the document URL never
-  changes.
+- **Gallery** is every post's picture, newest first, derived by the bundle
+  script. A `content/gallery.json` overrides that with a hand-written list;
+  without one there is no second list of pictures to drift from the posts.
+- **Pictures** are either a file in `site/public/images/`, referenced as
+  `images/<file>`, or an absolute URL. The imported posts point at the old
+  blog's CDN, so the pictures are still served from there; `make_bundle.py`
+  checks that a repo-relative picture exists but leaves an absolute URL alone.
+  To stop depending on that host, copy the files in and re-run the import with
+  `--images <folder>`. Relative paths work under the hash router because the
+  document URL never changes.
 - `make_bundle.py` must be re-run and `site/public/content/bundle.json`
   committed whenever `content/**` changes — CI fails the build if the committed
   bundle has drifted.

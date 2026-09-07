@@ -6,11 +6,17 @@ The look and feel of Sheila's blog, and the reasons behind it. Companion to
 
 ## Who it is for
 
-Sheila, 9, who writes the posts, and the friends and family who read them. The
-shape is the one she already knows from sheilazhang.org: a calm front page, big
-readable titles, one column of text, pictures that are allowed to be large. That
-site is the reference for how this one should look and feel, and nothing more —
-no code, content or platform is shared with it.
+Sheila, 9, who makes the pictures, and the friends and family who look at them.
+The shape is the one she already knows from sheilazhang.org: a calm front page,
+big readable titles, pictures that are allowed to be large.
+
+**The content decides the design.** Almost every post is one picture with a
+title and a date. So a card is a picture with its title under it and no excerpt,
+because there is nothing to excerpt; a post page is the picture at up to 80% of
+the screen's height, uncropped, with its caption when it has one; nothing claims
+a reading time unless there are at least fifty words; and the front page opens on
+the newest two dozen with a button for more, because three years of pictures in
+one grid is a page nobody can use.
 
 ## Principles
 
