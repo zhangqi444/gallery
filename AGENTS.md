@@ -77,7 +77,7 @@ site/
   src/modules/registry.js  the modules the shell offers; each `load` is a dynamic import so one module's content never loads for another
   src/modules/me.jsx       the app's home, in the first person
   src/modules/gallery/     the blog: model, store, content resolution, post card, pages
-  src/modules/learning/    practice: content loader, model, store, one page
+  src/modules/learning/    practice sets, mock sections and word sets: content loader, model, store, one page
   make_learning.py         content/learning/** → site/public/content/learning/*.json, one file per topic
   src/modules/service/     organisations, commitments and hours: model, store, one page
   src/lib/markdown.js      marked with heading ids, figures, scrolling tables, external links

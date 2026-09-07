@@ -23,551 +23,489 @@
   }
  },
  "sections": {
-  "all": [
+  "ma": [
    {
     "c": [
-     "famous",
-     "patient",
-     "skillful",
-     "cheerful"
+     "7,403",
+     "7,393",
+     "6,403",
+     "7,503"
     ],
-    "d": "M",
-    "e": "Adept means highly skillful; patient, famous, and cheerful describe unrelated qualities.",
-    "id": "M02-VR-001",
-    "k": 2,
-    "p": "",
-    "q": "ADEPT most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "obedient",
-     "restless",
-     "noisy",
-     "ancient"
-    ],
-    "d": "M",
-    "e": "Docile means calm and willing to be taught or guided, closest to obedient; restless is nearly opposite, while ancient and noisy are unrelated.",
-    "id": "M02-VR-002",
+    "d": "E",
+    "e": "4,608 + 2,795 = 7,403; B and D reflect carrying errors, and C drops one thousand.",
+    "id": "M02-MA-001",
     "k": 0,
     "p": "",
-    "q": "DOCILE most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "A reading drive collected 4,608 books in spring and 2,795 in fall. How many books were collected altogether?",
+    "sk": "whole-number operations—addition",
     "w": "W1"
    },
    {
     "c": [
-     "humorous",
-     "prepared",
-     "honest",
-     "shy"
+     "6/5",
+     "5/8",
+     "13/24",
+     "4/5"
     ],
     "d": "M",
-    "e": "Candid means truthful and direct; shyness, preparation, and humor do not require honesty.",
-    "id": "M02-VR-003",
+    "e": "With denominator 24, 21/24 − 8/24 = 13/24. A subtracts denominators, B changes only the numerator, and D uses an incorrect common denominator.",
+    "id": "M02-MA-002",
     "k": 2,
     "p": "",
-    "q": "CANDID most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 7/8 − 1/3?",
+    "sk": "fraction operations—unlike denominators",
     "w": "W1"
    },
    {
     "c": [
-     "silent",
-     "hardworking",
-     "fortunate",
-     "ordinary"
+     "$24.75",
+     "$28.50",
+     "$28.05",
+     "$30.75"
     ],
     "d": "E",
-    "e": "A diligent person works carefully and persistently; the other choices describe luck, sound, or commonness.",
-    "id": "M02-VR-004",
+    "e": "4.75 × 6 = 28.50. A multiplies only the dollars (4 × 6 = 24) and appends the 75 cents, C swaps the cents digits of 28.50, and D rounds to $5 × 6 = $30 and then adds the 75 cents back.",
+    "id": "M02-MA-003",
     "k": 1,
     "p": "",
-    "q": "DILIGENT most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "Six identical notebooks cost $4.75 each. What is the total cost?",
+    "sk": "decimal operations—multiplication",
     "w": "W1"
    },
    {
     "c": [
-     "accidental",
-     "detailed",
-     "unfinished",
-     "ancient"
+     "53",
+     "60",
+     "65",
+     "63"
     ],
     "d": "M",
-    "e": "Elaborate means detailed or carefully developed; age, completion, and intent are separate traits.",
-    "id": "M02-VR-005",
-    "k": 1,
-    "p": "",
-    "q": "ELABORATE most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "foolish",
-     "noisy",
-     "narrow",
-     "weak"
-    ],
-    "d": "E",
-    "e": "Feeble means lacking strength, or weak; noisy, foolish, and narrow do not express low strength.",
-    "id": "M02-VR-006",
+    "e": "945 ÷ 15 = 63 because 15 × 63 = 945; the other choices come from incomplete division or rounding.",
+    "id": "M02-MA-004",
     "k": 3,
     "p": "",
-    "q": "FEEBLE most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "A printer places 945 cards equally into 15 boxes. How many cards are in each box?",
+    "sk": "whole-number operations—division",
     "w": "W1"
    },
    {
     "c": [
-     "exact",
-     "courteous",
-     "puzzled",
-     "wealthy"
+     "72",
+     "80",
+     "84",
+     "96"
     ],
     "d": "M",
-    "e": "Gracious means courteous and considerate; the distractors concern understanding, wealth, or precision.",
-    "id": "M02-VR-007",
-    "k": 1,
-    "p": "",
-    "q": "GRACIOUS most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "exciting",
-     "hidden",
-     "unusual",
-     "dangerous"
-    ],
-    "d": "E",
-    "e": "Hazardous means dangerous or risky; something may be exciting, hidden, or unusual without being unsafe.",
-    "id": "M02-VR-008",
-    "k": 3,
-    "p": "",
-    "q": "HAZARDOUS most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "distant",
-     "empty",
-     "enormous",
-     "heavy"
-    ],
-    "d": "E",
-    "e": "Immense means extremely large; weight, distance, and emptiness are not measures of overall size.",
-    "id": "M02-VR-009",
+    "e": "0.35 × 240 = 84; A finds 30%, B finds one third approximately, and D finds 40%.",
+    "id": "M02-MA-005",
     "k": 2,
     "p": "",
-    "q": "IMMENSE most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "A 240-page book has illustrations on 35% of its pages. How many pages have illustrations?",
+    "sk": "percent—finding a part",
     "w": "W1"
    },
    {
     "c": [
-     "argue",
-     "remain",
-     "tremble",
-     "hurry"
+     "18",
+     "9",
+     "6",
+     "108"
     ],
     "d": "M",
-    "e": "To linger is to remain longer than expected; hurrying is nearly opposite, while arguing and trembling are unrelated.",
-    "id": "M02-VR-010",
-    "k": 1,
-    "p": "",
-    "q": "LINGER most nearly means:",
-    "sk": "synonym—verb precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "messy",
-     "modern",
-     "ordinary",
-     "difficult"
-    ],
-    "d": "M",
-    "e": "Mundane means ordinary or lacking excitement; difficulty, newness, and disorder are separate ideas.",
-    "id": "M02-VR-011",
-    "k": 2,
-    "p": "",
-    "q": "MUNDANE most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "remarkable",
-     "polite",
-     "readable",
-     "secret"
-    ],
-    "d": "E",
-    "e": "Notable means worthy of attention, or remarkable; the distractors are unrelated surface qualities.",
-    "id": "M02-VR-012",
+    "e": "Common factors include 1, 2, 3, 6, 9, and 18; 18 is greatest. B and C are common but not greatest, while D is a multiple.",
+    "id": "M02-MA-006",
     "k": 0,
     "p": "",
-    "q": "NOTABLE most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is the greatest common factor of 36 and 54?",
+    "sk": "number properties—greatest common factor",
     "w": "W1"
    },
    {
     "c": [
-     "polished",
-     "narrow",
-     "cheerful",
-     "unclear"
+     "5 3/7",
+     "6 1/12",
+     "5 5/7",
+     "5 11/12"
+    ],
+    "d": "M",
+    "e": "1/4 + 2/3 = 3/12 + 8/12 = 11/12, and whole parts total 5. The distractors add denominators or regroup incorrectly.",
+    "id": "M02-MA-007",
+    "k": 3,
+    "p": "",
+    "q": "What is 2 1/4 + 3 2/3?",
+    "sk": "mixed-number addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "3/5",
+     "5/8",
+     "5/6",
+     "625/10"
+    ],
+    "d": "E",
+    "e": "0.625 = 625/1000 = 5/8; A and C are nearby values, while D places the decimal incorrectly.",
+    "id": "M02-MA-008",
+    "k": 1,
+    "p": "",
+    "q": "Which fraction is equal to 0.625?",
+    "sk": "decimal-fraction equivalence",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5",
+     "7",
+     "9",
+     "49/5"
+    ],
+    "d": "M",
+    "e": "Subtract 7 from both sides to get 5x = 35, then divide by 5 for x = 7. A divides 35 by the constant 7 instead of by 5, C follows a subtraction slip (42 − 7 taken as 45, giving 45 ÷ 5 = 9), and D adds 7 to 42 before dividing (49 ÷ 5).",
+    "id": "M02-MA-009",
+    "k": 1,
+    "p": "",
+    "q": "Solve 5x + 7 = 42.",
+    "sk": "algebra—two-step equation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "19",
+     "31",
+     "37",
+     "43"
+    ],
+    "d": "M",
+    "e": "4² = 16, then 3 × 16 − 5 = 43. A squares after multiplying incorrectly, and B or C reflect arithmetic errors.",
+    "id": "M02-MA-010",
+    "k": 3,
+    "p": "",
+    "q": "What is the value of 3x² − 5 when x = 4?",
+    "sk": "algebra—evaluate expression with exponent",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "6y + 18",
+     "6y + 3",
+     "9y",
+     "18y"
+    ],
+    "d": "E",
+    "e": "Multiply both terms by 6: 6y + 18. B fails to distribute to 3, while C and D combine unlike terms.",
+    "id": "M02-MA-011",
+    "k": 0,
+    "p": "",
+    "q": "Which expression is equivalent to 6(y + 3)?",
+    "sk": "algebra—distributive property",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "n < 2",
+     "n > 24",
+     "n < 24",
+     "n > 10"
+    ],
+    "d": "M",
+    "e": "Multiplying both sides by positive 4 gives n < 24; B reverses the sign, and A or D use wrong operations.",
+    "id": "M02-MA-012",
+    "k": 2,
+    "p": "",
+    "q": "Which inequality is equivalent to n/4 < 6?",
+    "sk": "algebra—one-step inequality",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "55°",
+     "61°",
+     "63°",
+     "65°"
+    ],
+    "d": "E",
+    "e": "Triangle angles total 180°; 180 − (48 + 67) = 65°. The distractors reflect addition or subtraction errors.",
+    "id": "M02-MA-013",
+    "k": 3,
+    "p": "",
+    "q": "Two angles of a triangle measure 48° and 67°. What is the third angle?",
+    "sk": "geometry—triangle angle sum",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "42 cm²",
+     "104 cm²",
+     "84 cm²",
+     "208 cm²"
+    ],
+    "d": "M",
+    "e": "Area = base × perpendicular height = 13 × 8 = 104 cm². A uses perimeter-like addition, C multiplies incorrectly, and D doubles the area.",
+    "id": "M02-MA-014",
+    "k": 1,
+    "p": "",
+    "q": "A parallelogram has a base of 13 cm and a perpendicular height of 8 cm. What is its area?",
+    "sk": "geometry—area of parallelogram",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "36 ft",
+     "18 ft",
+     "9 ft",
+     "6 ft"
+    ],
+    "d": "E",
+    "e": "Radius is half the diameter, so 18 ÷ 2 = 9 feet. A doubles, B repeats the diameter, and D divides by three.",
+    "id": "M02-MA-015",
+    "k": 2,
+    "p": "",
+    "q": "A circular table has a diameter of 18 feet. What is its radius?",
+    "sk": "geometry—radius and diameter",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "84 ft³",
+     "28 ft³",
+     "42 ft³",
+     "98 ft³"
+    ],
+    "d": "M",
+    "e": "Volume = 7 × 4 × 3 = 84 cubic feet. B multiplies only length and width (7 × 4 = 28), while C and D first add all three dimensions (7 + 4 + 3 = 14) and then multiply by the height (14 × 3 = 42) or the length (14 × 7 = 98) instead of multiplying all three dimensions.",
+    "id": "M02-MA-016",
+    "k": 0,
+    "p": "",
+    "q": "A storage box is 7 feet long, 4 feet wide, and 3 feet high. What is its volume?",
+    "sk": "measurement—rectangular-prism volume",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "23.5 cm",
+     "2.35 cm",
+     "235 cm",
+     "23,500 cm"
+    ],
+    "d": "E",
+    "e": "One meter is 100 centimeters, so 2.35 × 100 = 235 cm. A multiplies by 10, B makes no unit-size adjustment, and D multiplies by 10,000.",
+    "id": "M02-MA-017",
+    "k": 2,
+    "p": "",
+    "q": "A ribbon is 2.35 meters long. How many centimeters long is it?",
+    "sk": "measurement—metric conversion",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5:15 p.m.",
+     "5:55 p.m.",
+     "6:05 p.m.",
+     "6:15 p.m."
+    ],
+    "d": "M",
+    "e": "3:40 + 2 hours = 5:40, plus 35 minutes = 6:15. The distractors omit time or fail to regroup 60 minutes.",
+    "id": "M02-MA-018",
+    "k": 3,
+    "p": "",
+    "q": "A workshop begins at 3:40 p.m. and lasts 2 hours 35 minutes. When does it end?",
+    "sk": "measurement—elapsed time",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "16",
+     "17",
+     "18",
+     "19"
+    ],
+    "d": "E",
+    "e": "The sum is 85, and 85 ÷ 5 = 17. The other choices result from choosing a middle or dividing incorrectly.",
+    "id": "M02-MA-019",
+    "k": 1,
+    "p": "",
+    "q": "What is the mean of 12, 15, 17, 20, and 21?",
+    "sk": "data—mean",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1/2",
+     "1/4",
+     "3/8",
+     "5/8"
+    ],
+    "d": "E",
+    "e": "Four of eight outcomes—2, 4, 6, 8—are even, so 4/8 = 1/2. The distractors miscount favorable outcomes.",
+    "id": "M02-MA-020",
+    "k": 0,
+    "p": "",
+    "q": "A fair spinner is numbered 1 through 8. What is the probability of spinning an even number?",
+    "sk": "probability—equally likely outcomes",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "21",
+     "24",
+     "30",
+     "18"
+    ],
+    "d": "M",
+    "e": "Eighteen appears three times, more than any other value. A–C appear once and may be chosen from order or size rather than frequency.",
+    "id": "M02-MA-021",
+    "k": 3,
+    "p": "",
+    "q": "The number of minutes spent practicing over seven days was 18, 24, 18, 30, 21, 18, and 27. What is the mode?",
+    "sk": "data—mode",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "Quadrant I",
+     "Quadrant II",
+     "Quadrant III",
+     "Quadrant IV"
+    ],
+    "d": "E",
+    "e": "A negative x-coordinate and negative y-coordinate place the point in Quadrant III. The others correspond to different sign pairs.",
+    "id": "M02-MA-022",
+    "k": 2,
+    "p": "",
+    "q": "In which quadrant is the point (−5, −2)?",
+    "sk": "coordinate plane—quadrants",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1",
+     "5",
+     "10",
+     "0"
+    ],
+    "d": "M",
+    "e": "Each vertex-to-opposite-side-midpoint axis gives one line, for 5 total. A understates, C doubles, and D ignores regularity.",
+    "id": "M02-MA-023",
+    "k": 1,
+    "p": "",
+    "q": "How many lines of symmetry does a regular pentagon have?",
+    "sk": "geometry—lines of symmetry",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "68 m²",
+     "70 m²",
+     "74 m²",
+     "80 m²"
     ],
     "d": "H",
-    "e": "Obscure can mean unclear or not easily understood; cheerfulness, polish, and width do not match that sense.",
-    "id": "M02-VR-013",
-    "k": 3,
-    "p": "",
-    "q": "OBSCURE most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "curious",
-     "generous",
-     "strong",
-     "wise"
-    ],
-    "d": "M",
-    "e": "Prudent means showing wise, careful judgment; curiosity, strength, and generosity do not necessarily involve caution.",
-    "id": "M02-VR-014",
-    "k": 3,
-    "p": "",
-    "q": "PRUDENT most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "unwilling",
-     "ready",
-     "unable",
-     "confused"
-    ],
-    "d": "M",
-    "e": "Reluctant means hesitant or unwilling; being unable is different from not wanting to act.",
-    "id": "M02-VR-015",
-    "k": 0,
-    "p": "",
-    "q": "RELUCTANT most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "pale",
-     "scattered",
-     "level",
-     "soft"
-    ],
-    "d": "M",
-    "e": "Sparse means thinly scattered or not dense; texture, flatness, and color do not express low density.",
-    "id": "M02-VR-016",
-    "k": 1,
-    "p": "",
-    "q": "SPARSE most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "confirm",
-     "announce",
-     "compare",
-     "arrange"
-    ],
-    "d": "M",
-    "e": "To verify is to confirm that something is true or accurate; arranging, announcing, or merely comparing does not establish truth.",
-    "id": "M02-VR-017",
-    "k": 0,
-    "p": "",
-    "q": "VERIFY most nearly means:",
-    "sk": "synonym—verb precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "prevent",
-     "loosen",
-     "decorate",
-     "measure"
-    ],
-    "d": "E",
-    "e": "Straw can prevent rapid drying by slowing evaporation; loosening, measuring, and decorating do not fit the stated purpose.",
-    "id": "M02-VR-018",
-    "k": 0,
-    "p": "",
-    "q": "The gardener spread straw around the young plants to ____ the soil from drying too quickly.",
-    "sk": "sentence completion—purpose",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "secret",
-     "lengthy",
-     "careless",
-     "simple"
-    ],
-    "d": "M",
-    "e": "Although signals contrast between simple directions and a complicated result; the other choices do not create that clear contrast.",
-    "id": "M02-VR-019",
-    "k": 3,
-    "p": "",
-    "q": "Although the directions seemed ____, following them produced a complicated paper sculpture.",
-    "sk": "sentence completion—contrast",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "swollen",
-     "calm",
-     "shallow",
-     "clear"
-    ],
-    "d": "E",
-    "e": "Storm water can make a creek swollen and unsafe to step across; clear, shallow, or calm water would not explain using the bridge.",
-    "id": "M02-VR-020",
-    "k": 0,
-    "p": "",
-    "q": "The creek was unusually ____ after the storm, so the hikers used the bridge instead of stepping across.",
-    "sk": "sentence completion—cause and effect",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "contradicted",
-     "completed",
-     "entertained",
-     "copied"
-    ],
-    "d": "M",
-    "e": "Accounts that contradict each other cannot both be accurate in the same way, so checking is logical; entertaining, copying, or completing one another would not create the stated uncertainty.",
-    "id": "M02-VR-021",
-    "k": 0,
-    "p": "",
-    "q": "Because the two accounts ____ each other, the reporter checked which one was accurate.",
-    "sk": "sentence completion—cause and effect",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "familiar",
-     "delicate",
-     "heavy",
-     "expensive"
-    ],
-    "d": "M",
-    "e": "A tiny gear requires a delicate, precise tool; weight, familiarity, and price do not show suitability for fine work.",
-    "id": "M02-VR-022",
-    "k": 1,
-    "p": "",
-    "q": "The watchmaker needed a ____ tool that could lift a gear no wider than a grain of rice.",
-    "sk": "sentence completion—precise adjective",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "impatient",
-     "inventive",
-     "timid",
-     "fair-minded"
-    ],
-    "d": "M",
-    "e": "Hearing both sides before judging demonstrates fairness; inventiveness and timidity are irrelevant, and impatience conflicts with listening.",
-    "id": "M02-VR-023",
-    "k": 3,
-    "p": "",
-    "q": "Nia listened to both sides of the disagreement before deciding, showing that she was ____.",
-    "sk": "sentence completion—character inference",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "harvested",
-     "watered",
-     "marked",
-     "erased"
-    ],
-    "d": "E",
-    "e": "Marking rows logically happens before planting; harvesting comes later, while watering or erasing does not establish locations.",
-    "id": "M02-VR-024",
+    "e": "Full area is 80 m² and removed area is 6 m², leaving 74 m². D ignores the removal, while A and B subtract dimensions or the wrong area.",
+    "id": "M02-MA-024",
     "k": 2,
     "p": "",
-    "q": "Before planting the seeds, Raul ____ the rows with small wooden stakes.",
-    "sk": "sentence completion—sequence logic",
+    "q": "A 10-by-8-meter rectangular patio has a 3-by-2-meter rectangular garden removed from one corner. What is the remaining patio area?",
+    "sk": "geometry—composite area",
     "w": "W1"
    },
    {
     "c": [
-     "impatient",
-     "indirect",
-     "neutral",
-     "humorous"
+     "10",
+     "13",
+     "19",
+     "64"
+    ],
+    "d": "M",
+    "e": "Multiply and divide first: 18 − 12 + 4 = 10. B or C change operation order, and D combines numbers without precedence.",
+    "id": "M02-MA-025",
+    "k": 0,
+    "p": "",
+    "q": "What is 18 − 3(4) + 16 ÷ 4?",
+    "sk": "numerical expressions—order of operations",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "2 × 3 × 30",
+     "2² × 3² × 5",
+     "2² × 45",
+     "3² × 20"
     ],
     "d": "H",
-    "e": "A neutral reminder avoids accusation and blame; impatience, humor, and indirectness are not established by the clues.",
-    "id": "M02-VR-025",
-    "k": 2,
-    "p": "",
-    "q": "The principal's reminder was ____ rather than accusing; it focused on the rule, not on blaming anyone.",
-    "sk": "sentence completion—tone and register",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "valuable",
-     "incomplete",
-     "private",
-     "leather-bound"
-    ],
-    "d": "M",
-    "e": "Missing and unreadable pages make the record incomplete; value, privacy, and binding do not address lost content.",
-    "id": "M02-VR-026",
+    "e": "180 = 4 × 45 = 2² × 3² × 5, and all factors are prime. A, C, and D still contain composite factors.",
+    "id": "M02-MA-026",
     "k": 1,
     "p": "",
-    "q": "The old diary was ____, with several pages missing and others too faded to read.",
-    "sk": "sentence completion—context definition",
+    "q": "Which is the prime factorization of 180?",
+    "sk": "number properties—prime factorization",
     "w": "W1"
    },
    {
     "c": [
-     "shine",
-     "drop",
-     "pause",
-     "expand"
-    ],
-    "d": "E",
-    "e": "Less direct sunlight can cause temperature to drop; the other verbs do not sensibly describe temperature in this context.",
-    "id": "M02-VR-027",
-    "k": 1,
-    "p": "",
-    "q": "When clouds covered the sun, the temperature began to ____.",
-    "sk": "sentence completion—cause and effect",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "assess",
-     "remember",
-     "celebrate",
-     "promise"
-    ],
-    "d": "M",
-    "e": "An expert can assess, or evaluate, the soil's suitability; celebrating, promising, and remembering do not answer the question.",
-    "id": "M02-VR-028",
-    "k": 0,
-    "p": "",
-    "q": "The committee invited a soil expert to ____ whether the vacant lot could support a garden.",
-    "sk": "sentence completion—purpose",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "minor",
-     "recent",
-     "crooked",
-     "shiny"
-    ],
-    "d": "M",
-    "e": "Easy removal with one light coat shows the scratch was minor; its shape, age, or shine does not explain the result.",
-    "id": "M02-VR-029",
-    "k": 0,
-    "p": "",
-    "q": "The scratch was so ____ that it disappeared after one light coat of polish.",
-    "sk": "sentence completion—degree",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "serious",
-     "practical",
-     "popular",
-     "distinct"
-    ],
-    "d": "M",
-    "e": "But contrasts similar appearance with distinct, or different, interests; the other adjectives do not establish difference.",
-    "id": "M02-VR-030",
-    "k": 3,
-    "p": "",
-    "q": "The twins look nearly identical, but their interests are quite ____.",
-    "sk": "sentence completion—contrast",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "forgetful",
-     "resourceful",
-     "athletic",
-     "gentle"
+     "12",
+     "15",
+     "18",
+     "27"
     ],
     "d": "H",
-    "e": "Turning leftovers into a good meal shows a resourceful cook; gentle, forgetful, and athletic do not explain making much from little.",
-    "id": "M02-VR-031",
-    "k": 1,
-    "p": "",
-    "q": "The ____ cook turned yesterday's rice and a few leftover vegetables into a delicious soup.",
-    "sk": "sentence completion—logical fit",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "make",
-     "hold",
-     "turn",
-     "take"
-    ],
-    "d": "M",
-    "e": "“Take effect” is the correct idiom for beginning to operate; the other verbs do not form the standard expression.",
-    "id": "M02-VR-032",
-    "k": 3,
-    "p": "",
-    "q": "The new schedule will ____ effect on Monday, when the buses begin arriving earlier.",
-    "sk": "sentence completion—idiomatic precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "ordinary",
-     "accidental",
-     "polished",
-     "temporary"
-    ],
-    "d": "M",
-    "e": "Revision makes a final product polished; the other choices do not logically contrast with a rough draft.",
-    "id": "M02-VR-033",
+    "e": "3/5 of 45 is 27, and 2/3 of 27 is 18. D stops after the first fraction; A and B apply the fractions incorrectly.",
+    "id": "M02-MA-027",
     "k": 2,
     "p": "",
-    "q": "Compared with the rough first draft, the final poster looked ____.",
-    "sk": "sentence completion—comparison",
+    "q": "A class uses 3/5 of 45 sheets of paper. Of the sheets used, 2/3 are blue. How many blue sheets are used?",
+    "sk": "fractions—fraction of a fraction in context",
     "w": "W1"
    },
    {
     "c": [
-     "postpone",
-     "shorten",
-     "support",
-     "disguise"
+     "1.5 m",
+     "6.25 m",
+     "150 m",
+     "15 m"
     ],
     "d": "H",
-    "e": "Period letters provide evidence that can support a historical claim; postponing, shortening, or disguising does not use evidence logically.",
-    "id": "M02-VR-034",
-    "k": 2,
+    "e": "6 × 250 = 1,500 cm = 15 m. A misses a factor of ten, B adds scale values, and C converts centimeters incorrectly.",
+    "id": "M02-MA-028",
+    "k": 3,
     "p": "",
-    "q": "The historian included two letters from the period to ____ her claim about daily life.",
-    "sk": "sentence completion—purpose and precision",
+    "q": "On a drawing, 1 centimeter represents 250 centimeters. A hallway measures 6 centimeters on the drawing. How long is the actual hallway in meters?",
+    "sk": "measurement—scale drawing conversion",
     "w": "W1"
    },
+   {
+    "c": [
+     "30%",
+     "40%",
+     "60%",
+     "75%"
+    ],
+    "d": "M",
+    "e": "12/30 = 2/5 = 40%. A uses the total as a percent, C reverses part and remainder, and D is unrelated.",
+    "id": "M02-MA-029",
+    "k": 1,
+    "p": "",
+    "q": "Twelve of 30 survey responses chose option A. What percent chose option A?",
+    "sk": "data—fraction and percent",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "52 mph",
+     "53 mph",
+     "78 mph",
+     "468 mph"
+    ],
+    "d": "M",
+    "e": "Speed = 156 ÷ 3 = 52 mph. B is a division error, C divides by two, and D multiplies instead of divides.",
+    "id": "M02-MA-030",
+    "k": 0,
+    "p": "",
+    "q": "A train travels 156 miles in 3 hours at a constant speed. What is its speed?",
+    "sk": "rate—distance per unit time",
+    "w": "W1"
+   }
+  ],
+  "qr": [
    {
     "c": [
      "2 miles per gallon",
@@ -1175,7 +1113,9 @@
     "q": "A rectangular courtyard is 18 meters by 12 meters. A walker completes 3 laps around it. How far does the walker travel?",
     "sk": "spatial reasoning—perimeter and laps",
     "w": "W1"
-   },
+   }
+  ],
+  "rc": [
    {
     "c": [
      "Pond insects are always harder to photograph than meadow moths.",
@@ -1575,485 +1515,551 @@
     "q": "Why does the author include the students' future temperature study in [¶4]?",
     "sk": "author purpose—explanation",
     "w": "W1"
+   }
+  ],
+  "vr": [
+   {
+    "c": [
+     "famous",
+     "patient",
+     "skillful",
+     "cheerful"
+    ],
+    "d": "M",
+    "e": "Adept means highly skillful; patient, famous, and cheerful describe unrelated qualities.",
+    "id": "M02-VR-001",
+    "k": 2,
+    "p": "",
+    "q": "ADEPT most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
    },
    {
     "c": [
-     "7,403",
-     "7,393",
-     "6,403",
-     "7,503"
+     "obedient",
+     "restless",
+     "noisy",
+     "ancient"
     ],
-    "d": "E",
-    "e": "4,608 + 2,795 = 7,403; B and D reflect carrying errors, and C drops one thousand.",
-    "id": "M02-MA-001",
+    "d": "M",
+    "e": "Docile means calm and willing to be taught or guided, closest to obedient; restless is nearly opposite, while ancient and noisy are unrelated.",
+    "id": "M02-VR-002",
     "k": 0,
     "p": "",
-    "q": "A reading drive collected 4,608 books in spring and 2,795 in fall. How many books were collected altogether?",
-    "sk": "whole-number operations—addition",
+    "q": "DOCILE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "6/5",
-     "5/8",
-     "13/24",
-     "4/5"
+     "humorous",
+     "prepared",
+     "honest",
+     "shy"
     ],
     "d": "M",
-    "e": "With denominator 24, 21/24 − 8/24 = 13/24. A subtracts denominators, B changes only the numerator, and D uses an incorrect common denominator.",
-    "id": "M02-MA-002",
+    "e": "Candid means truthful and direct; shyness, preparation, and humor do not require honesty.",
+    "id": "M02-VR-003",
     "k": 2,
     "p": "",
-    "q": "What is 7/8 − 1/3?",
-    "sk": "fraction operations—unlike denominators",
+    "q": "CANDID most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "$24.75",
-     "$28.50",
-     "$28.05",
-     "$30.75"
+     "silent",
+     "hardworking",
+     "fortunate",
+     "ordinary"
     ],
     "d": "E",
-    "e": "4.75 × 6 = 28.50. A multiplies only the dollars (4 × 6 = 24) and appends the 75 cents, C swaps the cents digits of 28.50, and D rounds to $5 × 6 = $30 and then adds the 75 cents back.",
-    "id": "M02-MA-003",
+    "e": "A diligent person works carefully and persistently; the other choices describe luck, sound, or commonness.",
+    "id": "M02-VR-004",
     "k": 1,
     "p": "",
-    "q": "Six identical notebooks cost $4.75 each. What is the total cost?",
-    "sk": "decimal operations—multiplication",
+    "q": "DILIGENT most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "53",
-     "60",
-     "65",
-     "63"
+     "accidental",
+     "detailed",
+     "unfinished",
+     "ancient"
     ],
     "d": "M",
-    "e": "945 ÷ 15 = 63 because 15 × 63 = 945; the other choices come from incomplete division or rounding.",
-    "id": "M02-MA-004",
+    "e": "Elaborate means detailed or carefully developed; age, completion, and intent are separate traits.",
+    "id": "M02-VR-005",
+    "k": 1,
+    "p": "",
+    "q": "ELABORATE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "foolish",
+     "noisy",
+     "narrow",
+     "weak"
+    ],
+    "d": "E",
+    "e": "Feeble means lacking strength, or weak; noisy, foolish, and narrow do not express low strength.",
+    "id": "M02-VR-006",
     "k": 3,
     "p": "",
-    "q": "A printer places 945 cards equally into 15 boxes. How many cards are in each box?",
-    "sk": "whole-number operations—division",
+    "q": "FEEBLE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "72",
-     "80",
-     "84",
-     "96"
+     "exact",
+     "courteous",
+     "puzzled",
+     "wealthy"
     ],
     "d": "M",
-    "e": "0.35 × 240 = 84; A finds 30%, B finds one third approximately, and D finds 40%.",
-    "id": "M02-MA-005",
+    "e": "Gracious means courteous and considerate; the distractors concern understanding, wealth, or precision.",
+    "id": "M02-VR-007",
+    "k": 1,
+    "p": "",
+    "q": "GRACIOUS most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "exciting",
+     "hidden",
+     "unusual",
+     "dangerous"
+    ],
+    "d": "E",
+    "e": "Hazardous means dangerous or risky; something may be exciting, hidden, or unusual without being unsafe.",
+    "id": "M02-VR-008",
+    "k": 3,
+    "p": "",
+    "q": "HAZARDOUS most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "distant",
+     "empty",
+     "enormous",
+     "heavy"
+    ],
+    "d": "E",
+    "e": "Immense means extremely large; weight, distance, and emptiness are not measures of overall size.",
+    "id": "M02-VR-009",
     "k": 2,
     "p": "",
-    "q": "A 240-page book has illustrations on 35% of its pages. How many pages have illustrations?",
-    "sk": "percent—finding a part",
+    "q": "IMMENSE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "18",
-     "9",
-     "6",
-     "108"
+     "argue",
+     "remain",
+     "tremble",
+     "hurry"
     ],
     "d": "M",
-    "e": "Common factors include 1, 2, 3, 6, 9, and 18; 18 is greatest. B and C are common but not greatest, while D is a multiple.",
-    "id": "M02-MA-006",
+    "e": "To linger is to remain longer than expected; hurrying is nearly opposite, while arguing and trembling are unrelated.",
+    "id": "M02-VR-010",
+    "k": 1,
+    "p": "",
+    "q": "LINGER most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "messy",
+     "modern",
+     "ordinary",
+     "difficult"
+    ],
+    "d": "M",
+    "e": "Mundane means ordinary or lacking excitement; difficulty, newness, and disorder are separate ideas.",
+    "id": "M02-VR-011",
+    "k": 2,
+    "p": "",
+    "q": "MUNDANE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "remarkable",
+     "polite",
+     "readable",
+     "secret"
+    ],
+    "d": "E",
+    "e": "Notable means worthy of attention, or remarkable; the distractors are unrelated surface qualities.",
+    "id": "M02-VR-012",
     "k": 0,
     "p": "",
-    "q": "What is the greatest common factor of 36 and 54?",
-    "sk": "number properties—greatest common factor",
+    "q": "NOTABLE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "5 3/7",
-     "6 1/12",
-     "5 5/7",
-     "5 11/12"
-    ],
-    "d": "M",
-    "e": "1/4 + 2/3 = 3/12 + 8/12 = 11/12, and whole parts total 5. The distractors add denominators or regroup incorrectly.",
-    "id": "M02-MA-007",
-    "k": 3,
-    "p": "",
-    "q": "What is 2 1/4 + 3 2/3?",
-    "sk": "mixed-number addition",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "3/5",
-     "5/8",
-     "5/6",
-     "625/10"
-    ],
-    "d": "E",
-    "e": "0.625 = 625/1000 = 5/8; A and C are nearby values, while D places the decimal incorrectly.",
-    "id": "M02-MA-008",
-    "k": 1,
-    "p": "",
-    "q": "Which fraction is equal to 0.625?",
-    "sk": "decimal-fraction equivalence",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "5",
-     "7",
-     "9",
-     "49/5"
-    ],
-    "d": "M",
-    "e": "Subtract 7 from both sides to get 5x = 35, then divide by 5 for x = 7. A divides 35 by the constant 7 instead of by 5, C follows a subtraction slip (42 − 7 taken as 45, giving 45 ÷ 5 = 9), and D adds 7 to 42 before dividing (49 ÷ 5).",
-    "id": "M02-MA-009",
-    "k": 1,
-    "p": "",
-    "q": "Solve 5x + 7 = 42.",
-    "sk": "algebra—two-step equation",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "19",
-     "31",
-     "37",
-     "43"
-    ],
-    "d": "M",
-    "e": "4² = 16, then 3 × 16 − 5 = 43. A squares after multiplying incorrectly, and B or C reflect arithmetic errors.",
-    "id": "M02-MA-010",
-    "k": 3,
-    "p": "",
-    "q": "What is the value of 3x² − 5 when x = 4?",
-    "sk": "algebra—evaluate expression with exponent",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "6y + 18",
-     "6y + 3",
-     "9y",
-     "18y"
-    ],
-    "d": "E",
-    "e": "Multiply both terms by 6: 6y + 18. B fails to distribute to 3, while C and D combine unlike terms.",
-    "id": "M02-MA-011",
-    "k": 0,
-    "p": "",
-    "q": "Which expression is equivalent to 6(y + 3)?",
-    "sk": "algebra—distributive property",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "n < 2",
-     "n > 24",
-     "n < 24",
-     "n > 10"
-    ],
-    "d": "M",
-    "e": "Multiplying both sides by positive 4 gives n < 24; B reverses the sign, and A or D use wrong operations.",
-    "id": "M02-MA-012",
-    "k": 2,
-    "p": "",
-    "q": "Which inequality is equivalent to n/4 < 6?",
-    "sk": "algebra—one-step inequality",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "55°",
-     "61°",
-     "63°",
-     "65°"
-    ],
-    "d": "E",
-    "e": "Triangle angles total 180°; 180 − (48 + 67) = 65°. The distractors reflect addition or subtraction errors.",
-    "id": "M02-MA-013",
-    "k": 3,
-    "p": "",
-    "q": "Two angles of a triangle measure 48° and 67°. What is the third angle?",
-    "sk": "geometry—triangle angle sum",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "42 cm²",
-     "104 cm²",
-     "84 cm²",
-     "208 cm²"
-    ],
-    "d": "M",
-    "e": "Area = base × perpendicular height = 13 × 8 = 104 cm². A uses perimeter-like addition, C multiplies incorrectly, and D doubles the area.",
-    "id": "M02-MA-014",
-    "k": 1,
-    "p": "",
-    "q": "A parallelogram has a base of 13 cm and a perpendicular height of 8 cm. What is its area?",
-    "sk": "geometry—area of parallelogram",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "36 ft",
-     "18 ft",
-     "9 ft",
-     "6 ft"
-    ],
-    "d": "E",
-    "e": "Radius is half the diameter, so 18 ÷ 2 = 9 feet. A doubles, B repeats the diameter, and D divides by three.",
-    "id": "M02-MA-015",
-    "k": 2,
-    "p": "",
-    "q": "A circular table has a diameter of 18 feet. What is its radius?",
-    "sk": "geometry—radius and diameter",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "84 ft³",
-     "28 ft³",
-     "42 ft³",
-     "98 ft³"
-    ],
-    "d": "M",
-    "e": "Volume = 7 × 4 × 3 = 84 cubic feet. B multiplies only length and width (7 × 4 = 28), while C and D first add all three dimensions (7 + 4 + 3 = 14) and then multiply by the height (14 × 3 = 42) or the length (14 × 7 = 98) instead of multiplying all three dimensions.",
-    "id": "M02-MA-016",
-    "k": 0,
-    "p": "",
-    "q": "A storage box is 7 feet long, 4 feet wide, and 3 feet high. What is its volume?",
-    "sk": "measurement—rectangular-prism volume",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "23.5 cm",
-     "2.35 cm",
-     "235 cm",
-     "23,500 cm"
-    ],
-    "d": "E",
-    "e": "One meter is 100 centimeters, so 2.35 × 100 = 235 cm. A multiplies by 10, B makes no unit-size adjustment, and D multiplies by 10,000.",
-    "id": "M02-MA-017",
-    "k": 2,
-    "p": "",
-    "q": "A ribbon is 2.35 meters long. How many centimeters long is it?",
-    "sk": "measurement—metric conversion",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "5:15 p.m.",
-     "5:55 p.m.",
-     "6:05 p.m.",
-     "6:15 p.m."
-    ],
-    "d": "M",
-    "e": "3:40 + 2 hours = 5:40, plus 35 minutes = 6:15. The distractors omit time or fail to regroup 60 minutes.",
-    "id": "M02-MA-018",
-    "k": 3,
-    "p": "",
-    "q": "A workshop begins at 3:40 p.m. and lasts 2 hours 35 minutes. When does it end?",
-    "sk": "measurement—elapsed time",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "16",
-     "17",
-     "18",
-     "19"
-    ],
-    "d": "E",
-    "e": "The sum is 85, and 85 ÷ 5 = 17. The other choices result from choosing a middle or dividing incorrectly.",
-    "id": "M02-MA-019",
-    "k": 1,
-    "p": "",
-    "q": "What is the mean of 12, 15, 17, 20, and 21?",
-    "sk": "data—mean",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "1/2",
-     "1/4",
-     "3/8",
-     "5/8"
-    ],
-    "d": "E",
-    "e": "Four of eight outcomes—2, 4, 6, 8—are even, so 4/8 = 1/2. The distractors miscount favorable outcomes.",
-    "id": "M02-MA-020",
-    "k": 0,
-    "p": "",
-    "q": "A fair spinner is numbered 1 through 8. What is the probability of spinning an even number?",
-    "sk": "probability—equally likely outcomes",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "21",
-     "24",
-     "30",
-     "18"
-    ],
-    "d": "M",
-    "e": "Eighteen appears three times, more than any other value. A–C appear once and may be chosen from order or size rather than frequency.",
-    "id": "M02-MA-021",
-    "k": 3,
-    "p": "",
-    "q": "The number of minutes spent practicing over seven days was 18, 24, 18, 30, 21, 18, and 27. What is the mode?",
-    "sk": "data—mode",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "Quadrant I",
-     "Quadrant II",
-     "Quadrant III",
-     "Quadrant IV"
-    ],
-    "d": "E",
-    "e": "A negative x-coordinate and negative y-coordinate place the point in Quadrant III. The others correspond to different sign pairs.",
-    "id": "M02-MA-022",
-    "k": 2,
-    "p": "",
-    "q": "In which quadrant is the point (−5, −2)?",
-    "sk": "coordinate plane—quadrants",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "1",
-     "5",
-     "10",
-     "0"
-    ],
-    "d": "M",
-    "e": "Each vertex-to-opposite-side-midpoint axis gives one line, for 5 total. A understates, C doubles, and D ignores regularity.",
-    "id": "M02-MA-023",
-    "k": 1,
-    "p": "",
-    "q": "How many lines of symmetry does a regular pentagon have?",
-    "sk": "geometry—lines of symmetry",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "68 m²",
-     "70 m²",
-     "74 m²",
-     "80 m²"
+     "polished",
+     "narrow",
+     "cheerful",
+     "unclear"
     ],
     "d": "H",
-    "e": "Full area is 80 m² and removed area is 6 m², leaving 74 m². D ignores the removal, while A and B subtract dimensions or the wrong area.",
-    "id": "M02-MA-024",
-    "k": 2,
-    "p": "",
-    "q": "A 10-by-8-meter rectangular patio has a 3-by-2-meter rectangular garden removed from one corner. What is the remaining patio area?",
-    "sk": "geometry—composite area",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "10",
-     "13",
-     "19",
-     "64"
-    ],
-    "d": "M",
-    "e": "Multiply and divide first: 18 − 12 + 4 = 10. B or C change operation order, and D combines numbers without precedence.",
-    "id": "M02-MA-025",
-    "k": 0,
-    "p": "",
-    "q": "What is 18 − 3(4) + 16 ÷ 4?",
-    "sk": "numerical expressions—order of operations",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "2 × 3 × 30",
-     "2² × 3² × 5",
-     "2² × 45",
-     "3² × 20"
-    ],
-    "d": "H",
-    "e": "180 = 4 × 45 = 2² × 3² × 5, and all factors are prime. A, C, and D still contain composite factors.",
-    "id": "M02-MA-026",
-    "k": 1,
-    "p": "",
-    "q": "Which is the prime factorization of 180?",
-    "sk": "number properties—prime factorization",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "12",
-     "15",
-     "18",
-     "27"
-    ],
-    "d": "H",
-    "e": "3/5 of 45 is 27, and 2/3 of 27 is 18. D stops after the first fraction; A and B apply the fractions incorrectly.",
-    "id": "M02-MA-027",
-    "k": 2,
-    "p": "",
-    "q": "A class uses 3/5 of 45 sheets of paper. Of the sheets used, 2/3 are blue. How many blue sheets are used?",
-    "sk": "fractions—fraction of a fraction in context",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "1.5 m",
-     "6.25 m",
-     "150 m",
-     "15 m"
-    ],
-    "d": "H",
-    "e": "6 × 250 = 1,500 cm = 15 m. A misses a factor of ten, B adds scale values, and C converts centimeters incorrectly.",
-    "id": "M02-MA-028",
+    "e": "Obscure can mean unclear or not easily understood; cheerfulness, polish, and width do not match that sense.",
+    "id": "M02-VR-013",
     "k": 3,
     "p": "",
-    "q": "On a drawing, 1 centimeter represents 250 centimeters. A hallway measures 6 centimeters on the drawing. How long is the actual hallway in meters?",
-    "sk": "measurement—scale drawing conversion",
+    "q": "OBSCURE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "30%",
-     "40%",
-     "60%",
-     "75%"
+     "curious",
+     "generous",
+     "strong",
+     "wise"
     ],
     "d": "M",
-    "e": "12/30 = 2/5 = 40%. A uses the total as a percent, C reverses part and remainder, and D is unrelated.",
-    "id": "M02-MA-029",
-    "k": 1,
+    "e": "Prudent means showing wise, careful judgment; curiosity, strength, and generosity do not necessarily involve caution.",
+    "id": "M02-VR-014",
+    "k": 3,
     "p": "",
-    "q": "Twelve of 30 survey responses chose option A. What percent chose option A?",
-    "sk": "data—fraction and percent",
+    "q": "PRUDENT most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "52 mph",
-     "53 mph",
-     "78 mph",
-     "468 mph"
+     "unwilling",
+     "ready",
+     "unable",
+     "confused"
     ],
     "d": "M",
-    "e": "Speed = 156 ÷ 3 = 52 mph. B is a division error, C divides by two, and D multiplies instead of divides.",
-    "id": "M02-MA-030",
+    "e": "Reluctant means hesitant or unwilling; being unable is different from not wanting to act.",
+    "id": "M02-VR-015",
     "k": 0,
     "p": "",
-    "q": "A train travels 156 miles in 3 hours at a constant speed. What is its speed?",
-    "sk": "rate—distance per unit time",
+    "q": "RELUCTANT most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "pale",
+     "scattered",
+     "level",
+     "soft"
+    ],
+    "d": "M",
+    "e": "Sparse means thinly scattered or not dense; texture, flatness, and color do not express low density.",
+    "id": "M02-VR-016",
+    "k": 1,
+    "p": "",
+    "q": "SPARSE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "confirm",
+     "announce",
+     "compare",
+     "arrange"
+    ],
+    "d": "M",
+    "e": "To verify is to confirm that something is true or accurate; arranging, announcing, or merely comparing does not establish truth.",
+    "id": "M02-VR-017",
+    "k": 0,
+    "p": "",
+    "q": "VERIFY most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "prevent",
+     "loosen",
+     "decorate",
+     "measure"
+    ],
+    "d": "E",
+    "e": "Straw can prevent rapid drying by slowing evaporation; loosening, measuring, and decorating do not fit the stated purpose.",
+    "id": "M02-VR-018",
+    "k": 0,
+    "p": "",
+    "q": "The gardener spread straw around the young plants to ____ the soil from drying too quickly.",
+    "sk": "sentence completion—purpose",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "secret",
+     "lengthy",
+     "careless",
+     "simple"
+    ],
+    "d": "M",
+    "e": "Although signals contrast between simple directions and a complicated result; the other choices do not create that clear contrast.",
+    "id": "M02-VR-019",
+    "k": 3,
+    "p": "",
+    "q": "Although the directions seemed ____, following them produced a complicated paper sculpture.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "swollen",
+     "calm",
+     "shallow",
+     "clear"
+    ],
+    "d": "E",
+    "e": "Storm water can make a creek swollen and unsafe to step across; clear, shallow, or calm water would not explain using the bridge.",
+    "id": "M02-VR-020",
+    "k": 0,
+    "p": "",
+    "q": "The creek was unusually ____ after the storm, so the hikers used the bridge instead of stepping across.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "contradicted",
+     "completed",
+     "entertained",
+     "copied"
+    ],
+    "d": "M",
+    "e": "Accounts that contradict each other cannot both be accurate in the same way, so checking is logical; entertaining, copying, or completing one another would not create the stated uncertainty.",
+    "id": "M02-VR-021",
+    "k": 0,
+    "p": "",
+    "q": "Because the two accounts ____ each other, the reporter checked which one was accurate.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "familiar",
+     "delicate",
+     "heavy",
+     "expensive"
+    ],
+    "d": "M",
+    "e": "A tiny gear requires a delicate, precise tool; weight, familiarity, and price do not show suitability for fine work.",
+    "id": "M02-VR-022",
+    "k": 1,
+    "p": "",
+    "q": "The watchmaker needed a ____ tool that could lift a gear no wider than a grain of rice.",
+    "sk": "sentence completion—precise adjective",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "impatient",
+     "inventive",
+     "timid",
+     "fair-minded"
+    ],
+    "d": "M",
+    "e": "Hearing both sides before judging demonstrates fairness; inventiveness and timidity are irrelevant, and impatience conflicts with listening.",
+    "id": "M02-VR-023",
+    "k": 3,
+    "p": "",
+    "q": "Nia listened to both sides of the disagreement before deciding, showing that she was ____.",
+    "sk": "sentence completion—character inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "harvested",
+     "watered",
+     "marked",
+     "erased"
+    ],
+    "d": "E",
+    "e": "Marking rows logically happens before planting; harvesting comes later, while watering or erasing does not establish locations.",
+    "id": "M02-VR-024",
+    "k": 2,
+    "p": "",
+    "q": "Before planting the seeds, Raul ____ the rows with small wooden stakes.",
+    "sk": "sentence completion—sequence logic",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "impatient",
+     "indirect",
+     "neutral",
+     "humorous"
+    ],
+    "d": "H",
+    "e": "A neutral reminder avoids accusation and blame; impatience, humor, and indirectness are not established by the clues.",
+    "id": "M02-VR-025",
+    "k": 2,
+    "p": "",
+    "q": "The principal's reminder was ____ rather than accusing; it focused on the rule, not on blaming anyone.",
+    "sk": "sentence completion—tone and register",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "valuable",
+     "incomplete",
+     "private",
+     "leather-bound"
+    ],
+    "d": "M",
+    "e": "Missing and unreadable pages make the record incomplete; value, privacy, and binding do not address lost content.",
+    "id": "M02-VR-026",
+    "k": 1,
+    "p": "",
+    "q": "The old diary was ____, with several pages missing and others too faded to read.",
+    "sk": "sentence completion—context definition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "shine",
+     "drop",
+     "pause",
+     "expand"
+    ],
+    "d": "E",
+    "e": "Less direct sunlight can cause temperature to drop; the other verbs do not sensibly describe temperature in this context.",
+    "id": "M02-VR-027",
+    "k": 1,
+    "p": "",
+    "q": "When clouds covered the sun, the temperature began to ____.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "assess",
+     "remember",
+     "celebrate",
+     "promise"
+    ],
+    "d": "M",
+    "e": "An expert can assess, or evaluate, the soil's suitability; celebrating, promising, and remembering do not answer the question.",
+    "id": "M02-VR-028",
+    "k": 0,
+    "p": "",
+    "q": "The committee invited a soil expert to ____ whether the vacant lot could support a garden.",
+    "sk": "sentence completion—purpose",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "minor",
+     "recent",
+     "crooked",
+     "shiny"
+    ],
+    "d": "M",
+    "e": "Easy removal with one light coat shows the scratch was minor; its shape, age, or shine does not explain the result.",
+    "id": "M02-VR-029",
+    "k": 0,
+    "p": "",
+    "q": "The scratch was so ____ that it disappeared after one light coat of polish.",
+    "sk": "sentence completion—degree",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "serious",
+     "practical",
+     "popular",
+     "distinct"
+    ],
+    "d": "M",
+    "e": "But contrasts similar appearance with distinct, or different, interests; the other adjectives do not establish difference.",
+    "id": "M02-VR-030",
+    "k": 3,
+    "p": "",
+    "q": "The twins look nearly identical, but their interests are quite ____.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "forgetful",
+     "resourceful",
+     "athletic",
+     "gentle"
+    ],
+    "d": "H",
+    "e": "Turning leftovers into a good meal shows a resourceful cook; gentle, forgetful, and athletic do not explain making much from little.",
+    "id": "M02-VR-031",
+    "k": 1,
+    "p": "",
+    "q": "The ____ cook turned yesterday's rice and a few leftover vegetables into a delicious soup.",
+    "sk": "sentence completion—logical fit",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "make",
+     "hold",
+     "turn",
+     "take"
+    ],
+    "d": "M",
+    "e": "“Take effect” is the correct idiom for beginning to operate; the other verbs do not form the standard expression.",
+    "id": "M02-VR-032",
+    "k": 3,
+    "p": "",
+    "q": "The new schedule will ____ effect on Monday, when the buses begin arriving earlier.",
+    "sk": "sentence completion—idiomatic precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "ordinary",
+     "accidental",
+     "polished",
+     "temporary"
+    ],
+    "d": "M",
+    "e": "Revision makes a final product polished; the other choices do not logically contrast with a rough draft.",
+    "id": "M02-VR-033",
+    "k": 2,
+    "p": "",
+    "q": "Compared with the rough first draft, the final poster looked ____.",
+    "sk": "sentence completion—comparison",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "postpone",
+     "shorten",
+     "support",
+     "disguise"
+    ],
+    "d": "H",
+    "e": "Period letters provide evidence that can support a historical claim; postponing, shortening, or disguising does not use evidence logically.",
+    "id": "M02-VR-034",
+    "k": 2,
+    "p": "",
+    "q": "The historian included two letters from the period to ____ her claim about daily life.",
+    "sk": "sentence completion—purpose and precision",
     "w": "W1"
    }
   ]

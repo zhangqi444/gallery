@@ -23,551 +23,489 @@
   }
  },
  "sections": {
-  "all": [
+  "ma": [
    {
     "c": [
-     "costly",
-     "narrow",
-     "hidden",
-     "plentiful"
+     "6,741",
+     "6,631",
+     "6,641",
+     "6,531"
     ],
     "d": "E",
-    "e": "Abundant means existing in a large supply; the other choices describe visibility, width, or price.",
-    "id": "DGN-VR-001",
-    "k": 3,
-    "p": "",
-    "q": "ABUNDANT most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "cheerful",
-     "noisy",
-     "certain",
-     "careful"
-    ],
-    "d": "E",
-    "e": "A cautious person acts carefully to avoid danger or error; cheerful, noisy, and certain do not express care.",
-    "id": "DGN-VR-002",
-    "k": 3,
-    "p": "",
-    "q": "CAUTIOUS most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "flexible",
-     "long-lasting",
-     "colorful",
-     "unfinished"
-    ],
-    "d": "E",
-    "e": "Something durable resists wear and lasts; flexibility or color does not guarantee durability.",
-    "id": "DGN-VR-003",
-    "k": 1,
-    "p": "",
-    "q": "DURABLE most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "enthusiastic",
-     "polite",
-     "patient",
-     "confused"
-    ],
-    "d": "E",
-    "e": "Eager describes strong interest or enthusiasm to act; patience can accompany eagerness but is not its meaning.",
-    "id": "DGN-VR-004",
-    "k": 0,
-    "p": "",
-    "q": "EAGER most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "unusually small",
-     "recently made",
-     "carefully packed",
-     "easily broken"
-    ],
-    "d": "M",
-    "e": "Fragile means easily damaged or broken; packing is a response to fragility, not a synonym.",
-    "id": "DGN-VR-005",
-    "k": 3,
-    "p": "",
-    "q": "FRAGILE most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "stormy",
-     "crowded",
-     "sad",
-     "silent"
-    ],
-    "d": "E",
-    "e": "Gloomy can describe a sad mood; stormy may create gloom but is not equivalent in meaning.",
-    "id": "DGN-VR-006",
+    "e": "Add by place value: 3,684 + 2,957 = 6,641.",
+    "id": "DGN-MA-001",
     "k": 2,
     "p": "",
-    "q": "GLOOMY most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 3,684 + 2,957?",
+    "sk": "whole-number addition",
     "w": "W1"
    },
    {
     "c": [
-     "repair",
-     "obstruct",
-     "request",
-     "observe"
-    ],
-    "d": "M",
-    "e": "To hinder is to slow or obstruct progress; the other verbs do not express interference.",
-    "id": "DGN-VR-007",
-    "k": 1,
-    "p": "",
-    "q": "HINDER most nearly means:",
-    "sk": "synonym—verb precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "copy",
-     "explain",
-     "admire",
-     "invent"
+     "4,524",
+     "5,476",
+     "5,524",
+     "4,624"
     ],
     "d": "E",
-    "e": "To imitate is to copy someone's action, sound, or style; admiration does not require copying.",
-    "id": "DGN-VR-008",
+    "e": "Regroup across the zeros; 8,000 − 3,476 = 4,524.",
+    "id": "DGN-MA-002",
     "k": 0,
     "p": "",
-    "q": "IMITATE most nearly means:",
-    "sk": "synonym—verb precision",
+    "q": "What is 8,000 − 3,476?",
+    "sk": "whole-number subtraction",
     "w": "W1"
    },
    {
     "c": [
-     "wise",
-     "tidy",
-     "merry",
-     "tired"
+     "1,272",
+     "1,222",
+     "1,122",
+     "1,302"
     ],
     "d": "E",
-    "e": "Jolly means cheerful or merry; the distractors describe energy, order, or judgment.",
-    "id": "DGN-VR-009",
-    "k": 2,
-    "p": "",
-    "q": "JOLLY most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "ordinary",
-     "sharp",
-     "distant",
-     "gentle"
-    ],
-    "d": "M",
-    "e": "Keen can mean sharp, as in a keen edge or keen mind; none of the other choices matches that sense.",
-    "id": "DGN-VR-010",
+    "e": "47 × 26 = 47 × 20 + 47 × 6 = 940 + 282 = 1,222.",
+    "id": "DGN-MA-003",
     "k": 1,
     "p": "",
-    "q": "KEEN most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 47 × 26?",
+    "sk": "multiplication",
     "w": "W1"
    },
    {
     "c": [
-     "awkward",
-     "expensive",
-     "exact",
-     "humble"
+     "84",
+     "78",
+     "74",
+     "86"
+    ],
+    "d": "E",
+    "e": "21 × 84 = 1,764.",
+    "id": "DGN-MA-004",
+    "k": 0,
+    "p": "",
+    "q": "What is 1,764 ÷ 21?",
+    "sk": "division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "7/12",
+     "2/5",
+     "1/2",
+     "3/4"
     ],
     "d": "M",
-    "e": "A modest person is humble and does not boast; the other adjectives describe unrelated qualities.",
-    "id": "DGN-VR-011",
+    "e": "1/3 = 4/12, so 5/12 + 4/12 = 9/12 = 3/4.",
+    "id": "DGN-MA-005",
     "k": 3,
     "p": "",
-    "q": "MODEST most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 5/12 + 1/3?",
+    "sk": "fraction addition",
     "w": "W1"
    },
    {
     "c": [
-     "peaceful",
-     "agile",
-     "enormous",
-     "honest"
+     "13/24",
+     "2/5",
+     "11/24",
+     "1/3"
     ],
     "d": "M",
-    "e": "Nimble means quick and light in movement or thought, which is closest to agile.",
-    "id": "DGN-VR-012",
-    "k": 1,
+    "e": "7/8 = 21/24 and 5/12 = 10/24; the difference is 11/24.",
+    "id": "DGN-MA-006",
+    "k": 2,
     "p": "",
-    "q": "NIMBLE most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 7/8 − 5/12?",
+    "sk": "fraction subtraction",
     "w": "W1"
    },
    {
     "c": [
-     "common",
-     "complete",
-     "quiet",
-     "valuable"
+     "1/6",
+     "1/3",
+     "7/17",
+     "3/8"
     ],
-    "d": "E",
-    "e": "Ordinary means common or not unusual; value, completeness, and sound are separate ideas.",
-    "id": "DGN-VR-013",
+    "d": "M",
+    "e": "Multiply and simplify: 12/72 = 1/6.",
+    "id": "DGN-MA-007",
     "k": 0,
     "p": "",
-    "q": "ORDINARY most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 4/9 × 3/8?",
+    "sk": "fraction multiplication",
     "w": "W1"
    },
    {
     "c": [
-     "ancient",
-     "helpful",
-     "smooth",
-     "strange"
+     "3 1/5",
+     "9/10",
+     "1 9/10",
+     "2 1/2"
     ],
     "d": "M",
-    "e": "Peculiar most often means strange or unusual; the other choices do not express oddness.",
-    "id": "DGN-VR-014",
+    "e": "3/2 ÷ 3/5 = 3/2 × 5/3 = 5/2 = 2 1/2.",
+    "id": "DGN-MA-008",
     "k": 3,
     "p": "",
-    "q": "PECULIAR most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 1 1/2 ÷ 3/5?",
+    "sk": "fraction division",
     "w": "W1"
    },
    {
     "c": [
-     "fast",
-     "steady",
-     "early",
-     "brief"
+     "17.577",
+     "17.587",
+     "16.587",
+     "17.487"
     ],
     "d": "E",
-    "e": "Rapid means fast in speed; early concerns time of arrival and brief concerns duration.",
-    "id": "DGN-VR-015",
+    "e": "Align decimal points: 12.680 + 4.907 = 17.587.",
+    "id": "DGN-MA-009",
+    "k": 1,
+    "p": "",
+    "q": "What is 12.68 + 4.907?",
+    "sk": "decimal addition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "4.05",
+     "4.5",
+     "45",
+     "3.75"
+    ],
+    "d": "M",
+    "e": "1.25 × 36 = 45, then place one decimal digit: 4.5.",
+    "id": "DGN-MA-010",
+    "k": 1,
+    "p": "",
+    "q": "What is 3.6 × 1.25?",
+    "sk": "decimal multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "13.2",
+     "1.32",
+     "13.02",
+     "132"
+    ],
+    "d": "M",
+    "e": "Multiply both numbers by 10: 92.4 ÷ 7 = 13.2.",
+    "id": "DGN-MA-011",
     "k": 0,
     "p": "",
-    "q": "RAPID most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 9.24 ÷ 0.7?",
+    "sk": "decimal division",
     "w": "W1"
    },
    {
     "c": [
-     "desired",
-     "damaged",
-     "rare",
-     "divided"
+     "72",
+     "84",
+     "96",
+     "80"
     ],
-    "d": "M",
-    "e": "Scarce means in short supply or rare; being desired may result from scarcity but is not the meaning.",
-    "id": "DGN-VR-016",
-    "k": 2,
+    "d": "E",
+    "e": "30% of 240 is 72 and 5% is 12; together they equal 84.",
+    "id": "DGN-MA-012",
+    "k": 1,
     "p": "",
-    "q": "SCARCE most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 35% of 240?",
+    "sk": "percent of a quantity",
     "w": "W1"
    },
    {
     "c": [
-     "empty",
-     "distant",
-     "calm",
-     "bright"
+     "8",
+     "10",
+     "4",
+     "6"
     ],
     "d": "M",
-    "e": "Vivid describes something bright, clear, or intensely lifelike; the other words do not convey intensity.",
-    "id": "DGN-VR-017",
+    "e": "Parentheses first: 5 + 1 = 6; then 2 × 6 = 12; 18 − 12 = 6.",
+    "id": "DGN-MA-013",
     "k": 3,
     "p": "",
-    "q": "VIVID most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "What is 18 − 2(5 + 1)?",
+    "sk": "order of operations",
     "w": "W1"
    },
    {
     "c": [
-     "slowly",
-     "blindly",
-     "proudly",
-     "gracefully"
+     "27",
+     "12",
+     "81",
+     "64"
     ],
     "d": "E",
-    "e": "Ice creates a slipping risk, so walking slowly instead of rushing is the safe response; proudly, gracefully, and blindly do not address the danger.",
-    "id": "DGN-VR-018",
-    "k": 0,
-    "p": "",
-    "q": "Because the path was covered with ice, Lena walked ____ instead of rushing.",
-    "sk": "sentence completion—context contrast",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "sleepy",
-     "timid",
-     "friendly",
-     "hungry"
-    ],
-    "d": "E",
-    "e": "Greeting every visitor warmly is evidence that the puppy is friendly; timid and sleepy conflict with the action.",
-    "id": "DGN-VR-019",
+    "e": "3^4 = 3 × 3 × 3 × 3 = 81.",
+    "id": "DGN-MA-014",
     "k": 2,
     "p": "",
-    "q": "The puppy was so ____ that it greeted every visitor with a wagging tail.",
-    "sk": "sentence completion—cause and effect",
+    "q": "What is 3^4?",
+    "sk": "exponent evaluation",
     "w": "W1"
    },
    {
     "c": [
-     "musical",
-     "truthful",
-     "lengthy",
-     "vague"
+     "2",
+     "21",
+     "28",
+     "14"
     ],
     "d": "M",
-    "e": "A vague answer leaves out details and helps preserve a secret; a lengthy answer would risk revealing more.",
-    "id": "DGN-VR-020",
+    "e": "Factors common to both include 1, 2, 7, and 14; the greatest is 14.",
+    "id": "DGN-MA-015",
     "k": 3,
     "p": "",
-    "q": "To keep the surprise party secret, Omar gave only a ____ answer when his sister asked about Saturday.",
-    "sk": "sentence completion—logical fit",
+    "q": "What is the greatest common factor of 42 and 70?",
+    "sk": "factors—greatest common factor",
     "w": "W1"
    },
    {
     "c": [
-     "through",
-     "beside",
-     "above",
-     "around"
-    ],
-    "d": "E",
-    "e": "Transparent means allowing light and images to pass through; the sentence directly supplies that spatial relationship.",
-    "id": "DGN-VR-021",
-    "k": 0,
-    "p": "",
-    "q": "The glass was transparent, so we could see ____ it.",
-    "sk": "sentence completion—definition clue",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "tranquil",
-     "private",
-     "bright",
-     "narrow"
+     "18",
+     "108",
+     "24",
+     "36"
     ],
     "d": "M",
-    "e": "Unlike signals a contrast with bustling; tranquil means calm and matches still.",
-    "id": "DGN-VR-022",
-    "k": 0,
-    "p": "",
-    "q": "Unlike the bustling market, the small courtyard was ____ and still.",
-    "sk": "sentence completion—comparison",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "pretend",
-     "ensure",
-     "wonder",
-     "doubt"
-    ],
-    "d": "E",
-    "e": "Repetition serves to ensure, or make certain, that players understand; doubt and wonder oppose that purpose.",
-    "id": "DGN-VR-023",
-    "k": 1,
-    "p": "",
-    "q": "The coach repeated the directions to ____ that every player understood the drill.",
-    "sk": "sentence completion—purpose",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "bitter",
-     "careless",
-     "puzzled",
-     "resilient"
-    ],
-    "d": "M",
-    "e": "Resilient describes recovering from a setback and continuing to work; the other attitudes would not support renewed practice.",
-    "id": "DGN-VR-024",
+    "e": "Multiples first shared are 36, 72, ...; the least is 36.",
+    "id": "DGN-MA-016",
     "k": 3,
     "p": "",
-    "q": "Although Priya lost the first round, her ____ attitude helped her practice for the next match.",
-    "sk": "sentence completion—tone",
+    "q": "What is the least common multiple of 9 and 12?",
+    "sk": "multiples—least common multiple",
     "w": "W1"
    },
    {
     "c": [
-     "polish",
-     "examine",
-     "replace",
-     "borrow"
-    ],
-    "d": "M",
-    "e": "Visitors can examine an object visually without touching it; the other actions require handling or removal.",
-    "id": "DGN-VR-025",
-    "k": 1,
-    "p": "",
-    "q": "The museum guide asked visitors to ____ the ancient bowl without touching it.",
-    "sk": "sentence completion—precise verb",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "overflow",
-     "freeze",
-     "vanish",
-     "sparkle"
+     "77",
+     "17",
+     "66",
+     "55"
     ],
     "d": "E",
-    "e": "Sustained rain adds water, so a shallow creek may overflow; the other changes are not caused by rain in this context.",
-    "id": "DGN-VR-026",
-    "k": 0,
-    "p": "",
-    "q": "After hours of steady rain, the shallow creek began to ____.",
-    "sk": "sentence completion—cause and effect",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "distant",
-     "useful",
-     "ornate",
-     "fragile"
-    ],
-    "d": "M",
-    "e": "But contrasts the confusing map with a clear, useful one; ornate does not necessarily improve function.",
-    "id": "DGN-VR-027",
-    "k": 1,
-    "p": "",
-    "q": "The first map was confusing, but the revised version was clear and ____.",
-    "sk": "sentence completion—contrast",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "divide",
-     "hide",
-     "evaluate",
-     "repeat"
-    ],
-    "d": "M",
-    "e": "A committee logically evaluates proposals before choosing; hiding, repeating, or dividing them does not support a decision.",
-    "id": "DGN-VR-028",
+    "e": "Multiply both sides by 6: y = 11 × 6 = 66.",
+    "id": "DGN-MA-017",
     "k": 2,
     "p": "",
-    "q": "Before making a final choice, the committee agreed to ____ all three proposals.",
-    "sk": "sentence completion—sequence logic",
+    "q": "If y/6 = 11, what is y?",
+    "sk": "algebra—one-step equation",
     "w": "W1"
    },
    {
     "c": [
-     "steady",
-     "golden",
-     "faint",
-     "sudden"
+     "11",
+     "9",
+     "7",
+     "5.8"
+    ],
+    "d": "M",
+    "e": "Add 8 to get 5x = 45, then divide by 5: x = 9.",
+    "id": "DGN-MA-018",
+    "k": 1,
+    "p": "",
+    "q": "Solve 5x − 8 = 37.",
+    "sk": "algebra—two-step equation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "11",
+     "67",
+     "19",
+     "35"
     ],
     "d": "E",
-    "e": "Barely lighting provides a degree clue that the glow was faint; color and steadiness do not indicate low brightness.",
-    "id": "DGN-VR-029",
-    "k": 2,
+    "e": "2(4^2) + 3 = 2(16) + 3 = 35.",
+    "id": "DGN-MA-019",
+    "k": 3,
     "p": "",
-    "q": "The lantern gave only a ____ glow, barely lighting the doorway.",
-    "sk": "sentence completion—degree",
+    "q": "What is 2a^2 + 3 when a = 4?",
+    "sk": "expression evaluation",
     "w": "W1"
    },
    {
     "c": [
-     "shy",
-     "honest",
-     "curious",
-     "clever"
+     "(−5, −2)",
+     "(5, −2)",
+     "(−2, 5)",
+     "(5, 2)"
     ],
     "d": "M",
-    "e": "Returning money that is not his demonstrates honesty; curiosity, shyness, and cleverness do not explain the ethical choice.",
-    "id": "DGN-VR-030",
-    "k": 1,
-    "p": "",
-    "q": "Even when no one was watching, Mateo returned the extra change because he was ____.",
-    "sk": "sentence completion—character inference",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "lengthy",
-     "formal",
-     "precise",
-     "familiar"
-    ],
-    "d": "M",
-    "e": "Precise instructions are exact and unambiguous, matching the clue understood in only one way.",
-    "id": "DGN-VR-031",
-    "k": 2,
-    "p": "",
-    "q": "The instructions were so ____ that every step could be understood in only one way.",
-    "sk": "sentence completion—context definition",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "final",
-     "accurate",
-     "uncertain",
-     "valuable"
-    ],
-    "d": "H",
-    "e": "Before confirmation, a surprising result should be considered uncertain; calling it final or accurate would skip the needed second test.",
-    "id": "DGN-VR-032",
-    "k": 2,
-    "p": "",
-    "q": "The scientist treated the surprising result as ____ until a second experiment confirmed it.",
-    "sk": "sentence completion—cause and effect",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "faded",
-     "sturdy",
-     "dusty",
-     "narrow"
-    ],
-    "d": "M",
-    "e": "Yet signals that despite a worn appearance, the straps were still sturdy; faded and dusty repeat rather than contrast the wear.",
-    "id": "DGN-VR-033",
-    "k": 1,
-    "p": "",
-    "q": "The old backpack looked worn, yet its straps remained ____.",
-    "sk": "sentence completion—contrast",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "clarify",
-     "postpone",
-     "challenge",
-     "memorize"
-    ],
-    "d": "H",
-    "e": "A well-chosen example can clarify, or make clear, a complicated idea; the other verbs do not express explanation.",
-    "id": "DGN-VR-034",
+    "e": "Reflection across the x-axis keeps x and changes the sign of y.",
+    "id": "DGN-MA-020",
     "k": 0,
     "p": "",
-    "q": "The speaker used a brief example to ____ an idea that had seemed complicated.",
-    "sk": "sentence completion—purpose and register",
+    "q": "What is the reflection of (−5, 2) across the x-axis?",
+    "sk": "coordinate plane—reflection",
     "w": "W1"
    },
+   {
+    "c": [
+     "40 m²",
+     "91 m²",
+     "182 m²",
+     "78 m²"
+    ],
+    "d": "E",
+    "e": "Area = length × width = 13 × 7 = 91 square meters.",
+    "id": "DGN-MA-021",
+    "k": 1,
+    "p": "",
+    "q": "A rectangle is 13 meters long and 7 meters wide. What is its area?",
+    "sk": "rectangle area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "60 cm²",
+     "120 cm²",
+     "23 cm²",
+     "46 cm²"
+    ],
+    "d": "M",
+    "e": "Area = 1/2 × 15 × 8 = 60 square centimeters.",
+    "id": "DGN-MA-022",
+    "k": 0,
+    "p": "",
+    "q": "A triangle has base 15 cm and height 8 cm. What is its area?",
+    "sk": "triangle area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "28 cm",
+     "14 cm",
+     "16 cm",
+     "52 cm"
+    ],
+    "d": "M",
+    "e": "A square has four equal sides, so each side is 56 ÷ 4 = 14 cm. A divides by 2 as if only two sides counted, C divides the 40 but then appends the leftover 6 (10 + 6 = 16), and D subtracts 4 instead of dividing by 4.",
+    "id": "DGN-MA-023",
+    "k": 1,
+    "p": "",
+    "q": "The perimeter of a square photo frame is 56 cm. What is the length of one side?",
+    "sk": "square perimeter",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "180 cm³",
+     "200 cm³",
+     "160 cm³",
+     "90 cm³"
+    ],
+    "d": "E",
+    "e": "Volume = 9 × 5 × 4 = 180 cubic centimeters.",
+    "id": "DGN-MA-024",
+    "k": 0,
+    "p": "",
+    "q": "What is the volume of a rectangular prism measuring 9 cm by 5 cm by 4 cm?",
+    "sk": "rectangular-prism volume",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "65°",
+     "85°",
+     "70°",
+     "75°"
+    ],
+    "d": "M",
+    "e": "Triangle angles total 180°; 180 − 37 − 68 = 75°.",
+    "id": "DGN-MA-025",
+    "k": 3,
+    "p": "",
+    "q": "A triangle has angles of 37° and 68°. What is the third angle?",
+    "sk": "angle measure—triangle",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "23.5",
+     "2,350",
+     "235",
+     "0.0235"
+    ],
+    "d": "E",
+    "e": "One meter is 100 centimeters, so 2.35 × 100 = 235.",
+    "id": "DGN-MA-026",
+    "k": 2,
+    "p": "",
+    "q": "How many centimeters are in 2.35 meters?",
+    "sk": "unit conversion—length",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1 hour 27 minutes",
+     "1 hour 33 minutes",
+     "1 hour 17 minutes",
+     "2 hours 27 minutes"
+    ],
+    "d": "M",
+    "e": "From 9:38 to 10:38 is 1 hour, then to 11:05 is 27 minutes.",
+    "id": "DGN-MA-027",
+    "k": 0,
+    "p": "",
+    "q": "How much time passes from 9:38 a.m. to 11:05 a.m.?",
+    "sk": "elapsed time",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "19",
+     "20",
+     "18",
+     "21"
+    ],
+    "d": "E",
+    "e": "The total is 80, and 80 ÷ 4 = 20.",
+    "id": "DGN-MA-028",
+    "k": 1,
+    "p": "",
+    "q": "What is the mean of 14, 19, 21, and 26?",
+    "sk": "mean",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "1/2",
+     "1/5",
+     "3/10",
+     "2/5"
+    ],
+    "d": "E",
+    "e": "The multiples of 3 are 3, 6, and 9, so 3 of 10 outcomes are favorable.",
+    "id": "DGN-MA-029",
+    "k": 2,
+    "p": "",
+    "q": "A fair spinner has 10 equal sections numbered 1 through 10. What is the probability of landing on a multiple of 3?",
+    "sk": "probability—simple event",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "53",
+     "12",
+     "17",
+     "13"
+    ],
+    "d": "E",
+    "e": "Range = greatest − least = 35 − 18 = 17.",
+    "id": "DGN-MA-030",
+    "k": 2,
+    "p": "",
+    "q": "What is the range of 23, 31, 18, 27, and 35?",
+    "sk": "data interpretation—range",
+    "w": "W1"
+   }
+  ],
+  "qr": [
    {
     "c": [
      "50",
@@ -1175,7 +1113,9 @@
     "q": "A cyclist travels 7 1/2 miles in 1/2 hour. At the same rate, how far will the cyclist travel in 1 1/5 hours?",
     "sk": "multistep fraction rate",
     "w": "W1"
-   },
+   }
+  ],
+  "rc": [
    {
     "c": [
      "Household glue sold in stores is made from barnacle cement.",
@@ -1575,485 +1515,551 @@
     "q": "Which broader lesson is best supported by the passage?",
     "sk": "theme",
     "w": "W1"
-   },
+   }
+  ],
+  "vr": [
    {
     "c": [
-     "6,741",
-     "6,631",
-     "6,641",
-     "6,531"
+     "costly",
+     "narrow",
+     "hidden",
+     "plentiful"
     ],
     "d": "E",
-    "e": "Add by place value: 3,684 + 2,957 = 6,641.",
-    "id": "DGN-MA-001",
-    "k": 2,
-    "p": "",
-    "q": "What is 3,684 + 2,957?",
-    "sk": "whole-number addition",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "4,524",
-     "5,476",
-     "5,524",
-     "4,624"
-    ],
-    "d": "E",
-    "e": "Regroup across the zeros; 8,000 − 3,476 = 4,524.",
-    "id": "DGN-MA-002",
-    "k": 0,
-    "p": "",
-    "q": "What is 8,000 − 3,476?",
-    "sk": "whole-number subtraction",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "1,272",
-     "1,222",
-     "1,122",
-     "1,302"
-    ],
-    "d": "E",
-    "e": "47 × 26 = 47 × 20 + 47 × 6 = 940 + 282 = 1,222.",
-    "id": "DGN-MA-003",
-    "k": 1,
-    "p": "",
-    "q": "What is 47 × 26?",
-    "sk": "multiplication",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "84",
-     "78",
-     "74",
-     "86"
-    ],
-    "d": "E",
-    "e": "21 × 84 = 1,764.",
-    "id": "DGN-MA-004",
-    "k": 0,
-    "p": "",
-    "q": "What is 1,764 ÷ 21?",
-    "sk": "division",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "7/12",
-     "2/5",
-     "1/2",
-     "3/4"
-    ],
-    "d": "M",
-    "e": "1/3 = 4/12, so 5/12 + 4/12 = 9/12 = 3/4.",
-    "id": "DGN-MA-005",
+    "e": "Abundant means existing in a large supply; the other choices describe visibility, width, or price.",
+    "id": "DGN-VR-001",
     "k": 3,
     "p": "",
-    "q": "What is 5/12 + 1/3?",
-    "sk": "fraction addition",
+    "q": "ABUNDANT most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "13/24",
-     "2/5",
-     "11/24",
-     "1/3"
+     "cheerful",
+     "noisy",
+     "certain",
+     "careful"
     ],
-    "d": "M",
-    "e": "7/8 = 21/24 and 5/12 = 10/24; the difference is 11/24.",
-    "id": "DGN-MA-006",
-    "k": 2,
-    "p": "",
-    "q": "What is 7/8 − 5/12?",
-    "sk": "fraction subtraction",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "1/6",
-     "1/3",
-     "7/17",
-     "3/8"
-    ],
-    "d": "M",
-    "e": "Multiply and simplify: 12/72 = 1/6.",
-    "id": "DGN-MA-007",
-    "k": 0,
-    "p": "",
-    "q": "What is 4/9 × 3/8?",
-    "sk": "fraction multiplication",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "3 1/5",
-     "9/10",
-     "1 9/10",
-     "2 1/2"
-    ],
-    "d": "M",
-    "e": "3/2 ÷ 3/5 = 3/2 × 5/3 = 5/2 = 2 1/2.",
-    "id": "DGN-MA-008",
+    "d": "E",
+    "e": "A cautious person acts carefully to avoid danger or error; cheerful, noisy, and certain do not express care.",
+    "id": "DGN-VR-002",
     "k": 3,
     "p": "",
-    "q": "What is 1 1/2 ÷ 3/5?",
-    "sk": "fraction division",
+    "q": "CAUTIOUS most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "17.577",
-     "17.587",
-     "16.587",
-     "17.487"
+     "flexible",
+     "long-lasting",
+     "colorful",
+     "unfinished"
     ],
     "d": "E",
-    "e": "Align decimal points: 12.680 + 4.907 = 17.587.",
-    "id": "DGN-MA-009",
+    "e": "Something durable resists wear and lasts; flexibility or color does not guarantee durability.",
+    "id": "DGN-VR-003",
     "k": 1,
     "p": "",
-    "q": "What is 12.68 + 4.907?",
-    "sk": "decimal addition",
+    "q": "DURABLE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "4.05",
-     "4.5",
-     "45",
-     "3.75"
+     "enthusiastic",
+     "polite",
+     "patient",
+     "confused"
     ],
-    "d": "M",
-    "e": "1.25 × 36 = 45, then place one decimal digit: 4.5.",
-    "id": "DGN-MA-010",
-    "k": 1,
-    "p": "",
-    "q": "What is 3.6 × 1.25?",
-    "sk": "decimal multiplication",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "13.2",
-     "1.32",
-     "13.02",
-     "132"
-    ],
-    "d": "M",
-    "e": "Multiply both numbers by 10: 92.4 ÷ 7 = 13.2.",
-    "id": "DGN-MA-011",
+    "d": "E",
+    "e": "Eager describes strong interest or enthusiasm to act; patience can accompany eagerness but is not its meaning.",
+    "id": "DGN-VR-004",
     "k": 0,
     "p": "",
-    "q": "What is 9.24 ÷ 0.7?",
-    "sk": "decimal division",
+    "q": "EAGER most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "72",
-     "84",
-     "96",
-     "80"
-    ],
-    "d": "E",
-    "e": "30% of 240 is 72 and 5% is 12; together they equal 84.",
-    "id": "DGN-MA-012",
-    "k": 1,
-    "p": "",
-    "q": "What is 35% of 240?",
-    "sk": "percent of a quantity",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "8",
-     "10",
-     "4",
-     "6"
+     "unusually small",
+     "recently made",
+     "carefully packed",
+     "easily broken"
     ],
     "d": "M",
-    "e": "Parentheses first: 5 + 1 = 6; then 2 × 6 = 12; 18 − 12 = 6.",
-    "id": "DGN-MA-013",
+    "e": "Fragile means easily damaged or broken; packing is a response to fragility, not a synonym.",
+    "id": "DGN-VR-005",
     "k": 3,
     "p": "",
-    "q": "What is 18 − 2(5 + 1)?",
-    "sk": "order of operations",
+    "q": "FRAGILE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "27",
-     "12",
-     "81",
-     "64"
+     "stormy",
+     "crowded",
+     "sad",
+     "silent"
     ],
     "d": "E",
-    "e": "3^4 = 3 × 3 × 3 × 3 = 81.",
-    "id": "DGN-MA-014",
+    "e": "Gloomy can describe a sad mood; stormy may create gloom but is not equivalent in meaning.",
+    "id": "DGN-VR-006",
     "k": 2,
     "p": "",
-    "q": "What is 3^4?",
-    "sk": "exponent evaluation",
+    "q": "GLOOMY most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "2",
-     "21",
-     "28",
-     "14"
+     "repair",
+     "obstruct",
+     "request",
+     "observe"
     ],
     "d": "M",
-    "e": "Factors common to both include 1, 2, 7, and 14; the greatest is 14.",
-    "id": "DGN-MA-015",
-    "k": 3,
-    "p": "",
-    "q": "What is the greatest common factor of 42 and 70?",
-    "sk": "factors—greatest common factor",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "18",
-     "108",
-     "24",
-     "36"
-    ],
-    "d": "M",
-    "e": "Multiples first shared are 36, 72, ...; the least is 36.",
-    "id": "DGN-MA-016",
-    "k": 3,
-    "p": "",
-    "q": "What is the least common multiple of 9 and 12?",
-    "sk": "multiples—least common multiple",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "77",
-     "17",
-     "66",
-     "55"
-    ],
-    "d": "E",
-    "e": "Multiply both sides by 6: y = 11 × 6 = 66.",
-    "id": "DGN-MA-017",
-    "k": 2,
-    "p": "",
-    "q": "If y/6 = 11, what is y?",
-    "sk": "algebra—one-step equation",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "11",
-     "9",
-     "7",
-     "5.8"
-    ],
-    "d": "M",
-    "e": "Add 8 to get 5x = 45, then divide by 5: x = 9.",
-    "id": "DGN-MA-018",
+    "e": "To hinder is to slow or obstruct progress; the other verbs do not express interference.",
+    "id": "DGN-VR-007",
     "k": 1,
     "p": "",
-    "q": "Solve 5x − 8 = 37.",
-    "sk": "algebra—two-step equation",
+    "q": "HINDER most nearly means:",
+    "sk": "synonym—verb precision",
     "w": "W1"
    },
    {
     "c": [
-     "11",
-     "67",
-     "19",
-     "35"
+     "copy",
+     "explain",
+     "admire",
+     "invent"
     ],
     "d": "E",
-    "e": "2(4^2) + 3 = 2(16) + 3 = 35.",
-    "id": "DGN-MA-019",
-    "k": 3,
-    "p": "",
-    "q": "What is 2a^2 + 3 when a = 4?",
-    "sk": "expression evaluation",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "(−5, −2)",
-     "(5, −2)",
-     "(−2, 5)",
-     "(5, 2)"
-    ],
-    "d": "M",
-    "e": "Reflection across the x-axis keeps x and changes the sign of y.",
-    "id": "DGN-MA-020",
+    "e": "To imitate is to copy someone's action, sound, or style; admiration does not require copying.",
+    "id": "DGN-VR-008",
     "k": 0,
     "p": "",
-    "q": "What is the reflection of (−5, 2) across the x-axis?",
-    "sk": "coordinate plane—reflection",
+    "q": "IMITATE most nearly means:",
+    "sk": "synonym—verb precision",
     "w": "W1"
    },
    {
     "c": [
-     "40 m²",
-     "91 m²",
-     "182 m²",
-     "78 m²"
+     "wise",
+     "tidy",
+     "merry",
+     "tired"
     ],
     "d": "E",
-    "e": "Area = length × width = 13 × 7 = 91 square meters.",
-    "id": "DGN-MA-021",
+    "e": "Jolly means cheerful or merry; the distractors describe energy, order, or judgment.",
+    "id": "DGN-VR-009",
+    "k": 2,
+    "p": "",
+    "q": "JOLLY most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "ordinary",
+     "sharp",
+     "distant",
+     "gentle"
+    ],
+    "d": "M",
+    "e": "Keen can mean sharp, as in a keen edge or keen mind; none of the other choices matches that sense.",
+    "id": "DGN-VR-010",
     "k": 1,
     "p": "",
-    "q": "A rectangle is 13 meters long and 7 meters wide. What is its area?",
-    "sk": "rectangle area",
+    "q": "KEEN most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "60 cm²",
-     "120 cm²",
-     "23 cm²",
-     "46 cm²"
+     "awkward",
+     "expensive",
+     "exact",
+     "humble"
     ],
     "d": "M",
-    "e": "Area = 1/2 × 15 × 8 = 60 square centimeters.",
-    "id": "DGN-MA-022",
-    "k": 0,
-    "p": "",
-    "q": "A triangle has base 15 cm and height 8 cm. What is its area?",
-    "sk": "triangle area",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "28 cm",
-     "14 cm",
-     "16 cm",
-     "52 cm"
-    ],
-    "d": "M",
-    "e": "A square has four equal sides, so each side is 56 ÷ 4 = 14 cm. A divides by 2 as if only two sides counted, C divides the 40 but then appends the leftover 6 (10 + 6 = 16), and D subtracts 4 instead of dividing by 4.",
-    "id": "DGN-MA-023",
-    "k": 1,
-    "p": "",
-    "q": "The perimeter of a square photo frame is 56 cm. What is the length of one side?",
-    "sk": "square perimeter",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "180 cm³",
-     "200 cm³",
-     "160 cm³",
-     "90 cm³"
-    ],
-    "d": "E",
-    "e": "Volume = 9 × 5 × 4 = 180 cubic centimeters.",
-    "id": "DGN-MA-024",
-    "k": 0,
-    "p": "",
-    "q": "What is the volume of a rectangular prism measuring 9 cm by 5 cm by 4 cm?",
-    "sk": "rectangular-prism volume",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "65°",
-     "85°",
-     "70°",
-     "75°"
-    ],
-    "d": "M",
-    "e": "Triangle angles total 180°; 180 − 37 − 68 = 75°.",
-    "id": "DGN-MA-025",
+    "e": "A modest person is humble and does not boast; the other adjectives describe unrelated qualities.",
+    "id": "DGN-VR-011",
     "k": 3,
     "p": "",
-    "q": "A triangle has angles of 37° and 68°. What is the third angle?",
-    "sk": "angle measure—triangle",
+    "q": "MODEST most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "23.5",
-     "2,350",
-     "235",
-     "0.0235"
-    ],
-    "d": "E",
-    "e": "One meter is 100 centimeters, so 2.35 × 100 = 235.",
-    "id": "DGN-MA-026",
-    "k": 2,
-    "p": "",
-    "q": "How many centimeters are in 2.35 meters?",
-    "sk": "unit conversion—length",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "1 hour 27 minutes",
-     "1 hour 33 minutes",
-     "1 hour 17 minutes",
-     "2 hours 27 minutes"
+     "peaceful",
+     "agile",
+     "enormous",
+     "honest"
     ],
     "d": "M",
-    "e": "From 9:38 to 10:38 is 1 hour, then to 11:05 is 27 minutes.",
-    "id": "DGN-MA-027",
-    "k": 0,
-    "p": "",
-    "q": "How much time passes from 9:38 a.m. to 11:05 a.m.?",
-    "sk": "elapsed time",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "19",
-     "20",
-     "18",
-     "21"
-    ],
-    "d": "E",
-    "e": "The total is 80, and 80 ÷ 4 = 20.",
-    "id": "DGN-MA-028",
+    "e": "Nimble means quick and light in movement or thought, which is closest to agile.",
+    "id": "DGN-VR-012",
     "k": 1,
     "p": "",
-    "q": "What is the mean of 14, 19, 21, and 26?",
-    "sk": "mean",
+    "q": "NIMBLE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "1/2",
-     "1/5",
-     "3/10",
-     "2/5"
+     "common",
+     "complete",
+     "quiet",
+     "valuable"
     ],
     "d": "E",
-    "e": "The multiples of 3 are 3, 6, and 9, so 3 of 10 outcomes are favorable.",
-    "id": "DGN-MA-029",
-    "k": 2,
+    "e": "Ordinary means common or not unusual; value, completeness, and sound are separate ideas.",
+    "id": "DGN-VR-013",
+    "k": 0,
     "p": "",
-    "q": "A fair spinner has 10 equal sections numbered 1 through 10. What is the probability of landing on a multiple of 3?",
-    "sk": "probability—simple event",
+    "q": "ORDINARY most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "53",
-     "12",
-     "17",
-     "13"
+     "ancient",
+     "helpful",
+     "smooth",
+     "strange"
+    ],
+    "d": "M",
+    "e": "Peculiar most often means strange or unusual; the other choices do not express oddness.",
+    "id": "DGN-VR-014",
+    "k": 3,
+    "p": "",
+    "q": "PECULIAR most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "fast",
+     "steady",
+     "early",
+     "brief"
     ],
     "d": "E",
-    "e": "Range = greatest − least = 35 − 18 = 17.",
-    "id": "DGN-MA-030",
+    "e": "Rapid means fast in speed; early concerns time of arrival and brief concerns duration.",
+    "id": "DGN-VR-015",
+    "k": 0,
+    "p": "",
+    "q": "RAPID most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "desired",
+     "damaged",
+     "rare",
+     "divided"
+    ],
+    "d": "M",
+    "e": "Scarce means in short supply or rare; being desired may result from scarcity but is not the meaning.",
+    "id": "DGN-VR-016",
     "k": 2,
     "p": "",
-    "q": "What is the range of 23, 31, 18, 27, and 35?",
-    "sk": "data interpretation—range",
+    "q": "SCARCE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "empty",
+     "distant",
+     "calm",
+     "bright"
+    ],
+    "d": "M",
+    "e": "Vivid describes something bright, clear, or intensely lifelike; the other words do not convey intensity.",
+    "id": "DGN-VR-017",
+    "k": 3,
+    "p": "",
+    "q": "VIVID most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "slowly",
+     "blindly",
+     "proudly",
+     "gracefully"
+    ],
+    "d": "E",
+    "e": "Ice creates a slipping risk, so walking slowly instead of rushing is the safe response; proudly, gracefully, and blindly do not address the danger.",
+    "id": "DGN-VR-018",
+    "k": 0,
+    "p": "",
+    "q": "Because the path was covered with ice, Lena walked ____ instead of rushing.",
+    "sk": "sentence completion—context contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "sleepy",
+     "timid",
+     "friendly",
+     "hungry"
+    ],
+    "d": "E",
+    "e": "Greeting every visitor warmly is evidence that the puppy is friendly; timid and sleepy conflict with the action.",
+    "id": "DGN-VR-019",
+    "k": 2,
+    "p": "",
+    "q": "The puppy was so ____ that it greeted every visitor with a wagging tail.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "musical",
+     "truthful",
+     "lengthy",
+     "vague"
+    ],
+    "d": "M",
+    "e": "A vague answer leaves out details and helps preserve a secret; a lengthy answer would risk revealing more.",
+    "id": "DGN-VR-020",
+    "k": 3,
+    "p": "",
+    "q": "To keep the surprise party secret, Omar gave only a ____ answer when his sister asked about Saturday.",
+    "sk": "sentence completion—logical fit",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "through",
+     "beside",
+     "above",
+     "around"
+    ],
+    "d": "E",
+    "e": "Transparent means allowing light and images to pass through; the sentence directly supplies that spatial relationship.",
+    "id": "DGN-VR-021",
+    "k": 0,
+    "p": "",
+    "q": "The glass was transparent, so we could see ____ it.",
+    "sk": "sentence completion—definition clue",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "tranquil",
+     "private",
+     "bright",
+     "narrow"
+    ],
+    "d": "M",
+    "e": "Unlike signals a contrast with bustling; tranquil means calm and matches still.",
+    "id": "DGN-VR-022",
+    "k": 0,
+    "p": "",
+    "q": "Unlike the bustling market, the small courtyard was ____ and still.",
+    "sk": "sentence completion—comparison",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "pretend",
+     "ensure",
+     "wonder",
+     "doubt"
+    ],
+    "d": "E",
+    "e": "Repetition serves to ensure, or make certain, that players understand; doubt and wonder oppose that purpose.",
+    "id": "DGN-VR-023",
+    "k": 1,
+    "p": "",
+    "q": "The coach repeated the directions to ____ that every player understood the drill.",
+    "sk": "sentence completion—purpose",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "bitter",
+     "careless",
+     "puzzled",
+     "resilient"
+    ],
+    "d": "M",
+    "e": "Resilient describes recovering from a setback and continuing to work; the other attitudes would not support renewed practice.",
+    "id": "DGN-VR-024",
+    "k": 3,
+    "p": "",
+    "q": "Although Priya lost the first round, her ____ attitude helped her practice for the next match.",
+    "sk": "sentence completion—tone",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "polish",
+     "examine",
+     "replace",
+     "borrow"
+    ],
+    "d": "M",
+    "e": "Visitors can examine an object visually without touching it; the other actions require handling or removal.",
+    "id": "DGN-VR-025",
+    "k": 1,
+    "p": "",
+    "q": "The museum guide asked visitors to ____ the ancient bowl without touching it.",
+    "sk": "sentence completion—precise verb",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "overflow",
+     "freeze",
+     "vanish",
+     "sparkle"
+    ],
+    "d": "E",
+    "e": "Sustained rain adds water, so a shallow creek may overflow; the other changes are not caused by rain in this context.",
+    "id": "DGN-VR-026",
+    "k": 0,
+    "p": "",
+    "q": "After hours of steady rain, the shallow creek began to ____.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "distant",
+     "useful",
+     "ornate",
+     "fragile"
+    ],
+    "d": "M",
+    "e": "But contrasts the confusing map with a clear, useful one; ornate does not necessarily improve function.",
+    "id": "DGN-VR-027",
+    "k": 1,
+    "p": "",
+    "q": "The first map was confusing, but the revised version was clear and ____.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "divide",
+     "hide",
+     "evaluate",
+     "repeat"
+    ],
+    "d": "M",
+    "e": "A committee logically evaluates proposals before choosing; hiding, repeating, or dividing them does not support a decision.",
+    "id": "DGN-VR-028",
+    "k": 2,
+    "p": "",
+    "q": "Before making a final choice, the committee agreed to ____ all three proposals.",
+    "sk": "sentence completion—sequence logic",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "steady",
+     "golden",
+     "faint",
+     "sudden"
+    ],
+    "d": "E",
+    "e": "Barely lighting provides a degree clue that the glow was faint; color and steadiness do not indicate low brightness.",
+    "id": "DGN-VR-029",
+    "k": 2,
+    "p": "",
+    "q": "The lantern gave only a ____ glow, barely lighting the doorway.",
+    "sk": "sentence completion—degree",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "shy",
+     "honest",
+     "curious",
+     "clever"
+    ],
+    "d": "M",
+    "e": "Returning money that is not his demonstrates honesty; curiosity, shyness, and cleverness do not explain the ethical choice.",
+    "id": "DGN-VR-030",
+    "k": 1,
+    "p": "",
+    "q": "Even when no one was watching, Mateo returned the extra change because he was ____.",
+    "sk": "sentence completion—character inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "lengthy",
+     "formal",
+     "precise",
+     "familiar"
+    ],
+    "d": "M",
+    "e": "Precise instructions are exact and unambiguous, matching the clue understood in only one way.",
+    "id": "DGN-VR-031",
+    "k": 2,
+    "p": "",
+    "q": "The instructions were so ____ that every step could be understood in only one way.",
+    "sk": "sentence completion—context definition",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "final",
+     "accurate",
+     "uncertain",
+     "valuable"
+    ],
+    "d": "H",
+    "e": "Before confirmation, a surprising result should be considered uncertain; calling it final or accurate would skip the needed second test.",
+    "id": "DGN-VR-032",
+    "k": 2,
+    "p": "",
+    "q": "The scientist treated the surprising result as ____ until a second experiment confirmed it.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "faded",
+     "sturdy",
+     "dusty",
+     "narrow"
+    ],
+    "d": "M",
+    "e": "Yet signals that despite a worn appearance, the straps were still sturdy; faded and dusty repeat rather than contrast the wear.",
+    "id": "DGN-VR-033",
+    "k": 1,
+    "p": "",
+    "q": "The old backpack looked worn, yet its straps remained ____.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "clarify",
+     "postpone",
+     "challenge",
+     "memorize"
+    ],
+    "d": "H",
+    "e": "A well-chosen example can clarify, or make clear, a complicated idea; the other verbs do not express explanation.",
+    "id": "DGN-VR-034",
+    "k": 0,
+    "p": "",
+    "q": "The speaker used a brief example to ____ an idea that had seemed complicated.",
+    "sk": "sentence completion—purpose and register",
     "w": "W1"
    }
   ]

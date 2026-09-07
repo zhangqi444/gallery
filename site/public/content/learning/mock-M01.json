@@ -23,551 +23,489 @@
   }
  },
  "sections": {
-  "all": [
+  "ma": [
    {
     "c": [
-     "very old",
-     "valuable",
-     "partly hidden",
-     "carefully built"
+     "9,215",
+     "9,205",
+     "9,225",
+     "9,105"
     ],
     "d": "E",
-    "e": "Ancient means belonging to the distant past or very old; age does not necessarily imply value.",
-    "id": "M01-VR-001",
+    "e": "Place-value addition gives 9,215.",
+    "id": "M01-MA-001",
     "k": 0,
     "p": "",
-    "q": "ANCIENT most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "5,729 + 3,486 = ?",
+    "sk": "addition",
     "w": "W1"
    },
    {
     "c": [
-     "uneven",
-     "quick",
-     "noisy",
-     "damp"
+     "4,562",
+     "3,672",
+     "3,562",
+     "4,438"
     ],
     "d": "E",
-    "e": "Brisk means quick and energetic, as in a brisk walk; uneven, damp, and noisy describe other qualities, not speed.",
-    "id": "M01-VR-002",
-    "k": 1,
-    "p": "",
-    "q": "BRISK most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "protect",
-     "hide",
-     "carry",
-     "discover"
-    ],
-    "d": "E",
-    "e": "To conceal is to hide something from view or knowledge; protecting may involve concealment but is not equivalent.",
-    "id": "M01-VR-003",
-    "k": 1,
-    "p": "",
-    "q": "CONCEAL most nearly means:",
-    "sk": "synonym—verb precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "worried",
-     "weak",
-     "sleepy",
-     "lonely"
-    ],
-    "d": "E",
-    "e": "Drowsy means sleepy or ready to fall asleep; weakness is not required.",
-    "id": "M01-VR-004",
+    "e": "Regrouping across zeros gives 3,562.",
+    "id": "M01-MA-002",
     "k": 2,
     "p": "",
-    "q": "DROWSY most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "10,000 − 6,438 = ?",
+    "sk": "subtraction",
     "w": "W1"
    },
    {
     "c": [
-     "distant",
-     "heavy",
-     "empty",
-     "huge"
+     "1,204",
+     "1,134",
+     "1,034",
+     "1,144"
     ],
     "d": "E",
-    "e": "Enormous means extremely large or huge; an enormous object need not be heavy.",
-    "id": "M01-VR-005",
-    "k": 3,
-    "p": "",
-    "q": "ENORMOUS most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "lucky",
-     "prepared",
-     "wealthy",
-     "grateful"
-    ],
-    "d": "M",
-    "e": "Fortunate means favored by good luck; wealth or preparation can help but are not the meaning.",
-    "id": "M01-VR-006",
-    "k": 0,
-    "p": "",
-    "q": "FORTUNATE most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "famous",
-     "patient",
-     "successful",
-     "giving"
-    ],
-    "d": "E",
-    "e": "A generous person willingly gives or shares; the other positive traits are not synonyms.",
-    "id": "M01-VR-007",
-    "k": 3,
-    "p": "",
-    "q": "GENEROUS most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "foolish",
-     "wild",
-     "strong",
-     "fearless"
-    ],
-    "d": "M",
-    "e": "Courageous means brave or fearless, willing to face danger; strength is physical, and wild and foolish describe poor judgment rather than courage.",
-    "id": "M01-VR-008",
-    "k": 3,
-    "p": "",
-    "q": "COURAGEOUS most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "complete",
-     "inactive",
-     "cheerful",
-     "balanced"
-    ],
-    "d": "E",
-    "e": "Idle means not active or not in use; the other choices describe unrelated conditions.",
-    "id": "M01-VR-009",
+    "e": "63×(20−2)=1,260−126=1,134.",
+    "id": "M01-MA-003",
     "k": 1,
     "p": "",
-    "q": "IDLE most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "63 × 18 = ?",
+    "sk": "multiplication",
     "w": "W1"
    },
    {
     "c": [
-     "truthful",
-     "faithful",
-     "brave",
-     "obedient"
+     "62",
+     "63",
+     "68",
+     "58"
     ],
     "d": "E",
-    "e": "Loyal means faithful and dependable in support; obedience may occur without loyalty.",
-    "id": "M01-VR-010",
+    "e": "32×63=2,016.",
+    "id": "M01-MA-004",
     "k": 1,
     "p": "",
-    "q": "LOYAL most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "2,016 ÷ 32 = ?",
+    "sk": "division",
     "w": "W1"
    },
    {
     "c": [
-     "cloudy",
-     "cold",
-     "shallow",
-     "still"
+     "11/20",
+     "3/5",
+     "1",
+     "13/15"
     ],
     "d": "M",
-    "e": "Murky water or an unclear idea is cloudy and difficult to see through; depth and temperature are unrelated.",
-    "id": "M01-VR-011",
-    "k": 0,
-    "p": "",
-    "q": "MURKY most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "dislike",
-     "misplace",
-     "ignore",
-     "damage"
-    ],
-    "d": "M",
-    "e": "To neglect is to fail to give proper care or attention, closest to ignore; damage may result but is not the action itself, and misplace concerns losing objects, not withholding attention.",
-    "id": "M01-VR-012",
-    "k": 2,
-    "p": "",
-    "q": "NEGLECT most nearly means:",
-    "sk": "synonym—verb precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "unusual",
-     "important",
-     "clear",
-     "correct"
-    ],
-    "d": "E",
-    "e": "Obvious means easy to see or understand, or clear; an obvious statement can still be unimportant or incorrect.",
-    "id": "M01-VR-013",
-    "k": 2,
-    "p": "",
-    "q": "OBVIOUS most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "healthy",
-     "tolerant",
-     "slow",
-     "quiet"
-    ],
-    "d": "E",
-    "e": "A patient person can wait or endure difficulty calmly, which is closest to tolerant.",
-    "id": "M01-VR-014",
-    "k": 1,
-    "p": "",
-    "q": "PATIENT most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "silent",
-     "empty",
-     "secret",
-     "careful"
-    ],
-    "d": "M",
-    "e": "Quiet most directly means making little or no sound, closest to silent.",
-    "id": "M01-VR-015",
-    "k": 0,
-    "p": "",
-    "q": "QUIET most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "thin",
-     "elegant",
-     "pale",
-     "tall"
-    ],
-    "d": "M",
-    "e": "Slender means thin or slim in build; tall, elegant, and pale describe other qualities a slender thing need not have.",
-    "id": "M01-VR-016",
-    "k": 0,
-    "p": "",
-    "q": "SLENDER most nearly means:",
-    "sk": "synonym—adjective precision",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "injured",
-     "cautious",
-     "disappointed",
-     "tired"
-    ],
-    "d": "E",
-    "e": "Weary means very tired; disappointment or injury may cause weariness but are not synonyms.",
-    "id": "M01-VR-017",
+    "e": "2/5=6/15; sum=13/15.",
+    "id": "M01-MA-005",
     "k": 3,
     "p": "",
-    "q": "WEARY most nearly means:",
-    "sk": "synonym—adjective precision",
+    "q": "7/15 + 2/5 = ?",
+    "sk": "fraction addition",
     "w": "W1"
    },
    {
     "c": [
-     "softly",
-     "firmly",
-     "rapidly",
-     "proudly"
-    ],
-    "d": "E",
-    "e": "Protecting nearby readers from interruption requires speaking softly; speed and pride do not control volume.",
-    "id": "M01-VR-018",
-    "k": 0,
-    "p": "",
-    "q": "The librarian spoke ____ so the students at nearby tables could continue reading.",
-    "sk": "sentence completion—cause and effect",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "familiar",
-     "brief",
-     "complex",
-     "colorful"
+     "8/20",
+     "13/24",
+     "2/4",
+     "7/12"
     ],
     "d": "M",
-    "e": "But signals a contrast with simple, making complex the logical completion.",
-    "id": "M01-VR-019",
-    "k": 2,
-    "p": "",
-    "q": "The puzzle appeared simple, but its final step was surprisingly ____.",
-    "sk": "sentence completion—contrast",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "purchased",
-     "repaired",
-     "heard",
-     "carried"
-    ],
-    "d": "E",
-    "e": "Portable means able to be carried or moved easily; the sentence provides a direct definition.",
-    "id": "M01-VR-020",
-    "k": 3,
-    "p": "",
-    "q": "A portable radio is one that can be easily ____ from place to place.",
-    "sk": "sentence completion—definition clue",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "fair",
-     "definite",
-     "lengthy",
-     "public"
-    ],
-    "d": "M",
-    "e": "Incomplete evidence prevents a definite, certain conclusion; the other adjectives do not express certainty.",
-    "id": "M01-VR-021",
+    "e": "22/24−9/24=13/24.",
+    "id": "M01-MA-006",
     "k": 1,
     "p": "",
-    "q": "Since the evidence was incomplete, the judge refused to reach a ____ conclusion.",
-    "sk": "sentence completion—logical fit",
+    "q": "11/12 − 3/8 = ?",
+    "sk": "fraction subtraction",
     "w": "W1"
    },
    {
     "c": [
-     "thorough",
-     "curious",
-     "skillful",
-     "nervous"
+     "5/6",
+     "1/3",
+     "1/6",
+     "12/29"
     ],
     "d": "M",
-    "e": "Rechecking every measurement demonstrates thoroughness; nervousness is possible but not required by the evidence.",
-    "id": "M01-VR-022",
-    "k": 0,
+    "e": "Cancel 5/15 and 7/14 to get 1/6.",
+    "id": "M01-MA-007",
+    "k": 2,
     "p": "",
-    "q": "Kai checked every measurement twice, showing that he was ____.",
-    "sk": "sentence completion—character inference",
+    "q": "5/14 × 7/15 = ?",
+    "sk": "fraction multiplication",
     "w": "W1"
    },
    {
     "c": [
-     "thunderous",
-     "brief",
-     "sudden",
-     "polite"
-    ],
-    "d": "E",
-    "e": "Being heard outside provides an intensity clue; thunderous means extremely loud.",
-    "id": "M01-VR-023",
-    "k": 0,
-    "p": "",
-    "q": "The audience's applause was so ____ that it could be heard outside the theater.",
-    "sk": "sentence completion—degree",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "predict",
-     "question",
-     "erase",
-     "summarize"
+     "3 1/4",
+     "3",
+     "1 1/2",
+     "2"
     ],
     "d": "M",
-    "e": "A chart can summarize and display collected results; prediction concerns results not yet collected.",
-    "id": "M01-VR-024",
-    "k": 3,
-    "p": "",
-    "q": "The class created a chart to ____ the results of its survey.",
-    "sk": "sentence completion—purpose",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "replace",
-     "relieve",
-     "measure",
-     "explain"
-    ],
-    "d": "M",
-    "e": "Relieve means reduce discomfort, fitting what medicine can do even without curing the illness.",
-    "id": "M01-VR-025",
+    "e": "9/4×4/3=3.",
+    "id": "M01-MA-008",
     "k": 1,
     "p": "",
-    "q": "The medicine did not cure the cold, but it did ____ the soreness in Mina's throat.",
-    "sk": "sentence completion—context contrast",
+    "q": "2 1/4 ÷ 3/4 = ?",
+    "sk": "mixed-number division",
     "w": "W1"
    },
    {
     "c": [
-     "doubtful",
-     "private",
-     "detailed",
-     "dramatic"
-    ],
-    "d": "M",
-    "e": "Listing time, place, and exact words is evidence of a detailed account.",
-    "id": "M01-VR-026",
-    "k": 2,
-    "p": "",
-    "q": "The witness gave a ____ account, including the time, place, and exact words spoken.",
-    "sk": "sentence completion—precise adjective",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "thirsty",
-     "lost",
-     "hungry",
-     "muddy"
+     "12.544",
+     "12.444",
+     "13.544",
+     "12.534"
     ],
     "d": "E",
-    "e": "A long hike explains why the campers were hungry enough to eat every sandwich; muddy, lost, and thirsty do not explain the eating.",
-    "id": "M01-VR-027",
-    "k": 2,
-    "p": "",
-    "q": "After the long morning hike, the campers were so ____ that they ate every sandwich in the basket.",
-    "sk": "sentence completion—cause and effect",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "revise",
-     "fold",
-     "announce",
-     "recite"
-    ],
-    "d": "M",
-    "e": "An editor logically asks for revisions before publication; the other actions do not improve the article.",
-    "id": "M01-VR-028",
+    "e": "20.030−7.486=12.544.",
+    "id": "M01-MA-009",
     "k": 0,
     "p": "",
-    "q": "The editor asked Rosa to ____ the article before it was printed.",
-    "sk": "sentence completion—sequence logic",
+    "q": "20.03 − 7.486 = ?",
+    "sk": "decimal subtraction",
     "w": "W1"
    },
    {
     "c": [
-     "careless",
-     "stern",
-     "mature",
-     "boastful"
+     "3.4",
+     "44",
+     "4.04",
+     "4.4"
+    ],
+    "d": "M",
+    "e": "275×16=4,400 with three decimal places =4.4.",
+    "id": "M01-MA-010",
+    "k": 3,
+    "p": "",
+    "q": "2.75 × 1.6 = ?",
+    "sk": "decimal multiplication",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "0.63",
+     "7.3",
+     "63",
+     "6.3"
+    ],
+    "d": "M",
+    "e": "157.5÷25=6.3.",
+    "id": "M01-MA-011",
+    "k": 3,
+    "p": "",
+    "q": "15.75 ÷ 2.5 = ?",
+    "sk": "decimal division",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "63",
+     "53",
+     "68",
+     "58"
+    ],
+    "d": "E",
+    "e": "0.18×350=63.",
+    "id": "M01-MA-012",
+    "k": 0,
+    "p": "",
+    "q": "18% of 350 = ?",
+    "sk": "percent",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "5",
+     "8",
+     "10",
+     "14"
+    ],
+    "d": "M",
+    "e": "3×2=6; 24÷6=4; 6+4=10.",
+    "id": "M01-MA-013",
+    "k": 2,
+    "p": "",
+    "q": "6 + 24 ÷ (3×2) = ?",
+    "sk": "order of operations",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "32",
+     "64",
+     "25",
+     "10"
+    ],
+    "d": "E",
+    "e": "2×2×2×2×2=32.",
+    "id": "M01-MA-014",
+    "k": 0,
+    "p": "",
+    "q": "2^5 = ?",
+    "sk": "exponents",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "9×10",
+     "2×3²×5",
+     "2×45",
+     "3×30"
+    ],
+    "d": "M",
+    "e": "90=2×3×3×5, all prime.",
+    "id": "M01-MA-015",
+    "k": 1,
+    "p": "",
+    "q": "Which is the prime factorization of 90?",
+    "sk": "prime factorization",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "13",
+     "11",
+     "12",
+     "17.5"
+    ],
+    "d": "M",
+    "e": "61−9=52; 52÷4=13.",
+    "id": "M01-MA-016",
+    "k": 0,
+    "p": "",
+    "q": "Solve 4x+9=61.",
+    "sk": "algebra equation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "77",
+     "73",
+     "13",
+     "23"
+    ],
+    "d": "M",
+    "e": "3×25−2=73.",
+    "id": "M01-MA-017",
+    "k": 1,
+    "p": "",
+    "q": "3b²−2 when b=5 equals:",
+    "sk": "expression evaluation",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "8",
+     "5",
+     "6",
+     "4"
+    ],
+    "d": "M",
+    "e": "2(4)+3=11<13; others are not less.",
+    "id": "M01-MA-018",
+    "k": 3,
+    "p": "",
+    "q": "Which value satisfies 2n+3<13?",
+    "sk": "inequality",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "23",
+     "46",
+     "36",
+     "126"
+    ],
+    "d": "E",
+    "e": "2(14+9)=46 cm.",
+    "id": "M01-MA-019",
+    "k": 1,
+    "p": "",
+    "q": "A rectangle is 14 cm by 9 cm. Its perimeter is:",
+    "sk": "rectangle perimeter",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "50",
+     "110",
+     "55",
+     "44"
     ],
     "d": "H",
-    "e": "Accepting correction and thanking the coach shows a mature reply; boastful and stern clash with the thanks, and careless does not describe a considered response.",
-    "id": "M01-VR-029",
+    "e": "1/2(8+14)5=55 cm².",
+    "id": "M01-MA-020",
     "k": 2,
     "p": "",
-    "q": "Although the coach pointed out every mistake, Ellis gave a ____ reply and thanked her for the advice.",
-    "sk": "sentence completion—tone",
+    "q": "Bases are 8 cm and 14 cm; height is 5 cm. Area?",
+    "sk": "trapezoid area",
     "w": "W1"
    },
    {
     "c": [
-     "nearby",
-     "direct",
-     "equivalent",
-     "crowded"
+     "51 m²",
+     "21 m²",
+     "98 m²",
+     "36 m²"
     ],
     "d": "M",
-    "e": "Equal travel times make the routes equivalent for this comparison; directness or distance is not established.",
-    "id": "M01-VR-030",
+    "e": "Add the two rectangle areas: 9 × 4 = 36 and 5 × 3 = 15, so 36 + 15 = 51 m². A adds the four dimensions instead of multiplying, B counts only the first rectangle, and C multiplies the combined lengths by the combined widths (14 × 7 = 98).",
+    "id": "M01-MA-021",
+    "k": 0,
+    "p": "",
+    "q": "An L-shaped hallway floor is made of two rectangles: one is 9 m by 4 m and the other is 5 m by 3 m. What is the total area of the floor?",
+    "sk": "composite rectangle area",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "96",
+     "144",
+     "192",
+     "48"
+    ],
+    "d": "E",
+    "e": "12×4×3=144 cubic units.",
+    "id": "M01-MA-022",
+    "k": 1,
+    "p": "",
+    "q": "Volume of a 12×4×3 prism?",
+    "sk": "prism volume",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "53°",
+     "153°",
+     "73°",
+     "63°"
+    ],
+    "d": "E",
+    "e": "Complementary angles total 90°, and 90−27=63°; C subtracts from 100, D subtracts from 180, and A slips by ten.",
+    "id": "M01-MA-023",
+    "k": 3,
+    "p": "",
+    "q": "Two angles are complementary. One angle measures 27°. What is the measure of the other angle?",
+    "sk": "complementary angles",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "360",
+     "36,000",
+     "3,600",
+     "36"
+    ],
+    "d": "M",
+    "e": "Multiply kilograms by 1,000.",
+    "id": "M01-MA-024",
     "k": 2,
     "p": "",
-    "q": "The two routes are ____; each takes exactly forty minutes.",
-    "sk": "sentence completion—context definition",
+    "q": "3.6 kilograms equals how many grams?",
+    "sk": "unit conversion—mass",
     "w": "W1"
    },
    {
     "c": [
-     "louder",
-     "amusing",
-     "confident",
-     "concise"
+     "42 ft",
+     "28 ft",
+     "12 ft",
+     "35 ft"
     ],
     "d": "M",
-    "e": "While signals contrast; concise means brief and focused, opposing wandering.",
-    "id": "M01-VR-031",
+    "e": "5×7=35 feet.",
+    "id": "M01-MA-025",
     "k": 3,
     "p": "",
-    "q": "While the first speaker wandered from topic to topic, the second was ____.",
-    "sk": "sentence completion—contrast",
+    "q": "Scale 1 inch=7 feet. A 5-inch wall represents:",
+    "sk": "scale drawing",
     "w": "W1"
    },
    {
     "c": [
-     "remind",
-     "discourage",
-     "permit",
-     "protect"
+     "17.5",
+     "70",
+     "20",
+     "18"
     ],
-    "d": "M",
-    "e": "Signs can discourage, or persuade people not to do, the prohibited action.",
-    "id": "M01-VR-032",
-    "k": 1,
+    "d": "E",
+    "e": "Sum 70÷4=17.5.",
+    "id": "M01-MA-026",
+    "k": 0,
     "p": "",
-    "q": "The park added signs to ____ visitors from feeding the wild animals.",
-    "sk": "sentence completion—purpose",
+    "q": "Mean of 11, 16, 18, 25?",
+    "sk": "mean",
     "w": "W1"
    },
    {
     "c": [
-     "repeat",
-     "describe",
-     "begin",
-     "ruin"
+     "11",
+     "9",
+     "15",
+     "12"
     ],
-    "d": "M",
-    "e": "The sentence emphasizes that one setback could not ruin a much longer study.",
-    "id": "M01-VR-033",
+    "d": "E",
+    "e": "Average middle values: (9+15)/2=12.",
+    "id": "M01-MA-027",
     "k": 3,
     "p": "",
-    "q": "A single cloudy night was not enough to ____ the astronomer's month-long study.",
-    "sk": "sentence completion—logical fit",
+    "q": "Median of 4, 7, 9, 15, 18, 22?",
+    "sk": "median",
     "w": "W1"
    },
    {
     "c": [
-     "repeat",
-     "address",
-     "announce",
-     "collect"
+     "1/3",
+     "5/12",
+     "1/2",
+     "2/3"
     ],
-    "d": "H",
-    "e": "To address a complaint is to deal with it; the contrast with dismiss confirms that meaning.",
-    "id": "M01-VR-034",
-    "k": 1,
+    "d": "E",
+    "e": "Factors 1,2,3,4,6,12: 6/12=1/2.",
+    "id": "M01-MA-028",
+    "k": 2,
     "p": "",
-    "q": "The mayor promised to ____ the complaint rather than dismiss it without investigation.",
-    "sk": "sentence completion—idiomatic precision",
+    "q": "A card numbered 1–12 is chosen. Probability of a factor of 12?",
+    "sk": "probability",
     "w": "W1"
    },
+   {
+    "c": [
+     "12",
+     "13",
+     "14",
+     "9"
+    ],
+    "d": "E",
+    "e": "51−37=14.",
+    "id": "M01-MA-029",
+    "k": 2,
+    "p": "",
+    "q": "Range of 42, 37, 51, 46, 39?",
+    "sk": "data range",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "(−4,−7)",
+     "(−4,7)",
+     "(−7,4)",
+     "(4,7)"
+    ],
+    "d": "M",
+    "e": "A y-axis reflection changes x sign only.",
+    "id": "M01-MA-030",
+    "k": 0,
+    "p": "",
+    "q": "Reflect (4,−7) across the y-axis.",
+    "sk": "coordinate reflection",
+    "w": "W1"
+   }
+  ],
+  "qr": [
    {
     "c": [
      "56",
@@ -1175,7 +1113,9 @@
     "q": "A rectangular field is 24 m by 15 m. A runner completes 2 1/2 laps around it. How far does the runner travel?",
     "sk": "spatial reasoning—path and perimeter",
     "w": "W1"
-   },
+   }
+  ],
+  "rc": [
    {
     "c": [
      "How farmers choose which mountain fields to sow",
@@ -1575,485 +1515,551 @@
     "q": "Which lesson is supported?",
     "sk": "theme",
     "w": "W1"
-   },
+   }
+  ],
+  "vr": [
    {
     "c": [
-     "9,215",
-     "9,205",
-     "9,225",
-     "9,105"
+     "very old",
+     "valuable",
+     "partly hidden",
+     "carefully built"
     ],
     "d": "E",
-    "e": "Place-value addition gives 9,215.",
-    "id": "M01-MA-001",
+    "e": "Ancient means belonging to the distant past or very old; age does not necessarily imply value.",
+    "id": "M01-VR-001",
     "k": 0,
     "p": "",
-    "q": "5,729 + 3,486 = ?",
-    "sk": "addition",
+    "q": "ANCIENT most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "4,562",
-     "3,672",
-     "3,562",
-     "4,438"
+     "uneven",
+     "quick",
+     "noisy",
+     "damp"
     ],
     "d": "E",
-    "e": "Regrouping across zeros gives 3,562.",
-    "id": "M01-MA-002",
+    "e": "Brisk means quick and energetic, as in a brisk walk; uneven, damp, and noisy describe other qualities, not speed.",
+    "id": "M01-VR-002",
+    "k": 1,
+    "p": "",
+    "q": "BRISK most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "protect",
+     "hide",
+     "carry",
+     "discover"
+    ],
+    "d": "E",
+    "e": "To conceal is to hide something from view or knowledge; protecting may involve concealment but is not equivalent.",
+    "id": "M01-VR-003",
+    "k": 1,
+    "p": "",
+    "q": "CONCEAL most nearly means:",
+    "sk": "synonym—verb precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "worried",
+     "weak",
+     "sleepy",
+     "lonely"
+    ],
+    "d": "E",
+    "e": "Drowsy means sleepy or ready to fall asleep; weakness is not required.",
+    "id": "M01-VR-004",
     "k": 2,
     "p": "",
-    "q": "10,000 − 6,438 = ?",
-    "sk": "subtraction",
+    "q": "DROWSY most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "1,204",
-     "1,134",
-     "1,034",
-     "1,144"
+     "distant",
+     "heavy",
+     "empty",
+     "huge"
     ],
     "d": "E",
-    "e": "63×(20−2)=1,260−126=1,134.",
-    "id": "M01-MA-003",
-    "k": 1,
-    "p": "",
-    "q": "63 × 18 = ?",
-    "sk": "multiplication",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "62",
-     "63",
-     "68",
-     "58"
-    ],
-    "d": "E",
-    "e": "32×63=2,016.",
-    "id": "M01-MA-004",
-    "k": 1,
-    "p": "",
-    "q": "2,016 ÷ 32 = ?",
-    "sk": "division",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "11/20",
-     "3/5",
-     "1",
-     "13/15"
-    ],
-    "d": "M",
-    "e": "2/5=6/15; sum=13/15.",
-    "id": "M01-MA-005",
+    "e": "Enormous means extremely large or huge; an enormous object need not be heavy.",
+    "id": "M01-VR-005",
     "k": 3,
     "p": "",
-    "q": "7/15 + 2/5 = ?",
-    "sk": "fraction addition",
+    "q": "ENORMOUS most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "8/20",
-     "13/24",
-     "2/4",
-     "7/12"
+     "lucky",
+     "prepared",
+     "wealthy",
+     "grateful"
     ],
     "d": "M",
-    "e": "22/24−9/24=13/24.",
-    "id": "M01-MA-006",
+    "e": "Fortunate means favored by good luck; wealth or preparation can help but are not the meaning.",
+    "id": "M01-VR-006",
+    "k": 0,
+    "p": "",
+    "q": "FORTUNATE most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "famous",
+     "patient",
+     "successful",
+     "giving"
+    ],
+    "d": "E",
+    "e": "A generous person willingly gives or shares; the other positive traits are not synonyms.",
+    "id": "M01-VR-007",
+    "k": 3,
+    "p": "",
+    "q": "GENEROUS most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "foolish",
+     "wild",
+     "strong",
+     "fearless"
+    ],
+    "d": "M",
+    "e": "Courageous means brave or fearless, willing to face danger; strength is physical, and wild and foolish describe poor judgment rather than courage.",
+    "id": "M01-VR-008",
+    "k": 3,
+    "p": "",
+    "q": "COURAGEOUS most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "complete",
+     "inactive",
+     "cheerful",
+     "balanced"
+    ],
+    "d": "E",
+    "e": "Idle means not active or not in use; the other choices describe unrelated conditions.",
+    "id": "M01-VR-009",
     "k": 1,
     "p": "",
-    "q": "11/12 − 3/8 = ?",
-    "sk": "fraction subtraction",
+    "q": "IDLE most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "5/6",
-     "1/3",
-     "1/6",
-     "12/29"
+     "truthful",
+     "faithful",
+     "brave",
+     "obedient"
+    ],
+    "d": "E",
+    "e": "Loyal means faithful and dependable in support; obedience may occur without loyalty.",
+    "id": "M01-VR-010",
+    "k": 1,
+    "p": "",
+    "q": "LOYAL most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "cloudy",
+     "cold",
+     "shallow",
+     "still"
     ],
     "d": "M",
-    "e": "Cancel 5/15 and 7/14 to get 1/6.",
-    "id": "M01-MA-007",
+    "e": "Murky water or an unclear idea is cloudy and difficult to see through; depth and temperature are unrelated.",
+    "id": "M01-VR-011",
+    "k": 0,
+    "p": "",
+    "q": "MURKY most nearly means:",
+    "sk": "synonym—adjective precision",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "dislike",
+     "misplace",
+     "ignore",
+     "damage"
+    ],
+    "d": "M",
+    "e": "To neglect is to fail to give proper care or attention, closest to ignore; damage may result but is not the action itself, and misplace concerns losing objects, not withholding attention.",
+    "id": "M01-VR-012",
     "k": 2,
     "p": "",
-    "q": "5/14 × 7/15 = ?",
-    "sk": "fraction multiplication",
+    "q": "NEGLECT most nearly means:",
+    "sk": "synonym—verb precision",
     "w": "W1"
    },
    {
     "c": [
-     "3 1/4",
-     "3",
-     "1 1/2",
-     "2"
-    ],
-    "d": "M",
-    "e": "9/4×4/3=3.",
-    "id": "M01-MA-008",
-    "k": 1,
-    "p": "",
-    "q": "2 1/4 ÷ 3/4 = ?",
-    "sk": "mixed-number division",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "12.544",
-     "12.444",
-     "13.544",
-     "12.534"
+     "unusual",
+     "important",
+     "clear",
+     "correct"
     ],
     "d": "E",
-    "e": "20.030−7.486=12.544.",
-    "id": "M01-MA-009",
-    "k": 0,
-    "p": "",
-    "q": "20.03 − 7.486 = ?",
-    "sk": "decimal subtraction",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "3.4",
-     "44",
-     "4.04",
-     "4.4"
-    ],
-    "d": "M",
-    "e": "275×16=4,400 with three decimal places =4.4.",
-    "id": "M01-MA-010",
-    "k": 3,
-    "p": "",
-    "q": "2.75 × 1.6 = ?",
-    "sk": "decimal multiplication",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "0.63",
-     "7.3",
-     "63",
-     "6.3"
-    ],
-    "d": "M",
-    "e": "157.5÷25=6.3.",
-    "id": "M01-MA-011",
-    "k": 3,
-    "p": "",
-    "q": "15.75 ÷ 2.5 = ?",
-    "sk": "decimal division",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "63",
-     "53",
-     "68",
-     "58"
-    ],
-    "d": "E",
-    "e": "0.18×350=63.",
-    "id": "M01-MA-012",
-    "k": 0,
-    "p": "",
-    "q": "18% of 350 = ?",
-    "sk": "percent",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "5",
-     "8",
-     "10",
-     "14"
-    ],
-    "d": "M",
-    "e": "3×2=6; 24÷6=4; 6+4=10.",
-    "id": "M01-MA-013",
+    "e": "Obvious means easy to see or understand, or clear; an obvious statement can still be unimportant or incorrect.",
+    "id": "M01-VR-013",
     "k": 2,
     "p": "",
-    "q": "6 + 24 ÷ (3×2) = ?",
-    "sk": "order of operations",
+    "q": "OBVIOUS most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "32",
-     "64",
-     "25",
-     "10"
+     "healthy",
+     "tolerant",
+     "slow",
+     "quiet"
     ],
     "d": "E",
-    "e": "2×2×2×2×2=32.",
-    "id": "M01-MA-014",
-    "k": 0,
-    "p": "",
-    "q": "2^5 = ?",
-    "sk": "exponents",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "9×10",
-     "2×3²×5",
-     "2×45",
-     "3×30"
-    ],
-    "d": "M",
-    "e": "90=2×3×3×5, all prime.",
-    "id": "M01-MA-015",
+    "e": "A patient person can wait or endure difficulty calmly, which is closest to tolerant.",
+    "id": "M01-VR-014",
     "k": 1,
     "p": "",
-    "q": "Which is the prime factorization of 90?",
-    "sk": "prime factorization",
+    "q": "PATIENT most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "13",
-     "11",
-     "12",
-     "17.5"
+     "silent",
+     "empty",
+     "secret",
+     "careful"
     ],
     "d": "M",
-    "e": "61−9=52; 52÷4=13.",
-    "id": "M01-MA-016",
+    "e": "Quiet most directly means making little or no sound, closest to silent.",
+    "id": "M01-VR-015",
     "k": 0,
     "p": "",
-    "q": "Solve 4x+9=61.",
-    "sk": "algebra equation",
+    "q": "QUIET most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "77",
-     "73",
-     "13",
-     "23"
+     "thin",
+     "elegant",
+     "pale",
+     "tall"
     ],
     "d": "M",
-    "e": "3×25−2=73.",
-    "id": "M01-MA-017",
-    "k": 1,
+    "e": "Slender means thin or slim in build; tall, elegant, and pale describe other qualities a slender thing need not have.",
+    "id": "M01-VR-016",
+    "k": 0,
     "p": "",
-    "q": "3b²−2 when b=5 equals:",
-    "sk": "expression evaluation",
+    "q": "SLENDER most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "8",
-     "5",
-     "6",
-     "4"
+     "injured",
+     "cautious",
+     "disappointed",
+     "tired"
     ],
-    "d": "M",
-    "e": "2(4)+3=11<13; others are not less.",
-    "id": "M01-MA-018",
+    "d": "E",
+    "e": "Weary means very tired; disappointment or injury may cause weariness but are not synonyms.",
+    "id": "M01-VR-017",
     "k": 3,
     "p": "",
-    "q": "Which value satisfies 2n+3<13?",
-    "sk": "inequality",
+    "q": "WEARY most nearly means:",
+    "sk": "synonym—adjective precision",
     "w": "W1"
    },
    {
     "c": [
-     "23",
-     "46",
-     "36",
-     "126"
+     "softly",
+     "firmly",
+     "rapidly",
+     "proudly"
     ],
     "d": "E",
-    "e": "2(14+9)=46 cm.",
-    "id": "M01-MA-019",
-    "k": 1,
+    "e": "Protecting nearby readers from interruption requires speaking softly; speed and pride do not control volume.",
+    "id": "M01-VR-018",
+    "k": 0,
     "p": "",
-    "q": "A rectangle is 14 cm by 9 cm. Its perimeter is:",
-    "sk": "rectangle perimeter",
+    "q": "The librarian spoke ____ so the students at nearby tables could continue reading.",
+    "sk": "sentence completion—cause and effect",
     "w": "W1"
    },
    {
     "c": [
-     "50",
-     "110",
-     "55",
-     "44"
+     "familiar",
+     "brief",
+     "complex",
+     "colorful"
+    ],
+    "d": "M",
+    "e": "But signals a contrast with simple, making complex the logical completion.",
+    "id": "M01-VR-019",
+    "k": 2,
+    "p": "",
+    "q": "The puzzle appeared simple, but its final step was surprisingly ____.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "purchased",
+     "repaired",
+     "heard",
+     "carried"
+    ],
+    "d": "E",
+    "e": "Portable means able to be carried or moved easily; the sentence provides a direct definition.",
+    "id": "M01-VR-020",
+    "k": 3,
+    "p": "",
+    "q": "A portable radio is one that can be easily ____ from place to place.",
+    "sk": "sentence completion—definition clue",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "fair",
+     "definite",
+     "lengthy",
+     "public"
+    ],
+    "d": "M",
+    "e": "Incomplete evidence prevents a definite, certain conclusion; the other adjectives do not express certainty.",
+    "id": "M01-VR-021",
+    "k": 1,
+    "p": "",
+    "q": "Since the evidence was incomplete, the judge refused to reach a ____ conclusion.",
+    "sk": "sentence completion—logical fit",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "thorough",
+     "curious",
+     "skillful",
+     "nervous"
+    ],
+    "d": "M",
+    "e": "Rechecking every measurement demonstrates thoroughness; nervousness is possible but not required by the evidence.",
+    "id": "M01-VR-022",
+    "k": 0,
+    "p": "",
+    "q": "Kai checked every measurement twice, showing that he was ____.",
+    "sk": "sentence completion—character inference",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "thunderous",
+     "brief",
+     "sudden",
+     "polite"
+    ],
+    "d": "E",
+    "e": "Being heard outside provides an intensity clue; thunderous means extremely loud.",
+    "id": "M01-VR-023",
+    "k": 0,
+    "p": "",
+    "q": "The audience's applause was so ____ that it could be heard outside the theater.",
+    "sk": "sentence completion—degree",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "predict",
+     "question",
+     "erase",
+     "summarize"
+    ],
+    "d": "M",
+    "e": "A chart can summarize and display collected results; prediction concerns results not yet collected.",
+    "id": "M01-VR-024",
+    "k": 3,
+    "p": "",
+    "q": "The class created a chart to ____ the results of its survey.",
+    "sk": "sentence completion—purpose",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "replace",
+     "relieve",
+     "measure",
+     "explain"
+    ],
+    "d": "M",
+    "e": "Relieve means reduce discomfort, fitting what medicine can do even without curing the illness.",
+    "id": "M01-VR-025",
+    "k": 1,
+    "p": "",
+    "q": "The medicine did not cure the cold, but it did ____ the soreness in Mina's throat.",
+    "sk": "sentence completion—context contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "doubtful",
+     "private",
+     "detailed",
+     "dramatic"
+    ],
+    "d": "M",
+    "e": "Listing time, place, and exact words is evidence of a detailed account.",
+    "id": "M01-VR-026",
+    "k": 2,
+    "p": "",
+    "q": "The witness gave a ____ account, including the time, place, and exact words spoken.",
+    "sk": "sentence completion—precise adjective",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "thirsty",
+     "lost",
+     "hungry",
+     "muddy"
+    ],
+    "d": "E",
+    "e": "A long hike explains why the campers were hungry enough to eat every sandwich; muddy, lost, and thirsty do not explain the eating.",
+    "id": "M01-VR-027",
+    "k": 2,
+    "p": "",
+    "q": "After the long morning hike, the campers were so ____ that they ate every sandwich in the basket.",
+    "sk": "sentence completion—cause and effect",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "revise",
+     "fold",
+     "announce",
+     "recite"
+    ],
+    "d": "M",
+    "e": "An editor logically asks for revisions before publication; the other actions do not improve the article.",
+    "id": "M01-VR-028",
+    "k": 0,
+    "p": "",
+    "q": "The editor asked Rosa to ____ the article before it was printed.",
+    "sk": "sentence completion—sequence logic",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "careless",
+     "stern",
+     "mature",
+     "boastful"
     ],
     "d": "H",
-    "e": "1/2(8+14)5=55 cm².",
-    "id": "M01-MA-020",
+    "e": "Accepting correction and thanking the coach shows a mature reply; boastful and stern clash with the thanks, and careless does not describe a considered response.",
+    "id": "M01-VR-029",
     "k": 2,
     "p": "",
-    "q": "Bases are 8 cm and 14 cm; height is 5 cm. Area?",
-    "sk": "trapezoid area",
+    "q": "Although the coach pointed out every mistake, Ellis gave a ____ reply and thanked her for the advice.",
+    "sk": "sentence completion—tone",
     "w": "W1"
    },
    {
     "c": [
-     "51 m²",
-     "21 m²",
-     "98 m²",
-     "36 m²"
+     "nearby",
+     "direct",
+     "equivalent",
+     "crowded"
     ],
     "d": "M",
-    "e": "Add the two rectangle areas: 9 × 4 = 36 and 5 × 3 = 15, so 36 + 15 = 51 m². A adds the four dimensions instead of multiplying, B counts only the first rectangle, and C multiplies the combined lengths by the combined widths (14 × 7 = 98).",
-    "id": "M01-MA-021",
-    "k": 0,
+    "e": "Equal travel times make the routes equivalent for this comparison; directness or distance is not established.",
+    "id": "M01-VR-030",
+    "k": 2,
     "p": "",
-    "q": "An L-shaped hallway floor is made of two rectangles: one is 9 m by 4 m and the other is 5 m by 3 m. What is the total area of the floor?",
-    "sk": "composite rectangle area",
+    "q": "The two routes are ____; each takes exactly forty minutes.",
+    "sk": "sentence completion—context definition",
     "w": "W1"
    },
    {
     "c": [
-     "96",
-     "144",
-     "192",
-     "48"
+     "louder",
+     "amusing",
+     "confident",
+     "concise"
     ],
-    "d": "E",
-    "e": "12×4×3=144 cubic units.",
-    "id": "M01-MA-022",
+    "d": "M",
+    "e": "While signals contrast; concise means brief and focused, opposing wandering.",
+    "id": "M01-VR-031",
+    "k": 3,
+    "p": "",
+    "q": "While the first speaker wandered from topic to topic, the second was ____.",
+    "sk": "sentence completion—contrast",
+    "w": "W1"
+   },
+   {
+    "c": [
+     "remind",
+     "discourage",
+     "permit",
+     "protect"
+    ],
+    "d": "M",
+    "e": "Signs can discourage, or persuade people not to do, the prohibited action.",
+    "id": "M01-VR-032",
     "k": 1,
     "p": "",
-    "q": "Volume of a 12×4×3 prism?",
-    "sk": "prism volume",
+    "q": "The park added signs to ____ visitors from feeding the wild animals.",
+    "sk": "sentence completion—purpose",
     "w": "W1"
    },
    {
     "c": [
-     "53°",
-     "153°",
-     "73°",
-     "63°"
-    ],
-    "d": "E",
-    "e": "Complementary angles total 90°, and 90−27=63°; C subtracts from 100, D subtracts from 180, and A slips by ten.",
-    "id": "M01-MA-023",
-    "k": 3,
-    "p": "",
-    "q": "Two angles are complementary. One angle measures 27°. What is the measure of the other angle?",
-    "sk": "complementary angles",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "360",
-     "36,000",
-     "3,600",
-     "36"
+     "repeat",
+     "describe",
+     "begin",
+     "ruin"
     ],
     "d": "M",
-    "e": "Multiply kilograms by 1,000.",
-    "id": "M01-MA-024",
-    "k": 2,
-    "p": "",
-    "q": "3.6 kilograms equals how many grams?",
-    "sk": "unit conversion—mass",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "42 ft",
-     "28 ft",
-     "12 ft",
-     "35 ft"
-    ],
-    "d": "M",
-    "e": "5×7=35 feet.",
-    "id": "M01-MA-025",
+    "e": "The sentence emphasizes that one setback could not ruin a much longer study.",
+    "id": "M01-VR-033",
     "k": 3,
     "p": "",
-    "q": "Scale 1 inch=7 feet. A 5-inch wall represents:",
-    "sk": "scale drawing",
+    "q": "A single cloudy night was not enough to ____ the astronomer's month-long study.",
+    "sk": "sentence completion—logical fit",
     "w": "W1"
    },
    {
     "c": [
-     "17.5",
-     "70",
-     "20",
-     "18"
+     "repeat",
+     "address",
+     "announce",
+     "collect"
     ],
-    "d": "E",
-    "e": "Sum 70÷4=17.5.",
-    "id": "M01-MA-026",
-    "k": 0,
+    "d": "H",
+    "e": "To address a complaint is to deal with it; the contrast with dismiss confirms that meaning.",
+    "id": "M01-VR-034",
+    "k": 1,
     "p": "",
-    "q": "Mean of 11, 16, 18, 25?",
-    "sk": "mean",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "11",
-     "9",
-     "15",
-     "12"
-    ],
-    "d": "E",
-    "e": "Average middle values: (9+15)/2=12.",
-    "id": "M01-MA-027",
-    "k": 3,
-    "p": "",
-    "q": "Median of 4, 7, 9, 15, 18, 22?",
-    "sk": "median",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "1/3",
-     "5/12",
-     "1/2",
-     "2/3"
-    ],
-    "d": "E",
-    "e": "Factors 1,2,3,4,6,12: 6/12=1/2.",
-    "id": "M01-MA-028",
-    "k": 2,
-    "p": "",
-    "q": "A card numbered 1–12 is chosen. Probability of a factor of 12?",
-    "sk": "probability",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "12",
-     "13",
-     "14",
-     "9"
-    ],
-    "d": "E",
-    "e": "51−37=14.",
-    "id": "M01-MA-029",
-    "k": 2,
-    "p": "",
-    "q": "Range of 42, 37, 51, 46, 39?",
-    "sk": "data range",
-    "w": "W1"
-   },
-   {
-    "c": [
-     "(−4,−7)",
-     "(−4,7)",
-     "(−7,4)",
-     "(4,7)"
-    ],
-    "d": "M",
-    "e": "A y-axis reflection changes x sign only.",
-    "id": "M01-MA-030",
-    "k": 0,
-    "p": "",
-    "q": "Reflect (4,−7) across the y-axis.",
-    "sk": "coordinate reflection",
+    "q": "The mayor promised to ____ the complaint rather than dismiss it without investigation.",
+    "sk": "sentence completion—idiomatic precision",
     "w": "W1"
    }
   ]

@@ -176,6 +176,7 @@ async function fakeGoogle(ctx, drive) {
   check('opening Learning fetches only the index', fetched.join(',') === 'index.json', fetched.join(','));
   check('the subjects are listed', (await pg.$$('[data-testid=subject-list] li')).length === 4);
 
+  check('the three ways to practise are offered', (await pg.$$('[data-testid=learning-tabs] button')).length === 3);
   await pg.click('[data-testid=subject-vr]');
   await pg.waitForSelector('[data-testid=practice]');
   check('choosing a subject fetches that subject and nothing else',
@@ -199,10 +200,56 @@ async function fakeGoogle(ctx, drive) {
   await pg.click('[data-testid=practice-again]');
   await pg.waitForSelector('[data-testid=practice]');
   check('another ten needs no second fetch', fetched.filter((f) => f === 'subject-vr.json').length === 1);
-  // a reload, not a goto: the URL is unchanged, so goto would not navigate
-  await pg.reload({ waitUntil: 'networkidle' });
+  await pg.click('[data-testid=practice-stop]');
   await pg.waitForSelector('[data-testid=session-list]');
-  check('the finished session is listed', (await pg.$$('[data-testid=session-list] li')).length === 1);
+  check('a set can be abandoned, and is not recorded', (await pg.$$('[data-testid=session-list] li')).length === 1);
+
+  /* ---- a mock exam section, from the same runner ---- */
+  await pg.click('[data-testid=tab-mock]');
+  await pg.waitForSelector('[data-testid=mock-list]');
+  check('four mock exams are listed', (await pg.$$('[data-testid=mock-list] > li')).length === 4);
+  await pg.click('[data-testid=mock-M01]');
+  await pg.waitForSelector('[data-testid=mock-sections]');
+  check('a mock is split into its four subject sections', (await pg.$$('[data-testid=mock-sections] li')).length === 4);
+  await pg.click('[data-testid=mock-start-vr]');
+  await pg.waitForSelector('[data-testid=practice]');
+  check('starting a section fetches that mock and nothing more',
+    fetched.join(',') === 'index.json,subject-vr.json,mock-M01.json', fetched.join(','));
+  for (let i = 0; i < 10; i++) {
+    await pg.click('[data-testid=choice] >> nth=0');
+    await pg.waitForSelector('[data-testid=marking]');
+    await pg.click('[data-testid=practice-next]');
+  }
+  await pg.waitForSelector('[data-testid=result]');
+  await pg.click('[data-testid=practice-done]');
+  await pg.waitForSelector('[data-testid=mock-sections]');
+  check('the section now shows its score instead of its length',
+    /\d+ \/ 10/.test(await pg.textContent('[data-testid=mock-sections]')));
+
+  /* ---- a week of words, asked as questions ---- */
+  await pg.click('[data-testid=tab-words]');
+  await pg.waitForSelector('[data-testid=word-list]');
+  check('eight weeks of words are listed', (await pg.$$('[data-testid=word-list] > li')).length === 8);
+  await pg.click('[data-testid=words-W1]');
+  await pg.waitForSelector('[data-testid=practice]');
+  check('the words file is fetched only now',
+    fetched.join(',') === 'index.json,subject-vr.json,mock-M01.json,precision.json', fetched.join(','));
+  check('a word is asked with four meanings to choose from', (await pg.$$('[data-testid=choice]')).length === 4);
+  // the answer must not always be the first choice, or a child learns to pick A
+  const keys = [];
+  for (let i = 0; i < 10; i++) {
+    await pg.click('[data-testid=choice] >> nth=0');
+    await pg.waitForSelector('[data-testid=marking]');
+    keys.push(/That's right/.test(await pg.textContent('[data-testid=marking]')));
+    await pg.click('[data-testid=practice-next]');
+  }
+  check('the right meaning is not always the first choice', keys.some((k) => !k), keys.filter(Boolean).length + '/10 by picking A');
+  await pg.waitForSelector('[data-testid=result]');
+  await pg.click('[data-testid=practice-done]');
+
+  await pg.waitForSelector('[data-testid=session-list]');
+  check('practice, a mock section and a word set are all in the history',
+    (await pg.$$('[data-testid=session-list] li')).length === 3);
 
   await pg.waitForFunction(() => {
     const el = document.querySelector('[data-testid=session-status]');
@@ -211,8 +258,11 @@ async function fakeGoogle(ctx, drive) {
   const learningFile = [...drive.files.entries()].find(([, f]) => f.appProperties && f.appProperties.module === 'learning' && !f.appProperties.kind);
   check('Learning saved a file of its own', Boolean(learningFile));
   const learned = JSON.parse(learningFile[1].body);
-  check('ten answers were recorded', Object.keys(learned.results).length === 10, String(Object.keys(learned.results).length));
-  check('and one session', learned.sessions.length === 1);
+  check('every answer was recorded', Object.keys(learned.results).length === 30, String(Object.keys(learned.results).length));
+  check('and one session per finished set', learned.sessions.length === 3, String(learned.sessions.length));
+  check('each kind of session is distinguished',
+    [...new Set(learned.sessions.map((r) => r.kind))].sort().join(',') === 'mock,practice,words',
+    learned.sessions.map((r) => r.kind).join(','));
 
   /* ---- Service: a place, a commitment, and hours against it ---- */
   await pg.click('[data-testid=module-link-service]');

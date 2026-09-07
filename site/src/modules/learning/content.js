@@ -33,6 +33,16 @@ export function loadTopic(file) {
 
 export const subjects = () => (L.index ? L.index.subjects : [])
 export const subject = (id) => subjects().find((s) => s.id === id) || null
+export const mocks = () => (L.index ? L.index.mocks : [])
+export const mock = (id) => mocks().find((m) => m.id === id) || null
+export const wordSets = () => (L.index ? L.index.precision : [])
+
+/** The four sections of a mock are the four subjects; give them the names the
+ *  subject list already uses rather than a bare code. */
+export function sectionLabel(id) {
+  const s = subject(id)
+  return s ? s.label : String(id).toUpperCase()
+}
 
 /** `k` is already the index of the right choice: make_learning.py resolves the
  *  source's A-D letters once, at build time, so no screen has to. */

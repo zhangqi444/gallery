@@ -616,7 +616,8 @@
  },
  "essay": {
   "file": "essay.json",
-  "prompts": 0
+  "prompts": 12,
+  "weeks": 8
  },
  "mocks": [
   {
@@ -625,7 +626,22 @@
    "id": "DGN",
    "label": "Mock exam DGN",
    "sections": [
-    "all"
+    {
+     "count": 30,
+     "id": "ma"
+    },
+    {
+     "count": 38,
+     "id": "qr"
+    },
+    {
+     "count": 25,
+     "id": "rc"
+    },
+    {
+     "count": 34,
+     "id": "vr"
+    }
    ]
   },
   {
@@ -634,7 +650,22 @@
    "id": "M01",
    "label": "Mock exam M01",
    "sections": [
-    "all"
+    {
+     "count": 30,
+     "id": "ma"
+    },
+    {
+     "count": 38,
+     "id": "qr"
+    },
+    {
+     "count": 25,
+     "id": "rc"
+    },
+    {
+     "count": 34,
+     "id": "vr"
+    }
    ]
   },
   {
@@ -643,7 +674,22 @@
    "id": "M02",
    "label": "Mock exam M02",
    "sections": [
-    "all"
+    {
+     "count": 30,
+     "id": "ma"
+    },
+    {
+     "count": 38,
+     "id": "qr"
+    },
+    {
+     "count": 25,
+     "id": "rc"
+    },
+    {
+     "count": 34,
+     "id": "vr"
+    }
    ]
   },
   {
@@ -652,42 +698,73 @@
    "id": "M03",
    "label": "Mock exam M03",
    "sections": [
-    "all"
+    {
+     "count": 30,
+     "id": "ma"
+    },
+    {
+     "count": 38,
+     "id": "qr"
+    },
+    {
+     "count": 25,
+     "id": "rc"
+    },
+    {
+     "count": 34,
+     "id": "vr"
+    }
    ]
   }
  ],
  "precision": [
   {
    "count": 20,
-   "id": "W1"
+   "id": "W1",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — PRECISION REVIEW • 20–25 min"
   },
   {
    "count": 20,
-   "id": "W2"
+   "id": "W2",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — PRECISION REVIEW • 20–25 min"
   },
   {
    "count": 20,
-   "id": "W3"
+   "id": "W3",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — PRECISION REVIEW • 20–25 min"
   },
   {
    "count": 20,
-   "id": "W4"
+   "id": "W4",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — REVIEW POOL + PRECISION • 20–25 min"
   },
   {
    "count": 20,
-   "id": "W5"
+   "id": "W5",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — PRECISION REVIEW • 20–25 min"
   },
   {
    "count": 20,
-   "id": "W6"
+   "id": "W6",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — PRECISION REVIEW • 20–25 min"
   },
   {
    "count": 20,
-   "id": "W7"
+   "id": "W7",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — PRECISION REVIEW • 20–25 min"
   },
   {
    "count": 20,
-   "id": "W8"
+   "id": "W8",
+   "minutes": "20–25 min",
+   "title": "SESSION 1 — CUMULATIVE PRECISION • 20–25 min"
   }
  ],
  "schema": 1,

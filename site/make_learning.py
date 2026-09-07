@@ -117,9 +117,12 @@ def main():
         form = str(it.get("form") or it.get("mock") or "1")
         by_form.setdefault(form, []).append(it)
     for form in sorted(by_form):
+        # A mock is sat one section at a time, and its sections are the four
+        # subjects, so they are split here rather than presented as 127
+        # undifferentiated questions.
         sections = {}
         for it in by_form[form]:
-            sections.setdefault(str(it.get("section") or "all"), []).append(question(it))
+            sections.setdefault(str(it.get("subject") or "all").lower(), []).append(question(it))
         used = {}
         for secs in sections.values():
             for q in secs:
@@ -130,25 +133,27 @@ def main():
         written.append((f"mock-{form}.json", size))
         index["mocks"].append({
             "id": form, "label": f"Mock exam {form}", "count": total,
-            "sections": sorted(sections), "file": f"mock-{form}.json",
+            "sections": [{"id": k, "count": len(v)} for k, v in sorted(sections.items())],
+            "file": f"mock-{form}.json",
         })
 
     # ---- vocabulary and the essay programme ----
     precision = read("precision.json")
     size = write("precision.json", precision)
     written.append(("precision.json", size))
-    sets = precision.get("sets", precision) if isinstance(precision, dict) else {}
-    for key in sorted(sets) if isinstance(sets, dict) else []:
-        entry = sets[key]
+    for key in sorted(precision) if isinstance(precision, dict) else []:
+        entry = precision[key] or {}
         index["precision"].append({
             "id": key,
-            "count": len(entry) if isinstance(entry, list) else len(entry.get("words", [])) if isinstance(entry, dict) else 0,
+            "title": entry.get("title", key),
+            "minutes": entry.get("minutes", 0),
+            "count": len(entry.get("words", [])),
         })
 
     essay = read("essay.json")
     size = write("essay.json", essay)
     written.append(("essay.json", size))
-    index["essay"] = {"file": "essay.json", "prompts": len(essay.get("prompts", [])) if isinstance(essay, dict) else 0}
+    index["essay"] = {"file": "essay.json", "weeks": len(essay.get("weeks", [])), "prompts": len(essay.get("bank", []))}
 
     # ---- small things worth having in the index itself ----
     for name in ("books", "calendar", "aops"):

@@ -18,9 +18,9 @@ Object.assign(LearningStore, {
     this.commit()
   },
   /** One finished practice session, kept as a row so progress has a history. */
-  finishSession({ subject, asked, right }) {
+  finishSession({ subject, asked, right, kind = "practice", label = "" }) {
     if (!(asked > 0)) return null
-    const row = { id: uid(), subject, date: todayISO(), asked, right, at: nowISO() }
+    const row = { id: uid(), kind, subject, label, date: todayISO(), asked, right, at: nowISO() }
     this.s.sessions.unshift(row)
     this.commit()
     return row

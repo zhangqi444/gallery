@@ -40,7 +40,11 @@ export function normalize(raw) {
     .filter((s) => s && typeof s === "object")
     .map((s) => ({
       id: str(s.id || uid()),
+      // "practice" for a subject set, "mock" for a mock exam section, "words"
+      // for a vocabulary set. Older rows have no kind and are practice.
+      kind: ["practice", "mock", "words"].includes(str(s.kind)) ? str(s.kind) : "practice",
       subject: str(s.subject),
+      label: str(s.label),
       date: /^\d{4}-\d{2}-\d{2}$/.test(str(s.date)) ? str(s.date) : todayISO(),
       asked: Math.max(0, Number(s.asked) || 0),
       right: Math.max(0, Number(s.right) || 0),
@@ -97,6 +101,16 @@ export function subjectProgress(s, subjectId, total) {
 }
 
 export function recentSessions(s, n = 5) { return s.sessions.slice(0, n) }
+
+/** Every mock section already sat, so a part-finished exam can be resumed
+ *  rather than restarted. Keyed "<mockId>:<section>". */
+export function mockDone(s) {
+  const done = {}
+  for (const r of s.sessions) {
+    if (r.kind === "mock" && r.subject.includes(":") && !done[r.subject]) done[r.subject] = r
+  }
+  return done
+}
 
 export function streakDays(s, today = todayISO()) {
   const days = new Set(s.sessions.map((x) => x.date))
