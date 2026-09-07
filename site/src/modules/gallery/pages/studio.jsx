@@ -4,7 +4,7 @@
  * handled signing in. It only does the two things a blog needs: keep the posts,
  * and share them when — and only when — the child asks. */
 import { useRef, useState } from "react"
-import { CheckIcon, ImageIcon, LinkIcon, PlusIcon, Trash2Icon } from "lucide-react"
+import { CheckIcon, ImageIcon, LinkIcon, LockIcon, PlusIcon, Trash2Icon } from "lucide-react"
 
 import { useSession } from "@/lib/session"
 import { imageUrl } from "@/lib/google"
@@ -103,6 +103,12 @@ export function Studio() {
                 <LinkIcon /> {copied ? "Copied" : "Copy link"}
               </Button>
             </div>
+            {/* Putting something on the internet is only a decision if it can be
+                undone; the link stops working and the pictures go private too. */}
+            <Button variant="ghost" size="sm" className="mt-2 text-muted-foreground" data-testid="studio-unpublish"
+              onClick={() => store.unpublish().catch((e) => setError(e.message))}>
+              <LockIcon /> Make them private again
+            </Button>
           </>
         ) : (
           <>

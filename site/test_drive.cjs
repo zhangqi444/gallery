@@ -136,6 +136,18 @@ async function fakeGoogle(ctx, drive) {
       if (f && p.role === 'reader' && p.type === 'anyone') f.shared = true;
       return json({ id: 'perm1' });
     }
+    if (perm && m === 'GET') {
+      const f = drive.files.get(perm[1]);
+      const owner = { id: 'owner-1', type: 'user', role: 'owner' };
+      return json({ permissions: f && f.shared ? [owner, { id: 'anyone', type: 'anyone', role: 'reader' }] : [owner] });
+    }
+    if (perm && m === 'DELETE') {
+      const f = drive.files.get(perm[1]);
+      // only the anyone permission can be withdrawn; the owner's stays
+      if (!/\/permissions\/anyone$/.test(url.replace(/\?.*/, ''))) return json({ error: { message: 'not found' } }, 404);
+      if (f) f.shared = false;
+      return r.fulfill({ status: 204, body: '' });
+    }
     const del = /\/drive\/v3\/files\/([^/?]+)$/.exec(url.replace(/\?.*/, ''));
     if (del && m === 'DELETE') { drive.files.delete(del[1]); return r.fulfill({ status: 204, body: '' }); }
     return json({ error: { message: 'unhandled ' + m + ' ' + url } }, 404);
@@ -411,8 +423,9 @@ async function fakeGoogle(ctx, drive) {
   await pg.waitForFunction(() => !document.querySelector('[data-testid=studio]').textContent.includes('Uploading'));
   check('the picture was uploaded to Drive as its own file',
     [...drive.files.values()].some((f) => f.appProperties && f.appProperties.kind === 'image'));
-  check('the picture is shared, so a reader can load it',
-    [...drive.files.values()].filter((f) => f.appProperties && f.appProperties.kind === 'image').every((f) => f.shared));
+  const pictures = () => [...drive.files.values()].filter((f) => f.appProperties && f.appProperties.kind === 'image');
+  check('the picture is NOT shared while the blog is private',
+    pictures().every((f) => !f.shared));
 
   // the data file is saved but still private
   await pg.waitForFunction(() => {
@@ -440,6 +453,18 @@ async function fakeGoogle(ctx, drive) {
   await pg.click('[data-testid=studio-publish-button]');
   await pg.waitForSelector('[data-testid=studio-link]');
   check('publishing shared the blog file', dataFile()[1].shared === true);
+  check('and the pictures with it, so the post is not full of holes',
+    pictures().length > 0 && pictures().every((f) => f.shared));
+  // a picture added to a blog that is already published has to be shared as it
+  // arrives, or the post it lands in shows a hole
+  await pg.setInputFiles('[data-testid=studio-file]', {
+    name: 'cat2.png', mimeType: 'image/png',
+    buffer: Buffer.from('89504e470d0a1a0a0000000d49484452', 'hex'),
+  });
+  await pg.waitForFunction(() => !document.querySelector('[data-testid=studio]').textContent.includes('Uploading'));
+  check('a picture added afterwards is shared as it arrives',
+    pictures().length === 1 && pictures().every((f) => f.shared), String(pictures().length));
+
   const link = await pg.inputValue('[data-testid=studio-link]');
   check('the link carries the blog id', link.includes('#/b/' + blogId), link);
 
@@ -468,6 +493,18 @@ async function fakeGoogle(ctx, drive) {
     (await pg.evaluate(() => window.__gisCalls.filter((p) => p === 'consent').length)) === 1);
   // the title lives in an <input>, whose value textContent never reports
   check('the post survived the reload', (await pg.inputValue('[data-testid=studio-title]')) === 'My blue cat');
+
+  /* ---- and can be taken back off the internet ---- */
+  await pg.click('[data-testid=studio-unpublish]');
+  await pg.waitForSelector('[data-testid=studio-publish-button]');
+  check('unpublishing withdrew the blog file', dataFile()[1].shared === false);
+  check('and every picture it pointed at', pictures().every((f) => !f.shared));
+  sp = await strangerCtx.newPage();
+  await sp.goto(base + '#/b/' + blogId, { waitUntil: 'networkidle' });
+  await sp.waitForSelector('[data-testid=hero]');
+  check('the stranger can no longer read it',
+    !(await sp.textContent('body')).includes('My blue cat'));
+  await sp.close();
 
   // deleting a post takes its picture with it
   const imageIds = () => [...drive.files.entries()].filter(([, f]) => f.appProperties && f.appProperties.kind === 'image').map(([id]) => id);

@@ -94,13 +94,27 @@ Object.assign(GalleryStore, {
     }
   },
 
-  /** Share the blog's file, so anyone with its link can read it. */
+  /** Share the blog's file and every picture in it, so a published post is not
+   *  full of holes. The pictures are shared here rather than as they are
+   *  uploaded, so that a blog nobody has published has nothing readable in it. */
   async publish() {
     await this.flush()
     const f = await Drive.publish("gallery")
+    for (const id of this.imageIds()) await Drive.makePublic(id)
     this.commit()
     return f
   },
+
+  /** Take it all back: the blog's file first, so the link stops working even if
+   *  a picture refuses, then every picture it pointed at. */
+  async unpublish() {
+    const f = await Drive.unpublish("gallery")
+    for (const id of this.imageIds()) await Drive.makePrivate(id)
+    this.commit()
+    return f
+  },
+
+  imageIds() { return this.s.posts.map((p) => p.imageId).filter(Boolean) },
   isPublished() { const f = Drive.getFile("gallery"); return !!(f && f.shared) },
   blogId() { const f = Drive.getFile("gallery"); return f ? f.id : "" },
   fileLink() { const f = Drive.getFile("gallery"); return f ? f.webViewLink : "" },

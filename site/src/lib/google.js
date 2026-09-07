@@ -13,6 +13,8 @@
  *    blog. `publish()` grants `{role: reader, type: anyone}` on one file, and
  *    `readPublic()` reads such a file with a browser API key and no sign-in, so
  *    a stranger looking at a child's drawings never sees a consent screen.
+ *    `unpublish()` takes that permission away again, because a child who can
+ *    put something on the internet must be able to take it off.
  *
  * `drive.file` also means this app can never see a file it did not create,
  * including the files written by the older isee and volunteer apps: those use
@@ -268,6 +270,20 @@ export async function makePublic(fileId) {
   return true
 }
 
+/** Take "anyone with the link" away again. The permission is found rather than
+ *  assumed: Drive names it `anyone`, but deleting a permission that is not there
+ *  is a 404, and a file nobody shared is already in the state being asked for. */
+export async function makePrivate(fileId) {
+  const res = await api(`${FILES}/${encodeURIComponent(fileId)}/permissions?fields=permissions(id,type)`)
+  const list = (await res.json()).permissions || []
+  for (const p of list) {
+    if (p.type !== "anyone") continue
+    try { await api(`${FILES}/${encodeURIComponent(fileId)}/permissions/${encodeURIComponent(p.id)}`, { method: "DELETE" }) }
+    catch (e) { if (e.status !== 404) throw e }
+  }
+  return true
+}
+
 /** Share one module's file, so anyone holding its id can read that module. */
 export async function publish(module) {
   const f = files[module]
@@ -278,7 +294,23 @@ export async function publish(module) {
   return files[module]
 }
 
-/** Upload one picture into the folder and share it; returns its Drive file id. */
+/** Stop sharing one module's file. Anything else the module shared — Gallery's
+ *  pictures — is the module's own to withdraw, since only it knows what it has. */
+export async function unpublish(module) {
+  const f = files[module]
+  if (!f || !f.id) throw new Error("There is nothing published.")
+  await makePrivate(f.id)
+  files[module] = { ...f, shared: false }
+  persistSession()
+  return files[module]
+}
+
+/** Upload one picture into the folder; returns its Drive file id.
+ *
+ *  It is shared only if the module it belongs to is already published. A
+ *  picture uploaded to a private blog stays private until the child presses
+ *  Publish, which is what "nothing is public until she publishes" has to mean
+ *  to be worth saying — a Drive file id in a URL is a link like any other. */
 export async function uploadImage(blob, name, module = "gallery") {
   const parent = await ensureFolder(module)
   const meta = {
@@ -287,7 +319,7 @@ export async function uploadImage(blob, name, module = "gallery") {
     description: "A picture on the blog.",
   }
   const j = await (await multipartUpload(meta, blob.type || "image/jpeg", blob)).json()
-  await makePublic(j.id)
+  if (files[module] && files[module].shared) await makePublic(j.id)
   return j.id
 }
 

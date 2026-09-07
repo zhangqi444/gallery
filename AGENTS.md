@@ -121,11 +121,14 @@ docs/                      the-little-me.md (the hub app: shape, storage, order 
 The only account system is Google's, and the only storage is the author's own
 Drive: `drive.file` scope, so the app can never see a file it did not create.
 
-**Nothing is public until the author publishes.** A new blog's file is private.
-`Store.publish()` grants `{role: reader, type: anyone}` on it, and pictures are
-shared as they are uploaded so a published post is not full of holes. Putting a
-child's pictures on the internet must be a deliberate act, and `test_drive.cjs`
-holds the line: it checks that an unpublished blog is unreadable by a stranger.
+**Nothing is public until the author publishes.** A new blog's file is private,
+and so is every picture uploaded into it. `Store.publish()` grants `{role:
+reader, type: anyone}` on the blog's file and on each picture it points at, so a
+published post is not full of holes; a picture added while published is shared as
+it arrives. `Store.unpublish()` takes all of that back — putting a child's
+pictures on the internet must be a deliberate act, and so must be undoable.
+`test_drive.cjs` holds both lines: a stranger cannot read an unpublished blog,
+cannot load a picture in one, and cannot read it again once it is withdrawn.
 
 ## Content
 
