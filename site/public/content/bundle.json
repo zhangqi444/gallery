@@ -3001,6 +3001,10 @@
           "to": "/"
         },
         {
+          "label": "All pictures",
+          "to": "/gallery"
+        },
+        {
           "label": "About",
           "to": "/about"
         }
@@ -3015,10 +3019,6 @@
       {
         "label": "Home",
         "to": "/"
-      },
-      {
-        "label": "Gallery",
-        "to": "/gallery"
       },
       {
         "label": "About",

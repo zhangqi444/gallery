@@ -18,26 +18,26 @@ export function Post({ slug }) {
   const more = related(post)
   return (
     <article data-testid="post" className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
-      <header className="mx-auto max-w-3xl">
-        {post.tags.length > 0 && (
-          <div className="flex flex-wrap gap-3 text-sm font-semibold uppercase tracking-wide text-primary">
-            {post.tags.map((t) => <a key={t} href={href("/tag/" + t)} className="hover:underline">{t}</a>)}
-          </div>
-        )}
-        <h1 className="mt-3 text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl" data-testid="post-title">{titleOf(post)}</h1>
-        {post.excerpt && <p className="mt-4 text-lg text-muted-foreground sm:text-xl">{post.excerpt}</p>}
-        <PostMeta post={post} className="mt-6 text-sm" />
-        {post.updated !== post.date && <p className="mt-1 text-xs text-muted-foreground">Updated {fmtDate(post.updated)}</p>}
-      </header>
       {post.image && (
-        <figure className="mx-auto mt-10 max-w-4xl">
+        <figure className="mx-auto max-w-4xl">
           <img src={post.image} alt={post.imageAlt || titleOf(post)} data-testid="post-image"
-            className="max-h-[80vh] w-full rounded-xl object-contain" />
+            className="max-h-[82vh] w-full rounded-xl object-contain" />
           {post.caption && (
             <figcaption className="mt-3 text-center text-sm text-muted-foreground">{post.caption}</figcaption>
           )}
         </figure>
       )}
+      <header className="mx-auto mt-8 max-w-3xl">
+        {post.tags.length > 0 && (
+          <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-wide text-primary">
+            {post.tags.map((t) => <a key={t} href={href("/tag/" + t)} className="hover:underline">{t}</a>)}
+          </div>
+        )}
+        <h1 className="mt-2 text-2xl font-bold leading-tight tracking-tight sm:text-3xl" data-testid="post-title">{titleOf(post)}</h1>
+        {post.excerpt && <p className="mt-3 text-base text-muted-foreground">{post.excerpt}</p>}
+        <PostMeta post={post} className="mt-4" />
+        {post.updated !== post.date && <p className="mt-1 text-xs text-muted-foreground">Updated {fmtDate(post.updated)}</p>}
+      </header>
       {post.body.trim() && (
         <div className="mx-auto mt-10 max-w-3xl">
           <Markdown body={post.body} />

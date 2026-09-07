@@ -1,5 +1,7 @@
-/* A post in a list. `large` is the lead card on the home page: image beside the
-   text on wide screens, stacked on phones. */
+/* A post in a list. These posts are pictures, so the picture is the card: it is
+   the only thing with a frame, and the title sits quietly underneath at reading
+   size rather than shouting over it. `large` is the lead card on the front page,
+   which gets a wider crop and the author's byline. */
 import { C } from "@/lib/content"
 import { fmtDate, initials, isUntitled, readTime, titleOf } from "@/lib/format"
 import { href } from "@/lib/router"
@@ -23,10 +25,10 @@ export function PostMeta({ post, className, byline = true }) {
           <span aria-hidden="true">·</span>
         </>
       )}
-      {!(isUntitled(post) && !byline) && <time dateTime={post.date}>{fmtDate(post.date)}</time>}
+      <time dateTime={post.date}>{fmtDate(post.date)}</time>
       {post.minutes > 0 && (
         <>
-          {!(isUntitled(post) && !byline) && <span aria-hidden="true">·</span>}
+          <span aria-hidden="true">·</span>
           <span>{readTime(post.minutes)}</span>
         </>
       )}
@@ -36,28 +38,37 @@ export function PostMeta({ post, className, byline = true }) {
 
 export function PostCard({ post, large = false }) {
   const to = href("/post/" + post.slug)
+  // An unnamed post already shows its date as its heading; printing the date
+  // again beside it would say the same thing twice.
+  const dated = !isUntitled(post)
   return (
-    <article data-testid="post-card" className={cn(
-      "group relative overflow-hidden rounded-xl border bg-card text-card-foreground shadow-xs transition-shadow hover:shadow-md",
-      large && "md:grid md:grid-cols-[1.35fr_1fr]"
-    )}>
-      {post.image ? (
-        <a href={to} className={cn("block overflow-hidden", large ? "md:h-full" : "")} tabIndex={-1} aria-hidden="true">
+    <article data-testid="post-card" className="group relative">
+      {post.image && (
+        <a href={to} tabIndex={-1} aria-hidden="true"
+          className="block overflow-hidden rounded-xl border bg-muted shadow-xs transition-shadow group-hover:shadow-md">
           <img src={post.image} alt={post.imageAlt || titleOf(post)} loading={large ? "eager" : "lazy"} decoding="async"
-            className={cn("w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]", large ? "aspect-[16/10] md:aspect-auto md:h-full" : "aspect-[16/10]")} />
+            className={cn("w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]",
+              large ? "aspect-[3/2]" : "aspect-[4/3]")} />
         </a>
-      ) : null}
-      <div className={cn("flex flex-col gap-3 p-5", large && "md:justify-center md:p-8")}>
+      )}
+      <div className={cn("mt-3", large && "mt-4")}>
         {post.tags.length > 0 && (
-          <div className="relative z-10 flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-wide text-primary">
+          <div className="relative z-10 mb-1 flex flex-wrap gap-2 text-[11px] font-semibold uppercase tracking-wide text-primary">
             {post.tags.map((t) => <a key={t} href={href("/tag/" + t)} className="hover:underline">{t}</a>)}
           </div>
         )}
-        <h2 className={cn("font-bold leading-snug tracking-tight", large ? "text-2xl md:text-3xl" : "text-xl")}>
-          <a href={to} className="after:absolute after:inset-0 hover:underline decoration-2 underline-offset-4">{titleOf(post)}</a>
-        </h2>
-        {post.excerpt && <p className={cn("text-muted-foreground", large ? "text-base" : "text-sm")}>{post.excerpt}</p>}
-        <PostMeta post={post} byline={large} className="mt-auto pt-2" />
+        <div className="flex items-baseline justify-between gap-3">
+          <h2 className={cn("min-w-0 font-medium leading-snug", large ? "text-lg" : "text-sm")}>
+            <a href={to} className="block truncate after:absolute after:inset-0 hover:underline underline-offset-4">
+              {titleOf(post)}
+            </a>
+          </h2>
+          {dated && (
+            <time dateTime={post.date} className="shrink-0 text-xs text-muted-foreground">{fmtDate(post.date)}</time>
+          )}
+        </div>
+        {post.excerpt && <p className="mt-1 text-sm text-muted-foreground">{post.excerpt}</p>}
+        {large && <PostMeta post={post} className="mt-3" />}
       </div>
     </article>
   )

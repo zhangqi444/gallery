@@ -86,8 +86,9 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
       check('phone hides the inline nav', !(await pg.isVisible('[data-testid=nav]')));
       await pg.click('[data-testid=menu-toggle]');
       await pg.waitForSelector('[data-testid=nav-mobile]');
-      await pg.click('[data-testid=nav-mobile] a:has-text("Gallery")');
-      await pg.waitForSelector('[data-testid=gallery]');
+      const away = BUNDLE.site.nav.find((n) => n.to !== '/');   // any route that is not home
+      await pg.click(`[data-testid=nav-mobile] a:has-text("${away.label}")`);
+      await pg.waitForFunction((to) => location.hash === '#' + to, away.to);
       check('phone menu navigates and closes', (await pg.$('[data-testid=nav-mobile]')) === null);
       await pg.goto(base, { waitUntil: 'networkidle' });
       await pg.waitForSelector('[data-testid=hero]');
@@ -134,6 +135,8 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
     // gallery + lightbox
     await pg.goto(base + '#/gallery', { waitUntil: 'networkidle' });
     await pg.waitForSelector('[data-testid=gallery]');
+    check('gallery is not in the top bar', !BUNDLE.site.nav.some((n) => n.to === '/gallery'));
+    check('gallery is still reachable from the footer', BUNDLE.site.footer.links.some((l) => l.to === '/gallery'));
     check(`gallery shows ${BUNDLE.gallery.length} pictures`, (await pg.$$('[data-testid=gallery-item]')).length === BUNDLE.gallery.length);
     await pg.click('[data-testid=gallery-item]');
     await pg.waitForSelector('[data-testid=lightbox]');

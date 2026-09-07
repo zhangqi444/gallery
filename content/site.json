@@ -3,21 +3,38 @@
   "description": "Thoughts, stories and ideas.",
   "language": "en",
   "url": "https://gallery.sheilazhang.org/",
-  "google": { "siteVerification": "" },
+  "google": {
+    "siteVerification": ""
+  },
   "author": {
     "name": "Sheila",
     "bio": "I write about the things I make, read and notice."
   },
   "nav": [
-    { "label": "Home", "to": "/" },
-    { "label": "Gallery", "to": "/gallery" },
-    { "label": "About", "to": "/about" }
+    {
+      "label": "Home",
+      "to": "/"
+    },
+    {
+      "label": "About",
+      "to": "/about"
+    }
   ],
   "footer": {
     "note": "Written by Sheila, with help from her parents.",
     "links": [
-      { "label": "Home", "to": "/" },
-      { "label": "About", "to": "/about" }
+      {
+        "label": "Home",
+        "to": "/"
+      },
+      {
+        "label": "All pictures",
+        "to": "/gallery"
+      },
+      {
+        "label": "About",
+        "to": "/about"
+      }
     ]
   }
 }
