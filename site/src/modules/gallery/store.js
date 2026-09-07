@@ -28,12 +28,16 @@ Object.assign(GalleryStore, {
     this.commit()
     return p
   },
+  /** Text is stored as it was typed. Trimming here would eat the space the
+   *  moment it is typed — the field is redrawn from the store on every
+   *  keystroke, so "My blue" would come back as "Myblue" — and normalize()
+   *  trims everything on the way in and out anyway. */
   updatePost(id, f) {
     const p = this.post(id)
     if (!p) return null
     Object.assign(p, f, {
-      title: String(f.title ?? p.title).trim(),
-      caption: String(f.caption ?? p.caption).trim(),
+      title: String(f.title ?? p.title),
+      caption: String(f.caption ?? p.caption),
       tags: f.tags !== undefined ? normalizeTags(f.tags) : p.tags,
       at: nowISO(),
     })

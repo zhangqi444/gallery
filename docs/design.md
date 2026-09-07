@@ -97,6 +97,13 @@ The app shares every token, component and rule below; only the chrome differs.
   explanation. Colour never carries the answer alone: the right choice is
   outlined in the accent and ticked, a wrong pick is crossed as well as
   reddened, and the sentence above says which it was in words.
+- **My pictures**: one row per picture — thumbnail, title, date, and the
+  buttons, which wrap under the title rather than squeezing it on a phone.
+  Everything else about a post (the description, a caption, topics, a note) is
+  folded away behind a chevron, because almost every post is a picture with a
+  title and nothing else. The one nag: a picture with no description says
+  *Describe this picture* where its caption would go, and pressing that opens
+  the field it is about.
 - **Writing**: the plan boxes, then the draft in its three parts with a running
   word count, then the week's own checks. No score, no grade, no badge — an
   essay is judged by a person, and the screen must not pretend otherwise.

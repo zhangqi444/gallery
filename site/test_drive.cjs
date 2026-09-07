@@ -415,7 +415,12 @@ async function fakeGoogle(ctx, drive) {
   // write a post and give it a picture
   await pg.click('[data-testid=studio-add]');
   await pg.waitForSelector('[data-testid=studio-post]');
-  await pg.fill('[data-testid=studio-title]', 'My blue cat');
+  // typed rather than filled: the field is redrawn from the store on every
+  // keystroke, so a store that trims as it goes would swallow the spaces
+  await pg.locator('[data-testid=studio-title]').pressSequentially('My blue cat');
+  check('a title can be typed with spaces in it',
+    (await pg.inputValue('[data-testid=studio-title]')) === 'My blue cat',
+    await pg.inputValue('[data-testid=studio-title]'));
   await pg.setInputFiles('[data-testid=studio-file]', {
     name: 'cat.png', mimeType: 'image/png',
     buffer: Buffer.from('89504e470d0a1a0a0000000d49484452', 'hex'),
@@ -427,6 +432,16 @@ async function fakeGoogle(ctx, drive) {
   check('the picture is NOT shared while the blog is private',
     pictures().every((f) => !f.shared));
 
+  // a picture with no description says so, and saying so opens the field
+  check('a picture with no description is flagged', Boolean(await pg.$('[data-testid=studio-needs-alt]')));
+  await pg.click('[data-testid=studio-needs-alt]');
+  await pg.waitForSelector('[data-testid=studio-details]');
+  await pg.fill('[data-testid=studio-alt]', 'A blue cat asleep on a windowsill');
+  await pg.fill('[data-testid=studio-caption]', 'She sleeps there every afternoon');
+  await pg.fill('[data-testid=studio-tags]', 'cats, paint');
+  await pg.click('[data-testid=studio-title]');   // blur, which is when topics are taken
+  check('the flag goes once there is a description', (await pg.$('[data-testid=studio-needs-alt]')) === null);
+
   // the data file is saved but still private
   await pg.waitForFunction(() => {
     const el = document.querySelector('[data-testid=session-status]');
@@ -436,7 +451,13 @@ async function fakeGoogle(ctx, drive) {
   check('Service data is not in the Gallery file', !JSON.stringify(JSON.parse(dataFile()[1].body)).includes('Seattle Humane'));
   check('the blog file exists in Drive', Boolean(dataFile()));
   check('the blog file is NOT shared until Publish is pressed', dataFile()[1].shared === false);
-  check('the post is in the saved file', JSON.parse(dataFile()[1].body).posts[0].title === 'My blue cat');
+  const savedPost = () => JSON.parse(dataFile()[1].body).posts[0];
+  check('the post is in the saved file', savedPost().title === 'My blue cat');
+  check('with its description, caption and topics',
+    savedPost().imageAlt === 'A blue cat asleep on a windowsill'
+    && savedPost().caption === 'She sleeps there every afternoon'
+    && savedPost().tags.join(',') === 'cats,paint',
+    JSON.stringify({ alt: savedPost().imageAlt, caption: savedPost().caption, tags: savedPost().tags }));
 
   // a stranger cannot read it yet
   const strangerCtx = await b.newContext({ viewport: { width: 1280, height: 900 } });
@@ -481,6 +502,9 @@ async function fakeGoogle(ctx, drive) {
   await sp.click('[data-testid=post-card] h2 a');
   await sp.waitForSelector('[data-testid=post]');
   check('the post page opens for the stranger', (await sp.textContent('[data-testid=post-title]')) === 'My blue cat');
+  check('the picture carries the description she wrote',
+    (await sp.getAttribute('[data-testid=post-image]', 'alt')) === 'A blue cat asleep on a windowsill',
+    await sp.getAttribute('[data-testid=post-image]', 'alt'));
   check('links keep the blog id', (await sp.evaluate(() => location.hash)).startsWith('#/b/' + blogId));
   check('the picture is a public Drive URL', /lh3\.googleusercontent\.com\/d\//.test(await sp.getAttribute('[data-testid=post-image]', 'src')));
   check('no page errors for the stranger', strangerErrs.length === 0, strangerErrs.join(' | '));
