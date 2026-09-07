@@ -168,6 +168,36 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
     check('no page errors', errs.length === 0, errs.join(' | '));
     await ctx.close();
   }
+  /* ---- the offline shell must not pin a visitor to old content ---- */
+  console.log('\n== offline shell ==');
+  {
+    const ctx = await b.newContext();
+    await stubRemoteImages(ctx, new URL(base).origin);
+    const pg = await ctx.newPage();
+    const topic = path.join(DIST, 'content', 'learning', 'index.json');
+    const original = fs.readFileSync(topic, 'utf8');
+    try {
+      await pg.goto(base, { waitUntil: 'networkidle' });
+      await pg.evaluate(() => navigator.serviceWorker.ready);
+      await pg.reload({ waitUntil: 'networkidle' });
+      check('the service worker is in charge of the page',
+        await pg.evaluate(() => Boolean(navigator.serviceWorker.controller)));
+
+      const schema = () => pg.evaluate(() => fetch('content/learning/index.json').then((r) => r.json()).then((j) => j.schema));
+      check('content is served through it', (await schema()) === 1);
+
+      // content/ files keep their names from one build to the next, so a
+      // cache-first worker would serve this first copy for ever
+      fs.writeFileSync(topic, JSON.stringify({ ...JSON.parse(original), schema: 99 }));
+      check('a rebuilt file reaches a visitor who has been here before', (await schema()) === 99);
+
+      await ctx.setOffline(true);
+      check('and the last one seen is still there with no network', (await schema()) === 99);
+      await ctx.setOffline(false);
+    } finally { fs.writeFileSync(topic, original); }
+    await ctx.close();
+  }
+
   await b.close(); srv.close();
   console.log(failures ? `\n${failures} check(s) failed` : '\nall checks passed');
   process.exit(failures ? 1 : 0);

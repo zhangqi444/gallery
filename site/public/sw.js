@@ -1,7 +1,10 @@
-/* Offline shell: the app files are content-hashed, so cache on first fetch
- * and serve from cache afterwards; index.html and the content bundle are
- * refreshed network-first so a new post shows up on the next visit. */
-var CACHE = 'gallery-v1';
+/* Offline shell: the app files are content-hashed, so cache on first fetch and
+ * serve from cache afterwards. Everything under content/ is not — bundle.json
+ * and the practice topics keep their names from one build to the next — so they
+ * are fetched network-first and only fall back to the cached copy when the
+ * network is gone. Cache-first there would pin a visitor to whatever content
+ * they saw on their first visit, for ever. */
+var CACHE = 'littleme-v2';
 var PRECACHE = ['./', 'index.html', 'manifest.webmanifest', 'favicon.svg'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(PRECACHE); }).then(function () { return self.skipWaiting(); }));
@@ -14,7 +17,7 @@ self.addEventListener('activate', function (e) {
 self.addEventListener('fetch', function (e) {
   var req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
-  var networkFirst = req.mode === 'navigate' || /bundle\.json$|index\.html$/.test(req.url);
+  var networkFirst = req.mode === 'navigate' || /\/content\/.*\.json$|index\.html$/.test(req.url);
   if (networkFirst) {
     e.respondWith(fetch(req).then(function (res) {
       var copy = res.clone(); caches.open(CACHE).then(function (c) { c.put(req, copy); }); return res;
