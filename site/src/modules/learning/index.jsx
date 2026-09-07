@@ -1,21 +1,25 @@
-/* Learning: practice sets, mock exam sections, and the weekly words.
+/* Learning: practice sets, mock exam sections, the weekly words, reading and
+ * writing.
  *
  * The index of what there is to do is the only thing fetched when this opens. A
- * subject, a mock or the word lists arrive when one is chosen, which is why the
- * content is split by topic rather than shipped as one bundle.
+ * subject, a mock, the word lists or the essay programme arrive when one is
+ * chosen, which is why the content is split by topic rather than shipped as one
+ * bundle.
  *
- * All three ways of practising end in the same runner, because they are the
- * same act: read a question, choose, be told at once whether that was right and
- * why. A nine-year-old learns from the correction while she still remembers
- * what she was thinking, not from a score at the end. */
+ * The three question tabs end in the same runner, because they are the same
+ * act: read a question, choose, be told at once whether that was right and why.
+ * A nine-year-old learns from the correction while she still remembers what she
+ * was thinking, not from a score at the end. Writing is the exception — an
+ * essay is not marked by a machine, so that tab keeps the plan, the draft and
+ * the week's own checks, and leaves the judging to a person. */
 import { useEffect, useState } from "react"
 import { ArrowRightIcon, CheckIcon, XIcon } from "lucide-react"
 
 import { useSession } from "@/lib/session"
 import { cn } from "@/lib/utils"
 import { fmtDate } from "@/lib/format"
-import { answerIndex, books, isCorrect, loadIndex, loadTopic, mocks, sectionLabel, subjects, wordSets } from "./content"
-import { booksFinished, booksReading, mockDone, recentSessions, streakDays, subjectProgress } from "./model"
+import { answerIndex, books, isCorrect, loadEssays, loadIndex, loadTopic, mocks, sectionLabel, subjects, wordSets } from "./content"
+import { booksFinished, booksReading, essayWords, mockDone, recentSessions, streakDays, subjectProgress, words } from "./model"
 import { useLearning } from "./store"
 import { Button } from "@/components/ui/button"
 import { useTitle } from "@/components/page-title"
@@ -27,6 +31,7 @@ const TABS = [
   { id: "mock", label: "Mock exams" },
   { id: "words", label: "Words" },
   { id: "books", label: "Books" },
+  { id: "essay", label: "Essays" },
 ]
 
 /** Questions never seen come first, then ones answered wrongly, so a set is
@@ -199,6 +204,180 @@ function Books({ store }) {
   )
 }
 
+/* ---------- the essay programme ---------- */
+
+/** The prompts came from a printed workbook, where a blank was a run of
+ *  underscores and an empty box said WRITE HERE. On a screen the blank is the
+ *  empty field itself, so a run of underscores becomes an ellipsis and a box
+ *  that only said "write here" says nothing at all. */
+function hint(text) {
+  const t = String(text || "")
+    .replace(/_{2,}/g, "…")
+    .replace(/…\s*\./g, "…")   // the blank ran to the end of the sentence
+    .replace(/\s+/g, " ").trim()
+  return /^write here$/i.test(t) || t === "…" ? "" : t
+}
+
+/** A week and a prompt from the bank are written the same way, so a bank prompt
+ *  borrows the weeks' plan, draft and checks rather than having its own. */
+function pieces(data) {
+  const shape = data.weeks[0] || {}
+  return [
+    ...data.weeks.map((w) => ({ ...w, title: `Week ${w.id.replace(/^W/, "")}`, kind: "week" })),
+    ...data.bank.map((b) => ({
+      id: b.id, title: b.type, prompt: b.prompt, focus: b.lens, kind: "bank",
+      target: shape.target,
+      plan_fields: shape.plan_fields || [],
+      draft_fields: shape.draft_fields || [],
+      feedback_checks: shape.feedback_checks || [],
+    })),
+  ]
+}
+
+const field = "w-full rounded-md border bg-background px-2.5 py-1.5 text-sm outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"
+
+function Write({ piece, store, guide, rubric, onBack }) {
+  const e = store.essay(piece.id)
+  const total = essayWords(e)
+  const checks = piece.feedback_checks || []
+  const ticked = checks.filter((c) => e.checks.includes(c)).length
+
+  return (
+    <div className="mt-4" data-testid="essay-write">
+      <div className="flex items-baseline justify-between gap-3">
+        <Button variant="ghost" size="sm" data-testid="essay-back" onClick={onBack}>← All prompts</Button>
+        <span className="text-xs tabular-nums text-muted-foreground" data-testid="essay-words">
+          {total} word{total === 1 ? "" : "s"}
+        </span>
+      </div>
+
+      <h2 className="mt-2 text-sm font-semibold uppercase tracking-wide text-muted-foreground">{piece.title}</h2>
+      <p className="mt-1 text-lg" data-testid="essay-prompt">{piece.prompt}</p>
+      {piece.focus && <p className="mt-1 text-sm text-muted-foreground">{piece.focus}</p>}
+      {piece.target && <p className="mt-1 text-xs text-muted-foreground">{piece.target}</p>}
+
+      <section className="mt-6">
+        <h3 className="text-sm font-semibold">Plan</h3>
+        <div className="mt-2 flex flex-col gap-3">
+          {(piece.plan_fields || []).map(([label, placeholder]) => (
+            <label key={label} className="flex flex-col gap-1 text-sm">
+              <span className="font-medium">{label}</span>
+              <textarea className={field} rows={2} data-testid="essay-plan" placeholder={hint(placeholder)}
+                value={e.plan[label] || ""}
+                onChange={(ev) => store.setEssayField(piece.id, "plan", label, ev.target.value)} />
+            </label>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-6">
+        <h3 className="text-sm font-semibold">Draft</h3>
+        <div className="mt-2 flex flex-col gap-3">
+          {(piece.draft_fields || []).map((part) => {
+            const n = words(e.draft[part])
+            return (
+              <label key={part} className="flex flex-col gap-1 text-sm">
+                <span className="flex items-baseline justify-between gap-2">
+                  <span className="font-medium">{part}</span>
+                  <span className="text-xs tabular-nums text-muted-foreground">{n ? `${n} words` : ""}</span>
+                </span>
+                <textarea className={field} rows={6} data-testid="essay-draft"
+                  value={e.draft[part] || ""}
+                  onChange={(ev) => store.setEssayField(piece.id, "draft", part, ev.target.value)} />
+              </label>
+            )
+          })}
+        </div>
+      </section>
+
+      {checks.length > 0 && (
+        <section className="mt-6">
+          <h3 className="text-sm font-semibold">Before you call it done</h3>
+          <p className="text-xs text-muted-foreground" data-testid="essay-checked">{ticked} of {checks.length} checked</p>
+          <ul className="mt-2 flex flex-col gap-1.5">
+            {checks.map((c) => (
+              <li key={c}>
+                <label className="flex cursor-pointer items-start gap-2 text-sm">
+                  <input type="checkbox" className="mt-0.5 size-4 accent-primary" data-testid="essay-check"
+                    checked={e.checks.includes(c)} onChange={() => store.toggleEssayCheck(piece.id, c)} />
+                  <span>{c}</span>
+                </label>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {(guide.supports || []).length > 0 && (
+        <details className="mt-6 rounded-lg border bg-muted/40 p-3" data-testid="essay-supports">
+          <summary className="cursor-pointer text-sm font-medium">Sentence starters, if you are stuck</summary>
+          <dl className="mt-2 flex flex-col gap-2 text-sm">
+            {guide.supports.map((sup) => (
+              <div key={sup.move}>
+                <dt className="font-medium">{sup.move}</dt>
+                <dd className="text-muted-foreground">{sup.frames}</dd>
+              </div>
+            ))}
+          </dl>
+        </details>
+      )}
+
+      {(rubric.dimensions || []).length > 0 && (
+        <details className="mt-3 rounded-lg border bg-muted/40 p-3" data-testid="essay-rubric">
+          <summary className="cursor-pointer text-sm font-medium">What a good one does</summary>
+          <ul className="mt-2 flex flex-col gap-1.5 text-sm">
+            {rubric.dimensions.map((d) => (
+              <li key={d.name} className="flex flex-wrap gap-x-2">
+                <span className="font-medium">{d.name}:</span>
+                <span className="text-muted-foreground">{d.levels[d.levels.length - 1]}</span>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+    </div>
+  )
+}
+
+function Essays({ store, openId, setOpenId }) {
+  const [data, setData] = useState(null)
+  const [error, setError] = useState("")
+  useEffect(() => { loadEssays().then(setData).catch((err) => setError(err.message)) }, [])
+
+  if (error) return <p className="mt-4 text-destructive" data-testid="essay-error">{error}</p>
+  if (!data) return <p className="mt-4 text-sm text-muted-foreground">Loading…</p>
+
+  const all = pieces(data)
+  const open = all.find((x) => x.id === openId)
+  if (open) {
+    return <Write piece={open} store={store} guide={data.guide} rubric={data.rubric} onBack={() => setOpenId("")} />
+  }
+
+  const row = (x) => {
+    const n = essayWords(store.essay(x.id))
+    return (
+      <Choice key={x.id} testid={`essay-${x.id}`} title={x.title} onClick={() => setOpenId(x.id)}
+        right={n ? `${n} words` : "Not started"}>
+        <p className="mt-1 text-sm">{x.prompt}</p>
+        {x.focus && <p className="mt-1 text-xs text-muted-foreground">{x.focus}</p>}
+      </Choice>
+    )
+  }
+
+  return (
+    <div className="mt-4" data-testid="essay-list">
+      {data.guide.target && <p className="text-sm text-muted-foreground">{data.guide.target}</p>}
+      <ul className="mt-3 flex flex-col gap-3">{data.weeks.map((w) => row(all.find((x) => x.id === w.id)))}</ul>
+      {data.bank.length > 0 && (
+        <>
+          <h2 className="mt-8 text-sm font-semibold uppercase tracking-wide text-muted-foreground">More prompts</h2>
+          <ul className="mt-3 flex flex-col gap-3">{all.filter((x) => x.kind === "bank").map(row)}</ul>
+        </>
+      )}
+    </div>
+  )
+}
+
 /* ---------- choosing what to do ---------- */
 
 function Bar({ done, total }) {
@@ -232,6 +411,7 @@ export default function Learning() {
   const [error, setError] = useState("")
   const [tab, setTab] = useState("practice")
   const [openMock, setOpenMock] = useState("")
+  const [openEssay, setOpenEssay] = useState("")
   const [run, setRun] = useState(null)
   const [result, setResult] = useState(null)
   const [busy, setBusy] = useState("")
@@ -424,7 +604,11 @@ export default function Learning() {
 
       {tab === "books" && <Books store={store} />}
 
-      {recent.length > 0 && (
+      {tab === "essay" && <Essays store={store} openId={openEssay} setOpenId={setOpenEssay} />}
+
+      {/* A page of writing is enough on its own; the history belongs on the
+          screen where something is being chosen. */}
+      {recent.length > 0 && !openEssay && (
         <section className="mt-8">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">Lately</h2>
           <ul className="mt-3 divide-y rounded-xl border bg-card" data-testid="session-list">

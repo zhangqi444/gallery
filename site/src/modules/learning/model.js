@@ -14,7 +14,7 @@ export const todayISO = () => new Date().toISOString().slice(0, 10)
 export const ts = (v) => { const n = Date.parse(v || ""); return Number.isNaN(n) ? 0 : n }
 
 export function emptyData() {
-  return { schema: SCHEMA, updatedAt: nowISO(), results: {}, sessions: [], books: {}, deleted: {} }
+  return { schema: SCHEMA, updatedAt: nowISO(), results: {}, sessions: [], books: {}, essays: {}, deleted: {} }
 }
 
 /** A book is only ever one of these; anything else means the record is wrong. */
@@ -67,6 +67,24 @@ export function normalize(raw) {
     }
   }
 
+  const essays = raw.essays && typeof raw.essays === "object" && !Array.isArray(raw.essays) ? raw.essays : {}
+  for (const [id, e] of Object.entries(essays)) {
+    if (!e || typeof e !== "object") continue
+    const strMap = (o) => {
+      const out = {}
+      if (o && typeof o === "object" && !Array.isArray(o)) {
+        for (const [k, v] of Object.entries(o)) out[str(k)] = str(v)
+      }
+      return out
+    }
+    out.essays[id] = {
+      plan: strMap(e.plan),
+      draft: strMap(e.draft),
+      checks: Array.isArray(e.checks) ? e.checks.map(str) : [],
+      at: str(e.at || fileAt),
+    }
+  }
+
   const dead = raw.deleted && typeof raw.deleted === "object" && !Array.isArray(raw.deleted) ? raw.deleted : {}
   for (const k of Object.keys(dead)) if (typeof dead[k] === "string") out.deleted[k] = dead[k]
 
@@ -99,6 +117,15 @@ export function mergeData(local, remoteRaw) {
     if (d && ts(d) >= ts(books[id].at)) delete books[id]
   }
 
+  // An essay is a document, not a set of fields: the whole of the later one
+  // wins, because merging two half-written drafts field by field would produce
+  // a paragraph nobody wrote.
+  const essays = { ...local.essays }
+  for (const [id, e] of Object.entries(remote.essays)) {
+    const l = essays[id]
+    if (!l || ts(e.at) > ts(l.at)) essays[id] = e
+  }
+
   const byId = new Map(local.sessions.map((s) => [s.id, s]))
   for (const s of remote.sessions) {
     const l = byId.get(s.id)
@@ -108,7 +135,7 @@ export function mergeData(local, remoteRaw) {
     .filter((s) => !dead[s.id] || ts(dead[s.id]) < ts(s.at))
     .sort((a, b) => ts(b.at) - ts(a.at))
 
-  return { ...local, results, sessions, books, deleted: dead, updatedAt: nowISO() }
+  return { ...local, results, sessions, books, essays, deleted: dead, updatedAt: nowISO() }
 }
 
 /* ---------- derived, never stored ---------- */
@@ -135,6 +162,10 @@ export function mockDone(s) {
   }
   return done
 }
+
+export const words = (text) => String(text || "").trim().split(/\s+/).filter(Boolean).length
+export const essayWords = (e) => (e ? Object.values(e.draft).reduce((n, t) => n + words(t), 0) : 0)
+export const essaysStarted = (s) => Object.values(s.essays).filter((e) => essayWords(e) > 0).length
 
 export const booksFinished = (s) => Object.values(s.books).filter((b) => b.state === "finished").length
 export const booksReading = (s) => Object.values(s.books).filter((b) => b.state === "reading").length

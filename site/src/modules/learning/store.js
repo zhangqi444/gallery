@@ -1,6 +1,6 @@
 /* The Learning module's data, on the same store contract as Service and Gallery. */
 import { createModuleStore, useModuleStore } from "@/lib/module-store"
-import { booksFinished, BOOK_STATES, emptyData, mergeData, normalize, nowISO, streakDays, todayISO, uid } from "./model"
+import { booksFinished, BOOK_STATES, emptyData, essaysStarted, mergeData, normalize, nowISO, streakDays, todayISO, uid } from "./model"
 
 export const LearningStore = createModuleStore({
   name: "learning",
@@ -41,6 +41,21 @@ Object.assign(LearningStore, {
     this.commit()
   },
   bookState(id) { return this.s.books[id] ? this.s.books[id].state : "" },
+
+  /** Writing: one record per prompt, holding the plan, the draft and which of
+   *  the week's checks have been ticked. */
+  essay(id) { return this.s.essays[id] || { plan: {}, draft: {}, checks: [], at: "" } },
+  setEssayField(id, part, field, value) {
+    const cur = this.essay(id)
+    this.s.essays[id] = { ...cur, [part]: { ...cur[part], [field]: String(value) }, at: nowISO() }
+    this.commit()
+  },
+  toggleEssayCheck(id, check) {
+    const cur = this.essay(id)
+    const checks = cur.checks.includes(check) ? cur.checks.filter((c) => c !== check) : [...cur.checks, check]
+    this.s.essays[id] = { ...cur, checks, at: nowISO() }
+    this.commit()
+  },
 })
 
 export const useLearning = () => useModuleStore(LearningStore)
@@ -52,12 +67,14 @@ export function learningSummary() {
   const streak = streakDays(s)
   const last = s.sessions[0]
   const read = booksFinished(s)
+  const written = essaysStarted(s)
   return {
     line: `${done} question${done === 1 ? "" : "s"} answered`,
     detail: [
       streak > 0 ? `${streak} day${streak === 1 ? "" : "s"} in a row` : "",
       last ? `last set ${last.right} out of ${last.asked}` : "",
       read ? `${read} book${read === 1 ? "" : "s"} finished` : "",
+      written ? `${written} essay${written === 1 ? "" : "s"} started` : "",
     ].filter(Boolean).join(" · ") || "Keep going.",
   }
 }

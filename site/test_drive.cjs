@@ -180,7 +180,7 @@ async function fakeGoogle(ctx, drive) {
   check('opening Learning fetches only the index', fetched.join(',') === 'index.json', fetched.join(','));
   check('the subjects are listed', (await pg.$$('[data-testid=subject-list] li')).length === 4);
 
-  check('the four ways into Learning are offered', (await pg.$$('[data-testid=learning-tabs] button')).length === 4);
+  check('the five ways into Learning are offered', (await pg.$$('[data-testid=learning-tabs] button')).length === 5);
   await pg.click('[data-testid=subject-vr]');
   await pg.waitForSelector('[data-testid=practice]');
   check('choosing a subject fetches that subject and nothing else',
@@ -272,12 +272,47 @@ async function fakeGoogle(ctx, drive) {
   await pg.waitForFunction(() => /^1 finished\.$/.test(document.querySelector('[data-testid=book-count]').textContent.trim()));
   check('pressing the same state again clears it', true);
 
+  /* ---- writing: the plan, the draft and the week's own checks ---- */
+  await pg.click('[data-testid=tab-essay]');
+  await pg.waitForSelector('[data-testid=essay-list]');
+  check('the essay programme is fetched only when it is opened',
+    fetched.join(',') === 'index.json,subject-vr.json,mock-M01.json,precision.json,essay.json', fetched.join(','));
+  const prompts = (await pg.$$('[data-testid=essay-list] li')).length;
+  check('eight weeks and twelve more prompts are offered', prompts === 20, String(prompts));
+  check('and none has been started', /Not started/.test(await pg.textContent('[data-testid=essay-W1]')));
+
+  await pg.click('[data-testid=essay-W1]');
+  await pg.waitForSelector('[data-testid=essay-write]');
+  check('a prompt opens with something to write about',
+    (await pg.textContent('[data-testid=essay-prompt]')).length > 20);
+  check('the plan is asked for before the draft', (await pg.$$('[data-testid=essay-plan]')).length === 6);
+  check('and the draft is written in its three parts', (await pg.$$('[data-testid=essay-draft]')).length === 3);
+  // the prompts came from a printed workbook; its blanks must not reach the screen
+  const holes = await pg.$$eval('[data-testid=essay-plan]', (els) => els.map((e) => e.placeholder));
+  check('a printed blank is not shown as a row of underscores',
+    holes.every((h) => !/_{2,}/.test(h) && !/write here/i.test(h)), holes.join(' | '));
+
+  await pg.fill('[data-testid=essay-draft] >> nth=0', 'The bell rang and I ran');
+  await pg.waitForFunction(() => /^6 words$/.test(document.querySelector('[data-testid=essay-words]').textContent.trim()));
+  check('what is written is counted as it is written', true);
+  await pg.click('[data-testid=essay-check] >> nth=0');
+  await pg.waitForFunction(() => /1 of 4 checked/.test(document.querySelector('[data-testid=essay-checked]').textContent));
+  check('and the week has its own checks to tick', true);
+
+  await pg.click('[data-testid=essay-back]');
+  await pg.waitForSelector('[data-testid=essay-list]');
+  check('a started prompt says how much of it there is',
+    /6 words/.test(await pg.textContent('[data-testid=essay-W1]')), await pg.textContent('[data-testid=essay-W1]'));
+
   // the home screen now reflects work done in a module
   await pg.click('[data-testid=app-brand]');
   await pg.waitForSelector('[data-testid=app-home]');
   check('the home screen counts the questions answered',
     /30 questions answered/.test(await pg.textContent('[data-testid=summary-learning]')),
     await pg.textContent('[data-testid=summary-learning]'));
+  const learningCard = await pg.textContent('[data-testid=module-card-learning]');
+  check('and the reading and writing alongside them',
+    /1 book finished/.test(learningCard) && /1 essay started/.test(learningCard), learningCard);
 
 
   await pg.waitForFunction(() => {
@@ -289,6 +324,10 @@ async function fakeGoogle(ctx, drive) {
   const learned = JSON.parse(learningFile[1].body);
   check('every answer was recorded', Object.keys(learned.results).length === 30, String(Object.keys(learned.results).length));
   check('and one session per finished set', learned.sessions.length === 3, String(learned.sessions.length));
+  check('the writing was saved with it', learned.essays.W1.draft['Opening and focus'] === 'The bell rang and I ran',
+    JSON.stringify(learned.essays.W1 || null));
+  check('with the checks that were ticked', (learned.essays.W1.checks || []).length === 1);
+  check('and the book that was marked', Object.keys(learned.books).length === 1, JSON.stringify(learned.books));
   check('each kind of session is distinguished',
     [...new Set(learned.sessions.map((r) => r.kind))].sort().join(',') === 'mock,practice,words',
     learned.sessions.map((r) => r.kind).join(','));
