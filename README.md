@@ -16,7 +16,7 @@ publish one.
 
 There is no backend and no CMS. The site builds with Vite and deploys to GitHub
 Pages from `.github/workflows/pages.yml`. It lives at
-<https://thelittleme.org/> (also <https://zhangqi444.github.io/gallery/>),
+<https://thelittleme.org/> (also <https://zhangqi444.github.io/the-little-me/>),
 next to its siblings [`volunteer`](https://github.com/zhangqi444/volunteer) and
 [`isee`](https://github.com/zhangqi444/isee), whose stack and conventions it shares.
 
@@ -173,7 +173,7 @@ can do them, in this order:
    cannot enable Pages by itself, and `configure-pages` fails the deploy with
    "Resource not accessible by integration".
 2. **Deploy**: Actions → *Deploy site* → the failed run → *Re-run all jobs*.
-   When it is green, `https://zhangqi444.github.io/gallery/` serves the blog,
+   When it is green, `https://zhangqi444.github.io/the-little-me/` serves the blog,
    which proves the site works with the domain out of the picture.
 3. **DNS** (the `thelittleme.org` zone is at Cloudflare): the apex carries the
    four GitHub Pages `A` records (`185.199.108-111.153`) and the four matching
