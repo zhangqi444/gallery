@@ -137,6 +137,11 @@ export function showMine(data) { return apply("mine", data, "") }
 /** Back to whatever the address asks for, after signing out. */
 export function showPublished() { return loadContent() }
 
+/* Where this deployment's blog keeps its front page. When the app owns `#/`
+ * the blog still needs an address of its own, or the reader's brand and Home
+ * link would carry a visitor out of the blog and into the sign-in screen. */
+export function blogHome() { return C.site && C.site.appHome ? "/blog" : "/" }
+
 export const postBySlug = (slug) => C.posts.find((p) => p.slug === slug)
 export const pageBySlug = (slug) => C.pages.find((p) => p.slug === slug)
 export const postsByTag = (tag) => C.posts.filter((p) => p.tags.includes(tag))

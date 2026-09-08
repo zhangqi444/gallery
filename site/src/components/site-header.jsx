@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { MenuIcon, MoonIcon, PenLineIcon, SunIcon, XIcon } from "lucide-react"
 
-import { C } from "@/modules/gallery/content"
+import { blogHome, C } from "@/modules/gallery/content"
 import { DRIVE_ENABLED } from "@/lib/session"
 import { href } from "@/lib/router"
 import { isDark, onTheme, toggleTheme } from "@/lib/theme"
@@ -22,10 +22,14 @@ export function SiteHeader({ route }) {
   const current = "/" + route.join("/")
   useEffect(() => { setOpen(false) }, [current])
 
+  // `/` in the nav means "the front of this blog", which is not `#/` on a
+  // deployment where the app owns that address.
+  const home = blogHome()
   const links = C.site.nav.map((n) => {
-    const active = n.to === "/" ? route.length === 0 : current === n.to || current.startsWith(n.to + "/")
+    const to = n.to === "/" ? home : n.to
+    const active = to === "/" ? route.length === 0 : current === to || current.startsWith(to + "/")
     return (
-      <a key={n.to} href={href(n.to)} data-testid="nav-link" aria-current={active ? "page" : undefined}
+      <a key={n.to} href={href(to)} data-testid="nav-link" aria-current={active ? "page" : undefined}
         className={cn("rounded-md px-3 py-1.5 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground",
           active ? "text-foreground" : "text-muted-foreground")}>
         {n.label}
@@ -36,7 +40,7 @@ export function SiteHeader({ route }) {
   return (
     <header className="sticky top-0 z-40 border-b bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex h-14 max-w-6xl items-center gap-2 px-4 sm:px-6">
-        <a href={href("/")} data-testid="brand" className="flex items-center gap-2 font-semibold tracking-tight">
+        <a href={href(home)} data-testid="brand" className="flex items-center gap-2 font-semibold tracking-tight">
           <span className="grid size-7 place-items-center rounded-full bg-primary text-primary-foreground text-sm font-bold">
             {C.site.title.trim()[0]}
           </span>

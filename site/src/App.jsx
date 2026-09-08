@@ -9,14 +9,16 @@
  *   #/me                 the app: hello, and the modules
  *   #/me/<module>        one module
  *   #/b/<driveFileId>/…  someone's published blog, in the reader
+ *   #/blog               this deployment's own blog, always
  *   everything else      the reader, on this deployment's own blog
  *
- * Which of the last two answers `#/` is a deployment's choice: `appHome` in
- * content/site.json. It is false here, so this build still opens on the blog. */
+ * Which of the first and last answers `#/` is a deployment's choice: `appHome`
+ * in content/site.json. `#/blog` reaches the blog's front page either way, so
+ * the reader's own brand and Home link always land back inside the blog. */
 import { Suspense } from "react"
 
 import { C } from "@/modules/gallery/content"
-import { useRoute } from "@/lib/router"
+import { blogId, useRoute } from "@/lib/router"
 import { AppShell } from "@/components/app-shell"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -33,7 +35,7 @@ import { NotFound } from "@/modules/gallery/pages/not-found"
 function Reader({ route }) {
   const [head, arg] = route
   let view = <NotFound />
-  if (!head) view = <Home />
+  if (!head || head === "blog") view = <Home />
   else if (head === "post" && arg) view = <Post slug={arg} />
   else if (head === "tag" && arg) view = <Tag tag={arg} />
   else if (head === "gallery") view = <Gallery />
@@ -70,7 +72,10 @@ export default function App() {
       </AppShell>
     )
   }
-  if (appHome && route.length === 0) {
+  // The app may own `#/`, but never `#/b/<id>`: the router strips that prefix,
+  // so a stranger following a link to someone's published blog arrives here
+  // with an empty route too, and they must land in the reader.
+  if (appHome && route.length === 0 && !blogId()) {
     return <AppShell route={[]}><Me /></AppShell>
   }
   return <Reader route={route} />

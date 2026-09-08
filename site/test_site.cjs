@@ -57,6 +57,10 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
   const token = site.google && site.google.siteVerification;
   check('google-site-verification tag ' + (token ? 'carries the token' : 'is left out until a token is set'),
     token ? head.includes(`<meta name="google-site-verification" content="${token}">`) : !head.includes('google-site-verification'));
+  // Where the blog's front page lives on this build. With appHome on, `#/` is
+  // the app and the blog keeps its own address, so the walk below has to knock
+  // on that door instead of the site root.
+  const HOME = BUNDLE.site.appHome ? base + '#/blog' : base;
   for (const [label, viewport] of [['desktop', { width: 1280, height: 860 }], ['phone', { width: 390, height: 844 }]]) {
     console.log('\n== ' + label + ' ==');
     const phone = label === 'phone';
@@ -64,8 +68,19 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
     await stubRemoteImages(ctx, new URL(base).origin);
     const pg = await ctx.newPage(); const errs = errorsOf(pg);
 
-    // home
+    // whoever owns the front door
     await pg.goto(base, { waitUntil: 'networkidle' });
+    if (BUNDLE.site.appHome) {
+      await pg.waitForSelector('[data-testid=app-home], [data-testid=app-disabled]');
+      check('the app answers the site root', true);
+      check('and the blog is not the thing behind it', (await pg.$('[data-testid=hero]')) === null);
+    } else {
+      await pg.waitForSelector('[data-testid=hero]');
+      check('the blog answers the site root', true);
+    }
+
+    // home
+    await pg.goto(HOME, { waitUntil: 'networkidle' });
     await pg.waitForSelector('[data-testid=hero]');
     check('hero shows the site title and tagline', (await pg.textContent('[data-testid=hero]')).includes(BUNDLE.site.title) && (await pg.textContent('[data-testid=hero]')).includes(BUNDLE.site.description));
     check('document title is the site title', (await pg.title()) === BUNDLE.site.title);
@@ -91,7 +106,7 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
       await pg.waitForFunction((to) => location.hash === '#' + to, away.to);
       await pg.waitForSelector('[data-testid=nav-mobile]', { state: 'detached' });
       check('phone menu navigates and closes', true);
-      await pg.goto(base, { waitUntil: 'networkidle' });
+      await pg.goto(HOME, { waitUntil: 'networkidle' });
       await pg.waitForSelector('[data-testid=hero]');
     } else {
       check('desktop shows the inline nav', await pg.isVisible('[data-testid=nav]'));
@@ -127,6 +142,15 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
       check('no tags in this content, topic page not exercised', true);
     }
 
+    // the reader's own chrome must lead back into the reader. When the app owns
+    // `#/`, a brand link left pointing there would take a reader off a post and
+    // into the sign-in screen, which is the one place a reader has no business.
+    await pg.goto(base + '#/post/' + lead.slug, { waitUntil: 'networkidle' });
+    await pg.waitForSelector('[data-testid=post]');
+    await pg.click('[data-testid=brand]');
+    await pg.waitForSelector('[data-testid=hero]');
+    check('the brand carries a reader back to the blog, not out of it', true);
+
     // about, from the header
     await pg.goto(base + '#/about', { waitUntil: 'networkidle' });
     await pg.waitForSelector('[data-testid=page]');
@@ -154,7 +178,7 @@ const errorsOf = (pg) => { const errs = []; pg.on('pageerror', (e) => errs.push(
     check('unknown post shows the 404 view', true);
 
     // theme: toggle, persist across a reload, restore
-    await pg.goto(base, { waitUntil: 'networkidle' });
+    await pg.goto(HOME, { waitUntil: 'networkidle' });
     await pg.waitForSelector('[data-testid=hero]');
     await pg.click('[data-testid=theme-toggle]');
     check('dark theme applied', await pg.evaluate(() => document.documentElement.classList.contains('dark')));
