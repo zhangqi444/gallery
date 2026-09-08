@@ -54,7 +54,7 @@ Claude-Session: <session url>
 - Pictures must be in `site/public/images/`; `make_bundle.py` refuses a post
   whose `image` is not there.
 - The deployed site cannot be opened from the remote sandbox: both
-  `gallery.sheilazhang.org` and `zhangqi444.github.io` answer 403 at the proxy's
+  `thelittleme.org` and `zhangqi444.github.io` answer 403 at the proxy's
   CONNECT, so a change is verified by the suites and the workflow's conclusion,
   never by loading the live page. The domain cannot be configured from here
   either, and neither can a deploy be re-run: the Pages REST path is blocked by

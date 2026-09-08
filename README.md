@@ -16,7 +16,7 @@ publish one.
 
 There is no backend and no CMS. The site builds with Vite and deploys to GitHub
 Pages from `.github/workflows/pages.yml`. It lives at
-<https://gallery.sheilazhang.org/> (also <https://zhangqi444.github.io/gallery/>),
+<https://thelittleme.org/> (also <https://zhangqi444.github.io/gallery/>),
 next to its siblings [`volunteer`](https://github.com/zhangqi444/volunteer) and
 [`isee`](https://github.com/zhangqi444/isee), whose stack and conventions it shares.
 
@@ -109,7 +109,7 @@ shared. Neither is a secret, but restrict the key to this site by HTTP referrer.
    type *Web application*. Under *Authorised JavaScript origins* add every
    address the app is served from:
 
-       https://gallery.sheilazhang.org
+       https://thelittleme.org
        https://zhangqi444.github.io
        http://localhost:5173          (only for `npm run dev`)
 
@@ -175,21 +175,25 @@ can do them, in this order:
 2. **Deploy**: Actions → *Deploy site* → the failed run → *Re-run all jobs*.
    When it is green, `https://zhangqi444.github.io/gallery/` serves the blog,
    which proves the site works with the domain out of the picture.
-3. **DNS** (the `sheilazhang.org` zone is at Cloudflare): the `gallery` record
-   points at `zhangqi444.github.io` and its cloud must be **grey (DNS only)**.
-   Orange proxies the name through Cloudflare, and GitHub then cannot verify the
-   domain or issue a certificate.
-4. **Custom domain**: Settings → Pages → Custom domain → `gallery.sheilazhang.org`
-   → Save. Wait for the DNS check, then tick **Enforce HTTPS** once the
-   certificate is issued, which can take about fifteen minutes.
+3. **DNS** (the `thelittleme.org` zone is at Cloudflare): the apex carries the
+   four GitHub Pages `A` records (`185.199.108-111.153`) and the four matching
+   `AAAA` records (`2606:50c0:800{0,1,2,3}::153`), and `www` is a `CNAME` to
+   `zhangqi444.github.io`. Every one of them must be **grey (DNS only)**. Orange
+   proxies the name through Cloudflare, and GitHub then cannot verify the domain
+   or issue a certificate.
+4. **Custom domain**: the deploy sets it from `url` in `content/site.json`, which
+   the build writes into `CNAME`. Do not type it into Settings → Pages as well —
+   the two then fight on every deploy. After the first deploy on a new name, tick
+   **Enforce HTTPS** once the certificate is issued, which can take about fifteen
+   minutes.
 
-For **Google Search Console**, add `gallery.sheilazhang.org` as a *URL prefix*
-property, choose the *HTML tag* method, paste the `content="…"` value into
-`google.siteVerification` in `content/site.json`, run
-`python3 site/make_bundle.py`, commit and push, then press *Verify*. Submit
-`https://gallery.sheilazhang.org/sitemap.xml` under Sitemaps. (A *Domain*
-property verified by a DNS TXT record works too and needs no token in the
-repository.)
+**Google Search Console** holds `thelittleme.org` as a *Domain* property,
+verified by a `TXT` record on the apex, so nothing is needed in the repository
+and `google.siteVerification` in `content/site.json` stays empty. Submit
+`https://thelittleme.org/sitemap.xml` under Sitemaps. (The *URL prefix* +
+*HTML tag* route works too: its token goes in `google.siteVerification` and the
+build puts the meta tag in the head — but that is a different token, and the
+DNS value cannot stand in for it.)
 
 There is no Google Analytics and no Google sign-in here; see the hard rules in
 `AGENTS.md`.

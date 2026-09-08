@@ -57,7 +57,7 @@ own. Nineteen were never named and carry Ghost's `(Untitled)`. The UI is built
 around that: no excerpt where there is no text, no reading time under fifty
 words, and an untitled post shows its date as its heading.
 
-Lives at <https://gallery.sheilazhang.org/> (a custom domain on GitHub Pages;
+Lives at <https://thelittleme.org/> (a custom domain on GitHub Pages;
 also reachable at <https://zhangqi444.github.io/gallery/>). Every path in the
 build is relative and routing is by hash, so both addresses serve the same build.
 
