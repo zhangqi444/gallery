@@ -954,6 +954,22 @@
       "slug": "about",
       "title": "About me",
       "updated": "2024-01-17"
+    },
+    {
+      "body": "The Little Me has no server of its own. It keeps nothing about you, because it\nhas nowhere to keep it.\n\n**Signing in.** Signing in with Google lets this site make files in your own\nGoogle Drive and open the files it made. That is the whole of the permission it\nasks for. It cannot see, open or list anything else in your Drive, including\nfiles another app made.\n\n**Where your work lives.** Everything you write here — your practice, your\nhours, your pictures and your posts — is saved in a folder of your own Google\nDrive, under your own Google account. It is never copied to a server belonging\nto this site, because there is no such server. Nobody running this site can read\nit.\n\n**What ever leaves your Drive.** Nothing, until you press Publish on a blog.\nPublishing shares that one file so anyone with the link can read it.\nUnpublishing takes the sharing away. Deleting a post deletes its file, and the\npictures it used, from your Drive.\n\n**What your browser keeps.** The app also keeps a copy of your work in your\nbrowser, so it opens at once and works without a connection. Clearing this\nsite's data in your browser removes that copy and leaves the one in your Drive\nalone.\n\n**What is collected.** Nothing. There is no analytics, no advertising, no\ntracking, and no account with anybody but Google.\n\n**Taking it back.** Sign out whenever you like. To withdraw the app's permission\naltogether, remove it at\n[myaccount.google.com/permissions](https://myaccount.google.com/permissions).\nYour files stay in your Drive, yours to keep or delete like any others.\n\nQuestions: <zhangqi444@gmail.com>.\n",
+      "image": "",
+      "imageAlt": "",
+      "slug": "privacy",
+      "title": "Privacy",
+      "updated": "2026-09-08"
+    },
+    {
+      "body": "The Little Me is free, and is offered as it is.\n\n**What it is.** A place for one person to keep what they practise, what they do\nfor other people and the pictures they make — in their own Google Drive — and to\npublish some of it as a blog if they want to.\n\n**Your work is yours.** Nothing you write here is claimed by this site. It sits\nin your Drive under your own account, and it stays yours whether you go on using\nthis app or not.\n\n**Publish carefully.** Publish only what is yours to publish, and only what you\nare happy for anyone holding the link to read. A published blog is readable by\nanyone with the link until you unpublish it.\n\n**No promises.** The app is provided without warranty of any kind, and it may\nchange or stop working without notice. Keep your own copy of anything you would\nbe sorry to lose.\n\n**Ending it.** Stop using it whenever you like, and remove its permission at\n[myaccount.google.com/permissions](https://myaccount.google.com/permissions).\n\nQuestions: <zhangqi444@gmail.com>.\n",
+      "image": "",
+      "imageAlt": "",
+      "slug": "terms",
+      "title": "Terms",
+      "updated": "2026-09-08"
     }
   ],
   "posts": [
@@ -3009,6 +3025,14 @@
         {
           "label": "About",
           "to": "/about"
+        },
+        {
+          "label": "Privacy",
+          "to": "/privacy"
+        },
+        {
+          "label": "Terms",
+          "to": "/terms"
         }
       ],
       "note": "Written by Sheila, with help from her parents."
