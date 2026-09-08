@@ -948,8 +948,8 @@
   ],
   "pages": [
     {
-      "body": "My name is Sheila. I love blue. I love jelly, ice cream, and other desserts. It is nice to meet you. I also love kitties and peagaus.\n",
-      "image": "https://digitalpress.fra1.cdn.digitaloceanspaces.com/xm9ctxt/2024/01/sheila-logo-3.jpg",
+      "body": "I love blue. I love jelly, ice cream, and other desserts. It is nice to meet you. I also love kitties and peagaus.\n",
+      "image": "",
       "imageAlt": "",
       "slug": "about",
       "title": "About me",
@@ -3008,7 +3008,7 @@
     "appHome": true,
     "author": {
       "bio": "I write about the things I make, read and notice.",
-      "name": "Sheila"
+      "name": ""
     },
     "blogId": "",
     "description": "Thoughts, stories and ideas.",
@@ -3035,7 +3035,7 @@
           "to": "/terms"
         }
       ],
-      "note": "Written by Sheila, with help from her parents."
+      "note": "Written with help from her parents."
     },
     "google": {
       "siteVerification": ""
@@ -3051,7 +3051,7 @@
         "to": "/about"
       }
     ],
-    "title": "Sheila Zhang",
+    "title": "The Little Me",
     "url": "https://thelittleme.org/"
   }
 }

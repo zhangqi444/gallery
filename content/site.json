@@ -1,5 +1,5 @@
 {
-  "title": "Sheila Zhang",
+  "title": "The Little Me",
   "description": "Thoughts, stories and ideas.",
   "language": "en",
   "url": "https://thelittleme.org/",
@@ -7,7 +7,7 @@
     "siteVerification": ""
   },
   "author": {
-    "name": "Sheila",
+    "name": "",
     "bio": "I write about the things I make, read and notice."
   },
   "nav": [
@@ -21,7 +21,7 @@
     }
   ],
   "footer": {
-    "note": "Written by Sheila, with help from her parents.",
+    "note": "Written with help from her parents.",
     "links": [
       {
         "label": "Home",

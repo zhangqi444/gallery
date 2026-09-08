@@ -1,4 +1,4 @@
-# Sheila's blog
+# The Little Me
 
 A blog whose data belongs to whoever wrote it. Sign in with Google and your posts
 and pictures live in **your own Google Drive**; press Publish and one file is
@@ -7,8 +7,8 @@ author is their own tenant and there is no server, no database and no shared
 store — the same contract as [`volunteer`](https://github.com/zhangqi444/volunteer)
 and [`isee`](https://github.com/zhangqi444/isee).
 
-This deployment is also the home of Sheila's blog, laid out like
-[sheilazhang.org](https://sheilazhang.org): a front
+This deployment is also the home of the blog, laid out like the one it came
+from: a front
 page with the site's name and tagline, the newest post leading and the rest in a
 grid, a reading page per post, topics, an **About** page, and a **Gallery** of
 pictures. Posts are Markdown files in `content/posts`; nothing else is needed to
@@ -68,7 +68,7 @@ optional `updated`, `image`, `imageAlt`; they are reachable at `#/<slug>`. The
 gallery is `content/gallery.json`: `src`, `alt`, `caption`, `date`. The site's
 name, tagline, author and navigation are in `content/site.json`.
 
-The posts came across from Sheila's Ghost blog with `site/import_ghost.py`,
+The posts came across from the earlier Ghost blog with `site/import_ghost.py`,
 which is kept for a second pass if more are written there:
 
     python3 site/import_ghost.py path/to/export.json            # keep the CDN's pictures

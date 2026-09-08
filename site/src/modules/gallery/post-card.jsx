@@ -16,9 +16,12 @@ export function Avatar({ className }) {
 }
 
 export function PostMeta({ post, className, byline = true }) {
+  // A blog need not name anybody. With no author name there is nobody to show,
+  // so the byline goes rather than leaving an empty avatar and a stray dot.
+  const named = byline && Boolean(C.site.author.name)
   return (
     <div className={cn("flex items-center gap-2 text-xs text-muted-foreground", className)}>
-      {byline && (
+      {named && (
         <>
           <Avatar />
           <span className="font-medium text-foreground">{C.site.author.name}</span>

@@ -47,10 +47,11 @@ Claude-Session: <session url>
   integration" even though the bundle check and the build before it pass. The
   owner has now done that — *Deploy site* has been green since
   `6424099`, so a red run after a push is this repository's fault, not Pages'.
-- `sheilazhang.org` and the Internet Archive are not reachable from the remote
-  sandbox, so the layout was reconstructed from the search summary of its pages
-  and from the conventions its theme follows. It is a visual reference only:
-  this repository is a blog of its own, sharing no code or platform with it.
+- The blog the layout came from, and the Internet Archive, are not reachable
+  from the remote sandbox, so the layout was reconstructed from the search
+  summary of its pages and from the conventions its theme follows. It is a
+  visual reference only: this repository is a blog of its own, sharing no code
+  or platform with it.
 - Pictures must be in `site/public/images/`; `make_bundle.py` refuses a post
   whose `image` is not there.
 - The deployed site cannot be opened from the remote sandbox: both

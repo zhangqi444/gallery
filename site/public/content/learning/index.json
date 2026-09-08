@@ -293,7 +293,7 @@
   }
  },
  "books": {
-  "note": "Independent reading. The starter books are what Sheila has actually read or is reading; suggestions are well-known middle-grade titles chosen for the reading skills the ISEE tests. A starter book added later is put on the shelf by seedBooks on every device, once.",
+  "note": "Independent reading. The starter books are what she has actually read or is reading; suggestions are well-known middle-grade titles chosen for the reading skills the ISEE tests. A starter book added later is put on the shelf by seedBooks on every device, once.",
   "starter": [
    {
     "author": "Roald Dahl",
@@ -508,7 +508,7 @@
     {
      "id": "format",
      "path": "/calendar",
-     "text": "Decide how Sheila will sit the real ISEE — Prometric (Mountlake Terrace), at home, or a school sitting — and pin the target date on the Calendar",
+     "text": "Decide how she will sit the real ISEE — Prometric (Mountlake Terrace), at home, or a school sitting — and pin the target date on the Calendar",
      "why": "Everything else (registration cutoffs, score timing) hangs off this."
     },
     {

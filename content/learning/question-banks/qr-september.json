@@ -20,7 +20,7 @@
    "correct": "C",
    "explanation": "Find 3/4 of 28: 28÷4=7, and 7×3=21 bulbs.",
    "misconceptions": "fraction-of-whole",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "fcc0c77d7d9e3fbb"
   },
@@ -41,7 +41,7 @@
    "correct": "B",
    "explanation": "Use eighteenths: 5/6=15/18 and 7/9=14/18, so the 5/6 runner completed more.",
    "misconceptions": "fraction-of-whole",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "62652b4be452c99c"
   },
@@ -62,7 +62,7 @@
    "correct": "D",
    "explanation": "20/8 = 2.5 batches; 3 × 2.5 = 7.5 cups.",
    "misconceptions": "ratio-proportional-scaling",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "54ea507e15f1d40b"
   },
@@ -83,7 +83,7 @@
    "correct": "B",
    "explanation": "$10 ÷ 4 = $2.50.",
    "misconceptions": "rate-division-direction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "293f84d0177e7143"
   },
@@ -104,7 +104,7 @@
    "correct": "C",
    "explanation": "18 is 3 parts, so 1 part is 6; 5 parts = 30.",
    "misconceptions": "inverse-fraction-whole",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "9facf542f0ddbb2a"
   },
@@ -125,7 +125,7 @@
    "correct": "D",
    "explanation": "There are 5 equal parts; 25 ÷ 5 = 5, and 2 parts = 10.",
    "misconceptions": "ratio-total-parts",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "a77d36840a5179cc"
   },
@@ -146,7 +146,7 @@
    "correct": "C",
    "explanation": "She read 40 pages, then 10 more of the 20 remaining, leaving 10.",
    "misconceptions": "unlike-denominator-subtraction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "e44488c4d1ecc748"
   },
@@ -167,7 +167,7 @@
    "correct": "A",
    "explanation": "180 ÷ 3 = 60 mph.",
    "misconceptions": "rate-units-and-scaling",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "a4abd9ee6df86da1"
   },
@@ -188,7 +188,7 @@
    "correct": "B",
    "explanation": "Use twelfths: 2/3=8/12 and 1/4=3/12, so 8/12+3/12=11/12.",
    "misconceptions": "unlike-denominator-addition",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "9436e4bb18fafe29"
   },
@@ -209,7 +209,7 @@
    "correct": "A",
    "explanation": "Rename 5 1/2 as 5 2/4, regroup, and subtract 2 3/4 to get 2 3/4 yards.",
    "misconceptions": "unlike-denominator-subtraction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "b6c2180f5030d3f4"
   },
@@ -230,7 +230,7 @@
    "correct": "A",
    "explanation": "3/4 = 6/8, so there are six 1/8-cup servings.",
    "misconceptions": "unlike-denominator-subtraction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "ac5c0463d2f9ddf8"
   },
@@ -251,7 +251,7 @@
    "correct": "D",
    "explanation": "Multiply both parts of 4:5 by 3 to get the equivalent ratio 12:15.",
    "misconceptions": "equivalent-ratio-scaling",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "a4f2eeb4537d2001"
   },
@@ -272,7 +272,7 @@
    "correct": "C",
    "explanation": "The equation is 6x=24. Divide both sides by 6 to get x=4 tickets.",
    "misconceptions": "inverse-operation-order",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "6aeaf2b8e27aad55"
   },
@@ -293,7 +293,7 @@
    "correct": "C",
    "explanation": "Compare each gap from 1. The gap for 9/10 is only 1/10, smaller than the other gaps.",
    "misconceptions": "fraction-comparison-benchmark",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "a2d1f5014b315185"
   },
@@ -314,7 +314,7 @@
    "correct": "B",
    "explanation": "$7.50 ÷ 5 = $1.50 per pen; 8 × $1.50 = $12.",
    "misconceptions": "rate-units-and-scaling",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "278e3b351314f23d"
   },
@@ -335,7 +335,7 @@
    "correct": "B",
    "explanation": "Girls are 3/5 of the class. If 3/5 = 18, then the whole is 30.",
    "misconceptions": "fraction-of-whole",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "7d14c5b625eeeffc"
   },
@@ -356,7 +356,7 @@
    "correct": "A",
    "explanation": "Twenty-five percent is one fourth, and 48÷4=12 reserved seats.",
    "misconceptions": "percent-as-part-of-whole",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "1f7a0499d7c64bb0"
   },
@@ -377,7 +377,7 @@
    "correct": "D",
    "explanation": "Divide numerator and denominator by 2: 6/8=3/4 mile.",
    "misconceptions": "fraction-equivalence",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "fd4e7ebb0ab1e926"
   },
@@ -398,7 +398,7 @@
    "correct": "C",
    "explanation": "18:12 simplifies by dividing both numbers by 6 to 3:2.",
    "misconceptions": "ratio-simplification",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "6c36bc32b8770cac"
   },
@@ -419,7 +419,7 @@
    "correct": "A",
    "explanation": "18 ÷ 3 × 4 = 24 gallons.",
    "misconceptions": "inverse-fraction-whole",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "0ece6f7af43f562b"
   },
@@ -440,7 +440,7 @@
    "correct": "C",
    "explanation": "Store A is $1.50 each; Store B is $1.40 each.",
    "misconceptions": "unit-price-comparison",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "8bc1245200da7269"
   },
@@ -461,7 +461,7 @@
    "correct": "A",
    "explanation": "The rule is multiply by 3, so 54×3=162 tiles.",
    "misconceptions": "multiplicative-pattern-rule",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "45bc264bef0b238f"
   },
@@ -482,7 +482,7 @@
    "correct": "A",
    "explanation": "Add the scores to get 33, then divide by 3: 33÷3=11.",
    "misconceptions": "mean-sum-vs-count",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "92b4fe0ee0afc995"
   },
@@ -503,7 +503,7 @@
    "correct": "D",
    "explanation": "There are 10 equal parts; 50 ÷ 10 = 5, so cats = 7 × 5 = 35.",
    "misconceptions": "ratio-total-parts",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "080f4d0e64acddab"
   },
@@ -524,7 +524,7 @@
    "correct": "D",
    "explanation": "Use tenths: 4/5=8/10 and 1/2=5/10, so 8/10−5/10=3/10 cup.",
    "misconceptions": "unlike-denominator-subtraction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "d1fb23cabe1915b8"
   },
@@ -545,7 +545,7 @@
    "correct": "B",
    "explanation": "Rename 2 1/4 as 9/4. Then (9/4)÷(3/4)=3 full bottles.",
    "misconceptions": "unlike-denominator-subtraction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "49d1758debf37f50"
   },
@@ -566,7 +566,7 @@
    "correct": "B",
    "explanation": "3.5 × 6 = 21 miles.",
    "misconceptions": "scale-multiply-vs-divide",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W1",
    "content_hash": "e23832d6e3bedaec"
   },
@@ -587,7 +587,7 @@
    "correct": "B",
    "explanation": "A photo display has 7 rows of 7 tiles, so 7×7=49.",
    "misconceptions": "square-area-vs-side",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "6470dfc82b8b7597"
   },
@@ -608,7 +608,7 @@
    "correct": "C",
    "explanation": "A square with area 81 has side √81=9.",
    "misconceptions": "area-to-side-square-root",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "d847a7b8da249e9c"
   },
@@ -629,7 +629,7 @@
    "correct": "A",
    "explanation": "The side length is √64=8 tiles.",
    "misconceptions": "area-to-side-square-root",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "6775f317a2df3b08"
   },
@@ -650,7 +650,7 @@
    "correct": "B",
    "explanation": "7²=49 and 8²=64, so √50 lies between 7 and 8.",
    "misconceptions": "square-root-benchmark",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "caaabc700532ef6f"
   },
@@ -671,7 +671,7 @@
    "correct": "D",
    "explanation": "36 makes a 6-by-6 array; the other counts do not make equal rows and columns.",
    "misconceptions": "property-vs-example",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "1dfaa6103ad0de1d"
   },
@@ -692,7 +692,7 @@
    "correct": "B",
    "explanation": "Area of a square is side × side: 12×12=144 cm².",
    "misconceptions": "area-vs-perimeter",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "83d56111a11906b1"
   },
@@ -713,7 +713,7 @@
    "correct": "A",
    "explanation": "The side is √81=9; perimeter =4×9=36 in.",
    "misconceptions": "area-to-perimeter-sequence",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "f26b369625662680"
   },
@@ -734,7 +734,7 @@
    "correct": "D",
    "explanation": "The counts are square arrays 1²,2²,3²,4²; next is 5²=25.",
    "misconceptions": "multiplicative-pattern-rule",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "0c08c99d4e2a7d70"
   },
@@ -755,7 +755,7 @@
    "correct": "C",
    "explanation": "Odd + even is always odd.",
    "misconceptions": "parity-operation-rule",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "82d2e47212628269"
   },
@@ -776,7 +776,7 @@
    "correct": "D",
    "explanation": "A number is divisible by 3 when its digit sum is divisible by 3. 2+3+4=9.",
    "misconceptions": "divisibility-rule-selection",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "70af2395d96e2ff7"
   },
@@ -797,7 +797,7 @@
    "correct": "C",
    "explanation": "6×8=48, leaving 5 supplies.",
    "misconceptions": "quotient-vs-remainder",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "4dacedaa8f112b55"
   },
@@ -818,7 +818,7 @@
    "correct": "A",
    "explanation": "42÷6=7, so rows of 6 work exactly.",
    "misconceptions": "factor-vs-multiple",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "fb849910c9b06944"
   },
@@ -839,7 +839,7 @@
    "correct": "C",
    "explanation": "√100=10, so a 10-by-10 mural has 100 squares.",
    "misconceptions": "area-to-side-square-root",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "e5c38c9c71db9e10"
   },
@@ -860,7 +860,7 @@
    "correct": "C",
    "explanation": "11×11=121.",
    "misconceptions": "area-to-side-square-root",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "83efa026f1eda09a"
   },
@@ -881,7 +881,7 @@
    "correct": "B",
    "explanation": "8²=64 and 2⁶=64, so both cover 64 cells.",
    "misconceptions": "exponent-as-repeated-multiplication",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "b10aaf251d5b708c"
   },
@@ -902,7 +902,7 @@
    "correct": "A",
    "explanation": "6²=36 and 7²=49, so 40 lies between them.",
    "misconceptions": "square-benchmark-interval",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "b24375151c3f981c"
   },
@@ -923,7 +923,7 @@
    "correct": "B",
    "explanation": "Each term is double the previous term minus 1: 33×2−1=65.",
    "misconceptions": "multiplicative-pattern-rule",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "f6c7b319389e67cf"
   },
@@ -944,7 +944,7 @@
    "correct": "A",
    "explanation": "The least common multiple of 6 and 8 is 24.",
    "misconceptions": "lcm-vs-gcf",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "48c7a73635e37908"
   },
@@ -965,7 +965,7 @@
    "correct": "C",
    "explanation": "The greatest common factor of 18 and 24 is 6.",
    "misconceptions": "gcf-vs-lcm",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "c35b4e7c1e9e1af7"
   },
@@ -986,7 +986,7 @@
    "correct": "A",
    "explanation": "42=2×3×7, so the greatest prime factor is 7.",
    "misconceptions": "prime-vs-composite-factor",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "a635877c9037c4e2"
   },
@@ -1007,7 +1007,7 @@
    "correct": "B",
    "explanation": "An odd number plus 3 (an odd number) is even.",
    "misconceptions": "parity-operation-rule",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "9cb62b1ae0a568b3"
   },
@@ -1028,7 +1028,7 @@
    "correct": "A",
    "explanation": "The three numbers are 11,12,13; the middle is 12.",
    "misconceptions": "consecutive-middle-average",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "4815948b4ec036c4"
   },
@@ -1049,7 +1049,7 @@
    "correct": "C",
    "explanation": "198 is close to 200, and 200×6=1,200.",
    "misconceptions": "estimate-vs-exact",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "2647b404d9a9301a"
   },
@@ -1070,7 +1070,7 @@
    "correct": "D",
    "explanation": "4²+3²=16+9=25.",
    "misconceptions": "substitute-before-operating",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "744cc293d01e485e"
   },
@@ -1091,7 +1091,7 @@
    "correct": "B",
    "explanation": "2+4=6 and 3−2=1, so the point is (6,1).",
    "misconceptions": "axis-direction-and-sign",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "f7f1b028669bc275"
   },
@@ -1112,7 +1112,7 @@
    "correct": "D",
    "explanation": "Those are exactly the positive factors of 8.",
    "misconceptions": "complete-factor-list",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "b7aa1f993581c072"
   },
@@ -1133,7 +1133,7 @@
    "correct": "D",
    "explanation": "81=9².",
    "misconceptions": "square-benchmark-interval",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W2",
    "content_hash": "96eb7dce850852b2"
   },
@@ -1154,7 +1154,7 @@
    "correct": "C",
    "explanation": "Volume = length × width × height = 5×4×3 = 60.",
    "misconceptions": "volume-three-dimensions",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "827eee3e3d31f5cf"
   },
@@ -1175,7 +1175,7 @@
    "correct": "D",
    "explanation": "96 ÷ (8×4) = 3.",
    "misconceptions": "inverse-volume-dimension",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "cd90a4db453ed8b2"
   },
@@ -1196,7 +1196,7 @@
    "correct": "A",
    "explanation": "4³ = 4×4×4 = 64.",
    "misconceptions": "inverse-volume-dimension",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "230b779da666cb6b"
   },
@@ -1217,7 +1217,7 @@
    "correct": "A",
    "explanation": "Perimeter = 2(7+5)=24.",
    "misconceptions": "area-vs-perimeter",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "bc3913590726a09a"
   },
@@ -1238,7 +1238,7 @@
    "correct": "B",
    "explanation": "Area = 1/2 × 10 × 6 = 30.",
    "misconceptions": "triangle-one-half",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "194dfb9246b84a2e"
   },
@@ -1259,7 +1259,7 @@
    "correct": "D",
    "explanation": "Angles on a straight line total 180°; 180−125=55.",
    "misconceptions": "straight-angle-total",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "c04b16c75a6800df"
   },
@@ -1280,7 +1280,7 @@
    "correct": "B",
    "explanation": "A square matches across its vertical, horizontal, and two diagonal folds, for 4 lines.",
    "misconceptions": "reflection-lines-count",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "2ab21d9c69e35733"
   },
@@ -1301,7 +1301,7 @@
    "correct": "C",
    "explanation": "Volume is proportional to height, so doubling height doubles volume.",
    "misconceptions": "volume-linear-scale-factor",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "540be14f46a7452a"
   },
@@ -1322,7 +1322,7 @@
    "correct": "B",
    "explanation": "Width = 4 and height = 3, so area = 12.",
    "misconceptions": "coordinate-distance-to-area",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "2f4fa910482cf7a7"
   },
@@ -1343,7 +1343,7 @@
    "correct": "C",
    "explanation": "The readings total 50; 50÷5=10.",
    "misconceptions": "mean-sum-vs-count",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "650d8f5f00c4cf6e"
   },
@@ -1364,7 +1364,7 @@
    "correct": "A",
    "explanation": "With five ordered values, the third value is the median: 8.",
    "misconceptions": "order-before-median",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "a5b76ea38e9bf6d9"
   },
@@ -1385,7 +1385,7 @@
    "correct": "D",
    "explanation": "Range is high minus low: 20−11=9°.",
    "misconceptions": "range-max-minus-min",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "bc739ce212de6752"
   },
@@ -1406,7 +1406,7 @@
    "correct": "C",
    "explanation": "9×2×5=90.",
    "misconceptions": "volume-three-dimensions",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "571fa9b93e7a2d34"
   },
@@ -1427,7 +1427,7 @@
    "correct": "B",
    "explanation": "5³ = 125.",
    "misconceptions": "inverse-volume-dimension",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "f0a887fea43b3812"
   },
@@ -1448,7 +1448,7 @@
    "correct": "A",
    "explanation": "48 ÷ 6 = 8.",
    "misconceptions": "area-missing-dimension",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "e58f8d74a7fbb9b2"
   },
@@ -1469,7 +1469,7 @@
    "correct": "A",
    "explanation": "2(9+w)=30, so 9+w=15 and w=6.",
    "misconceptions": "perimeter-half-before-subtract",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "83a3ff69a797e0b1"
   },
@@ -1490,7 +1490,7 @@
    "correct": "B",
    "explanation": "Triangle angles total 180°; 180−110=70.",
    "misconceptions": "triangle-angle-sum",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "02b64119a0eaf278"
   },
@@ -1511,7 +1511,7 @@
    "correct": "B",
    "explanation": "The total of all four is 72; 72−50=22.",
    "misconceptions": "mean-total-relationship",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "d339ba45bf73051f"
   },
@@ -1532,7 +1532,7 @@
    "correct": "C",
    "explanation": "The fourth of seven ordered values is the median, so the median is 9.",
    "misconceptions": "order-before-median",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "166dbaac300dd603"
   },
@@ -1553,7 +1553,7 @@
    "correct": "D",
    "explanation": "Green has the greatest frequency with 8 votes, so the modal response count is 8.",
    "misconceptions": "mode-frequency-vs-value",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "2d80b4202d782b06"
   },
@@ -1574,7 +1574,7 @@
    "correct": "A",
    "explanation": "There are 10 marbles total and 2 are blue: 2/10=1/5.",
    "misconceptions": "favorable-over-total",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "901736fb3eeaadcb"
   },
@@ -1595,7 +1595,7 @@
    "correct": "B",
    "explanation": "7 of the 10 marbles are not red.",
    "misconceptions": "probability-complement",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "3fbaa6146147a3e7"
   },
@@ -1616,7 +1616,7 @@
    "correct": "D",
    "explanation": "Doubling both dimensions multiplies area by 2×2=4.",
    "misconceptions": "area-scale-factor-squared",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "faaf118f39424089"
   },
@@ -1637,7 +1637,7 @@
    "correct": "C",
    "explanation": "Volume is proportional to length.",
    "misconceptions": "volume-linear-scale-factor",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "e60192d6dcbe1a0d"
   },
@@ -1658,7 +1658,7 @@
    "correct": "A",
    "explanation": "Reflection across the y-axis changes the sign of x and keeps y, giving (−3,−2).",
    "misconceptions": "reflection-sign-change",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "3414fda09c3668d6"
   },
@@ -1679,7 +1679,7 @@
    "correct": "D",
    "explanation": "Adding a value much larger than the old mean raises the mean.",
    "misconceptions": "outlier-effect-on-mean",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "6db2319843f44751"
   },
@@ -1700,7 +1700,7 @@
    "correct": "C",
    "explanation": "The mean uses every value and is pulled toward an extreme outlier.",
    "misconceptions": "outlier-mean-vs-median",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W3",
    "content_hash": "716ade83e6e1ce32"
   },
@@ -1721,7 +1721,7 @@
    "correct": "A",
    "explanation": "Rename 3/4 as 6/8, so six 1/8-cup pots can be filled.",
    "misconceptions": "fraction-division-direction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "99e3d101e95943bb"
   },
@@ -1742,7 +1742,7 @@
    "correct": "D",
    "explanation": "There are 8 parts; 32÷8=4, and 5 parts = 20.",
    "misconceptions": "ratio-total-parts",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "e2c67a083dc275b9"
   },
@@ -1763,7 +1763,7 @@
    "correct": "C",
    "explanation": "$3.60 ÷ 12 = $0.30.",
    "misconceptions": "rate-division-direction",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "79b69f0e7ac24b0f"
   },
@@ -1784,7 +1784,7 @@
    "correct": "A",
    "explanation": "The side length is √144=12 because 12×12=144.",
    "misconceptions": "area-to-side-square-root",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "f6cb470d57cdadc2"
   },
@@ -1805,7 +1805,7 @@
    "correct": "B",
    "explanation": "49=7², 64=8², and 81=9²; 72 is not a perfect square.",
    "misconceptions": "perfect-square-identification",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "d0b22eb35f81d7d3"
   },
@@ -1826,7 +1826,7 @@
    "correct": "C",
    "explanation": "180 ÷ (10×6)=3.",
    "misconceptions": "inverse-volume-dimension",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "a32bb89e63c30392"
   },
@@ -1847,7 +1847,7 @@
    "correct": "C",
    "explanation": "Width=54÷9=6; perimeter=2(9+6)=30.",
    "misconceptions": "area-to-perimeter-sequence",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "c73b88b1d1031010"
   },
@@ -1868,7 +1868,7 @@
    "correct": "B",
    "explanation": "180−55−55=70.",
    "misconceptions": "isosceles-triangle-angle-sum",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "5d326881d62895f2"
   },
@@ -1889,7 +1889,7 @@
    "correct": "D",
    "explanation": "A mean of 15 for 4 numbers means total 60; 60−42=18.",
    "misconceptions": "mean-sum-vs-count",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "a1dc19648d7483e5"
   },
@@ -1910,7 +1910,7 @@
    "correct": "B",
    "explanation": "6 of 8 sections are not green: 6/8=3/4.",
    "misconceptions": "probability-complement",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "ae7283531c3ab248"
   },
@@ -1931,7 +1931,7 @@
    "correct": "D",
    "explanation": "Each term doubles, so 24×2=48 pages.",
    "misconceptions": "multiplicative-pattern-rule",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "89116f8f2669bf28"
   },
@@ -1952,7 +1952,7 @@
    "correct": "A",
    "explanation": "24÷4=6 and 24÷6=4, so 24 is divisible by both numbers.",
    "misconceptions": "combined-divisibility-tests",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "f994619d5c4bcbf3"
   },
@@ -1973,7 +1973,7 @@
    "correct": "C",
    "explanation": "The removed 8 cups equals 1/3 of the jar, so full capacity is 24.",
    "misconceptions": "inverse-fraction-whole",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "babae74d7b16a76b"
   },
@@ -1994,7 +1994,7 @@
    "correct": "B",
    "explanation": "7.5 ÷ 1.5 = 5 mph.",
    "misconceptions": "rate-units-and-scaling",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "e30f770cf9f2bce3"
   },
@@ -2015,7 +2015,7 @@
    "correct": "B",
    "explanation": "There are 7 parts; 21÷7=3, so blue = 2×3 = 6.",
    "misconceptions": "ratio-part-to-part",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "52ff42f61a22976c"
   },
@@ -2036,7 +2036,7 @@
    "correct": "C",
    "explanation": "The board has 9²=81 spaces, and 3⁴=81.",
    "misconceptions": "equivalent-powers",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "d645ffd7efca551f"
   },
@@ -2057,7 +2057,7 @@
    "correct": "C",
    "explanation": "Because 8²=64 and 9²=81, √70 lies between 8 and 9.",
    "misconceptions": "square-root-benchmark",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "017fbb6b86764528"
   },
@@ -2078,7 +2078,7 @@
    "correct": "B",
    "explanation": "30 is divisible by 2, 3, and 5.",
    "misconceptions": "combined-divisibility-tests",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "f1ba20ad81c1af4b"
   },
@@ -2099,7 +2099,7 @@
    "correct": "D",
    "explanation": "The increases are +3,+6,+12, so the next increase is +24 and 25+24=49.",
    "misconceptions": "growing-difference-pattern",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "ed6ad0f5d3f0f7e3"
   },
@@ -2120,7 +2120,7 @@
    "correct": "A",
    "explanation": "Original volume is 120; halving height halves volume to 60.",
    "misconceptions": "volume-scale-factor",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "4e2585a7bed6003f"
   },
@@ -2141,7 +2141,7 @@
    "correct": "D",
    "explanation": "Each side is 9; area = 9² = 81.",
    "misconceptions": "perimeter-to-area",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "67aa783d0cc1aaa9"
   },
@@ -2162,7 +2162,7 @@
    "correct": "B",
    "explanation": "A right angle totals 90°, so 90−38=52°.",
    "misconceptions": "triangle-angle-sum",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "8cf97f09f4f57cc1"
   },
@@ -2183,7 +2183,7 @@
    "correct": "A",
    "explanation": "Total equals mean×number of trays: 14×5=70 items.",
    "misconceptions": "mean-total-relationship",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "bdcdb1da2bd50d7f"
   },
@@ -2204,7 +2204,7 @@
    "correct": "D",
    "explanation": "With x=12, the ordered list is 3,6,9,12,15, whose middle value is 9.",
    "misconceptions": "order-before-median",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "6071a5ede0b3a92f"
   },
@@ -2225,7 +2225,7 @@
    "correct": "A",
    "explanation": "The favorable outcomes are 5 and 6, so the probability is 2/6=1/3.",
    "misconceptions": "favorable-over-total",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "858a4b177d9e362d"
   },
@@ -2246,7 +2246,7 @@
    "correct": "A",
    "explanation": "-2+5=3, so the point is (3,4).",
    "misconceptions": "axis-direction-and-sign",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "2712015a118ecbc7"
   },
@@ -2267,7 +2267,7 @@
    "correct": "C",
    "explanation": "36 pages are read, leaving 24; 24/60=2/5.",
    "misconceptions": "multi-step-whole-tracking",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W4",
    "content_hash": "0889d8ad6c402238"
   }

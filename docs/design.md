@@ -7,9 +7,9 @@ child uses — and the reasons behind it. Companion to
 
 ## Who it is for
 
-Sheila, 9, who makes the pictures, and the friends and family who look at them.
-The shape is the one she already knows from sheilazhang.org: a calm front page,
-big readable titles, pictures that are allowed to be large.
+The nine-year-old who makes the pictures, and the friends and family who look
+at them. The shape is the one she already knows from the blog she kept before:
+a calm front page, big readable titles, pictures that are allowed to be large.
 
 **The content decides the design.** Almost every post is one picture with a
 title and a date. So a card is a picture with its title under it and no excerpt,
@@ -34,7 +34,7 @@ one grid is a page nobody can use.
 ## Theme
 
 The tokens are the "Calm Scholar" neutrals shared with isee and volunteer, with
-the accent moved to blue because Sheila's favourite colour is blue. They are CSS
+the accent moved to blue because blue is her favourite colour. They are CSS
 variables in `site/src/index.css`, mapped into Tailwind v4 with `@theme inline`.
 
 | Token | Light | Dark | Used for |

@@ -20,7 +20,7 @@
    "correct": "B",
    "explanation": "A mixed number converts as (3 × 5) + 2 = 17 fifths, so 3 2/5 = 17/5.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "a02a2d0b654b5fd0"
   },
@@ -41,7 +41,7 @@
    "correct": "B",
    "explanation": "Rewrite both with denominator 12: 8/12 + 3/12 = 11/12.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "7790c3f85fc26083"
   },
@@ -62,7 +62,7 @@
    "correct": "C",
    "explanation": "Rewrite with denominator 24: 21/24 − 16/24 = 5/24.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "20c3afa63317a8a4"
   },
@@ -83,7 +83,7 @@
    "correct": "D",
    "explanation": "Multiply across: (3 × 2)/(4 × 5) = 6/20, which simplifies to 3/10.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "acccc58443492704"
   },
@@ -104,7 +104,7 @@
    "correct": "A",
    "explanation": "Dividing by 1/4 means multiplying by 4: 5/8 × 4 = 20/8 = 2 1/2.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "653ca606b76d5d8d"
   },
@@ -125,7 +125,7 @@
    "correct": "D",
    "explanation": "Change to improper fractions: 5/2 × 8/5 = 40/10 = 4.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "64f7313f2ac48275"
   },
@@ -146,7 +146,7 @@
    "correct": "D",
    "explanation": "6 × 7 = 42, and the factors have 1 + 2 = 3 decimal places, so the answer is 0.042.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "c764b81e6868f03f"
   },
@@ -167,7 +167,7 @@
    "correct": "A",
    "explanation": "Multiply both numbers by 10: 40.5 ÷ 9 = 4.5. Check: 0.9 × 4.5 = 4.05.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "a0c7a575d788121e"
   },
@@ -188,7 +188,7 @@
    "correct": "C",
    "explanation": "Line up the points and write 7.3 as 7.30: 7.30 − 2.85 = 4.45.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "4776efcca4345d5f"
   },
@@ -209,7 +209,7 @@
    "correct": "C",
    "explanation": "3 ÷ 8 = 0.375. (0.625 is 5/8, not 3/8.)",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "9434a37b6aaec3d8"
   },
@@ -230,7 +230,7 @@
    "correct": "B",
    "explanation": "Move the decimal point two places right: 0.045 = 4.5%.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "5bb5a5a686545092"
   },
@@ -251,7 +251,7 @@
    "correct": "D",
    "explanation": "12.5% = 1/8, and 96 ÷ 8 = 12.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "178f1485f271b26a"
   },
@@ -272,7 +272,7 @@
    "correct": "D",
    "explanation": "2 × 2 3/4 = 4 + 6/4 = 4 + 1 1/2 = 5 1/2 cups.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "a62b2caa2a659800"
   },
@@ -293,7 +293,7 @@
    "correct": "C",
    "explanation": "Half of 2/3 is 1/2 × 2/3 = 2/6, and 2/6 simplifies to 1/3 cup.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "1d116352fc0a1aed"
   },
@@ -314,7 +314,7 @@
    "correct": "A",
    "explanation": "3 1/3 = 20/6, and 20/6 − 5/6 = 15/6 = 2 1/2 cups.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "8bcce6b6d6127e97"
   },
@@ -335,7 +335,7 @@
    "correct": "B",
    "explanation": "9/2 ÷ 3/4 = 9/2 × 4/3 = 36/6 = 6 pieces.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "f3d1403828e7d8c2"
   },
@@ -356,7 +356,7 @@
    "correct": "A",
    "explanation": "1.35 × 2.4: 1.35 × 2 = 2.70 and 1.35 × 0.4 = 0.54, and 2.70 + 0.54 = $3.24.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "6d3531652bae7305"
   },
@@ -377,7 +377,7 @@
    "correct": "C",
    "explanation": "3 × $2.45 = $7.35, and $10.00 − $7.35 = $2.65.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "67660e70bcbc3015"
   },
@@ -398,7 +398,7 @@
    "correct": "A",
    "explanation": "The sale price is 100% − 30% = 70% of the regular price, so 10% of the regular price is $42 ÷ 7 = $6, and the whole price is 10 × $6 = $60.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "2b754b08b491afd8"
   },
@@ -419,7 +419,7 @@
    "correct": "C",
    "explanation": "25% of $28 is $7, and $28 + $7 = $35.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "0574d1e2c7dfc27d"
   },
@@ -440,7 +440,7 @@
    "correct": "B",
    "explanation": "15 out of 40 is 15/40 = 3/8 = 0.375, which is 37.5%.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "707799210bc6e25e"
   },
@@ -461,7 +461,7 @@
    "correct": "A",
    "explanation": "The drop is $50, and 50/200 = 1/4, so the price decreased by 25%.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "379e77d02322be32"
   },
@@ -482,7 +482,7 @@
    "correct": "B",
    "explanation": "Written as decimals, 3/5 = 0.6, 5/8 = 0.625 and 58% = 0.58, and 0.625 is more than 0.61, so 5/8 is the greatest value.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "02a74fda365b964f"
   },
@@ -503,7 +503,7 @@
    "correct": "D",
    "explanation": "The part left is 2/5 of 12.5, and 12.5 ÷ 5 = 2.5, so 2 × 2.5 = 5 liters.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W5",
    "content_hash": "60e82289f8f80524"
   },
@@ -524,7 +524,7 @@
    "correct": "D",
    "explanation": "Angle B = 2 × 34° = 68°, and 180° − (34° + 68°) = 78°.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "61a885bc7312c7a2"
   },
@@ -545,7 +545,7 @@
    "correct": "C",
    "explanation": "The four angles total 360°, and 360° − (100° + 85° + 65°) = 360° − 250° = 110°.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "3d26938557043ba2"
   },
@@ -566,7 +566,7 @@
    "correct": "A",
    "explanation": "The two acute angles of a right triangle add to 90°, and 90° − 27° = 63°.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "e15b9b7397acbb8c"
   },
@@ -587,7 +587,7 @@
    "correct": "D",
    "explanation": "The two base angles share 180° − 40° = 140°, so each one is 140° ÷ 2 = 70°.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "7032534a09e587c5"
   },
@@ -608,7 +608,7 @@
    "correct": "D",
    "explanation": "One length plus one width is 34 ÷ 2 = 17 cm, so the length is 17 − 6 = 11 cm.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "6ba7d13983a6cc62"
   },
@@ -629,7 +629,7 @@
    "correct": "A",
    "explanation": "The width is 72 ÷ 9 = 8 in, so the perimeter is 2 × (9 + 8) = 34 in.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "c1217599f3e57dd3"
   },
@@ -650,7 +650,7 @@
    "correct": "C",
    "explanation": "The whole rectangle covers 8 × 5 = 40 sq cm and the corner piece cut away covers 3 × 2 = 6 sq cm, so the L-shaped tile left over covers 40 − 6 = 34 sq cm.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "50d4f8e91ea25da7"
   },
@@ -671,7 +671,7 @@
    "correct": "C",
    "explanation": "The perimeters are 2 × (12 + 3) = 30 and 2 × (6 + 6) = 24, and 30 − 24 = 6 units.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "35ccfbbe676575ab"
   },
@@ -692,7 +692,7 @@
    "correct": "A",
    "explanation": "A diameter is twice the radius, so 2 × 13 = 26 in.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "e39b11eda1bc379b"
   },
@@ -713,7 +713,7 @@
    "correct": "C",
    "explanation": "Moving left subtracts from x and moving down subtracts from y: (7 − 4, 5 − 2) = (3, 3).",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "d52975e87578af65"
   },
@@ -734,7 +734,7 @@
    "correct": "B",
    "explanation": "The rectangle is 8 − 2 = 6 units wide and 5 − 1 = 4 units tall, so the area is 6 × 4 = 24 square units.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "56245ea1b2566f9b"
   },
@@ -755,7 +755,7 @@
    "correct": "C",
    "explanation": "The point is 4 units left of x = 6, so its image is 4 units right of it, at (6 + 4, 5) = (10, 5).",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "eca8cb7b1c2a0555"
   },
@@ -776,7 +776,7 @@
    "correct": "B",
    "explanation": "The floor area is 12 × 9 = 108 square feet, and 108 × $3 = $324.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "cce1979589b8faf1"
   },
@@ -797,7 +797,7 @@
    "correct": "D",
    "explanation": "The rectangle covers 10 × 6 = 60 sq cm and the triangle covers 1/2 × 10 × 4 = 20 sq cm, so the whole figure covers 60 + 20 = 80 sq cm.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "490dc4a1f4b9e715"
   },
@@ -818,7 +818,7 @@
    "correct": "D",
    "explanation": "The square has side 10 cm and area 100 sq cm; the rectangle is 14 cm by 6 cm with area 84 sq cm, and 100 − 84 = 16 sq cm.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "282b84e802952934"
   },
@@ -839,7 +839,7 @@
    "correct": "C",
    "explanation": "The distance around is 2 × (7 + 5) = 24 feet, and 24 × $4 = $96.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "c14aa689d0d36c28"
   },
@@ -860,7 +860,7 @@
    "correct": "C",
    "explanation": "The first two angles share 180° − 40° = 140°, so the first is (140 − 20) ÷ 2 = 60° and the second is 80°, the largest.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "eee3cdc21ba72842"
   },
@@ -881,7 +881,7 @@
    "correct": "A",
    "explanation": "The two angles total 180°, which is 4 equal parts here, so the smaller angle is 180° ÷ 4 = 45°.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "0e5062ff6ef6038b"
   },
@@ -902,7 +902,7 @@
    "correct": "B",
    "explanation": "A path through the center is a diameter, which is 2 × 11 = 22 ft.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "e28e5bd4e1fc6cf3"
   },
@@ -923,7 +923,7 @@
    "correct": "C",
    "explanation": "The large radius is 12 cm, so the small radius is 12 ÷ 3 = 4 cm and its diameter is 2 × 4 = 8 cm.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "09cb64fc886135a2"
   },
@@ -944,7 +944,7 @@
    "correct": "A",
    "explanation": "Both points have x = 2, so count along the vertical line: 11 − 3 = 8 blocks.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "1b87d2d863f904ba"
   },
@@ -965,7 +965,7 @@
    "correct": "B",
    "explanation": "The playground is 8 units by 5 units, so the distance around is 2 × (8 + 5) = 26 units, and 26 × 10 = 260 m.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "68955feefddc6e61"
   },
@@ -986,7 +986,7 @@
    "correct": "A",
    "explanation": "A slide adds to both coordinates: (2 + 5, 4 + 3) = (7, 7).",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "1dafbc9e0698dee4"
   },
@@ -1007,7 +1007,7 @@
    "correct": "B",
    "explanation": "The length and width must add to 12, and 6 × 6 = 36 sq m beats every other pair, such as 5 × 7 = 35 sq m.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W6",
    "content_hash": "a7157e649cd08926"
   },
@@ -1028,7 +1028,7 @@
    "correct": "C",
    "explanation": "78 + 85 + 91 + 86 = 340, and 340 ÷ 4 = 85.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "9c41b09421f539aa"
   },
@@ -1049,7 +1049,7 @@
    "correct": "A",
    "explanation": "25 + 40 + 35 + 20 = 120 tickets in all.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "96d9cad3922d7d33"
   },
@@ -1070,7 +1070,7 @@
    "correct": "B",
    "explanation": "In order the values are 12, 15, 19, 22, 26, 31, so the median is the mean of the two middle values: (19 + 22) ÷ 2 = 20.5.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "ee7a27ab1ad88003"
   },
@@ -1091,7 +1091,7 @@
    "correct": "B",
    "explanation": "3 pounds is 3 × 16 = 48 ounces, and 48 + 5 = 53 ounces.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "539ffc8500a97886"
   },
@@ -1112,7 +1112,7 @@
    "correct": "D",
    "explanation": "Three of the eight sections (6, 7, and 8) are greater than 5, so the probability is 3/8.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "be5efed899239751"
   },
@@ -1133,7 +1133,7 @@
    "correct": "C",
    "explanation": "Tuesday and Thursday give 7 + 8 = 15 books, Monday and Wednesday give 4 + 3 = 7 books, and 15 − 7 = 8.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "d85ecc756e2b75f1"
   },
@@ -1154,7 +1154,7 @@
    "correct": "C",
    "explanation": "The five numbers must total 5 × 26 = 130, and 18 + 22 + 29 + 34 = 103, so the fifth number is 130 − 103 = 27.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "77df76e85f255327"
   },
@@ -1175,7 +1175,7 @@
    "correct": "B",
    "explanation": "Each quart is 4 cups, so 2 quarts is 2 × 4 = 8 cups.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "741f9f4c8d8df4b8"
   },
@@ -1196,7 +1196,7 @@
    "correct": "A",
    "explanation": "Each of the 3 sandwiches can go with any of the 4 sides and any of the 2 drinks, so there are 3 × 4 × 2 = 24 different lunch specials.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "18d71446e0a67f3d"
   },
@@ -1217,7 +1217,7 @@
    "correct": "B",
    "explanation": "The mode is 1 because it appears three times, and the students with 2, 2, 3, and 5 pets — 4 students in all — own more than 1.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "3e92e9af60c239b7"
   },
@@ -1238,7 +1238,7 @@
    "correct": "D",
    "explanation": "1:45 plus 2 hours is 3:45, and 3:45 plus 40 more minutes is 4:25 p.m.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "f8b5dbc17be5abe1"
   },
@@ -1259,7 +1259,7 @@
    "correct": "D",
    "explanation": "There are 5 + 3 + 4 = 12 counters and 9 of them are not yellow, and 9/12 simplifies to 3/4.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "c7f3d9f18759c9bd"
   },
@@ -1280,7 +1280,7 @@
    "correct": "B",
    "explanation": "Four tests averaging 88 must total 4 × 88 = 352, and 82 + 91 + 87 = 260, so he needs 352 − 260 = 92.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "f4531c880b2ad2a0"
   },
@@ -1301,7 +1301,7 @@
    "correct": "D",
    "explanation": "Ana sold 12 + 18 + 14 = 44 and Ben sold 15 + 9 + 22 = 46, so Ben sold 46 − 44 = 2 more.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "ee4f13bebe081ba2"
   },
@@ -1322,7 +1322,7 @@
    "correct": "B",
    "explanation": "Going back 1 hour from 6:05 gives 5:05, and going back 50 more minutes gives 4:15 p.m.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "3ed0128648829944"
   },
@@ -1343,7 +1343,7 @@
    "correct": "C",
    "explanation": "After one red is removed, 7 of the 14 marbles left are red, and 7/14 = 1/2.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "40a371554d4d252d"
   },
@@ -1364,7 +1364,7 @@
    "correct": "D",
    "explanation": "The total equals the mean times the number of students: 7 × 20 = 140 books.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "e616a9bd6377938a"
   },
@@ -1385,7 +1385,7 @@
    "correct": "D",
    "explanation": "3 gallons is 3 × 4 = 12 quarts, and 12 quarts is 12 × 4 = 48 cups.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "ffeb8da36211e666"
   },
@@ -1406,7 +1406,7 @@
    "correct": "B",
    "explanation": "Four full symbols stand for 4 × 6 = 24 cars and the half symbol stands for 3 more, so 24 + 3 = 27 cars.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "a018814eee6b772b"
   },
@@ -1427,7 +1427,7 @@
    "correct": "A",
    "explanation": "The blue pens are 1/4 of all the pens, so the 5 blue pens are one of four equal groups, giving 4 × 5 = 20 pens in all.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "baf1d016beef8ddb"
   },
@@ -1448,7 +1448,7 @@
    "correct": "A",
    "explanation": "0.5 meter is 50 centimeters, so the distance around is 30 + 50 + 30 + 50 = 160 centimeters.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "fb6c9f3c3ff8978e"
   },
@@ -1469,7 +1469,7 @@
    "correct": "B",
    "explanation": "The total is 30 + 45 + 0 + 60 + 45 = 180 minutes, and 180 ÷ 5 = 36 minutes per day.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "310e51a0d27b25a3"
   },
@@ -1490,7 +1490,7 @@
    "correct": "A",
    "explanation": "1/4 of 60 is 15 and 1/3 of 60 is 20, so 60 − 15 − 20 = 25 students chose swimming.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "7d6936f5ba4ea59d"
   },
@@ -1511,7 +1511,7 @@
    "correct": "C",
    "explanation": "From 9:40 a.m. to 12:40 p.m. is 3 hours, and from 12:40 p.m. to 1:15 p.m. is 35 more minutes, for 3 hours 35 minutes.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W7",
    "content_hash": "22676d8954265c8b"
   },
@@ -1532,7 +1532,7 @@
    "correct": "D",
    "explanation": "Divide both sides by 7: x = 91 ÷ 7 = 13.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "4c0f21e7c7a895f0"
   },
@@ -1553,7 +1553,7 @@
    "correct": "D",
    "explanation": "Moving 9 units to the right means adding: −4 + 9 = 5.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "ce34c50d31c81fc1"
   },
@@ -1574,7 +1574,7 @@
    "correct": "A",
    "explanation": "Add 8 to both sides to get 5n = 55, then divide by 5 to get n = 11.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "8d4d2de7f6285e94"
   },
@@ -1595,7 +1595,7 @@
    "correct": "B",
    "explanation": "Parentheses first: 4 + 2 = 6. Then work left to right: 48 ÷ 6 = 8 and 8 × 3 = 24.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "96927c4c3feccbfb"
   },
@@ -1616,7 +1616,7 @@
    "correct": "D",
    "explanation": "3a = 3 × 6 = 18 and 2b = 2 × 4 = 8, so 3a − 2b = 18 − 8 = 10.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "858d9254f32793bb"
   },
@@ -1637,7 +1637,7 @@
    "correct": "D",
    "explanation": "12 is a multiple of 4 because 4 × 3 = 12, and it is a factor of 48 because 48 ÷ 12 = 4.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "0c922f0ccf702fdb"
   },
@@ -1658,7 +1658,7 @@
    "correct": "C",
    "explanation": "Subtract 4 from both sides to get n ÷ 6 = 7, then multiply both sides by 6 to get n = 42.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "a725f6c0197cae66"
   },
@@ -1679,7 +1679,7 @@
    "correct": "C",
    "explanation": "Parentheses first: 12 − 8 = 4. Then 3 × 4 = 12 and 12 ÷ 2 = 6, so 5 + 6 = 11.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "96c9da5412aff07b"
   },
@@ -1700,7 +1700,7 @@
    "correct": "D",
    "explanation": "“Seven less than n” means start with n and subtract 7, so the equation is n − 7 = 23.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "f60830cc4cfa2862"
   },
@@ -1721,7 +1721,7 @@
    "correct": "B",
    "explanation": "On a number line −8 is farthest to the left, then −3, then 0, then 2.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "ec921b2f668f401d"
   },
@@ -1742,7 +1742,7 @@
    "correct": "C",
    "explanation": "The second term is 4 × 3 − 2 = 10, and the third term is 10 × 3 − 2 = 28.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "dd13fa46fe918c08"
   },
@@ -1763,7 +1763,7 @@
    "correct": "A",
    "explanation": "Divide both sides by 4 to get n + 3 = 8, so n = 8 − 3 = 5.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "9d3c47dec43546e0"
   },
@@ -1784,7 +1784,7 @@
    "correct": "D",
    "explanation": "Subtract the flat fee: 23 − 3 = 20 dollars for the miles, and 20 ÷ 2 = 10 miles.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "c01f1df66bb829c1"
   },
@@ -1805,7 +1805,7 @@
    "correct": "C",
    "explanation": "60% of 25 is 15 students who ride, so 25 − 15 = 10 students do not.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "a7ba3799bffb9312"
   },
@@ -1826,7 +1826,7 @@
    "correct": "B",
    "explanation": "2/5 of 120 is 48 pages and 1/3 of 120 is 40 pages, so 120 − 48 − 40 = 32 pages are left.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "c248c40a37250024"
   },
@@ -1847,7 +1847,7 @@
    "correct": "A",
    "explanation": "The path is 12 − 2 = 10 units long, so the bench sits 5 units past the fountain at x = 2 + 5 = 7, and every point of the path has y = 5.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "d15663d3d7f32776"
   },
@@ -1868,7 +1868,7 @@
    "correct": "C",
    "explanation": "Parentheses first: 14 − 6 = 8. Then 3 × 8 = 24 and 20 ÷ 4 = 5, so 24 + 5 = 29.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "9ee902e32b130f27"
   },
@@ -1889,7 +1889,7 @@
    "correct": "C",
    "explanation": "The rectangle's area is 9 × 4 = 36 square feet, and 6 × 6 = 36, so each side of the square rug is 6 feet.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "6e93e52339585d75"
   },
@@ -1910,7 +1910,7 @@
    "correct": "D",
    "explanation": "The mean is (12 + 20 + 8 + 15 + 15) ÷ 5 = 70 ÷ 5 = 14, and the median of 8, 12, 15, 15, 20 is 15, so the median is greater by 1.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "ea02b294854919e5"
   },
@@ -1931,7 +1931,7 @@
    "correct": "D",
    "explanation": "12 × 15 = 180 stickers are handed out, and 187 − 180 = 7 stickers are left over.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "4a2f041ee6baab73"
   },
@@ -1952,7 +1952,7 @@
    "correct": "B",
    "explanation": "The three angles total 180°, so the two equal angles share 180 − 90 = 90°, and 90 ÷ 2 = 45° each.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "ee181e89df1e305f"
   },
@@ -1973,7 +1973,7 @@
    "correct": "B",
    "explanation": "Because 36 ÷ 4 = 9, we get 3.6 ÷ 4 = 0.9 liter in each bottle, and 0.9 × 4 = 3.6 checks it.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "0c4189fa43502bd7"
   },
@@ -1994,7 +1994,7 @@
    "correct": "A",
    "explanation": "The box holds 5 × 4 × 3 = 60 cubes, and 60 − 45 = 15 cubes are still in it.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "8bfcd6eec014c25d"
   },
@@ -2015,7 +2015,7 @@
    "correct": "A",
    "explanation": "Two of the six letters in PENCIL are vowels, so the probability is 2/6, which simplifies to 1/3.",
    "misconceptions": "",
-   "source": "Original content authored for Sheila ISEE",
+   "source": "Original content authored for this ISEE programme",
    "form": "W8",
    "content_hash": "761b243a8d70478a"
   }

@@ -31,10 +31,9 @@ is multi-tenant by isolation, exactly like `zhangqi444/volunteer` and
 `zhangqi444/isee`: every author is their own tenant and there is no shared
 backend, no server and no database.
 
-This deployment is also the home of **Sheila's** blog (9, "Thoughts, stories and
-ideas"), whose 135 posts came from her earlier site at
-[sheilazhang.org](https://sheilazhang.org) via `site/import_ghost.py` and are
-committed here. That committed content is what visitors see until `blogId` in
+This deployment is also the home of the child's blog (9, "Thoughts, stories and
+ideas"), whose 135 posts came from her earlier site via `site/import_ghost.py`
+and are committed here. That committed content is what visitors see until `blogId` in
 `content/site.json` names a published Drive blog to read instead.
 
 There are no comments and no analytics.
@@ -222,9 +221,11 @@ The suite must pass before a commit.
 
 ## Content rules
 
-- **Never invent a fact about Sheila.** The posts and pictures committed here
-  are hers, imported from her earlier site; the About page is the one place with
-  prose about her, and it is not to be extended with made-up biography.
+- **Never invent a fact about the child.** The posts and pictures committed
+  here are hers, imported from her earlier site; the About page is the one place
+  with prose about her, and it is not to be extended with made-up biography.
+- **Her name does not appear anywhere.** Not in the site, the practice content,
+  the docs or a commit message. The owner asked for that directly.
 - Written by and for a nine-year-old and the parent reading with her: short,
   concrete, no hype, no exclamation marks.
 - Every picture has an `alt` text.

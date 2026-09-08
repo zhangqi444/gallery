@@ -3,7 +3,7 @@
 
 Run once when moving the writing over from Ghost:
 
-    python3 site/import_ghost.py path/to/sheilazhang.ghost.YYYY-MM-DD.json \\
+    python3 site/import_ghost.py path/to/blog.ghost.YYYY-MM-DD.json \\
         --images path/to/unzipped/content/images
 
 The export from Ghost's Settings -> Migration -> Export content carries the
