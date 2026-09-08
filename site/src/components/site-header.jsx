@@ -47,7 +47,7 @@ export function SiteHeader({ route }) {
           {DRIVE_ENABLED && (
             <Button variant="ghost" size="icon" asChild
               aria-label="Open The Little Me" data-testid="studio-link-header">
-              <a href={href("/me/gallery")}><PenLineIcon /></a>
+              <a href={href("/me")}><PenLineIcon /></a>
             </Button>
           )}
           <Button variant="ghost" size="icon" aria-label={dark ? "Switch to light theme" : "Switch to dark theme"} data-testid="theme-toggle" onClick={toggleTheme}>

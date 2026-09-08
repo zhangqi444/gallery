@@ -44,6 +44,13 @@ jobs:
 
       - name: Install and build (Vite + React + Tailwind)
         working-directory: site
+        # Set these two as repository variables (Settings -> Secrets and
+        # variables -> Actions -> Variables) to turn sign-in on. Both are public
+        # values that ship in the page; with neither set the site builds without
+        # sign-in and serves the committed content.
+        env:
+          OAUTH_CLIENT_ID: ${{ vars.OAUTH_CLIENT_ID }}
+          GOOGLE_API_KEY: ${{ vars.GOOGLE_API_KEY }}
         run: |
           npm ci
           npm run build

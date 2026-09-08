@@ -99,23 +99,45 @@ date as its heading.
 
 ## Setting up Google
 
-Sign-in is off until `site/google.json` has real values; without them the site
-just shows the content committed here. Both values are public and belong in the
-page — the client id names the OAuth app, and the browser API key only reads
-files their owners have already shared. Neither is a secret, but restrict the key
-to this site by HTTP referrer.
+Sign-in is off until the build has a Google client id; without one the site just
+shows the content committed here, and **The Little Me** cannot be reached at all.
+Both values below are public and belong in the page — the client id names the
+OAuth app, and the browser API key only reads files their owners have already
+shared. Neither is a secret, but restrict the key to this site by HTTP referrer.
 
 1. In the Google Cloud console create a project, then an **OAuth client ID** of
-   type *Web application*. Add this site's origin to *Authorised JavaScript
-   origins*. The only scope used is `drive.file`, which is non-sensitive, so
+   type *Web application*. Under *Authorised JavaScript origins* add every
+   address the app is served from:
+
+       https://gallery.sheilazhang.org
+       https://zhangqi444.github.io
+       http://localhost:5173          (only for `npm run dev`)
+
+   No redirect URIs are needed: sign-in is a popup token request, not a
+   redirect. The only scope used is `drive.file`, which is non-sensitive, so
    there is no verification review and no warning screen.
 2. Create an **API key** in the same project and enable the **Google Drive API**.
-   Restrict the key by HTTP referrer to this site, and by API to Drive.
-3. Put both in `site/google.json`:
+   Restrict the key by HTTP referrer to those origins, and by API to Drive.
+3. Give them to the build. Either is enough, and the environment wins:
 
-       { "client_id": "….apps.googleusercontent.com", "api_key": "…" }
+   - **For the deployed site** — GitHub → *Settings* → *Secrets and variables* →
+     *Actions* → *Variables* → **New repository variable**, twice:
 
-4. Rebuild. The header grows a pencil icon; `#/studio` is the author's page.
+         OAUTH_CLIENT_ID = ….apps.googleusercontent.com
+         GOOGLE_API_KEY  = …
+
+     Then trigger a build: push anything under `site/` or `content/`, or run
+     *Deploy site* from the Actions tab. Variables are read at build time, so a
+     change to them only takes effect on the next run.
+   - **For local development** — `site/google.json`:
+
+         { "client_id": "….apps.googleusercontent.com", "api_key": "…" }
+
+     It is committed empty on purpose, so a clone of this repository builds
+     without sign-in rather than inheriting somebody else's Google project.
+4. Reload the site. The blog's header grows a pencil that opens **The Little
+   Me** at `#/me`: sign in once, and Learning, Service and Gallery each keep
+   their own file in a folder of that Google account's Drive.
 
 To make this deployment show a published Drive blog instead of the committed
 posts, put that blog's file id in `blogId` in `content/site.json`. Any blog is

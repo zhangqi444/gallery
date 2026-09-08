@@ -11,11 +11,22 @@ const SITE = JSON.parse(fs.readFileSync(path.join(ROOT, '..', 'content', 'site.j
  * ship in a page: the client id identifies the OAuth app, and the API key only
  * reads files their owners have already shared. Neither is a secret, and the
  * key should be restricted to this site by HTTP referrer in the Cloud console.
- * With the file empty the app simply has no sign-in and reads the built-in
- * content, so the site still builds and runs for anyone cloning it. */
+ * With neither set the app simply has no sign-in and reads the built-in
+ * content, so the site still builds and runs for anyone cloning it.
+ *
+ * The environment wins over the file, so a deployment can carry its own values
+ * as repository variables and this fork's google.json can stay empty — one
+ * setting in GitHub rather than a commit, and a clone of this repo gets its own
+ * Google project rather than inheriting somebody else's by accident. */
 const GOOGLE = (() => {
-  try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'google.json'), 'utf8')) }
-  catch { return { client_id: '', api_key: '' } }
+  const file = (() => {
+    try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'google.json'), 'utf8')) }
+    catch { return {} }
+  })()
+  return {
+    client_id: process.env.OAUTH_CLIENT_ID || file.client_id || '',
+    api_key: process.env.GOOGLE_API_KEY || file.api_key || '',
+  }
 })()
 
 /** Adds the PWA manifest and the offline service worker to the page. */

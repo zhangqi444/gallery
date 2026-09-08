@@ -72,7 +72,7 @@ content/
   gallery.json             the gallery: src, alt, caption, date
 site/
   import_ghost.py          one-off: a Ghost export JSON → content/posts/*.md and content/pages/*.md
-  google.json              the Google client id and browser API key (public values; empty in the repo)
+  google.json              the Google client id and browser API key for local dev (public values; empty in the repo — the deployed site takes them from the OAUTH_CLIENT_ID and GOOGLE_API_KEY repository variables instead)
   make_bundle.py           content/** → site/public/content/bundle.json (the committed content)
   index.html               Vite entry
   vite.config.js           base './', the manifest and the service worker
