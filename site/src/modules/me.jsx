@@ -46,8 +46,13 @@ export function Me() {
       <div className="mx-auto max-w-lg text-center" data-testid="app-disabled">
         <h1 className="text-2xl font-bold tracking-tight">Sign-in is not set up</h1>
         <p className="mt-3 text-muted-foreground">
-          This copy has no Google client id, so it can only show what is committed to its repository.
-          Put a client id and API key in <code>site/google.json</code> and rebuild.
+          This copy was built without a Google client id, so it can only show what is committed to
+          its repository. The blog still works; signing in does not.
+        </p>
+        <p className="mt-2 text-sm text-muted-foreground">
+          To turn it on, set <code>OAUTH_CLIENT_ID</code> and <code>GOOGLE_API_KEY</code> as
+          repository variables and run the deploy again, or put both in <code>site/google.json</code>
+          for a local build. README.md has the steps.
         </p>
       </div>
     )
